@@ -8,7 +8,7 @@ Especial: Olhando por dentro da floresta (Série de reportagens em REACT)
 # INSTALAÇÃO DO SITE
 
 - CLONANDO O SITE DO GITHUB
-git clone https://github.com/studiocuboweb/infoamazonia-por-dentro-da-floresta.git
+git clone https://github.com/studiocuboweb/RAISG-Especial-1-A-Amazonia-saqueada.git
 
 - INSTALANDO O NPM E AS DEPENDENCIAS
 docker run -v "$PWD":/usr/src/app -w /usr/src/app node:8 yarn install
