@@ -4,10 +4,10 @@ import { FormattedMessage } from 'react-intl';
 import { media, color } from 'styles/utils';
 import { Link } from 'react-router-dom';
 
-const logos = [
-  require('images/logo_3.svg'),
-  require('images/logo_3_black.svg')
-];
+// const logos = [
+//   require('images/logo_3.svg'),
+//   require('images/logo_3_black.svg')
+// ];
 
 const Title = styled.h1`
   display: block;
@@ -76,7 +76,7 @@ class SiteTitle extends Component {
         <Title {...props}>
           <Link to="/">
             <span className="logo">
-              <img src={logos[logoIndex]} alt="Digging into the Mining Arc" />
+              {/* <img src={logos[logoIndex]} alt="Digging into the Mining Arc" /> */}
             </span>
             <span className="title-text">
               <span className="title-item title-1">

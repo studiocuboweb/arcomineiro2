@@ -8,611 +8,248 @@ import FileLink from "components/FileLink";
 import StoryMedia from "components/StoryMedia";
 import FeaturedText from "components/blocks/FeaturedText";
 import Quote from "components/blocks/Quote";
+import Note from "components/blocks/Note";
 
 export default () => (
   <article>
     <Helmet>
-      <title>
-        Mal-estar no berço da mineração de ouro da Venezuela | Explorando o Arco
-        Mineiro
-      </title>
+    <title>Territórios Indígenas | Amazônia saqueada</title>
     </Helmet>
     <Container>
-      <Title as="h2">
-        Mal-estar no berço da mineração de ouro da Venezuela
-      </Title>
-
+      <Title as="h2">Territórios Indígenas</Title>
+      <Note>
+        <p>
+          Os impactos da mineração ilegal sobre os recursos naturais, as atividades garimpeiras e o tráfego mineral geram conflitos com comunidades indígenas e ribeirinhas da Amazônia.
+        </p>
+      </Note>
       <Paragraph>
-        A Venezuela não tem um histórico de mineração elaborado como seus
-        vizinhos Colômbia e Brasil, mas, se existe um lugar no país que
-        tradicionalmente respira mineração, é El Callao. A cara da vila no
-        estado de Bolívar mudou para sempre quando o ouro foi descoberto lá em
-        1853, até se tornar o{" "}
-        <ExternalLink
-          href="https://www.britannica.com/place/El-Callao"
-          language="en"
-        >
-          principal produtor de ouro do mundo em 1885
-        </ExternalLink>. Várias companhias estrangeiras operaram minas na área,
-        mas é a Minerven, uma empresa criada em 1970 e nacionalizada quatro anos
-        depois, que explorou a maior parte do ouro proveniente de El Callao.
+        De acordo com as análises da RAISG, foram identificados <StoryMedia
+        icon="map"
+        media={{
+        id: "map-1",
+        type: "mapbox",
+          data: {
+            layerId: "",
+            sourceOptionType: "vector",
+            sourceOptionUrl: "",
+            coordinates: [-50.040,-5.767],
+            style: "mapbox://styles/infoamazonia/cjmgv2m1s2q942spqd4naf2ke",
+            sourceId: "source1",
+            layerType: "fill",
+            sourceLayer: "",
+            layoutData: {"visibility":""},
+            paintData: {"fill-color":"#ea1f1f"},
+            zoomNumber: "5",
+          }
+        }}>78 territórios indígenas que apresentam atividades de garimpo em seu limite ou em seu ambiente.</StoryMedia> A maioria desses territórios - 64 - está localizada no Peru. Com relação às terras indígenas com atividades dentro dos limites, o Brasil lidera com 18 casos entre os 37 identificados. Em relação às atividades de balsas em rios nesses territórios, a Colômbia tem a maior incidência - 30 entre os 37 casos investigados.
       </Paragraph>
-
+      <table>
+          <tbody>
+          <tr>
+            <th>Territórios Indígenas -  situação</th>
+            <th>quantidade</th>
+          </tr>
+          <tr>
+            <td>ameaça: garimpo no limite/entorno</td>
+            <td>78</td>
+          </tr>
+          <tr>
+            <td>ameaça: garimpo inativo dentro</td>
+            <td>90</td>
+          </tr>
+          <tr>
+            <td>pressão: balsas dentro/no limite</td>
+            <td>65</td>
+          </tr>
+          <tr>
+            <td>pressão: garimpo ativo dentro</td>
+            <td>37</td>
+          </tr>
+          <tr>
+            <td>TIs sem afetação direta conhecida</td>
+            <td>6,073</td>
+          </tr>
+          </tbody>
+        </table>
       <Paragraph>
-        Mineiros locais dizem que trabalhar para Minerven costumava significar
-        status e que os empregados usavam uniformes de empresa com honra, mas as
-        coisas mudaram nos últimos anos. A Minerven entrou em decadência.{" "}
-        <StoryMedia
-          media={{
-            id: "image-1",
-            type: "image",
-            data: {
-              src: require("photos/El Callao-55.jpg")
-            }
-          }}
-        >
-          As plantas de produção foram desativadas
-        </StoryMedia>{" "}
-        e os objetivos de produção anual não são alcançados, de longe. Enquanto
-        isso, muitos grupos armados começaram a tomar as minas maiores que
-        cercam a vila. Cerca de um ano atrás, o exército venezuelano aumentou
-        sua presença na área – para seu próprio ganho, muitos dizem – e, desde
-        então, não parou de lutar com gangues e matar seus membros.
+        Na Colômbia, a percepção que os povos indígenas têm do ouro é crucial para entender as posições que adotam em face da mineração. O ouro é um mineral sagrado para os povos indígenas da Amazônia colombiana , porque, de acordo com histórias tradicionais, é a representação do sol na terra e constitui a fonte da vida.
       </Paragraph>
-
       <Paragraph>
-        <StoryMedia
-          media={{
-            id: "image-2",
-            type: "image",
-            data: {
-              src: require("photos/El Callao-3.jpg")
-            }
-          }}
-        >
-          A mineração em El Callao pertence ao projeto Arco Minero
-        </StoryMedia>. Cerca de quatro empresas de capital misto afirmam fazer
-        parte dele, mas uma visita a El Callao é mais do que suficiente para
-        entender que mineração ilegal e legal vão de mãos dadas.
+        Segundo relatos coletados por Rodríguez, Carlos A & Rubiano, Sebastián. Tropenbos Internacional Colombia. (2016), <ExternalLink href="https://www.academia.edu/24382243/Entre_ilusiones_ambiciones_y_decepciones._Los_efectos_sociales_culturales_y_econ%C3%B3micos_de_la_miner%C3%ADa_aur%C3%ADfera_en_el_departamento_de_Amazonas" language="es">extrair este mineral do território é remover a fonte de sua vida.</ExternalLink> Para extrair o mineral precioso, os xamãs tiveram que pedir permissão através da cura e pagar por ele através do fumo e da coca. A extração do mineral em grandes quantidades pode causar doença ou morte para os responsáveis. A partir daí, essa mineração é vista dentro das comunidades como doença, problemas e morte.
       </Paragraph>
-
       <Paragraph>
-        Não somente a maior parte da população está envolvida direta ou
-        indiretamente na extração rudimentar de ouro, mas a mineração e a vida
-        da vila estão também estreitamente vinculadas. Onde quer que esteja em
-        El Callao, você provavelmente não terá que caminhar mais de um minuto
-        para encontrar um comerciante de ouro e encontrar uma padaria ou um
-        supermercado é uma tarefa bem mais difícil.
+        Em depoimento em março de 1990, o xamã Yanomami Davi Kopenawa revelou uma perspectiva distinta com relação à exploração do mineral. “Quando o ouro fica no frio das profundezas de terra, aí tudo está bem. Tudo está realmente bem. Ele não é perigoso. Quando os brancos tiram o ouro da terra, eles o queimam, mexem com ele em cima do fogo como se fosse farinha. Isto faz sair fumaça dele. Assim se cria a xawara que é a fumaça do ouro. Depois desta xawara wakêmi esta “epidemia fumaça”,vai se alastrando na floresta, lá onde moram os Yanomami, mas também na terra dos brancos, em todo lugar. É por isso que estamos morrendo. Por causa desta fumaça.”
       </Paragraph>
-
-      <Paragraph>
-        À noite, quando a maioria das lojas fecha e a maioria dos mineiros se
-        dedica à sua atividade favorita – beber – você verá pessoas varrendo o
-        chão em frente às{" "}
-        <StoryMedia
-          media={{
-            id: "image-3",
-            type: "image",
-            data: {
-              src: require("photos/IMG_4420.jpg")
-            }
-          }}
-        >
-          lojas de ouro
-        </StoryMedia>, não apenas para limpar, mas para encontrar ouro. Flocos
-        de ouro podem ser acidentalmente derrubados por um vendedor descuidado e
-        pequenas raspas de ouro se perdem enquanto se queima o amálgama de
-        mercúrio, que é uma atividade que se prefere fazer na frente da loja
-        para que as fumaças tóxicas de mercúrio não permaneçam nas áreas
-        internas.
-      </Paragraph>
-
-      <Paragraph>
-        Em 2017, o{" "}
-        <ExternalLink
-          href="http://desarrollominero.gob.ve/2017/motor-minero-cierra-2017-victorioso-con-la-entrega-de-85-toneladas-de-oro-al-bcv/"
-          language="es"
-        >
-          Banco Central da Venezuela (BCV) recebeu 8,5 toneladas de ouro
-        </ExternalLink>, todas da Minerven. “El Callao está sustentando a
-        Venezuela”, comenta o proprietário de uma loja de penhores de ouro na
-        praça central da vila. No entanto, de acordo com vários mineiros e
-        funcionários da Minerven entrevistados para esta reportagem, o ouro não
-        vem originalmente de Minerven, mas de minas ilegais de pequena escala.
-      </Paragraph>
-
-      <Quote author="fonte da Minerven">
-        Estamos autorizados a comprar de 17 ou 18 associações de produtores
-        artesanais de ouro, mas sabemos que eles compram de mineiros ilegais
+      <Quote author="Davi Kopenawa, líder Yanomami">
+        Quando o ouro fica no frio das profundezas de terra, aí tudo está bem. Tudo está realmente bem. Ele não é perigoso.
       </Quote>
-
       <Paragraph>
-        “Não posso afirmar que a Minerven compra de minas ilegais, porque no
-        papel não é assim”, diz uma fonte da Minerven. “Estamos autorizados a
-        comprar de 17 ou 18 associações de produtores artesanais de ouro, mas
-        sabemos que eles compram de mineiros ilegais. É assim que funciona
-        agora. Todos os dias pessoas comuns nos buscam para fazer negócios
-        conosco e se tornarem legais”.
+        Apesar de algumas crenças milenaristas sobre o ouro, a atividade de mineração ilegal permeou os territórios indígenas da Amazônia e alterou as concepções tradicionais desse mineral. Mesmo alguns jovens se distanciaram das autoridades tradicionais, recusaram os ensinamentos dos avós e conhecimentos ancestrais e deixaram as escolas para se dedicar à atividade de mineração.
       </Paragraph>
-
       <Paragraph>
-        Os mineiros explicam que apenas uma pequena parcela da produção de ouro
-        da Venezuela termina no BCV. A maior parte é contrabandeada pelo
-        exército e pelo crime organizado. “Oito mil quilos não são nada”, diz o
-        general aposentado Clíver Alcalá Cordones. “Ele vai para Aruba e
-        Curaçao”. Cerca de 80 por cento do ouro da Venezuela deixa o país
-        ilegalmente por aviões que transportam contrabando, de acordo com
-        Alcalá.
+        Deste modo, os anciãos, sábios e muitos líderes dos povos indígenas veem a influência da atividade de mineração em seus territórios como uma fonte de perigo para a integridade cultural, a gestão tradicional, o governo local sobre seus territórios e a saúde de seus povos.
       </Paragraph>
-
       <Paragraph>
-        Desde o século XIX, várias empresas internacionais da França, Reino
-        Unido e Rússia entraram na região para minerar ouro dos ricos veios que
-        não só cercam a vila, mas correm bem debaixo dela.{" "}
-        <StoryMedia
-          media={{
-            id: "image-4",
-            type: "image",
-            data: {
-              src: require("photos/El Callao-57.jpg")
-            }
-          }}
-        >
-          A vizinhança ao redor do centro lentamente se transforma em minas
-        </StoryMedia>.
-      </Paragraph>
-
-      <Paragraph>
-        Não é incomum que uma casa tenha alguns moinhos de processamento no
-        quintal próximo a vários buracos no chão.{" "}
-        <StoryMedia
-          media={{
-            id: "image-5",
-            type: "image",
-            data: {
-              src: require("photos/El Callao-22.jpg")
-            }
-          }}
-        >
-          Estes buracos
-        </StoryMedia>{" "}
-        não devem ser confundidos com um sistema ruim de esgoto – são túneis que
-        levam a várias galerias de mineração horizontais.
-      </Paragraph>
-
-      <Paragraph>
-        “Confrontos já vêm ocorrendo há dois anos porque há muitas zonas de
-        mineração aqui”, diz um mineiro local de El Callao. “As zonas de
-        mineração são grandes, são vizinhanças com mineração. Se uma comunidade
-        tem muito ouro, outra quer entrar nela. Não só para trabalhar, mas
-        também para roubar com armas em suas mãos e para se livrar das pessoas
-        que têm o ouro que querem tomar”.
-      </Paragraph>
-
-      <Paragraph>
-        <StoryMedia
-          icon="map"
-          media={{
-            id: "map-1",
-            type: "embed",
-            data: {
-              src: "https://infoamazonia.org/embed/?map_only=1&map_id=17464"
-            }
-          }}
-        >
-          As vilas se tornam minas, e as minas se tornam vilas
-        </StoryMedia>. As áreas de mineração em torno de El Callao são chamadas
-        de Colômbia, Peru e Chile, juntamente com outros nomes que foram dados
-        por empresas de mineração estrangeiras presentes no passado. No momento,
-        estas minas são trabalhadas por mineiros ilegais de pequena escala. Eles
-        operam sob pressão das gangues locais que colaboram com o exército.
-        Enquanto isso, intrusos desconhecidos que lutaram há anos sobre as minas
-        de ouro já mancharam El Callao com sangue.
-      </Paragraph>
-
-      <Paragraph>
-        “Estas gangues são chamadas de <em>bases</em> aqui no município. Antes
-        havia três gangues, agora há apenas uma [no comando]”, explica o mineiro
-        de El Callao. Ainda assim, várias áreas estão repletas de reminiscências
-        de antigas gangues. “Pequenas bases ainda estão ativas entre as
-        pessoas”. De acordo com o mineiro, os de El Perú são os mais horríveis.
-        Confrontos violentos ocorrem com frequência. Em setembro, antes da nossa
-        visita a El Perú – em um setor sob o comando de um criminoso conhecido
-        como “el Toto” –{" "}
-        <ExternalLink
-          href="http://www.eluniversal.com/noticias/sucesos/mueren-personas-durante-incursion-del-ejercito-mina-bolivar_669537"
-          language="es"
-        >
-          oito pessoas morreram
-        </ExternalLink>{" "}
-        em confronto com o exército.
-      </Paragraph>
-
-      <Paragraph>
-        Nossa caminhonete pick-up é conduzida pelo pessoal da Minerven e deixa
-        El Callao para visitar as minas, não as controladas pela Minerven, mas
-        as{" "}
-        <StoryMedia
+        Mesmo os casos que começaram há 30 anos, <StoryMedia
           media={{
             id: "galery-1",
             type: "gallery",
             data: {
               items: [
                 {
-                  src: require("photos/el-peru/El Peru_1.jpg")
+                  src: require("photos/chapter4/gallery-1/01_RogerioAssis-ISA_RS20033.jpg")
                 },
                 {
-                  src: require("photos/el-peru/El Peru_2.jpg")
+                  src: require("photos/chapter4/gallery-1/02_RogerioAssis-ISA_RS20040.jpg")
                 },
                 {
-                  src: require("photos/el-peru/El Peru_3.jpg")
+                  src: require("photos/chapter4/gallery-1/03_RogerioAssis-ISA_RS20042.jpg")
                 },
                 {
-                  src: require("photos/el-peru/El Peru_4.jpg")
+                  src: require("photos/chapter4/gallery-1/04_RogerioAssis-ISA_RS20034.jpg")
                 },
                 {
-                  src: require("photos/el-peru/El Peru_5.jpg")
+                  src: require("photos/chapter4/gallery-1/05_RogerioAssis-ISA_RS20032.jpg")
                 },
                 {
-                  src: require("photos/el-peru/El Peru_6.jpg")
+                  src: require("photos/chapter4/gallery-1/06_RogerioAssis-ISA_RS20029.jpg")
                 },
                 {
-                  src: require("photos/el-peru/El Peru_7.jpg")
+                  src: require("photos/chapter4/gallery-1/07_RogerioAssis-ISA_RS20045.jpg")
                 },
                 {
-                  src: require("photos/el-peru/El Peru_8.jpg")
+                  src: require("photos/chapter4/gallery-1/08_RogerioAssis-ISA_RS20043.jpg")
+                },
+                {
+                  src: require("photos/chapter4/gallery-1/09_RogerioAssis-ISA_RS20035.jpg")
                 }
               ]
             }
           }}
-        >
-          ilegais ao redor da vila
-        </StoryMedia>. Aqui, plantas de extração de minerais baseadas no{" "}
-        <FileLink
-          href={require("documents/GacetaOficial_40960.pdf")}
-          format="pdf"
-          size="10.5MB"
-        >
-          uso proibido de mercúrio
-        </FileLink>{" "}
-        produzem ouro para vender à empresa estatal.
+        >como as invasões de garimpeiros nos territórios Yanomami no Brasil e na Venezuela,</StoryMedia> ainda perduram e os danos à saúde e aos estilos de vida são evidentes. Hoje, estima-se que cinco mil garimpeiros atuem ilegalmente na Terra Indígena Yanomami, apenas em sua parte brasileira.
       </Paragraph>
-
       <Paragraph>
-        “Venha conosco”, grita nosso motorista a um comandante local do
-        exército, que já está nos esperando em um jipe ​​preto. Ele coloca um
-        soldado armado na parte de trás da nossa caminhonete e nos acompanha com
-        seu próprio veículo. Passamos vários pontos de controle militar antes de
-        entrar em El Perú. A área é completamente militarizada, mas o perigo vem
-        dos topos das colinas de onde as gangues podem descer para dominar as
-        minas. Este perigo à espreita tornou-se evidente após{" "}
-        <ExternalLink
-          href="http://www.eluniversal.com/noticias/sucesos/guerra-entre-bandas-sur-bolivar-dejo-seis-muertos_674893"
-          language="es"
-        >
-          seis moradores locais serem mortos
-        </ExternalLink>{" "}
-        em um tiroteio de gangues na noite seguinte à nossa visita.
+        Os relatos dos aldeões nas margens do rio Uiracoera indicam que, entre 1987 e 1989, os Yanomami conseguiram contar 2.003 balsas que trabalhavam perto da comunidade de Waikás. Com a conclusão da demarcação do território em 1991, o garimpo foi fechado. No entanto, isso começou a mudar em 2010, quando novas balsas chegaram ao rio. Os líderes tentaram impedir a retomada dos garimpos, mas os invasores se recusaram a sair argumentando que a atividade representava sua única fonte de sustento. Até o final de 2013, já havia 42 jangadas. <StoryMedia
+        media={{
+        id: "video-1",
+        type: "youtube",
+        data: {
+          id: "lC9kcGKyvBw"
+        }
+        }}>Já em 2016, um sobrevoo identifica 49 balsas.</StoryMedia>
       </Paragraph>
-
       <Paragraph>
-        “Se você se comportar bem, nada acontecerá com você”. Um mineiro, que
-        opera uma pequena usina de processamento de ouro, explica que uma
-        “vacina” – uma taxa de extorsão de quatro ou cinco gramas de ouro por
-        mês para cada usina – é paga para uma das gangues. Com uma expressão
-        calma no rosto, ele acrescenta: “Senão, você vai subir [para as colinas]
-        e eles vão ligar a motosserra”. Histórias de terror sobre valas comuns e
-        desmembramento de corpos são recorrentes. As gangues são conhecidas por
-        chegarem à vila e desaparecerem com pessoas nas colinas circundantes.
+        Essas relatos sobre a atuação na terra Yanomami esclarecem o modo de agir das atividades ilegais de mineração. No rio Uiracoera, a informação mostra que a balsa funciona em dois grupos com turnos de nove horas cada. Cada grupo tem seis pessoas durante o dia e outras seis à noite. Além desses 12, a equipe inclui um gerente e uma pessoa que cozinha.
       </Paragraph>
-
-      <FeaturedText>
-        O pessoal da Minerven diz que mais de 30 mil mineiros trabalham nas
-        veias douradas de El Callao e áreas próximas.
-      </FeaturedText>
-
       <Paragraph>
-        Muitos deles são trabalhadores migrantes que foram para a região como
-        resultado da crise e da falta de oportunidades de trabalho em outros
-        locais do país. Um destes trabalhadores{" "}
-        <StoryMedia
-          media={{
-            id: "video-1",
-            type: "youtube",
-            data: {
-              id: "6L0blKDiaS4"
-            }
-          }}
-        >
-          sai rastejando de um túnel improvisado, seguido por seu sobrinho de 15
-          anos de idade
-        </StoryMedia>. “Se eu não trabalhar nas minas, não tenho como manter
-        minha família”, diz o ex-carpinteiro.
+        O gerente fica na área com a equipe. O dono da balsa, na cidade. Poucos têm mais de uma balsa e um gerente não gerencia mais de uma. Cerca de 40% do ouro coletado pela balsa é dividido entre os trabalhadores e a maior parte para o proprietário.
       </Paragraph>
-
+      <Note>
+        <strong>A economia do garimpo</strong>
+        <br />preços em gramas de ouro
+        <p>. para subir o rio: 10g por pessoa<br />(pode pagar mais tarde, quando houver sucesso no garimpo)</p>
+        <p>. prostitutas: 3g por meia hora</p>
+        <p>. cerveja: 1 lata pequena por 20 reais ou 0,2 g</p>
+        <p>. 1 frango: 80 reais ou 0,8 g</p>
+        <p>. corte de cabelo: 0,5g</p>
+        <p>. 30 minutos de internet: 0,5g<br />(tem 10 pontos de internet na área)</p>
+      </Note>
       <Paragraph>
-        Perto dele descansa Minorca Maurera, uma mãe solteira de 23 anos que
-        trabalhava em uma padaria antes de chegar a El Callao. “O salário mínimo
-        simplesmente não é o suficiente para mim. Sou mãe solteira de três
-        filhos. Eu me demiti [da padaria] por causa do salário baixo e cheguei a
-        este lugar. É um pouco difícil, mas tenho conseguido ir muito bem. De
-        forma independente, agora posso manter meus filhos".
+        No Peru, Puerto Luz é uma das 10 comunidades da <StoryMedia
+        icon="map"
+        media={{
+        id: "map-1",
+        type: "mapbox",
+          data: {
+            layerId: "",
+            sourceOptionType: "vector",
+            sourceOptionUrl: "",
+            coordinates: [-50.040,-5.767],
+            style: "mapbox://styles/infoamazonia/cjmgv2m1s2q942spqd4naf2ke",
+            sourceId: "source1",
+            layerType: "fill",
+            sourceLayer: "",
+            layoutData: {"visibility":""},
+            paintData: {"fill-color":"#ea1f1f"},
+            zoomNumber: "5",
+          }
+        }}>Reserva Comunal Amarakaeri que sofre com a devastação da mineração de ouro indiscriminada.</StoryMedia> Seus habitantes, que somam mais de 400 pessoas, que vivem em meio a um panorama desolado. Como nas outras nove comunidades nativas da Reserva Comunal Amarakaeri, devido à presença da mineração de ouro e à falta de oportunidades, as famílias foram obrigadas a praticar a mineração artesanal. 
       </Paragraph>
-
       <Paragraph>
-        Sujos, os bairros parecidos com favelas de pequenos barracos dispersos e
-        improvisados de madeira de apenas um telhado ondulado fino são ocupados
-        por migrantes mineiros, mas também por nativos do El Callao. Mais de um
-        século e meio da extração de ouro deixou a população local tudo, menos
-        ricos, o que até faz com que até um chavista incondicional seja
-        cauteloso com o Arco Minero.
+        <ExternalLink href="https://larepublica.pe/sociedad/1177491-los-harakbuts-el-pueblo-nativo-que-la-mineria-ilegal-asfixia-en-madre-de-dios" language="es">"Não buscamos ouro para ficar rico, nós só queremos o que é necessário para os nossos filhos para estudar",</ExternalLink> diz Virginia Kirihua, 36 anos, que desde a infância tem visto, em primeiro lugar, os homens brancos, em seguida, forasteiros, tornaram-se cada vez mais ambiciosos pelos seixos brilhantes que seus ancestrais confundiam com os grãos de milho. 
       </Paragraph>
-
-      <Quote author="Darwin Lizardi, coordenador local do partido do governo">
-        Na prática, o Arco Minero tem funcionado para encobrir muitas coisas
+      <Paragraph>
+        A Reserva Comunal Amarakaeri faz parte do sistema de áreas protegidas do Peru. Procura manter os valores culturais das <StoryMedia
+        icon="map"
+        media={{
+        id: "map-2",
+        type: "mapbox",
+          data: {
+            layerId: "",
+            sourceOptionType: "vector",
+            sourceOptionUrl: "",
+            coordinates: [-50.040,-5.767],
+            style: "mapbox://styles/infoamazonia/cjmgv2m1s2q942spqd4naf2ke",
+            sourceId: "source1",
+            layerType: "fill",
+            sourceLayer: "",
+            layoutData: {"visibility":""},
+            paintData: {"fill-color":"#ea1f1f"},
+            zoomNumber: "5",
+          }
+        }}>comunidades nativas de Harakmbut,</StoryMedia> a qualidade e a quantidade de água, o equilíbrio ecológico e um ambiente adequado para o desenvolvimento das aldeias.
+      </Paragraph>
+      <Paragraph>
+        Outro caso emblemático denunciado pelas comunidades ocorre na província de Zamora Chinchipe, no Equador. É um megaprojeto de mineração a céu aberto, Mirador. Uma análise produzida em colaboração com a Amazon Conservation Team, Amazon Watch, Amazon Conservation e Ecociência  <ExternalLink href="https://maaproject.org/mirador/" language="es">demonstrou através de imagens de satélite o impacto do desmatamento entre 2009 e final de 2017, uma área de 1 307 hectares.</ExternalLink>
+      </Paragraph>
+      <Paragraph>
+        Neste caso, os danos à mineração estão relacionados a concessões. Há uma sobreposição de mineração ilegal em lugares com concessões legais de mineração. Em maio de 2018, o Ministério do Meio Ambiente suspendeu 40% das obras em Mirador devido a violações ambientais.
+      </Paragraph>
+      <Paragraph>
+        Conhecido por sua oposição à mineração, <StoryMedia
+        media={{
+          id: "image-1",
+          type: "image",
+          data: {
+            credits: "Salvador Quishpe, em foto de junho de 2015, da agência Andes",
+            src: require("photos/chapter4/24_AgenciaAndes_SalvadorQuishpe.jpg")
+          }
+        }}>Salvador Quishpe, prefeito de Zamora Chinchipe,</StoryMedia> observa que os atores da mineração ilegal "parecem combinar a mineração e outras atividades ilegais, com lavagem de dinheiro. Isso também é acompanhado por atos criminosos, isto é, perseguindo pessoas que falam no sentido de não concordar com a destruição da natureza .”
+      </Paragraph>
+      <Paragraph>
+        Quishpe aponta que “o problema é que nunca existiu planejamento, e concessões mineiras foram dadas em qualquer lugar. As pessoas da área também começaram a buscar ouro. Por isso o maior problema é a falta de determinação de que área e para quê.”<br />
+        Em sua opinião, para as comunidades, os mais relevantes são os problemas ambientais. "Nós não temos um grande problema enquanto a mineração é feita dentro de uma zona. Se a mineração é legal ou ilegal não é a questão, porque para efeitos de contaminação nós não vemos qualquer diferença, os efeitos da poluição são os mesmos."
+      </Paragraph>
+      <Quote author="Salvador Quishpe, prefeito de zona afetada no Equador">
+        Se a mineração é legal ou ilegal não é a questão, porque para efeitos de contaminação nós não vemos qualquer diferença, os efeitos da poluição são os mesmos
       </Quote>
-
       <Paragraph>
-        “Na prática, o Arco Minero tem funcionado para encobrir muitas coisas”,
-        diz Darwin Lizardi Tabor. O jovem de 28 anos é o coordenador local da
-        filial juvenil do Partido Socialista Unido da Venezuela (PSUV), o
-        partido do governo, e usava um boné vermelho da Minerven quando nos
-        encontramos. “O Arco Minero como tal não funcionou, cara. Eu te digo que
-        sou um chavista revolucionário, mas você precisa dizer as coisas como
-        elas são. Isso aqui é camuflagem. Não sei por quê. Porque, no final,
-        está nos machucando aos mineiros e à vila”.
+        Em relação à mineração ilegal, Quishpe dá ênfase especial ao <StoryMedia
+        media={{
+          id: "image-2",
+          type: "image",
+          data: {
+            credits: "",
+            src: require("photos/chapter4/26_Chinapintza_ImgSateliteSentinel2B_20181024.jpg")
+          }
+        }}>setor Chinapintza (província de Zamora Chinchipe):</StoryMedia> "outro exemplo de mineração ilegal poderia ser Chinapintza, que também está dentro de uma área designada para mineração de acordo com nosso planejamento provincial. É ilegal, as pessoas não têm os títulos, outros têm, outros não têm, a maioria não tem, mas a contaminação é a mesma."
       </Paragraph>
-
       <Paragraph>
-        Lizardi é um nativo orgulhoso de El Callao, mas os tempos mudaram. Ele
-        explica que sua mãe cresceu em tempos mais tranquilos. “Era quando você
-        podia deixar a porta da sua casa aberta a noite toda, ninguém entrava”.
-        A mãe de Lizardi, de 66 anos, agora considera deixar o lugar que ambos
-        carregam no coração.
+        No Equador, em virtude da reforma da Lei de Minas em 2009, e de acordo com o tamanho da exploração, a mineração é dividida em mineração artesanal, pequena mineração, mineração média e mineração em grande escala, e é realizada sob duas modalidades: mineração de metálica e mineração de não metálico A mineração que vem se desenvolvendo no Equador responde a atividades artesanais e de pequena escala, principalmente na região sul.
       </Paragraph>
-
       <Paragraph>
-        A violência e a pobreza fazem de El Callao um lugar difícil para se
-        viver. “O mineiro ainda é o cara sujo que caminha na rua. Ele ganha 300
-        mil bolívares, bebe uma cerveja e, no dia seguinte, não tem nada e
-        precisa encontrar{" "}
-        <StoryMedia
-          media={{
-            id: "image-6",
-            type: "image",
-            data: {
-              src: require("photos/IMG_4490.jpg")
-            }
-          }}
-        >
-          0,3 ou 0,4 gramas de ouro
-        </StoryMedia>{" "}
-        para levar comida de volta para sua casa. Um mineiro não viveria assim
-        se o Arco Minero realmente estivesse funcionando”.
-      </Paragraph>
-
-      <Paragraph>
-        Continuamos a falar em um bar fechado para pessoas de fora, já que
-        mineiros e álcool podem ser uma combinação muito explosiva. Lizardi pede
-        novas cervejas enquanto continua seu discurso sobre a falta de
-        infraestrutura e medicamentos do Estado, enquanto os habitantes locais
-        entregam seu ouro ao governo. "Graças ao mineiro, aquele que{" "}
-        <StoryMedia
-          media={{
-            id: "video-2",
-            type: "youtube",
-            data: {
-              id: "ogK2c9iuqZA"
-            }
-          }}
-        >
-          desce por um túnel de 100-120 metros
-        </StoryMedia>
-        , graças a este mineiro, o estado tem quatro toneladas de ouro".
-      </Paragraph>
-
-      <Paragraph>
-        O Arco Minero recebeu muitas críticas na imprensa venezuelana,
-        principalmente devido ao seu futuro impacto ambiental, envolvimento de
-        gangues e sua presença em territórios indígenas. Em outubro, o
-        Ministério da Informação do país foi ao contra-ataque e publicou um
-        artigo no qual{" "}
-        <ExternalLink
-          href="http://desarrollominero.gob.ve/2017/criminalizacion-mediatica-deforma-la-verdad-del-arco-minero-del-orinoco/"
-          language="es"
-        >
-          acusa a imprensa de criminalizar os mineiros de pequena escala
-        </ExternalLink>{" "}
-        e ignorar o fato de que 250 mil pessoas dependem direta ou indiretamente
-        do Arco Minero.
-      </Paragraph>
-
-      <FeaturedText>
-        Em El Callao, onde os mineiros começam a ganhar seu próprio dinheiro
-        ainda jovens, os benefícios do Arco Minero são difíceis de se perceber.
-      </FeaturedText>
-
-      <Paragraph>
-        “Todo o ouro seria investido em trabalhos sociais no município de El
-        Callao e agora, nem mesmo uma ambulância chegou”, explica Lizardi, que
-        diz que o governo prometeu muito ao povo de El Callao. “A Minerven já
-        tem o dinheiro do estado para comprar o ouro dos pequenos mineiros. O
-        que a Minerven faz na prática é pegar o ouro e levá-lo para o Banco
-        Central da Venezuela. Eles não estão assumindo seu papel como uma
-        empresa de mineração porque todas as suas plantas estão interrompidas”.
-      </Paragraph>
-
-      <Paragraph>
-        Ter sua renda determinada pela sorte e trabalho duro em vez de apenas
-        horas de trabalho é parte integrante da cultura mineira. “No momento,
-        ninguém recebe um salário. Você trabalha para obter o ouro e o dinheiro
-        é seu”, diz Eduardo Gutiérrez, um homem de 43 anos de idade de El Callao
-        que trabalha em uma das{" "}
-        <StoryMedia
-          icon="binoculars"
-          media={{
-            id: "vr-1",
-            type: "embed",
-            data: {
-              src: "https://roundme.com/embed/222934/625485"
-            }
-          }}
-        >
-          usinas de processamento em El Perú
-        </StoryMedia>.
-      </Paragraph>
-
-      <Paragraph>
-        Gutiérrez está satisfeito com o preço que a empresa estatal Minerven
-        paga pelo seu ouro e espera que o projeto Arco Minero lhe envie mais
-        recursos e equipamentos, mas ele ainda não possui um ambiente de
-        trabalho seguro. Gutiérrez toca{" "}
-        <StoryMedia
-          media={{
-            id: "image-7",
-            type: "image",
-            data: { src: require("photos/IMG_4489.jpg") }
-          }}
-        >
-          água misturada com mercúrio
-        </StoryMedia>{" "}
-        com as mãos nuas enquanto ele arranha uma massa de amálgama de ouro de
-        um prato. Ele então aquece o resíduo com um queimador de gás para isolar
-        o ouro, mas não faz nenhum esforço para cobrir o rosto da fumaça tóxica
-        de mercúrio.
-      </Paragraph>
-
-      <FeaturedText>
-        Vários cientistas têm alertado sobre a poluição por mercúrio em El
-        Callao, que causa{" "}
-        <FileLink
-          href={require("documents/RedAra_Contaminacion_mercurio_Guayana_Venezoelana.pdf")}
+        Também na Bolívia e Peru, recentes leis de mineração tornaram a divisão entre mineração ilegal e legal bastante confusa. A aprovação da <FileLink
+          href={require("documents/chapter4/Ley535_de_mineria_y_metalurgia-2014.pdf")}
           format="pdf"
-          size="4.0MB"
-        >
-          problemas neurológicos para os mineiros
-        </FileLink>, além de levar a casos de{" "}
-        <ExternalLink
-          href="http://www.autismoava.org/noticias/el-veneno-silencioso-de-el-callao"
-          language="es"
-        >
-          autismo em crianças pequenas
-        </ExternalLink>.
-      </FeaturedText>
-
-      <Paragraph>
-        Distúrbios neurológicos, problemas nos rins, pulmões e pele são as
-        consequências mais comuns para a saúde da contaminação por mercúrio, diz
-        Marianella Herrera, diretora do Observatório Venezuelano da Saúde em
-        Caracas. “Um problema importante é a exposição ao mercúrio para mulheres
-        grávidas nos primeiros estágios da vida. Além disso, os pesquisadores
-        ligaram a exposição aos metais pesados, como o mercúrio, ao autismo”.
+          size="680KB"
+        >Lei de Minas e Metalurgia nº 535</FileLink> desagradou os líderes indígenas da Bolívia. A principal queixa é a falta de consulta prévia dos povos indígenas. Na prática, a consulta não é mais obrigatória.
       </Paragraph>
-
       <Paragraph>
-        Um estudo realizado em várias áreas de mineração no estado de Bolívar
-        descobriu que apenas{" "}
-        <ExternalLink
-          href="http://www.spda.org.pe/wpfb-file/la-realidad-de-la-mineria-ilegal-en-paises-amazonicos-spda-pdf/"
-          language="es"
-        >
-          32 por cento das crianças tinham níveis de mercúrio abaixo do limite
-          de segurança
-        </ExternalLink>{" "}
-        em seu sangue.
-      </Paragraph>
-
-      <Quote author="Darwin Lizardi, coordenador local do partido do governo">
-        Todo o ouro que chega na Minerven é legal, no papel, mesmo que seja
-        ilegal
-      </Quote>
-
-      <Paragraph>
-        Problemas de saúde graves, sangrentas batalhas de gangues e áreas
-        controladas pelos militares. A mineração ilegal de ouro em El Callao tem
-        contribuído para circunstâncias inseguras e pouco saudáveis, mas o Arco
-        Minero tem uma participação em tudo isso. “Todo o ouro que chega na
-        Minerven é legal, no papel, mesmo que seja ilegal”, explica Lizardi.
-      </Paragraph>
-
-      <Paragraph>
-        <ExternalLink
-          language="es"
-          href="http://www.correodelcaroni.com/index.php/sucesos/violencia-minera-en-guayana/item/54451-bandas-armadas-atemorizan-a-vecinos-y-comercio-de-tumeremo-en-retaliacion-a-operativos-policiales"
-        >
-          O setor foi tomado pelas gangues e pelo exército
-        </ExternalLink>. O ouro extraído ilegalmente é comprado por empresas
-        legais de “mineração” que, na verdade, não estão extraindo o ouro, o que
-        essencialmente significa que elas funcionam como uma grande loja de
-        penhores de ouro. “Aqui em El Callao temos muito ouro, mas não temos as
-        máquinas nem os recursos necessários para realmente poder [extrair
-        tudo]”, se orgulha Darwin.
-      </Paragraph>
-
-      <Paragraph>
-        A obscura simbiose entre mineração legal e ilegal é quase óbvia. Do
-        outro lado da vila, somos levados a uma mina controlada por uma gangue
-        chamada “Nacupay”. Antes de entrar na área, somos informados para “não
-        tirar fotos de homens armados”, nem de máquinas de mineração que
-        utilizam mercúrio. Pouco antes da entrada, um outdoor diz:{" "}
-        <StoryMedia
-          media={{
-            id: "image-8",
-            type: "image",
-            data: {
-              src: require("photos/El Callao-78.jpg")
-            }
-          }}
-        >
-          MunSol – “Empresa de mineração aliada à pátria bolivariana no{" "}
-          <em>Arco Minero del Orinoco</em>”
-        </StoryMedia>. Atrás do outdoor, encontramos dezenas de mineiros
-        informais que trabalham em poços de areia ao ar livre.
-      </Paragraph>
-
-      <Paragraph>
-        Só podemos tirar fotos de{" "}
-        <StoryMedia
-          media={{
-            id: "video-5",
-            type: "youtube",
-            data: {
-              id: "HFXKNxumg4I"
-            }
-          }}
-        >
-          mineiros que trabalham com as placas de lavagem, características para
-          operações de mineração artesanal
-        </StoryMedia>. Eles não querem que mostremos nem documentemos as
-        instalações maiores. Ainda podemos fotografar os acampamentos em que
-        vivem os mineiros, ao lado dos poços de mineração cheios de água parada
-        e contaminada.
-      </Paragraph>
-
-      <Paragraph>
-        A situação em El Callao não é uma exceção. Cerca de 91 por cento do ouro
-        extraído na Venezuela é ilegal, de acordo com uma{" "}
-        <FileLink
-          href={require("documents/GIATOC-OC_Illegally-Mined-Gold-in-Latin-America.pdf")}
+        "A lei fortalece a política de expansão da mineração nas Tierras Bajas e reforça a posição das áreas de mineração em terras indígenas, parques naturais e áreas de elevado valor natural", diz <FileLink
+          href={require("documents/chapter4/RESOLUCION-CUMBRE-LEY-MINERA.pdf")}
           format="pdf"
-          size="10.8MB"
-        >
-          pesquisa da Iniciativa Global contra o Crime Organizado Transnacional
-        </FileLink>. Pequenos lotes de ouro são transformados em joias e depois
-        contrabandeados para, por exemplo, as Ilhas do Caribe. Assim como em
-        diferentes partes da Venezuela, o exército corrupto transporta lotes
-        maiores para rotas costeiras, Colômbia e Brasil.
-      </Paragraph>
-
-      <Paragraph>
-        Apenas uma pequena parcela do ouro termina nas mãos do estado. Isso
-        mostra, como Lizardi mencionou anteriormente, que o Arco Minero até
-        agora funciona como uma fachada. “Lembro-me quando o Comandante Chávez
-        falou sobre o Arco Minero [em 2011] e o estado de Bolívar deveria se
-        tornar uma potência na Venezuela. Não dependeríamos do petróleo!”, diz o
-        jovem, que ficou desiludido com o Arco Minero. “Aqui, coisas estão
-        acontecendo e o Arco Minero tem funcionado para encobrir a corrupção
-        dentro do governo”.
+          size="3.7MB"
+        >resolução aprovada pelos movimentos indígenas em 05 de junho de 2014</FileLink> na Confederação dos Povos Indígenas da Bolívia.
       </Paragraph>
     </Container>
   </article>

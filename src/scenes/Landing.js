@@ -12,7 +12,7 @@ import SiteTitle from "components/SiteTitle";
 import { Link } from "react-router-dom";
 
 const launchDate = process.env.LAUNCH_DATE;
-
+// background-image: url(${require("images/gold_.jpg")});
 const Wrapper = styled.section`
   position: fixed;
   z-index: 9999;
@@ -36,7 +36,7 @@ const Wrapper = styled.section`
     left: 0;
     bottom: 0;
     right: 0;
-    background-image: url(${require("images/gold_.jpg")});
+    
     background-size: cover;
     background-position: center;
     z-index: -1;
@@ -259,7 +259,7 @@ class Scene extends Component {
         <Top>
           <div className="partners">
             <img src={require("images/partners/infoamazonia.png")} />
-            <img src={require("images/partners/correo.png")} />
+            {/* <img src={require("images/partners/correo.png")} /> */}
           </div>
           <SiteTitle />
           <h2>

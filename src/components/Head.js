@@ -37,10 +37,10 @@ class Head extends React.Component {
         <meta name="keywords" content={keywords} />
         <link rel="canonical" href={`${url}${location.pathname}`} />
         <meta property="og:url" content={`${url}${location.pathname}`} />
-        <meta
+        {/* <meta
           property="og:image"
           content={`${url}${require("images/facebook-poster.jpg")}`}
-        />
+        /> */}
       </Helmet>
     );
   }

@@ -8,255 +8,79 @@ import Title from "components/blocks/Title";
 import Paragraph from "components/blocks/Paragraph";
 import Quote from "components/blocks/Quote";
 import FeaturedText from "components/blocks/FeaturedText";
+import Note from "components/blocks/Note";
 
 export default () => (
   <article>
     <Helmet>
-      <title>Amazonas and Western-Bolívar: in the guerrillas’ grip | Digging into the Mining Arc</title>
+      <title>Conflitos | Amazônia saqueada</title>
     </Helmet>
     <Container>
-      <Title as="h2">
-        Amazonas and Western-Bolívar: in the guerrillas’ grip
-      </Title>
+      <Title as="h2">Conflitos</Title>
+      <Note>
+        <p>
+          As crises políticas na América do Sul também contribuíram para o aprofundamento dos conflitos envolvendo comunidades e territórios indígenas.
+        </p>
+      </Note>
       <Paragraph>
-        The ones bearing the brunt of Venezuela’s mining bonanza are the{" "}
-        <StoryMedia
-          icon="map"
-          media={{
-            id: "map-1",
-            type: "embed",
-            data: {
-              src: "https://infoamazonia.org/embed/?map_only=1&map_id=17467"
-            }
-          }}
-        >
-          native communities in Amazonas and Bolívar states
-        </StoryMedia>{" "}
-        that have been usurped in both legal and illegal mining economies.
-        Colombian guerrilla groups – referred to by the locals as{" "}
-        <em>patagomas</em> (rubber feet) – are expanding their mining operations
-        in western Venezuela, and recently announced their first mining projects
-        in indigenous territories.
-      </Paragraph>
-      <Quote author="Liborio Guarulla, ex-governor of Amazonas">
-        The indigenous way of living has been affected by the presence of
-        illegal armed groups and miners
-      </Quote>
-      <Paragraph>
-        In Puerto Ayacucho, Liborio Guarulla, who governed the state of Amazonas
-        from 2001 to 2017 and a Baniva indigenous person, sits at his desk with
-        a large painting of the South American freedom fighter Simón Bolívar
-        behind his back.{" "}
         <StoryMedia
           media={{
-            id: "video-1",
-            type: "youtube",
+            id: "image-2",
+            type: "image",
             data: {
-              id: "b0MjlZWd4Tk"
+              credits: "Rogério Assis/ISA",
+              src: require("photos/chapter4/26_Chinapintza_ImgSateliteSentinel2B_20181024.jpg")
             }
-          }}
-        >
-          He explains
-        </StoryMedia>: “The indigenous way of living has been affected by the
-        presence of illegal armed groups and miners. They have been inserted in
-        mining economies”.
+          }}>Os impactos da mineração ilegal já são vistos como graves violações dos direitos humanos.</StoryMedia> A contaminação da água, a expulsão dos povos indígenas em isolamento voluntário são algumas indicações do dano ao bem comum.
       </Paragraph>
       <Paragraph>
-        The gravity of the situation becomes apparent after learning about
-        groups of indigenous slaves who have numbers tattooed on their backs or{" "}
-        <ExternalLink
-          language="en"
-          href="https://uk.reuters.com/article/us-venezuela-amazon/illegal-miners-infest-venezuelas-amazon-idUKBRE9B205S20131203"
-        >
-          shoulders in the Amazonas state
-        </ExternalLink>. “When we received the denouncement that they killed
-        some Yanomami [indigenous people], I went to the Alto Orinoco, which is
-        an extensive municipality,” says the retired major general from the
-        army, Clíver Alcalá Cordones. In 2012, the army began a three-week
-        operation after receiving a complaint that Yanomami indigenous people
-        were being killed around illegal mining projects. “I saw some Yanomami
-        that were marked.”
-      </Paragraph>
-      
-      <Paragraph>
-        Alcalá explains that various indigenous people had been branded by
-        invading Brazilian miners, called <em>garimpeiros</em>, who enslaved
-        them in the mines. “So, they can say ‘this indigenous is mine’.” Not
-        only have the indigenous people been enslaved to work, but young
-        indigenous girls have also been taken from their communities and{" "}
-        <FileLink
-          format="pdf"
-          size="0.4MB"
-          href={require("documents/AliciaMoncadaAcosta_Violencia-Mujeres-Indigenas-Mineros-Amazonia-Colombia-Venezoela.pdf")}
-        >
-          forced into prostitution
-        </FileLink>{" "}
-        in and around the mines. “The ‘beautiful’ girls cannot leave anymore,
-        they keep them there,” says Henelda Rodríguez, from the Organization for
-        Amazon Indigenous Women Waanalera. “Girls that want to escape
-        disappear.”
+        Além das agressões ambientais, há um impacto cultural e econômico na perpetuação da mineração. Não existe apenas o custo da perda de atividades das populações tradicionais, mas a própria remediação dos locais degradados.
       </Paragraph>
       <Paragraph>
-        Amazonas is not officially part of the Arco Minero, but Guarulla fears
-        it is only a matter of time before encroaching projects expand across
-        the state border. More than half of Amazonas’ lands are under
-        environmental protection, but have nevertheless been invaded by illegal
-        mining and armed men.
+        A mineração ilegal se enquadrada no contexto do conflito armado na Colômbia, uma vez que constitui uma das principais fontes de financiamento para atores armados ilegais na Amazônia. Outro mecanismo pelo qual os grupos armados ilegais estavam associados à atividade era através do pagamento de vacinas ou taxas de operação e produção que eram cobradas das mineradoras para que pudessem desenvolver suas atividades.
       </Paragraph>
       <Paragraph>
-        About 25 percent of Venezuela’s lands belong to indigenous populations.
-        The{" "}
-        <FileLink
-          format="pdf"
-          size="0.3MB"
-          href={require("documents/PROVEA_Derechos-Pueblos-Indigenas_2016.pdf")}
-        >
-          Arco Minero is inhabited by 198 indigenous communities
-        </FileLink>, but most ancestral lands are neither recognized by legal
-        boundaries nor given protection. The constitution has required legal
-        protection of indigenous lands since 1999, but only{" "}
-        <FileLink
-          format="pdf"
-          size="0.4MB"
-          href={require("documents/PROVEA_Derechos-Pueblos-Indigenas_2014.pdf")}
-        >
-          12.4 percent of their territories have been demarcated
-        </FileLink>.
+        Em 2013, na Colômbia, a Polícia Nacional revelou que mais de metade dos municípios onde o ouro era extraído no país teve a presença de grupos armados ilegais, principalmente em zonas estratégicas de fronteira, devido ao difícil acesso e à presença precária de instituições do Estado na área.
       </Paragraph>
       <Paragraph>
-        Indigenous communities that find themselves in the way of prospective
-        mining projects, a sector branded as one of the motors of the national
-        economy, are now an inconvenient obstacle—or worse, cheap labour.
-      </Paragraph>
-      <Quote author="Liborio Guarulla, ex-governor of Amazonas">
-        Practically, it's the guerrilla who exercises control here. The
-        guerrilla with the help of the Venezuelan armed forces. They receive
-        part of the share.
-      </Quote>
-      <Paragraph>
-        Guarulla argues that his state has been overrun: “Practically, it's the
-        guerrilla who exercises control here. The guerrilla with the help of the
-        Venezuelan armed forces. They receive part of the share.” According to
-        the former governor, the guerrilla forces buy off the army to act as an
-        authority that controls mining operations “so that they can function in
-        the zone.”
+        De acordo com uma reportagem do jornal El Tiempo de junho de 2018, na qual são mencionados cálculos do Ministério da Defesa, "<ExternalLink href="https://www.eltiempo.com/justicia/conflicto-y-narcotrafico/mineria-ilegal-y-cultivos-de-coca-coinciden-en-74-municipios-233006" language="es">em apenas três anos, a Colômbia deixou de ter 78.939 hectares - uma área equivalente a duas vezes o tamanho de Medellín - de ecossistemas devastados pela mineração ilegal de ouro para 83.620 hectares afetados</ExternalLink>, esse crescimento, equivalente a seis por cento, significa que, apesar das advertências, esse fenômeno criminoso e predatório continua a se expandir. Além disso, as medições mostram que dos 131 municípios onde há exploração de ouro de aluvião, pelo menos em 74 também há plantações de coca."
       </Paragraph>
       <Paragraph>
-        The Amazonas state shares an extensive frontier with Colombia on the
-        west and connects with Bolívar state on the east. According to Guarulla,
-        there are about 4 to 4.5 thousand Colombian guerrillas present in
-        Amazonas. Most of them belong to the National Liberation Army (ELN) or
-        to Armed Revolutionary Forces of Colombia (FARC) dissident groups.
-        Indigenous organizations think the number could be much higher.
+        Na Venezuela, a presença de grupos armados irregulares da Colômbia, ligados ao ELN e ao braço dissidente das FARC, é um segredo aberto. Ela envolveu-se em diferentes incidentes violentos em áreas de mineração, especialmente no estado de Bolívar, assim como atacam e matam militares da Venezuela em áreas de fronteira do estado do Amazonas, nas proximidades de Puerto Ayacucho, a capital.
       </Paragraph>
       <Paragraph>
-        When the FARC was still at arms, the ELN was Colombia’s second largest
-        guerrilla group, and now finds itself{" "}
-        <ExternalLink
-          language="es"
-          href="http://www.altocomisionadoparalapaz.gov.co/dialagos-eln/Paginas/Noticias/octubre/Titulares.aspx"
-        >
-          negotiating a peace
-        </ExternalLink>{" "}
-        deal with the Colombian government in Ecuador. Meanwhile, FARC has
-        increased its presence in Venezuela. Here the Colombian guerrillas have
-        been welcomed for over a decade. From 2002 on,{" "}
-        <FileLink
-          format="pdf"
-          size="0.2MB"
-          href={require("documents/FriedrichEbertStiftung_Farc-Venezuela-Huesped-Incomodo.pdf")}
-        >
-          FARC rebels began using Venezuela
-        </FileLink>{" "}
-        as both a safe haven and a new strategic area – to move fighters,
-        weapons and kidnapping victims – as Colombia’s army stepped up efforts
-        to combat the guerrillas within its national borders.
+        A freqüência de ações de repressão do Estado à mineração ilegal aumentou e, com elas, os choques com populações que dependem da economia garimpeira. A prática comum entre os agentes ambientais é a <StoryMedia
+        media={{
+        id: "video-1",
+        type: "youtube",
+        data: {
+          id: "XhKSyM0Uk-A"
+        }
+        }}>destruição de equipamentos de extração mineral, como dragas e jangadas</StoryMedia>. O equipamento é queimado ou confiscado. Os atos encontraram resistência e, muitas vezes, atos de represália. Um caso recente que merece atenção foi a <ExternalLink href="https://www.youtube.com/watch?v=EUGSTxvaiPg" language="pt">revolta popular na cidade de Humaitá no estado do Amazonas, Brasil, onde a sede de órgãos ambientais foram queimados</ExternalLink> após a apreensão de balsas que extraem ouro no rio Madeira.
       </Paragraph>
       <Paragraph>
-        According to Alcalá, the former major general for the Venezuelan army,
-        FARC dissident groups that did not want to participate in the peace
-        process came to Venezuela. They are involved in illicit economies and
-        launder drug money through illegal mining activities involving the local
-        population. “Guerrilla forces the indigenous people to work in
-        the mines,” Alcalá explains.
+        A resistência dos mineiros ilegais no Brasil tem recebido apoio político nas esferas mais altas do poder. Um <ExternalLink href="https://www1.folha.uol.com.br/ambiente/2017/08/1914113-deputado-quer-proibir-ibama-de-destruir-bens-apreendidos.shtml" language="pt">projeto lei apresentado ao Congresso Nacional visa exatamente retardar ações de repressão dos órgão ambientais</ExternalLink>, em especial a destruição de equipamentos.  
       </Paragraph>
       <Paragraph>
-        Both the FARC, when still an active guerrilla movement, and the ELN
-        financed their operations with{" "}
-        <ExternalLink
-          language="en"
-          href="https://www.insightcrime.org/news/brief/colombia-captures-czar-of-coltan-with-farc-eln-ties/"
-        >
-          illegally mined minerals
-        </ExternalLink>, among other illicit revenue streams. The guerrillas
-        could not have chosen a better location, as the subsoil hides a variety
-        of world’s most wanted minerals, such as gold, diamonds and coltan. Even
-        uranium deposits have been reported and caught the attention of the
-        Iranian government,{" "}
-        <ExternalLink
-          language="en"
-          href="https://search.wikileaks.org/plusd/cables/09CARACAS1296_a.html"
-        >
-          although a leaked document
-        </ExternalLink>{" "}
-        downplayed the viability of its exploitation.
+        Tendência semelhante, como relatado anteriormente, foi observada na Bolívia, Equador e Peru, onde os governos atenderam a demandas dos trabalhadores envolvidos na extração irregular de ouro e flexibilizaram leis. Criou-se assim uma zona cinza entre a ilegalidade e a caracterização da mineração artesanal, que propiciou a legitimação de atividades de alto impacto em regiões de grande importância para a conservação e para a sobrevivência de povos indígenas.
       </Paragraph>
-      <Paragraph>
-        Coltan deposits are within easy reach when crossing the Venezuelan
-        border from Colombia. Coltan ore consists of two minerals, columbite and
-        tantalite — both are increasingly used in modern electronics.
-      </Paragraph>
-      <Paragraph>
-        Few countries possess deposits of coltan, but according to Roland
-        Chavasse, director of the Tantalum-Niobium International Study Centre:
-        “The{" "}
-        <StoryMedia
-          icon="map"
-          media={{
-            id: "map-2",
-            type: "embed",
-            data: {
-              src: "https://infoamazonia.org/embed/?map_only=1&map_id=17453"
-            }
-          }}
-        >
-          Guiana shield
-        </StoryMedia>{" "}
-        is known to us to be very, very rich, possibly the richest, biggest ore
-        body of coltan in the world,” he said. Yet, certified numbers on
-        Venezuela’s coltan deposits are absent.
-      </Paragraph>
-      <Paragraph>
-        Coltan’s scarcity and demand characterizes the importance of the
-        mineral. Most people the world over own modern electronic devices
-        (laptops, tablets, cell phones) that contain coltan. Moreover, tantalum
-        (the most important element of tantalite) is also used for new military
-        applications such as anti-tank systems, smart bombs, drones and robots,
-        making it a highly-prized strategic mineral.{" "}
-        <FileLink
-          format="pdf"
-          size="2.3MB"
-          href={require("documents/DepartmentDefenseUS_Strategic-Critical-Materials-2015-Stockpile-Requirements.pdf")}
-        >
-          The U.S. Department of Defence recommended stockpiling coltan in 2015
-        </FileLink>, elevating the mineral to a national security issue.
-      </Paragraph>
-      <Paragraph>
-        As far back as the 1970’s,{" "}
-        <FileLink
-          format="pdf"
-          size="2.3MB"
-          href={require("documents/TIC_Bulletin67.pdf")}
-        >
-          studies done by the Geological Survey of Venezuela and the Ministry of
-          Mines
-        </FileLink>{" "}
-        identified a vast tantalum reserve in Venezuela. One area, inhabited by
-        the Piaroa indigenous people, was investigated in 1989 and 1990 and
-        received special attention because of the attractive deposits. These
-        deposits are located in the most western point of the Bolívar state, in
-        the armpit of the Parguaza and the Orinoco river.
-      </Paragraph>
+      <Note>
+        <p>
+          "A mineração ilegal não concebe o futuro de nossos filhos. Embora possamos nos beneficiar no curto prazo, estamos destruindo o meio ambiente, nossa selva, nosso lar ", diz Agustín Ojeda, líder shiriano do estado de Bolívar, Venezuela.
+        </p>
+        <p>
+          Ele ressalta que a profunda mudança no modo de vida de seu povo e a adoção de novos hábitos prejudicaram seriamente os costumes ancestrais e, por sua vez, aumentaram os problemas de saúde. 
+        </p>
+        <Quote author="Agustín Ojeda, líder Shiriano">
+          A mineração ilegal pode nos matar. Os poços de mineração permitem a reprodução de mosquitos que trazem doenças como a malária. O efeito do mercúrio na água também não é levado a sério; não só a contamina, mas também os peixes que usamos para comer
+        </Quote>
+        <p>
+          O líder Shirian acrescenta que a maioria de sua comunidade deixou o conuco (a roça). As estações de semeadura, abate e queima não são respeitadas, por isso a colheita é quase nula. "Atualmente você pode ver um indígena comprando um casabe de um crioulo em vez de produzi-lo." 
+        </p>
+        <p>
+          O líder Shirian acrescenta que a maioria de sua comunidade deixou o conuco (a roça). As estações de semeadura, abate e queima não são respeitadas, por isso a colheita é quase nula. "Atualmente você pode ver um indígena comprando um casabe de um crioulo em vez de produzi-lo." 
+        </p>
+      </Note>
     </Container>
   </article>
 );
