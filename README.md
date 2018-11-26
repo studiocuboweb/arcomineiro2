@@ -1,4 +1,4 @@
-# infoamazonia-por-dentro-da-floresta
+# RAISG-Especial-1-A-Amazonia-saqueada
 Especial: Olhando por dentro da floresta (Série de reportagens em REACT)
 
 # PRÉ REQUISITOS
@@ -11,7 +11,7 @@ Especial: Olhando por dentro da floresta (Série de reportagens em REACT)
 git clone https://github.com/studiocuboweb/RAISG-Especial-1-A-Amazonia-saqueada.git
 
 - INSTALANDO O NPM E AS DEPENDENCIAS
-docker run -v "$PWD":/usr/src/app -w /usr/src/app node:8 yarn install
+docker run -v "$PWD":/usr/src/app -w /usr/src/app node:8 yarn install<br/>
 docker run -v "$PWD":/usr/src/app -w /usr/src/app node:8 yarn upgrade
 docker run -v "$PWD":/usr/src/app -w /usr/src/app node:8 yarn global add webpack@3.6.0
 docker run -v "$PWD":/usr/src/app -w /usr/src/app node:8 yarn add -D webpack-cli@2.0.4
