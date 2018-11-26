@@ -7,293 +7,191 @@ import Title from "components/blocks/Title";
 import Paragraph from "components/blocks/Paragraph";
 import FeaturedText from "components/blocks/FeaturedText";
 import Quote from "components/blocks/Quote";
+import Note from "components/blocks/Note";
+import FileLink from "components/FileLink";
 
 export default () => (
   <article>
     <Helmet>
-      <title>Novos visitantes no país do coltan | Explorando o Arco Mineiro</title>
+      <title>Mercúrio | Amazônia saqueada</title>
     </Helmet>
     <Container>
-      <Title as="h2">Novos visitantes no país do coltan</Title>
+      <Title as="h2">Mercúrio</Title>
+      <Note>
+        <p>
+          A grande quantidade de mercúrio usada na purificação do ouro está contaminando a Amazônia. A obtenção de ouro é o principal objetivo da mineração ilegal.
+        </p>
+      </Note>
       <Paragraph>
-        <strong>Puerto Ayacucho</strong>. São seis da manhã e o calor já é
-        familiar, mesmo antes de o sol nascer. Yonnier Rivera, o nosso motorista
-        cubano, chega na hora com sua caminhonete pick-up branca e discute a
-        logística do dia, enquanto esperamos por nossos outros dois companheiros
-        de viagem: Noraima Ángel, coordenadora de Direitos Humanos do Vicariato
-        de Puerto Ayacucho, e Pedro Ortiz, um membro indígena da Red de
-        Defensores y Defensoras indígenas, uma rede de proteção indígena
-        local.{" "}
+      <StoryMedia
+        media={{
+          id: "image-1",
+          type: "image",
+          data: {
+            credits: "",
+            src: require("photos/chapter2/04_OscarMujica-FZS_PE_Colorado.jpg")
+          }
+        }}><strong>As cicatrizes na terra, as águas turvas dos rios</strong> são danos óbvios da mineração ilegal.</StoryMedia> Mas há um mal invisível que contamina a fauna amazônica e os habitantes da região. O mercúrio, de acordo com diferentes estudos, está afetando populações indígenas e locais que vivem perto ou trabalham em áreas de mineração de ouro, bem como aqueles que consomem peixe da Amazônia como parte de sua dieta.      
+      </Paragraph>
+      <Paragraph>
+        Ninguém come tantos peixes em sua dieta quanto o povo da Amazônia.
         <StoryMedia
-          media={{
-            id: "video-1",
-            type: "youtube",
-            data: {
-              id: "QmOJt-Idd2Q"
-            }
-          }}
-        >
-          O plano é visitar duas pequenas comunidades indígenas
-        </StoryMedia>{" "}
-        chamadas Agua Mena e Tierra Blanca, no estado vizinho de Bolívar. Os
-        povos indígenas vivem na proximidade do rio Parguaza que abre caminho
-        pelo – o que aprendemos ser – o “país do coltan”.
+              media={{
+                id: "galery-1",
+                type: "gallery",
+                data: {
+                  credits: "01, 08, 09, 10, 13, 14 - CINCIA 04, 05, 06, 07, 15 - Natalie Szponar 11, 12 - Aldo Rivas",
+                  items: [
+                    {
+                      src: require("photos/chapter2/gallery-1/01_CINCIA_IMG1678.jpg")
+                    },
+                    {
+                      src: require("photos/chapter2/gallery-1/02_DSC05788.jpg")
+                    },
+                    {
+                      src: require("photos/chapter2/gallery-1/03_DSC05797.jpg")
+                    },
+                    {
+                      src: require("photos/chapter2/gallery-1/04_NatalieSzponar_DSC06069.jpg")
+                    },
+                    {
+                      src: require("photos/chapter2/gallery-1/05_NatalieSzponar_DSC06131.jpg")
+                    },
+                    {
+                      src: require("photos/chapter2/gallery-1/06_NatalieSzponar4_DSC06137.jpg")
+                    },
+                    {
+                      src: require("photos/chapter2/gallery-1/07_NatalieSzponar_DSC06141.jpg")
+                    },
+                    {
+                      src: require("photos/chapter2/gallery-1/08_CINCIA_DSCF3067.jpg")
+                    },
+                    {
+                      src: require("photos/chapter2/gallery-1/09_CINCIA_IMG_0483.jpg")
+                    },
+                    {
+                      src: require("photos/chapter2/gallery-1/10_CINCIA_IMG_3955.jpg")
+                    },
+                    {
+                      src: require("photos/chapter2/gallery-1/11_AldoRivas_IMG_4152.jpg")
+                    },
+                    {
+                      src: require("photos/chapter2/gallery-1/12_AldoRivas_IMG_4167.jpg")
+                    },
+                    {
+                      src: require("photos/chapter2/gallery-1/13_CINCIA_P1000164.jpg")
+                    },
+                    {
+                      src: require("photos/chapter2/gallery-1/14_CINCIA_P3240166.jpg")
+                    },
+                    {
+                      src: require("photos/chapter2/gallery-1/15_NatalieSzponar_PacoMaizal.jpg")
+                    }
+                  ]
+                }
+              }}
+            > Riberinhos e povos indígenas têm sua principal fonte de proteína em espécies de água doce.</StoryMedia> Mas se o peixe garante uma dieta rica e saborosa, eles também podem conter ameaças à saúde dessas populações. Estudos mostraram o acúmulo de mercúrio acima dos níveis recomendados pela Organização Mundial de Saúde em vários peixes usados ​​para consumo humano.
       </Paragraph>
       <Paragraph>
-        O Parguaza é uma das centenas de afluentes do Orinoco, o quarto rio mais
-        volumoso do mundo. A região, também chamada Parguaza, tem sido alvo de
-        projetos de mineração ilegais e legais. As terras são habitadas pelos
-        povos indígenas Piaroa e Penare, que tradicionalmente dependem da
-        agricultura e da pesca.
+        Este metal é biocumulativo em tecidos animais. Ou seja, a concentração de mercúrio será maior em peixes que se alimentam de peixes menores e seu efeito negativo sobre os seres humanos será ainda mais intenso.
       </Paragraph>
       <Paragraph>
-        Nossa jornada é interrompida várias vezes pela Guarda Nacional da
-        Venezuela. Em uma ocasião, somos obrigados a abrir nossas malas para os
-        homens armados. Carros, caminhões e ônibus que passam por esta região
-        são submetidos a verificações frequentes e são interrompidos, em algumas
-        ocasiões, a cada 20 quilômetros. Os soldados verificam pertences
-        pessoais, assentos de carro, e até mesmo o interior das portas dos
-        carros, enquanto procuram por “contrabando”.
-      </Paragraph>
-      <FeaturedText>
-        Produtos escassos, tais como alimentos, medicamentos, pneus de carro, e
-        até mesmo combustível são muitas vezes apreendidos.
-      </FeaturedText>
-      <Paragraph>
-        Estas humilhações diárias a que os venezuelanos na estrada são
-        submetidos não nos dizem muito respeito já que estamos mais preocupados
-        com a presença das guerrilhas na região. À medida que entramos estado de
-        Bolívar, deixando o Amazonas ao norte, nosso veículo faz lentamente uma
-        curva para o leste entrando região Parguaza. Enquanto dirigimos ao longo
-        de uma área chamada Los Gallitos, Ortiz, da rede de defesa local, nos
-        diz que este é o lugar de onde o ELN obtém seu coltan.
+        O mercúrio é usado na purificação do ouro. Os resíduos contaminam a água e o ar. Devolvido à natureza como metilmercúrio, este elemento causa um dano grave e altamente tóxico graças à acumulação permanente. O composto afeta o sistema nervoso central, causando problemas de perda de visão, de ordem cognitiva e motora, doença cardíaca e outras deficiências. Gestantes e crianças são as populações mais vulneráveis.
       </Paragraph>
       <Paragraph>
-        <StoryMedia
-          icon="map"
-          media={{
-            id: "map-1",
-            type: "embed",
-            data: {
-              src: "https://infoamazonia.org/embed/?map_only=1&map_id=17444"
-            }
-          }}
-        >
-          Nossa primeira parada é Tierra Blanca
-        </StoryMedia>. Esperávamos encontrar o cacique, a autoridade indígena na
-        região, mas em vez disso fomos recebidos pelo capitão de Tierra Blanca.
-        Descobrimos mais tarde que o Cacique viajou para Caracas para uma
-        reunião no Ministério de Minas.
+        No Peru, resultados preliminares de um estudo realizado pelo Centro de Inovação Científica Amazônica (CINCIA)revelam que os <FileLink
+          href={require("documents/chapter2/CINCIA-Research-Brief-2-v7.2-Mercurio-en-peces-de-pozas-mineras.pdf")}
+          format="pdf"
+          size="1.7MB"
+        >níveis de mercúrio em peixes são 43% maiores em poços abandonados pela mineração de ouro</FileLink> do que em áreas onde não há garimpo. <StoryMedia
+        media={{
+          id: "galery-1",
+          type: "gallery",
+          data: {
+            credits: "CINCIA",
+            items: [
+              {
+                src: require("photos/chapter2/gallery-2/01_CINCIA_ColetaPeixe_1.jpg")
+              },
+              {
+                src: require("photos/chapter2/gallery-2/02_CINCIA_ColetaPeixe_a.jpg")
+              },
+              {
+                src: require("photos/chapter2/gallery-2/03_CINCIA_ColetaPeixe_b.jpg")
+              },
+              {
+                src: require("photos/chapter2/gallery-2/04_CINCIA_lab01.jpg")
+              }
+            ]
+          }
+        }}>Amostras de peixes foram coletadas</StoryMedia> em sete lagoas localizadas nas áreas de mineração abandonadas em Laberinto, Tambopata, Madre de Dios e Inambari. Além disso, amostras de peixes foram coletadas em dois lagos ou lagoas marginais e um rio dentro do Parque Nacional de Manu, como uma área de referência onde não há presença de atividade de mineração. 
       </Paragraph>
       <Paragraph>
-        Recebemos poucas respostas porque o cacique não autorizou o seu capitão
-        a falar conosco.{" "}
-        <StoryMedia
-          media={{
-            id: "video-2",
-            type: "youtube",
-            data: { id: "b66GospDYoY" }
-          }}
-        >
-          Os povos indígenas nos levam para o rio Parguaza
-        </StoryMedia>. Crianças de comunidades indígenas locais alegremente se
-        jogam na água e remam uma canoa pela lento fluxo do rio. O som de golpes
-        de roupa molhada em pedras é feito pelas mulheres indígenas enquanto
-        elas as lavam nas margens do rio. Poucos homens indígenas são vistos, já
-        que caçam ou trabalham a terra longe da aldeia durante o dia. O
-        equilíbrio entre a natureza e a civilização ainda não está
-        irreversivelmente perturbado, mas novos atores entraram em cena.
-      </Paragraph>
-      <FeaturedText>
-        Pelas entrevistas com os povos indígenas da região de Parguaza
-        anteriores à nossa visita de campo, torna-se claro que a guerrilha
-        colombiana aumentou a sua presença nos territórios há cerca de três
-        anos.
-      </FeaturedText>
-      <Paragraph>
-        Na comunidade de Agua Mena, próxima e semelhante a Tierra Blanca, os
-        habitantes estão envolvidos na mineração artesanal de coltan. Pedras são
-        recolhida por um intermediário indígena, que posteriormente as vende
-        para a guerrilha. O preço é de 80 mil a 100 mil bolívares por quilo, o
-        que é menos de um dólar. É uma fração do que é oferecido em mercados
-        internacionais de coltan, mas nenhum dos indígenas entrevistados estava
-        ciente dos preços usuais para o coltan.
-      </Paragraph>
-      <Quote author="Juan López, indígena de Agua Mena">
-        Nós somos os destruidores da floresta
-      </Quote>
-      <Paragraph>
-        Os poucos dólares pagos às comunidades indígenas para abrir a terra e
-        extrair minerais por ganhos financeiros contrasta com suas crenças
-        ancestrais. “Éramos reconhecidos como protetores da selva. Isso não é o
-        que somos mais. Nós somos os destruidores da floresta”, diz Juan López,
-        um indígena que atualmente trabalha como advogado para o vicariato em
-        Puerto Ayacucho, Amazonas.
+        Na Venezuela, a pedido da Organização Indígena do Caura Kuyujani, em 2010, foi realizado um <FileLink
+          href={require("documents/chapter2/Informe_riesgo_exp_metilmercurio_Caura.pdf")}
+          format="pdf"
+          size="1.4MB"
+        >estudo para determinar o teor de mercúrio em algumas das principais espécies de peixes consumidas pelas comunidades na bacias do alto Caura.</FileLink> Todas as amostras apresentaram valores médios mais elevados do que o valor de 0,5 mg / kg, conforme permitido pela Organização Mundial da Saúde. Este é considerado um limite de segurança para usuários ocasionais, mas não para consumidores de alta frequência como as populações indígenas.
       </Paragraph>
       <Paragraph>
-        Os territórios ricos em coltan não são apenas atravessados por
-        guerrilheiros colombianos. O decreto do Arco Minero permitiu a formação
-        de novas empresas que foram apressadamente criadas e compartilham do
-        mesmo motivo que os guerrilheiros armados que operam rotas de exportação
-        para a Colômbia.
+        O mesmo aconteceu no rio Orinoco, em sua rota pelo estado do Amazonas, na fronteira com a Colômbia, onde os pesquisadores Carlos Lasso e Luis Pérez, já em 2003, descobriram que <FileLink
+          href={require("documents/chapter2/2006_Lasso_et_al_Peces_Ventuari_Venezuela_114p.pdf")}
+          format="pdf"
+          size="11.8MB"
+        >nove das 17 espécies de consumo local habitual apresentavam valores de mercúrio superiores aos indicados pela OMS como o máximo permitido.</FileLink> Consequentemente, membros de Ye'kwana das regiões do Caura, Bolívar e Uwottüja, do Orinoco e estado do Amazonas, apresentaram, entre 2009 e 2010, altas concentrações de mercúrio no cabelo. Esta situação se repete nos peixes dos rios Paragua e Caroní, segundo as investigações de 2009. Desta forma, todos os grandes rios da Amazônia venezuelana possuem peixes com altos níveis de mercúrio antes mesmo do boom massivo da extração de ouro.
       </Paragraph>
       <Paragraph>
-        No final de 2016, a Empresa Mixta Minera Ecosocialista Parguaza foi
-        criado com o objetivo inicial de produzir{" "}
-        <ExternalLink
-          language="es"
-          href="http://avn.info.ve/contenido/20-toneladas-colt%C3%A1n-al-mes-prev%C3%A9-producir-empresa-mixta-parguaza"
-        >
-          20 toneladas por mês, para ser aumentado a até 50 toneladas mensais
-        </ExternalLink>. A empresa é uma joint venture, de propriedade da
-        companhia de mineração pública Corporación Venezolana de Minería (CVM) e
-        da Corporación Faoz. A <em>joint venture</em> recebeu uma concessão de
-        10.201 hectares que contêm, além de coltan, ouro, diamantes, quartzo e
-        outros minerais. A empresa está construindo uma mina de coltan
-        localizado perto da comunidade de Agua Mena.
+        Uma das regiões mais afetadas da Amazônia é o <StoryMedia
+        icon="map"
+        media={{
+        id: "map-1",
+        type: "mapbox",
+          data: {
+            layerId: "",
+            sourceOptionType: "vector",
+            sourceOptionUrl: "",
+            coordinates: [-50.040,-5.767],
+            style: "mapbox://styles/infoamazonia/cjmgv2m1s2q942spqd4naf2ke",
+            sourceId: "source1",
+            layerType: "fill",
+            sourceLayer: "",
+            layoutData: {"visibility":""},
+            paintData: {"fill-color":"#ea1f1f"},
+            zoomNumber: "5",
+          }
+        }}>território Yanomami, que se estende entre o Brasil e a Venezuela.</StoryMedia> Há <FileLink
+        href={require("documents/chapter2/diagnostico_contaminacao_mercurio_terra_indigena_yanomami.pdf")}
+        format="pdf"
+        size="1.4MB">um estudo realizado pelo Instituto Socioambiental (ISA), em parceria com a Fundação Oswaldo Cruz (Fiocruz)</FileLink>, onde foram coletadas 239 amostras de cabelo em nove aldeias em novembro de 2014. A  prioridade foi dada aos grupos mais vulneráveis à contaminação: crianças, mulheres em idade reprodutiva e adultos com alguma história de contato direto com a atividade de extração de ouro. Também foram coletadas 35 amostras de peixes que são parte fundamental da dieta alimentar das comunidades. O estudo foi realizado nas regiões de Papiú e Waikás, onde residem os grupos étnicos Yanomami e Ye'kwana.
       </Paragraph>
       <Paragraph>
-        É quase meio-dia quando visitamos Agua Mena. Depois de falar com toda a
-        comunidade, ainda há algum tempo para nos apresentarmos no{" "}
-        <StoryMedia
-          media={{
-            id: "image-1",
-            type: "image",
-            data: {
-              src: require("photos/Paraguaza-2.jpg")
-            }
-          }}
-        >
-          portão da Empresa Mixta Minera Ecosocialista Parguaza
-        </StoryMedia>, que é protegido 24 horas por dia pela Guarda Nacional.
-        Soldados do Exército também estão presentes no terreno.
+        "O caso mais preocupante era o da comunidade Yanomami de Aracaçá, na região de Waikás, onde 92% de todas as amostras apresentaram níveis elevados de contaminação. Esta comunidade, entre todas as participantes, era a única com a presença de garimpos. Na região de Papiú, onde foram registradas as menores taxas de contaminação - 6,7% das amostras analisadas - a presença de garimpeira é menos acentuada ", disse um resumo dos <StoryMedia
+              media={{
+              id: "video-1",
+              type: "youtube",
+              data: {
+                id: "XWF1MKP7pwY"
+              }
+              }}>resultados publicado pelo ISA.</StoryMedia>
       </Paragraph>
       <Paragraph>
-        Nos apresentamos em torno das 13 horas e perguntamos sobre investimentos
-        sociais nas comunidades indígenas próximas. “Você precisa de uma
-        permissão do Ministério de Minas em Caracas para falar conosco”, nos
-        responde Luisa Herminia Alcalá Otero, a representante da empresa que nos
-        encontra e nos permite entrar no terreno da companhia.
-      </Paragraph>
-
-      <Paragraph>
-        Logo quando pensamos que seríamos expulsos aos empurrões por fazer
-        perguntas, parece que a nossa visita seria prolongada.
-      </Paragraph>
-
-      <FeaturedText>
-       A Guarda Nacional não nos permite ir embora Depois de algumas horas de
-       espera enquanto nossos documentos são inspecionados, entendemos que fomos
-       detidos.
-      </FeaturedText>
-
-      <Paragraph>
-        Já é o fim da tarde, está quase anoitecendo, mas não sabemos ainda
-        quanto tempo mais estaremos sob custódia. Os trabalhadores fazem fila
-        para pegar o ônibus que os levará de volta para suas comunidades. Antes
-        que eles possam sair, suas mochilas são verificadas pela Guarda
-        Nacional. Enquanto estamos rodeados por guardas armados, podemos
-        observar os trabalhadores vestindo roupas esfarrapadas, réplicas de
-        camisas de futebol e botas enlameadas. Muitos indígenas nos veem de
-        relance enquanto esperam para ter suas mochilas inspecionadas.
+        Na Colômbia, grande parte da atividade de mineração ocorre em áreas de fronteira. Isso significa que as bacias compartilhadas se tornam as principais rotas de contaminação por mercúrio. A área mais afetada é ao longo do rio Caquetá. Um estudo do Instituto Nacional de Saúde da Colômbia sobre o rio Apaporis revela que até 80% das populações indígenas dessa região estão contaminadas por mercúrio.
       </Paragraph>
       <Paragraph>
-        Os trabalhadores não parecem muito intimidados pelos rifles de assalto
-        da Guarda Nacional e não está claro se os homens armados estão presentes
-        para evitar que os trabalhadores roubem a empresa ou para proteger o
-        projeto contra os guerrilheiros. Um Guarda Nacional que trabalha no
-        campo de mineração comenta que há “respeito mútuo” quando se deparam com
-        a guerrilha. “Eles não mexem com a gente, e nós não mexemos com eles.”
-        Enquanto isso, somos levados para o quartel da Guarda Nacional e
-        trancados com guardas armados em frente da porta.
+        Na Bolívia, os dados do Centro de Documentación e Información Bolivia (CEDIB) <ExternalLink href="https://cedib.org/post_type_mapas/contaminacion-por-mercurio-en-la-amazonia-de-bolivia/" language="es">mostram que em 2015 as importações totais do produto químico alcançaram 35,793 quilos, 20 vezes mais do que 1.710 quilos registradas em 2010.</ExternalLink> O livro "Mercúrio na Bolívia: Linha de Base de usos, emissões e poluição "- apresentado pelos Ministérios das Relações Exteriores e do Meio Ambiente em 2016 - afirma que com 133 toneladas de mercúrio liberadas por ano, a Bolívia é o terceiro país das Américas em contaminação, 47% vem da exploração de ouro.
       </Paragraph>
-
-      <Paragraph>
-        À uma da madrugada ainda não está claro o que vai acontecer conosco
-        enquanto somos interrogados. Não estamos autorizados a fazer quaisquer
-        telefonemas, mas somos informados de que estamos sob investigação. Nossa
-        detenção foi completamente ilegal e improvisada. Não só fomos trancados
-        em uma empresa de mineração, mas nós também não tivemos o direito de
-        fazer um telefonema ou falar com um advogado. Entre outras omissões,
-        também foram interrogados por um Guarda Nacional que não tinha
-        autoridade para fazê-lo. De acordo com a Guarda Nacional, sua suspeita é
-        ou de que sejamos um espião estrangeiro, ou um infiltrado da oposição ao
-        governo.
-      </Paragraph>
-      <Paragraph>
-        Enquanto a incerteza cresce entre nós, podemos dizer a partir de
-        pequenas interações que os jovens da Guarda Nacional têm dificuldades em
-        entender a nossa detenção, mas obedecem às ordens da empresa. Às três da
-        madrugada somos ordenados a ficar prontos para o transporte. Duas
-        caminhonetes pick-up levam nós quatro, vigiada por guardas armados, para
-        Caicara del Orinoco, sete horas para além do país do coltan.
-      </Paragraph>
-      <Paragraph>
-        Surpreendentemente, somos libertados 24 horas depois de nossa detenção.
-        Dois investigadores da contrainteligência militar em Caicara del Orinoco
-        nos sujeitam a um interrogatório, mas parece não haver nenhum alarme
-        aceso. Chama a nossa atenção que a Igreja, a Embaixada da Holanda, a
-        mídia e a sociedade civil fizeram campanha para nossa libertação.
-        Surpreendidos pelo fato de que estávamos apenas apreendidos dentro de
-        uma empresa de mineração, enquanto nós só pensávamos que a guerrilha
-        poderia nos dar problemas, é difícil imaginar como a empresa estabelece
-        um bom relacionamento com seus vizinhos indígenas.
-      </Paragraph>
-      <Paragraph>
-        A Empresa Mixta Minera Ecosocialista Parguaza não é a única{" "}
-        <em>joint venture</em> que opera na área. O mesmo município, Cedeño,
-        conta com duas outras empresas recém-formadas. Oro Azul, uma{" "}
-        <em>joint venture</em> entre a CVM e a Supracal, recebeu uma concessão
-        com 8.159 hectares, e a Empresa Mixta Minera Metales del Sur, que tem
-        participação da canadense Energold.
-      </Paragraph>
-      <Paragraph>
-        Até agora, as comunidades indígenas da região receberam muitas promessas
-        das novas companhias: novas habitações, estradas, eletricidade e
-        caminhonetes pick-up. Profissionais de saúde também foram enviados para
-        as comunidades atormentadas pela malária. Vários indígenas são
-        temporariamente contratados pelo salário mínimo, o que{" "}
-        <ExternalLink
-          language="es"
-          href="http://www.finanzasdigital.com/2017/11/cendas-canasta-alimentaria-familiar-octubre-2017-se-ubico-3-918-34125-bolivares-461/"
-        >
-          não é suficiente para alimentar uma família
-        </ExternalLink>{" "}
-        na Venezuela e tem flutuado com frequência. Atualmente, ele é de cerca
-        de 350 mil bolívares, o que seria cerca de US$ 3,50 na taxa do mercado
-        negro. Eles trabalham como funcionários de segurança privada e
-        trabalhadores da construção civil, mas não possuem contratos fixos.
-      </Paragraph>
-      <FeaturedText>
-        As três empresas não têm experiência com extração de coltan e não
-        apresentaram os estudos de impacto socioambientais obrigatórios.
-      </FeaturedText>
-      <Paragraph>
-        Indígenas locais consultados dizem que nunca foram informados sobre as
-        implicações reais do projeto e foram manipulados com falsas promessas de
-        desenvolvimento e informações incorretas.
-      </Paragraph>
-      <Paragraph>
-        A entrada da guerrilha e as novas empresas em Parguaza se devem ao
-        cacique, de acordo com Franklin Quiñones, um indígena Piaroa da região
-        de 28 anos. “O cacique permitiu a entrada da guerrilha e também a
-        instalação do acampamento [da empresa].” De acordo com Quiñones e outras
-        fontes anônimas, o cacique foi comprado e uma minoria de lideranças
-        indígenas receberam empregos ou benefícios da empresa.
-      </Paragraph>
-      <Paragraph>
-        “Vocês [os líderes] são fantoches, vocês não têm a capacidade de dizer
-        isso para a empresa”, diz Quiñones, acrescentando: “Eles se focam no
-        ganho individual, são usados”.
-      </Paragraph>
-      <Paragraph>
-        O jovem indígena entende muito bem como as empresas recém-chegadas
-        aplicam estratégias para dividir e conquistar as comunidades e como os
-        atritos recém-criados causam mal-estar. “Quando você instala uma empresa
-        aqui, será o fim da nossa cultura, o fim dos nossos costumes. E, assim,
-        uma transculturalização completa. Então, há muitas comunidades
-        preocupadas que perguntam: ‘Quem vai nos ajudar?’.”
-      </Paragraph>
+      <Note>
+        <strong>Convenção de Minamata</strong>
+        <p>
+          A grave situação de contaminação por este mercúrio metálico em vários países levou à criação, pelas Nações Unidas, da <ExternalLink href="https://treaties.un.org/Pages/ViewDetails.aspx?src=IND&mtdsg_no=XXVII-17&chapter=27&clang=_en" language="en">Convenção de Minamata, em memória do desastre humano e ambiental que ocorreu na área costeira de Minamata</ExternalLink>, Japão, causada pelo consumo de peixe com altos níveis de mercúrio. O acordo entre 101 membros prevê maior controle sobre a importação, comercialização e descarte de mercúrio.  
+        </p>
+        <p>
+          Para <ExternalLink href="https://www.paginasiete.bo/sociedad/2018/9/23/importacion-de-mercurio-crecio-20-veces-194729.html" language="es">os países amazônicos que assinaram a convenção em 2013, o acordo entrou em vigor em 2017 ao superar o ponto de corte de 50 ratificações.</ExternalLink> Com exceção da Colômbia e da Venezuela, todos os outros países com território no bioma - incluindo a França - já assinaram e ratificaram a Convenção de Minamata. Além disso, todos os países do bioma estão realizando projetos de acordo com a convenção. 
+        </p>
+        <p>
+          Apesar de ainda não terem ratificado, Colômbia e a Venezuela também avançam promovendo projetos para determinar a capacidade institucional, reguladora, técnica e comercial do país, em conformidade com as obrigações da Convenção.  A Colômbia tem uma estratégia ambiciosa para eliminar o descarte irregular de mercúrio, que está incluído no plano do governo, lançado em novembro de 2018 e em vigor até 2023.
+        </p>
+      </Note>
     </Container>
   </article>
 );

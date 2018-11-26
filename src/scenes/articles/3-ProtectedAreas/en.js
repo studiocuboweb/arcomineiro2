@@ -8,282 +8,246 @@ import Title from "components/blocks/Title";
 import Paragraph from "components/blocks/Paragraph";
 import FeaturedText from "components/blocks/FeaturedText";
 import Quote from "components/blocks/Quote";
+import Note from "components/blocks/Note";
+import FullBlock from "components/blocks/Full";
 
 export default () => (
   <article>
     <Helmet>
-      <title>Gambling away the environment | Digging into the Mining Arc</title>
+      <title>Áreas Protegidas |  Amazônia saqueada</title>
     </Helmet>
     <Container>
-      <Title as="h2">Gambling away the environment</Title>
+      <Title as="h2">Áreas Protegidas</Title>
+      <Note>
+        <p>
+          Além das ameaças aos recursos hídricos e à saúde das comunidades na Amazônia, a mineração traz impactos diretos para as florestas e outros ecossistemas tropicais, como áreas úmidas e cerrados.
+        </p>
+      </Note>
+      <Paragraph>
+      <StoryMedia
+        media={{
+          id: "image-1",
+          type: "image",
+          data: {
+            credits: "",
+            src: require("photos/chapter3/09_DanielParanayba_ParqueNacionalJamanxim.jpg")
+          }
+        }}>Um</StoryMedia> estudo realizado entre 2001 e 2013 por pesquisadores Nora L. Alvarez Berrios e T Michel Aide, ambos acadêmicos da Universidade de Puerto Rico - Rio Piedras, sugere que <FileLink
+          href={require("documents/chapter3/Alvarez-Berríos_2015_Environ._Res._Lett._10_014006.pdf")}
+          format="pdf"
+          size="1.7MB"
+        >houve um aumento no desmatamento ligado à exploração de ouro nas principais áreas de floresta tropical na Amazônia.</FileLink> Além disso, as maiores áreas de extração estão localizadas em uma raio de 10 km de 31 áreas protegidas. 
+      </Paragraph>
+      <Paragraph>
+        De acordo com o trabalho, publicado em janeiro de 2015 no jornal Environmental Research Letters, houve uma aceleração da perda florestal em locais identificados como extração de ouro. Enquanto entre 2001 e 2006, o estudo indicou a perda de 377 km², entre 2007 e 2013 a perda foi de 1303 km². As três regiões identificadas com maior pressão são as florestas dos escudos das Guianas, as florestas úmidas do sudoeste amazônico e as florestas do Xingu e Tapajós no Brasil.
+      </Paragraph>
       <Paragraph>
         <StoryMedia
           media={{
-            id: "gallery-1",
+            id: "galery-1",
             type: "gallery",
             data: {
+              credits: "Alberto Blanco, Barbara Fraser, Charles Brewer Carias, Javier Mesa, Oscar Mujica/FZS, arquivo Wataniba",
               items: [
                 {
-                  src: require("photos/nacupay/El Callao-70.jpg")
+                  src: require("photos/chapter3/gallery-1/01_AlbertoBlanco_NorteSierradeLLema_EdoBolivar_LagunasYPozosDeSaqueMercurioMetilado_P4301277.jpg")
                 },
                 {
-                  src: require("photos/nacupay/El Callao-73.jpg")
+                  src: require("photos/chapter3/gallery-1/02_BarbaraFraser_PE_MadreDeDios_IMG_0209.jpg")
                 },
                 {
-                  src: require("photos/nacupay/El Callao-74.jpg")
+                  src: require("photos/chapter3/gallery-1/03_Charles_Brewer-Carias_Minas_Gran_Sabana_PNCanaima_Pemon_Edo-Bolivar.jpg")
                 },
                 {
-                  src: require("photos/nacupay/El Callao-76.jpg")
+                  src: require("photos/chapter3/gallery-1/04_DanielParanayba_FlonaAltamira_Garimpo.jpg")
                 },
                 {
-                  src: require("photos/nacupay/El Callao-77.jpg")
+                  src: require("photos/chapter3/gallery-1/05_OscarMujica-FZS_PE_LaPampa.jpg")
+                },
+                {
+                  src: require("photos/chapter3/gallery-1/06_JavierMesa_Minas_PNCanaima_EdoBolivar_MG_9204.jpg")
+                },
+                {
+                  src: require("photos/chapter3/gallery-1/07_JavierMesa_Minas_PNCanaima_MG_9193.jpg")
+                },
+                {
+                  src: require("photos/chapter3/gallery-1/08_JavierMesa_Minas_PNCanaima_MG_9195.jpg")
+                },
+                {
+                  src: require("photos/chapter3/gallery-1/09_PN Canaima_Gran Sabana_Javier Mesa_MG_6137.jpg")
+                },
+                {
+                  src: require("photos/chapter3/gallery-1/10_CharlesBrewerCarias_RioKukenamYLosTepuyesOrientals_2526.jpg")
+                },
+                {
+                  src: require("photos/chapter3/gallery-1/11_Wataniba_Yapacana2013_IMG_1832.jpg")
                 }
               ]
             }
           }}
-        >
-          Loud, vibrating sounds of generators accompany the back-breaking work
-          of the illegal miners, just a kilometre outside of the village El
-          Callao
-        </StoryMedia>. Covered in mud, they sway around in the mining pits as
-        they pan for gold, dig more holes, or use the noisy machines on the
-        edges of the mining pit to fill large sacks with quantities of the
-        gold-containing mud that will later be processed with mercury. At this
-        exact spot, there used to be a forest, but many layers of vegetation
-        have already been removed by mining.
+        >Em todos os países analisados pela RAISG, existe ​​evidência de danos a áreas naturais protegidas,</StoryMedia> desmatamento, apropriação de terras para a preservação e redução da vida selvagem em rios, florestas e outros ecossistemas naturais.
       </Paragraph>
       <Paragraph>
-        If there is one reason to not proceed with the Arco Minero it is the
-        environment, according to Edgar Yerena, a biologist of the Simón Bolívar
-        University (USB), in Caracas. “It’s a very bad idea. It’s the worst
-        idea. There is no worse use that you can think of, in my opinion, for
-        the{" "}
-        <StoryMedia
-          icon="map"
-          media={{
-            id: "map-1",
-            type: "embed",
-            data: {
-              src: "https://infoamazonia.org/embed/?map_only=1&map_id=17453"
-            }
-          }}
-        >
-          Guiana Shield
-        </StoryMedia>.”
+        De acordo com a análise da RAISG, de <StoryMedia
+        icon="map"
+        media={{
+        id: "map-1",
+        type: "mapbox",
+          data: {
+            layerId: "",
+            sourceOptionType: "vector",
+            sourceOptionUrl: "",
+            coordinates: [-50.040,-5.767],
+            style: "mapbox://styles/infoamazonia/cjmgv2m1s2q942spqd4naf2ke",
+            sourceId: "source1",
+            layerType: "fill",
+            sourceLayer: "",
+            layoutData: {"visibility":""},
+            paintData: {"fill-color":"#ea1f1f"},
+            zoomNumber: "5",
+          }
+        }}>363 áreas naturais protegidas, 64 estão diretamente afetadas e 24 têm pontos de extração ativos ou áreas dentro de seus limites</StoryMedia>. O resto sofre danos indiretos, seja em áreas de amortecimento ou nas bordas. Atividades ilegais e invasões se beneficiam da falta de investimentos e políticas públicas para o fortalecimento e o funcionamento de áreas naturais protegidas.
+      </Paragraph>
+      <table>
+          <tbody>
+          <tr>
+            <th>Áreas Protegidas -  situação</th>
+            <th>quantidade</th>
+          </tr>
+          <tr>
+            <td>ameaça: garimpo no limite/entorno</td>
+            <td>7</td>
+          </tr>
+          <tr>
+            <td>ameaça: garimpo inativo dentro</td>
+            <td>23</td>
+          </tr>
+          <tr>
+            <td>pressão: balsas dentro/no limite</td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td>pressão: garimpo ativo dentro</td>
+            <td>24</td>
+          </tr>
+          <tr>
+            <td>ANP sem afetação direta conhecida</td>
+            <td>299</td>
+          </tr>
+          </tbody>
+        </table>
+      <Paragraph>
+        Um dos casos mais significativos desta falta de controle é o <StoryMedia
+        icon="map"
+        media={{
+        id: "map-2",
+        type: "mapbox",
+          data: {
+            layerId: "",
+            sourceOptionType: "vector",
+            sourceOptionUrl: "",
+            coordinates: [-50.040,-5.767],
+            style: "mapbox://styles/infoamazonia/cjmgv2m1s2q942spqd4naf2ke",
+            sourceId: "source1",
+            layerType: "fill",
+            sourceLayer: "",
+            layoutData: {"visibility":""},
+            paintData: {"fill-color":"#ea1f1f"},
+            zoomNumber: "5",
+          }
+        }}>Parque Nacional de Yapacana, na Venezuela, nas proximidades da confluência entre os rios Orinoco e Ventuari.</StoryMedia> Criada em 1978, a área protege paisagens amazônicas do Orinoco e Cerro Yapacana. Desde a década de 1980, são conhecidas as atividades de mineração de ouro dentro do parque nacional. No entanto, a ilegalidade tornou-se clara com alianças entre os mineiros e membros dissidentes das guerrilhas colombianas.
       </Paragraph>
       <Paragraph>
-        In Venezuela, the Guiana shield completely overlaps Bolívar state and
-        also includes the states Amazonas and Delta Amacuro. The region is,
-        according to environmental experts, of utmost importance for the
-        generation of water and conservation of species, but should be avoided
-        by mining. “From the ecological viewpoint [the area] functions as a
-        different system than the rest of the country. It is very delicate
-        because the generated soils are very lixiviated, and very washed. It has
-        few nutrients, is very sandy and the environmental recuperation of any
-        impact in the Guiana Shield is very slow if not irreversible,” explains
-        Yerena.
+        Notícias recentes, publicadas na imprensa colombiana e venezuelana, revelaram as constantes incursões de guerrilheiros na busca por ouro, diamante e coltan. Fala-se da presença de até 2.000 homens dentro da área do Yapacana. <StoryMedia
+              media={{
+              id: "video-1",
+              type: "youtube",
+              data: {
+                id: "yo0rwK1g9RE"
+              }
+              }}>Uma coleção de imagens de satélite para o período 1989-2016 revela o progresso do desmatamento.</StoryMedia>
       </Paragraph>
       <Paragraph>
-        Yerena’s observations are backed up by another Venezuelan environmental
-        specialist. “The soils are very thin and when removed will be very
-        difficult to restore,” says Juan Carlos Sánchez, co-winner of the 2007
-        Nobel Peace Prize and an expert with the United Nations
-        Intergovernmental Panel on Climate Change. The laureate also warns that
-        the forests of the Guiana shield function as a habitat for endemic
-        species that will be severely impacted. There are{" "}
-        <ExternalLink
-          language="en"
-          href="http://www.worldcat.org/title/flora-of-the-venezuelan-guayana/oclc/31938617"
-        >
-          9,411 species of flora, of which 2,136 are endemic
-        </ExternalLink>.
-      </Paragraph>
-      <Paragraph>
-        There is no possible coexistence between mining and forests in the
-        Guiana Shield, says Sánchez. “<StoryMedia
-          media={{
-            id: "gallery-2",
-            type: "gallery",
-            data: {
-              credits: "Wilmer González/Correo del Caroní",
-              items: [
-                {
-                  src: require("photos/wilmer/DSC_0028.jpg")
-                },
-                {
-                  src: require("photos/wilmer/DSC_0029.jpg")
-                },
-                {
-                  src: require("photos/wilmer/DSC_0127.jpg")
-                },
-                {
-                  src: require("photos/wilmer/DSC_0128.jpg")
-                },
-                {
-                  src: require("photos/wilmer/DSC_0268.jpg")
-                },
-                {
-                  src: require("photos/wilmer/DSC_0456.jpg")
-                },
-                {
-                  src: require("photos/wilmer/DSC_0463.jpg")
-                },
-                {
-                  src: require("photos/wilmer/DSC_0489.jpg")
-                }
-              ]
-            }
-          }}
-        >
-          All lands dedicated to mining, and in particular to surface mining
-        </StoryMedia>, will be a terrain where forests are sacrificed because it
-        requires the removal of large amounts of land. This sacrifice of the
-        forests represents an irreparable loss of natural capital.”
-      </Paragraph>
-      <FeaturedText>
-        About 75 percent of the lands in Bolívar state are environmentally
-        protected, but not against the Arco Minero.
-      </FeaturedText>
-      <Paragraph>
-        These lush lands are declared as national parks, natural monuments,
-        protected zones, woodlands and forest reserves. The Canaima National
-        Park even has been recognized as a Unesco World Heritage site. All this
-        does not seem to matter. These woodlands and forest reserves will suffer
-        most from the immediate consequences of mineral extraction in the Arco
-        Minero.
-      </Paragraph>
-      <Paragraph>
-        Additionally, the impact on water sources will be severe. Bolívar state
-        basically functions as a water factory for the country and possesses the
-        eleventh largest water reserve in the world. For example, the Caroní
-        river basin generates hydropower to 65 percent of Venezuela’s territory
-        which is created in the Guri dam, Venezuela’s most important energy
-        supplier.
-      </Paragraph>
-      <Paragraph>
-        According to Yerena, “Mining damages the quality of the available water.
-        The topic of hydroelectric potential in Guiana not only depends on the
-        quantity of water, but also on the quality. It requires water with
-        little sediment,” he explains while referring to the Caroní river that
-        borders the mining region and increasingly becomes sedimented.
-      </Paragraph>
-      <Quote author="Edgar Yerena, biologist">
-        The Venezuelan state has a history of not knowing how to manage mining.
-        Why would they know how to do so now?
-      </Quote>
-      <Paragraph>
-        The environmental impact might be irreversible. Experts explains that
-        over the long term, the environmental damages might far outweigh the
-        revenues of the mining sector. Yerena adds: “The Venezuelan state has a
-        history of not knowing how to manage mining. Why would they know how to
-        do so now?”.
-      </Paragraph>
-      <Paragraph>
-        Not knowing is also a problem for environmental justice movements that
-        have little research and facts available to make an argument. “It’s
-        complicated because until now, the defence is based on the concept of
-        the project, and the form of how they are trying to implement the
-        project,” explains Yerena.
-      </Paragraph>
-      <Paragraph>
-        “But there is still no environmental strategic evaluation. This is
-        absent and should have provided public information so the academic and
-        environmental sector could properly review. Until now, we only have
-        fractionated, punctual unofficial information. There are no clear
-        mechanisms to obtain official information for persons curious to know
-        what is happening with the project.”
-      </Paragraph>
-      <FeaturedText>
-        Two undebated risks of mining are
-        <StoryMedia
-          icon="map"
-          media={{
-            id: "map-1",
-            type: "embed",
-            data: {
-              src: "https://infoamazonia.org/embed/?map_only=1&map_id=17456"
-            }
-          }}
-        >
-          deforestation
-        </StoryMedia>
-        and mercury contamination.
-      </FeaturedText>
-      <Paragraph>
-        “As I interpret it, according to Venezuela’s environmental norms, this
-        should not have happened. This is constructed on a base of illegality in
-        which the environmental evaluation study over the whole project has not
-        been conducted,” Yerena says.
-      </Paragraph>
-      <Paragraph>
-        Alexander Luzardo, the former senator who wrote the environmental
-        standards for Venezuela’s current constitution doubts that mining is
-        worth the damage when envisioning economic benefits. There was never any
-        certified proof that the country possesses amounts of gold and coltan as
-        large as it claims to have.
-      </Paragraph>
-      <Quote author="Alexander Luzardo, former senator">
-        Mining is linked to illicit businesses and financial illegal activities
-        linked to money laundering.
-      </Quote>
-      <Paragraph>
-        The professor says it might be a myth, a strategy to develop projects in
-        order to launder money. “The creation of phantom companies, without any
-        experience, without knowledge, they play the game of elevation [market
-        speculation] and money laundering,” he says. “Mining is linked to
-        illicit businesses and financial illegal activities linked to money
-        laundering.” According to him, these companies will buy and trade the
-        minerals from illegal mining, or try to speculate and sell their project
-        to the highest bidder.
-      </Paragraph>
-      <Paragraph>
-        The government’s “good news show” about monstrous mineral deposits is,
-        according to Luzardo, a misleading offer to the country. “It’s to give
-        them the hope of a lottery,” he laughs. “It’s the mining lottery. Always
-        betting on it all. ‘We’ve got the biggest reserves of the world’.” The
-        distraction from the economic and political crisis ignores more
-        important issues at stake. “It’s not about work, not about education,
-        organization nor energetic diversification and not about assuming the
-        great challenges,” he says ironically.
-      </Paragraph>
-      <Paragraph>
-        Its name, the Arco Minero, is also bothersome for Luzardo. He argues
-        that the term ‘Mining Arc’ is linguistic reductionism. “You reduce
-        everything to Arco Minero,” he explains. “Already with the name you give
-        up the territory [to mining],” arguing that an <em>
-          Arc of Biodiversity
-        </em> would be a better fit and would do more justice to the, on paper,
-        protected environmental areas.
-      </Paragraph>
-      <Paragraph>
-        There is hope though, according to Luzardo. The professor refers to a{" "}
-        <FileLink
+        Em agosto de 2016, um grupo de acadêmicos, religiosos, jornalistas e autoridades do estado do Amazonas apresentou a <FileLink
           format="pdf"
           size="0.2MB"
-          href={require("documents/AsambleaNacionalVenezuela_CancelamientoArcoMinero.pdf")}
-        >
-          decision by the Venezuelan National Assembly that cancelled the Arco
-          Minero Decree
-        </FileLink>{" "}
-        on the 14th of June 2016. “You cannot legalize an environmental crime,”
-        he grunts, but the Assembly’s decision was not recognized by Venezuela’s
-        Supreme Court that{" "}
-        <ExternalLink
-          language="es"
-          href="http://runrun.es/nacional/292903/tsj-declaro-nulas-las-sesiones-del-5-y-el-9-de-enero-de-la-asamblea-nacional.html"
-        >
-          sidelined the National Assembly
-        </ExternalLink>{" "}
-        and all its decisions already from the 11th January 2017.
+          href={require("documents/chapter3/INFORME-QUE-PRESENTAN-PERSONAS-Y-ORGANISMOS-DEL-ESTADO-AMAZONA-SOBRE-LA-CORRUPCION-MILITAR-EN-LA-ZONA-_Autoguardado_.pdf")}
+        >seguinte queixa referente às atividades em Yapacana:</FileLink>
       </Paragraph>
       <Paragraph>
-        Meanwhile, Venezuela’s political and economic crisis continues, driving
-        more desperate and unemployed Venezuelans to the mining region. They
-        continue to dig in the valuable muds of El Callao and many other areas
-        in the south of the country. For now, the political opposition against
-        the Arco Minero is left without legal weapons. Accelerated deforestation
-        and an expanding mining frontier are the undeniable consequences of the
-        crisis in the country, which seems far from over.
+        "A guerrilha é aquela que gerencia todas as minas e distribui ouro, além de ficar com a maior parte enviando-a para a Colômbia. As forças armadas estacionadas no Amazonas têm sua grande fatia. A Guarda Nacional Bolivariana, a Marinha e a Força Aérea de vez em quando vão de helicóptero para as minas para obter a sua parte. A degradação ambiental é bestial e água do Orinoco na região não serve para beber ou comer devido ao mercúrio despejado em suas águas. Quem realmente cuida de sua saúde, consome água mineral ", descreve uma das seções do relatório.
+      </Paragraph>
+      <Paragraph>
+        A ação dentro de áreas naturais protegidas também foi identificada em diversas florestas localizadas na bacia do rio Tapajós, no Brasil. <StoryMedia
+        media={{
+        id: "video-2",
+        type: "youtube",
+        data: {
+          id: "SCtFqfIp7U4"
+        }
+        }}>Em voos realizados em abril de 2017</StoryMedia>, a equipe do Instituto Socioambiental (ISA) registrou a rápida transformação dos rios Novo, Branco e Jamanxim. Em um trecho dentro da Floresta Nacional de Altamira, um garimpo de 6,5 quilômetros de extensão pode ser avistado no vídeo. Segundo informações obtidas pelos técnicos da ISA, a abertura dessas áreas de mineração ocorreu em apenas três meses.
+      </Paragraph>
+      <Paragraph>
+        O avanço dos garimpos nas áreas protegidas da bacia do Tapajós ocorreu em um momento em que o próprio governo brasileiro estava determinado a propor leis para a redução de medidas de proteção. Além disso, a destruição ocorre sem que os órgãos responsáveis, como o IBAMA e o ICMBio, consigam combatê-la. Um relatório publicado pela Intercept Brasil em junho daquele mesmo ano, revelou como <ExternalLink href="https://theintercept.com/2017/06/13/governo-esta-prestes-a-aprovar-projetos-a-favor-de-grilagem-e-outros-crimes-ambientais/" language="pt">madeireiros em aliança com garimpeiros destruíram pontes para impedir o acesso de equipes de inspeção.</ExternalLink>
+      </Paragraph>
+      <Paragraph>
+        Grande parte da mineração ilegal de ouro e coltan na Amazônia colombiana é desenvolvido em grandes bacias hidrográficas como Putumayo, Caquetá, Apaporis, Guainía e Inírida, e outros corpos d´água menores como os rios Cotuhé, Puré e o canion Tatu. Estas atividades afetam áreas de gestão especiais (terras indígenas, parques nacionais, Ramsar, Reserva Florestal) e áreas de fronteira que são de grande importância cultural e ambiental, ou desempenham um papel importante na soberania alimentar das populações locais.
+      </Paragraph>
+      <Paragraph>
+        O padrão de <StoryMedia
+        media={{
+        id: "video-3",
+        type: "youtube",
+        data: {
+          id: "Omb7-pibnTk"
+        }
+        }}>destruição ao longo dos rios também observado nas imediações da Reserva Nacional Tambopata, no departamento de Madre de Dios, Peru.</StoryMedia> O que chama a atenção, assim como nas áreas brasileiras, é a velocidade de expansão. Em apenas um semestre, ambas as margens do rio Malinowski, ao norte da reserva peruana foram tomadas de poças e lagoas para exploração.
+      </Paragraph>
+      <Paragraph>
+        O projeto MAAP, que utiliza imagens de satélite para monitorar a Amazônia Andina identificou que a <ExternalLink href="https://maaproject.org/2015/tambopat/" language="es">invasão da Reserva Nacional Tambopata pela atividade de mineração ilegal de ouro começou no final de 2015.</ExternalLink> "Em áreas de La Pampa (setor Balata), Alto Malinowski e na Reserva Nacional de Tambopata, o <ExternalLink href="http://www.actualidadambiental.pe/?p=49390" language="es">desmatamento causado pela mineração entre janeiro de 2017 e fevereiro 2018 você foi de 1 320 hectares,</ExternalLink> com 651 hectares desse total entre outubro de 2017 e fevereiro de 2018 ", informa o site Actualidad Ambiental del Perú.
+      </Paragraph>
+      <FullBlock withMargin>
+        <iframe
+          width="100%"
+          height="1400"
+          src="https://www.google.com/url?q=https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid%3Dc09a020c-ec1f-11e8-9dba-0edaf8f81e27&sa=D&ust=1543184245417000&usg=AFQjCNHAODllpnKnlXUzLkxJAoOkqHf8FQ"
+          allowFullScreen
+          frameBorder="0"
+        />
+      </FullBlock>
+      <Paragraph>
+        A situação em Madre de Dios contribuiu para que o desmatamento no Peru tenha atingindo níveis nunca registrados. De acordo com um estudo recém-lançado pelo Centro de Inovação Científica Amazônica (CINCIA), <ExternalLink href="https://news.wfu.edu/2018/11/08/rainforest-destruction-from-gold-mining-hits-all-time-high-in-peru/" language="en">em apenas cinco anos houve uma perda florestal de 170 mil hectares.</ExternalLink> Esse valor é pelo menos <ExternalLink href="https://news.wfu.edu/2018/11/08/rainforest-destruction-from-gold-mining-hits-all-time-high-in-peru/" language="en">30% maior do que o anunciado anteriormente por outro monitoramento.</ExternalLink>
+      </Paragraph>
+      <Paragraph>
+        Na Bolívia, as reservas mais prósperas de vida selvagem e carbono estão nas zonas úmidas das Tierras Bajas e Yungas. Ainda assim, <StoryMedia
+        icon="map"
+        media={{
+        id: "map-3",
+        type: "mapbox",
+          data: {
+            layerId: "",
+            sourceOptionType: "vector",
+            sourceOptionUrl: "",
+            coordinates: [-50.040,-5.767],
+            style: "mapbox://styles/infoamazonia/cjmgv2m1s2q942spqd4naf2ke",
+            sourceId: "source1",
+            layerType: "fill",
+            sourceLayer: "",
+            layoutData: {"visibility":""},
+            paintData: {"fill-color":"#ea1f1f"},
+            zoomNumber: "5",
+          }
+        }}>na área de Madidi e Pilón Lajas existem 41 operações de mineração.</StoryMedia> Apesar da ameaça óbvia causada pela mineração dentro da área protegida, essa atividade foi legalizada pelo governo. O CEDIB mostrou em uma apresentação por seu diretor Marco A Gandarillas Gonzáles que em apenas um ano, entre 2013 e 2014 mais de 194 direitos foram doados, o que equivale a mais de 100 mil hectares.
+      </Paragraph>
+      <Paragraph>
+        No documentário “Guardiões da Floresta” produzido em setembro 2016 pela Fundação Floresta Azul e Rede de Informação Ambiental (RAI), pode-se ver o <StoryMedia
+        media={{
+        id: "video-3",
+        type: "youtube",
+        data: {
+          id: "zAvUPCRPcrk"
+        }
+        }}>progresso das atividades de mineração em grande escala dentro da áreas protegidas de Madidi.</StoryMedia>
       </Paragraph>
     </Container>
   </article>

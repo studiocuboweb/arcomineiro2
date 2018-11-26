@@ -221,10 +221,10 @@ const About = ({ intl, lastPath }) => {
               />
             </strong>
             <br />
-            <img
+            {/* <img
               src={require("images/partners/pulitzer-center.png")}
               alt="Pulitzer Center"
-            />
+            /> */}
           </Paragraph>
           <Button>
             <div>
