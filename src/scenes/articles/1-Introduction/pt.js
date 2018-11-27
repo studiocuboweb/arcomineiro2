@@ -11,6 +11,7 @@ import Title from "components/blocks/Title";
 import Quote from "components/blocks/Quote";
 import FeaturedText from "components/blocks/FeaturedText";
 import Note from "components/blocks/Note";
+import EndChapter from "components/blocks/EndChapter";
 
 export default () => (
   <article>
@@ -178,15 +179,16 @@ export default () => (
         Por isso, o mapa/plataforma de mineração ilegal da RAISG está em construção, os dados serão sempre atualizados, revisados e revalidados
       </Paragraph>
       
-      <FeaturedText>
+      <EndChapter>
         <strong>Trabalhadores do Ouro</strong>
-        Segundo o{" "}<FileLink
+        <p className="pull-left">Segundo o{" "}<FileLink
           href={require("documents/chapter1/La-realidad-de-la-mineria-ilegal-en-paises-amazonicos-SPDA.pdf")}
           format="pdf"
           size="6.7MB"
-        >relatório "A realidade da mineração ilegal em países amazônicos"</FileLink>{" "}, elaborado pela Sociedade Peruana de Direito Ambiental (SPDA, 2014), cerca de 600 mil pessoas estariam naquele momento envolvidas na exploração ilegal do ouro. 
-        O aumento sustentado do preço do ouro e a evidência de mais pontos e áreas de mineração na região, indicam que nos últimos cinco anos esse número deve ter aumentado consideravelmente. 
-        <strong>Preço nas alturas</strong>
+        >relatório "A realidade da mineração ilegal em países amazônicos"</FileLink>{" "}, <i>elaborado pela Sociedade Peruana de Direito Ambiental (SPDA, 2014), cerca de 600 mil pessoas estariam naquele momento envolvidas na exploração ilegal do ouro.</i></p> 
+        <p className="pull-left"><i>O aumento sustentado do preço do ouro e a evidência de mais pontos e áreas de mineração na região, indicam que nos últimos cinco anos esse número deve ter aumentado consideravelmente. </i></p>
+        <div>Preço nas alturas</div>
+        Média anual do valor do ouro (em US$)<br/>
         <StoryMedia
           icon="map"
           media={{
@@ -195,13 +197,11 @@ export default () => (
             data: {
               src: "//datawrapper.dwcdn.net/AMEaF/1/"
             }
-          }}>Média anual do valor do ouro (em US$)</StoryMedia>{" "}
-        <Note>
-        <p>
+          }}></StoryMedia>{" "}
+        <p className="pull-right graph-description"><i>
           A presença de ouro aluvial na América do Sul torna a mineração um setor essencial na economia da região. O alto preço do ouro tornou a extração viável em áreas que antes não eram lucrativas.
-        </p>
-      </Note>
-      </FeaturedText>
+        </i></p>
+      </EndChapter>
      
     </Container>
   </article>
