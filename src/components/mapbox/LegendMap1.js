@@ -157,7 +157,7 @@ export default class StyleControls extends PureComponent {
               <a href='#' className='fa fa-window-close mapbox_legend-btn-close' onClick={this._toggleLegend.bind(this)}></a>
             </div>
             <hr />
-            { //Object.keys(layerLabels).map((name,key,label) => this._renderLayerControl(layerLabels[key],name,label)) 
+            { 
               categories.map((name) => this._renderLayerControl(name,this)) 
             }
           </div>

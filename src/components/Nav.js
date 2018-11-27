@@ -115,7 +115,7 @@ class ArticleNav extends Component {
       <Wrapper>
         <ol>
           <li>
-            <NavLink exact to="/story/introduction">
+            <NavLink exact to="/story">
               <FormattedMessage
                 id="articles.title1"
                 defaultMessage="title1" />
