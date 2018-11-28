@@ -93,17 +93,11 @@ export default () => (
         id: "map-1",
         type: "mapbox",
           data: {
-            layerId: "",
-            sourceOptionType: "vector",
-            sourceOptionUrl: "",
-            coordinates: [-50.040,-5.767],
+            coordinates: [-60.480084,-5.383769],
             style: "mapbox://styles/infoamazonia/cjmgv2m1s2q942spqd4naf2ke",
-            sourceId: "source1",
-            layerType: "fill",
-            sourceLayer: "",
-            layoutData: {"visibility":""},
-            paintData: {"fill-color":"#ea1f1f"},
-            zoomNumber: "5",
+            zoomNumber: 8,
+            zoomMin: 3,
+            zoomMax: 10
           }
         }}>363 áreas naturais protegidas, 64 estão diretamente afetadas e 24 têm pontos de extração ativos ou áreas dentro de seus limites</StoryMedia>. O resto sofre danos indiretos, seja em áreas de amortecimento ou nas bordas. Atividades ilegais e invasões se beneficiam da falta de investimentos e políticas públicas para o fortalecimento e o funcionamento de áreas naturais protegidas.
       </Paragraph>
@@ -140,17 +134,11 @@ export default () => (
         id: "map-2",
         type: "mapbox",
           data: {
-            layerId: "",
-            sourceOptionType: "vector",
-            sourceOptionUrl: "",
             coordinates: [-50.040,-5.767],
             style: "mapbox://styles/infoamazonia/cjmgv2m1s2q942spqd4naf2ke",
-            sourceId: "source1",
-            layerType: "fill",
-            sourceLayer: "",
-            layoutData: {"visibility":""},
-            paintData: {"fill-color":"#ea1f1f"},
-            zoomNumber: "5",
+            zoomNumber: 5,
+            zoomMin: 3,
+            zoomMax: 10
           }
         }}>Parque Nacional de Yapacana, na Venezuela, nas proximidades da confluência entre os rios Orinoco e Ventuari.</StoryMedia> Criada em 1978, a área protege paisagens amazônicas do Orinoco e Cerro Yapacana. Desde a década de 1980, são conhecidas as atividades de mineração de ouro dentro do parque nacional. No entanto, a ilegalidade tornou-se clara com alianças entre os mineiros e membros dissidentes das guerrilhas colombianas.
       </Paragraph>
@@ -222,17 +210,11 @@ export default () => (
         id: "map-3",
         type: "mapbox",
           data: {
-            layerId: "",
-            sourceOptionType: "vector",
-            sourceOptionUrl: "",
             coordinates: [-50.040,-5.767],
             style: "mapbox://styles/infoamazonia/cjmgv2m1s2q942spqd4naf2ke",
-            sourceId: "source1",
-            layerType: "fill",
-            sourceLayer: "",
-            layoutData: {"visibility":""},
-            paintData: {"fill-color":"#ea1f1f"},
-            zoomNumber: "5",
+            zoomNumber: 5,
+            zoomMin: 3,
+            zoomMax: 10
           }
         }}>na área de Madidi e Pilón Lajas existem 41 operações de mineração.</StoryMedia> Apesar da ameaça óbvia causada pela mineração dentro da área protegida, essa atividade foi legalizada pelo governo. O CEDIB mostrou em uma apresentação por seu diretor Marco A Gandarillas Gonzáles que em apenas um ano, entre 2013 e 2014 mais de 194 direitos foram doados, o que equivale a mais de 100 mil hectares.
       </Paragraph>
