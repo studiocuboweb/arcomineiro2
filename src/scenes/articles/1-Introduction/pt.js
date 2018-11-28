@@ -189,18 +189,12 @@ export default () => (
         <p className="pull-left"><i>O aumento sustentado do preço do ouro e a evidência de mais pontos e áreas de mineração na região, indicam que nos últimos cinco anos esse número deve ter aumentado consideravelmente. </i></p>
         <div>Preço nas alturas</div>
         Média anual do valor do ouro (em US$)<br/>
-        <StoryMedia
-          icon="map"
-          media={{
-            id: "embed-1",
-            type: "embed",
-            data: {
-              src: "//datawrapper.dwcdn.net/AMEaF/1/"
-            }
-          }}></StoryMedia>{" "}
-        <p className="pull-right graph-description"><i>
-          A presença de ouro aluvial na América do Sul torna a mineração um setor essencial na economia da região. O alto preço do ouro tornou a extração viável em áreas que antes não eram lucrativas.
-        </i></p>
+        <div className="image-wrapper">
+          <iframe id="datawrapper-chart-AMEaF" src="//datawrapper.dwcdn.net/AMEaF/1/" scrolling="no" frameborder="0" allowtransparency="true" style={{'width': '0', 'minWidth': '70%'}} height="400"></iframe>
+          <p className="pull-right graph-description"><i>
+            A presença de ouro aluvial na América do Sul torna a mineração um setor essencial na economia da região. O alto preço do ouro tornou a extração viável em áreas que antes não eram lucrativas.
+          </i></p>
+        </div>
       </EndChapter>
      
     </Container>
