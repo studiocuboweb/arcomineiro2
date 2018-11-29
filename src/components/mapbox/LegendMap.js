@@ -17,7 +17,7 @@ const styles = {
 const categories = ['LEGENDA1 PONTOS_mineriailegal-pt-5owfra','LEGENDA2 RIOS_mineriailegal-ln-67gxaf','LEGENDA3 AREAS_mineriailegal-pl-6rfpha','Para-MASCARA_div-politica-departamental','COLOMBIA-MASCARA_div-politica-pais','BOLIVIA-MASCARA_div-politica-pais','LEGENDA4 MINERACAO-LEGALZ4_mineria-pl'];
 
 const notShowInLegend = {'map1':['Para-MASCARA_div-politica-departamental','COLOMBIA-MASCARA_div-politica-pais','BOLIVIA-MASCARA_div-politica-pais','LEGENDA4 MINERACAO-LEGALZ4_mineria-pl'],
-'map1_4':['Para-MASCARA_div-politica-departamental','COLOMBIA-MASCARA_div-politica-pais','BOLIVIA-MASCARA_div-politica-pais']
+'map1_5':['Para-MASCARA_div-politica-departamental','COLOMBIA-MASCARA_div-politica-pais','BOLIVIA-MASCARA_div-politica-pais']
 };
 
 // Layer id patterns by category
@@ -33,24 +33,26 @@ const layerSelector = {
 
 const subCategories = {
   'LEGENDA1 PONTOS_mineriailegal-pt-5owfra': {
-    'activo (local. aproximada)':'hsl(267, 42%, 43%)'
-    ,'inactivo (local. aproximada)':'hsl(277, 56%, 21%)'
-    ,'s.i (local. aproximada)':'hsl(263, 21%, 58%)'
+    'activo':'ico_circle-11_active2'
+    ,'inactive':'ico_circle-11_inactive2'
+    ,'s.i':'ico_circle-11_noinfo2'
+    ,'activo (local. aproximada)':'ico_circle-stroked-11_active2'
+    ,'inactivo (local. aproximada)':'ico_circle-stroked-11_inactive2'
+    ,'s.i (local. aproximada)':'ico_circle-stroked-11_noinfo2'
   },
   'LEGENDA2 RIOS_mineriailegal-ln-67gxaf': {
-    'activo (local. aproximada)':'hsl(260, 100%, 73%)'
-    ,'inactivo (local. aproximada)':'#492173'
-    ,'s.i (local. aproximada)':'#733dd1'    
+    'rios':'#b350f1'
   },
   'LEGENDA3 AREAS_mineriailegal-pl-6rfpha': {
-    'activo (local. aproximada)':'hsl(260, 100%, 73%)'
-    ,'inactivo (local. aproximada)':'#492173'
-    ,'s.i (local. aproximada)':'#733dd1'    
+    'activo':'hsl(260, 100%, 73%)'
+    ,'inactivo':'#492173'
+    ,'s.i':'#733dd1'    
   },
   'LEGENDA4 MINERACAO-LEGALZ4_mineria-pl': {
-    'activo (local. aproximada)':'hsl(260, 100%, 73%)'
-    ,'inactivo (local. aproximada)':'#492173'
-    ,'s.i (local. aproximada)':'#733dd1'    
+    'em exploração':'#29dbc3'
+    ,'solicitud':'#037587'
+    ,'potencial':'#012f37'  
+    ,'s.i':'#000000'    
   }
 }
 
@@ -95,12 +97,12 @@ export default class StyleControls extends PureComponent {
       },
       color: {
         'LEGENDA1 PONTOS_mineriailegal-pt-5owfra': '#c0c0c8',
-        'LEGENDA2 RIOS_mineriailegal-ln-67gxaf': '#c0c0c8',
-        'LEGENDA3 AREAS_mineriailegal-pl-6rfpha': '#c0c0c8',
-        'Para-MASCARA_div-politica-departamental': '#c0c0c8',
-        'COLOMBIA-MASCARA_div-politica-pais': '#c0c0c8',
-        'BOLIVIA-MASCARA_div-politica-pais': '#c0c0c8',
-        'LEGENDA4 MINERACAO-LEGALZ4_mineria-pl': '#c0c0c8'
+        'LEGENDA2 RIOS_mineriailegal-ln-67gxaf': '#b350f1',
+        'LEGENDA3 AREAS_mineriailegal-pl-6rfpha': '#a375ff',
+        'Para-MASCARA_div-politica-departamental': '',
+        'COLOMBIA-MASCARA_div-politica-pais': '',
+        'BOLIVIA-MASCARA_div-politica-pais': '',
+        'LEGENDA4 MINERACAO-LEGALZ4_mineria-pl': ''
       }
     };
   }
@@ -138,7 +140,7 @@ export default class StyleControls extends PureComponent {
       const id = layer.get('id');
       const type = layer.get('type');
       const category = categories.find(name => layerSelector[name].test(id));
-      if (category && colorClass[type]) {
+      if (category && colorClass[type] && color[category] !== '') {
         return layer.setIn(['paint', colorClass[type]], color[category]);
       }
       return layer;
