@@ -119,7 +119,7 @@ const Wrapper = styled.header`
 
 class Header extends Component {
   render () {
-    const { lastPath,aboutPath, sharePath } = this.props;
+    const { lastPath,aboutPath, sharePath,dataPath } = this.props;
     return (
       <Wrapper>
         <div className="header-content">
@@ -141,6 +141,12 @@ class Header extends Component {
               <span className="fa fa-share-alt"></span>
             </NavLink>
            }
+          {
+            dataPath &&
+            <NavLink to={dataPath} title="Dados">
+              <span className="fa fa-database"></span>
+            </NavLink>
+          }
           </nav>
         </div>
       </Wrapper>
@@ -152,6 +158,7 @@ const mapStateToProps = (state, ownProps) => {
   return {
     lastPath: state.context.lastPath,
     aboutPath: state.context.aboutPath,
+    dataPath: state.context.dataPath,
     sharePath: state.context.sharePath
   };
 };

@@ -6,13 +6,15 @@ import { connect } from "react-redux";
 import { resetContext } from "actions/context";
 import { media, color } from "styles/utils";
 import Countdown from "react-countdown-now";
+import YouTube from "react-youtube";
+import "styles/fullbg_video.css";
 
 import SiteTitle from "components/SiteTitle";
 
 import { Link } from "react-router-dom";
 
 const launchDate = process.env.LAUNCH_DATE;
-// background-image: url(${require("images/gold_.jpg")});
+//background-image: url(${require("images/bg_1.jpg")});
 const Wrapper = styled.section`
   position: fixed;
   z-index: 9999;
@@ -36,9 +38,19 @@ const Wrapper = styled.section`
     left: 0;
     bottom: 0;
     right: 0;
-    
+    background-image: url(${require("images/bg_1.gif")});
     background-size: cover;
     background-position: center;
+    z-index: -1;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color:rgba(0, 0, 0, 0.7);;
     z-index: -1;
   }
   &.route-transition-enter {
@@ -252,8 +264,24 @@ class Scene extends Component {
       return false;
     }
   }
+  _onReady(event) {
+    // access to player in all event handlers via event.target
+    // event.target.mute();
+  }
+  
+  _onEnd(event) {
+    event.target.playVideo();
+  }
   render() {
     const { lastPath, resetContext } = this.props;
+    const videoOptions = {
+      playerVars: { // https://developers.google.com/youtube/player_parameters
+        autoplay: 1,
+        controls: 0,
+        rel: 0,
+        showinfo: 0
+      }
+    };
     return (
       <Wrapper className="scene landing">
         <Top>

@@ -10,6 +10,7 @@ import FeaturedText from "components/blocks/FeaturedText";
 import Quote from "components/blocks/Quote";
 import FullBlock from "components/blocks/Full";
 import Note from "components/blocks/Note";
+import Table from "components/blocks/Table";
 
 export default () => (
   <article>
@@ -105,32 +106,34 @@ export default () => (
           }
         }}>363 áreas naturais protegidas, 64 estão diretamente afetadas e 24 têm pontos de extração ativos ou áreas dentro de seus limites</StoryMedia>. O resto sofre danos indiretos, seja em áreas de amortecimento ou nas bordas. Atividades ilegais e invasões se beneficiam da falta de investimentos e políticas públicas para o fortalecimento e o funcionamento de áreas naturais protegidas.
       </Paragraph>
-      <table>
-          <tr>
-            <th>Áreas Protegidas -  situação</th>
-            <th>quantidade</th>
-          </tr>
-          <tr>
-            <td>ameaça: garimpo no limite/entorno</td>
-            <td>7</td>
-          </tr>
-          <tr>
-            <td>ameaça: garimpo inativo dentro</td>
-            <td>23</td>
-          </tr>
-          <tr>
-            <td>pressão: balsas dentro/no limite</td>
-            <td>10</td>
-          </tr>
-          <tr>
-            <td>pressão: garimpo ativo dentro</td>
-            <td>24</td>
-          </tr>
-          <tr>
-            <td>ANP sem afetação direta conhecida</td>
-            <td>299</td>
-          </tr>
-        </table>
+      <Table>
+        <table>
+            <tr>
+              <th>Áreas Protegidas -  situação</th>
+              <th>quantidade</th>
+            </tr>
+            <tr>
+              <td>ameaça: garimpo no limite/entorno</td>
+              <td>7</td>
+            </tr>
+            <tr>
+              <td>ameaça: garimpo inativo dentro</td>
+              <td>23</td>
+            </tr>
+            <tr>
+              <td>pressão: balsas dentro/no limite</td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <td>pressão: garimpo ativo dentro</td>
+              <td>24</td>
+            </tr>
+            <tr>
+              <td>ANP sem afetação direta conhecida</td>
+              <td>299</td>
+            </tr>
+          </table>
+        </Table>
       <Paragraph>
         Um dos casos mais significativos desta falta de controle é o <StoryMedia
         icon="map"
@@ -198,15 +201,9 @@ export default () => (
       <Paragraph>
         O projeto MAAP, que utiliza imagens de satélite para monitorar a Amazônia Andina identificou que a <ExternalLink href="https://maaproject.org/2015/tambopat/" language="es">invasão da Reserva Nacional Tambopata pela atividade de mineração ilegal de ouro começou no final de 2015.</ExternalLink> "Em áreas de La Pampa (setor Balata), Alto Malinowski e na Reserva Nacional de Tambopata, o <ExternalLink href="http://www.actualidadambiental.pe/?p=49390" language="es">desmatamento causado pela mineração entre janeiro de 2017 e fevereiro 2018 você foi de 1 320 hectares,</ExternalLink> com 651 hectares desse total entre outubro de 2017 e fevereiro de 2018 ", informa o site Actualidad Ambiental del Perú.
       </Paragraph>
-      <FullBlock withMargin>
-        <iframe
-          width="100%"
-          height="1400"
-          src="https://www.google.com/url?q=https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid%3Dc09a020c-ec1f-11e8-9dba-0edaf8f81e27&sa=D&ust=1543184245417000&usg=AFQjCNHAODllpnKnlXUzLkxJAoOkqHf8FQ"
-          allowFullScreen
-          frameBorder="0"
-        />
-      </FullBlock>
+      <Paragraph withMargin>
+        <iframe frameborder="0" class="juxtapose" width="100%" height="500" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=c09a020c-ec1f-11e8-9dba-0edaf8f81e27"></iframe>
+      </Paragraph>
       <Paragraph>
         A situação em Madre de Dios contribuiu para que o desmatamento no Peru tenha atingindo níveis nunca registrados. De acordo com um estudo recém-lançado pelo Centro de Inovação Científica Amazônica (CINCIA), <ExternalLink href="https://news.wfu.edu/2018/11/08/rainforest-destruction-from-gold-mining-hits-all-time-high-in-peru/" language="en">em apenas cinco anos houve uma perda florestal de 170 mil hectares.</ExternalLink> Esse valor é pelo menos <ExternalLink href="https://news.wfu.edu/2018/11/08/rainforest-destruction-from-gold-mining-hits-all-time-high-in-peru/" language="en">30% maior do que o anunciado anteriormente por outro monitoramento.</ExternalLink>
       </Paragraph>

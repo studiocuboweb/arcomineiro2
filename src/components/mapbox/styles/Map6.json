@@ -347,7 +347,7 @@
             }
         },
         {
-            "id": "LEGENDA TIs-afectadas",
+            "id": "LEGENDATIs-afectadas",
             "type": "fill",
             "source": "mapbox://infoamazonia.8mnnicsn",
             "source-layer": "TIs_afectadas",

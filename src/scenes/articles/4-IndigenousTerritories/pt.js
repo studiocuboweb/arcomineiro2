@@ -7,6 +7,7 @@ import ExternalLink from "components/ExternalLink";
 import FileLink from "components/FileLink";
 import StoryMedia from "components/StoryMedia";
 import FeaturedText from "components/blocks/FeaturedText";
+import Table from "components/blocks/Table";
 import Quote from "components/blocks/Quote";
 import Note from "components/blocks/Note";
 
@@ -41,34 +42,36 @@ export default () => (
           }
         }}>78 territórios indígenas que apresentam atividades de garimpo em seu limite ou em seu ambiente.</StoryMedia> A maioria desses territórios - 64 - está localizada no Peru. Com relação às terras indígenas com atividades dentro dos limites, o Brasil lidera com 18 casos entre os 37 identificados. Em relação às atividades de balsas em rios nesses territórios, a Colômbia tem a maior incidência - 30 entre os 37 casos investigados.
       </Paragraph>
+      <Table>
       <table>
-          <tbody>
-          <tr>
-            <th>Territórios Indígenas -  situação</th>
-            <th>quantidade</th>
-          </tr>
-          <tr>
-            <td>ameaça: garimpo no limite/entorno</td>
-            <td>78</td>
-          </tr>
-          <tr>
-            <td>ameaça: garimpo inativo dentro</td>
-            <td>90</td>
-          </tr>
-          <tr>
-            <td>pressão: balsas dentro/no limite</td>
-            <td>65</td>
-          </tr>
-          <tr>
-            <td>pressão: garimpo ativo dentro</td>
-            <td>37</td>
-          </tr>
-          <tr>
-            <td>TIs sem afetação direta conhecida</td>
-            <td>6,073</td>
-          </tr>
-          </tbody>
-        </table>
+        <tbody>
+        <tr>
+          <th>Territórios Indígenas -  situação</th>
+          <th>quantidade</th>
+        </tr>
+        <tr>
+          <td>ameaça: garimpo no limite/entorno</td>
+          <td>78</td>
+        </tr>
+        <tr>
+          <td>ameaça: garimpo inativo dentro</td>
+          <td>90</td>
+        </tr>
+        <tr>
+          <td>pressão: balsas dentro/no limite</td>
+          <td>65</td>
+        </tr>
+        <tr>
+          <td>pressão: garimpo ativo dentro</td>
+          <td>37</td>
+        </tr>
+        <tr>
+          <td>TIs sem afetação direta conhecida</td>
+          <td>6,073</td>
+        </tr>
+        </tbody>
+      </table>
+      </Table>
       <Paragraph>
         Na Colômbia, a percepção que os povos indígenas têm do ouro é crucial para entender as posições que adotam em face da mineração. O ouro é um mineral sagrado para os povos indígenas da Amazônia colombiana , porque, de acordo com histórias tradicionais, é a representação do sol na terra e constitui a fonte da vida.
       </Paragraph>
