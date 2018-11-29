@@ -9,6 +9,7 @@ import Paragraph from "components/blocks/Paragraph";
 import FeaturedText from "components/blocks/FeaturedText";
 import Quote from "components/blocks/Quote";
 import FullBlock from "components/blocks/Full";
+import Note from "components/blocks/Note";
 
 export default () => (
   <article>
@@ -90,13 +91,16 @@ export default () => (
         De acordo com a análise da RAISG, de <StoryMedia
         icon="map"
         media={{
-        id: "map-1",
+        id: "map-7",
         type: "mapbox",
           data: {
-            coordinates: [-60.480084,-5.383769],
-            style: "mapbox://styles/infoamazonia/cjmgv2m1s2q942spqd4naf2ke",
-            zoomNumber: 8,
-            zoomMin: 3,
+            map: "map3",
+            legend:"map3",
+            update:"map3",
+            showExtraLayers: ['LEGENDA ANPs-nacionales-afectadas','LEGENDA ANPS-departamentales-afectadas','LEGENDA bosques-afectados'],
+            coordinates: [-61.451458,-4.714880],
+            zoomNumber: 4.50,
+            zoomMin: 5,
             zoomMax: 10
           }
         }}>363 áreas naturais protegidas, 64 estão diretamente afetadas e 24 têm pontos de extração ativos ou áreas dentro de seus limites</StoryMedia>. O resto sofre danos indiretos, seja em áreas de amortecimento ou nas bordas. Atividades ilegais e invasões se beneficiam da falta de investimentos e políticas públicas para o fortalecimento e o funcionamento de áreas naturais protegidas.
@@ -131,14 +135,17 @@ export default () => (
         Um dos casos mais significativos desta falta de controle é o <StoryMedia
         icon="map"
         media={{
-        id: "map-2",
+        id: "map-8",
         type: "mapbox",
           data: {
-            coordinates: [-50.040,-5.767],
-            style: "mapbox://styles/infoamazonia/cjmgv2m1s2q942spqd4naf2ke",
-            zoomNumber: 5,
-            zoomMin: 3,
-            zoomMax: 10
+            map: "map3",
+            legend:"map3",
+            update:"map8",
+            showExtraLayers: ['LEGENDA ANPs-nacionales-afectadas','LEGENDA ANPS-departamentales-afectadas','LEGENDA bosques-afectados'],
+            coordinates: [-66.806876,3.840280],
+            zoomNumber: 9.26,
+            zoomMin: 5,
+            zoomMax: 14
           }
         }}>Parque Nacional de Yapacana, na Venezuela, nas proximidades da confluência entre os rios Orinoco e Ventuari.</StoryMedia> Criada em 1978, a área protege paisagens amazônicas do Orinoco e Cerro Yapacana. Desde a década de 1980, são conhecidas as atividades de mineração de ouro dentro do parque nacional. No entanto, a ilegalidade tornou-se clara com alianças entre os mineiros e membros dissidentes das guerrilhas colombianas.
       </Paragraph>
@@ -203,18 +210,22 @@ export default () => (
       <Paragraph>
         A situação em Madre de Dios contribuiu para que o desmatamento no Peru tenha atingindo níveis nunca registrados. De acordo com um estudo recém-lançado pelo Centro de Inovação Científica Amazônica (CINCIA), <ExternalLink href="https://news.wfu.edu/2018/11/08/rainforest-destruction-from-gold-mining-hits-all-time-high-in-peru/" language="en">em apenas cinco anos houve uma perda florestal de 170 mil hectares.</ExternalLink> Esse valor é pelo menos <ExternalLink href="https://news.wfu.edu/2018/11/08/rainforest-destruction-from-gold-mining-hits-all-time-high-in-peru/" language="en">30% maior do que o anunciado anteriormente por outro monitoramento.</ExternalLink>
       </Paragraph>
+
       <Paragraph>
         Na Bolívia, as reservas mais prósperas de vida selvagem e carbono estão nas zonas úmidas das Tierras Bajas e Yungas. Ainda assim, <StoryMedia
         icon="map"
         media={{
-        id: "map-3",
+        id: "map-9",
         type: "mapbox",
           data: {
-            coordinates: [-50.040,-5.767],
-            style: "mapbox://styles/infoamazonia/cjmgv2m1s2q942spqd4naf2ke",
-            zoomNumber: 5,
-            zoomMin: 3,
-            zoomMax: 10
+            map: "map4",
+            legend:"map4",
+            update:"map4",
+            showExtraLayers: ['LEGENDA ANPs-nacionales-afectadas','LEGENDA ANPS-departamentales-afectadas','LEGENDATIs-afectadas'],
+            coordinates: [-68.327,-14.690],
+            zoomNumber: 7.29,
+            zoomMin: 6,
+            zoomMax: 12
           }
         }}>na área de Madidi e Pilón Lajas existem 41 operações de mineração.</StoryMedia> Apesar da ameaça óbvia causada pela mineração dentro da área protegida, essa atividade foi legalizada pelo governo. O CEDIB mostrou em uma apresentação por seu diretor Marco A Gandarillas Gonzáles que em apenas um ano, entre 2013 e 2014 mais de 194 direitos foram doados, o que equivale a mais de 100 mil hectares.
       </Paragraph>

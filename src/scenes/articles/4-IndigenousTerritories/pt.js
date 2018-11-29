@@ -22,24 +22,22 @@ export default () => (
           Os impactos da mineração ilegal sobre os recursos naturais, as atividades garimpeiras e o tráfego mineral geram conflitos com comunidades indígenas e ribeirinhas da Amazônia.
         </p>
       </Note>
+      
       <Paragraph>
         De acordo com as análises da RAISG, foram identificados <StoryMedia
         icon="map"
         media={{
-        id: "map-1",
+        id: "map-10",
         type: "mapbox",
           data: {
-            layerId: "",
-            sourceOptionType: "vector",
-            sourceOptionUrl: "",
-            coordinates: [-50.040,-5.767],
-            style: "mapbox://styles/infoamazonia/cjmgv2m1s2q942spqd4naf2ke",
-            sourceId: "source1",
-            layerType: "fill",
-            sourceLayer: "",
-            layoutData: {"visibility":""},
-            paintData: {"fill-color":"#ea1f1f"},
-            zoomNumber: "5",
+            map: "map5",
+            legend:"map5",
+            update:"map5",
+            showExtraLayers: ['LEGENDATIs-afectadas'],
+            coordinates: [-60.274653,-4.525221],
+            zoomNumber: 4.66,
+            zoomMin: 4,
+            zoomMax: 12
           }
         }}>78 territórios indígenas que apresentam atividades de garimpo em seu limite ou em seu ambiente.</StoryMedia> A maioria desses territórios - 64 - está localizada no Peru. Com relação às terras indígenas com atividades dentro dos limites, o Brasil lidera com 18 casos entre os 37 identificados. Em relação às atividades de balsas em rios nesses territórios, a Colômbia tem a maior incidência - 30 entre os 37 casos investigados.
       </Paragraph>
@@ -154,24 +152,21 @@ export default () => (
         <p>. corte de cabelo: 0,5g</p>
         <p>. 30 minutos de internet: 0,5g<br />(tem 10 pontos de internet na área)</p>
       </Note>
-      <Paragraph>
+      <Paragraph>Zoom: 
         No Peru, Puerto Luz é uma das 10 comunidades da <StoryMedia
         icon="map"
         media={{
-        id: "map-1",
+        id: "map-11",
         type: "mapbox",
           data: {
-            layerId: "",
-            sourceOptionType: "vector",
-            sourceOptionUrl: "",
-            coordinates: [-50.040,-5.767],
-            style: "mapbox://styles/infoamazonia/cjmgv2m1s2q942spqd4naf2ke",
-            sourceId: "source1",
-            layerType: "fill",
-            sourceLayer: "",
-            layoutData: {"visibility":""},
-            paintData: {"fill-color":"#ea1f1f"},
-            zoomNumber: "5",
+            map: "map6",
+            legend:"map6",
+            update:"map6",
+            showExtraLayers: ['LEGENDATIs-afectadas','ETIQUETA_nombre-tis-afectadas'],
+            coordinates: [-70.635005,-11.676347],
+            zoomNumber: 7.40,
+            zoomMin: 5,
+            zoomMax: 12
           }
         }}>Reserva Comunal Amarakaeri que sofre com a devastação da mineração de ouro indiscriminada.</StoryMedia> Seus habitantes, que somam mais de 400 pessoas, que vivem em meio a um panorama desolado. Como nas outras nove comunidades nativas da Reserva Comunal Amarakaeri, devido à presença da mineração de ouro e à falta de oportunidades, as famílias foram obrigadas a praticar a mineração artesanal. 
       </Paragraph>
@@ -182,20 +177,17 @@ export default () => (
         A Reserva Comunal Amarakaeri faz parte do sistema de áreas protegidas do Peru. Procura manter os valores culturais das <StoryMedia
         icon="map"
         media={{
-        id: "map-2",
+        id: "map-12",
         type: "mapbox",
           data: {
-            layerId: "",
-            sourceOptionType: "vector",
-            sourceOptionUrl: "",
-            coordinates: [-50.040,-5.767],
-            style: "mapbox://styles/infoamazonia/cjmgv2m1s2q942spqd4naf2ke",
-            sourceId: "source1",
-            layerType: "fill",
-            sourceLayer: "",
-            layoutData: {"visibility":""},
-            paintData: {"fill-color":"#ea1f1f"},
-            zoomNumber: "5",
+            map: "map6_1",
+            legend:"map6",
+            update:"map6_1",
+            showExtraLayers: ['LEGENDATIs-afectadas','ETIQUETA_etnias-tis-afectadas'],
+            coordinates: [-70.793253,-12.789527],
+            zoomNumber: 9.35,
+            zoomMin: 7,
+            zoomMax: 10
           }
         }}>comunidades nativas de Harakmbut,</StoryMedia> a qualidade e a quantidade de água, o equilíbrio ecológico e um ambiente adequado para o desenvolvimento das aldeias.
       </Paragraph>

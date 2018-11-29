@@ -2,6 +2,10 @@ import React, {PureComponent} from 'react';
 import {fromJS} from 'immutable';
 import MAP_STYLE1 from './styles/Map1.json';
 import MAP_STYLE2 from './styles/Map2.json';
+import MAP_STYLE3 from './styles/Map3.json';
+import MAP_STYLE4 from './styles/Map4.json';
+import MAP_STYLE5 from './styles/Map5.json';
+import MAP_STYLE6 from './styles/Map6.json';
 import "styles/mapbox.css";
 import LegendCollapse from './LegendCollapse';
 import {Collapse} from 'react-collapse';
@@ -9,15 +13,25 @@ import {Collapse} from 'react-collapse';
 
 const styles = {
   map1: MAP_STYLE1,
-  map2: MAP_STYLE2
+  map2: MAP_STYLE2,
+  map3: MAP_STYLE3,
+  map4: MAP_STYLE4,
+  map5: MAP_STYLE5,
+  map6: MAP_STYLE6,
+  map6_1: MAP_STYLE6,
 };
 
 //const categories = ['labels', 'roads', 'mineriailegal-pt-5owfra', 'parks', 'water', 'background'];
 
-const categories = ['LEGENDA1 PONTOS_mineriailegal-pt-5owfra','LEGENDA2 RIOS_mineriailegal-ln-67gxaf','LEGENDA3 AREAS_mineriailegal-pl-6rfpha','Para-MASCARA_div-politica-departamental','COLOMBIA-MASCARA_div-politica-pais','BOLIVIA-MASCARA_div-politica-pais','LEGENDA4 MINERACAO-LEGALZ4_mineria-pl'];
+const categories = ['LEGENDA1 PONTOS_mineriailegal-pt-5owfra','LEGENDA2 RIOS_mineriailegal-ln-67gxaf','LEGENDA3 AREAS_mineriailegal-pl-6rfpha','Para-MASCARA_div-politica-departamental','COLOMBIA-MASCARA_div-politica-pais','BOLIVIA-MASCARA_div-politica-pais','LEGENDA4 MINERACAO-LEGALZ4_mineria-pl','LEGENDA4- Yanomami_tis-afectadas','LEGENDA ANPs-nacionales-afectadas','LEGENDA ANPS-departamentales-afectadas','LEGENDA bosques-afectados','LEGENDATIs-afectadas','ETIQUETA_nombre-tis-afectadas','ETIQUETA_etnias-tis-afectadas'];
 
-const notShowInLegend = {'map1':['Para-MASCARA_div-politica-departamental','COLOMBIA-MASCARA_div-politica-pais','BOLIVIA-MASCARA_div-politica-pais','LEGENDA4 MINERACAO-LEGALZ4_mineria-pl'],
-'map1_5':['Para-MASCARA_div-politica-departamental','COLOMBIA-MASCARA_div-politica-pais','BOLIVIA-MASCARA_div-politica-pais']
+const notShowInLegend = {'map1':['Para-MASCARA_div-politica-departamental','COLOMBIA-MASCARA_div-politica-pais','BOLIVIA-MASCARA_div-politica-pais','LEGENDA4 MINERACAO-LEGALZ4_mineria-pl','LEGENDA4- Yanomami_tis-afectadas','LEGENDA ANPs-nacionales-afectadas','LEGENDA ANPS-departamentales-afectadas','LEGENDA bosques-afectados','LEGENDATIs-afectadas'],
+'map1_5':['Para-MASCARA_div-politica-departamental','COLOMBIA-MASCARA_div-politica-pais','BOLIVIA-MASCARA_div-politica-pais','LEGENDA4- Yanomami_tis-afectadas','LEGENDA ANPs-nacionales-afectadas','LEGENDA ANPS-departamentales-afectadas','LEGENDA bosques-afectados','LEGENDATIs-afectadas'],
+'map2':['Para-MASCARA_div-politica-departamental','COLOMBIA-MASCARA_div-politica-pais','BOLIVIA-MASCARA_div-politica-pais','LEGENDA4 MINERACAO-LEGALZ4_mineria-pl','LEGENDA ANPs-nacionales-afectadas','LEGENDA ANPS-departamentales-afectadas','LEGENDA bosques-afectados','LEGENDATIs-afectadas'],
+'map3':['Para-MASCARA_div-politica-departamental','COLOMBIA-MASCARA_div-politica-pais','BOLIVIA-MASCARA_div-politica-pais','LEGENDA4 MINERACAO-LEGALZ4_mineria-pl','LEGENDA4- Yanomami_tis-afectadas','LEGENDATIs-afectadas'],
+'map4':['Para-MASCARA_div-politica-departamental','COLOMBIA-MASCARA_div-politica-pais','BOLIVIA-MASCARA_div-politica-pais','LEGENDA4 MINERACAO-LEGALZ4_mineria-pl','LEGENDA bosques-afectados','LEGENDA4- Yanomami_tis-afectadas'],
+'map5':['Para-MASCARA_div-politica-departamental','COLOMBIA-MASCARA_div-politica-pais','BOLIVIA-MASCARA_div-politica-pais','LEGENDA4 MINERACAO-LEGALZ4_mineria-pl','LEGENDA4- Yanomami_tis-afectadas','LEGENDA ANPs-nacionales-afectadas','LEGENDA ANPS-departamentales-afectadas','LEGENDA bosques-afectados'],
+'map6':['Para-MASCARA_div-politica-departamental','COLOMBIA-MASCARA_div-politica-pais','BOLIVIA-MASCARA_div-politica-pais','LEGENDA4 MINERACAO-LEGALZ4_mineria-pl','LEGENDA bosques-afectados','ETIQUETA_nombre-tis-afectadas','ETIQUETA_etnias-tis-afectadas','LEGENDA4- Yanomami_tis-afectadas']
 };
 
 // Layer id patterns by category
@@ -28,7 +42,14 @@ const layerSelector = {
   'Para-MASCARA_div-politica-departamental': /Para-MASCARA_div-politica-departamental/,
   'COLOMBIA-MASCARA_div-politica-pais': /COLOMBIA-MASCARA_div-politica-pais/,
   'BOLIVIA-MASCARA_div-politica-pais': /BOLIVIA-MASCARA_div-politica-pais/,
-  'LEGENDA4 MINERACAO-LEGALZ4_mineria-pl': /LEGENDA4 MINERACAO-LEGALZ4_mineria-pl/
+  'LEGENDA4 MINERACAO-LEGALZ4_mineria-pl': /LEGENDA4 MINERACAO-LEGALZ4_mineria-pl/,
+  'LEGENDA4- Yanomami_tis-afectadas': /LEGENDA4- Yanomami_tis-afectadas/,
+  'LEGENDA ANPs-nacionales-afectadas': /LEGENDA ANPs-nacionales-afectadas/,
+  'LEGENDA ANPS-departamentales-afectadas': /LEGENDA ANPS-departamentales-afectadas/,
+  'LEGENDA bosques-afectados': /LEGENDA bosques-afectados/,
+  'LEGENDATIs-afectadas': /LEGENDATIs-afectadas/,
+  'ETIQUETA_nombre-tis-afectadas':/ETIQUETA_nombre-tis-afectadas/,
+  'ETIQUETA_etnias-tis-afectadas':/ETIQUETA_etnias-tis-afectadas/
 };
 
 const subCategories = {
@@ -53,6 +74,37 @@ const subCategories = {
     ,'solicitud':'#037587'
     ,'potencial':'#012f37'  
     ,'s.i':'#000000'    
+  },
+  'LEGENDA4- Yanomami_tis-afectadas': {
+    'Yanomami': '#eb5905'
+  },
+  'LEGENDA ANPs-nacionales-afectadas': {
+    'pressão: garimpo ativo dentro': 'hsla(165, 98%, 46%, 0.8)',
+    'pressão: balsas dentro/no limite': 'hsla(165, 97%, 30%, 0.5)',
+    'ameaça: garimpo inativo dentro': 'hsla(185, 79%, 24%, 0.5)',
+    'ameaça: garimpo no limite entorno': 'hsla(187, 98%, 12%, 0.77)',
+    'sem afetação direta conhecida': 'hsla(0, 0%, 0%, 0.33)'
+  },
+  'LEGENDA ANPS-departamentales-afectadas': {
+    'pressão: garimpo ativo dentro': 'hsla(165, 98%, 46%, 0.8)',
+    'pressão: balsas dentro/no limite': 'hsla(165, 97%, 30%, 0.5)',
+    'ameaça: garimpo inativo dentro': 'hsla(185, 79%, 24%, 0.5)',
+    'ameaça: garimpo no limite entorno': 'hsla(187, 98%, 12%, 0.77)',
+    'sem afetação direta conhecida': 'hsla(0, 0%, 0%, 0.33)'
+  },
+  'LEGENDA bosques-afectados': {
+    'pressão: garimpo ativo dentro': 'hsla(165, 98%, 46%, 0.8)',
+    'pressão: balsas dentro/no limite': 'hsla(165, 97%, 30%, 0.5)',
+    'ameaça: garimpo inativo dentro': 'hsla(185, 79%, 24%, 0.5)',
+    'ameaça: garimpo no limite entorno': 'hsla(187, 98%, 12%, 0.77)',
+    'sem afetação direta conhecida': 'hsla(0, 0%, 0%, 0.33)'
+  },
+  'LEGENDATIs-afectadas': {
+    'pressão: garimpo ativo dentro': '#f37859',
+    'pressão: balsas dentro/no limite': 'hsla(17, 99%, 67%, 0.8)',
+    'ameaça: garimpo inativo dentro': 'hsla(47, 98%, 59%, 0.8)',
+    'ameaça: garimpo no limite entorno': 'hsla(52, 76%, 74%, 0.8)',
+    'sem afetação direta conhecida': 'hsla(0, 0%, 0%, 0.41)'
   }
 }
 
@@ -60,7 +112,12 @@ const layerLabels = {
   'LEGENDA1 PONTOS_mineriailegal-pt-5owfra': 'pontos de mineração ilegal',
   'LEGENDA2 RIOS_mineriailegal-ln-67gxaf': 'rios com mineração ilegal',
   'LEGENDA3 AREAS_mineriailegal-pl-6rfpha': 'áreas de mineração ilegal',
-  'LEGENDA4 MINERACAO-LEGALZ4_mineria-pl': 'áreas de mineração legal'
+  'LEGENDA4 MINERACAO-LEGALZ4_mineria-pl': 'áreas de mineração legal',
+  'LEGENDA4- Yanomami_tis-afectadas': 'Terras Indígenas afetadas',
+  'LEGENDA ANPs-nacionales-afectadas': 'Áreas protegidas (nacionais)',
+  'LEGENDA ANPS-departamentales-afectadas': 'Áreas protegidas (depart.)',
+  'LEGENDA bosques-afectados': 'Áreas protegidas (bosques)',
+  'LEGENDATIs-afectadas': 'Terras Indígenas'
 };
 
 // Layer color class by type
@@ -77,11 +134,9 @@ export default class StyleControls extends PureComponent {
 
   constructor(props) {
     super(props);
-
+    console.log(styles[this.props.map])
     this.defaultMapStyle = fromJS(styles[this.props.map]);
     this._defaultLayers = this.defaultMapStyle.get('layers');
-
-    this._setLegendArray();
     
     this.state = {
       displayLegendBG: {'backgroundColor':'none'}, 
@@ -93,23 +148,48 @@ export default class StyleControls extends PureComponent {
         'Para-MASCARA_div-politica-departamental': false,
         'COLOMBIA-MASCARA_div-politica-pais': false,
         'BOLIVIA-MASCARA_div-politica-pais': false,
-        'LEGENDA4 MINERACAO-LEGALZ4_mineria-pl': false
+        'LEGENDA4 MINERACAO-LEGALZ4_mineria-pl': false,
+        'LEGENDA4- Yanomami_tis-afectadas': false,
+        'LEGENDA ANPs-nacionales-afectadas': false,
+        'LEGENDA ANPS-departamentales-afectadas': false,
+        'LEGENDA bosques-afectados': false,
+        'LEGENDATIs-afectadas': false,
+        'ETIQUETA_nombre-tis-afectadas':false,
+        'ETIQUETA_etnias-tis-afectadas':false
       },
       color: {
-        'LEGENDA1 PONTOS_mineriailegal-pt-5owfra': '#c0c0c8',
-        'LEGENDA2 RIOS_mineriailegal-ln-67gxaf': '#b350f1',
-        'LEGENDA3 AREAS_mineriailegal-pl-6rfpha': '#a375ff',
+        'LEGENDA1 PONTOS_mineriailegal-pt-5owfra': '',
+        'LEGENDA2 RIOS_mineriailegal-ln-67gxaf': '',
+        'LEGENDA3 AREAS_mineriailegal-pl-6rfpha': '',
         'Para-MASCARA_div-politica-departamental': '',
         'COLOMBIA-MASCARA_div-politica-pais': '',
         'BOLIVIA-MASCARA_div-politica-pais': '',
-        'LEGENDA4 MINERACAO-LEGALZ4_mineria-pl': ''
+        'LEGENDA4 MINERACAO-LEGALZ4_mineria-pl': '',
+        'LEGENDA4- Yanomami_tis-afectadas':'',
+        'LEGENDA ANPs-nacionales-afectadas': '',
+        'LEGENDA ANPS-departamentales-afectadas': '',
+        'LEGENDA bosques-afectados': '',
+        'LEGENDATIs-afectadas':'',
+        'ETIQUETA_nombre-tis-afectadas':'',
+        'ETIQUETA_etnias-tis-afectadas':''
       }
     };
   }
 
   componentDidMount() {
     if (this.props.showExtraLayers.length > 0) {
-      const visibility = {...this.state.visibility, [this.props.showExtraLayers]: true};
+      var visibility = '';
+      if (this.props.map == 'map3') {
+        visibility = {...this.state.visibility, ['LEGENDA ANPs-nacionales-afectadas']: true, ['LEGENDA ANPS-departamentales-afectadas']: true, ['LEGENDA bosques-afectados']: true};
+      } else if (this.props.map == 'map4') {
+        visibility = {...this.state.visibility, ['LEGENDA ANPs-nacionales-afectadas']: true, ['LEGENDA ANPS-departamentales-afectadas']: true, ['LEGENDATIs-afectadas']: true};
+      } else if (this.props.map == 'map6') {
+        visibility = {...this.state.visibility, ['LEGENDA ANPs-nacionales-afectadas']: true, ['LEGENDA ANPS-departamentales-afectadas']: true, ['LEGENDATIs-afectadas']: true, ['ETIQUETA_nombre-tis-afectadas']: true};
+      } else if (this.props.map == 'map6_1') {
+        visibility = {...this.state.visibility, ['LEGENDA ANPs-nacionales-afectadas']: true, ['LEGENDA ANPS-departamentales-afectadas']: true, ['LEGENDATIs-afectadas']: true, ['ETIQUETA_etnias-tis-afectadas']: true};
+      } else {
+        visibility = {...this.state.visibility, [this.props.showExtraLayers]: true};
+      }
       this.setState({visibility})
       this._updateMapStyle({...this.state,visibility});
     } else { 
@@ -146,10 +226,6 @@ export default class StyleControls extends PureComponent {
       return layer;
     });
     this.props.onChange(this.defaultMapStyle.set('layers', layers));
-  }
-
-  _setLegendArray() {
-    return categories[this.props.legend];
   }
 
   _renderLayerControl(name) {
