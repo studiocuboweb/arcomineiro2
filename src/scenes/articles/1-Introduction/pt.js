@@ -181,16 +181,16 @@ export default () => (
       
       <EndChapter>
         <strong>Trabalhadores do Ouro</strong>
-        <p className="pull-left">Segundo o{" "}<FileLink
+        <p className="smaller-txt pull-left">Segundo o{" "}<FileLink
           href={require("documents/chapter1/La-realidad-de-la-mineria-ilegal-en-paises-amazonicos-SPDA.pdf")}
           format="pdf"
           size="6.7MB"
         >relatório "A realidade da mineração ilegal em países amazônicos"</FileLink>{" "}, <i>elaborado pela Sociedade Peruana de Direito Ambiental (SPDA, 2014), cerca de 600 mil pessoas estariam naquele momento envolvidas na exploração ilegal do ouro.</i></p> 
-        <p className="pull-left"><i>O aumento sustentado do preço do ouro e a evidência de mais pontos e áreas de mineração na região, indicam que nos últimos cinco anos esse número deve ter aumentado consideravelmente. </i></p>
-        <div>Preço nas alturas</div>
-        Média anual do valor do ouro (em US$)<br/>
+        <p className="smaller-txt pull-left"><i>O aumento sustentado do preço do ouro e a evidência de mais pontos e áreas de mineração na região, indicam que nos últimos cinco anos esse número deve ter aumentado consideravelmente. </i></p>
+        {/* <div>Preço nas alturas</div>
+        Média anual do valor do ouro (em US$)<br/> */}
         <div className="image-wrapper">
-          <iframe id="datawrapper-chart-AMEaF" src="//datawrapper.dwcdn.net/AMEaF/1/" scrolling="no" frameborder="0" allowtransparency="true" style={{'width': '0', 'minWidth': '70%'}} height="400"></iframe>
+          <iframe id="datawrapper-chart-AMEaF" src="//datawrapper.dwcdn.net/AMEaF/1/" scrolling="no" frameborder="0" allowtransparency="true" style={{'width': '', 'minWidth': '70%', 'padding-bottom':'10px'}} height="400"></iframe>
           <p className="pull-right graph-description"><i>
             A presença de ouro aluvial na América do Sul torna a mineração um setor essencial na economia da região. O alto preço do ouro tornou a extração viável em áreas que antes não eram lucrativas.
           </i></p>

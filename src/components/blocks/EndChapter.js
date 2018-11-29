@@ -9,13 +9,15 @@ const desktopML = '8vw';
 const Wrapper = styled.div`
   padding: 1rem 0;
   background: #f7f7f7;
-  margin: 0 3vw;
-  font-size: .6em;
+  margin: 0 4vw;
   position: relative;
   z-index: 1;
   border: 3px solid #FEEFAF;
   border-bottom: 12px solid #FEEFAF;
   width: 90vw;
+  ${media.tablet`
+    margin: 0 1.5vw;
+  `}
   ${media.desktop`
     width: 51vw;
     // margin: 0 3vw;
@@ -26,15 +28,18 @@ const Wrapper = styled.div`
   `}
   ${media.desktopHD`
     margin-bottom: 2rem;
+    margin: 0 4vw;
   `}
   .end-chapter-content {
-    max-width: 500px;
     margin: 0 1vw;
     position: relative;
     display: block;
-    ${media.desktopHD`
-      max-width: 640px;
-    `};
+  }
+  .end-chapter-content > .smaller-txt {
+    font-size: .6em;
+  }
+  .end-chapter-content > .regular-txt {
+    font-size: 1em;
   }
   .end-chapter-content > div {
     font-weight: bold !important;
@@ -50,6 +55,7 @@ const Wrapper = styled.div`
     ${media.desktop`
       width: 55%;
       margin-right: 45%;
+      margin-left: 0;
     `}
   }
   .end-chapter-content > strong {
@@ -57,21 +63,26 @@ const Wrapper = styled.div`
     ${media.phablet`
       margin-left: ${phabletML};
     `}
+    ${media.desktop`
+      margin-left: 0;
+    `}
   }
   .end-chapter-content > .image-wrapper {
+    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 10px;
     ${media.phablet`
+      width: 91%;
       flex-direction: row;
       margin-left: ${phabletML};
     `}
+    ${media.desktop`
+      width: 100%;
+      margin-left: 0;
+    `}
   }
-  // .end-chapter-content > .image-wrapper > iframe {
-  //   ${media.phone`
-  //     width: 100%;
-  //   `}
-  // }
   .graph-description {
     font-size: .9rem;
     opacity: .6;
@@ -82,6 +93,14 @@ const Wrapper = styled.div`
     `}
   }
 `;
+
+function hideIframeTitle() {
+  let iframe = document.querySelector('#datawrapper-chart-AMEaF');
+  var elmnt = iframe.contentWindow.document.getElementByTagName('div')[0];
+  elmnt.style.display = none;
+}
+
+
 export default ({ children }) => (
   <Wrapper>
     <span className="end-chapter-content">{children}</span>
