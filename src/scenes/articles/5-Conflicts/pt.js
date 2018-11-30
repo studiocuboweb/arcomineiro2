@@ -10,6 +10,7 @@ import Quote from "components/blocks/Quote";
 import FeaturedText from "components/blocks/FeaturedText";
 import Note from "components/blocks/Note";
 import EndChapter from "../../../components/blocks/EndChapter";
+import RelatedNews from "components/RelatedNews";
 
 export default () => (
   <article>
@@ -91,6 +92,11 @@ export default () => (
           O líder Shirian acrescenta que a maioria de sua comunidade deixou o conuco (a roça). As estações de semeadura, abate e queima não são respeitadas, por isso a colheita é quase nula. "Atualmente você pode ver um indígena comprando um casabe de um crioulo em vez de produzi-lo." 
         </p>
       </EndChapter>
+      <RelatedNews
+        title={"MAIS - Explore a Plataforma “Minería Ilegal” da RAISG"}
+        imageUrl={require("images/read-more.png")}
+        href={"https://mineria.amazoniasocioambiental.org/"}
+      />
     </Container>
   </article>
 );
