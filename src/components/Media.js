@@ -180,7 +180,6 @@ class Media extends Component {
       case "mapbox": {
         return (
           <Wrapper preview={preview} active={active}>
-            {console.log(media.data)}
             {/* <div style={{'backgroundImage':`url(${media.backgroundAlternative})`}}>             */}
               {this.detectWebGLContext() &&
                 <MapBox {...media.data} />
