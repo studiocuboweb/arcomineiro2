@@ -14,18 +14,18 @@ import Note from "components/blocks/Note";
 export default () => (
   <article>
     <Helmet>
-    <title>Territórios Indígenas | Amazônia saqueada</title>
+    <title>Territorios Indígenas | La Amazonía saqueada</title>
     </Helmet>
     <Container>
-      <Title as="h2">Territórios Indígenas</Title>
+      <Title as="h2">Territorios Indígenas</Title>
       <Note>
         <p>
-          Os impactos da mineração ilegal sobre os recursos naturais, as atividades garimpeiras e o tráfego mineral geram conflitos com comunidades indígenas e ribeirinhas da Amazônia.
+          Los impactos de la minería ilegal sobre los recursos naturales, las actividades de los mineros ilegales y el tráfico de minerales elevan los conflictos con comunidades indígenas y ribereñas en la Amazonía.
         </p>
       </Note>
       
       <Paragraph>
-        De acordo com as análises da RAISG, foram identificados <StoryMedia
+        Según los análisis de la RAISG se identificaron <StoryMedia
         icon="map"
         media={{
         id: "map-10",
@@ -40,58 +40,58 @@ export default () => (
             zoomMin: 4,
             zoomMax: 12
           }
-        }}>78 territórios indígenas que apresentam atividades de garimpo em seu limite ou em seu ambiente.</StoryMedia> A maioria desses territórios - 64 - está localizada no Peru. Com relação às terras indígenas com atividades dentro dos limites, o Brasil lidera com 18 casos entre os 37 identificados. Em relação às atividades de balsas em rios nesses territórios, a Colômbia tem a maior incidência - 30 entre os 37 casos investigados.
+        }}>78 territorios indígenas que presentan actividades de minería ilegal en su límite o en su entorno</StoryMedia>. La mayoría de estos territorios - 64 - se encuentra en el Perú. Con respecto a las tierras indígenas con actividades dentro de los límites, Brasil está a la cabeza con 18 de los 37 casos identificados. En cuanto a actividades de dragas  en ríos de estos territorios, Colombia registra la mayor incidencia - 30  de los 37 casos investigados.
       </Paragraph>
       <Table>
       <table>
         <tbody>
         <tr>
-          <th>Territórios Indígenas -  situação</th>
-          <th>quantidade</th>
+          <th>Territorios Indígenas -  Situación</th>
+          <th>Qt de territorios</th>
         </tr>
         <tr>
-          <td>ameaça: garimpo no limite/entorno</td>
+          <td>amenaza: minería en el límite/entorno</td>
           <td>78</td>
         </tr>
         <tr>
-          <td>ameaça: garimpo inativo dentro</td>
+          <td>amenaza: minería inactiva dentro</td>
           <td>90</td>
         </tr>
         <tr>
-          <td>pressão: balsas dentro/no limite</td>
+          <td>presión: dragas dentro/en el límite</td>
           <td>65</td>
         </tr>
         <tr>
-          <td>pressão: garimpo ativo dentro</td>
+          <td>presión:minería activa dentro</td>
           <td>37</td>
         </tr>
         <tr>
-          <td>TIs sem afetação direta conhecida</td>
+          <td>TI sin afectación directa conocida</td>
           <td>6,073</td>
         </tr>
         </tbody>
       </table>
       </Table>
       <Paragraph>
-        Na Colômbia, a percepção que os povos indígenas têm do ouro é crucial para entender as posições que adotam em face da mineração. O ouro é um mineral sagrado para os povos indígenas da Amazônia colombiana , porque, de acordo com histórias tradicionais, é a representação do sol na terra e constitui a fonte da vida.
+        En Colombia, la percepción que tienen los pueblos indígenas frente al oro es determinante para entender las posiciones que adoptan acerca de la minería. El oro es un mineral sagrado para los pueblos indígenas de la Amazonía colombiana debido a que, de acuerdo las historias tradicionales, es la representación del sol en la tierra y se constituye en la fuente de vida. 
       </Paragraph>
       <Paragraph>
-        Segundo relatos coletados por Rodríguez, Carlos A & Rubiano, Sebastián. Tropenbos Internacional Colombia. (2016), <ExternalLink href="https://www.academia.edu/24382243/Entre_ilusiones_ambiciones_y_decepciones._Los_efectos_sociales_culturales_y_econ%C3%B3micos_de_la_miner%C3%ADa_aur%C3%ADfera_en_el_departamento_de_Amazonas" language="es">extrair este mineral do território é remover a fonte de sua vida.</ExternalLink> Para extrair o mineral precioso, os xamãs tiveram que pedir permissão através da cura e pagar por ele através do fumo e da coca. A extração do mineral em grandes quantidades pode causar doença ou morte para os responsáveis. A partir daí, essa mineração é vista dentro das comunidades como doença, problemas e morte.
+        Según relatos registrados por Rodríguez, Carlos A & Rubiano, Sebastián. Tropenbos Internacional Colombia. (2016), <ExternalLink href="https://www.academia.edu/24382243/Entre_ilusiones_ambiciones_y_decepciones._Los_efectos_sociales_culturales_y_econ%C3%B3micos_de_la_miner%C3%ADa_aur%C3%ADfera_en_el_departamento_de_Amazonas" language="es">extraer este mineral del territorio es retirar la fuente de la vida del mismo</ExternalLink>. Para sacar el mineral precioso, los chamanes debían pedir permiso a través de la curación y pagarlo por medio del tabaco y la coca. La extracción del mineral en grandes cantidades podría causar enfermedades o muerte de los responsables. De allí, que la minería sea vista dentro de las comunidades como enfermedad, candela, problemas y muerte. 
       </Paragraph>
       <Paragraph>
-        Em depoimento em março de 1990, o xamã Yanomami Davi Kopenawa revelou uma perspectiva distinta com relação à exploração do mineral. “Quando o ouro fica no frio das profundezas de terra, aí tudo está bem. Tudo está realmente bem. Ele não é perigoso. Quando os brancos tiram o ouro da terra, eles o queimam, mexem com ele em cima do fogo como se fosse farinha. Isto faz sair fumaça dele. Assim se cria a xawara que é a fumaça do ouro. Depois desta xawara wakêmi esta “epidemia fumaça”,vai se alastrando na floresta, lá onde moram os Yanomami, mas também na terra dos brancos, em todo lugar. É por isso que estamos morrendo. Por causa desta fumaça.”
+        En un testimonio registrado en marzo de 1990, el conocido líder Yanomami Davi Kopenawa revela una perspectiva distinta con respecto a la explotación del mineral. "Cuando el oro está en el frío de las profundidades de la tierra, todo está bien. Todo está realmente bien. No es peligroso. Cuando los blancos sacan el oro de la tierra, ellos lo queman, se mueven con él sobre el fuego como si fuera harina. Esto hace salir humo de él. Así se crea la xawara que es el humo del oro. Después de la  xawara wakémi, esta "epidemia humo" se va extendiendo en el bosque, allí donde viven los Yanomami, pero también en la tierra de los blancos, en todo lugar. Es por eso que estamos muriendo. A causa de este humo”.
       </Paragraph>
       <Quote author="Davi Kopenawa, líder Yanomami">
-        Quando o ouro fica no frio das profundezas de terra, aí tudo está bem. Tudo está realmente bem. Ele não é perigoso.
+        Cuando el oro está en el frío de las profundidades de la tierra, todo está bien. Todo está realmente bien. No es peligroso.
       </Quote>
       <Paragraph>
-        Apesar de algumas crenças milenaristas sobre o ouro, a atividade de mineração ilegal permeou os territórios indígenas da Amazônia e alterou as concepções tradicionais desse mineral. Mesmo alguns jovens se distanciaram das autoridades tradicionais, recusaram os ensinamentos dos avós e conhecimentos ancestrais e deixaram as escolas para se dedicar à atividade de mineração.
+        A pesar de las creencias milenarias sobre el oro, la actividad minera ilegal ha permeado los territorios indígenas amazónicos y ha alterado las concepciones tradicionales sobre este mineral. Incluso, algunos jóvenes se han distanciado de las autoridades tradicionales, se han rehusado a las enseñanzas de los abuelos y al conocimiento ancestral y han abandonado las escuelas para dedicarse a la actividad minera.
       </Paragraph>
       <Paragraph>
-        Deste modo, os anciãos, sábios e muitos líderes dos povos indígenas veem a influência da atividade de mineração em seus territórios como uma fonte de perigo para a integridade cultural, a gestão tradicional, o governo local sobre seus territórios e a saúde de seus povos.
+        De esta manera, los ancianos, sabios y muchos líderes de los pueblos indígenas ven a la influencia de la actividad minera en sus territorios como fuente de peligro para la integridad cultural, el manejo tradicional, la gobernabilidad local sobre sus territorios y la salud de sus pueblos.
       </Paragraph>
       <Paragraph>
-        Mesmo os casos que começaram há 30 anos, <StoryMedia
+        Incluso, casos que tuvieron sus inicios hace 30 años, como <StoryMedia
           media={{
             id: "galery-1",
             type: "gallery",
@@ -127,36 +127,36 @@ export default () => (
               ]
             }
           }}
-        >como as invasões de garimpeiros nos territórios Yanomami no Brasil e na Venezuela,</StoryMedia> ainda perduram e os danos à saúde e aos estilos de vida são evidentes. Hoje, estima-se que cinco mil garimpeiros atuem ilegalmente na Terra Indígena Yanomami, apenas em sua parte brasileira.
+        >las invasiones de mineros ilegales a  los territorios Yanomami en Brasil y Venezuela</StoryMedia>, aún perduran, y los daños a la salud y a las formas de vida son evidentes. Hoy, se estima que cinco mil mineros operan ilegalmente en la Tierra Indígena Yanomami.
       </Paragraph>
       <Paragraph>
-        Os relatos dos aldeões nas margens do rio Uiracoera indicam que, entre 1987 e 1989, os Yanomami conseguiram contar 2.003 balsas que trabalhavam perto da comunidade de Waikás. Com a conclusão da demarcação do território em 1991, o garimpo foi fechado. No entanto, isso começou a mudar em 2010, quando novas balsas chegaram ao rio. Os líderes tentaram impedir a retomada dos garimpos, mas os invasores se recusaram a sair argumentando que a atividade representava sua única fonte de sustento. Até o final de 2013, já havia 42 jangadas. <StoryMedia
-        media={{
-        id: "video-1",
-        type: "youtube",
-        data: {
-          id: "lC9kcGKyvBw"
-        }
-        }}>Já em 2016, um sobrevoo identifica 49 balsas.</StoryMedia>
+      Los informes de pobladores de aldeas ubicadas a orillas del río Uiracoera indicaban que, entre 1987 y 1989, los Yanomami llegaron a contar 2.003 balsas con dragas trabajando cerca de la comunidad de Waikas. Con la culminación de la demarcación del territorio en 1991, estas operaciones fueron cerradas. Sin embargo, esto empieza a cambiar en 2010, cuando nuevas dragas llegan a trabajar en el río. Los líderes intentaron impedir la reanudación de la explotación minera, pero los invasores se negaron a salir, argumentando que la actividad representaba su única fuente de sustento. A finales de 2013 las balsas ya  eran 42 ,<StoryMedia
+          media={{
+          id: "video-1",
+          type: "youtube",
+          data: {
+            id: "lC9kcGKyvBw"
+          }
+          }}>y en 2016, un sobrevuelo identificó 49 balsas.</StoryMedia>
       </Paragraph>
       <Paragraph>
-        Essas relatos sobre a atuação na terra Yanomami esclarecem o modo de agir das atividades ilegais de mineração. No rio Uiracoera, a informação mostra que a balsa funciona em dois grupos com turnos de nove horas cada. Cada grupo tem seis pessoas durante o dia e outras seis à noite. Além desses 12, a equipe inclui um gerente e uma pessoa que cozinha.
+        Estos relatos sobre la actividad  de balsas dentro de la tierra Yanomami arrojan luz sobre la forma de actuar  de la minería ilegal. En el río Uiracoera, las informaciones  revelan que en una balsa trabajan dos grupos en turnos de nueve horas cada uno. Cada grupo tiene seis personas de día y otras seis de noche. Además de estos 12 miembros, el equipo incluye a un gerente y una persona que cocina.
       </Paragraph>
       <Paragraph>
-        O gerente fica na área com a equipe. O dono da balsa, na cidade. Poucos têm mais de uma balsa e um gerente não gerencia mais de uma. Cerca de 40% do ouro coletado pela balsa é dividido entre os trabalhadores e a maior parte para o proprietário.
+        El gerente trabaja en el área con el equipo. El dueño de la balsa se queda en la ciudad. Pocos poseen más de una balsa, y un gerente no gestiona más de una balsa a la vez. El 40% del oro recogido por la balsa se divide entre los trabajadores y el 60% va al dueño de la balsa.
       </Paragraph>
       <Note>
-        <strong>A economia do garimpo</strong>
-        <br />preços em gramas de ouro
-        <p>. para subir o rio: 10g por pessoa<br />(pode pagar mais tarde, quando houver sucesso no garimpo)</p>
-        <p>. prostitutas: 3g por meia hora</p>
-        <p>. cerveja: 1 lata pequena por 20 reais ou 0,2 g</p>
-        <p>. 1 frango: 80 reais ou 0,8 g</p>
-        <p>. corte de cabelo: 0,5g</p>
-        <p>. 30 minutos de internet: 0,5g<br />(tem 10 pontos de internet na área)</p>
+        <strong> La economía del campamento minero ilegal</strong>
+        <br />Precios en gramos de oro
+        <p>. Para subir el río: 10g por persona.<br />Se puede pagar después, cuando el campamento tenga éxito.</p>
+        <p>. Prostitutas: 3 g por media hora.</p>
+        <p>. Cerveza: 1 lata pequeña por 20 reales o 0,2 gramos</p>
+        <p>. 1 pollo: 80 reales o 0,8 g</p>
+        <p>. Corte de pelo: 0,5g</p>
+        <p>. (Hay 10 puntos de internet en el área). <br /> 30 minutos cuesta 0,5 gramos.</p>
       </Note>
       <Paragraph>Zoom: 
-        No Peru, Puerto Luz é uma das 10 comunidades da <StoryMedia
+        En Perú, Puerto Luz es una de las diez comunidades del entorno de la <StoryMedia
         icon="map"
         media={{
         id: "map-11",
@@ -171,13 +171,13 @@ export default () => (
             zoomMin: 5,
             zoomMax: 12
           }
-        }}>Reserva Comunal Amarakaeri que sofre com a devastação da mineração de ouro indiscriminada.</StoryMedia> Seus habitantes, que somam mais de 400 pessoas, que vivem em meio a um panorama desolado. Como nas outras nove comunidades nativas da Reserva Comunal Amarakaeri, devido à presença da mineração de ouro e à falta de oportunidades, as famílias foram obrigadas a praticar a mineração artesanal. 
+        }}>Reserva Comunal Amarakaeri que sufre los embates de la extracción de oro indiscriminada</StoryMedia>. Sus habitantes, que son más de 400, viven en medio de un panorama desolador. Al igual que  en las otras nueve comunidades nativas de la zona de amortiguamiento de la Reserva Comunal Amarakaeri, debido a la presencia de la extracción de oro y a la falta de oportunidades, las familias se han visto obligadas a practicar la minería artesanal. 
       </Paragraph>
       <Paragraph>
-        <ExternalLink href="https://larepublica.pe/sociedad/1177491-los-harakbuts-el-pueblo-nativo-que-la-mineria-ilegal-asfixia-en-madre-de-dios" language="es">"Não buscamos ouro para ficar rico, nós só queremos o que é necessário para os nossos filhos para estudar",</ExternalLink> diz Virginia Kirihua, 36 anos, que desde a infância tem visto, em primeiro lugar, os homens brancos, em seguida, forasteiros, tornaram-se cada vez mais ambiciosos pelos seixos brilhantes que seus ancestrais confundiam com os grãos de milho. 
+        <ExternalLink href="https://larepublica.pe/sociedad/1177491-los-harakbuts-el-pueblo-nativo-que-la-mineria-ilegal-asfixia-en-madre-de-dios" language="es">"Nosotros no buscamos oro para hacernos ricos, solo buscamos lo necesario para que nuestros hijos estudien",</ExternalLink> afirma Virginia Kirihua, de 36 años, quien desde niña ha visto cómo, primero, los hombres blancos, y luego los foráneos cobrizos, se han vuelto cada vez más ambiciosos por esos piedrecitas brillantes que sus ancestros confundían con los granos del maíz que ellos cosechaban.
       </Paragraph>
       <Paragraph>
-        A Reserva Comunal Amarakaeri faz parte do sistema de áreas protegidas do Peru. Procura manter os valores culturais das <StoryMedia
+        La Reserva Comunal Amarakaeri forma parte del sistema de áreas protegidas del Perú y es patrimonio de la nación. Busca mantener y desarrollar los valores culturales de las <StoryMedia
         icon="map"
         media={{
         id: "map-12",
@@ -192,16 +192,16 @@ export default () => (
             zoomMin: 7,
             zoomMax: 10
           }
-        }}>comunidades nativas de Harakmbut,</StoryMedia> a qualidade e a quantidade de água, o equilíbrio ecológico e um ambiente adequado para o desenvolvimento das aldeias.
+        }}>comunidades nativas Harakmbut,</StoryMedia> la calidad y cantidad de agua, el equilibrio ecológico y un ambiente adecuado para el desarrollo de sus comunidades.
       </Paragraph>
       <Paragraph>
-        Outro caso emblemático denunciado pelas comunidades ocorre na província de Zamora Chinchipe, no Equador. É um megaprojeto de mineração a céu aberto, Mirador. Uma análise produzida em colaboração com a Amazon Conservation Team, Amazon Watch, Amazon Conservation e Ecociência  <ExternalLink href="https://maaproject.org/mirador/" language="es">demonstrou através de imagens de satélite o impacto do desmatamento entre 2009 e final de 2017, uma área de 1 307 hectares.</ExternalLink>
+        Otro caso emblemático denunciado por comunidades tiene lugar en la provincia de Zamora Chinchipe, en Ecuador. Se trata del megaproyecto minero a cielo abierto Mirador. Un <ExternalLink href="https://maaproject.org/mirador/" language="es">análisis producido</ExternalLink> en colaboración con  Amazon Conservation Team, Amazon Watch, Amazon Conservation, y EcoCiencia demuestra a través de imágenes satelitales el impacto de la deforestación causada desde 2009 hasta finales de 2017 en una zona de 1.307 hectáreas. 
       </Paragraph>
       <Paragraph>
-        Neste caso, os danos à mineração estão relacionados a concessões. Há uma sobreposição de mineração ilegal em lugares com concessões legais de mineração. Em maio de 2018, o Ministério do Meio Ambiente suspendeu 40% das obras em Mirador devido a violações ambientais.
+        En este caso, los daños provocados por la minería están relacionados con concesiones. El Ministerio del Ambiente suspendió en mayo de 2018 el 40% de las obras en Mirador por incumplimientos ambientales.
       </Paragraph>
       <Paragraph>
-        Conhecido por sua oposição à mineração, <StoryMedia
+        Un conocido opositor a la minería, <StoryMedia
         media={{
           id: "image-1",
           type: "image",
@@ -209,17 +209,17 @@ export default () => (
             credits: "Salvador Quishpe, em foto de junho de 2015, da agência Andes",
             src: require("photos/chapter4/24_AgenciaAndes_SalvadorQuishpe.jpg")
           }
-        }}>Salvador Quishpe, prefeito de Zamora Chinchipe,</StoryMedia> observa que os atores da mineração ilegal "parecem combinar a mineração e outras atividades ilegais, com lavagem de dinheiro. Isso também é acompanhado por atos criminosos, isto é, perseguindo pessoas que falam no sentido de não concordar com a destruição da natureza .”
+        }}>Salvador Quishpe, prefecto de Zamora Chinchipe</StoryMedia>, señaló igualmente que los actores de la minería ilegal “parece que combinan  la minería con  otro tipo de actividades ilícitas, como , lavado de dinero. Esto viene también acompañado de actos delictivos, como perseguir a la gente que no está de acuerdo con  que se destruya la naturaleza”.
       </Paragraph>
       <Paragraph>
-        Quishpe aponta que “o problema é que nunca existiu planejamento, e concessões mineiras foram dadas em qualquer lugar. As pessoas da área também começaram a buscar ouro. Por isso o maior problema é a falta de determinação de que área e para quê.”<br />
-        Em sua opinião, para as comunidades, os mais relevantes são os problemas ambientais. "Nós não temos um grande problema enquanto a mineração é feita dentro de uma zona. Se a mineração é legal ou ilegal não é a questão, porque para efeitos de contaminação nós não vemos qualquer diferença, os efeitos da poluição são os mesmos."
+        Quishpe señala que “el problema es que nunca existió planificación, y se ha entregado las concesiones mineras en cualquier lugar, y también la gente de la zona ha empezado a hacer minería de oro. Entonces el problema mayor es la falta de planificación, la falta de decisión sobre qué zona es para qué.”<br />
+        En su opinión, para las comunidades lo más relevante son los problemas ambientales. “Nosotros no nos hacemos mayor problema con que se haga la minería dentro de esa zona. Que sea legal o ilegal no llama la atención, porque para efectos de contaminación no vemos ninguna diferencia si ese proyecto minero es legal o ilegal, los efectos de contaminación son iguales”.
       </Paragraph>
       <Quote author="Salvador Quishpe, prefeito de zona afetada no Equador">
-        Se a mineração é legal ou ilegal não é a questão, porque para efeitos de contaminação nós não vemos qualquer diferença, os efeitos da poluição são os mesmos
+        Que sea legal o ilegal no llama la atención, porque para efectos de contaminación no vemos ninguna diferencia si ese proyecto minero es legal o ilegal, los efectos de contaminación son iguales
       </Quote>
       <Paragraph>
-        Em relação à mineração ilegal, Quishpe dá ênfase especial ao <StoryMedia
+      Respecto a la minería ilegal, Quishpe hace especial énfasis en el <StoryMedia
         media={{
           id: "image-2",
           type: "image",
@@ -227,24 +227,24 @@ export default () => (
             credits: "",
             src: require("photos/chapter4/26_Chinapintza_ImgSateliteSentinel2B_20181024.jpg")
           }
-        }}>setor Chinapintza (província de Zamora Chinchipe):</StoryMedia> "outro exemplo de mineração ilegal poderia ser Chinapintza, que também está dentro de uma área designada para mineração de acordo com nosso planejamento provincial. É ilegal, as pessoas não têm os títulos, outros têm, outros não têm, a maioria não tem, mas a contaminação é a mesma."
+        }}>sector Chinapintza (provincia de Zamora Chinchipe)</StoryMedia>. “El otro ejemplo de minería ilegal podría ser Chinapintza, que también está dentro de una zona destinada para minería de acuerdo a nuestra planificación provincial. Es ilegal, la gente no tiene títulos, algunos tienen, otros no tienen. La mayoría no tiene, pero la contaminación es igual”.
       </Paragraph>
       <Paragraph>
-        No Equador, em virtude da reforma da Lei de Minas em 2009, e de acordo com o tamanho da exploração, a mineração é dividida em mineração artesanal, pequena mineração, mineração média e mineração em grande escala, e é realizada sob duas modalidades: mineração de metálica e mineração de não metálico A mineração que vem se desenvolvendo no Equador responde a atividades artesanais e de pequena escala, principalmente na região sul.
+        En Ecuador, en virtud de la reforma a la Ley Minera, y de acuerdo al tamaño de la explotación, la minería se divide en minería artesanal, pequeña minería, mediana minería y gran minería. Asimismo, se desarrolla bajo dos modalidades: minería metálica y minería no  metálica. La minería que se ha venido desarrollando en el Ecuador responde a actividades de pequeña escala y artesanal principalmente en la zona sur.
       </Paragraph>
       <Paragraph>
-        Também na Bolívia e Peru, recentes leis de mineração tornaram a divisão entre mineração ilegal e legal bastante confusa. A aprovação da <FileLink
+        También en Bolivia, Ecuador y Perú leyes recientes de minería han hecho que la división entre minería ilegal y legal sea bastante confusa. La aprobación de <FileLink
           href={require("documents/chapter4/Ley535_de_mineria_y_metalurgia-2014.pdf")}
           format="pdf"
           size="680KB"
-        >Lei de Minas e Metalurgia nº 535</FileLink> desagradou os líderes indígenas da Bolívia. A principal queixa é a falta de consulta prévia dos povos indígenas. Na prática, a consulta não é mais obrigatória.
+        >la Ley de Minería y Metalurgia Nº 535</FileLink> generó el rechazo de los líderes indígenas de Bolivia. La principal queja es la falta de consulta previa a los pueblos indígenas. En la práctica, la consulta deja de ser obligatoria.
       </Paragraph>
       <Paragraph>
-        "A lei fortalece a política de expansão da mineração nas Tierras Bajas e reforça a posição das áreas de mineração em terras indígenas, parques naturais e áreas de elevado valor natural", diz <FileLink
+        "Consolida la política de expansión de la minería en las tierras bajas y consolida la posición de las áreas de minería en territorios indígenas, parques naturales y áreas de alto valor natural", afirma una <FileLink
           href={require("documents/chapter4/RESOLUCION-CUMBRE-LEY-MINERA.pdf")}
           format="pdf"
           size="3.7MB"
-        >resolução aprovada pelos movimentos indígenas em 05 de junho de 2014</FileLink> na Confederação dos Povos Indígenas da Bolívia.
+        >resolución aprobada por los movimientos indígenas</FileLink> el 5 de junio de 2014 en la Confederación de los Pueblos Indígenas de Bolivia.
       </Paragraph>
     </Container>
   </article>
