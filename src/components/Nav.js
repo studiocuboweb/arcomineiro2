@@ -4,34 +4,31 @@ import { FormattedMessage } from 'react-intl';
 import { NavLink } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { media } from 'styles/utils';
+import { Collapse } from 'react-collapse';
 
 const Wrapper = styled.nav`
   font-family: "Cinzel", serif;
   font-weight: 600;
   font-size: .4em;
-  text-align: center;
+  text-align: left;
   background: #f7f7f7;
   box-shadow: 0 .2rem .5rem rgba(0,0,0,0.05);
   position: relative;
   z-index: 10;
   flex: 0 0 auto;
   ol {
-    display: table;
-    table-layout: fixed;
-    width: 100%;
     margin: 0;
     padding: 0;
     li {
-      margin: 0;
+      list-style-type: none;
+      margin-left: 15px;
+      margin-top: 7px;
+      margin-bottom: 3px;
       padding: 0;
-      display: table-cell;
       line-height: 1;
-      position: relative;
       overflow: hidden;
       a {
-        position: relative;
         z-index: 1;
-        display: block;
         color: #aaa;
         padding: .5rem;
         text-transform: uppercase;
@@ -39,14 +36,6 @@ const Wrapper = styled.nav`
         overflow: hidden;
         text-overflow: ellipsis;
         border-bottom: 1px solid #ddd;
-        position: relative;
-        .progress {
-          display: block;
-          position: absolute;
-          left: 0;
-          bottom: 0;
-          height: 1px;
-          background: #bbb;
           transition: all .2s ease-in-out;
           z-index: 2;
         }
@@ -67,15 +56,37 @@ const Wrapper = styled.nav`
       }
     }
   }
-  ${media.phablet`
-    ol li a {
-      padding: 1rem 0 1rem .5rem;
-    }
-  `}
+  // ${media.phablet`
+  //   ol li a {
+  //     padding: 1rem 0 1rem .5rem;
+  //   }
+  // `}
   ${media.tablet`
     font-size: .6em;
   `}
   ${media.desktop`
+    text-align: center;
+    ol {
+      display: table;
+      table-layout: fixed;
+      width: 100%;
+      li {
+        display: table-cell;
+        position: relative;
+        a {
+          position: relative;
+          display: block;
+          .progress {
+            display: block;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 1px;
+            background: #bbb;
+          }
+        }
+      }
+    }
     ol li a {
       padding: 1rem 0 1rem .5rem;
     }
@@ -83,6 +94,27 @@ const Wrapper = styled.nav`
   ${media.desktopHD`
     font-size: .7em;
   `}
+
+  //////////
+
+  
+  .menu-icon-wrapper {
+    padding: 4px;
+    background-color: #F7F7F7;
+    border-bottom-right-radius: 2px;
+  }
+  .menu-toggle {
+    height: 11px;
+    width: 19px;
+    // position: absolute;
+    left: 15px;
+    top: 5px;
+    cursor: pointer;
+    margin-left: 0;
+    ${media.desktop`
+      display: none;
+    `}
+  }
 `
 
 const mapStateToProps = (state, ownProps) => {
@@ -110,9 +142,49 @@ const ProgressBar = connect(mapStateToProps)(({ ...props }) => {
 })
 
 class ArticleNav extends Component {
+
+  constructor(props) {
+    super(props);
+    this.toggleNavbar = this.toggleNavbar.bind(this);
+    this.checkResize = this.checkResize.bind(this);
+    this.state = {
+      collapsed: false
+    };
+  }
+
+  /**
+   * Add event listener
+   */
+  componentDidMount() {
+    window.addEventListener("resize", this.checkResize.bind(this));
+  }
+
+  /**
+   * Remove event listener
+   */
+  componentWillUnmount() {
+    window.removeEventListener("resize", this.checkResize.bind(this));
+  }
+
+  checkResize() {
+    if (((typeof window.orientation == "undefined") && (navigator.userAgent.indexOf('IEMobile') == -1))) {
+      this.setState({
+        collapsed: false
+      });
+    }
+  }
+
+  toggleNavbar() {
+    this.setState({
+      collapsed: !this.state.collapsed
+    });
+  }
+
   render () {
     return (
       <Wrapper>
+      <span className='menu-icon-wrapper'><i className="fa fa-bars menu-toggle" onClick={() => this.toggleNavbar()}></i></span>
+      <Collapse isOpened={!this.state.collapsed}>
         <ol>
           <li>
             <NavLink exact to="/story/introduction">
@@ -155,6 +227,7 @@ class ArticleNav extends Component {
             </NavLink>
           </li>
         </ol>
+      </Collapse>
       </Wrapper>
     )
   }
