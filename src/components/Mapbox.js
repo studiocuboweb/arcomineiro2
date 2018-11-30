@@ -6,53 +6,82 @@ import ReactMapGL from 'react-map-gl';
 import {fromJS} from 'immutable';
 import PropTypes from 'prop-types';
 import Dimensions from 'react-dimensions';
-import LegendMap1 from './mapbox/LegendMap1';
+import LegendMap from './mapbox/LegendMap';
+// import Map1_2 from './mapbox/LegendMap2';
 
 const MAPBOX_TOKEN = 'pk.eyJ1IjoiaW5mb2FtYXpvbmlhIiwiYSI6InItajRmMGsifQ.JnRnLDiUXSEpgn7bPDzp7g'; // Set your mapbox token here
 
 class MapBox extends Component {
 
-  state = {
-    mapStyle: '',
-    viewport: {
-      width: this.props.containerWidth,
-      height: this.props.containerHeight,
-      latitude: 37.7577,
-      longitude: -122.4376,      
-      zoom: 8
+  constructor(props) {
+    super(props);
+    this.state = {
+      mapStyle: '',
+      updated: true,
+      viewport: {
+        width: this.props.containerWidth,
+        height: this.props.containerHeight,
+        latitude: this.props.coordinates[1],
+        longitude: this.props.coordinates[0],   
+        minZoom: this.props.zoomMin,
+        maxZoom: this.props.zoomMax,   
+        zoom: this.props.zoomNumber
+      }
     }
+  }
+
+  _onViewportChange = viewport => {
+    this.setState({viewport});
+  }
+
+  //_onViewportChange = viewport => this.setState({viewport});
+  _onStyleChange = mapStyle => {  
+    this.setState({mapStyle});
   };
-
-  _onViewportChange = viewport => this.setState({viewport});
-  _onStyleChange = mapStyle => this.setState({mapStyle});
-
-  static propTypes = {
-    width: PropTypes.number.isRequired,
-    height: PropTypes.number.isRequired
+  componentWillReceiveProps(nextProps) {
+    if (nextProps.update !== this.props.update) {
+      //setTimeout(function(){this.setState({updated:false})}.bind(this),100)
+      console.log('nextProps.update !== this.props.update')
+      this.setState({updated:false})
+      setTimeout(
+        function() {
+          this.setState(
+            {
+              mapStyle: '',
+              updated:true,
+              viewport: {
+                width: this.props.containerWidth,
+                height: this.props.containerHeight,
+                latitude: this.props.coordinates[1],
+                longitude: this.props.coordinates[0],   
+                minZoom: this.props.zoomMin,
+                maxZoom: this.props.zoomMax,   
+                zoom: this.props.zoomNumber
+              }
+            })
+        }
+        .bind(this),
+        100
+      )
+    }
   }
-
-  componentDidMount() {
-    console.log('componentDidMount')
-    // console.log(this.props.containerWidth)
-    // this.setState({viewport:{
-    //   width: this.props.containerWidth,
-    //   height: this.props.containerHeight,
-    // }});
-  }
-
   render() {
-    const {viewport, mapStyle} = this.state;
+    const {viewport, mapStyle, updated} = this.state;
     return (
-      <ReactMapGL
-        {...viewport}
-        mapStyle={mapStyle}
-        onViewportChange={(viewport) => this.setState({viewport})}
-        //mapStyle={defaultMapStyle}
-        mapboxApiAccessToken={MAPBOX_TOKEN} >
-        <LegendMap1 containerComponent={this.props.containerComponent} onChange={this._onStyleChange} />
-      </ReactMapGL>
+      <div>
+      {
+        updated &&
+          <ReactMapGL
+            {...viewport}
+            mapStyle={mapStyle}
+            onViewportChange={this._onViewportChange}
+            //mapStyle={defaultMapStyle}
+            mapboxApiAccessToken={MAPBOX_TOKEN} >
+            <LegendMap mapStyle='' map={this.props.map} showExtraLayers={this.props.showExtraLayers} containerComponent={this.props.containerComponent} legend={this.props.legend} key={this.props.update} onChange={this._onStyleChange} />
+          </ReactMapGL>
+      }
+      </div>
     );
   }
 }
-
 export default Dimensions({elementResize: true})(MapBox)

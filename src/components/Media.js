@@ -9,7 +9,7 @@ import { media } from "styles/utils";
 import Video from "./Video";
 import YouTube from "./YouTube";
 import Map from "./Map";
-import MapBox from "./MapBox";
+import MapBox from "./Mapbox";
 import Gallery from "./Gallery";
 
 const Wrapper = styled.div`
@@ -180,9 +180,11 @@ class Media extends Component {
       case "mapbox": {
         return (
           <Wrapper preview={preview} active={active}>
+            {/* <div style={{'backgroundImage':`url(${media.backgroundAlternative})`}}>             */}
               {this.detectWebGLContext() &&
                 <MapBox {...media.data} />
               }
+            {/* </div> */}
           </Wrapper>
         );
       }

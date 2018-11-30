@@ -187,7 +187,7 @@ class ArticleNav extends Component {
       <Collapse isOpened={!this.state.collapsed}>
         <ol>
           <li>
-            <NavLink exact to="/story/introduction">
+            <NavLink exact to="/story">
               <FormattedMessage
                 id="articles.title1"
                 defaultMessage="title1" />

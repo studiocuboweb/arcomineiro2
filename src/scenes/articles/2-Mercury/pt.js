@@ -145,20 +145,17 @@ export default () => (
         Uma das regiões mais afetadas da Amazônia é o <StoryMedia
         icon="map"
         media={{
-        id: "map-1",
+        id: "map-6",
         type: "mapbox",
           data: {
-            layerId: "",
-            sourceOptionType: "vector",
-            sourceOptionUrl: "",
-            coordinates: [-50.040,-5.767],
-            style: "mapbox://styles/infoamazonia/cjmgv2m1s2q942spqd4naf2ke",
-            sourceId: "source1",
-            layerType: "fill",
-            sourceLayer: "",
-            layoutData: {"visibility":""},
-            paintData: {"fill-color":"#ea1f1f"},
-            zoomNumber: "5",
+            map: "map2",
+            legend:"map2",
+            update:"map2",
+            showExtraLayers: ['LEGENDA4- Yanomami_tis-afectadas'],
+            coordinates: [-63.693113,2.766774],
+            zoomNumber: 5.50,
+            zoomMin: 5,
+            zoomMax: 10
           }
         }}>território Yanomami, que se estende entre o Brasil e a Venezuela.</StoryMedia> Há <FileLink
         href={require("documents/chapter2/diagnostico_contaminacao_mercurio_terra_indigena_yanomami.pdf")}

@@ -32,20 +32,17 @@ export default () => (
         Um levantamento feito por organizações da Bolívia, Brasil, Colômbia, Equador, Peru e Venezuela confirma a existência de pelo menos <StoryMedia
         icon="map"
         media={{
-        id: "map-1",
+        id: "map1_1",
         type: "mapbox",
           data: {
-            layerId: "",
-            sourceOptionType: "vector",
-            sourceOptionUrl: "",
-            coordinates: [-50.040,-5.767],
-            style: "mapbox://styles/infoamazonia/cjmgv2m1s2q942spqd4naf2ke",
-            sourceId: "source1",
-            layerType: "fill",
-            sourceLayer: "",
-            layoutData: {"visibility":""},
-            paintData: {"fill-color":"#ea1f1f"},
-            zoomNumber: "5",
+            map: "map1",
+            legend:"map1",
+            update: "map1_1",
+            showExtraLayers: [],
+            coordinates: [-60.480084,-5.383769],
+            zoomNumber: 4.50,
+            zoomMin: 3,
+            zoomMax: 10
           }
         }}> 2312 pontos e 245 áreas de garimpo ou extração de minerais, como ouro, diamantes e coltan. Além disso, foram mapeados 30 rios</StoryMedia>
         afetados pela mineração ou rotas para a entrada de máquinas, insumos e a saída de minerais.
@@ -71,23 +68,21 @@ export default () => (
         De todos os pontos mapeados, a maioria está na Venezuela, depois no Brasil, Equador e Peru. Na Colômbia e Bolívia, as unidades de análise foram os rios, razão pela qual não aparecem quantificados como pontos. Entre as 245 áreas de extração, três estão na Bolívia, <StoryMedia
         icon="map"
         media={{
-        id: "map-2",
+        id: "map1_2",
         type: "mapbox",
-          data: {
-            layerId: "",
-            sourceOptionType: "vector",
-            sourceOptionUrl: "",
-            coordinates: [-50.040,-5.767],
-            style: "mapbox://styles/infoamazonia/cjmgv2m1s2q942spqd4naf2ke",
-            sourceId: "source1",
-            layerType: "fill",
-            sourceLayer: "",
-            layoutData: {"visibility":""},
-            paintData: {"fill-color":"#ea1f1f"},
-            zoomNumber: "5",
-          }
+        data: {
+          map: "map1",
+          legend:"map1",
+          update:"map1_2",
+          showExtraLayers: ['Para-MASCARA_div-politica-departamental'],
+          coordinates: [-57.105593,-6.390858],
+          zoomNumber: 7.60,
+          zoomMin: 5,
+          zoomMax: 22
+        }
         }}>132 no Brasil, principalmente na região do rio Tapajós</StoryMedia>, e 110 no Peru, em Madre de Dios. Este departamento peruano é considerado o setor da Amazônia com a mais pronunciada degradação causada por garimpos de ouro.
       </Paragraph>
+      
 
       <Quote author="Camilo Guio, vice-diretor da Gaia Amazonas">
         Essas atividades são feitas principalmente através de balsas e dragas, que não só têm efeitos ambientais no leito do rio, mas também o mau uso do mercúrio
@@ -97,21 +92,18 @@ export default () => (
         O vice-diretor da Gaia Amazonas, Camilo Guio, alerta que “essas atividades extrativas ilegais caracterizam-se por sua forma anti-técnica e insustentável. São <StoryMedia
         icon="map"
         media={{
-        id: "map-3",
+        id: "map1_3",
         type: "mapbox",
-          data: {
-            layerId: "",
-            sourceOptionType: "vector",
-            sourceOptionUrl: "",
-            coordinates: [-50.040,-5.767],
-            style: "mapbox://styles/infoamazonia/cjmgv2m1s2q942spqd4naf2ke",
-            sourceId: "source1",
-            layerType: "fill",
-            sourceLayer: "",
-            layoutData: {"visibility":""},
-            paintData: {"fill-color":"#ea1f1f"},
-            zoomNumber: "5",
-          }
+        data: {
+          map: "map1",
+          legend:"map1",
+          update:"map1_3",
+          showExtraLayers: ['COLOMBIA-MASCARA_div-politica-pais'],
+          coordinates: [-71.649086,0.296145],
+          zoomNumber: 6.00,
+          zoomMin: 3,
+          zoomMax: 22
+        }
         }}> feitas principalmente através de balsas e dragas, que não só têm efeitos ambientais no leito do rio</StoryMedia>, mas também o mau uso do mercúrio. Isso está causando danos à saúde das populações locais, especialmente dos povos indígenas".
       </Paragraph>
 
@@ -123,21 +115,18 @@ export default () => (
         Estas <StoryMedia
         icon="map"
         media={{
-        id: "map-4",
+        id: "map1_4",
         type: "mapbox",
-          data: {
-            layerId: "",
-            sourceOptionType: "vector",
-            sourceOptionUrl: "",
-            coordinates: [-50.040,-5.767],
-            style: "mapbox://styles/infoamazonia/cjmgv2m1s2q942spqd4naf2ke",
-            sourceId: "source1",
-            layerType: "fill",
-            sourceLayer: "",
-            layoutData: {"visibility":""},
-            paintData: {"fill-color":"#ea1f1f"},
-            zoomNumber: "5",
-          }
+        data: {
+          map: "map1",
+          legend:"map1",
+          update:"map1_4",
+          showExtraLayers: ['BOLIVIA-MASCARA_div-politica-pais'],
+          coordinates: [-65.224,-14.804],
+          zoomNumber: 6.20,
+          zoomMin: 5,
+          zoomMax: 22
+        },
         }}>fontes de informação foram tratadas com diferentes níveis de profundidade</StoryMedia> e, por outro lado, a velocidade de crescimento da mineração também foi diferente na região, de modo que as afetações que são atualmente consideradas como pontos, podem muito em breve tornar-se áreas de exploração. Desta forma, os números podem mudar, mas a verdade é que a área de afetação está aumentando. Na Venezuela, esta parece ser a situação, já que os relatórios mudam drasticamente a cada ano.
       </Paragraph>
 
@@ -175,6 +164,25 @@ export default () => (
             > mineração de pequena escala que atinge as partes mais remotas da Amazônia.</StoryMedia> Esta variedade põe em risco fragmentos de floresta considerados entre os mais bem conservados, bem como o deslocamento de comunidades indígenas em situação de isolamento voluntário.
       </Paragraph>
 
+      <Paragraph>
+        Da mesma forma, provavelmente não é possível identificar todos os cursos de água atualmente afetados pelo uso de balsas, especialmente quando não há comunidades indígenas que possam fornecer essas informações. Além da atividade em áreas remotas, há uma <StoryMedia
+        icon="map"
+        media={{
+        id: "map1_5",
+        type: "mapbox",
+        data: {
+          map: "map1",
+          legend:"map1_5",
+          update:"map1_5",
+          showExtraLayers: ['LEGENDA4 MINERACAO-LEGALZ4_mineria-pl'],
+          coordinates: [-60.480084,-5.383769],
+          zoomNumber: 4.50,
+          zoomMin: 3,
+          zoomMax: 10
+        },
+        }}>sobreposição entre mineração legal e ilegal que contribui para tornar a situação ainda mais confusa</StoryMedia> e, portanto, torna impossível dimensionar o problema em sua totalidade.
+      </Paragraph>
+      
       <Paragraph>
         Por isso, o mapa/plataforma de mineração ilegal da RAISG está em construção, os dados serão sempre atualizados, revisados e revalidados
       </Paragraph>

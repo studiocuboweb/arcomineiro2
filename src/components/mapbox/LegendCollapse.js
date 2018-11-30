@@ -38,7 +38,11 @@ class LegendCollapse extends React.Component {
                 <span className={this.state.arrowClass} style={{marginLeft:'0.5rem',color:'#333'}}></span>
                 <Collapse isOpened={this.state.collapse}>
                 { Object.keys(subcategories.subCategories[name]).map(function (key) {
-                    return <div className='mapbox_control-panel_subtitle'><span style={{'backgroundColor':subcategories.subCategories[name][key]}}></span>{key}</div>
+                    if (subcategories.subCategories[name][key].search("ico")) {
+                        return <div className='mapbox_control-panel_subtitle'><span style={{'backgroundColor':subcategories.subCategories[name][key]}}></span>{key}</div>
+                    } else {
+                        return <div className='mapbox_control-panel_subtitle'><span style={{'width':'15px',height:'15px'}}><img src={require('images/legend-icons/'+subcategories.subCategories[name][key]+'.svg')} alt={subcategories.subCategories[name][key]} title={subcategories.subCategories[name][key]} style={{'margin':0,'padding':0}} /></span>{key}</div>
+                    }
                 })}
                 </Collapse>
             </div>
