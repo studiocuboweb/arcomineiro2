@@ -24,7 +24,7 @@ const messages = defineMessages({
   },
   siteTitle: {
     id: "head.title",
-    defaultMessage: "Digging into the Mining Arc"
+    defaultMessage: "Sacked Amazon"
   }
 });
 

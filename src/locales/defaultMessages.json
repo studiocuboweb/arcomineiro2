@@ -11,7 +11,7 @@
   {
     "descriptors": [
       {
-        "defaultMessage": "Digging into the Mining Arc",
+        "defaultMessage": "Amazônia saqueada",
         "id": "head.title"
       },
       {
@@ -78,7 +78,7 @@
         "id": "about.title"
       },
       {
-        "defaultMessage": "Digging into the Mining Arc",
+        "defaultMessage": "Amazônia saqueada",
         "id": "head.title"
       },
       {
@@ -172,7 +172,7 @@
         "id": "share.title"
       },
       {
-        "defaultMessage": "Digging into the Mining Arc",
+        "defaultMessage": "Amazônia saqueada",
         "id": "head.title"
       }
     ],

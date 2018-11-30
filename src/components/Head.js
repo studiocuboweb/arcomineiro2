@@ -6,7 +6,7 @@ import { Helmet } from "react-helmet";
 const messages = defineMessages({
   title: {
     id: "head.title",
-    defaultMessage: "Digging into the Mining Arc"
+    defaultMessage: "Amazônia saqueada"
   },
   description: {
     id: "head.description",
