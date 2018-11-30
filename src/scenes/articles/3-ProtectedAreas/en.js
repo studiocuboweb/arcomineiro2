@@ -15,13 +15,13 @@ import Table from "components/blocks/Table";
 export default () => (
   <article>
     <Helmet>
-      <title>Áreas Protegidas |  Amazônia saqueada</title>
+      <title>Protected Areas | The Amazon Sacked</title>
     </Helmet>
     <Container>
-      <Title as="h2">Áreas Protegidas</Title>
+      <Title as="h2">Protected Areas</Title>
       <Note>
         <p>
-          Além das ameaças aos recursos hídricos e à saúde das comunidades na Amazônia, a mineração traz impactos diretos para as florestas e outros ecossistemas tropicais, como áreas úmidas e cerrados.
+          As well as the threats to water resources and the health of communities in the Amazon, mining has direct impacts on forests and other tropical ecosystems, such as wetlands and the cerrado tropical savannas.
         </p>
       </Note>
       <Paragraph>
@@ -33,14 +33,14 @@ export default () => (
             credits: "",
             src: require("photos/chapter3/09_DanielParanayba_ParqueNacionalJamanxim.jpg")
           }
-        }}>Um</StoryMedia> estudo realizado entre 2001 e 2013 por pesquisadores Nora L. Alvarez Berrios e T Michel Aide, ambos acadêmicos da Universidade de Puerto Rico - Rio Piedras, sugere que <FileLink
+        }}>A</StoryMedia> study carried out between 2001 and 2013 by researchers Nora L. Alvarez Berrios and T. Michel Aide, academics from the University of Puerto Rico - Rio Piedras, suggests that <FileLink
           href={require("documents/chapter3/Alvarez-Berrios_2015_Environ._Res._Lett._10_014006.pdf")}
           format="pdf"
           size="1.7MB"
-        >houve um aumento no desmatamento ligado à exploração de ouro nas principais áreas de floresta tropical na Amazônia.</FileLink> Além disso, as maiores áreas de extração estão localizadas em uma raio de 10 km de 31 áreas protegidas. 
+        >there was an increase in deforestation linked to gold exploration in the main areas of tropical rainforest in the Amazon</FileLink>. In addition, the largest areas of extraction are located within a 10 km radius of 31 protected areas.
       </Paragraph>
       <Paragraph>
-        De acordo com o trabalho, publicado em janeiro de 2015 no jornal Environmental Research Letters, houve uma aceleração da perda florestal em locais identificados como extração de ouro. Enquanto entre 2001 e 2006, o estudo indicou a perda de 377 km², entre 2007 e 2013 a perda foi de 1303 km². As três regiões identificadas com maior pressão são as florestas dos escudos das Guianas, as florestas úmidas do sudoeste amazônico e as florestas do Xingu e Tapajós no Brasil.
+        According to the study published in January 2015 in the journal Environmental Research Letters, there was an acceleration of forest loss at sites identified as gold mining locations. The study indicated a loss of 377 km² between 2001 and 2006, whereas between 2007 and 2013 the loss was 1303 km². The three regions identified as being under the greatest pressure were the forests of the Guiana shield, the humid forests of the southwestern Amazon, and the Xingu and Tapajós forests in Brazil.
       </Paragraph>
       <Paragraph>
         <StoryMedia
@@ -86,10 +86,10 @@ export default () => (
               ]
             }
           }}
-        >Em todos os países analisados pela RAISG, existe ​​evidência de danos a áreas naturais protegidas,</StoryMedia> desmatamento, apropriação de terras para a preservação e redução da vida selvagem em rios, florestas e outros ecossistemas naturais.
+        >In all countries surveyed by RAISG, there is evidence of damage to natural protected natural areas, </StoryMedia> deforestation, loss of conservation areas and loss of wildlife in rivers, forests and other natural ecosystems.
       </Paragraph>
       <Paragraph>
-        De acordo com a análise da RAISG, de <StoryMedia
+        According to the RAISG analysis, of <StoryMedia
         icon="map"
         media={{
         id: "map-7",
@@ -104,38 +104,38 @@ export default () => (
             zoomMin: 5,
             zoomMax: 10
           }
-        }}>363 áreas naturais protegidas, 64 estão diretamente afetadas e 24 têm pontos de extração ativos ou áreas dentro de seus limites</StoryMedia>. O resto sofre danos indiretos, seja em áreas de amortecimento ou nas bordas. Atividades ilegais e invasões se beneficiam da falta de investimentos e políticas públicas para o fortalecimento e o funcionamento de áreas naturais protegidas.
+        }}>649 natural protected natural areas, 64 are directly affected and 24 have active mining sites or areas within their boundaries.</StoryMedia>. The remainder have suffered indirect damage, either in their buffer zones or along their boundaries. Illegal activities and invasions take advantage of the lack of investment and public policies for the protection and management of natural protected areas.
       </Paragraph>
       <Table>
         <table>
             <tr>
-              <th>Áreas Protegidas -  situação</th>
-              <th>quantidade</th>
+              <th>Protected Areas - status</th>
+              <th>numbers</th>
             </tr>
             <tr>
-              <td>ameaça: garimpo no limite/entorno</td>
+              <td>threat: mining on their boundaries / in the buffer zone</td>
               <td>7</td>
             </tr>
             <tr>
-              <td>ameaça: garimpo inativo dentro</td>
+              <td>threat: inactive mining inside</td>
               <td>23</td>
             </tr>
             <tr>
-              <td>pressão: balsas dentro/no limite</td>
+              <td>pressure: barges inside / along the boundaries</td>
               <td>10</td>
             </tr>
             <tr>
-              <td>pressão: garimpo ativo dentro</td>
+              <td>pressure: active mining inside</td>
               <td>24</td>
             </tr>
             <tr>
-              <td>ANP sem afetação direta conhecida</td>
+              <td>PAs with no known direct impact</td>
               <td>299</td>
             </tr>
           </table>
         </Table>
       <Paragraph>
-        Um dos casos mais significativos desta falta de controle é o <StoryMedia
+        One of the most glaring cases of this lack of control is that of the <StoryMedia
         icon="map"
         media={{
         id: "map-8",
@@ -150,66 +150,66 @@ export default () => (
             zoomMin: 5,
             zoomMax: 14
           }
-        }}>Parque Nacional de Yapacana, na Venezuela, nas proximidades da confluência entre os rios Orinoco e Ventuari.</StoryMedia> Criada em 1978, a área protege paisagens amazônicas do Orinoco e Cerro Yapacana. Desde a década de 1980, são conhecidas as atividades de mineração de ouro dentro do parque nacional. No entanto, a ilegalidade tornou-se clara com alianças entre os mineiros e membros dissidentes das guerrilhas colombianas.
+        }}> Yapacana National Park in Venezuela, near the confluence of the Orinoco and Ventuari rivers</StoryMedia>. Created in 1978, the area protects the Amazonian landscapes of the Orinoco and the Cerro Yapacana. Since the 1980s, gold mining activities within the national park have been known about. However, the illegal situation has become public knowledge as a result of alliances between miners and dissident members of the Colombian guerrillas.
       </Paragraph>
       <Paragraph>
-        Notícias recentes, publicadas na imprensa colombiana e venezuelana, revelaram as constantes incursões de guerrilheiros na busca por ouro, diamante e coltan. Fala-se da presença de até 2.000 homens dentro da área do Yapacana. <StoryMedia
+        Recent reports in the Colombian and Venezuelan press have revealed the constant incursions of guerrillas in search of gold, diamond and coltan. There are up to 2,000 people in the Yapacana area. <StoryMedia
               media={{
               id: "video-1",
               type: "youtube",
               data: {
                 id: "yo0rwK1g9RE"
               }
-              }}>Uma coleção de imagens de satélite para o período 1989-2016 revela o progresso do desmatamento.</StoryMedia>
+              }}>A set of satellite images over the period 1989-2016 reveals the progress of deforestation.</StoryMedia>
       </Paragraph>
       <Paragraph>
-        Em agosto de 2016, um grupo de acadêmicos, religiosos, jornalistas e autoridades do estado do Amazonas apresentou a <FileLink
+        In August 2016, a group of academics, religious leaders, journalists and government officials from the state of Amazonas filed the <FileLink
           format="pdf"
           size="0.2MB"
           href={require("documents/chapter3/INFORME-QUE-PRESENTAN-PERSONAS-Y-ORGANISMOS-DEL-ESTADO-AMAZONA-SOBRE-LA-CORRUPCION-MILITAR-EN-LA-ZONA-_Autoguardado_.pdf")}
-        >seguinte queixa referente às atividades em Yapacana:</FileLink>
+        >following complaint in respect of activities in Yapacana:</FileLink>
       </Paragraph>
       <Paragraph>
-        "A guerrilha é aquela que gerencia todas as minas e distribui ouro, além de ficar com a maior parte enviando-a para a Colômbia. As forças armadas estacionadas no Amazonas têm sua grande fatia. A Guarda Nacional Bolivariana, a Marinha e a Força Aérea de vez em quando vão de helicóptero para as minas para obter a sua parte. A degradação ambiental é bestial e água do Orinoco na região não serve para beber ou comer devido ao mercúrio despejado em suas águas. Quem realmente cuida de sua saúde, consome água mineral ", descreve uma das seções do relatório.
+        "It is the guerrilla that manages all the mines and distributes the gold, as well as retaining the major share to send to Colombia. The armed forces stationed in Amazonas state take a large cut. The Bolivarian National Guard, the Navy and the Air Force periodically travel by helicopter to the mines to receive their share. The environmental degradation is horrendous. Water from the Orinoco in the region is not fit for drinking or food preparation as a result of the mercury dumped in its waters. Anyone who really cares about their health drinks mineral water", states one of the sections of the report.
       </Paragraph>
       <Paragraph>
-        A ação dentro de áreas naturais protegidas também foi identificada em diversas florestas localizadas na bacia do rio Tapajós, no Brasil. <StoryMedia
+        Such activity within natural protected areas has also been identified in several forests in the Tapajós river basin in Brazil. <StoryMedia
         media={{
         id: "video-2",
         type: "youtube",
         data: {
           id: "SCtFqfIp7U4"
         }
-        }}>Em voos realizados em abril de 2017</StoryMedia>, a equipe do Instituto Socioambiental (ISA) registrou a rápida transformação dos rios Novo, Branco e Jamanxim. Em um trecho dentro da Floresta Nacional de Altamira, um garimpo de 6,5 quilômetros de extensão pode ser avistado no vídeo. Segundo informações obtidas pelos técnicos da ISA, a abertura dessas áreas de mineração ocorreu em apenas três meses.
+        }}>During overflights in April 2017</StoryMedia>, a team from the Instituto Socioambiental (ISA) registered the rapid transformation of the Novo, Branco and Jamanxim rivers. In a stretch inside the Altamira National Forest, a 6.5 km-long mining area can be seen in the video. According to information obtained by ISA staff, the opening of these mining areas occurred in just three months.
       </Paragraph>
       <Paragraph>
-        O avanço dos garimpos nas áreas protegidas da bacia do Tapajós ocorreu em um momento em que o próprio governo brasileiro estava determinado a propor leis para a redução de medidas de proteção. Além disso, a destruição ocorre sem que os órgãos responsáveis, como o IBAMA e o ICMBio, consigam combatê-la. Um relatório publicado pela Intercept Brasil em junho daquele mesmo ano, revelou como <ExternalLink href="https://theintercept.com/2017/06/13/governo-esta-prestes-a-aprovar-projetos-a-favor-de-grilagem-e-outros-crimes-ambientais/" language="pt">madeireiros em aliança com garimpeiros destruíram pontes para impedir o acesso de equipes de inspeção.</ExternalLink>
+        The advance of mining into the protected areas of the Tapajós basin occurred at a time when the Brazilian government was attempting to pass laws to weaken protection measures. Such destruction also occurs because the responsible government agencies, such as IBAMA (environmental management) and ICMBio (protected areas) are unable to combat it. A report published by Intercept Brazil in June the same year showed how <ExternalLink href="https://theintercept.com/2017/06/13/governo-esta-prestes-a-aprovar-projetos-a-favor-de-grilagem-e-outros-crimes-ambientais/" language="pt">loggers in alliance with prospectors destroyed bridges to prevent access by inspection teams.</ExternalLink>
       </Paragraph>
       <Paragraph>
-        Grande parte da mineração ilegal de ouro e coltan na Amazônia colombiana é desenvolvido em grandes bacias hidrográficas como Putumayo, Caquetá, Apaporis, Guainía e Inírida, e outros corpos d´água menores como os rios Cotuhé, Puré e o canion Tatu. Estas atividades afetam áreas de gestão especiais (terras indígenas, parques nacionais, Ramsar, Reserva Florestal) e áreas de fronteira que são de grande importância cultural e ambiental, ou desempenham um papel importante na soberania alimentar das populações locais.
+        Much of the illegal mining of gold and coltan in the Colombian Amazon takes place in major river basins, such as the Putumayo, Caquetá, Apaporis, Guainía and Inírida, and other smaller water courses, such as the Cotuhé and Puré rivers and the Tatu canyon. These activities affect special management areas (indigenous lands, national parks, Ramsar sites and Forest Reserves) and frontier areas of great cultural and environmental importance, or that play an important role in the food sovereignty of local populations.
       </Paragraph>
       <Paragraph>
-        O padrão de <StoryMedia
+        This pattern of <StoryMedia
         media={{
         id: "video-3",
         type: "youtube",
         data: {
           id: "Omb7-pibnTk"
         }
-        }}>destruição ao longo dos rios também observado nas imediações da Reserva Nacional Tambopata, no departamento de Madre de Dios, Peru.</StoryMedia> O que chama a atenção, assim como nas áreas brasileiras, é a velocidade de expansão. Em apenas um semestre, ambas as margens do rio Malinowski, ao norte da reserva peruana foram tomadas de poças e lagoas para exploração.
+        }}>destruction along the rivers is also observed in the area around the Tambopata National Reserve, in the department of Madre de Dios, Peru.</StoryMedia> As in the Brazilian areas, what is striking is the speed of expansion. In just six months, both banks of the Malinowski River in the northern part of the reserve were overrun by mining ponds and lakes.
       </Paragraph>
       <Paragraph>
-        O projeto MAAP, que utiliza imagens de satélite para monitorar a Amazônia Andina identificou que a <ExternalLink href="https://maaproject.org/2015/tambopat/" language="es">invasão da Reserva Nacional Tambopata pela atividade de mineração ilegal de ouro começou no final de 2015.</ExternalLink> "Em áreas de La Pampa (setor Balata), Alto Malinowski e na Reserva Nacional de Tambopata, o <ExternalLink href="http://www.actualidadambiental.pe/?p=49390" language="es">desmatamento causado pela mineração entre janeiro de 2017 e fevereiro 2018 você foi de 1 320 hectares,</ExternalLink> com 651 hectares desse total entre outubro de 2017 e fevereiro de 2018 ", informa o site Actualidad Ambiental del Perú.
+        The MAAP project, using satellite images to monitor the Andean Amazon, found that the <ExternalLink href="https://maaproject.org/2015/tambopat/" language="es">invasion of the Tambopata National Reserve by illegal gold mining began in late 2015.</ExternalLink> "In areas of La Pampa (Balata sector), upper Malinowski and in the Tambopata National Reserve, between January 2017 and February 2018 <ExternalLink href="http://www.actualidadambiental.pe/?p=49390" language="es">the deforestation caused by mining was 1,200 hectares</ExternalLink>, with 651 hectares of this amount occurring between October 2017 and February 2018", states the Actualidad Ambiental del Peru site.
       </Paragraph>
       <Paragraph withMargin>
         <iframe frameborder="0" class="juxtapose" width="100%" height="500" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=c09a020c-ec1f-11e8-9dba-0edaf8f81e27"></iframe>
       </Paragraph>
       <Paragraph>
-        A situação em Madre de Dios contribuiu para que o desmatamento no Peru tenha atingindo níveis nunca registrados. De acordo com um estudo recém-lançado pelo Centro de Inovação Científica Amazônica (CINCIA), <ExternalLink href="https://news.wfu.edu/2018/11/08/rainforest-destruction-from-gold-mining-hits-all-time-high-in-peru/" language="en">em apenas cinco anos houve uma perda florestal de 170 mil hectares.</ExternalLink> Esse valor é pelo menos <ExternalLink href="https://news.wfu.edu/2018/11/08/rainforest-destruction-from-gold-mining-hits-all-time-high-in-peru/" language="en">30% maior do que o anunciado anteriormente por outro monitoramento.</ExternalLink>
+        The situation in Madre de Dios has contributed to the fact that deforestation in Peru has reached levels never previously recorded. According to a study recently released by the Centre for Scientific Innovation of Amazon Research (Cincia), <ExternalLink href="https://news.wfu.edu/2018/11/08/rainforest-destruction-from-gold-mining-hits-all-time-high-in-peru/" language="en">in just five years 170,000 hectares of forest was lost</ExternalLink>. This figure is at least <ExternalLink href="https://news.wfu.edu/2018/11/08/rainforest-destruction-from-gold-mining-hits-all-time-high-in-peru/" language="en">30% higher than those previously announced by another monitoring.</ExternalLink>
       </Paragraph>
 
       <Paragraph>
-        Na Bolívia, as reservas mais prósperas de vida selvagem e carbono estão nas zonas úmidas das Tierras Bajas e Yungas. Ainda assim, <StoryMedia
+        In Bolivia, the richest reserves of wildlife and carbon are in the wetlands of the Lowlands and the Yungas. Nevertheless, <StoryMedia
         icon="map"
         media={{
         id: "map-9",
@@ -224,17 +224,17 @@ export default () => (
             zoomMin: 6,
             zoomMax: 12
           }
-        }}>na área de Madidi e Pilón Lajas existem 41 operações de mineração.</StoryMedia> Apesar da ameaça óbvia causada pela mineração dentro da área protegida, essa atividade foi legalizada pelo governo. O CEDIB mostrou em uma apresentação por seu diretor Marco A Gandarillas Gonzáles que em apenas um ano, entre 2013 e 2014 mais de 194 direitos foram doados, o que equivale a mais de 100 mil hectares.
+        }}>in the Madidi and Pilón Lajas area there are 41 mining operations</StoryMedia>. Despite the obvious threat posed by mining within the protected area, this activity has been legalized by the government. In a presentation by its director Marco A. Gandarillas Gonzáles, CEDIB showed that in just one year, from 2013 to 2014, more than 194 rights were granted, equivalent to more than 100,000 hectares.
       </Paragraph>
       <Paragraph>
-        No documentário “Guardiões da Floresta” produzido em setembro 2016 pela Fundação Floresta Azul e Rede de Informação Ambiental (RAI), pode-se ver o <StoryMedia
+        In the documentary "Guardians of the Forest", produced in September 2016 by the Blue Forest Foundation and Environmental Information Network (RAI), you can see the <StoryMedia
         media={{
         id: "video-3",
         type: "youtube",
         data: {
           id: "zAvUPCRPcrk"
         }
-        }}>progresso das atividades de mineração em grande escala dentro da áreas protegidas de Madidi.</StoryMedia>
+        }}>progress of large-scale mining activities in the protected areas of the Madidi.</StoryMedia>
       </Paragraph>
     </Container>
   </article>
