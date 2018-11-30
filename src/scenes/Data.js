@@ -118,7 +118,7 @@ const About = ({ intl, lastPath }) => {
               />
             </strong>
             <br />
-            Bram Ebus/InfoAmazonia <br />
+            Lorem Ipsum/InfoAmazonia <br />
             Wilmer González/Correo del Caroní
           </Paragraph>
           <Paragraph>

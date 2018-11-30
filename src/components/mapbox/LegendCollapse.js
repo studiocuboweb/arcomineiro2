@@ -35,11 +35,11 @@ class LegendCollapse extends React.Component {
             <div key={name} className="input">
                 <input type="checkbox" checked={visibility} onChange={this._onChangeHandler.bind(this,name)} />
                 <label style={{pointerEvents:'auto',cursor:'pointer',zIndex:'-100',marginLeft:'0.5rem'}} onClick={this.toggle}>{label}</label>
-                <span className={this.state.arrowClass} style={{marginLeft:'0.5rem',color:'#333'}}></span>
+                <span className={this.state.arrowClass} style={{marginLeft:'0.5rem',color:'#C0C0C0'}}></span>
                 <Collapse isOpened={this.state.collapse}>
                 { Object.keys(subcategories.subCategories[name]).map(function (key) {
                     if (subcategories.subCategories[name][key].search("ico")) {
-                        return <div className='mapbox_control-panel_subtitle'><span style={{'backgroundColor':subcategories.subCategories[name][key]}}></span>{key}</div>
+                        return <div className='mapbox_control-panel_subtitle'><span style={{'backgroundColor':subcategories.subCategories[name][key],'height':'10px','width':'10px'}}></span>{key}</div>
                     } else {
                         return <div className='mapbox_control-panel_subtitle'><span style={{'width':'15px',height:'15px'}}><img src={require('images/legend-icons/'+subcategories.subCategories[name][key]+'.svg')} alt={subcategories.subCategories[name][key]} title={subcategories.subCategories[name][key]} style={{'margin':0,'padding':0}} /></span>{key}</div>
                     }

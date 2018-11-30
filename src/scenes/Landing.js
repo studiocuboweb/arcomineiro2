@@ -287,13 +287,13 @@ class Scene extends Component {
         <Top>
           <div className="partners">
             <img src={require("images/partners/infoamazonia.png")} />
-            {/* <img src={require("images/partners/correo.png")} /> */}
+            <img src={require("images/partners/ISA_min.png")} />
           </div>
           <SiteTitle />
           <h2>
             <FormattedMessage
               id="general.author"
-              defaultMessage="by Bram Ebus"
+              defaultMessage="by Lorem Ipsum"
             />
           </h2>
           <h3>

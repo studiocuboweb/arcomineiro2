@@ -259,11 +259,10 @@ export default class StyleControls extends PureComponent {
     return (
       <Container>
         <div style={this.state.displayLegendBG} className='control-panel-padding'>
-          <button className='fa fa-map mapbox_legend-ico mapbox_legend-block mapbox_legend-button' style={{'cursor':'pointer'}} onClick={this._toggleLegend.bind(this)}></button>
+          <button className='fa fa-map mapbox_legend-ico mapbox_legend-block mapbox_legend-button' style={{'cursor':'pointer',color:'#C0C0C0'}} onClick={this._toggleLegend.bind(this)}></button>
           <div style={this.state.displayLegend}>
             <div className='mapbox_legend-align-center'>
-              <h5>Legend</h5>
-              <a href='#' className='fa fa-window-close mapbox_legend-btn-close' onClick={this._toggleLegend.bind(this)}></a>
+              <a href='#' className='fa fa-window-close mapbox_legend-btn-close'  style={{'cursor':'pointer',color:'#C0C0C0'}} onClick={this._toggleLegend.bind(this)}></a>
             </div>
             <hr />
             { 

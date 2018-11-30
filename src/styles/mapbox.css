@@ -31,7 +31,8 @@
 }
 
 .control-panel label {
-    font-size:1rem;
+    font-size:0.8rem;
+    font-family: Helvetica, Arial, sans-serif !important;
 }
 
 .mapbox_legend-block {

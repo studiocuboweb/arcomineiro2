@@ -124,9 +124,17 @@ class Header extends Component {
       <Wrapper>
         <div className="header-content">
             <div className="site-title clearfix">
+              <div style={{'display':'inline-block'}}>
                 <a href="https://infoamazonia.org/" target="_blank">
-                  <img src={require("images/partners/infoamazonia-p.png")} className="logo-infoamazonia" />
+                  <img src={require("images/partners/infoamazonia-p.png")} className="logo-infoamazonia" style={{'height':'41px'}} />
                 </a>
+                <a href="https://www.socioambiental.org/pt-br" target="_blank">
+                  <img src={require("images/partners/ISA_min.png")} className="logo-infoamazonia" />
+                </a>
+              </div>
+              <div style={{'display':'inline-block'}}>
+                <h1 style={{'blo':'right'}}>Amazônia saqueada</h1>
+              </div>
             </div>
           <nav>
           {
@@ -141,12 +149,12 @@ class Header extends Component {
               <span className="fa fa-share-alt"></span>
             </NavLink>
            }
-          {
+          {/* {
             dataPath &&
             <NavLink to={dataPath} title="Dados">
               <span className="fa fa-database"></span>
             </NavLink>
-          }
+          } */}
           </nav>
         </div>
       </Wrapper>
