@@ -9,7 +9,8 @@ import Paragraph from "components/blocks/Paragraph";
 import Quote from "components/blocks/Quote";
 import FeaturedText from "components/blocks/FeaturedText";
 import Note from "components/blocks/Note";
-import EndChapter from "../../../components/blocks/EndChapter";
+import EndChapter from "components/blocks/EndChapter";
+import RelatedNews from "components/RelatedNews";
 
 export default () => (
   <article>

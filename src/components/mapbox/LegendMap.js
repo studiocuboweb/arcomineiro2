@@ -1,13 +1,13 @@
 import React, {PureComponent} from 'react';
 import {fromJS} from 'immutable';
-import MAP_STYLE1 from './styles/Map1.json';
-import MAP_STYLE2 from './styles/Map2.json';
-import MAP_STYLE3 from './styles/Map3.json';
-import MAP_STYLE4 from './styles/Map4.json';
-import MAP_STYLE5 from './styles/Map5.json';
-import MAP_STYLE6 from './styles/Map6.json';
+import MAP_STYLE1 from 'styles/Map1.json';
+import MAP_STYLE2 from 'styles/Map2.json';
+import MAP_STYLE3 from 'styles/Map3.json';
+import MAP_STYLE4 from 'styles/Map4.json';
+import MAP_STYLE5 from 'styles/Map5.json';
+import MAP_STYLE6 from 'styles/Map6.json';
 import "styles/mapbox.css";
-import LegendCollapse from './LegendCollapse';
+import LegendCollapse from 'LegendCollapse';
 import {Collapse} from 'react-collapse';
 
 
