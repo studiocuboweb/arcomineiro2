@@ -14,13 +14,13 @@ import EndChapter from "../../../components/blocks/EndChapter";
 export default () => (
   <article>
     <Helmet>
-      <title>Mercúrio | Amazônia saqueada</title>
+      <title>Mercurio | La Amazonía saqueada</title>
     </Helmet>
     <Container>
-      <Title as="h2">Mercúrio</Title>
+      <Title as="h2">Mercurio</Title>
       <Note>
         <p>
-          A grande quantidade de mercúrio usada na purificação do ouro está contaminando a Amazônia. A obtenção de ouro é o principal objetivo da mineração ilegal.
+          La gran cantidad de mercurio utilizado en la separación del oro está contaminando la Amazonía. La explotación aurífera es el principal objetivo de la minería ilegal.
         </p>
       </Note>
       <Paragraph>
@@ -32,10 +32,10 @@ export default () => (
             credits: "",
             src: require("photos/chapter2/04_OscarMujica-FZS_PE_Colorado.jpg")
           }
-        }}><strong>As cicatrizes na terra, as águas turvas dos rios</strong> são danos óbvios da mineração ilegal.</StoryMedia> Mas há um mal invisível que contamina a fauna amazônica e os habitantes da região. O mercúrio, de acordo com diferentes estudos, está afetando populações indígenas e locais que vivem perto ou trabalham em áreas de mineração de ouro, bem como aqueles que consomem peixe da Amazônia como parte de sua dieta.      
+        }}><strong>Las cicatrices en la tierra, las aguas turbias de los ríos son daños evidentes de la minería ilegal</strong></StoryMedia>. Pero hay un mal invisible que contamina la fauna amazónica y los habitantes de la región. El mercurio, revelan distintos estudios, está afectando a poblaciones indígenas y locales que viven cerca o trabajan en zonas de extracción de oro, así como aquellas que consumen peces amazónicos como parte de su dieta.
       </Paragraph>
       <Paragraph>
-        Ninguém come tantos peixes em sua dieta quanto o povo da Amazônia.
+        Nadie consume tanto pescado en su dieta como los pueblos de la Amazonía.
         <StoryMedia
               media={{
                 id: "galery-1",
@@ -91,20 +91,20 @@ export default () => (
                   ]
                 }
               }}
-            > Riberinhos e povos indígenas têm sua principal fonte de proteína em espécies de água doce.</StoryMedia> Mas se o peixe garante uma dieta rica e saborosa, eles também podem conter ameaças à saúde dessas populações. Estudos mostraram o acúmulo de mercúrio acima dos níveis recomendados pela Organização Mundial de Saúde em vários peixes usados ​​para consumo humano.
+            > Ribereños e indígenas tienen en las especies de agua dulce su principal fuente de proteína</StoryMedia> . Pero si bien los peces garantizan una alimentación nutritiva y sabrosa, también pueden entrañar amenazas para la salud de estas poblaciones. Los estudios han revelado la acumulación de mercurio por encima de los niveles recomendados por la Organización Mundial de la Salud en varias especies de peces utilizadas para el consumo humano. 
       </Paragraph>
       <Paragraph>
-        Este metal é biocumulativo em tecidos animais. Ou seja, a concentração de mercúrio será maior em peixes que se alimentam de peixes menores e seu efeito negativo sobre os seres humanos será ainda mais intenso.
+        Este metal es bioacumulado en los tejidos animales. Es decir, la concentración de mercurio será mayor en los peces que se alimentan de otros de menor tamaño y su efecto negativo sobre los humanos será aún mayor.
       </Paragraph>
       <Paragraph>
-        O mercúrio é usado na purificação do ouro. Os resíduos contaminam a água e o ar. Devolvido à natureza como metilmercúrio, este elemento causa um dano grave e altamente tóxico graças à acumulação permanente. O composto afeta o sistema nervoso central, causando problemas de perda de visão, de ordem cognitiva e motora, doença cardíaca e outras deficiências. Gestantes e crianças são as populações mais vulneráveis.
+        El mercurio se emplea en la depuración del oro, pero sus residuos contaminan el agua y el aire. Este metal retorna a la naturaleza en forma de metilmercurio, un compuesto altamente tóxico y cuyos efectos provocan daños graves y permanentes. Su acumulación en los tejidos humanos afecta el sistema nervioso central, causando problemas de orden cognitivo y motor, pérdida de visión y enfermedades cardíacas, entre otras afecciones. Las mujeres embarazadas y los niños son las poblaciones más vulnerables.
       </Paragraph>
       <Paragraph>
-        No Peru, resultados preliminares de um estudo realizado pelo Centro de Inovação Científica Amazônica (CINCIA)revelam que os <FileLink
+        En Perú, resultados preliminares de un <FileLink
           href={require("documents/chapter2/CINCIA-Research-Brief-2-v7.2-Mercurio-en-peces-de-pozas-mineras.pdf")}
           format="pdf"
           size="1.7MB"
-        >níveis de mercúrio em peixes são 43% maiores em poços abandonados pela mineração de ouro</FileLink> do que em áreas onde não há garimpo. <StoryMedia
+        >estudio realizado por  CINCIA</FileLink> revelan que los niveles de mercurio en peces son un 43% mayores en pozos abandonados por la minería de oro que en áreas donde no existen campamentos mineros. Se recolectó <StoryMedia
         media={{
           id: "galery-1",
           type: "gallery",
@@ -125,24 +125,24 @@ export default () => (
               }
             ]
           }
-        }}>Amostras de peixes foram coletadas</StoryMedia> em sete lagoas localizadas nas áreas de mineração abandonadas em Laberinto, Tambopata, Madre de Dios e Inambari. Além disso, amostras de peixes foram coletadas em dois lagos ou lagoas marginais e um rio dentro do Parque Nacional de Manu, como uma área de referência onde não há presença de atividade de mineração. 
+        }}>muestras de peces</StoryMedia> en siete lagunas ubicadas en zonas mineras abandonadas de Laberinto, Tambopata, Madre de Dios e Inambari. Adicionalmente se recolectó muestras de peces en dos lagunas y un río dentro del Parque Nacional Manu, como área de referencia donde no hay presencia de actividad minera.
       </Paragraph>
       <Paragraph>
-        Na Venezuela, a pedido da Organização Indígena do Caura Kuyujani, em 2010, foi realizado um <FileLink
+        En Venezuela, a pedido de la Organización Indígena del Caura Kuyujani, en 2010, se realizó <FileLink
           href={require("documents/chapter2/Informe_riesgo_exp_metilmercurio_Caura.pdf")}
           format="pdf"
           size="1.4MB"
-        >estudo para determinar o teor de mercúrio em algumas das principais espécies de peixes consumidas pelas comunidades na bacias do alto Caura.</FileLink> Todas as amostras apresentaram valores médios mais elevados do que o valor de 0,5 mg / kg, conforme permitido pela Organização Mundial da Saúde. Este é considerado um limite de segurança para usuários ocasionais, mas não para consumidores de alta frequência como as populações indígenas.
+        >un estudio para determinar el contenido de mercurio presente en algunas de las principales especies de peces consumidos por comunidades de la cuenca del alto río Caura</FileLink> . Todas las muestras presentaron valores medios más altos que el valor de 0,5 mg / kg reportado como permitido por la Organización Mundial de la Salud, que se considera límite de seguridad para usuarios ocasionales, pero no para los consumidores de alta frecuencia como en estas poblaciones indígenas.
       </Paragraph>
       <Paragraph>
-        O mesmo aconteceu no rio Orinoco, em sua rota pelo estado do Amazonas, na fronteira com a Colômbia, onde os pesquisadores Carlos Lasso e Luis Pérez, já em 2003, descobriram que <FileLink
+        Lo mismo ocurrió en el río Orinoco, en su recorrido por el estado Amazonas, en la  frontera con Colombia, donde los investigadores Carlos Lasso y Luis Pérez, ya en 2003, encontraron <FileLink
           href={require("documents/chapter2/2006_Lasso_et_al_Peces_Ventuari_Venezuela_114p.pdf")}
           format="pdf"
           size="11.8MB"
-        >nove das 17 espécies de consumo local habitual apresentavam valores de mercúrio superiores aos indicados pela OMS como o máximo permitido.</FileLink> Consequentemente, membros de Ye'kwana das regiões do Caura, Bolívar e Uwottüja, do Orinoco e estado do Amazonas, apresentaram, entre 2009 e 2010, altas concentrações de mercúrio no cabelo. Esta situação se repete nos peixes dos rios Paragua e Caroní, segundo as investigações de 2009. Desta forma, todos os grandes rios da Amazônia venezuelana possuem peixes com altos níveis de mercúrio antes mesmo do boom massivo da extração de ouro.
+        >que nueve de 17 especies de consumo local habitual presentaban valores de mercurio superiores a los señalados por la OMS como máximo permitido.</FileLink> Consecuentemente, miembros de las poblaciones Ye’kwana del Caura, estado Bolívar, y Uwottüja, del Orinoco, estado Amazonas, presentaron, para 2009 y 2010, altas concentraciones de mercurio en cabello. Esta situación se repite en peces de los ríos Paragua y Caroní, según investigaciones de 2009. De esta manera, todos los grandes ríos de la Amazonía venezolana presentaban peces con altos niveles de mercurio aún antes del boom masivo por la extracción de oro.
       </Paragraph>
       <Paragraph>
-        Uma das regiões mais afetadas da Amazônia é o <StoryMedia
+        Una de las regiones más afectadas en el Amazonas es el territorio Yanomami, que se extiende entre Brasil y Venezuela <StoryMedia
         icon="map"
         media={{
         id: "map-6",
@@ -157,37 +157,37 @@ export default () => (
             zoomMin: 5,
             zoomMax: 10
           }
-        }}>território Yanomami, que se estende entre o Brasil e a Venezuela.</StoryMedia> Há <FileLink
+        }}>território Yanomami, que se estende entre o Brasil e a Venezuela</StoryMedia>. Allí un <FileLink
         href={require("documents/chapter2/diagnostico_contaminacao_mercurio_terra_indigena_yanomami.pdf")}
         format="pdf"
-        size="1.4MB">um estudo realizado pelo Instituto Socioambiental (ISA), em parceria com a Fundação Oswaldo Cruz (Fiocruz)</FileLink>, onde foram coletadas 239 amostras de cabelo em nove aldeias em novembro de 2014. A  prioridade foi dada aos grupos mais vulneráveis à contaminação: crianças, mulheres em idade reprodutiva e adultos com alguma história de contato direto com a atividade de extração de ouro. Também foram coletadas 35 amostras de peixes que são parte fundamental da dieta alimentar das comunidades. O estudo foi realizado nas regiões de Papiú e Waikás, onde residem os grupos étnicos Yanomami e Ye'kwana.
+        size="1.4MB">estudio conducido por el Instituto Socioambiental (ISA), en alianza con la Fundación Oswaldo Cruz (Fiocruz)</FileLink>, ecogió 239 muestras de cabello en nueve aldeas en noviembre de 2014. Se dió prioridad a los grupos más vulnerables a la contaminación: niños, mujeres en edad reproductiva y adultos con algún historial de contacto directo con la actividad de extracción de oro. También se recolectaron 35 muestras de peces que son parte fundamental de la dieta alimentaria de este pueblo. El estudio se realizó en las regiones de Papiú y Waikás, donde residen las etnias Yanomami y Ye'kwana.
       </Paragraph>
       <Paragraph>
-        "O caso mais preocupante era o da comunidade Yanomami de Aracaçá, na região de Waikás, onde 92% de todas as amostras apresentaram níveis elevados de contaminação. Esta comunidade, entre todas as participantes, era a única com a presença de garimpos. Na região de Papiú, onde foram registradas as menores taxas de contaminação - 6,7% das amostras analisadas - a presença de garimpeira é menos acentuada ", disse um resumo dos <StoryMedia
+        "El caso más alarmante fue el de la comunidad Yanomami de Aracaçá, en la región de Waikás, donde el 92% del total de las muestras presentaron alto índice de contaminación. Esta comunidad, entre todas las encuestadas, es la que tiene el campamento minero más cercano. En la región de Papiú, donde se registraron los menores índices de contaminación - el 6,7% de las muestras analizadas - la presencia de la minería  es menos acentuada”, indicó un resumen de los <StoryMedia
               media={{
               id: "video-1",
               type: "youtube",
               data: {
                 id: "XWF1MKP7pwY"
               }
-              }}>resultados publicado pelo ISA.</StoryMedia>
+              }}>resultados publicado por el ISA.</StoryMedia>
       </Paragraph>
       <Paragraph>
-        Na Colômbia, grande parte da atividade de mineração ocorre em áreas de fronteira. Isso significa que as bacias compartilhadas se tornam as principais rotas de contaminação por mercúrio. A área mais afetada é ao longo do rio Caquetá. Um estudo do Instituto Nacional de Saúde da Colômbia sobre o rio Apaporis revela que até 80% das populações indígenas dessa região estão contaminadas por mercúrio.
+        En Colombia, mucha de la actividad minera tiene lugar en zonas de frontera. Esto significa que las cuencas compartidas se convierten en las principales vías de contaminación por mercurio. La zona más afectada se encuentra a lo largo del río Caquetá. Un estudio del Instituto Nacional de Salud de Colombia en el río Apaporis revela que hasta el 80% de las  poblaciones indígenas en esta región están contaminadas por el mercurio.
       </Paragraph>
       <Paragraph>
-        Na Bolívia, os dados do Centro de Documentación e Información Bolivia (CEDIB) <ExternalLink href="https://cedib.org/post_type_mapas/contaminacion-por-mercurio-en-la-amazonia-de-bolivia/" language="es">mostram que em 2015 as importações totais do produto químico alcançaram 35,793 quilos, 20 vezes mais do que 1.710 quilos registradas em 2010.</ExternalLink> O livro "Mercúrio na Bolívia: Linha de Base de usos, emissões e poluição "- apresentado pelos Ministérios das Relações Exteriores e do Meio Ambiente em 2016 - afirma que com 133 toneladas de mercúrio liberadas por ano, a Bolívia é o terceiro país das Américas em contaminação, 47% vem da exploração de ouro.
+        En Bolivia,<ExternalLink href="https://cedib.org/post_type_mapas/contaminacion-por-mercurio-en-la-amazonia-de-bolivia/" language="es">datos del CEDIB</ExternalLink> muestran que en 2015 la importación total de este metal llegó a 35.793 kilos, 20 veces más que los 1.710 kilos registrados “en 2010. El libro “Mercurio en Bolivia: Línea de base de usos, emisiones y contaminación" - presentado por los Ministerios de Relaciones Exteriores y Medio Ambiente en 2016 - sostiene que con 133 toneladas de mercurio liberadas al año, Bolivia es el tercer país de las Américas. El 47% procede de la explotación de oro.
       </Paragraph>
       <EndChapter>
-        <strong className='regular-title'>Convenção de Minamata</strong>
+        <strong className='regular-title'>El Convenio de Minamata</strong>
         <p className='regular-txt'>
-          A grave situação de contaminação por este mercúrio metálico em vários países levou à criação, pelas Nações Unidas, da <ExternalLink href="https://treaties.un.org/Pages/ViewDetails.aspx?src=IND&mtdsg_no=XXVII-17&chapter=27&clang=_en" language="en">Convenção de Minamata, em memória do desastre humano e ambiental que ocorreu na área costeira de Minamata</ExternalLink>, Japão, causada pelo consumo de peixe com altos níveis de mercúrio. O acordo entre 101 membros prevê maior controle sobre a importação, comercialização e descarte de mercúrio.  
+        La grave situación de contaminación por mercurio en varios países llevó a la creación por las Naciones Unidas del <ExternalLink href="https://treaties.un.org/Pages/ViewDetails.aspx?src=IND&mtdsg_no=XXVII-17&chapter=27&clang=_en" language="en">Convenio de Minamata, en memoria del desastre humano y ambiental ocurrido en la zona costera de Minamata</ExternalLink>, en Japón, causado por el consumo de peces con altos niveles de mercurio. El acuerdo entre 101 miembros prevé un mayor control de la importación, comercialización y descarte de mercurio.
         </p>
         <p className='regular-txt'>
-          Para <ExternalLink href="https://www.paginasiete.bo/sociedad/2018/9/23/importacion-de-mercurio-crecio-20-veces-194729.html" language="es">os países amazônicos que assinaram a convenção em 2013, o acordo entrou em vigor em 2017 ao superar o ponto de corte de 50 ratificações.</ExternalLink> Com exceção da Colômbia e da Venezuela, todos os outros países com território no bioma - incluindo a França - já assinaram e ratificaram a Convenção de Minamata. Além disso, todos os países do bioma estão realizando projetos de acordo com a convenção. 
+          Para <ExternalLink href="https://www.paginasiete.bo/sociedad/2018/9/23/importacion-de-mercurio-crecio-20-veces-194729.html" language="es">los países amazónicos que suscribieron la convención en 2013,  el acuerdo entró en vigor en 2017, al superar el punto límite de 50 ratificaciones.</ExternalLink> Salvo Colombia y Venezuela, todos los demás países con territorio en el bioma amazónico –incluida Francia– ya han firmado y ratificado el Convenio de Minamata. Además, todos los países del bioma se encuentran realizando proyectos para el convenio. 
         </p>
         <p className='regular-txt'>
-          Apesar de ainda não terem ratificado, Colômbia e a Venezuela também avançam promovendo projetos para determinar a capacidade institucional, reguladora, técnica e comercial do país, em conformidade com as obrigações da Convenção.  A Colômbia tem uma estratégia ambiciosa para eliminar o descarte irregular de mercúrio, que está incluído no plano do governo, lançado em novembro de 2018 e em vigor até 2023.
+        A pesar de no haber ratificado el Convenio todavía, Colombia y Venezuela también vienen adelantando proyectos a fin de determinar la capacidad institucional, normativa, técnica y comercial del país para cumplir con las obligaciones del Convenio. Colombia cuenta con una estrategia ambiciosa para eliminar el descarte irregular de mercurio, la cual se encuentra incluida en el plan de gobierno lanzado en noviembre de 2018 y vigente hasta 2023.
         </p>
       </EndChapter>
     </Container>
