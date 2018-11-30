@@ -56,6 +56,16 @@ const Wrapper = styled.nav`
       }
     }
   }
+  @media only screen and (max-width: 768px) {
+    li {
+      a {
+        font-size: 0.8rem
+      }
+    }
+    ol li {
+      padding: 1.1rem 0 1rem .5rem;
+    }
+  }
   // ${media.phablet`
   //   ol li a {
   //     padding: 1rem 0 1rem .5rem;
@@ -111,6 +121,7 @@ const Wrapper = styled.nav`
     top: 5px;
     cursor: pointer;
     margin-left: 0;
+    font-size:1.2rem;
     ${media.desktop`
       display: none;
     `}
@@ -156,6 +167,11 @@ class ArticleNav extends Component {
    * Add event listener
    */
   componentDidMount() {
+    if (((typeof window.orientation == "undefined") && (navigator.userAgent.indexOf('IEMobile') == -1))) {
+      this.setState({
+        collapsed: true
+      });
+    }
     window.addEventListener("resize", this.checkResize.bind(this));
   }
 
@@ -167,9 +183,10 @@ class ArticleNav extends Component {
   }
 
   checkResize() {
+    console.log('checkresize')
     if (((typeof window.orientation == "undefined") && (navigator.userAgent.indexOf('IEMobile') == -1))) {
       this.setState({
-        collapsed: false
+        collapsed: true
       });
     }
   }
@@ -184,7 +201,7 @@ class ArticleNav extends Component {
     return (
       <Wrapper>
       <span className='menu-icon-wrapper'><i className="fa fa-bars menu-toggle" onClick={() => this.toggleNavbar()}></i></span>
-      <Collapse isOpened={!this.state.collapsed}>
+      <Collapse isOpened={this.state.collapsed}>
         <ol>
           <li>
             <NavLink exact to="/story">
