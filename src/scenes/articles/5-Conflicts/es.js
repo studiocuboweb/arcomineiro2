@@ -39,7 +39,7 @@ export default () => (
         Además del impacto ambiental, existe un impacto cultural y económico en la perpetuación de la minería. No sólo existe el costo de la pérdida de actividades de las poblaciones tradicionales, sino la propia remediación de los sitios degradados.
       </Paragraph>
       <Paragraph>
-        La minería ilegal ha estado enmarcada en el contexto del conflicto armado en Colombia al constituir una de las principales fuentes de financiación de los actores armados ilegales en la Amazonía. Otro de los mecanismos por los cuales los grupos armados ilegales estaban asociados a la actividad, era a través del pago de vacunas o cuotas de funcionamiento y producción que eran cobrados a mineros para permitirles el desarrollo de sus actividades. 
+        La minería ilegal ha estado enmarcada en el contexto del conflicto armado en Colombia al constituir una de las principales fuentes de financiación de los actores armados ilegales en la Amazonía. Otro de los mecanismos por los cuales los grupos armados ilegales estaban asociados a la actividad, era a través del pago de vacunas o cuotas de funcionamiento y producción que eran cobrados a mineros para permitirles el desarrollo de sus actividades.
       </Paragraph>
       <Paragraph>
         En 2013, en Colombia, la Policía Nacional reveló que en más de la mitad de los municipios donde se extraía oro en el país había presencia de actores armados ilegales, y es que la ubicación geográfica de esta zona del país es estratégica por su carácter fronterizo, por su difícil acceso y por la precaria presencia de las instituciones del Estado en la zona.

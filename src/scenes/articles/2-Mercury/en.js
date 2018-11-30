@@ -14,13 +14,13 @@ import EndChapter from "../../../components/blocks/EndChapter";
 export default () => (
   <article>
     <Helmet>
-      <title>Mercúrio | Amazônia saqueada</title>
+      <title>Mercury | The Amazon Sacked</title>
     </Helmet>
     <Container>
-      <Title as="h2">Mercúrio</Title>
+      <Title as="h2">Mercury</Title>
       <Note>
         <p>
-          A grande quantidade de mercúrio usada na purificação do ouro está contaminando a Amazônia. A obtenção de ouro é o principal objetivo da mineração ilegal.
+          The large quantities of mercury used in the purification of gold is contaminating the Amazon. Obtaining gold is the main aim of the illegal mining.
         </p>
       </Note>
       <Paragraph>
@@ -32,10 +32,10 @@ export default () => (
             credits: "",
             src: require("photos/chapter2/04_OscarMujica-FZS_PE_Colorado.jpg")
           }
-        }}><strong>As cicatrizes na terra, as águas turvas dos rios</strong> são danos óbvios da mineração ilegal.</StoryMedia> Mas há um mal invisível que contamina a fauna amazônica e os habitantes da região. O mercúrio, de acordo com diferentes estudos, está afetando populações indígenas e locais que vivem perto ou trabalham em áreas de mineração de ouro, bem como aqueles que consomem peixe da Amazônia como parte de sua dieta.      
+        }}><strong>The scars on the ground, the murky waters of the rivers</strong> are the obvious impacts of the illegal mining.</StoryMedia> But there is an invisible evil that contaminates the Amazonian fauna and the inhabitants of the region. According to several studies, mercury is affecting indigenous and local populations who live nearby or work in gold mining areas, as well as those who consume Amazonian fish as part of their diet.
       </Paragraph>
       <Paragraph>
-        Ninguém come tantos peixes em sua dieta quanto o povo da Amazônia.
+        No one eats as much fish in their diet as the people of the Amazon.
         <StoryMedia
               media={{
                 id: "galery-1",
@@ -91,20 +91,20 @@ export default () => (
                   ]
                 }
               }}
-            > Riberinhos e povos indígenas têm sua principal fonte de proteína em espécies de água doce.</StoryMedia> Mas se o peixe garante uma dieta rica e saborosa, eles também podem conter ameaças à saúde dessas populações. Estudos mostraram o acúmulo de mercúrio acima dos níveis recomendados pela Organização Mundial de Saúde em vários peixes usados ​​para consumo humano.
+            > Riverine and indigenous peoples get most of their protein from freshwater species.</StoryMedia> But while fish guarantee a rich and tasty diet, they may also contain threats to the health of these populations. Studies have revealed an accumulation of mercury in several fish species used for human consumption at levels above those recommended by the World Health Organization (WHO).
       </Paragraph>
       <Paragraph>
-        Este metal é biocumulativo em tecidos animais. Ou seja, a concentração de mercúrio será maior em peixes que se alimentam de peixes menores e seu efeito negativo sobre os seres humanos será ainda mais intenso.
+        This metal is bio-accumulative in animal tissue. That is, concentrations of mercury will be higher in fish that feed on smaller fish and its negative effect on humans will be even more intense.
       </Paragraph>
       <Paragraph>
-        O mercúrio é usado na purificação do ouro. Os resíduos contaminam a água e o ar. Devolvido à natureza como metilmercúrio, este elemento causa um dano grave e altamente tóxico graças à acumulação permanente. O composto afeta o sistema nervoso central, causando problemas de perda de visão, de ordem cognitiva e motora, doença cardíaca e outras deficiências. Gestantes e crianças são as populações mais vulneráveis.
+        Mercury is used to purify gold. Residues contaminate water and air. Returned to the environment as methylmercury, this element causes serious and highly toxic damage thanks to persistent accumulation. The compound affects the central nervous system, causing problems of sight loss, cognitive and motor impacts, heart disease and other handicaps. Pregnant women and children are the most vulnerable categories.
       </Paragraph>
       <Paragraph>
-        No Peru, resultados preliminares de um estudo realizado pelo Centro de Inovação Científica Amazônica (CINCIA)revelam que os <FileLink
+        In Peru, preliminary results from a study by CINCIA reveal that <FileLink
           href={require("documents/chapter2/CINCIA-Research-Brief-2-v7.2-Mercurio-en-peces-de-pozas-mineras.pdf")}
           format="pdf"
           size="1.7MB"
-        >níveis de mercúrio em peixes são 43% maiores em poços abandonados pela mineração de ouro</FileLink> do que em áreas onde não há garimpo. <StoryMedia
+        >mercury levels in fish are 43% higher in wells abandoned by gold</FileLink> mining <StoryMedia
         media={{
           id: "galery-1",
           type: "gallery",
@@ -125,24 +125,24 @@ export default () => (
               }
             ]
           }
-        }}>Amostras de peixes foram coletadas</StoryMedia> em sete lagoas localizadas nas áreas de mineração abandonadas em Laberinto, Tambopata, Madre de Dios e Inambari. Além disso, amostras de peixes foram coletadas em dois lagos ou lagoas marginais e um rio dentro do Parque Nacional de Manu, como uma área de referência onde não há presença de atividade de mineração. 
+        }}>than in areas where there is no gold prospecting.</StoryMedia> Samples of fish were collected in seven lakes in the abandoned mining areas of Maze, Tambopata, Madre de Dios and Inambari. In addition, fish samples were collected in two lakes or riverside lagoons and a river in the Manu National Park, as a control area with no mining activity. 
       </Paragraph>
       <Paragraph>
-        Na Venezuela, a pedido da Organização Indígena do Caura Kuyujani, em 2010, foi realizado um <FileLink
+        In 2010 in Venezuela, at the request of the Indigenous Organization of Caura Kuyujani, <FileLink
           href={require("documents/chapter2/Informe_riesgo_exp_metilmercurio_Caura.pdf")}
           format="pdf"
           size="1.4MB"
-        >estudo para determinar o teor de mercúrio em algumas das principais espécies de peixes consumidas pelas comunidades na bacias do alto Caura.</FileLink> Todas as amostras apresentaram valores médios mais elevados do que o valor de 0,5 mg / kg, conforme permitido pela Organização Mundial da Saúde. Este é considerado um limite de segurança para usuários ocasionais, mas não para consumidores de alta frequência como as populações indígenas.
+        >a study was undertaken to determine the mercury content in some of the main fish species consumed by communities in the upper Caura basins</FileLink>. All the samples had an average value greater than the 0.5 mg/kg allowed by the World Health Organization as a safe limit for occasional users, but not for high-frequency consumers such as indigenous populations.
       </Paragraph>
       <Paragraph>
-        O mesmo aconteceu no rio Orinoco, em sua rota pelo estado do Amazonas, na fronteira com a Colômbia, onde os pesquisadores Carlos Lasso e Luis Pérez, já em 2003, descobriram que <FileLink
+        The same occurred on the Orinoco River, along its course through the state of Amazonas along the border with Colombia, where researchers Carlos Lasso and Luis Perez had already shown in 2003 that <FileLink
           href={require("documents/chapter2/2006_Lasso_et_al_Peces_Ventuari_Venezuela_114p.pdf")}
           format="pdf"
           size="11.8MB"
-        >nove das 17 espécies de consumo local habitual apresentavam valores de mercúrio superiores aos indicados pela OMS como o máximo permitido.</FileLink> Consequentemente, membros de Ye'kwana das regiões do Caura, Bolívar e Uwottüja, do Orinoco e estado do Amazonas, apresentaram, entre 2009 e 2010, altas concentrações de mercúrio no cabelo. Esta situação se repete nos peixes dos rios Paragua e Caroní, segundo as investigações de 2009. Desta forma, todos os grandes rios da Amazônia venezuelana possuem peixes com altos níveis de mercúrio antes mesmo do boom massivo da extração de ouro.
+        >nine of the 17 fish species usually consumed locally contained levels ​​of mercury superior to those recommended by the WHO as the maximum permitted</FileLink>. Subsequently in 2009 and 2010, members of Ye'kwana indigenous group from the Caura, Bolívar and Uwottüja regions, along the Orinoco and in the state of Amazonas, were found to have high levels of mercury in their hair. This situation was replicated in fish in the Paragua and Caroni rivers, according to research in 2009. Thus prior to the massive boom in gold mining, all the main rivers of the Venezuelan Amazon contained fish with high mercury levels.
       </Paragraph>
       <Paragraph>
-        Uma das regiões mais afetadas da Amazônia é o <StoryMedia
+        One of the most affected regions of the Amazon is the <StoryMedia
         icon="map"
         media={{
         id: "map-6",
@@ -157,26 +157,26 @@ export default () => (
             zoomMin: 5,
             zoomMax: 10
           }
-        }}>território Yanomami, que se estende entre o Brasil e a Venezuela.</StoryMedia> Há <FileLink
+        }}>Yanomami territory, which extends between Brazil and Venezuela</StoryMedia> A <FileLink
         href={require("documents/chapter2/diagnostico_contaminacao_mercurio_terra_indigena_yanomami.pdf")}
         format="pdf"
-        size="1.4MB">um estudo realizado pelo Instituto Socioambiental (ISA), em parceria com a Fundação Oswaldo Cruz (Fiocruz)</FileLink>, onde foram coletadas 239 amostras de cabelo em nove aldeias em novembro de 2014. A  prioridade foi dada aos grupos mais vulneráveis à contaminação: crianças, mulheres em idade reprodutiva e adultos com alguma história de contato direto com a atividade de extração de ouro. Também foram coletadas 35 amostras de peixes que são parte fundamental da dieta alimentar das comunidades. O estudo foi realizado nas regiões de Papiú e Waikás, onde residem os grupos étnicos Yanomami e Ye'kwana.
+        size="1.4MB">study by the Instituto Socioambiental (ISA) in partnership with the Oswaldo Cruz Foundation (Fiocruz)</FileLink> collected 239 hair samples in nine villages in November 2014. Priority was given to categories most at risk of contamination: women of reproductive age and adults with some history of direct contact with gold mining activities. The study also collected 35 samples of fish that constitute a fundamental part of the community diet. The study was conducted in the Papiú and Waikás regions, where Yanomami and Ye'kwana ethnic groups live.
       </Paragraph>
       <Paragraph>
-        "O caso mais preocupante era o da comunidade Yanomami de Aracaçá, na região de Waikás, onde 92% de todas as amostras apresentaram níveis elevados de contaminação. Esta comunidade, entre todas as participantes, era a única com a presença de garimpos. Na região de Papiú, onde foram registradas as menores taxas de contaminação - 6,7% das amostras analisadas - a presença de garimpeira é menos acentuada ", disse um resumo dos <StoryMedia
+        "The most worrisome case was that of the Yanomami community of Aracaçá, in the region of Waikás, where 92% of all samples presented high levels of contamination. Of all communities sampled, this was the only one with prospecting activity present. In the Papiú region, where the lowest contamination rates were recorded - 6.7% of the samples analysed - the presence of prospecting was less pronounced", said a summary of the <StoryMedia
               media={{
               id: "video-1",
               type: "youtube",
               data: {
                 id: "XWF1MKP7pwY"
               }
-              }}>resultados publicado pelo ISA.</StoryMedia>
+              }}>results published by ISA.</StoryMedia>
       </Paragraph>
       <Paragraph>
-        Na Colômbia, grande parte da atividade de mineração ocorre em áreas de fronteira. Isso significa que as bacias compartilhadas se tornam as principais rotas de contaminação por mercúrio. A área mais afetada é ao longo do rio Caquetá. Um estudo do Instituto Nacional de Saúde da Colômbia sobre o rio Apaporis revela que até 80% das populações indígenas dessa região estão contaminadas por mercúrio.
+        In Colombia, much of the mining activity occurs in frontier areas. This means that shared river basins become the main routes of mercury contamination. The most affected area is along the Caquetá River. Another study, on the Apaporis River by the National Institute of Health of Colombia revealed that up to 80% of the indigenous populations of this region are contaminated by mercury. 
       </Paragraph>
       <Paragraph>
-        Na Bolívia, os dados do Centro de Documentación e Información Bolivia (CEDIB) <ExternalLink href="https://cedib.org/post_type_mapas/contaminacion-por-mercurio-en-la-amazonia-de-bolivia/" language="es">mostram que em 2015 as importações totais do produto químico alcançaram 35,793 quilos, 20 vezes mais do que 1.710 quilos registradas em 2010.</ExternalLink> O livro "Mercúrio na Bolívia: Linha de Base de usos, emissões e poluição "- apresentado pelos Ministérios das Relações Exteriores e do Meio Ambiente em 2016 - afirma que com 133 toneladas de mercúrio liberadas por ano, a Bolívia é o terceiro país das Américas em contaminação, 47% vem da exploração de ouro.
+        In Bolivia, data from the Bolivia Documentation and Information Centre (CEDIB) show that <ExternalLink href="https://cedib.org/post_type_mapas/contaminacion-por-mercurio-en-la-amazonia-de-bolivia/" language="es">in 2015 total imports of mercury reached 35,793 kilos, 20 times more than the 1,710 kilos recorded in 2010</ExternalLink>. The book "Mercury in Bolivia: Baseline Uses, Emissions and Pollution", published in 2016 by the ministries of foreign affairs and the environment, states that with the release of 133 tons of mercury a year, Bolivia is the third most contaminated country in the Americas, with 47% coming from gold exploration.
       </Paragraph>
       <EndChapter>
         <strong className='regular-title'>Convenção de Minamata</strong>

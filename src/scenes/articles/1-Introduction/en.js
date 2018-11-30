@@ -16,20 +16,20 @@ import EndChapter from "components/blocks/EndChapter";
 export default () => (
   <article>
     <Helmet>
-      <title>Introdução | Amazônia saqueada</title>
+      <title>Introduction | The Amazon Sacked</title>
     </Helmet>
     <Container>
       <Note>
         <p>
-          Levantamento inédito aponta a existência de mais de 2000 pontos e 200 áreas de mineração ilegal nos ecossistemas florestais de seis países amazônicos.
+          Unique survey identifies the existence of more than 2000 sites and 200 areas of illegal mining in the forest ecosystems of six Amazonian countries.
         </p>
       </Note>
       <Paragraph>
-        Apesar de décadas de luta contra o extrativismo não-regulado, a mineração ilegal persiste, crescendo como um forte vetor de destruição e contaminação da Amazônia. A ânsia por minerais valiosos assemelha-se a uma epidemia, pois está em toda parte da selva tropical. Embora os garimpos sempre tenham sido uma atividade na região, a proliferação não é comparável a qualquer outro momento da história.
+        Despite decades of combatting unregulated extraction, illegal mining persists and is expanding into a powerful driver of destruction and contamination of the Amazon. The craving for valuable minerals resembles an epidemic, since it occurs everywhere across the rainforest. Although mining has always been a regional activity, its current proliferation is not comparable to any other period of its history.
       </Paragraph>
 
       <Paragraph>
-        Um levantamento feito por organizações da Bolívia, Brasil, Colômbia, Equador, Peru e Venezuela confirma a existência de pelo menos <StoryMedia
+        A survey conducted by organizations in Bolivia, Brazil, Colombia, Ecuador, Peru and Venezuela confirms the existence of at least <StoryMedia
         icon="map"
         media={{
         id: "map1_1",
@@ -44,28 +44,28 @@ export default () => (
             zoomMin: 3,
             zoomMax: 10
           }
-        }}> 2312 pontos e 245 áreas de garimpo ou extração de minerais, como ouro, diamantes e coltan. Além disso, foram mapeados 30 rios</StoryMedia>
-        afetados pela mineração ou rotas para a entrada de máquinas, insumos e a saída de minerais.
+        }}> 2312 sites and 245 areas of prospecting or extraction of minerals such as gold, diamonds and coltan. In addition, 30 rivers</StoryMedia>
+        affected by mining or acting as routes for the entry of machinery and inputs and the outlet of the minerals were mapped.
       </Paragraph>
 
       <Paragraph>
-        A <ExternalLink href="https://www.amazoniasocioambiental.org" language="pt">Rede Amazônica de Informação Socioambiental Georeferenciada (RAISG)</ExternalLink>{" "}, criada em 2007, reúne técnicos de seis países da Amazônia. Eles representam oito organizações da sociedade civil que atualizam constantemente bancos de dados sobre as principais ameaças à região amazônica.
+        The <ExternalLink href="https://www.amazoniasocioambiental.org" language="pt">Amazon Georeferenced Socio-Environmental Information Network (RAISG)</ExternalLink>{" "}, created in 2007, brings together experts from six Amazon countries. They represent eight civil society organizations that permanently update databases detailing the main threats to the Amazon region.
       </Paragraph>
 
       <Paragraph>
-        Nesta pesquisa inédita, a rede procurou dar uma visão geral da mineração ilegal em todo o território amazônico, que abrange 6,5 milhões de quilômetros quadrados. Seus membros compilaram informações primárias de aliados, análise de imagens de satélite e notícias publicadas na imprensa dos seis países até 2017.
+        In this unique research, the network seeks to provide an overview of illegal mining throughout the whole Amazonian territory, which covers seven million square kilometres. Its members compiled primary information from partners, analysis of satellite images and news stories published in the six countries up to 2017.
       </Paragraph>
 
       <Paragraph>
-        "A incidência de mineração ilegal na Amazônia, especialmente em territórios indígenas e áreas naturais protegidas tem crescido exponencialmente nos últimos anos com o aumento do preço do ouro. No entanto, é uma das pressões menos pesquisada. Por isso, a RAISG decidiu incluí-la como uma das questões que necessitam de monitoramento contínuo, especialmente por seus impactos sociais e ambientais ", diz o secretário-executivo Beto Ricardo.
+        "The incidence of illegal mining in the Amazon, especially in indigenous territories and natural protected areas, has grown exponentially in recent years with the increase in the price of gold. However, it is one of the pressures least well known. For this reason, RAISG has decided to make it an issue for continuous monitoring, especially for its social and environmental impacts", says Executive Secretary Beto Ricardo.
       </Paragraph>
 
       <Paragraph>
-        O mapeamento deu origem a uma ferramenta on-line que permite navegar por todos os pontos e áreas de   mineração ilegal. A <ExternalLink href="https://mineria.amazoniasocioambiental.org/" language="pt">plataforma digital contém as informações disponíveis</ExternalLink>{" "} para cada um dos pontos, áreas ou rios relacionados à presença de mineração, que inclui seu status atual (ativo ou inativo) e seu impacto em áreas naturais protegidas e territórios indígenas.
+        The mapping has resulted in an online tool that allows you to browse through all the illegal mining sites and areas. The <ExternalLink href="https://mineria.amazoniasocioambiental.org/" language="pt">digital platform contains the available information</ExternalLink>{" "} or each of the sites, areas, or rivers related to the presence of mining, including its current status (active or inactive) and its impact on natural protected areas and indigenous territories.
       </Paragraph>
 
       <Paragraph>
-        De todos os pontos mapeados, a maioria está na Venezuela, depois no Brasil, Equador e Peru. Na Colômbia e Bolívia, as unidades de análise foram os rios, razão pela qual não aparecem quantificados como pontos. Entre as 245 áreas de extração, três estão na Bolívia, <StoryMedia
+        Of all the sites mapped, the majority are in Venezuela, followed by Brazil, Ecuador and Peru. In Colombia and Bolivia, analysis was done by rivers, which is why it is not quantified by specific sites. Out of the 245 extraction areas, three are in Bolivia, <StoryMedia
         icon="map"
         media={{
         id: "map1_2",
@@ -80,16 +80,15 @@ export default () => (
           zoomMin: 5,
           zoomMax: 22
         }
-        }}>132 no Brasil, principalmente na região do rio Tapajós</StoryMedia>, e 110 no Peru, em Madre de Dios. Este departamento peruano é considerado o setor da Amazônia com a mais pronunciada degradação causada por garimpos de ouro.
+        }}>132 in Brazil, mainly in the Tapajós River region</StoryMedia>, and 110 in Peru, in Madre de Dios. This Peruvian department is considered the area of the Amazon with the most pronounced degradation caused by gold prospecting.
       </Paragraph>
-      
 
-      <Quote author="Camilo Guio, vice-diretor da Gaia Amazonas">
-        Essas atividades são feitas principalmente através de balsas e dragas, que não só têm efeitos ambientais no leito do rio, mas também o mau uso do mercúrio
+      <Quote author="Camilo Guio, deputy director of Gaia Amazonas">
+        These activities are carried out mainly with barges and dredgers, which not only have environmental impacts on the river bed, but also involve the misuse of mercury
       </Quote>
 
       <Paragraph>
-        O vice-diretor da Gaia Amazonas, Camilo Guio, alerta que “essas atividades extrativas ilegais caracterizam-se por sua forma anti-técnica e insustentável. São <StoryMedia
+        The deputy director of Gaia Amazonas, Camilo Guio, warns that "these illegal extractive activities are characterized by their rudimentary and unsustainable nature. They are <StoryMedia
         icon="map"
         media={{
         id: "map1_3",
@@ -104,15 +103,15 @@ export default () => (
           zoomMin: 3,
           zoomMax: 22
         }
-        }}> feitas principalmente através de balsas e dragas, que não só têm efeitos ambientais no leito do rio</StoryMedia>, mas também o mau uso do mercúrio. Isso está causando danos à saúde das populações locais, especialmente dos povos indígenas".
+        }}> carried out mainly with barges and dredgers, which not only have environmental impacts on the river bed</StoryMedia>, but also involve the misuse of mercury. This is causing damage to the health of local populations, especially indigenous peoples".
       </Paragraph>
 
       <Paragraph>
-        Os dados coletados pela RAISG, no entanto, são uma primeira aproximação à situação, que reflete um problema de magnitude desconhecida e cuja visão representa apenas uma parte do que realmente está acontecendo. Os casos relatados vêm de notificações de comunidades ribeirinhas e indígenas, da coleta de notícias e análise de imagens de satélite.
+        The data collected by RAISG, however, are a first approximation of the situation, reflecting a problem of unknown magnitude and whose picture represents only a part of what is really happening. The cases reported come from notifications from riverine and indigenous communities, from news gathering and satellite image analysis.
       </Paragraph>
 
       <Paragraph>
-        Estas <StoryMedia
+        These <StoryMedia
         icon="map"
         media={{
         id: "map1_4",
@@ -127,11 +126,11 @@ export default () => (
           zoomMin: 5,
           zoomMax: 22
         },
-        }}>fontes de informação foram tratadas com diferentes níveis de profundidade</StoryMedia> e, por outro lado, a velocidade de crescimento da mineração também foi diferente na região, de modo que as afetações que são atualmente consideradas como pontos, podem muito em breve tornar-se áreas de exploração. Desta forma, os números podem mudar, mas a verdade é que a área de afetação está aumentando. Na Venezuela, esta parece ser a situação, já que os relatórios mudam drasticamente a cada ano.
+        }}>sources of information were treated at differing levels of depth</StoryMedia> and, on the other hand, the rate of expansion of mining varies across the region, such that the places currently considered as single sites may very soon become areas of exploitation. In this way, the numbers may change, but it is clear that the total area is increasing. In Venezuela, this seems to be the situation, as reports change drastically every year.
       </Paragraph>
 
       <Paragraph>
-        Uma das desvantagens da metodologia seguida para levantar a informação é que ela pode não captar <StoryMedia
+        One of the drawbacks of the methodology used to gather the information is that it may not capture <StoryMedia
               media={{
                 id: "galery-1",
                 type: "gallery",
@@ -161,11 +160,11 @@ export default () => (
                   ]
                 }
               }}
-            > mineração de pequena escala que atinge as partes mais remotas da Amazônia.</StoryMedia> Esta variedade põe em risco fragmentos de floresta considerados entre os mais bem conservados, bem como o deslocamento de comunidades indígenas em situação de isolamento voluntário.
+            > small-scale mining that affects the most remote parts of the Amazon</StoryMedia> . This variety puts at risk forest fragments considered to be among the best preserved, as well as displacing indigenous communities in a state of voluntary isolation.
       </Paragraph>
 
       <Paragraph>
-        Da mesma forma, provavelmente não é possível identificar todos os cursos de água atualmente afetados pelo uso de balsas, especialmente quando não há comunidades indígenas que possam fornecer essas informações. Além da atividade em áreas remotas, há uma <StoryMedia
+        Likewise, it is probably not possible to identify all watercourses where barges are currently in use, especially when there are no indigenous communities that can provide this information. In addition to activity in remote areas, there is an <StoryMedia
         icon="map"
         media={{
         id: "map1_5",
@@ -180,27 +179,27 @@ export default () => (
           zoomMin: 3,
           zoomMax: 10
         },
-        }}>sobreposição entre mineração legal e ilegal que contribui para tornar a situação ainda mais confusa</StoryMedia> e, portanto, torna impossível dimensionar o problema em sua totalidade.
+        }}>overlap between legal and illegal mining that contributes to making the situation even more confusing</StoryMedia> and thereby making it impossible to determine the overall scale of the problem.
       </Paragraph>
       
       <Paragraph>
-        Por isso, o mapa/plataforma de mineração ilegal da RAISG está em construção, os dados serão sempre atualizados, revisados e revalidados
+        For this reason, as the RAISG illegal mining map and platform is further developed, data will be constantly updated, reviewed and revalidated.
       </Paragraph>
       
       <EndChapter>
-        <strong>Trabalhadores do Ouro</strong>
-        <p className="smaller-txt pull-left">Segundo o{" "}<FileLink
+        <strong>Gold Workers</strong>
+        <p className="smaller-txt pull-left">According to the{" "}<FileLink
           href={require("documents/chapter1/La-realidad-de-la-mineria-ilegal-en-paises-amazonicos-SPDA.pdf")}
           format="pdf"
           size="6.7MB"
-        >relatório "A realidade da mineração ilegal em países amazônicos"</FileLink>{" "}, <i>elaborado pela Sociedade Peruana de Direito Ambiental (SPDA, 2014), cerca de 600 mil pessoas estariam naquele momento envolvidas na exploração ilegal do ouro.</i></p> 
-        <p className="smaller-txt pull-left"><i>O aumento sustentado do preço do ouro e a evidência de mais pontos e áreas de mineração na região, indicam que nos últimos cinco anos esse número deve ter aumentado consideravelmente. </i></p>
-        {/* <div>Preço nas alturas</div>
-        Média anual do valor do ouro (em US$)<br/> */}
+        >report "The reality of illegal mining in Amazonian countries"</FileLink>{" "}, <i>prepared by the Peruvian Society for Environmental Law (SPDA, 2014), about 600,000 people were involved at that time in the illegal exploitation of gold. </i></p> 
+        <p className="smaller-txt pull-left"><i>The continued increase in the price of gold and the evidence of more mining sites and areas across the region suggest that over the last five years this number will have considerably increased.</i></p>
+        {/* <div>Sky high price</div>
+        Average annual value of gold (in US$)<br/> */}
         <div className="image-wrapper">
           <iframe id="datawrapper-chart-AMEaF" src="//datawrapper.dwcdn.net/AMEaF/1/" scrolling="no" frameborder="0" allowtransparency="true" style={{'width': '', 'minWidth': '70%', 'padding-bottom':'10px'}} height="400"></iframe>
           <p className="pull-right graph-description"><i>
-            A presença de ouro aluvial na América do Sul torna a mineração um setor essencial na economia da região. O alto preço do ouro tornou a extração viável em áreas que antes não eram lucrativas.
+            The presence of alluvial gold in South America makes mining an essential sector in the region's economy. The high price of gold has made extraction viable in areas previously unprofitable.
           </i></p>
         </div>
       </EndChapter>

@@ -15,13 +15,13 @@ import RelatedNews from "components/RelatedNews";
 export default () => (
   <article>
     <Helmet>
-      <title>Conflitos | Amazônia saqueada</title>
+      <title>Conflicts | The Amazon Sacked</title>
     </Helmet>
     <Container>
-      <Title as="h2">Conflitos</Title>
+      <Title as="h2">Conflicts</Title>
       <Note>
         <p>
-          As crises políticas na América do Sul também contribuíram para o aprofundamento dos conflitos envolvendo comunidades e territórios indígenas.
+          Political crises in South America have also contributed to the escalation of conflicts involving indigenous communities and their territories.
         </p>
       </Note>
       <Paragraph>
@@ -33,42 +33,42 @@ export default () => (
               credits: "Rogério Assis/ISA",
               src: require("photos/chapter4/26_Chinapintza_ImgSateliteSentinel2B_20181024.jpg")
             }
-          }}>Os impactos da mineração ilegal já são vistos como graves violações dos direitos humanos.</StoryMedia> A contaminação da água, a expulsão dos povos indígenas em isolamento voluntário são algumas indicações do dano ao bem comum.
+          }}>The impacts of illegal mining are already seen as serious human rights violations.</StoryMedia> Water contamination and the expulsion of indigenous peoples in voluntary isolation are among the indicators of harm to the common good.
       </Paragraph>
       <Paragraph>
-        Além das agressões ambientais, há um impacto cultural e econômico na perpetuação da mineração. Não existe apenas o custo da perda de atividades das populações tradicionais, mas a própria remediação dos locais degradados.
+        In addition to environmental degradation, the persistence of mining results in cultural and economic impacts. These includes not just the cost to traditional populations of the loss of their activities, but also the costs of remediation of degraded sites.
       </Paragraph>
       <Paragraph>
-        A mineração ilegal se enquadrada no contexto do conflito armado na Colômbia, uma vez que constitui uma das principais fontes de financiamento para atores armados ilegais na Amazônia. Outro mecanismo pelo qual os grupos armados ilegais estavam associados à atividade era através do pagamento de vacinas ou taxas de operação e produção que eram cobradas das mineradoras para que pudessem desenvolver suas atividades.
+        Illegal mining is situated within the context of the armed conflict in Colombia, since it constitutes one of the main sources of financing for illegal armed protagonists in the Amazon. Another mechanism by which illegal armed groups have got involved in the activity has been through payments for vaccines or through operating and production fees collected from the miners to allow them to continue their activities.
       </Paragraph>
       <Paragraph>
-        Em 2013, na Colômbia, a Polícia Nacional revelou que mais de metade dos municípios onde o ouro era extraído no país teve a presença de grupos armados ilegais, principalmente em zonas estratégicas de fronteira, devido ao difícil acesso e à presença precária de instituições do Estado na área.
+        In Colombia in 2013, the National Police revealed that more than half of the municipalities where gold was mined in the country contained illegal armed groups, mainly in strategic border areas, due to difficult access and the precarious presence of government institutions in the area.
       </Paragraph>
       <Paragraph>
-        De acordo com uma reportagem do jornal El Tiempo de junho de 2018, na qual são mencionados cálculos do Ministério da Defesa, "<ExternalLink href="https://www.eltiempo.com/justicia/conflicto-y-narcotrafico/mineria-ilegal-y-cultivos-de-coca-coinciden-en-74-municipios-233006" language="es">em apenas três anos, a Colômbia deixou de ter 78.939 hectares - uma área equivalente a duas vezes o tamanho de Medellín - de ecossistemas devastados pela mineração ilegal de ouro para 83.620 hectares afetados</ExternalLink>, esse crescimento, equivalente a seis por cento, significa que, apesar das advertências, esse fenômeno criminoso e predatório continua a se expandir. Além disso, as medições mostram que dos 131 municípios onde há exploração de ouro de aluvião, pelo menos em 74 também há plantações de coca."
+        According to a report by the El Tiempo newspaper in June 2018, based on calculations by the ministry of defence, "<ExternalLink href="https://www.eltiempo.com/justicia/conflicto-y-narcotrafico/mineria-ilegal-y-cultivos-de-coca-coinciden-en-74-municipios-233006" language="es">in just three years, Colombia saw 78,939 hectares - an area twice the size of Medellín – of ecosystems devastated by illegal gold mining increase to 83,620 hectares</ExternalLink>. This growth, equivalent to six percent, means that despite the warnings, this criminal and predatory phenomenon continues to expand. In addition, the data shows that of the 131 municipalities where alluvial gold is exploited, at least 74 also contain coca plantations".
       </Paragraph>
       <Paragraph>
-        Na Venezuela, a presença de grupos armados irregulares da Colômbia, ligados ao ELN e ao braço dissidente das FARC, é um segredo aberto. Ela envolveu-se em diferentes incidentes violentos em áreas de mineração, especialmente no estado de Bolívar, assim como atacam e matam militares da Venezuela em áreas de fronteira do estado do Amazonas, nas proximidades de Puerto Ayacucho, a capital.
+        In Venezuela, the presence of irregular Colombian armed groups, linked to the ELN and the dissident arm of the FARC, is an open secret. These have been involved in multiple violent incidents in mining areas, especially in the state of Bolivar, as well as attacking and killing Venezuelan soldiers in border areas of the state of Amazonas, near the capital Puerto Ayacucho.
       </Paragraph>
       <Paragraph>
-        A freqüência de ações de repressão do Estado à mineração ilegal aumentou e, com elas, os choques com populações que dependem da economia garimpeira. A prática comum entre os agentes ambientais é a <StoryMedia
+        The frequency of state crackdowns on illegal mining has increased, and with them, violent impacts on populations dependant on the prospecting economy. The common practice for environmental agencies is to <StoryMedia
         media={{
         id: "video-1",
         type: "youtube",
         data: {
           id: "XhKSyM0Uk-A"
         }
-        }}>destruição de equipamentos de extração mineral, como dragas e jangadas</StoryMedia>. O equipamento é queimado ou confiscado. Os atos encontraram resistência e, muitas vezes, atos de represália. Um caso recente que merece atenção foi a <ExternalLink href="https://www.youtube.com/watch?v=EUGSTxvaiPg" language="pt">revolta popular na cidade de Humaitá no estado do Amazonas, Brasil, onde a sede de órgãos ambientais foram queimados</ExternalLink> após a apreensão de balsas que extraem ouro no rio Madeira.
+        }}>destroy mining equipment such as dredges and barges</StoryMedia>. The equipment is burned or confiscated. These actions provoke resistance and, in many cases, acts of reprisal. A recent case that illustrates this was the <ExternalLink href="https://www.youtube.com/watch?v=EUGSTxvaiPg" language="pt">popular revolt in the town of Humaitá in the state of Amazonas, Brazil, where the offices of environmental agencies were burned</ExternalLink> following the seizure of gold mining barges on the Madeira River.
       </Paragraph>
       <Paragraph>
-        A resistência dos mineiros ilegais no Brasil tem recebido apoio político nas esferas mais altas do poder. Um <ExternalLink href="https://www1.folha.uol.com.br/ambiente/2017/08/1914113-deputado-quer-proibir-ibama-de-destruir-bens-apreendidos.shtml" language="pt">projeto lei apresentado ao Congresso Nacional visa exatamente retardar ações de repressão dos órgão ambientais</ExternalLink>, em especial a destruição de equipamentos.  
+        The pushback by illegal miners in Brazil has received political support at the highest levels. A <ExternalLink href="https://www1.folha.uol.com.br/ambiente/2017/08/1914113-deputado-quer-proibir-ibama-de-destruir-bens-apreendidos.shtml" language="pt">draft law submitted to the National Congress aims precisely to impede control activities by environmental agencies</ExternalLink>, especially the destruction of equipment.
       </Paragraph>
       <Paragraph>
-        Tendência semelhante, como relatado anteriormente, foi observada na Bolívia, Equador e Peru, onde os governos atenderam a demandas dos trabalhadores envolvidos na extração irregular de ouro e flexibilizaram leis. Criou-se assim uma zona cinza entre a ilegalidade e a caracterização da mineração artesanal, que propiciou a legitimação de atividades de alto impacto em regiões de grande importância para a conservação e para a sobrevivência de povos indígenas.
+        As previously mentioned, a similar trend can be seen in Bolivia, Ecuador, and Peru, where governments have ceded to the demands of workers involved in irregular gold mining and loosened legislation. This has created a grey zone between illegality and the nature of artisanal mining, which has allowed the legitimization of high impact activities in areas of high importance for conservation and for the survival of indigenous peoples.
       </Paragraph>
       <EndChapter>
         <p className='smaller-txt'>
-          "A mineração ilegal não concebe o futuro de nossos filhos. Embora possamos nos beneficiar no curto prazo, estamos destruindo o meio ambiente, nossa selva, nosso lar ", diz <StoryMedia
+          "Illegal mining does not consider the future of our children. While we may benefit in the short term, we are destroying the environment, our jungle, our home" says <StoryMedia
           media={{
             id: "image-3",
             type: "image",
@@ -77,23 +77,23 @@ export default () => (
               src: require('photos/chapter5/27_JuanPinto_AgustinOjeda_LiderShirian_Foto2018_Wataniba_9692-2.jpg')
             }
           }}
-        >Agustín Ojeda, líder shiriano do estado de Bolívar, Venezuela.</StoryMedia>
+        >Agustin Ojeda, a Shiriano leader from Bolivar state, Venezuela.</StoryMedia>
         </p>
         <p className='smaller-txt'>
-          Ele ressalta que a profunda mudança no modo de vida de seu povo e a adoção de novos hábitos prejudicaram seriamente os costumes ancestrais e, por sua vez, aumentaram os problemas de saúde. 
+          He points out that the profound change in the way of life of his people and the adoption of new habits have seriously damaged ancestral customs and, in turn, increased health problems.
         </p>
-        <Quote author="Agustín Ojeda, líder Shiriano">
-          <span>A mineração ilegal pode nos matar. Os poços de mineração permitem a reprodução de mosquitos que trazem doenças como a malária. O efeito do mercúrio na água também não é levado a sério; não só a contamina, mas também os peixes que usamos para comer</span>
+        <Quote author="Agustín Ojeda, Shiriano leader">
+          <span>"Illegal mining can kill us." Mining ponds enable the reproduction of mosquitoes that bring diseases such as malaria, and the effect of mercury on water is not taken seriously; mercury not only contaminates the water, but also the fish we eat</span>
         </Quote>
         <p className='smaller-txt'>
-          O líder Shirian acrescenta que a maioria de sua comunidade deixou o conuco (a roça). As estações de semeadura, abate e queima não são respeitadas, por isso a colheita é quase nula. "Atualmente você pode ver um indígena comprando um casabe de um crioulo em vez de produzi-lo." 
+          The Shiriano leader adds that most of his community have abandoned their fields. The sowing, clearing and burning seasons are not respected, so the harvest is almost nil. "Nowadays you see Indians buying cassava bread from non-Indians instead of making it".
         </p>
         <p className='smaller-txt'>
-          O líder Shirian acrescenta que a maioria de sua comunidade deixou o conuco (a roça). As estações de semeadura, abate e queima não são respeitadas, por isso a colheita é quase nula. "Atualmente você pode ver um indígena comprando um casabe de um crioulo em vez de produzi-lo." 
+          He argues that, given the complicated situation faced by indigenous peoples, a commitment by the responsible authorities to enact agreements that ensure greater welfare and better livelihoods, as well as respecting human rights, must take precedence over anything else. "If the pace of life that we live in Venezuela and the world continues, a time will come when we do not know who we are".
         </p>
       </EndChapter>
       <RelatedNews
-        title={"MAIS - Explore a Plataforma “Minería Ilegal” da RAISG"}
+        title={"MORE - Explore RAISG's “Illegal Mining” platform"}
         imageUrl={require("images/read-more.png")}
         href={"https://mineria.amazoniasocioambiental.org/"}
       />
