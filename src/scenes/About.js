@@ -12,6 +12,8 @@ import Page from "components/Page";
 import Container from "components/blocks/Container";
 import Paragraph from "components/blocks/Paragraph";
 import Title from "components/blocks/Title";
+import GeneralBlock from "components/blocks/GeneralBlock";
+import "styles/about.css";
 
 import { Link } from "react-router-dom";
 
@@ -78,38 +80,37 @@ const About = ({ intl, lastPath }) => {
           <Paragraph big>
             <FormattedMessage
               id="about.intro"
-              defaultMessage="This story was produced by {infoamazonia} in partnership with {correo} and support from {pulitzer} through “{grant}” funding."
+              defaultMessage="Amazônia Saqueada é um panorama da situação da mineração ilegal em seis países da Amazônia. As análises e casos apresentados estão baseados em dados da plataforma {MineriaIlegal}."
               values={{
-                infoamazonia: (
+                MineriaIlegal: (
                   <strong>
-                    <a href="http://infoamazonia.org/">InfoAmazonia</a>
+                    <a href="https://mineria.amazoniasocioambiental.org/" target="_blank">Minería Ilegal</a>
                   </strong>
-                ),
-                correo: (
-                  <strong>
-                    <a href="http://www.correodelcaroni.com/">
-                      Correo del Caroní
-                    </a>
-                  </strong>
-                ),
-                pulitzer: (
-                  <strong>
-                    <a href="http://pulitzercenter.org">
-                      Pulitzer Center on Crisis Reporting
-                    </a>
-                  </strong>
-                ),
-                grant: <em>Data Journalism and Property Rights Grants</em>
+                )
               }}
             />
           </Paragraph>
-          <Paragraph>
-            <strong>
-              <FormattedMessage id="about.reporter" defaultMessage="Reporter" />
-            </strong>
-            <br />
-            Bram Ebus
+          <Paragraph big>
+            <FormattedMessage
+              id="about.intro2"
+              defaultMessage="Este relatório digital publicado no dia 30 de novembro foi feito em aliança por:"
+            />
           </Paragraph>
+          <GeneralBlock>
+              <img src={require('images/partners/ISA_min.png')} title='RAISG' alt='RAISG' style={{'margin':'0 2rem 0 0'}}  align="left" />
+              <img src={require('images/partners/infoamazonia-p.png')} title='Infoamazonia' alt='Infoamazonia' style={{'margin':0,'height':'41px'}} />
+          </GeneralBlock>
+          <GeneralBlock>
+            <strong>
+              <FormattedMessage
+                id="about.pub_partners"
+                defaultMessage="Publishing partners"
+              />
+            </strong>
+            <p>
+              <img src={require('images/partners/ecociencia_min.png')} title='Ecociencia' alt='Ecociencia' style={{'margin':0}} align="left"/> <img src={require('images/partners/fan.png')} title='FAN' alt='FAN' style={{'margin':0}} align="left" /> <img src={require('images/partners/Gaia_min_png.png')} title='Gaia' alt='Gaia' style={{'margin':0}} align="left" /> <img src={require('images/partners/IBC_min_png.png')} title='IBC' alt='IBC' style={{'margin':0}} align="left" /> <img src={require('images/partners/Imazon_min_png.png')} title='Imazon' alt='Imazon' style={{'margin':0}} align="left" /> <img src={require('images/partners/provita_min_png.png')} title='Provita' alt='Provita' style={{'margin':0}} align="left"/> <img src={require('images/partners/Wataniba_min_png.png')} title='Wataniba' alt='Wataniba' style={{'margin':0}} />
+            </p>
+          </GeneralBlock>
           <Paragraph>
             <strong>
               <FormattedMessage
@@ -118,113 +119,9 @@ const About = ({ intl, lastPath }) => {
               />
             </strong>
             <br />
-            Bram Ebus/InfoAmazonia <br />
-            Wilmer González/Correo del Caroní
-          </Paragraph>
-          <Paragraph>
-            <strong>
-              <FormattedMessage
-                id="about.editor_chief"
-                defaultMessage="Editor in chief, maps, charts and translation to Portuguese"
-              />
-            </strong>
-            <br />
-            Stefano Wrobleski
-          </Paragraph>
-          <Paragraph>
-            <strong>
-              <FormattedMessage id="about.editors" defaultMessage="Editors" />
-            </strong>
-            <br />
-            Gustavo Faleiros/InfoAmazonia<br />
-            Oscar Murillo/Correo del Caroní
-          </Paragraph>
-          <Paragraph>
-            <strong>
-              <FormattedMessage
-                id="about.trans_spanish"
-                defaultMessage="Translation to Spanish"
-              />
-            </strong>
-            <br />
-            Leonardo Suárez Montoya/Correo del Caroní
-          </Paragraph>
-          <Paragraph>
-            <strong>
-              <FormattedMessage
-                id="about.copy_editors"
-                defaultMessage="Copy editors"
-              />
-            </strong>
-            <br />
-            Alex Kemman<br />
-            Joe Parkin Daniels<br />
-            Thomas Martinelli<br />
-            Kamran Rahman/Pulitzer Center
-          </Paragraph>
-          <Paragraph>
-            <strong>
-              <FormattedMessage
-                id="about.dev"
-                defaultMessage="Web Development and Design"
-              />
-            </strong>
-            <br />
-            Miguel Peixe/aparabólica
-          </Paragraph>
-          <Paragraph>
-            <strong>
-              <FormattedMessage
-                id="about.thanks"
-                defaultMessage="Special thanks"
-              />
-            </strong>
-            <br />
-            Lexys Rendón<br />
-            Maria de los Ángeles/Correo del Caroní<br />
-            Noraima Ángel/Vicariato de Puerto Ayacucho<br />
-            Pedro Ortíz/Red de Defensores y Defensoras Indígenas<br />
-            Yonnier Rivera
-          </Paragraph>
-          <Paragraph>
-            <strong>
-              <FormattedMessage
-                id="about.pub_partners"
-                defaultMessage="Publishing partners"
-              />
-            </strong>
-            <br />
-            <a href="https://armando.info/Reportajes/Resume/2386">
-              Armando.info
-            </a>,{" "}
-            <a href="https://www.elespectador.com/noticias/medio-ambiente/explorando-el-arco-minero-articulo-733555">
-              El Espectador
-            </a>,{" "}
-            <a href="http://www1.folha.uol.com.br/ambiente/2018/01/1950328-mineracao-leva-violencia-e-malaria-a-venezuela.shtml">
-              Folha de S. Paulo
-            </a>,{" "}
-            <a href="https://news.mongabay.com/2018/01/venezuelas-mining-arc-boom-sweeps-up-indigenous-people-and-cultures/">
-              Mongabay
-            </a>,{" "}
-            <a href="https://www.nrc.nl/nieuws/2018/01/15/leger-smokkelt-naar-abc-eilanden-a1588361">
-              NRC
-            </a>,{" "}
-            <a href="https://www.trouw.nl/home/venezolaans-leger-faciliteert-smokkel-naar-antillen~abe0a09b/">
-              Trouw
-            </a>.
-          </Paragraph>
-          <Paragraph>
-            <strong>
-              <FormattedMessage
-                id="about.supporter"
-                defaultMessage="Supporter"
-              />
-            </strong>
-            <br />
-            {/* <img
-              src={require("images/partners/pulitzer-center.png")}
-              alt="Pulitzer Center"
-            /> */}
+            Editor - Gustavo Faleiros<br />
+            Editora Imagens e Mapas - Juliana Mori<br />
+            Desenvolvimento Web - StudioCubo<br />
           </Paragraph>
           <Button>
             <div>
