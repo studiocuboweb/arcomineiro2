@@ -9,7 +9,7 @@ const desktopML = '8vw';
 const Wrapper = styled.div`
   padding: 1rem 0;
   background: #f7f7f7;
-  margin: 0 4vw;
+  margin: 0 4vw 4vh 4vw;
   position: relative;
   z-index: 1;
   border: 3px solid #FEEFAF;
@@ -27,8 +27,7 @@ const Wrapper = styled.div`
     `}
   `}
   ${media.desktopHD`
-    margin-bottom: 2rem;
-    margin: 0 4vw;
+    margin: 0 4vw 4vh 4vw;
   `}
   .end-chapter-content {
     margin: 0 1vw;
