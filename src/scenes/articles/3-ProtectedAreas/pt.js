@@ -37,7 +37,7 @@ export default () => (
           href={require("documents/chapter3/Alvarez-Berrios_2015_Environ._Res._Lett._10_014006.pdf")}
           format="pdf"
           size="1.7MB"
-        >houve um aumento no desmatamento ligado à exploração de ouro nas principais áreas de floresta tropical na Amazônia.</FileLink> Além disso, as maiores áreas de extração estão localizadas em uma raio de 10 km de 31 áreas protegidas. 
+        >houve um aumento no desmatamento ligado à exploração de ouro nas principais áreas de floresta tropical na Amazônia.</FileLink> Além disso, as maiores áreas de extração estão localizadas em um raio de 10 km de 31 áreas protegidas. 
       </Paragraph>
       <Paragraph>
         De acordo com o trabalho, publicado em janeiro de 2015 no jornal Environmental Research Letters, houve uma aceleração da perda florestal em locais identificados como extração de ouro. Enquanto entre 2001 e 2006, o estudo indicou a perda de 377 km², entre 2007 e 2013 a perda foi de 1303 km². As três regiões identificadas com maior pressão são as florestas dos escudos das Guianas, as florestas úmidas do sudoeste amazônico e as florestas do Xingu e Tapajós no Brasil.
@@ -186,7 +186,7 @@ export default () => (
         O avanço dos garimpos nas áreas protegidas da bacia do Tapajós ocorreu em um momento em que o próprio governo brasileiro estava determinado a propor leis para a redução de medidas de proteção. Além disso, a destruição ocorre sem que os órgãos responsáveis, como o IBAMA e o ICMBio, consigam combatê-la. Um relatório publicado pela Intercept Brasil em junho daquele mesmo ano, revelou como <ExternalLink href="https://theintercept.com/2017/06/13/governo-esta-prestes-a-aprovar-projetos-a-favor-de-grilagem-e-outros-crimes-ambientais/" language="pt">madeireiros em aliança com garimpeiros destruíram pontes para impedir o acesso de equipes de inspeção.</ExternalLink>
       </Paragraph>
       <Paragraph>
-        Grande parte da mineração ilegal de ouro e coltan na Amazônia colombiana é desenvolvido em grandes bacias hidrográficas como Putumayo, Caquetá, Apaporis, Guainía e Inírida, e outros corpos d´água menores como os rios Cotuhé, Puré e o canion Tatu. Estas atividades afetam áreas de gestão especiais (terras indígenas, parques nacionais, Ramsar, Reserva Florestal) e áreas de fronteira que são de grande importância cultural e ambiental, ou desempenham um papel importante na soberania alimentar das populações locais.
+        Grande parte da mineração ilegal de ouro e coltan na Amazônia colombiana é desenvolvida em grandes bacias hidrográficas como Putumayo, Caquetá, Apaporis, Guainía e Inírida, e outros corpos d´água menores como os rios Cotuhé, Puré e o cânion Tatu. Estas atividades afetam áreas de gestão especiais (terras indígenas, parques nacionais, Ramsar, Reserva Florestal) e áreas de fronteira que são de grande importância cultural e ambiental, ou desempenham um papel importante na soberania alimentar das populações locais.
       </Paragraph>
       <Paragraph>
         O padrão de <StoryMedia

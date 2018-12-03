@@ -127,7 +127,7 @@ export default () => (
           zoomMin: 5,
           zoomMax: 22
         },
-        }}>fontes de informação foram tratadas com diferentes níveis de profundidade</StoryMedia> e, por outro lado, a velocidade de crescimento da mineração também foi diferente na região, de modo que as afetações que são atualmente consideradas como pontos, podem muito em breve tornar-se áreas de exploração. Desta forma, os números podem mudar, mas a verdade é que a área de afetação está aumentando. Na Venezuela, esta parece ser a situação, já que os relatórios mudam drasticamente a cada ano.
+        }}>fontes de informação foram tratadas com diferentes níveis de profundidade</StoryMedia> e, por outro lado, a velocidade de crescimento da mineração também foi diferente na região, de modo que as afetações que são atualmente consideradas como pontos, podem muito em breve tornar-se áreas de exploração. Desta forma, os números podem mudar, mas a verdade é que a área de afetação, está aumentando. Na Venezuela, esta parece ser a situação, já que os relatórios mudam drasticamente a cada ano.
       </Paragraph>
 
       <Paragraph>
@@ -184,7 +184,7 @@ export default () => (
       </Paragraph>
       
       <Paragraph>
-        Por isso, o mapa/plataforma de mineração ilegal da RAISG está em construção, os dados serão sempre atualizados, revisados e revalidados
+        Por isso, o mapa/plataforma de mineração ilegal da RAISG está em construção, os dados serão sempre atualizados, revisados e revalidados.
       </Paragraph>
       
       <EndChapter>

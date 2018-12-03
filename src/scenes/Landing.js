@@ -287,7 +287,7 @@ class Scene extends Component {
         <Top>
           <div className="partners">
             <img src={require("images/partners/infoamazonia.png")} />
-            {/* <img src={require("images/partners/correo.png")} /> */}
+            <img src={require("images/partners/raisg-branco.png")} /> 
           </div>
           <SiteTitle />
           <h2>
