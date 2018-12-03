@@ -21,6 +21,16 @@ const Wrapper = styled.header`
     margin-bottom: 0.6rem!important;
   `}
   }
+  .logo-raisg {
+    margin-bottom: 1rem;
+    vertical-align: middle;
+    ${media.phablet`
+      margin-bottom: 0.4rem!important;
+    `}
+    ${media.desktop`
+    margin-bottom: 0.6rem!important;
+  `}
+  }
   .logo-am {
     vertical-align: middle;
   }
@@ -128,8 +138,8 @@ class Header extends Component {
                 <a href="https://infoamazonia.org/" target="_blank">
                   <img src={require("images/partners/infoamazonia-p.png")} className="logo-infoamazonia" style={{'height':'41px'}} />
                 </a>
-                <a href="https://www.socioambiental.org/pt-br" target="_blank">
-                  <img src={require("images/partners/ISA_min.png")} className="logo-infoamazonia" />
+                <a href="https://www.amazoniasocioambiental.org" target="_blank">
+                  <img src={require("images/partners/raisg-marrom.png")} className="logo-raisg" />
                 </a>
               </div>
               <div style={{'display':'inline-block'}}>
