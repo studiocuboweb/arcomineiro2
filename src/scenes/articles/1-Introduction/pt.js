@@ -53,7 +53,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Nesta pesquisa inédita, a rede procurou dar uma visão geral da mineração ilegal em todo o território amazônico, que abrange 6,5 milhões de quilômetros quadrados. Seus membros compilaram informações primárias de aliados, análise de imagens de satélite e notícias publicadas na imprensa dos seis países até 2017.
+        Nesta pesquisa inédita, a rede procurou dar uma visão geral da mineração ilegal em todo o território amazônico, que abrange sete milhões de quilômetros quadrados. Seus membros compilaram informações primárias de aliados, análise de imagens de satélite e notícias publicadas na imprensa dos seis países até 2017.
       </Paragraph>
 
       <Paragraph>
