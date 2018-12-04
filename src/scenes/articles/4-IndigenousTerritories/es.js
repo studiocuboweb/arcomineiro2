@@ -25,7 +25,7 @@ export default () => (
       </Note>
       
       <Paragraph>
-        Según los análisis de la RAISG se identificaron <StoryMedia
+        De acuerdo con los análisis de la RAISG, fueron identificados, <StoryMedia
         icon="map"
         media={{
         id: "map-10",
@@ -40,14 +40,14 @@ export default () => (
             zoomMin: 4,
             zoomMax: 12
           }
-        }}>78 territorios indígenas que presentan actividades de minería ilegal en su límite o en su entorno</StoryMedia>. La mayoría de estos territorios - 64 - se encuentra en el Perú. Con respecto a las tierras indígenas con actividades dentro de los límites, Brasil está a la cabeza con 18 de los 37 casos identificados. En cuanto a actividades de dragas  en ríos de estos territorios, Colombia registra la mayor incidencia - 30  de los 37 casos investigados.
+        }}>entre 6207 territorios indígenas, 78 con actividades de garimpo en su límite o en el entorno.</StoryMedia>. La mayoría de esos territorios - 64 - está ubicada en el Perú. Con respecto a las tierras indígenas con actividades dentro de los límites, Brasil lidera con 18 casos entre los 37 identificados. En relación a las actividades de dragas en ríos en esos territorios, Colombia tiene la mayor incidencia - 30 entre los 65 casos investigados.
       </Paragraph>
       <Table>
       <table>
         <tbody>
         <tr>
           <th>Territorios Indígenas -  Situación</th>
-          <th>Qt de territorios</th>
+          <th>cantidad</th>
         </tr>
         <tr>
           <td>amenaza: minería en el límite/entorno</td>
@@ -62,12 +62,12 @@ export default () => (
           <td>65</td>
         </tr>
         <tr>
-          <td>presión:minería activa dentro</td>
+          <td>presión: minería activa dentro</td>
           <td>37</td>
         </tr>
         <tr>
           <td>TI sin afectación directa conocida</td>
-          <td>6,073</td>
+          <td>5.937</td>
         </tr>
         </tbody>
       </table>
@@ -76,10 +76,28 @@ export default () => (
         En Colombia, la percepción que tienen los pueblos indígenas frente al oro es determinante para entender las posiciones que adoptan acerca de la minería. El oro es un mineral sagrado para los pueblos indígenas de la Amazonía colombiana debido a que, de acuerdo las historias tradicionales, es la representación del sol en la tierra y se constituye en la fuente de vida. 
       </Paragraph>
       <Paragraph>
-        Según relatos registrados por Rodríguez, Carlos A & Rubiano, Sebastián. Tropenbos Internacional Colombia. (2016), <ExternalLink href="https://www.academia.edu/24382243/Entre_ilusiones_ambiciones_y_decepciones._Los_efectos_sociales_culturales_y_econ%C3%B3micos_de_la_miner%C3%ADa_aur%C3%ADfera_en_el_departamento_de_Amazonas" language="es">extraer este mineral del territorio es retirar la fuente de la vida del mismo</ExternalLink>. Para sacar el mineral precioso, los chamanes debían pedir permiso a través de la curación y pagarlo por medio del tabaco y la coca. La extracción del mineral en grandes cantidades podría causar enfermedades o muerte de los responsables. De allí, que la minería sea vista dentro de las comunidades como enfermedad, candela, problemas y muerte. 
+        Según relatos registrados por Rodríguez, Carlos A & Rubiano, Sebastián. Tropenbos Internacional Colombia. (2016), <ExternalLink href="https://www.academia.edu/24382243/Entre_ilusiones_ambiciones_y_decepciones._Los_efectos_sociales_culturales_y_econ%C3%B3micos_de_la_miner%C3%ADa_aur%C3%ADfera_en_el_departamento_de_Amazonas" language="es">extraer este mineral del territorio es retirar la fuente de la vida del mismo</ExternalLink>. Para sacar el mineral precioso, los chamanes debían pedir permiso a través de la curación y pagarlo por medio del tabaco y la coca. La extracción del mineral en grandes cantidades podría causar enfermedades o muerte de los responsables. De allí, que la minería sea vista dentro de las comunidades como enfermedad, candela, problemas y muerte.
+        <StoryMedia
+        media={{
+          id: "image-3",
+          type: "image",
+          data: {
+            credits: "Juan Gabriel Soler / Gaia Amazonas",
+            src: require("photos/chapter4/20a_JuanGabrielSoler-GaiaAmazonas_Apaporis2016-2851.jpg")
+          }
+        }}> Río Apaporis: los "raudales" o "cachiveras" son sitios sagrados para los pueblos indígenas de la Amazonía colombiana</StoryMedia>. Normalmente en estos sitios sagrados hay yacimientos de oro, de allí la importancia de protegerlos de las actividades extractivas.
       </Paragraph>
       <Paragraph>
-        En un testimonio registrado en marzo de 1990, el conocido líder Yanomami Davi Kopenawa revela una perspectiva distinta con respecto a la explotación del mineral. "Cuando el oro está en el frío de las profundidades de la tierra, todo está bien. Todo está realmente bien. No es peligroso. Cuando los blancos sacan el oro de la tierra, ellos lo queman, se mueven con él sobre el fuego como si fuera harina. Esto hace salir humo de él. Así se crea la xawara que es el humo del oro. Después de la  xawara wakémi, esta "epidemia humo" se va extendiendo en el bosque, allí donde viven los Yanomami, pero también en la tierra de los blancos, en todo lugar. Es por eso que estamos muriendo. A causa de este humo”.
+        En un testimonio registrado en marzo de 1990, el conocido 
+        <StoryMedia
+        media={{
+          id: "image-4",
+          type: "image",
+          data: {
+            credits: "Claudio Tavares / ISA",
+            src: require("photos/chapter4/20b_Claudio Tavares-ISA_RS22241_ISA4304.jpg")
+          }
+        }}> líder Yanomami Davi Kopenawa</StoryMedia> revela una perspectiva distinta con respecto a la explotación del mineral. "Cuando el oro está en el frío de las profundidades de la tierra, todo está bien. Todo está realmente bien. No es peligroso. Cuando los blancos sacan el oro de la tierra, ellos lo queman, se mueven con él sobre el fuego como si fuera harina. Esto hace salir humo de él. Así se crea la xawara que es el humo del oro. Después de la  xawara wakémi, esta "epidemia humo" se va extendiendo en el bosque, allí donde viven los Yanomami, pero también en la tierra de los blancos, en todo lugar. Es por eso que estamos muriendo. A causa de este humo”.
       </Paragraph>
       <Quote author="Davi Kopenawa, líder Yanomami">
         Cuando el oro está en el frío de las profundidades de la tierra, todo está bien. Todo está realmente bien. No es peligroso.
@@ -130,7 +148,7 @@ export default () => (
         >las invasiones de mineros ilegales a  los territorios Yanomami en Brasil y Venezuela</StoryMedia>, aún perduran, y los daños a la salud y a las formas de vida son evidentes. Hoy, se estima que cinco mil mineros operan ilegalmente en la Tierra Indígena Yanomami.
       </Paragraph>
       <Paragraph>
-      Los informes de pobladores de aldeas ubicadas a orillas del río Uiracoera indicaban que, entre 1987 y 1989, los Yanomami llegaron a contar 2.003 balsas con dragas trabajando cerca de la comunidad de Waikas. Con la culminación de la demarcación del territorio en 1991, estas operaciones fueron cerradas. Sin embargo, esto empieza a cambiar en 2010, cuando nuevas dragas llegan a trabajar en el río. Los líderes intentaron impedir la reanudación de la explotación minera, pero los invasores se negaron a salir, argumentando que la actividad representaba su única fuente de sustento. A finales de 2013 las balsas ya  eran 42 ,<StoryMedia
+        Los informes de pobladores de aldeas ubicadas a orillas del río Uiracoera indicaban que, entre 1987 y 1989, los Yanomami llegaron a contar 2.003 balsas con dragas trabajando cerca de la comunidad de Waikas. Con la culminación de la demarcación del territorio en 1991, estas operaciones fueron cerradas. Sin embargo, esto empieza a cambiar en 2010, cuando nuevas dragas llegan a trabajar en el río. Los líderes intentaron impedir la reanudación de la explotación minera, pero los invasores se negaron a salir, argumentando que la actividad representaba su única fuente de sustento. A finales de 2013 las balsas ya  eran 42 ,<StoryMedia
           media={{
           id: "video-1",
           type: "youtube",

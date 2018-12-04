@@ -76,11 +76,29 @@ export default () => (
         Na Colômbia, a percepção que os povos indígenas têm do ouro é crucial para entender as posições que adotam em face da mineração. O ouro é um mineral sagrado para os povos indígenas da Amazônia colombiana porque, de acordo com histórias tradicionais, é a representação do sol na terra e constitui a fonte da vida.
       </Paragraph>
       <Paragraph>
-        Segundo relatos coletados por Rodríguez, Carlos A & Rubiano, Sebastián. Tropenbos Internacional Colombia. (2016), <ExternalLink href="https://www.academia.edu/24382243/Entre_ilusiones_ambiciones_y_decepciones._Los_efectos_sociales_culturales_y_econ%C3%B3micos_de_la_miner%C3%ADa_aur%C3%ADfera_en_el_departamento_de_Amazonas" language="es">extrair este mineral do território é remover a fonte de sua vida.</ExternalLink> Para extrair o mineral precioso, os xamãs tiveram que pedir permissão através da cura e pagar por ele através do fumo e da coca. A extração do mineral em grandes quantidades pode causar doença ou morte para os responsáveis. A partir daí, essa mineração é vista dentro das comunidades como doença, problemas e morte.
+        Segundo relatos coletados por Rodríguez, Carlos A & Rubiano, Sebastián. Tropenbos Internacional Colombia. (2016), <ExternalLink href="https://www.academia.edu/24382243/Entre_ilusiones_ambiciones_y_decepciones._Los_efectos_sociales_culturales_y_econ%C3%B3micos_de_la_miner%C3%ADa_aur%C3%ADfera_en_el_departamento_de_Amazonas" language="es">extrair este mineral do território é remover a fonte de sua vida.</ExternalLink> Para extrair o mineral precioso, os xamãs tiveram que pedir permissão através da cura e pagar por ele através do fumo e da coca. A extração do mineral em grandes quantidades pode causar doença ou morte para os responsáveis. A partir daí, essa mineração é vista dentro das comunidades como doença, problemas e morte. <StoryMedia
+        media={{
+          id: "image-3",
+          type: "image",
+          data: {
+            credits: "Juan Gabriel Soler / Gaia Amazonas",
+            src: require("photos/chapter4/20a_JuanGabrielSoler-GaiaAmazonas_Apaporis2016-2851.jpg")
+          }
+        }}>No rio Apaporis: os "raudales" ou "cachiveras" são locais sagrados para os povos indígenas da Amazônia colombiana</StoryMedia>. Normalmente há depósitos de ouro nesses locais sagrados, daí a importância de protegê-los das atividades extrativistas.
       </Paragraph>
       <Paragraph>
-        Em depoimento em março de 1990, o xamã Yanomami Davi Kopenawa revelou uma perspectiva distinta com relação à exploração do mineral. “Quando o ouro fica no frio das profundezas de terra, aí tudo está bem. Tudo está realmente bem. Ele não é perigoso. Quando os brancos tiram o ouro da terra, eles o queimam, mexem com ele em cima do fogo como se fosse farinha. Isto faz sair fumaça dele. Assim se cria a xawara que é a fumaça do ouro. Depois desta xawara wakêmi esta “epidemia fumaça”,vai se alastrando na floresta, lá onde moram os Yanomami, mas também na terra dos brancos, em todo lugar. É por isso que estamos morrendo. Por causa desta fumaça.”
+        Em depoimento em março de 1990, o 
+        <StoryMedia
+        media={{
+          id: "image-4",
+          type: "image",
+          data: {
+            credits: "Claudio Tavares / ISA",
+            src: require("photos/chapter4/20b_Claudio Tavares-ISA_RS22241_ISA4304.jpg")
+          }
+        }}> xamã Yanomami Davi Kopenawa</StoryMedia> revelou uma perspectiva distinta com relação à exploração do mineral. “Quando o ouro fica no frio das profundezas de terra, aí tudo está bem. Tudo está realmente bem. Ele não é perigoso. Quando os brancos tiram o ouro da terra, eles o queimam, mexem com ele em cima do fogo como se fosse farinha. Isto faz sair fumaça dele. Assim se cria a xawara que é a fumaça do ouro. Depois desta xawara wakêmi esta “epidemia fumaça”,vai se alastrando na floresta, lá onde moram os Yanomami, mas também na terra dos brancos, em todo lugar. É por isso que estamos morrendo. Por causa desta fumaça.”
       </Paragraph>
+    
       <Quote author="Davi Kopenawa, líder Yanomami">
         Quando o ouro fica no frio das profundezas de terra, aí tudo está bem. Tudo está realmente bem. Ele não é perigoso.
       </Quote>

@@ -53,7 +53,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        En este estudio inédito, la red buscó ofrecer un panorama sobre la minería ilegal en todo el territorio amazónico, que se extiende por 6,5 millones de kilómetros cuadrados. Sus miembros hicieron una compilación de información primaria de contrapartes, análisis de imágenes satelitales y noticias publicadas en la prensa de los seis países hasta el 2017.
+        En este estudio inédito, la red buscó ofrecer un panorama sobre la minería ilegal en todo el territorio amazónico, que se extiende por siete millones de kilómetros cuadrados. Sus miembros hicieron una compilación de información primaria de contrapartes, análisis de imágenes satelitales y noticias publicadas en la prensa de los seis países hasta el 2017.
       </Paragraph>
 
       <Paragraph>

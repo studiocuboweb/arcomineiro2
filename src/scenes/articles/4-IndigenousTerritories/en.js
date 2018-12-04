@@ -25,7 +25,7 @@ export default () => (
       </Note>
       
       <Paragraph>
-        According to research by RAISG, <StoryMedia
+        According to the RAISG's analysis, <StoryMedia
         icon="map"
         media={{
         id: "map-10",
@@ -40,25 +40,25 @@ export default () => (
             zoomMin: 4,
             zoomMax: 12
           }
-        }}>78 indigenous territories with mining activities on their boundaries or within their area</StoryMedia> were identified. Most of these territories - 64 - are in Peru. Regarding indigenous lands with activities within their area, Brazil leads with 18 of the 37 cases identified. In relation to the activities involving barges in these territories, Colombia has the highest proportion - 30 of the 37 cases identified. investigados.
+        }}>among 6207 indigenous territories, 78 were identified with illegal activities at their limit or in their surroundings.</StoryMedia> The majority of these territories - 64 - is located in Peru. With respect to indigenous lands with activities within the limits, Brazil leads with 18 cases among the 37 identified. In relation to the activities of dredges in rivers in those territories, Colombia has the highest incidence - 30 among the 65 cases investigated.
       </Paragraph>
       <Table>
       <table>
         <tbody>
         <tr>
           <th>Indigenous Territories - status</th>
-          <th>numbers</th>
+          <th>quantity</th>
         </tr>
         <tr>
-          <td>threat: mining on their boundaries / in the buffer zone</td>
+          <td>threat: mining in the limit / environment</td>
           <td>78</td>
         </tr>
         <tr>
-          <td>threat: inactive mining inside</td>
+          <td>threat: inactive mining within</td>
           <td>90</td>
         </tr>
         <tr>
-          <td>pressure: barges inside / along the boundaries</td>
+          <td>pressure: dredges inside / at the limit</td>
           <td>65</td>
         </tr>
         <tr>
@@ -66,8 +66,8 @@ export default () => (
           <td>37</td>
         </tr>
         <tr>
-          <td>Indigenous Territories with no known direct impact</td>
-          <td>6,073</td>
+          <td>Indigenous Territories without known direct affectation</td>
+          <td>5.937</td>
         </tr>
         </tbody>
       </table>
@@ -77,9 +77,27 @@ export default () => (
       </Paragraph>
       <Paragraph>
         According to reports collected by Carlos Rodríguez and Sebastián Rubiano (Tropenbos International, Colombia (2016)),<ExternalLink href="https://www.academia.edu/24382243/Entre_ilusiones_ambiciones_y_decepciones._Los_efectos_sociales_culturales_y_econ%C3%B3micos_de_la_miner%C3%ADa_aur%C3%ADfera_en_el_departamento_de_Amazonas" language="es">to extract this mineral from the earth is to remove the source of their life</ExternalLink>. To extract the precious mineral, shamans needed to seek permission through cures and payments of tobacco and coca. Large scale extraction of the mineral can cause illness or death for those responsible. From their point of view, such mining is seen by the communities as representing disease, problems and death.
+        <StoryMedia
+        media={{
+          id: "image-3",
+          type: "image",
+          data: {
+            credits: "Juan Gabriel Soler / Gaia Amazonas",
+            src: require("photos/chapter4/20a_JuanGabrielSoler-GaiaAmazonas_Apaporis2016-2851.jpg")
+          }
+        }}> Apaporis River: the "raudales" or "cachiveras" are sacred sites for the indigenous peoples of the Colombian Amazon</StoryMedia>. Normally in these sacred sites there are gold deposits, hence the importance of protecting them from extractive activities.
       </Paragraph>
       <Paragraph>
-        In testimony in March 1990, Yanomami shaman David Kopenawa offered his distinct perspective on exploitation of the mineral. "When gold remains in the cold bowels of the earth, then everything is well. Everything is really good. It is not dangerous. When the white people remove the gold from the earth, they burn it, they stir it around on the fire as if it were flour. This makes smoke come out of it. This creates xawara, which is the smoke of gold. After this xawara wakémi, this "smoke epidemic", spreads across the forest, where the Yanomami live, but also across the white peoples’ lands, everywhere. That's why we're dying. Because of this smoke."
+        In testimony in March 1990, 
+        <StoryMedia
+        media={{
+          id: "image-4",
+          type: "image",
+          data: {
+            credits: "Claudio Tavares / ISA",
+            src: require("photos/chapter4/20b_Claudio Tavares-ISA_RS22241_ISA4304.jpg")
+          }
+        }}> Yanomami shaman David Kopenawa</StoryMedia> offered his distinct perspective on exploitation of the mineral. "When gold remains in the cold bowels of the earth, then everything is well. Everything is really good. It is not dangerous. When the white people remove the gold from the earth, they burn it, they stir it around on the fire as if it were flour. This makes smoke come out of it. This creates xawara, which is the smoke of gold. After this xawara wakémi, this "smoke epidemic", spreads across the forest, where the Yanomami live, but also across the white peoples’ lands, everywhere. That's why we're dying. Because of this smoke."
       </Paragraph>
       <Quote author="Davi Kopenawa, Yanomami leader">
         When gold remains in the cold bowels of the earth, then everything is well. Everything is really good. It is not dangerous.

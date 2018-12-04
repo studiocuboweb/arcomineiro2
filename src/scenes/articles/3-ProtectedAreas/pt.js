@@ -104,7 +104,7 @@ export default () => (
             zoomMin: 5,
             zoomMax: 10
           }
-        }}>649 áreas naturais protegidas, 55 têm pontos de garimpo ativos ou balsas dentro de seus limites</StoryMedia>. O resto sofre danos indiretos, seja em áreas de amortecimento ou nas bordas. Atividades ilegais e invasões se beneficiam da falta de investimentos e políticas públicas para o fortalecimento e o funcionamento de áreas naturais protegidas.
+        }}>649 áreas naturais protegidas, 55 têm pontos de garimpo ativos ou balsas dentro de seus limites</StoryMedia>. Há ainda um total de 41 áreas naturais protegidas que sofre danos indiretos, seja em áreas de amortecimento ou nas bordas.
       </Paragraph>
       <Table>
         <table>
