@@ -104,7 +104,7 @@ export default () => (
             zoomMin: 5,
             zoomMax: 10
           }
-        }}>363 áreas naturais protegidas, 64 estão diretamente afetadas e 24 têm pontos de extração ativos ou áreas dentro de seus limites</StoryMedia>. O resto sofre danos indiretos, seja em áreas de amortecimento ou nas bordas. Atividades ilegais e invasões se beneficiam da falta de investimentos e políticas públicas para o fortalecimento e o funcionamento de áreas naturais protegidas.
+        }}>649 áreas naturais protegidas, 55 têm pontos de garimpo ativos ou balsas dentro de seus limites</StoryMedia>. Há ainda um total de 41 áreas naturais protegidas que sofre danos indiretos, seja em áreas de amortecimento ou nas bordas.
       </Paragraph>
       <Table>
         <table>
@@ -114,23 +114,23 @@ export default () => (
             </tr>
             <tr>
               <td>ameaça: garimpo no limite/entorno</td>
-              <td>7</td>
+              <td>14</td>
             </tr>
             <tr>
               <td>ameaça: garimpo inativo dentro</td>
-              <td>23</td>
+              <td>27</td>
             </tr>
             <tr>
               <td>pressão: balsas dentro/no limite</td>
-              <td>10</td>
+              <td>22</td>
             </tr>
             <tr>
               <td>pressão: garimpo ativo dentro</td>
-              <td>24</td>
+              <td>33</td>
             </tr>
             <tr>
               <td>ANP sem afetação direta conhecida</td>
-              <td>299</td>
+              <td>553</td>
             </tr>
           </table>
         </Table>
