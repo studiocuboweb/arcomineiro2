@@ -82,6 +82,9 @@ const Wrapper = styled.header`
     justify-content: center;
     display: flex;
     font-size: .8em;
+    &.visited {
+      color: #000;
+    }
     a {
       position: relative;
       color: #999;
@@ -125,25 +128,33 @@ const Wrapper = styled.header`
       }
     }
   }
+  .active-navlink {
+    color: #000;
+  }
 `
 
 class Header extends Component {
   render () {
     const { lastPath,aboutPath, sharePath,dataPath } = this.props;
+    const url = process.env.SITE_URL || "";
     return (
       <Wrapper>
         <div className="header-content">
             <div className="site-title clearfix">
-              <div style={{'display':'inline-block'}}>
-                <a href="https://infoamazonia.org/" target="_blank">
-                  <img src={require("images/partners/infoamazonia-p.png")} className="logo-infoamazonia" style={{'height':'41px'}} />
-                </a>
-                <a href="https://www.amazoniasocioambiental.org" target="_blank">
-                  <img src={require("images/partners/raisg-marrom.png")} className="logo-raisg" />
-                </a>
+              <div style={{'display':'inline-block', 'cursor':'pointer'}}>
+                {/* <a href={`${url}${location.pathname}`}> */}
+                <NavLink activeClassName="active-navlink" to="/">
+                  <h1 style={{'blo':'right','fontSize':'30px'}}>Amazônia saqueada</h1>
+                </NavLink>
+                {/* </a> */}
               </div>
               <div style={{'display':'inline-block'}}>
-                <h1 style={{'blo':'right'}}>Amazônia saqueada</h1>
+                <a href="https://infoamazonia.org/" target="_blank">
+                  <img src={require("images/partners/infoamazonia-crop.png")} className="logo-infoamazonia" style={{'height':'41px'}} />
+                </a>
+                <a href="https://www.amazoniasocioambiental.org" target="_blank">
+                  <img src={require("images/partners/raisg-crop.png")} className="logo-raisg" />
+                </a>
               </div>
             </div>
           <nav>
