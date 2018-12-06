@@ -21,11 +21,7 @@ export default () => (
       <Title as="h2">Protected Areas</Title>
       <Note>
         <p>
-          As well as the threats to water resources and the health of communities in the Amazon, mining has direct impacts on forests and other tropical ecosystems, such as wetlands and the cerrado tropical savannas.
-        </p>
-      </Note>
-      <Paragraph>
-      <StoryMedia
+          As well as the threats to water resources and the health of communities in the Amazon, <StoryMedia
         media={{
           id: "image-1",
           type: "image",
@@ -33,7 +29,11 @@ export default () => (
             credits: "",
             src: require("photos/chapter3/09_DanielParanayba_ParqueNacionalJamanxim.jpg")
           }
-        }}>A</StoryMedia> study carried out between 2001 and 2013 by researchers Nora L. Alvarez Berrios and T. Michel Aide, academics from the University of Puerto Rico - Rio Piedras, suggests that <FileLink
+        }}>mining has direct impacts on forests and other tropical</StoryMedia> ecosystems, such as wetlands and the cerrado tropical savannas.
+        </p>
+      </Note>
+      <Paragraph>
+          A study carried out between 2001 and 2013 by researchers Nora L. Alvarez Berrios and T. Michel Aide, academics from the University of Puerto Rico - Rio Piedras, suggests that <FileLink
           href={require("documents/chapter3/Alvarez-Berrios_2015_Environ._Res._Lett._10_014006.pdf")}
           format="pdf"
           size="1.7MB"

@@ -21,11 +21,7 @@ export default () => (
       <Title as="h2">Áreas Protegidas</Title>
       <Note>
         <p>
-          Além das ameaças aos recursos hídricos e à saúde das comunidades na Amazônia, a mineração traz impactos diretos para as florestas e outros ecossistemas tropicais, como áreas úmidas e cerrados.
-        </p>
-      </Note>
-      <Paragraph>
-      <StoryMedia
+          Além das ameaças aos recursos hídricos e à saúde das comunidades na Amazônia, a <StoryMedia
         media={{
           id: "image-1",
           type: "image",
@@ -33,7 +29,11 @@ export default () => (
             credits: "",
             src: require("photos/chapter3/09_DanielParanayba_ParqueNacionalJamanxim.jpg")
           }
-        }}>Um</StoryMedia> estudo realizado entre 2001 e 2013 por pesquisadores Nora L. Alvarez Berrios e T Michel Aide, ambos acadêmicos da Universidade de Puerto Rico - Rio Piedras, sugere que <FileLink
+        }}>mineração traz impactos diretos para as florestas e outros ecossistemas tropicais</StoryMedia>, como áreas úmidas e cerrados.
+        </p>
+      </Note>
+      <Paragraph>
+        Um estudo realizado entre 2001 e 2013 por pesquisadores Nora L. Alvarez Berrios e T Michel Aide, ambos acadêmicos da Universidade de Puerto Rico - Rio Piedras, sugere que <FileLink
           href={require("documents/chapter3/Alvarez-Berrios_2015_Environ._Res._Lett._10_014006.pdf")}
           format="pdf"
           size="1.7MB"

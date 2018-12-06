@@ -21,11 +21,7 @@ export default () => (
       <Title as="h2">Áreas Protegidas</Title>
       <Note>
         <p>
-          Además de las amenazas para los recursos hídricos y la salud de las comunidades de la Amazonía, la minería trae impactos directos a los bosques y otros ecosistemas tropicales, como las zonas húmedas y manchas de herbazales.
-        </p>
-      </Note>
-      <Paragraph>
-      <StoryMedia
+          Además de las amenazas para los recursos hídricos y la salud de las comunidades de la Amazonía, la <StoryMedia
         media={{
           id: "image-1",
           type: "image",
@@ -33,7 +29,11 @@ export default () => (
             credits: "",
             src: require("photos/chapter3/09_DanielParanayba_ParqueNacionalJamanxim.jpg")
           }
-        }}>Un</StoryMedia> estudio realizado entre los años 2001 y 2013 <FileLink
+        }}>minería trae impactos directos a los bosques y otros ecosistemas tropicales</StoryMedia>, como las zonas húmedas y manchas de herbazales.
+        </p>
+      </Note>
+      <Paragraph>
+        Un estudio realizado entre los años 2001 y 2013 <FileLink
           href={require("documents/chapter3/Alvarez-Berrios_2015_Environ._Res._Lett._10_014006.pdf")}
           format="pdf"
           size="1.7MB"
