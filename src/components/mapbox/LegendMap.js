@@ -141,6 +141,7 @@ export default class StyleControls extends PureComponent {
     this.state = {
       displayLegendBG: {'backgroundColor':'none'}, 
       displayLegend: {'display':'none'},
+      displayIcon: 'block',
       visibility: {
         'LEGENDA1 PONTOS_mineriailegal-pt-5owfra': true,
         'LEGENDA2 RIOS_mineriailegal-ln-67gxaf': true,
@@ -249,9 +250,11 @@ export default class StyleControls extends PureComponent {
     if (this.state.displayLegend['display'] == 'none') {
       this.setState({displayLegend: {'display':'block'}})
       this.setState({displayLegendBG: {'backgroundColor':'#fff'}})
+      this.setState({displayIcon:'none'})
     } else {
       this.setState({displayLegend: {'display':'none'}})
       this.setState({displayLegendBG: {'backgroundColor':'transparent'}})
+      this.setState({displayIcon:'block'});
     }
   }
   render() {
@@ -259,10 +262,10 @@ export default class StyleControls extends PureComponent {
     return (
       <Container>
         <div style={this.state.displayLegendBG} className='control-panel-padding'>
-          <button className='fa fa-map mapbox_legend-ico mapbox_legend-block mapbox_legend-button' style={{'cursor':'pointer',color:'#C0C0C0'}} onClick={this._toggleLegend.bind(this)}></button>
+          <button className='fa fa-map mapbox_legend-ico mapbox_legend-block mapbox_legend-button' style={{'cursor':'pointer',color:'#C0C0C0', display: this.state.displayIcon}} onClick={this._toggleLegend.bind(this)}></button>
           <div style={this.state.displayLegend}>
-            <div className='mapbox_legend-align-center'>
-              <a href='#' className='fa fa-window-close mapbox_legend-btn-close'  style={{'cursor':'pointer',color:'#C0C0C0'}} onClick={this._toggleLegend.bind(this)}></a>
+            <div className='mapbox_legend-align-center' style={{'height':'10px'}}>
+              <a href='#' className='fa fa-window-close mapbox_legend-btn-close'  style={{'cursor':'pointer',color:'#C0C0C0', 'font-size':'.8em', 'vertical-align':'top'}} onClick={this._toggleLegend.bind(this)}></a>
             </div>
             <hr />
             { 

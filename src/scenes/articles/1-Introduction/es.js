@@ -216,7 +216,7 @@ export default () => (
           href={require("documents/chapter1/La-realidad-de-la-mineria-ilegal-en-paises-amazonicos-SPDA.pdf")}
           format="pdf"
           size="6.7MB"
-        >“La realidad de minería ilegal en países amazónicos" elaborado por la Sociedad Peruana de Derecho Ambiental (SPDA, 2014)</FileLink>{" "}, <i>, cerca de 600.000 personas se dedican a la explotación ilegal del oro. </i></p> 
+        >“La realidad de minería ilegal en países amazónicos" elaborado por la Sociedad Peruana de Derecho Ambiental (SPDA, 2014)</FileLink>, <i>cerca de 600.000 personas se dedican a la explotación ilegal del oro. </i></p> 
         <p className="smaller-txt pull-left"><i>Con el aumento sostenido en el precio del oro y las evidencias de mayor cantidad de puntos y áreas de minería en la región, en los últimos cinco años este número debe haber aumentado considerablemente. </i></p>
         {/* <div>Precio en la alturas</div>
         Promedio anual del valor del oro (US$)<br/> */}

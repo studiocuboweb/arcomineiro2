@@ -94,6 +94,19 @@ const Wrapper = styled.nav`
             height: 1px;
             background: #bbb;
           }
+          &:active,
+          &:focus {
+            color: #333;
+          }
+          &.active {
+            color: #333;
+            background: #fff;
+            .progress {
+              height: 1px;
+              background: #f09429;
+              box-shadow: 0 0 .5rem #f09429;
+            }
+          }
         }
       }
     }
@@ -112,6 +125,9 @@ const Wrapper = styled.nav`
     padding: 4px;
     background-color: #F7F7F7;
     border-bottom-right-radius: 2px;
+    ${media.desktop`
+      padding: 0;
+    `}
   }
   .menu-toggle {
     height: 11px;

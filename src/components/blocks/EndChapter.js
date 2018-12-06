@@ -12,12 +12,7 @@ const Wrapper = styled.div`
   margin: 0 4vw 4vh 4vw;
   position: relative;
   z-index: 1;
-  border: 3px solid #FEEFAF;
-  border-bottom: 12px solid #FEEFAF;
   width: 90vw;
-  ${media.tablet`
-    margin: 0 1.5vw;
-  `}
   ${media.desktop`
     width: 51vw;
     // margin: 0 3vw;
@@ -40,6 +35,16 @@ const Wrapper = styled.div`
     ${media.desktopHD`
       padding: 0;
     `}
+  }
+  .end-chapter-content > .medium-txt {
+    font-size: .8em;
+    padding: 0 5px;
+    ${media.desktopHD`
+      padding: 0;
+    `}
+  }
+  .end-chapter-content .solo-quote {
+    font-size: .9em;
   }
   .end-chapter-content > .regular-txt {
     font-size: 1em;
@@ -108,8 +113,9 @@ const Wrapper = styled.div`
     `}
   }
   .graph-description {
-    font-size: .9rem;
-    opacity: .6;
+    font-size: 1.1rem;
+    opacity: .5;
+    font-weight: 400;
     width: 85vw;
     margin-left: 3vw;
     ${media.phablet`

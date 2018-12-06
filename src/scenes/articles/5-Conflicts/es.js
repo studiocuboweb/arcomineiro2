@@ -67,7 +67,7 @@ export default () => (
         Una tendencia similar, como se informó anteriormente, fue observada en Bolivia, Ecuador y Perú, donde los gobiernos atendieron las demandas de los trabajadores involucrados en la extracción irregular de oro y flexibilizaron leyes. Se creó así una zona gris entre la ilegalidad y la caracterización de la minería artesanal, que propició la legitimación de actividades de alto impacto en regiones de gran importancia para la conservación y para la supervivencia de pueblos indígenas.
       </Paragraph>
       <EndChapter>
-        <p className='smaller-txt'>
+        <p className='medium-txt'>
           “La minería ilegal no concibe el futuro de nuestros hijos. Aunque podamos beneficiarnos a corto plazo, estamos destruyendo el medio ambiente, nuestra selva, nuestro hogar”, expresa  <StoryMedia
           media={{
             id: "image-3",
@@ -79,16 +79,16 @@ export default () => (
           }}
         >Agustín Ojeda, líder Shirian, estado Bolívar, Venezuela</StoryMedia>
         </p>
-        <p className='smaller-txt'>
+        <p className='medium-txt'>
           Señala que el profundo cambio en el estilo de vida de su pueblo y la adopción de nuevos hábitos han perjudicado gravemente las costumbres ancestrales y, a su vez, han aumentado los problemas de salud.  
         </p>
         <Quote author="Agustín Ojeda, líder Shiriano">
           <span>“La minería ilegal nos puede llegar a matar. Los pozos mineros permiten la reproducción de mosquitos que traen enfermedades como malaria. Tampoco se toma con seriedad el efecto del mercurio en el agua; no solo la contamina a ella, también a los peces que utilizamos para comer”.</span>
         </Quote>
-        <p className='smaller-txt'>
+        <p className='medium-txt'>
           El líder Shirian agrega que la mayoría de su comunidad ha abandonado el conuco (la chacra). Las temporadas de siembra, tala y quema no se respetan por lo que la recolección es casi nula. “Actualmente puedes ver a un indígena comprándolo casabe a un criollo en vez de producirlo”.
         </p>
-        <p className='smaller-txt'>
+        <p className='medium-txt'>
           Asegura que ante la complicada realidad que enfrentan los pueblos indígenas, el compromiso de las instituciones competentes para lograr acuerdos que permitan mejores condiciones y garanticen una mejor calidad de vida, así como el respeto de los derechos humanos, debe estar por encima de cualquier circunstancia. “Si el ritmo de vida que llevamos ahora en Venezuela, y en el mundo continúa, llegará el momento donde no sabremos quiénes somos”
         </p>
       </EndChapter>
