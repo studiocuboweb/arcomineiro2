@@ -142,7 +142,7 @@ class Media extends Component {
   render() {
     const { active } = this.state;
     const { media, preview, children } = this.props;
-
+    console.log(media);
     let credits;
     if (media && media.data)
       credits = media.data.credits || process.env.DEFAULT_CREDITS;
@@ -166,7 +166,7 @@ class Media extends Component {
         return (
           <Wrapper preview={preview}>
             <Gallery data={media.data} preview={preview || false} />
-            {credits ? <Credits>{credits}</Credits> : null}
+            {/* {credits ? <Credits>{credits}</Credits> : null} */}
           </Wrapper>
         );
       }
