@@ -33,16 +33,6 @@ export default () => (
         </p>
       </Note>
       <Paragraph>
-        Un estudio realizado entre los años 2001 y 2013 <FileLink
-          href={require("documents/chapter3/Alvarez-Berrios_2015_Environ._Res._Lett._10_014006.pdf")}
-          format="pdf"
-          size="1.7MB"
-        >por los investigadores Nora L. Alvarez Berrios y T Michel Aide, ambos académicos de la Universidad de Puerto Rico - Río Piedras , sugiere que hubo un aumento en la deforestación relacionado con la explotación de oro en las principales zonas de bosque tropical de la Amazonía.</FileLink> Además, las mayores áreas de extracción se ubican dentro de un radio de 10 km de 31 áreas protegidas.
-      </Paragraph>
-      <Paragraph>
-        De acuerdo con el trabajo, que se publicó en enero de 2015 en la revista Environmental Research Letters, hubo una aceleración de la pérdida forestal en lugares identificados como de extracción de oro. Mientras que para el periodo 2001–2006 el estudio señaló la pérdida de 377 km2, entre los años 2007 y 2013 la pérdida fue de 1303 km2. Las tres regiones identificadas con mayor presión son los bosques del Escudo de las Guayanas, los bosques húmedos del suroeste amazónico y los bosques del Xingú y Tapajós en Brasil.
-      </Paragraph>
-      <Paragraph>
         <StoryMedia
           media={{
             id: "galery-1",
@@ -96,7 +86,17 @@ export default () => (
               ]
             }
           }}
-        ></StoryMedia> 
+        >En todos los países analizados se encontraron evidencias de daños a áreas naturales protegidas, por deforestación, apropiación de tierras destinadas a la preservación y reducción de fauna en los ríos, bosques y otros ecosistemas naturales.</StoryMedia> 
+      </Paragraph>
+      <Paragraph>
+        Un estudio realizado entre los años 2001 y 2013 <FileLink
+          href={require("documents/chapter3/Alvarez-Berrios_2015_Environ._Res._Lett._10_014006.pdf")}
+          format="pdf"
+          size="1.7MB"
+        >por los investigadores Nora L. Alvarez Berrios y T Michel Aide, ambos académicos de la Universidad de Puerto Rico - Río Piedras , sugiere que hubo un aumento en la deforestación relacionado con la explotación de oro en las principales zonas de bosque tropical de la Amazonía.</FileLink> Además, las mayores áreas de extracción se ubican dentro de un radio de 10 km de 31 áreas protegidas.
+      </Paragraph>
+      <Paragraph>
+        De acuerdo con el trabajo, que se publicó en enero de 2015 en la revista Environmental Research Letters, hubo una aceleración de la pérdida forestal en lugares identificados como de extracción de oro. Mientras que para el periodo 2001–2006 el estudio señaló la pérdida de 377 km2, entre los años 2007 y 2013 la pérdida fue de 1303 km2. Las tres regiones identificadas con mayor presión son los bosques del Escudo de las Guayanas, los bosques húmedos del suroeste amazónico y los bosques del Xingú y Tapajós en Brasil.
       </Paragraph>
       <Paragraph>
         De acuerdo con el análisis de la RAISG, <StoryMedia

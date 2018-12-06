@@ -10,6 +10,7 @@ import FeaturedText from "components/blocks/FeaturedText";
 import Table from "components/blocks/Table";
 import Quote from "components/blocks/Quote";
 import Note from "components/blocks/Note";
+import Board from "components/blocks/Board";
 
 export default () => (
   <article>
@@ -163,7 +164,7 @@ export default () => (
       <Paragraph>
         The foreman is in the area with the crew, the barge owner in the city. Few owners have more than one barge and a foreman manages only one barge. About 40% of the gold collected by the barge is divided between the workers and the majority goes to the owner.
       </Paragraph>
-      <Note>
+      <Board>
         <strong>The economics of prospecting</strong>
         <br />prices in grams of gold
         <p>. travel upstream: 10g per person<br />(can be paid later, once gold is found)</p>
@@ -172,7 +173,7 @@ export default () => (
         <p>. 1 chicken: 80 reais (US$20) or 0.8g</p>
         <p>. haircut: 0,5g</p>
         <p>. 30 minutes of internet access: 0.5g<br />(there are 10 internet access points in the area)</p>
-      </Note>
+      </Board>
       <Paragraph>Zoom: 
       In Peru, Puerto Luz is one of 10 communities in <StoryMedia
         icon="map"

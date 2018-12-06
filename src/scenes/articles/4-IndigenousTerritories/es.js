@@ -10,6 +10,7 @@ import FeaturedText from "components/blocks/FeaturedText";
 import Table from "components/blocks/Table";
 import Quote from "components/blocks/Quote";
 import Note from "components/blocks/Note";
+import Board from "components/blocks/Board";
 
 export default () => (
   <article>
@@ -163,7 +164,7 @@ export default () => (
       <Paragraph>
         El gerente trabaja en el área con el equipo. El dueño de la balsa se queda en la ciudad. Pocos poseen más de una balsa, y un gerente no gestiona más de una balsa a la vez. El 40% del oro recogido por la balsa se divide entre los trabajadores y el 60% va al dueño de la balsa.
       </Paragraph>
-      <Note>
+      <Board>
         <strong> La economía del campamento minero ilegal</strong>
         <br />Precios en gramos de oro
         <p>. Para subir el río: 10g por persona.<br />Se puede pagar después, cuando el campamento tenga éxito.</p>
@@ -172,7 +173,7 @@ export default () => (
         <p>. 1 pollo: 80 reales o 0,8 g</p>
         <p>. Corte de pelo: 0,5g</p>
         <p>. (Hay 10 puntos de internet en el área). <br /> 30 minutos cuesta 0,5 gramos.</p>
-      </Note>
+      </Board>
       <Paragraph>Zoom: 
         En Perú, Puerto Luz es una de las diez comunidades del entorno de la <StoryMedia
         icon="map"

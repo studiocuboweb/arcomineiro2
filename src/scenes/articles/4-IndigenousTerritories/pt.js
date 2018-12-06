@@ -10,6 +10,7 @@ import FeaturedText from "components/blocks/FeaturedText";
 import Table from "components/blocks/Table";
 import Quote from "components/blocks/Quote";
 import Note from "components/blocks/Note";
+import Board from "components/blocks/Board";
 
 export default () => (
   <article>
@@ -163,8 +164,8 @@ export default () => (
       <Paragraph>
         O gerente fica na área com a equipe. O dono da balsa, na cidade. Poucos têm mais de uma balsa e um gerente não gerencia mais de uma. Cerca de 40% do ouro coletado pela balsa é dividido entre os trabalhadores e a maior parte para o proprietário.
       </Paragraph>
-      <Note>
-        <strong>A economia do garimpo</strong>
+      <Board>
+        <strong>A economia do garimpos</strong>
         <br />preços em gramas de ouro
         <p>. para subir o rio: 10g por pessoa<br />(pode pagar mais tarde, quando houver sucesso no garimpo)</p>
         <p>. prostitutas: 3g por meia hora</p>
@@ -172,7 +173,7 @@ export default () => (
         <p>. 1 frango: 80 reais ou 0,8 g</p>
         <p>. corte de cabelo: 0,5g</p>
         <p>. 30 minutos de internet: 0,5g<br />(tem 10 pontos de internet na área)</p>
-      </Note>
+      </Board>
       <Paragraph>Zoom: 
         No Peru, Puerto Luz é uma das 10 comunidades da <StoryMedia
         icon="map"
