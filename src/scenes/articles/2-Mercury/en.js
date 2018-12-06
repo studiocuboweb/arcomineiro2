@@ -29,7 +29,7 @@ export default () => (
           id: "image-1",
           type: "image",
           data: {
-            credits: "",
+            credits: "Oscar Mujica/FZS Perú",
             src: require("photos/chapter2/04_OscarMujica-FZS_PE_Colorado.jpg")
           }
         }}><strong>The scars on the ground, the murky waters of the rivers</strong> are the obvious impacts of the illegal mining.</StoryMedia> But there is an invisible evil that contaminates the Amazonian fauna and the inhabitants of the region. According to several studies, mercury is affecting indigenous and local populations who live nearby or work in gold mining areas, as well as those who consume Amazonian fish as part of their diet.
@@ -41,10 +41,10 @@ export default () => (
                 id: "galery-1",
                 type: "gallery",
                 data: {
-                  credits: "01, 08, 09, 10, 13, 14 - CINCIA 04, 05, 06, 07, 15 - Natalie Szponar 11, 12 - Aldo Rivas",
                   items: [
                     {
-                      src: require("photos/chapter2/gallery-1/01_CINCIA_IMG1678.jpg")
+                      src: require("photos/chapter2/gallery-1/01_CINCIA_IMG1678.jpg"),
+                      credits: "CINCIA"
                     },
                     {
                       src: require("photos/chapter2/gallery-1/02_DSC05788.jpg")
@@ -53,40 +53,52 @@ export default () => (
                       src: require("photos/chapter2/gallery-1/03_DSC05797.jpg")
                     },
                     {
-                      src: require("photos/chapter2/gallery-1/04_NatalieSzponar_DSC06069.jpg")
+                      src: require("photos/chapter2/gallery-1/04_NatalieSzponar_DSC06069.jpg"),
+                      credits: "Natalie Szponar"
                     },
                     {
-                      src: require("photos/chapter2/gallery-1/05_NatalieSzponar_DSC06131.jpg")
+                      src: require("photos/chapter2/gallery-1/05_NatalieSzponar_DSC06131.jpg"),
+                      credits: "Natalie Szponar"
                     },
                     {
-                      src: require("photos/chapter2/gallery-1/06_NatalieSzponar4_DSC06137.jpg")
+                      src: require("photos/chapter2/gallery-1/06_NatalieSzponar4_DSC06137.jpg"),
+                      credits: "Natalie Szponar"
                     },
                     {
-                      src: require("photos/chapter2/gallery-1/07_NatalieSzponar_DSC06141.jpg")
+                      src: require("photos/chapter2/gallery-1/07_NatalieSzponar_DSC06141.jpg"),
+                      credits: "Natalie Szponar"
                     },
                     {
-                      src: require("photos/chapter2/gallery-1/08_CINCIA_DSCF3067.jpg")
+                      src: require("photos/chapter2/gallery-1/08_CINCIA_DSCF3067.jpg"),
+                      credits: "CINCIA"
                     },
                     {
-                      src: require("photos/chapter2/gallery-1/09_CINCIA_IMG_0483.jpg")
+                      src: require("photos/chapter2/gallery-1/09_CINCIA_IMG_0483.jpg"),
+                      credits: "CINCIA"
                     },
                     {
-                      src: require("photos/chapter2/gallery-1/10_CINCIA_IMG_3955.jpg")
+                      src: require("photos/chapter2/gallery-1/10_CINCIA_IMG_3955.jpg"),
+                      credits: "CINCIA"
                     },
                     {
-                      src: require("photos/chapter2/gallery-1/11_AldoRivas_IMG_4152.jpg")
+                      src: require("photos/chapter2/gallery-1/11_AldoRivas_IMG_4152.jpg"),
+                      credits: "Aldo Rivas"
                     },
                     {
-                      src: require("photos/chapter2/gallery-1/12_AldoRivas_IMG_4167.jpg")
+                      src: require("photos/chapter2/gallery-1/12_AldoRivas_IMG_4167.jpg"),
+                      credits: "Aldo Rivas"
                     },
                     {
-                      src: require("photos/chapter2/gallery-1/13_CINCIA_P1000164.jpg")
+                      src: require("photos/chapter2/gallery-1/13_CINCIA_P1000164.jpg"),
+                      credits: "CINCIA"
                     },
                     {
-                      src: require("photos/chapter2/gallery-1/14_CINCIA_P3240166.jpg")
+                      src: require("photos/chapter2/gallery-1/14_CINCIA_P3240166.jpg"),
+                      credits: "CINCIA"
                     },
                     {
-                      src: require("photos/chapter2/gallery-1/15_NatalieSzponar_PacoMaizal.jpg")
+                      src: require("photos/chapter2/gallery-1/15_NatalieSzponar_PacoMaizal.jpg"),
+                      credits: "Natalie Szponar"
                     }
                   ]
                 }
@@ -106,7 +118,7 @@ export default () => (
           size="1.7MB"
         >mercury levels in fish are 43% higher in wells abandoned by gold</FileLink> mining <StoryMedia
         media={{
-          id: "galery-1",
+          id: "galery-2",
           type: "gallery",
           data: {
             credits: "CINCIA",

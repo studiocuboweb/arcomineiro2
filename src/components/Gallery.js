@@ -39,6 +39,19 @@ const Preview = styled.div`
   }
 `;
 
+const Credits = styled.p`
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 3;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-size: 0.6em;
+  padding: 0.25rem 0.5rem;
+`;
+
 const Wrapper = styled.div`
   position: relative;
   a {
@@ -139,6 +152,7 @@ class Gallery extends Component {
               />
             </span>
           </span>
+          <Credits>{first.credits}</Credits>
         </Preview>
       );
     } else {
@@ -154,6 +168,7 @@ class Gallery extends Component {
           <a href="javascript:void(0);" className="next" onClick={this._next}>
             <span className="fa fa-angle-right" />
           </a>
+          <Credits>{data.items[current].credits}</Credits>
         </Wrapper>
       );
     }

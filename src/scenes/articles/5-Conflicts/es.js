@@ -27,11 +27,11 @@ export default () => (
       <Paragraph>
         <StoryMedia
           media={{
-            id: "image-2",
+            id: "image-1",
             type: "image",
             data: {
               credits: "Rogério Assis/ISA",
-              src: require("photos/chapter4/26_Chinapintza_ImgSateliteSentinel2B_20181024.jpg")
+              src: require("photos/chapter5/25_RogerioAssis-ISA_RS6436_IMG_3077.jpg")
             }
           }}>Los impactos de la minería ilegal ya se ven como graves violaciones a los derechos humanos.</StoryMedia> La contaminación del agua y la expulsión de pueblos indígenas en aislamiento voluntario son algunos indicios de los daños al bien común.
       </Paragraph>

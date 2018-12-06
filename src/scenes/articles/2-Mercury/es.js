@@ -29,7 +29,7 @@ export default () => (
           id: "image-1",
           type: "image",
           data: {
-            credits: "",
+            credits: "Oscar Mujica/FZS Perú",
             src: require("photos/chapter2/04_OscarMujica-FZS_PE_Colorado.jpg")
           }
         }}><strong>Las cicatrices en la tierra, las aguas turbias de los ríos son daños evidentes de la minería ilegal</strong></StoryMedia>. Pero hay un mal invisible que contamina la fauna amazónica y los habitantes de la región. El mercurio, revelan distintos estudios, está afectando a poblaciones indígenas y locales que viven cerca o trabajan en zonas de extracción de oro, así como aquellas que consumen peces amazónicos como parte de su dieta.
@@ -41,10 +41,10 @@ export default () => (
                 id: "galery-1",
                 type: "gallery",
                 data: {
-                  credits: "01, 08, 09, 10, 13, 14 - CINCIA 04, 05, 06, 07, 15 - Natalie Szponar 11, 12 - Aldo Rivas",
                   items: [
                     {
-                      src: require("photos/chapter2/gallery-1/01_CINCIA_IMG1678.jpg")
+                      src: require("photos/chapter2/gallery-1/01_CINCIA_IMG1678.jpg"),
+                      credits: "CINCIA"
                     },
                     {
                       src: require("photos/chapter2/gallery-1/02_DSC05788.jpg")
@@ -53,40 +53,52 @@ export default () => (
                       src: require("photos/chapter2/gallery-1/03_DSC05797.jpg")
                     },
                     {
-                      src: require("photos/chapter2/gallery-1/04_NatalieSzponar_DSC06069.jpg")
+                      src: require("photos/chapter2/gallery-1/04_NatalieSzponar_DSC06069.jpg"),
+                      credits: "Natalie Szponar"
                     },
                     {
-                      src: require("photos/chapter2/gallery-1/05_NatalieSzponar_DSC06131.jpg")
+                      src: require("photos/chapter2/gallery-1/05_NatalieSzponar_DSC06131.jpg"),
+                      credits: "Natalie Szponar"
                     },
                     {
-                      src: require("photos/chapter2/gallery-1/06_NatalieSzponar4_DSC06137.jpg")
+                      src: require("photos/chapter2/gallery-1/06_NatalieSzponar4_DSC06137.jpg"),
+                      credits: "Natalie Szponar"
                     },
                     {
-                      src: require("photos/chapter2/gallery-1/07_NatalieSzponar_DSC06141.jpg")
+                      src: require("photos/chapter2/gallery-1/07_NatalieSzponar_DSC06141.jpg"),
+                      credits: "Natalie Szponar"
                     },
                     {
-                      src: require("photos/chapter2/gallery-1/08_CINCIA_DSCF3067.jpg")
+                      src: require("photos/chapter2/gallery-1/08_CINCIA_DSCF3067.jpg"),
+                      credits: "CINCIA"
                     },
                     {
-                      src: require("photos/chapter2/gallery-1/09_CINCIA_IMG_0483.jpg")
+                      src: require("photos/chapter2/gallery-1/09_CINCIA_IMG_0483.jpg"),
+                      credits: "CINCIA"
                     },
                     {
-                      src: require("photos/chapter2/gallery-1/10_CINCIA_IMG_3955.jpg")
+                      src: require("photos/chapter2/gallery-1/10_CINCIA_IMG_3955.jpg"),
+                      credits: "CINCIA"
                     },
                     {
-                      src: require("photos/chapter2/gallery-1/11_AldoRivas_IMG_4152.jpg")
+                      src: require("photos/chapter2/gallery-1/11_AldoRivas_IMG_4152.jpg"),
+                      credits: "Aldo Rivas"
                     },
                     {
-                      src: require("photos/chapter2/gallery-1/12_AldoRivas_IMG_4167.jpg")
+                      src: require("photos/chapter2/gallery-1/12_AldoRivas_IMG_4167.jpg"),
+                      credits: "Aldo Rivas"
                     },
                     {
-                      src: require("photos/chapter2/gallery-1/13_CINCIA_P1000164.jpg")
+                      src: require("photos/chapter2/gallery-1/13_CINCIA_P1000164.jpg"),
+                      credits: "CINCIA"
                     },
                     {
-                      src: require("photos/chapter2/gallery-1/14_CINCIA_P3240166.jpg")
+                      src: require("photos/chapter2/gallery-1/14_CINCIA_P3240166.jpg"),
+                      credits: "CINCIA"
                     },
                     {
-                      src: require("photos/chapter2/gallery-1/15_NatalieSzponar_PacoMaizal.jpg")
+                      src: require("photos/chapter2/gallery-1/15_NatalieSzponar_PacoMaizal.jpg"),
+                      credits: "Natalie Szponar"
                     }
                   ]
                 }
@@ -106,7 +118,7 @@ export default () => (
           size="1.7MB"
         >estudio realizado por  CINCIA</FileLink> revelan que los niveles de mercurio en peces son un 43% mayores en pozos abandonados por la minería de oro que en áreas donde no existen campamentos mineros. Se recolectó <StoryMedia
         media={{
-          id: "galery-1",
+          id: "galery-2",
           type: "gallery",
           data: {
             credits: "CINCIA",

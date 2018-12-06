@@ -21,19 +21,19 @@ export default () => (
       <Title as="h2">Áreas Protegidas</Title>
       <Note>
         <p>
-          Além das ameaças aos recursos hídricos e à saúde das comunidades na Amazônia, a mineração traz impactos diretos para as florestas e outros ecossistemas tropicais, como áreas úmidas e cerrados.
-        </p>
-      </Note>
-      <Paragraph>
-      <StoryMedia
+          Além das ameaças aos recursos hídricos e à saúde das comunidades na Amazônia, a <StoryMedia
         media={{
           id: "image-1",
           type: "image",
           data: {
-            credits: "",
+            credits: "Daniel Paranayba/ISA",
             src: require("photos/chapter3/09_DanielParanayba_ParqueNacionalJamanxim.jpg")
           }
-        }}>Um</StoryMedia> estudo realizado entre 2001 e 2013 por pesquisadores Nora L. Alvarez Berrios e T Michel Aide, ambos acadêmicos da Universidade de Puerto Rico - Rio Piedras, sugere que <FileLink
+        }}>mineração traz impactos diretos para as florestas e outros ecossistemas tropicais</StoryMedia>, como áreas úmidas e cerrados.
+        </p>
+      </Note>
+      <Paragraph>
+        Um estudo realizado entre 2001 e 2013 por pesquisadores Nora L. Alvarez Berrios e T Michel Aide, ambos acadêmicos da Universidade de Puerto Rico - Rio Piedras, sugere que <FileLink
           href={require("documents/chapter3/Alvarez-Berrios_2015_Environ._Res._Lett._10_014006.pdf")}
           format="pdf"
           size="1.7MB"
@@ -48,40 +48,50 @@ export default () => (
             id: "galery-1",
             type: "gallery",
             data: {
-              credits: "Alberto Blanco, Barbara Fraser, Charles Brewer Carias, Javier Mesa, Oscar Mujica/FZS, arquivo Wataniba",
               items: [
                 {
-                  src: require("photos/chapter3/gallery-1/01_AlbertoBlanco_NorteSierradeLLema_EdoBolivar_LagunasYPozosDeSaqueMercurioMetilado_P4301277.jpg")
+                  src: require("photos/chapter3/gallery-1/01_AlbertoBlanco_NorteSierradeLLema_EdoBolivar_LagunasYPozosDeSaqueMercurioMetilado_P4301277.jpg"),
+                  credits: "Alberto Blanco"
                 },
                 {
-                  src: require("photos/chapter3/gallery-1/02_BarbaraFraser_PE_MadreDeDios_IMG_0209.jpg")
+                  src: require("photos/chapter3/gallery-1/02_BarbaraFraser_PE_MadreDeDios_IMG_0209.jpg"),
+                  credits: "Barbara Fraser"
                 },
                 {
-                  src: require("photos/chapter3/gallery-1/03_Charles_Brewer-Carias_Minas_Gran_Sabana_PNCanaima_Pemon_Edo-Bolivar.jpg")
+                  src: require("photos/chapter3/gallery-1/03_Charles_Brewer-Carias_Minas_Gran_Sabana_PNCanaima_Pemon_Edo-Bolivar.jpg"),
+                  credits: "Charles Brewer Carias"
                 },
                 {
-                  src: require("photos/chapter3/gallery-1/04_DanielParanayba_FlonaAltamira_Garimpo.jpg")
+                  src: require("photos/chapter3/gallery-1/04_DanielParanayba_FlonaAltamira_Garimpo.jpg"),
+                  credits: "Daniel Paranayba/ISA"
                 },
                 {
-                  src: require("photos/chapter3/gallery-1/05_OscarMujica-FZS_PE_LaPampa.jpg")
+                  src: require("photos/chapter3/gallery-1/05_OscarMujica-FZS_PE_LaPampa.jpg"),
+                  credits: "Oscar Mujica/FZS Perú"
                 },
                 {
-                  src: require("photos/chapter3/gallery-1/06_JavierMesa_Minas_PNCanaima_EdoBolivar_MG_9204.jpg")
+                  src: require("photos/chapter3/gallery-1/06_JavierMesa_Minas_PNCanaima_EdoBolivar_MG_9204.jpg"),
+                  credits: "Javier Mesa"
                 },
                 {
-                  src: require("photos/chapter3/gallery-1/07_JavierMesa_Minas_PNCanaima_MG_9193.jpg")
+                  src: require("photos/chapter3/gallery-1/07_JavierMesa_Minas_PNCanaima_MG_9193.jpg"),
+                  credits: "Javier Mesa"
                 },
                 {
-                  src: require("photos/chapter3/gallery-1/08_JavierMesa_Minas_PNCanaima_MG_9195.jpg")
+                  src: require("photos/chapter3/gallery-1/08_JavierMesa_Minas_PNCanaima_MG_9195.jpg"),
+                  credits: "Javier Mesa"
                 },
                 {
-                  src: require("photos/chapter3/gallery-1/09_PN Canaima_Gran Sabana_Javier Mesa_MG_6137.jpg")
+                  src: require("photos/chapter3/gallery-1/09_PN Canaima_Gran Sabana_Javier Mesa_MG_6137.jpg"),
+                  credits: "Javier Mesa"
                 },
                 {
-                  src: require("photos/chapter3/gallery-1/10_CharlesBrewerCarias_RioKukenamYLosTepuyesOrientals_2526.jpg")
+                  src: require("photos/chapter3/gallery-1/10_CharlesBrewerCarias_RioKukenamYLosTepuyesOrientals_2526.jpg"),
+                  credits: "Charles Brewer Carias"
                 },
                 {
-                  src: require("photos/chapter3/gallery-1/11_Wataniba_Yapacana2013_IMG_1832.jpg")
+                  src: require("photos/chapter3/gallery-1/11_Wataniba_Yapacana2013_IMG_1832.jpg"),
+                  credits: "arquivo Wataniba"
                 }
               ]
             }
@@ -229,7 +239,7 @@ export default () => (
       <Paragraph>
         No documentário “Guardiões da Floresta” produzido em setembro 2016 pela Fundação Floresta Azul e Rede de Informação Ambiental (RAI), pode-se ver o <StoryMedia
         media={{
-        id: "video-3",
+        id: "video-4",
         type: "youtube",
         data: {
           id: "zAvUPCRPcrk"
