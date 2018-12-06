@@ -26,7 +26,7 @@ export default () => (
           id: "image-1",
           type: "image",
           data: {
-            credits: "",
+            credits: "Daniel Paranayba/ISA",
             src: require("photos/chapter3/09_DanielParanayba_ParqueNacionalJamanxim.jpg")
           }
         }}>minería trae impactos directos a los bosques y otros ecosistemas tropicales</StoryMedia>, como las zonas húmedas y manchas de herbazales.

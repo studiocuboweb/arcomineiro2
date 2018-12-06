@@ -26,7 +26,7 @@ export default () => (
           id: "image-1",
           type: "image",
           data: {
-            credits: "",
+            credits: "Daniel Paranayba/ISA",
             src: require("photos/chapter3/09_DanielParanayba_ParqueNacionalJamanxim.jpg")
           }
         }}>mining has direct impacts on forests and other tropical</StoryMedia> ecosystems, such as wetlands and the cerrado tropical savannas.

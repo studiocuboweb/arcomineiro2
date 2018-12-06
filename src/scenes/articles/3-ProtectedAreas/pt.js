@@ -26,7 +26,7 @@ export default () => (
           id: "image-1",
           type: "image",
           data: {
-            credits: "",
+            credits: "Daniel Paranayba/ISA",
             src: require("photos/chapter3/09_DanielParanayba_ParqueNacionalJamanxim.jpg")
           }
         }}>mineração traz impactos diretos para as florestas e outros ecossistemas tropicais</StoryMedia>, como áreas úmidas e cerrados.
