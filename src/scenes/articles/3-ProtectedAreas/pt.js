@@ -239,7 +239,7 @@ export default () => (
       <Paragraph>
         No documentário “Guardiões da Floresta” produzido em setembro 2016 pela Fundação Floresta Azul e Rede de Informação Ambiental (RAI), pode-se ver o <StoryMedia
         media={{
-        id: "video-3",
+        id: "video-4",
         type: "youtube",
         data: {
           id: "zAvUPCRPcrk"
