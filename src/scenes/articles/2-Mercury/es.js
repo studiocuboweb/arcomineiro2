@@ -29,7 +29,7 @@ export default () => (
           id: "image-1",
           type: "image",
           data: {
-            credits: "",
+            credits: "Oscar Mujica/FZS Perú",
             src: require("photos/chapter2/04_OscarMujica-FZS_PE_Colorado.jpg")
           }
         }}><strong>Las cicatrices en la tierra, las aguas turbias de los ríos son daños evidentes de la minería ilegal</strong></StoryMedia>. Pero hay un mal invisible que contamina la fauna amazónica y los habitantes de la región. El mercurio, revelan distintos estudios, está afectando a poblaciones indígenas y locales que viven cerca o trabajan en zonas de extracción de oro, así como aquellas que consumen peces amazónicos como parte de su dieta.

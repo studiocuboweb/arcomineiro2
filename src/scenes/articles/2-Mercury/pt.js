@@ -29,7 +29,7 @@ export default () => (
           id: "image-1",
           type: "image",
           data: {
-            credits: "",
+            credits: "Oscar Mujica/FZS Perú",
             src: require("photos/chapter2/04_OscarMujica-FZS_PE_Colorado.jpg")
           }
         }}><strong>As cicatrizes na terra, as águas turvas dos rios</strong> são danos óbvios da mineração ilegal.</StoryMedia> Mas há um mal invisível que contamina a fauna amazônica e os habitantes da região. O mercúrio, de acordo com diferentes estudos, está afetando populações indígenas e locais que vivem perto ou trabalham em áreas de mineração de ouro, bem como aqueles que consomem peixe da Amazônia como parte de sua dieta.      

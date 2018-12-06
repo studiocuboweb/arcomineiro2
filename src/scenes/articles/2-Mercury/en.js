@@ -29,7 +29,7 @@ export default () => (
           id: "image-1",
           type: "image",
           data: {
-            credits: "",
+            credits: "Oscar Mujica/FZS Perú",
             src: require("photos/chapter2/04_OscarMujica-FZS_PE_Colorado.jpg")
           }
         }}><strong>The scars on the ground, the murky waters of the rivers</strong> are the obvious impacts of the illegal mining.</StoryMedia> But there is an invisible evil that contaminates the Amazonian fauna and the inhabitants of the region. According to several studies, mercury is affecting indigenous and local populations who live nearby or work in gold mining areas, as well as those who consume Amazonian fish as part of their diet.
