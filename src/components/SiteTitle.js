@@ -79,20 +79,10 @@ class SiteTitle extends Component {
               {/* <img src={logos[logoIndex]} alt="Digging into the Mining Arc" /> */}
             </span>
             <span className="title-text">
-              {/* <span className="title-item title-1">
-                <FormattedMessage
-                  id="general.siteTitle1"
-                  defaultMessage="Digging" />
-              </span>
-              <span className="title-item title-2">
-                <FormattedMessage
-                  id="general.siteTitle2"
-                  defaultMessage="into the" />
-              </span> */}
               <span className="title-item title-3">
                 <FormattedMessage
                   id="general.siteTitle3"
-                  defaultMessage="Mining Arc" />
+                  defaultMessage="Sacked Amazon" />
               </span>
             </span>
           </Link>

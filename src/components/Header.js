@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { connect } from "react-redux";
 import { media, color } from 'styles/utils';
 import { NavLink, Link } from 'react-router-dom';
+import { FormattedMessage } from 'react-intl';
 
 import SiteTitle from './SiteTitle';
 
@@ -144,7 +145,11 @@ class Header extends Component {
               <div style={{'display':'inline-block', 'cursor':'pointer'}}>
                 {/* <a href={`${url}${location.pathname}`}> */}
                 <NavLink activeClassName="active-navlink" to="/">
-                  <h1 style={{'blo':'right','fontSize':'30px'}}>Amazônia saqueada</h1>
+                  <h1 style={{'blo':'right','fontSize':'30px'}}>
+                  <FormattedMessage
+                    id="general.siteTitle3"
+                    defaultMessage="Sacked Amazon" />
+                  </h1>
                 </NavLink>
                 {/* </a> */}
               </div>
