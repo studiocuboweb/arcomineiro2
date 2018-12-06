@@ -27,11 +27,11 @@ export default () => (
       <Paragraph>
         <StoryMedia
           media={{
-            id: "image-2",
+            id: "image-1",
             type: "image",
             data: {
               credits: "Rogério Assis/ISA",
-              src: require("photos/chapter4/26_Chinapintza_ImgSateliteSentinel2B_20181024.jpg")
+              src: require("photos/chapter5/25_RogerioAssis-ISA_RS6436_IMG_3077.jpg")
             }
           }}>The impacts of illegal mining are already seen as serious human rights violations.</StoryMedia> Water contamination and the expulsion of indigenous peoples in voluntary isolation are among the indicators of harm to the common good.
       </Paragraph>
