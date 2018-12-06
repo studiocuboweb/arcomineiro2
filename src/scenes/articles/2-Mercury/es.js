@@ -47,10 +47,12 @@ export default () => (
                       credits: "CINCIA"
                     },
                     {
-                      src: require("photos/chapter2/gallery-1/02_DSC05788.jpg")
+                      src: require("photos/chapter2/gallery-1/02_DSC05788.jpg"),
+                      credits: "Natalie Szponar"
                     },
                     {
-                      src: require("photos/chapter2/gallery-1/03_DSC05797.jpg")
+                      src: require("photos/chapter2/gallery-1/03_DSC05797.jpg"),
+                      credits: "Natalie Szponar"
                     },
                     {
                       src: require("photos/chapter2/gallery-1/04_NatalieSzponar_DSC06069.jpg"),
