@@ -123,19 +123,22 @@ export default () => (
           id: "galery-2",
           type: "gallery",
           data: {
-            credits: "CINCIA",
             items: [
               {
-                src: require("photos/chapter2/gallery-2/01_CINCIA_ColetaPeixe_1.jpg")
+                src: require("photos/chapter2/gallery-2/01_CINCIA_ColetaPeixe_1.jpg"),
+                credits: "CINCIA"
               },
               {
-                src: require("photos/chapter2/gallery-2/02_CINCIA_ColetaPeixe_a.jpg")
+                src: require("photos/chapter2/gallery-2/02_CINCIA_ColetaPeixe_a.jpg"),
+                credits: "CINCIA"
               },
               {
-                src: require("photos/chapter2/gallery-2/03_CINCIA_ColetaPeixe_b.jpg")
+                src: require("photos/chapter2/gallery-2/03_CINCIA_ColetaPeixe_b.jpg"),
+                credits: "CINCIA"
               },
               {
-                src: require("photos/chapter2/gallery-2/04_CINCIA_lab01.jpg")
+                src: require("photos/chapter2/gallery-2/04_CINCIA_lab01.jpg"),
+                credits: "CINCIA"
               }
             ]
           }
