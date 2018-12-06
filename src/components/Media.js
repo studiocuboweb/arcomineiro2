@@ -142,7 +142,6 @@ class Media extends Component {
   render() {
     const { active } = this.state;
     const { media, preview, children } = this.props;
-    console.log(media);
     let credits;
     if (media && media.data)
       credits = media.data.credits || process.env.DEFAULT_CREDITS;
