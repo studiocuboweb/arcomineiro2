@@ -110,11 +110,10 @@ export default () => (
         },
         }}>fuentes de información se manejaron con diferentes niveles de profundidad</StoryMedia> y, por otro lado, la velocidad en el crecimiento de la minería también ha presentado variaciones en la región, por lo que aquellas afectaciones que actualmente se consideran como puntos, muy pronto pueden pasar a ser áreas de explotación. De esta manera, los números pueden cambiar, pero lo cierto es que la superficie de afectación va en aumento. Esta parece ser la situación en Venezuela, donde los reportes cambian drásticamente de año a año.
       </Paragraph>
-
       <Paragraph>
-        Uma das desvantagens da metodologia seguida para levantar a informação é que ela pode não captar <StoryMedia
+      Uno de los inconvenientes de la metodología seguida para levantar la información es que puede no captar<StoryMedia
               media={{
-                id: "galery-1",
+                id: "galery-2",
                 type: "gallery",
                 data: {
                   items: [
@@ -149,41 +148,7 @@ export default () => (
                   ]
                 }
               }}
-            > mineração de pequena escala que atinge as partes mais remotas da Amazônia.</StoryMedia> Esta variedade põe em risco fragmentos de floresta considerados entre os mais bem conservados, bem como o deslocamento de comunidades indígenas em situação de isolamento voluntário.
-      </Paragraph>
-
-      <Paragraph>
-      Uno de los inconvenientes de la metodología seguida para levantar la información es que puede <StoryMedia
-              media={{
-                id: "galery-1",
-                type: "gallery",
-                data: {
-                  items: [
-                    {
-                      src: require("photos/chapter1/gallery-1/01_AlbertoBlanco_BrisasDelCuyuni13A.jpg")
-                    },
-                    {
-                      src: require("photos/chapter1/gallery-1/02_AlbertoBlanco_BrisasDelCuyuni14A.jpg")
-                    },
-                    {
-                      src: require("photos/chapter1/gallery-1/03_AlbertoBlanco_BrisasDelCuyuni8.jpg")
-                    },
-                    {
-                      src: require("photos/chapter1/gallery-1/04_AlbertoBlanco_BrisasDelCuyuni6A.jpg")
-                    },
-                    {
-                      src: require("photos/chapter1/gallery-1/05_AlbertoBlanco_BrisasDelCuyuni3.jpg")
-                    },
-                    {
-                      src: require("photos/chapter1/gallery-1/06_AlbertoBlanco_BrisasDelCuyuni4.jpg")
-                    },
-                    {
-                      src: require("photos/chapter1/gallery-1/07_AlbertoBlanco_BrisasDelCuyuni6A.jpg")
-                    }
-                  ]
-                }
-              }}
-            > no captar la minería de pequeña escala</StoryMedia> que llega a los lugares más remotos de la Amazonía, y que pone en riesgo fragmentos de bosque considerados entre los mejor conservados  y provoca el desplazamiento de comunidades indígenas en situación de aislamiento voluntario. 
+            > la minería de pequeña escala que llega a los lugares más remotos de la Amazonía</StoryMedia>, y que pone en riesgo fragmentos de bosque considerados entre los mejor conservados  y provoca el desplazamiento de comunidades indígenas en situación de aislamiento voluntario. 
       </Paragraph>
 
       <Paragraph>
