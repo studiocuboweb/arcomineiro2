@@ -21,7 +21,7 @@ export default () => (
     <Container>
       <Note>
         <p>
-          Unique survey identifies the existence of more than 2000 sites and 200 areas of illegal mining in the forest ecosystems of six Amazonian countries.
+          New survey reveals the existence of more than 2000 points and 200 illegal mining areas in six Amazonian countries.
         </p>
       </Note>
       <Paragraph>

@@ -33,7 +33,7 @@ export default () => (
               credits: "Rogério Assis/ISA",
               src: require("photos/chapter5/25_RogerioAssis-ISA_RS6436_IMG_3077.jpg")
             }
-          }}>Os impactos da mineração ilegal já são vistos como graves violações dos direitos humanos.</StoryMedia> A contaminação da água, a expulsão dos povos indígenas em isolamento voluntário são algumas indicações do dano ao bem comum.
+          }}>Os impactos da mineração ilegal já são vistos como graves violações dos direitos humanos</StoryMedia>. A contaminação da água, a expulsão dos povos indígenas em isolamento voluntário são algumas indicações do dano ao bem comum.
       </Paragraph>
       <Paragraph>
         Além das agressões ambientais, há um impacto cultural e econômico na perpetuação da mineração. Não existe apenas o custo da perda de atividades das populações tradicionais, mas a própria remediação dos locais degradados.
@@ -77,12 +77,12 @@ export default () => (
               src: require('photos/chapter5/27_JuanPinto_AgustinOjeda_LiderShirian_Foto2018_Wataniba_9692-2.jpg')
             }
           }}
-        >Agustín Ojeda, líder shiriano do estado de Bolívar, Venezuela.</StoryMedia>
+        >Agustín Ojeda, líder shirian do estado de Bolívar, Venezuela</StoryMedia>.
         </p>
         <p className='medium-txt'>
           Ele ressalta que a profunda mudança no modo de vida de seu povo e a adoção de novos hábitos prejudicaram seriamente os costumes ancestrais e, por sua vez, aumentaram os problemas de saúde. 
         </p>
-        <Quote author="Agustín Ojeda, líder Shiriano">
+        <Quote author="Agustín Ojeda, líder Shirian">
           <span className="solo-quote">A mineração ilegal pode nos matar. Os poços de mineração permitem a reprodução de mosquitos que trazem doenças como a malária. O efeito do mercúrio na água também não é levado a sério; não só a contamina, mas também os peixes que usamos para comer</span>
         </Quote>
         <p className='medium-txt'>

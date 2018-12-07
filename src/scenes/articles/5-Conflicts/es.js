@@ -33,7 +33,7 @@ export default () => (
               credits: "Rogério Assis/ISA",
               src: require("photos/chapter5/25_RogerioAssis-ISA_RS6436_IMG_3077.jpg")
             }
-          }}>Los impactos de la minería ilegal ya se ven como graves violaciones a los derechos humanos.</StoryMedia> La contaminación del agua y la expulsión de pueblos indígenas en aislamiento voluntario son algunos indicios de los daños al bien común.
+          }}>Los impactos de la minería ilegal ya se ven como graves violaciones a los derechos humanos</StoryMedia>. La contaminación del agua y la expulsión de pueblos indígenas en aislamiento voluntario son algunos indicios de los daños al bien común.
       </Paragraph>
       <Paragraph>
         Además del impacto ambiental, existe un impacto cultural y económico en la perpetuación de la minería. No sólo existe el costo de la pérdida de actividades de las poblaciones tradicionales, sino la propia remediación de los sitios degradados.
@@ -82,7 +82,7 @@ export default () => (
         <p className='medium-txt'>
           Señala que el profundo cambio en el estilo de vida de su pueblo y la adopción de nuevos hábitos han perjudicado gravemente las costumbres ancestrales y, a su vez, han aumentado los problemas de salud.  
         </p>
-        <Quote author="Agustín Ojeda, líder Shiriano">
+        <Quote author="Agustín Ojeda, líder Shirian">
           <span>“La minería ilegal nos puede llegar a matar. Los pozos mineros permiten la reproducción de mosquitos que traen enfermedades como malaria. Tampoco se toma con seriedad el efecto del mercurio en el agua; no solo la contamina a ella, también a los peces que utilizamos para comer”.</span>
         </Quote>
         <p className='medium-txt'>

@@ -188,7 +188,7 @@ export default () => (
               data: {
                 id: "XWF1MKP7pwY"
               }
-              }}>resultados publicado por el ISA.</StoryMedia>
+              }}>resultados publicado por el ISA</StoryMedia>.
       </Paragraph>
       <Paragraph>
         En Colombia, mucha de la actividad minera tiene lugar en zonas de frontera. Esto significa que las cuencas compartidas se convierten en las principales vías de contaminación por mercurio. La zona más afectada se encuentra a lo largo del río Caquetá. Un estudio del Instituto Nacional de Salud de Colombia en el río Apaporis revela que hasta el 80% de las  poblaciones indígenas en esta región están contaminadas por el mercurio.
@@ -202,7 +202,7 @@ export default () => (
         La grave situación de contaminación por mercurio en varios países llevó a la creación por las Naciones Unidas del <ExternalLink href="https://treaties.un.org/Pages/ViewDetails.aspx?src=IND&mtdsg_no=XXVII-17&chapter=27&clang=_en" language="en">Convenio de Minamata, en memoria del desastre humano y ambiental ocurrido en la zona costera de Minamata</ExternalLink>, en Japón, causado por el consumo de peces con altos niveles de mercurio. El acuerdo entre 101 miembros prevé un mayor control de la importación, comercialización y descarte de mercurio.
         </p>
         <p className='regular-txt'>
-          Para <ExternalLink href="https://www.paginasiete.bo/sociedad/2018/9/23/importacion-de-mercurio-crecio-20-veces-194729.html" language="es">los países amazónicos que suscribieron la convención en 2013,  el acuerdo entró en vigor en 2017, al superar el punto límite de 50 ratificaciones.</ExternalLink> Salvo Colombia y Venezuela, todos los demás países con territorio en el bioma amazónico –incluida Francia– ya han firmado y ratificado el Convenio de Minamata. Además, todos los países del bioma se encuentran realizando proyectos para el convenio. 
+          Para <ExternalLink href="https://www.paginasiete.bo/sociedad/2018/9/23/importacion-de-mercurio-crecio-20-veces-194729.html" language="es">los países amazónicos que suscribieron la convención en 2013,  el acuerdo entró en vigor en 2017, al superar el punto límite de 50 ratificaciones</ExternalLink>. Salvo Colombia y Venezuela, todos los demás países con territorio en el bioma amazónico –incluida Francia– ya han firmado y ratificado el Convenio de Minamata. Además, todos los países del bioma se encuentran realizando proyectos para el convenio. 
         </p>
         <p className='regular-txt'>
         A pesar de no haber ratificado el Convenio todavía, Colombia y Venezuela también vienen adelantando proyectos a fin de determinar la capacidad institucional, normativa, técnica y comercial del país para cumplir con las obligaciones del Convenio. Colombia cuenta con una estrategia ambiciosa para eliminar el descarte irregular de mercurio, la cual se encuentra incluida en el plan de gobierno lanzado en noviembre de 2018 y vigente hasta 2023.

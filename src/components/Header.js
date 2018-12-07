@@ -155,10 +155,10 @@ class Header extends Component {
               </div>
               <div style={{'display':'inline-block'}}>
                 <a href="https://infoamazonia.org/" target="_blank">
-                  <img src={require("images/partners/infoamazonia-crop.png")} className="logo-infoamazonia" style={{'height':'41px'}} />
+                  <img src={require("images/partners/infoamazonia-crop.png")} className="logo-infoamazonia" style={{'height':'41px', 'margin-right':'0px'}} alt="INFOAMAZONIA" />
                 </a>
                 <a href="https://www.amazoniasocioambiental.org" target="_blank">
-                  <img src={require("images/partners/raisg-crop.png")} className="logo-raisg" />
+                  <img src={require("images/partners/avatar_r_cheio.png")} className="logo-raisg" alt="RAISG"/>
                 </a>
               </div>
             </div>

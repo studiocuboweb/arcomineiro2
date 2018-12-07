@@ -96,7 +96,7 @@ export default () => (
               ]
             }
           }}
-        >Em todos os países analisados pela RAISG, existe ​​evidência de danos a áreas naturais protegidas,</StoryMedia> desmatamento, apropriação de terras para a preservação e redução da vida selvagem em rios, florestas e outros ecossistemas naturais.
+        >Em todos os países analisados pela RAISG, existe ​​evidência de danos a áreas naturais protegidas</StoryMedia>, desmatamento, apropriação de terras para a preservação e redução da vida selvagem em rios, florestas e outros ecossistemas naturais.
       </Paragraph>
       <Paragraph>
         De acordo com a análise da RAISG, de <StoryMedia
@@ -160,7 +160,7 @@ export default () => (
             zoomMin: 5,
             zoomMax: 14
           }
-        }}>Parque Nacional de Yapacana, na Venezuela, nas proximidades da confluência entre os rios Orinoco e Ventuari.</StoryMedia> Criada em 1978, a área protege paisagens amazônicas do Orinoco e Cerro Yapacana. Desde a década de 1980, são conhecidas as atividades de mineração de ouro dentro do parque nacional. No entanto, a ilegalidade tornou-se clara com alianças entre os mineiros e membros dissidentes das guerrilhas colombianas.
+        }}>Parque Nacional de Yapacana, na Venezuela, nas proximidades da confluência entre os rios Orinoco e Ventuari</StoryMedia>. Criada em 1978, a área protege paisagens amazônicas do Orinoco e Cerro Yapacana. Desde a década de 1980, são conhecidas as atividades de mineração de ouro dentro do parque nacional. No entanto, a ilegalidade tornou-se clara com alianças entre os mineiros e membros dissidentes das guerrilhas colombianas.
       </Paragraph>
       <Paragraph>
         Notícias recentes, publicadas na imprensa colombiana e venezuelana, revelaram as constantes incursões de guerrilheiros na busca por ouro, diamante e coltan. Fala-se da presença de até 2.000 homens dentro da área do Yapacana. <StoryMedia
@@ -170,7 +170,7 @@ export default () => (
               data: {
                 id: "yo0rwK1g9RE"
               }
-              }}>Uma coleção de imagens de satélite para o período 1989-2016 revela o progresso do desmatamento.</StoryMedia>
+              }}>Uma coleção de imagens de satélite para o período 1989-2016 revela o progresso do desmatamento</StoryMedia>.
       </Paragraph>
       <Paragraph>
         Em agosto de 2016, um grupo de acadêmicos, religiosos, jornalistas e autoridades do estado do Amazonas apresentou a <FileLink
@@ -193,7 +193,7 @@ export default () => (
         }}>Em voos realizados em abril de 2017</StoryMedia>, a equipe do Instituto Socioambiental (ISA) registrou a rápida transformação dos rios Novo, Branco e Jamanxim. Em um trecho dentro da Floresta Nacional de Altamira, um garimpo de 6,5 quilômetros de extensão pode ser avistado no vídeo. Segundo informações obtidas pelos técnicos da ISA, a abertura dessas áreas de mineração ocorreu em apenas três meses.
       </Paragraph>
       <Paragraph>
-        O avanço dos garimpos nas áreas protegidas da bacia do Tapajós ocorreu em um momento em que o próprio governo brasileiro estava determinado a propor leis para a redução de medidas de proteção. Além disso, a destruição ocorre sem que os órgãos responsáveis, como o IBAMA e o ICMBio, consigam combatê-la. Um relatório publicado pela Intercept Brasil em junho daquele mesmo ano, revelou como <ExternalLink href="https://theintercept.com/2017/06/13/governo-esta-prestes-a-aprovar-projetos-a-favor-de-grilagem-e-outros-crimes-ambientais/" language="pt">madeireiros em aliança com garimpeiros destruíram pontes para impedir o acesso de equipes de inspeção.</ExternalLink>
+        O avanço dos garimpos nas áreas protegidas da bacia do Tapajós ocorreu em um momento em que o próprio governo brasileiro estava determinado a propor leis para a redução de medidas de proteção. Além disso, a destruição ocorre sem que os órgãos responsáveis, como o IBAMA e o ICMBio, consigam combatê-la. Um relatório publicado pela Intercept Brasil em junho daquele mesmo ano, revelou como <ExternalLink href="https://theintercept.com/2017/06/13/governo-esta-prestes-a-aprovar-projetos-a-favor-de-grilagem-e-outros-crimes-ambientais/" language="pt">madeireiros em aliança com garimpeiros destruíram pontes para impedir o acesso de equipes de inspeção</ExternalLink>.
       </Paragraph>
       <Paragraph>
         Grande parte da mineração ilegal de ouro e coltan na Amazônia colombiana é desenvolvida em grandes bacias hidrográficas como Putumayo, Caquetá, Apaporis, Guainía e Inírida, e outros corpos d´água menores como os rios Cotuhé, Puré e o cânion Tatu. Estas atividades afetam áreas de gestão especiais (terras indígenas, parques nacionais, Ramsar, Reserva Florestal) e áreas de fronteira que são de grande importância cultural e ambiental, ou desempenham um papel importante na soberania alimentar das populações locais.
@@ -206,16 +206,16 @@ export default () => (
         data: {
           id: "Omb7-pibnTk"
         }
-        }}>destruição ao longo dos rios também observado nas imediações da Reserva Nacional Tambopata, no departamento de Madre de Dios, Peru.</StoryMedia> O que chama a atenção, assim como nas áreas brasileiras, é a velocidade de expansão. Em apenas um semestre, ambas as margens do rio Malinowski, ao norte da reserva peruana foram tomadas de poças e lagoas para exploração.
+        }}>destruição ao longo dos rios também observado nas imediações da Reserva Nacional Tambopata, no departamento de Madre de Dios, Peru</StoryMedia>. O que chama a atenção, assim como nas áreas brasileiras, é a velocidade de expansão. Em apenas um semestre, ambas as margens do rio Malinowski, ao norte da reserva peruana foram tomadas de poças e lagoas para exploração.
       </Paragraph>
       <Paragraph>
-        O projeto MAAP, que utiliza imagens de satélite para monitorar a Amazônia Andina identificou que a <ExternalLink href="https://maaproject.org/2015/tambopat/" language="es">invasão da Reserva Nacional Tambopata pela atividade de mineração ilegal de ouro começou no final de 2015.</ExternalLink> "Em áreas de La Pampa (setor Balata), Alto Malinowski e na Reserva Nacional de Tambopata, o <ExternalLink href="http://www.actualidadambiental.pe/?p=49390" language="es">desmatamento causado pela mineração entre janeiro de 2017 e fevereiro 2018 você foi de 1 320 hectares,</ExternalLink> com 651 hectares desse total entre outubro de 2017 e fevereiro de 2018 ", informa o site Actualidad Ambiental del Perú.
+        O projeto MAAP, que utiliza imagens de satélite para monitorar a Amazônia Andina identificou que a <ExternalLink href="https://maaproject.org/2015/tambopat/" language="es">invasão da Reserva Nacional Tambopata pela atividade de mineração ilegal de ouro começou no final de 2015</ExternalLink>. "Em áreas de La Pampa (setor Balata), Alto Malinowski e na Reserva Nacional de Tambopata, o <ExternalLink href="http://www.actualidadambiental.pe/?p=49390" language="es">desmatamento causado pela mineração entre janeiro de 2017 e fevereiro 2018 você foi de 1 320 hectares</ExternalLink>, com 651 hectares desse total entre outubro de 2017 e fevereiro de 2018 ", informa o site Actualidad Ambiental del Perú.
       </Paragraph>
       <Paragraph withMargin>
         <iframe frameborder="0" class="juxtapose" width="100%" height="500" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=c09a020c-ec1f-11e8-9dba-0edaf8f81e27"></iframe>
       </Paragraph>
       <Paragraph>
-        A situação em Madre de Dios contribuiu para que o desmatamento no Peru tenha atingindo níveis nunca registrados. De acordo com um estudo recém-lançado pelo Centro de Inovação Científica Amazônica (CINCIA), <ExternalLink href="https://news.wfu.edu/2018/11/08/rainforest-destruction-from-gold-mining-hits-all-time-high-in-peru/" language="en">em apenas cinco anos houve uma perda florestal de 170 mil hectares.</ExternalLink> Esse valor é pelo menos <ExternalLink href="https://news.wfu.edu/2018/11/08/rainforest-destruction-from-gold-mining-hits-all-time-high-in-peru/" language="en">30% maior do que o anunciado anteriormente por outro monitoramento.</ExternalLink>
+        A situação em Madre de Dios contribuiu para que o desmatamento no Peru tenha atingindo níveis nunca registrados. De acordo com um estudo recém-lançado pelo Centro de Inovação Científica Amazônica (CINCIA), <ExternalLink href="https://news.wfu.edu/2018/11/08/rainforest-destruction-from-gold-mining-hits-all-time-high-in-peru/" language="en">em apenas cinco anos houve uma perda florestal de 170 mil hectares</ExternalLink>. Esse valor é pelo menos <ExternalLink href="https://news.wfu.edu/2018/11/08/rainforest-destruction-from-gold-mining-hits-all-time-high-in-peru/" language="en">30% maior do que o anunciado anteriormente por outro monitoramento</ExternalLink>.
       </Paragraph>
 
       <Paragraph>
@@ -234,7 +234,7 @@ export default () => (
             zoomMin: 6,
             zoomMax: 12
           }
-        }}>na área de Madidi e Pilón Lajas existem 41 operações de mineração.</StoryMedia> Apesar da ameaça óbvia causada pela mineração dentro da área protegida, essa atividade foi legalizada pelo governo. O CEDIB mostrou em uma apresentação por seu diretor Marco A Gandarillas Gonzáles que em apenas um ano, entre 2013 e 2014 mais de 194 direitos foram doados, o que equivale a mais de 100 mil hectares.
+        }}>na área de Madidi e Pilón Lajas existem 41 operações de mineração</StoryMedia>. Apesar da ameaça óbvia causada pela mineração dentro da área protegida, essa atividade foi legalizada pelo governo. O CEDIB mostrou em uma apresentação por seu diretor Marco A Gandarillas Gonzáles que em apenas um ano, entre 2013 e 2014 mais de 194 direitos foram doados, o que equivale a mais de 100 mil hectares.
       </Paragraph>
       <Paragraph>
         No documentário “Guardiões da Floresta” produzido em setembro 2016 pela Fundação Floresta Azul e Rede de Informação Ambiental (RAI), pode-se ver o <StoryMedia
@@ -244,7 +244,7 @@ export default () => (
         data: {
           id: "zAvUPCRPcrk"
         }
-        }}>progresso das atividades de mineração em grande escala dentro da áreas protegidas de Madidi.</StoryMedia>
+        }}>progresso das atividades de mineração em grande escala dentro da áreas protegidas de Madidi</StoryMedia>.
       </Paragraph>
     </Container>
   </article>

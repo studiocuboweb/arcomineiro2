@@ -119,9 +119,18 @@ const About = ({ intl, lastPath }) => {
               />
             </strong>
             <br />
-            Editor - Gustavo Faleiros<br />
-            Editora Imagens e Mapas - Juliana Mori<br />
-            Desenvolvimento Web - StudioCubo<br />
+              <FormattedMessage
+                  id="about.editors"
+                  defaultMessage="Editor"
+                /> - Gustavo Faleiros<br />
+              <FormattedMessage
+                  id="about.editor_chief"
+                  defaultMessage="Editora Imagens e Mapas"
+                /> - Juliana Mori<br />
+              <FormattedMessage
+                  id="about.dev"
+                  defaultMessage="Desenvolvimento Web"
+                /> - <a href="https://studiocuboweb.com.br" target="_blank"> StudioCubo</a><br />
           </Paragraph>
           <Button>
             <div>
@@ -141,7 +150,19 @@ const About = ({ intl, lastPath }) => {
           <Paragraph small>
             <FormattedMessage
               id="about.license"
-              defaultMessage="Except for the maps, which have different licenses, all the content published at this website is licensed using the Creative Commons BY-ND 4.0 license. For any other use, please write us at contact@infoamazonia.org"
+              defaultMessage="Todos os direitos reservados. Para utilizar conteúdo de texto, imagens e dados por favor entre em contato com {RAISG} e {INFOAMAZONIA}"
+              values={{
+                RAISG: (
+                  <strong>
+                    <a href="mailto:raisgmail@socioambiental.org">RAISG</a>
+                  </strong>
+                ),
+                INFO: (
+                  <strong>
+                    <a href="mailto:contact@infoamazonia.org">INFOAMAZONIA</a>
+                  </strong>
+                )
+              }}
             />
           </Paragraph>
         </Container>

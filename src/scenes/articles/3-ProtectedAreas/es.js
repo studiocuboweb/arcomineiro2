@@ -86,7 +86,7 @@ export default () => (
               ]
             }
           }}
-        >En todos los países analizados se encontraron evidencias de daños a áreas naturales protegidas, por deforestación, apropiación de tierras destinadas a la preservación y reducción de fauna en los ríos, bosques y otros ecosistemas naturales.</StoryMedia> 
+        >En todos los países analizados se encontraron evidencias de daños a áreas naturales protegidas, por deforestación, apropiación de tierras destinadas a la preservación y reducción de fauna en los ríos, bosques y otros ecosistemas naturales</StoryMedia>. 
       </Paragraph>
       <Paragraph>
         Un estudio realizado entre los años 2001 y 2013 <FileLink
@@ -215,7 +215,7 @@ export default () => (
         <iframe frameborder="0" class="juxtapose" width="100%" height="500" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=c09a020c-ec1f-11e8-9dba-0edaf8f81e27"></iframe>
       </Paragraph>
       <Paragraph>
-        La situación en Madre de Dios ha contribuido a que la deforestación en el Perú alcance niveles jamás registrados. Según una <ExternalLink href="https://news.wfu.edu/2018/11/08/rainforest-destruction-from-gold-mining-hits-all-time-high-in-peru/" language="en">investigación recientemente lanzada por el Centro de Innovación Científica Amazónica (CINCIA), </ExternalLink><ExternalLink href="https://news.wfu.edu/2018/11/08/rainforest-destruction-from-gold-mining-hits-all-time-high-in-peru/" language="en">en apenas cinco años hubo una pérdida forestal de 170 mil hectáreas. Esta cifra es por lo menos 30 por ciento mayor que la anunciada previamente por otros monitoreos.</ExternalLink>
+        La situación en Madre de Dios ha contribuido a que la deforestación en el Perú alcance niveles jamás registrados. Según una <ExternalLink href="https://news.wfu.edu/2018/11/08/rainforest-destruction-from-gold-mining-hits-all-time-high-in-peru/" language="en">investigación recientemente lanzada por el Centro de Innovación Científica Amazónica (CINCIA), </ExternalLink><ExternalLink href="https://news.wfu.edu/2018/11/08/rainforest-destruction-from-gold-mining-hits-all-time-high-in-peru/" language="en">en apenas cinco años hubo una pérdida forestal de 170 mil hectáreas. Esta cifra es por lo menos 30 por ciento mayor que la anunciada previamente por otros monitoreos</ExternalLink>.
       </Paragraph>
 
       <Paragraph>
@@ -244,7 +244,7 @@ export default () => (
         data: {
           id: "zAvUPCRPcrk"
         }
-        }}>el avance de actividades mineras a gran escala.</StoryMedia>
+        }}>el avance de actividades mineras a gran escala</StoryMedia>.
       </Paragraph>
     </Container>
   </article>

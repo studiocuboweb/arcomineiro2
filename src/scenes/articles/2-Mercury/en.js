@@ -32,7 +32,7 @@ export default () => (
             credits: "Oscar Mujica/FZS Perú",
             src: require("photos/chapter2/04_OscarMujica-FZS_PE_Colorado.jpg")
           }
-        }}><strong>The scars on the ground, the murky waters of the rivers</strong> are the obvious impacts of the illegal mining.</StoryMedia> But there is an invisible evil that contaminates the Amazonian fauna and the inhabitants of the region. According to several studies, mercury is affecting indigenous and local populations who live nearby or work in gold mining areas, as well as those who consume Amazonian fish as part of their diet.
+        }}><strong>The scars on the ground, the murky waters of the rivers</strong> are the obvious impacts of the illegal mining</StoryMedia>. But there is an invisible evil that contaminates the Amazonian fauna and the inhabitants of the region. According to several studies, mercury is affecting indigenous and local populations who live nearby or work in gold mining areas, as well as those who consume Amazonian fish as part of their diet.
       </Paragraph>
       <Paragraph>
         No one eats as much fish in their diet as the people of the Amazon.
@@ -105,7 +105,7 @@ export default () => (
                   ]
                 }
               }}
-            > Riverine and indigenous peoples get most of their protein from freshwater species.</StoryMedia> But while fish guarantee a rich and tasty diet, they may also contain threats to the health of these populations. Studies have revealed an accumulation of mercury in several fish species used for human consumption at levels above those recommended by the World Health Organization (WHO).
+            > Riverine and indigenous peoples get most of their protein from freshwater species</StoryMedia>. But while fish guarantee a rich and tasty diet, they may also contain threats to the health of these populations. Studies have revealed an accumulation of mercury in several fish species used for human consumption at levels above those recommended by the World Health Organization (WHO).
       </Paragraph>
       <Paragraph>
         This metal is bio-accumulative in animal tissue. That is, concentrations of mercury will be higher in fish that feed on smaller fish and its negative effect on humans will be even more intense.
@@ -143,7 +143,7 @@ export default () => (
               }
             ]
           }
-        }}>than in areas where there is no gold prospecting.</StoryMedia> Samples of fish were collected in seven lakes in the abandoned mining areas of Maze, Tambopata, Madre de Dios and Inambari. In addition, fish samples were collected in two lakes or riverside lagoons and a river in the Manu National Park, as a control area with no mining activity. 
+        }}>than in areas where there is no gold prospecting</StoryMedia>. Samples of fish were collected in seven lakes in the abandoned mining areas of Maze, Tambopata, Madre de Dios and Inambari. In addition, fish samples were collected in two lakes or riverside lagoons and a river in the Manu National Park, as a control area with no mining activity. 
       </Paragraph>
       <Paragraph>
         In 2010 in Venezuela, at the request of the Indigenous Organization of Caura Kuyujani, <FileLink
@@ -188,7 +188,7 @@ export default () => (
               data: {
                 id: "XWF1MKP7pwY"
               }
-              }}>results published by ISA.</StoryMedia>
+              }}>results published by ISA</StoryMedia>.
       </Paragraph>
       <Paragraph>
         In Colombia, much of the mining activity occurs in frontier areas. This means that shared river basins become the main routes of mercury contamination. The most affected area is along the Caquetá River. Another study, on the Apaporis River by the National Institute of Health of Colombia revealed that up to 80% of the indigenous populations of this region are contaminated by mercury. 
@@ -202,7 +202,7 @@ export default () => (
           A grave situação de contaminação por este mercúrio metálico em vários países levou à criação, pelas Nações Unidas, da <ExternalLink href="https://treaties.un.org/Pages/ViewDetails.aspx?src=IND&mtdsg_no=XXVII-17&chapter=27&clang=_en" language="en">Convenção de Minamata, em memória do desastre humano e ambiental que ocorreu na área costeira de Minamata</ExternalLink>, Japão, causada pelo consumo de peixe com altos níveis de mercúrio. O acordo entre 101 membros prevê maior controle sobre a importação, comercialização e descarte de mercúrio.  
         </p>
         <p className='regular-txt'>
-          Para <ExternalLink href="https://www.paginasiete.bo/sociedad/2018/9/23/importacion-de-mercurio-crecio-20-veces-194729.html" language="es">os países amazônicos que assinaram a convenção em 2013, o acordo entrou em vigor em 2017 ao superar o ponto de corte de 50 ratificações.</ExternalLink> Com exceção da Colômbia e da Venezuela, todos os outros países com território no bioma - incluindo a França - já assinaram e ratificaram a Convenção de Minamata. Além disso, todos os países do bioma estão realizando projetos de acordo com a convenção. 
+          Para <ExternalLink href="https://www.paginasiete.bo/sociedad/2018/9/23/importacion-de-mercurio-crecio-20-veces-194729.html" language="es">os países amazônicos que assinaram a convenção em 2013, o acordo entrou em vigor em 2017 ao superar o ponto de corte de 50 ratificações</ExternalLink>. Com exceção da Colômbia e da Venezuela, todos os outros países com território no bioma - incluindo a França - já assinaram e ratificaram a Convenção de Minamata. Além disso, todos os países do bioma estão realizando projetos de acordo com a convenção. 
         </p>
         <p className='regular-txt'>
           Apesar de ainda não terem ratificado, Colômbia e a Venezuela também avançam promovendo projetos para determinar a capacidade institucional, reguladora, técnica e comercial do país, em conformidade com as obrigações da Convenção.  A Colômbia tem uma estratégia ambiciosa para eliminar o descarte irregular de mercúrio, que está incluído no plano do governo, lançado em novembro de 2018 e em vigor até 2023.

@@ -41,7 +41,7 @@ export default () => (
             zoomMin: 4,
             zoomMax: 12
           }
-        }}>entre 6207 territórios indígenas, 78 que apresentam atividades de garimpo em seu limite ou no entorno .</StoryMedia> A maioria desses territórios - 64 - está localizada no Peru. Com relação às terras indígenas com atividades dentro dos limites, o Brasil lidera com 18 casos entre os 37 identificados. Em relação às atividades de balsas em rios nesses territórios, a Colômbia tem a maior incidência - 30 entre os 65 casos investigados.
+        }}>entre 6207 territórios indígenas, 78 que apresentam atividades de garimpo em seu limite ou no entorno </StoryMedia>. A maioria desses territórios - 64 - está localizada no Peru. Com relação às terras indígenas com atividades dentro dos limites, o Brasil lidera com 18 casos entre os 37 identificados. Em relação às atividades de balsas em rios nesses territórios, a Colômbia tem a maior incidência - 30 entre os 65 casos investigados.
       </Paragraph>
       <Table>
       <table>
@@ -77,7 +77,7 @@ export default () => (
         Na Colômbia, a percepção que os povos indígenas têm do ouro é crucial para entender as posições que adotam em face da mineração. O ouro é um mineral sagrado para os povos indígenas da Amazônia colombiana porque, de acordo com histórias tradicionais, é a representação do sol na terra e constitui a fonte da vida.
       </Paragraph>
       <Paragraph>
-        Segundo relatos coletados por Rodríguez, Carlos A & Rubiano, Sebastián. Tropenbos Internacional Colombia. (2016), <ExternalLink href="https://www.academia.edu/24382243/Entre_ilusiones_ambiciones_y_decepciones._Los_efectos_sociales_culturales_y_econ%C3%B3micos_de_la_miner%C3%ADa_aur%C3%ADfera_en_el_departamento_de_Amazonas" language="es">extrair este mineral do território é remover a fonte de sua vida.</ExternalLink> Para extrair o mineral precioso, os xamãs tiveram que pedir permissão através da cura e pagar por ele através do fumo e da coca. A extração do mineral em grandes quantidades pode causar doença ou morte para os responsáveis. A partir daí, essa mineração é vista dentro das comunidades como doença, problemas e morte. <StoryMedia
+        Segundo relatos coletados por Rodríguez, Carlos A & Rubiano, Sebastián. Tropenbos Internacional Colombia. (2016), <ExternalLink href="https://www.academia.edu/24382243/Entre_ilusiones_ambiciones_y_decepciones._Los_efectos_sociales_culturales_y_econ%C3%B3micos_de_la_miner%C3%ADa_aur%C3%ADfera_en_el_departamento_de_Amazonas" language="es">extrair este mineral do território é remover a fonte de sua vida</ExternalLink>. Para extrair o mineral precioso, os xamãs tiveram que pedir permissão através da cura e pagar por ele através do fumo e da coca. A extração do mineral em grandes quantidades pode causar doença ou morte para os responsáveis. A partir daí, essa mineração é vista dentro das comunidades como doença, problemas e morte. <StoryMedia
         media={{
           id: "image-3",
           type: "image",
@@ -146,7 +146,7 @@ export default () => (
               ]
             }
           }}
-        >como as invasões de garimpeiros nos territórios Yanomami no Brasil e na Venezuela,</StoryMedia> ainda perduram e os danos à saúde e aos estilos de vida são evidentes. Hoje, estima-se que cinco mil garimpeiros atuem ilegalmente na Terra Indígena Yanomami, apenas em sua parte brasileira.
+        >como as invasões de garimpeiros nos territórios Yanomami no Brasil e na Venezuela</StoryMedia>, ainda perduram e os danos à saúde e aos estilos de vida são evidentes. Hoje, estima-se que cinco mil garimpeiros atuem ilegalmente na Terra Indígena Yanomami, apenas em sua parte brasileira.
       </Paragraph>
       <Paragraph>
         Os relatos dos aldeões nas margens do rio Uiracoera indicam que, entre 1987 e 1989, os Yanomami conseguiram contar 2.003 balsas que trabalhavam perto da comunidade de Waikás. Com a conclusão da demarcação do território em 1991, o garimpo foi fechado. No entanto, isso começou a mudar em 2010, quando novas balsas chegaram ao rio. Os líderes tentaram impedir a retomada dos garimpos, mas os invasores se recusaram a sair argumentando que a atividade representava sua única fonte de sustento. Até o final de 2013, já havia 42 jangadas. <StoryMedia
@@ -156,7 +156,7 @@ export default () => (
         data: {
           id: "lC9kcGKyvBw"
         }
-        }}>Já em 2016, um sobrevoo identifica 49 balsas.</StoryMedia>
+        }}>Já em 2016, um sobrevoo identifica 49 balsas</StoryMedia>.
       </Paragraph>
       <Paragraph>
         Essas relatos sobre a atuação na terra Yanomami esclarecem o modo de agir das atividades ilegais de mineração. No rio Uiracoera, a informação mostra que a balsa funciona em dois grupos com turnos de nove horas cada. Cada grupo tem seis pessoas durante o dia e outras seis à noite. Além desses 12, a equipe inclui um gerente e uma pessoa que cozinha.
@@ -174,7 +174,7 @@ export default () => (
         <p>. corte de cabelo: 0,5g</p>
         <p>. 30 minutos de internet: 0,5g<br />(tem 10 pontos de internet na área)</p>
       </Board>
-      <Paragraph>Zoom: 
+      <Paragraph>
         No Peru, Puerto Luz é uma das 10 comunidades da <StoryMedia
         icon="map"
         media={{
@@ -190,10 +190,10 @@ export default () => (
             zoomMin: 5,
             zoomMax: 12
           }
-        }}>Reserva Comunal Amarakaeri que sofre com a devastação da mineração de ouro indiscriminada.</StoryMedia> Seus habitantes, que somam mais de 400 pessoas, vivem em meio a um panorama desolador. Como nas outras nove comunidades nativas da Reserva Comunal Amarakaeri, devido à presença da mineração de ouro e à falta de oportunidades, as famílias foram obrigadas a praticar a mineração artesanal. 
+        }}>Reserva Comunal Amarakaeri que sofre com a devastação da mineração de ouro indiscriminada</StoryMedia>. Seus habitantes, que somam mais de 400 pessoas, vivem em meio a um panorama desolador. Como nas outras nove comunidades nativas da Reserva Comunal Amarakaeri, devido à presença da mineração de ouro e à falta de oportunidades, as famílias foram obrigadas a praticar a mineração artesanal. 
       </Paragraph>
       <Paragraph>
-        <ExternalLink href="https://larepublica.pe/sociedad/1177491-los-harakbuts-el-pueblo-nativo-que-la-mineria-ilegal-asfixia-en-madre-de-dios" language="es">"Não buscamos ouro para ficar rico, nós só queremos o que é necessário para os nossos filhos para estudar",</ExternalLink> diz Virginia Kirihua, 36 anos, que desde a infância tem visto, em primeiro lugar, os homens brancos, em seguida, forasteiros, tornarem-se cada vez mais ambiciosos pelos seixos brilhantes que seus ancestrais confundiam com os grãos de milho. 
+        <ExternalLink href="https://larepublica.pe/sociedad/1177491-los-harakbuts-el-pueblo-nativo-que-la-mineria-ilegal-asfixia-en-madre-de-dios" language="es">"Não buscamos ouro para ficar rico, nós só queremos o que é necessário para os nossos filhos para estudar"</ExternalLink>, diz Virginia Kirihua, 36 anos, que desde a infância tem visto, em primeiro lugar, os homens brancos, em seguida, forasteiros, tornarem-se cada vez mais ambiciosos pelos seixos brilhantes que seus ancestrais confundiam com os grãos de milho. 
       </Paragraph>
       <Paragraph>
         A Reserva Comunal Amarakaeri faz parte do sistema de áreas protegidas do Peru. Procura manter os valores culturais das <StoryMedia
@@ -211,10 +211,10 @@ export default () => (
             zoomMin: 7,
             zoomMax: 10
           }
-        }}>comunidades nativas de Harakmbut,</StoryMedia> a qualidade e a quantidade de água, o equilíbrio ecológico e um ambiente adequado para o desenvolvimento das aldeias.
+        }}>comunidades nativas de Harakmbut</StoryMedia>, a qualidade e a quantidade de água, o equilíbrio ecológico e um ambiente adequado para o desenvolvimento das aldeias.
       </Paragraph>
       <Paragraph>
-        Outro caso emblemático denunciado pelas comunidades ocorre na província de Zamora Chinchipe, no Equador. É um megaprojeto de mineração a céu aberto, Mirador. Uma análise produzida em colaboração com a Amazon Conservation Team, Amazon Watch, Amazon Conservation e Ecociência  <ExternalLink href="https://maaproject.org/mirador/" language="es">demonstrou através de imagens de satélite o impacto do desmatamento entre 2009 e final de 2017, uma área de 1 307 hectares.</ExternalLink>
+        Outro caso emblemático denunciado pelas comunidades ocorre na província de Zamora Chinchipe, no Equador. É um megaprojeto de mineração a céu aberto, Mirador. Uma análise produzida em colaboração com a Amazon Conservation Team, Amazon Watch, Amazon Conservation e Ecociência  <ExternalLink href="https://maaproject.org/mirador/" language="es">demonstrou através de imagens de satélite o impacto do desmatamento entre 2009 e final de 2017, uma área de 1 307 hectares</ExternalLink>.
       </Paragraph>
       <Paragraph>
         Neste caso, os danos à mineração estão relacionados a concessões. Há uma sobreposição de mineração ilegal em lugares com concessões legais de mineração. Em maio de 2018, o Ministério do Meio Ambiente suspendeu 40% das obras em Mirador devido a violações ambientais.
@@ -228,7 +228,7 @@ export default () => (
             credits: "Salvador Quishpe, em foto de junho de 2015, da agência Andes",
             src: require("photos/chapter4/24_AgenciaAndes_SalvadorQuishpe.jpg")
           }
-        }}>Salvador Quishpe, prefeito de Zamora Chinchipe,</StoryMedia> observa que os atores da mineração ilegal "parecem combinar a mineração e outras atividades ilegais com lavagem de dinheiro. Isso também é acompanhado por atos criminosos, isto é, perseguindo pessoas que falam no sentido de não concordar com a destruição da natureza .”
+        }}>Salvador Quishpe, prefeito de Zamora Chinchipe</StoryMedia>, observa que os atores da mineração ilegal "parecem combinar a mineração e outras atividades ilegais com lavagem de dinheiro. Isso também é acompanhado por atos criminosos, isto é, perseguindo pessoas que falam no sentido de não concordar com a destruição da natureza .”
       </Paragraph>
       <Paragraph>
         Quishpe aponta que “o problema é que nunca existiu planejamento, e concessões mineiras foram dadas em qualquer lugar. As pessoas da área também começaram a buscar ouro. Por isso o maior problema é a falta de determinação de que área e para quê.”<br />
@@ -246,7 +246,7 @@ export default () => (
             credits: "",
             src: require("photos/chapter4/26_Chinapintza_ImgSateliteSentinel2B_20181024.jpg")
           }
-        }}>setor Chinapintza (província de Zamora Chinchipe):</StoryMedia> "outro exemplo de mineração ilegal poderia ser Chinapintza, que também está dentro de uma área designada para mineração de acordo com nosso planejamento provincial. É ilegal, as pessoas não têm os títulos, outros têm, outros não têm, a maioria não tem, mas a contaminação é a mesma."
+        }}>setor Chinapintza (província de Zamora Chinchipe)</StoryMedia>: "outro exemplo de mineração ilegal poderia ser Chinapintza, que também está dentro de uma área designada para mineração de acordo com nosso planejamento provincial. É ilegal, as pessoas não têm os títulos, outros têm, outros não têm, a maioria não tem, mas a contaminação é a mesma."
       </Paragraph>
       <Paragraph>
         No Equador, em virtude da reforma da Lei de Minas em 2009, e de acordo com o tamanho da exploração, a mineração é dividida em mineração artesanal, pequena mineração, mineração média e mineração em grande escala, e é realizada sob duas modalidades: mineração de metálica e mineração de não metálico. A mineração que vem se desenvolvendo no Equador responde a atividades artesanais e de pequena escala, principalmente na região sul.
