@@ -7,7 +7,7 @@ import MAP_STYLE4 from './styles/Map4.json';
 import MAP_STYLE5 from './styles/Map5.json';
 import MAP_STYLE6 from './styles/Map6.json';
 import "styles/mapbox.css";
-import LegendCollapse from './LegendCollapse';
+import Legend1 from './legends/Legend1';
 import {Collapse} from 'react-collapse';
 
 
@@ -20,6 +20,11 @@ const styles = {
   map6: MAP_STYLE6,
   map6_1: MAP_STYLE6,
 };
+
+const legends = {
+  legend1: Legend1
+}
+
 
 //const categories = ['labels', 'roads', 'mineriailegal-pt-5owfra', 'parks', 'water', 'background'];
 
@@ -134,7 +139,6 @@ export default class StyleControls extends PureComponent {
 
   constructor(props) {
     super(props);
-    console.log(styles[this.props.map])
     this.defaultMapStyle = fromJS(styles[this.props.map]);
     this._defaultLayers = this.defaultMapStyle.get('layers');
     
@@ -229,22 +233,18 @@ export default class StyleControls extends PureComponent {
     this.props.onChange(this.defaultMapStyle.set('layers', layers));
   }
 
-  _renderLayerControl(name) {
-    if (notShowInLegend[this.props.legend].indexOf(name) <= -1 && layerLabels[name] != undefined) {
+  _renderLayerControl() {
       const {visibility} = this.state;
+      const LegendCollapse = legends[this.props.legend];
       return (
           <div>
-          <LegendCollapse 
-            name={name} 
-            label={layerLabels[name]} 
-            visibility={visibility[name]}
-            subCategories={{subCategories}}
+          <LegendCollapse
+            visibility={visibility}
             onVisibilityChange={this._onVisibilityChange}
             parentScope={this}
           />
           </div>
       );
-    }
   }
   _toggleLegend() {
     if (this.state.displayLegend['display'] == 'none') {
@@ -269,7 +269,8 @@ export default class StyleControls extends PureComponent {
             </div>
             <hr />
             { 
-              categories.map((name) => this._renderLayerControl(name,this)) 
+              // categories.map((name) => this._renderLayerControl(name,this)) 
+              this._renderLayerControl(name,this)
             }
           </div>
         </div>
