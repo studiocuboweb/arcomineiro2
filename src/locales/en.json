@@ -54,5 +54,13 @@
   "legend2.legend2_1":"under exploration",
   "legend2.legend2_2":"requested",
   "legend2.legend2_3":"potential",
-  "legend2.legend2_4":"no information"
+  "legend2.legend2_4":"no information",
+  "legend3.title1":"Natural Protected Areas (national)",
+  "legend3.title2":"Natural Protected Areas (departamental)",
+  "legend3.title3":"Protective Forests (Ecuador)",
+  "legend3.legend3_1":"pressure: active mining inside",
+  "legend3.legend3_2":"pressure: dredges inside/in the limit",
+  "legend3.legend3_3":"threat: inactive mining within",
+  "legend3.legend3_4":"threat: mining in the limit/environment",
+  "legend3.legend3_5":"without known direct affectation"
 }

@@ -39,7 +39,7 @@
   "legend1.subtitle1_1":"local exato",
   "legend1.legend1_1_1":"ativo",
   "legend1.legend1_1_2":"inativo",
-  "legend1.legend1_1_3":"sem info",
+  "legend1.legend1_1_3":"sem info", 
   "legend1.subtitle1_2":"aproximado",
   "legend1.legend1_2_1":"ativo",
   "legend1.legend1_2_2":"inativo",
@@ -53,5 +53,13 @@
   "legend2.legend2_1":"en exploración",
   "legend2.legend2_2":"solicitadas",
   "legend2.legend2_3":"potencial",
-  "legend2.legend2_4":"sin información"
+  "legend2.legend2_4":"sin información",
+  "legend3.title1":"Áreas Naturais Protegidas (nacional)",
+  "legend3.title2":"Áreas Naturais Protegidas (departamental)",
+  "legend3.title3":"Bosques Protectores (Equador)",
+  "legend3.legend3_1":"pressão: garimpo ativo dentro",
+  "legend3.legend3_2":"pressão: balsas dentro/no limite",
+  "legend3.legend3_3":"ameaça: garimpo inativo dentro",
+  "legend3.legend3_4":"ameaça: garimpo no limite/entorno",
+  "legend3.legend3_5":"sem afetação direta conhecida"
 }

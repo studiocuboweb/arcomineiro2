@@ -53,5 +53,13 @@
   "legend2.legend2_1":"em exploração",
   "legend2.legend2_2":"solicitadas",
   "legend2.legend2_3":"potencial",
-  "legend2.legend2_4":"sem informação"
+  "legend2.legend2_4":"sem informação",
+  "legend3.title1":"Áreas Naturales Protegidas (nacional)",
+  "legend3.title2":"Áreas Naturales Protegidas (departamental)",
+  "legend3.title3":"Bosques Protectores (Ecuador)",
+  "legend3.legend3_1":"presión: minería activa dentro",
+  "legend3.legend3_2":"presión: dragas dentro/en el límite",
+  "legend3.legend3_3":"amenaza: minería inactiva dentro",
+  "legend3.legend3_4":"amenaza: minería en el límite/entorno",
+  "legend3.legend3_5":"sin afectación directa conocida"
 }
