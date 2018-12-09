@@ -8,7 +8,6 @@ import MAP_STYLE5 from './styles/Map5.json';
 import MAP_STYLE6 from './styles/Map6.json';
 import "styles/mapbox.css";
 import Legend1 from './legends/Legend1';
-import {Collapse} from 'react-collapse';
 
 
 const styles = {
@@ -20,11 +19,6 @@ const styles = {
   map6: MAP_STYLE6,
   map6_1: MAP_STYLE6,
 };
-
-const legends = {
-  legend1: Legend1
-}
-
 
 //const categories = ['labels', 'roads', 'mineriailegal-pt-5owfra', 'parks', 'water', 'background'];
 
@@ -235,12 +229,13 @@ export default class StyleControls extends PureComponent {
 
   _renderLayerControl() {
       const {visibility} = this.state;
-      const LegendCollapse = legends[this.props.legend];
+      const LegendCollapse = Legend1;
       return (
           <div>
           <LegendCollapse
             visibility={visibility}
             onVisibilityChange={this._onVisibilityChange}
+            legend={this.props.legend}
             parentScope={this}
           />
           </div>

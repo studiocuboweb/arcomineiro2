@@ -4,6 +4,7 @@ import { FormattedMessage } from "react-intl";
 import IlegalMining1 from './components/IlegalMining1'
 import IlegalMining2 from './components/IlegalMining2'
 import IlegalMining3 from './components/IlegalMining3'
+import LegalMining from './components/LegalMining'
 
 class LegendCollapse extends React.Component {
 
@@ -31,13 +32,26 @@ class LegendCollapse extends React.Component {
     }
 
     render() {
-        const visibility = this.props.visibility;
-        const subcategories = this.props.subCategories;
+        const {legend} = this.props;
         return (
             <div key="1" className="input">
-                <IlegalMining1 _onChangeHandler={this._onChangeHandler.bind(this)} />
-                <IlegalMining2 _onChangeHandler={this._onChangeHandler.bind(this)} />
-                <IlegalMining3 _onChangeHandler={this._onChangeHandler.bind(this)} />
+            {console.log("LEGENDA")}
+            {console.log(legend)}
+            {legend == 'legend1' &&
+                <div>
+                    <IlegalMining1 defaultOpened={false} _onChangeHandler={this._onChangeHandler.bind(this)} />
+                    <IlegalMining2 defaultOpened={false} _onChangeHandler={this._onChangeHandler.bind(this)} />
+                    <IlegalMining3 defaultOpened={false} _onChangeHandler={this._onChangeHandler.bind(this)} />
+                </div>
+            }
+            {legend == 'legend2' &&
+                <div>
+                    <IlegalMining1 defaultOpened={false} _onChangeHandler={this._onChangeHandler.bind(this)} />
+                    <IlegalMining2 defaultOpened={false} _onChangeHandler={this._onChangeHandler.bind(this)} />
+                    <IlegalMining3 defaultOpened={false} _onChangeHandler={this._onChangeHandler.bind(this)} />
+                    <LegalMining defaultOpened={true} _onChangeHandler={this._onChangeHandler.bind(this)} /> 
+                </div>
+            }
             </div>
         );
       }

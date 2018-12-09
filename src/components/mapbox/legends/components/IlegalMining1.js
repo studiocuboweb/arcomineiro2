@@ -14,7 +14,9 @@ class IlegalMining1 extends Component {
             arrowClass: 'fa fa-caret-right'
         };
     }
-
+    componentDidMount() {
+        this.setState({collapse:this.props.defaultOpened});
+    }
     toggle() {
         this.setState({ collapse: !this.state.collapse });
         if (this.state.collapse) {

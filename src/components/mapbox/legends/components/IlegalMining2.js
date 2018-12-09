@@ -22,6 +22,10 @@ class IlegalMining1 extends Component {
         };
     }
 
+    componentDidMount() {
+        this.setState({collapse:this.props.defaultOpened});
+    }
+
     toggle() {
         this.setState({ collapse: !this.state.collapse });
         if (this.state.collapse) {
