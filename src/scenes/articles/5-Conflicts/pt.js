@@ -66,6 +66,9 @@ export default () => (
       <Paragraph>
         Tendência semelhante, como relatado anteriormente, foi observada na Bolívia, Equador e Peru, onde os governos atenderam a demandas dos trabalhadores envolvidos na extração irregular de ouro e flexibilizaram leis. Criou-se assim uma zona cinza entre a ilegalidade e a caracterização da mineração artesanal, que propiciou a legitimação de atividades de alto impacto em regiões de grande importância para a conservação e para a sobrevivência de povos indígenas.
       </Paragraph>
+      <Quote author="Agustín Ojeda, líder Shirian">
+          A mineração ilegal pode nos <br />matar. Os poços de mineração permitem a reprodução de mosquitos que trazem doenças como a malária. O efeito do mercúrio na água também não é levado a sério; não só a contamina, mas também os peixes que usamos para comer.
+      </Quote>
       <EndChapter>
         <p className='medium-txt'>
           "A mineração ilegal não concebe o futuro de nossos filhos. Embora possamos nos beneficiar no curto prazo, estamos destruindo o meio ambiente, nossa selva, nosso lar ", diz <StoryMedia
@@ -77,14 +80,11 @@ export default () => (
               src: require('photos/chapter5/27_JuanPinto_AgustinOjeda_LiderShirian_Foto2018_Wataniba_9692-2.jpg')
             }
           }}
-        >Agustín Ojeda, líder shirian do estado de Bolívar, Venezuela</StoryMedia>.
+        >Agustín Ojeda, líder Shirian do estado de Bolívar, Venezuela</StoryMedia>.
         </p>
         <p className='medium-txt'>
           Ele ressalta que a profunda mudança no modo de vida de seu povo e a adoção de novos hábitos prejudicaram seriamente os costumes ancestrais e, por sua vez, aumentaram os problemas de saúde. 
         </p>
-        <Quote author="Agustín Ojeda, líder Shirian">
-          <span className="solo-quote">A mineração ilegal pode nos matar. Os poços de mineração permitem a reprodução de mosquitos que trazem doenças como a malária. O efeito do mercúrio na água também não é levado a sério; não só a contamina, mas também os peixes que usamos para comer</span>
-        </Quote>
         <p className='medium-txt'>
           O líder Shirian acrescenta que a maioria de sua comunidade deixou o conuco (a roça). As estações de semeadura, abate e queima não são respeitadas, por isso a colheita é quase nula. "Atualmente você pode ver um indígena comprando um casabe de um crioulo em vez de produzi-lo." 
         </p>

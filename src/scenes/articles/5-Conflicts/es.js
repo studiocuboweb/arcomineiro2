@@ -66,6 +66,9 @@ export default () => (
       <Paragraph>
         Una tendencia similar, como se informó anteriormente, fue observada en Bolivia, Ecuador y Perú, donde los gobiernos atendieron las demandas de los trabajadores involucrados en la extracción irregular de oro y flexibilizaron leyes. Se creó así una zona gris entre la ilegalidad y la caracterización de la minería artesanal, que propició la legitimación de actividades de alto impacto en regiones de gran importancia para la conservación y para la supervivencia de pueblos indígenas.
       </Paragraph>
+      <Quote author="Agustín Ojeda, líder Shirian">
+          La minería ilegal nos puede <br />llegar a matar. Los pozos mineros permiten la reproducción de mosquitos que traen enfermedades como malaria. Tampoco se toma con seriedad el efecto del mercurio en el agua; no solo la contamina a ella, también a los peces que utilizamos para comer.
+        </Quote>
       <EndChapter>
         <p className='medium-txt'>
           “La minería ilegal no concibe el futuro de nuestros hijos. Aunque podamos beneficiarnos a corto plazo, estamos destruyendo el medio ambiente, nuestra selva, nuestro hogar”, expresa  <StoryMedia
@@ -77,14 +80,11 @@ export default () => (
               src: require('photos/chapter5/27_JuanPinto_AgustinOjeda_LiderShirian_Foto2018_Wataniba_9692-2.jpg')
             }
           }}
-        >Agustín Ojeda, líder Shirian, estado Bolívar, Venezuela</StoryMedia>
+        >Agustín Ojeda, líder Shirian, estado Bolívar, Venezuela</StoryMedia>.
         </p>
         <p className='medium-txt'>
           Señala que el profundo cambio en el estilo de vida de su pueblo y la adopción de nuevos hábitos han perjudicado gravemente las costumbres ancestrales y, a su vez, han aumentado los problemas de salud.  
         </p>
-        <Quote author="Agustín Ojeda, líder Shirian">
-          <span>“La minería ilegal nos puede llegar a matar. Los pozos mineros permiten la reproducción de mosquitos que traen enfermedades como malaria. Tampoco se toma con seriedad el efecto del mercurio en el agua; no solo la contamina a ella, también a los peces que utilizamos para comer”.</span>
-        </Quote>
         <p className='medium-txt'>
           El líder Shirian agrega que la mayoría de su comunidad ha abandonado el conuco (la chacra). Las temporadas de siembra, tala y quema no se respetan por lo que la recolección es casi nula. “Actualmente puedes ver a un indígena comprándolo casabe a un criollo en vez de producirlo”.
         </p>
