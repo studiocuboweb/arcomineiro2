@@ -49,5 +49,10 @@
   "legend1.title3":"areas of illegal mining",
   "legend1.legend3_1":"active",
   "legend1.legend3_2":"inactive",
-  "legend1.legend3_3":"no information"
+  "legend1.legend3_3":"no information",
+  "legend2.title1":"legal mining areas",
+  "legend2.legend2_1":"under exploration",
+  "legend2.legend2_2":"requested",
+  "legend2.legend2_3":"potential",
+  "legend2.legend2_4":"no information"
 }

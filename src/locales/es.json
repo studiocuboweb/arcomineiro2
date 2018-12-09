@@ -48,5 +48,10 @@
   "legend1.title3":"áreas de minería ilegal",
   "legend1.legend3_1":"activo",
   "legend1.legend3_2":"inactivo",
-  "legend1.legend3_3":"sin información"
+  "legend1.legend3_3":"sin información",
+  "legend2.title1":"áreas de minería legal",
+  "legend2.legend2_1":"em exploração",
+  "legend2.legend2_2":"solicitadas",
+  "legend2.legend2_3":"potencial",
+  "legend2.legend2_4":"sem informação"
 }
