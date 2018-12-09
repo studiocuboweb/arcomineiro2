@@ -136,6 +136,11 @@ acorn@^6.0.2:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.0.4.tgz#77377e7353b72ec5104550aa2d2097a2fd40b754"
   integrity sha512-VY4i5EKSKkofY2I+6QLTbTTN/UvEQPCo6eiwzzSaSWfpaDhOmStMCMod6wmuPciNq+XS0faCglFu2lHZpdHUtg==
 
+add-event-listener@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/add-event-listener/-/add-event-listener-0.0.1.tgz#a76229ebc64c8aefae204a16273a2f255abea2d0"
+  integrity sha1-p2Ip68ZMiu+uIEoWJzovJVq+otA=
+
 ajv-errors@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/ajv-errors/-/ajv-errors-1.0.0.tgz#ecf021fa108fd17dfb5e6b383f2dd233e31ffc59"
@@ -4003,6 +4008,13 @@ fsevents@^1.0.0, fsevents@^1.2.2, fsevents@^1.2.3:
     nan "^2.9.2"
     node-pre-gyp "^0.10.0"
 
+fullscreen@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/fullscreen/-/fullscreen-1.1.1.tgz#b9017c3bf9b23e07effd1bbce910cf5ec2459129"
+  integrity sha1-uQF8O/myPgfv/Ru86RDPXsJFkSk=
+  dependencies:
+    add-event-listener "0.0.1"
+
 function-bind@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
@@ -7590,6 +7602,11 @@ react-dimensions@1.3.1:
   dependencies:
     element-resize-event "^2.0.4"
 
+react-display-name@^0.2.0:
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/react-display-name/-/react-display-name-0.2.4.tgz#e2a670b81d79a2204335510c01246f4c92ff12cf"
+  integrity sha512-zvU6iouW+SWwHTyThwxGICjJYCMZFk/6r/+jmOdC7ntQoPlS/Pqb81MkxaMf2bHTSq9TN3K3zX2/ayMW/jCtyA==
+
 react-dom-animated@1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/react-dom-animated/-/react-dom-animated-1.0.3.tgz#adf9877045c23e40f7a7ef7dbc7381abe1dba02c"
@@ -7615,6 +7632,15 @@ react-dom@^16.3.2:
     object-assign "^4.1.1"
     prop-types "^15.6.2"
     scheduler "^0.11.2"
+
+react-fullscreenable@^2.5.1-0:
+  version "2.5.1-0"
+  resolved "https://registry.yarnpkg.com/react-fullscreenable/-/react-fullscreenable-2.5.1-0.tgz#78889454558d5a529198a4407c11f39c68edd7d6"
+  integrity sha512-E399l6uddp6IP95TtIuQH2emOHFRubKtjGBR86eH11FWGPQ6tcoG1Yajd0ZggWb+x+cDGgFtAoDTOqTMDUA+yA==
+  dependencies:
+    classnames "^2.2.5"
+    fullscreen "^1.1.1"
+    react-display-name "^0.2.0"
 
 react-ga@2.4.1:
   version "2.4.1"
