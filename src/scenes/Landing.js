@@ -31,18 +31,6 @@ const Wrapper = styled.section`
   box-sizing: border-box;
   text-shadow: 0 0 2px #000;
   color: #fff;
-  &:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background-image: url(${require("images/bg_1.gif")});
-    background-size: cover;
-    background-position: center;
-    z-index: -1;
-  }
   &:after {
     content: "";
     position: absolute;
@@ -125,6 +113,15 @@ const Wrapper = styled.section`
       opacity: 0;
       transition: all 250ms ease-in;
     }
+  }
+  #background-video {
+    border:1px solid red;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index:-1;
   }
 `;
 
@@ -354,6 +351,9 @@ class Scene extends Component {
             </div>
           )}
         </Middle>
+        <video autoPlay muted loop id="background-video">
+          <source src={require("images/video_bg.mp4")} type="video/mp4" />
+        </video>
       </Wrapper>
     );
   }
