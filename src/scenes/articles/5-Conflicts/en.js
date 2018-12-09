@@ -66,6 +66,9 @@ export default () => (
       <Paragraph>
         As previously mentioned, a similar trend can be seen in Bolivia, Ecuador, and Peru, where governments have ceded to the demands of workers involved in irregular gold mining and loosened legislation. This has created a grey zone between illegality and the nature of artisanal mining, which has allowed the legitimization of high impact activities in areas of high importance for conservation and for the survival of indigenous peoples.
       </Paragraph>
+      <Quote author="Agustín Ojeda, Shirian leader">
+          Illegal mining can kill us. Mining ponds enable the reproduction of mosquitoes that bring diseases such as malaria, and the effect of mercury on water is not taken seriously; mercury not only contaminates the water, but also the fish we eat.
+      </Quote> 
       <EndChapter>
         <p className='medium-txt'>
           "Illegal mining does not consider the future of our children. While we may benefit in the short term, we are destroying the environment, our jungle, our home" says <StoryMedia
@@ -82,9 +85,6 @@ export default () => (
         <p className='medium-txt'>
           He points out that the profound change in the way of life of his people and the adoption of new habits have seriously damaged ancestral customs and, in turn, increased health problems.
         </p>
-        <Quote author="Agustín Ojeda, Shirian leader">
-          <span>"Illegal mining can kill us." Mining ponds enable the reproduction of mosquitoes that bring diseases such as malaria, and the effect of mercury on water is not taken seriously; mercury not only contaminates the water, but also the fish we eat</span>
-        </Quote>
         <p className='medium-txt'>
           The Shirian leader adds that most of his community have abandoned their fields. The sowing, clearing and burning seasons are not respected, so the harvest is almost nil. "Nowadays you see Indians buying cassava bread from non-Indians instead of making it".
         </p>
