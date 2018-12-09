@@ -46,10 +46,10 @@ const Wrapper = styled.header`
     font-size: 1em;
   `}
   ${media.desktop`
-    padding: 1.5vw 8vw;
+    padding: 1.2vw 8vw;
   `}
   ${media.desktopHD`
-    padding: 1.5vw 10vw;
+    padding: 1.2vw 10vw;
   `}
   .site-title {
     flex: 1 1 100%;
@@ -70,11 +70,11 @@ const Wrapper = styled.header`
     `}
     ${media.desktop`
       margin: 0 2rem;
-      max-height: 5vh;
+      max-height: 6vh;
     `}
     ${media.desktopHD`
       margin: 0 2rem;
-      max-height: 5vh;
+      max-height: 6vh;
     `};
   }
   nav {
