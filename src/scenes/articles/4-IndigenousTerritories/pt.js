@@ -117,31 +117,40 @@ export default () => (
             data: {
               items: [
                 {
-                  src: require("photos/chapter4/gallery-1/01_RogerioAssis-ISA_RS20033.jpg")
+                  src: require("photos/chapter4/gallery-1/01_RogerioAssis-ISA_RS20033.jpg"),
+                  credits: "Rogerio Assis / ISA"
                 },
                 {
-                  src: require("photos/chapter4/gallery-1/02_RogerioAssis-ISA_RS20040.jpg")
+                  src: require("photos/chapter4/gallery-1/02_RogerioAssis-ISA_RS20040.jpg"),
+                  credits: "Rogerio Assis / ISA"
                 },
                 {
-                  src: require("photos/chapter4/gallery-1/03_RogerioAssis-ISA_RS20042.jpg")
+                  src: require("photos/chapter4/gallery-1/03_RogerioAssis-ISA_RS20042.jpg"),
+                  credits: "Rogerio Assis / ISA"
                 },
                 {
-                  src: require("photos/chapter4/gallery-1/04_RogerioAssis-ISA_RS20034.jpg")
+                  src: require("photos/chapter4/gallery-1/04_RogerioAssis-ISA_RS20034.jpg"),
+                  credits: "Rogerio Assis / ISA"
                 },
                 {
-                  src: require("photos/chapter4/gallery-1/05_RogerioAssis-ISA_RS20032.jpg")
+                  src: require("photos/chapter4/gallery-1/05_RogerioAssis-ISA_RS20032.jpg"),
+                  credits: "Rogerio Assis / ISA"
                 },
                 {
-                  src: require("photos/chapter4/gallery-1/06_RogerioAssis-ISA_RS20029.jpg")
+                  src: require("photos/chapter4/gallery-1/06_RogerioAssis-ISA_RS20029.jpg"),
+                  credits: "Rogerio Assis / ISA"
                 },
                 {
-                  src: require("photos/chapter4/gallery-1/07_RogerioAssis-ISA_RS20045.jpg")
+                  src: require("photos/chapter4/gallery-1/07_RogerioAssis-ISA_RS20045.jpg"),
+                  credits: "Rogerio Assis / ISA"
                 },
                 {
-                  src: require("photos/chapter4/gallery-1/08_RogerioAssis-ISA_RS20043.jpg")
+                  src: require("photos/chapter4/gallery-1/08_RogerioAssis-ISA_RS20043.jpg"),
+                  credits: "Rogerio Assis / ISA"
                 },
                 {
-                  src: require("photos/chapter4/gallery-1/09_RogerioAssis-ISA_RS20035.jpg")
+                  src: require("photos/chapter4/gallery-1/09_RogerioAssis-ISA_RS20035.jpg"),
+                  credits: "Rogerio Assis / ISA"
                 }
               ]
             }
@@ -169,7 +178,7 @@ export default () => (
         <br />preços em gramas de ouro
         <p>. para subir o rio: 10g por pessoa<br />(pode pagar mais tarde, quando houver sucesso no garimpo)</p>
         <p>. prostitutas: 3g por meia hora</p>
-        <p>. cerveja: 1 lata pequena por 20 reais ou 0,2 g</p>
+        <p>. cerveja: 1 lata pequena por 20 reais ou 0,2g</p>
         <p>. 1 frango: 80 reais ou 0,8 g</p>
         <p>. corte de cabelo: 0,5g</p>
         <p>. 30 minutos de internet: 0,5g<br />(tem 10 pontos de internet na área)</p>

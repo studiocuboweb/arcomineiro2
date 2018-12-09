@@ -1,6 +1,7 @@
 .control-panel {
     padding:0.5rem;
-    width:17rem;
+    width:15rem;
+    margin-left: 20rem;
 }
 
 .control-panel-padding {
@@ -54,7 +55,7 @@
 
 .mapbox_legend-btn-close {
    position: relative;
-   left:4rem;
+   left:6.4rem;
    color: #333;
 }
 
