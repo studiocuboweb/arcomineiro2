@@ -80,7 +80,7 @@ export default () => (
               src: require('photos/chapter5/27_JuanPinto_AgustinOjeda_LiderShirian_Foto2018_Wataniba_9692-2.jpg')
             }
           }}
-        >Agustín Ojeda, líder Shirian, estado Bolívar, Venezuela</StoryMedia>
+        >Agustín Ojeda, líder Shirian, estado Bolívar, Venezuela</StoryMedia>.
         </p>
         <p className='medium-txt'>
           Señala que el profundo cambio en el estilo de vida de su pueblo y la adopción de nuevos hábitos han perjudicado gravemente las costumbres ancestrales y, a su vez, han aumentado los problemas de salud.  
