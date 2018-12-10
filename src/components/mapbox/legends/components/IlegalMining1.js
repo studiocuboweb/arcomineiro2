@@ -53,7 +53,7 @@ class IlegalMining1 extends Component {
                 <table style={{'marginTop':'-10px','marginLeft':'16px'}}>
                 <tbody>
                 <tr>
-                    <td style={{'paddingRight':'10px'}}>
+                    <td>
                         <label>
                             <FormattedMessage id="legend1.subtitle1_1" defaultMessage="exact location">
                             {(txt) => (txt)}
