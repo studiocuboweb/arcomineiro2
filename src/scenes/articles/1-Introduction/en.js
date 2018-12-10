@@ -110,7 +110,7 @@ export default () => (
       <Paragraph>
         The data collected by RAISG, however, are a first approximation of the situation, reflecting a problem of unknown magnitude and whose picture represents only a part of what is really happening. The cases reported come from notifications from riverine and indigenous communities, from news gathering and satellite image analysis.
       </Paragraph>
-      
+
       <Table>
         <table style={{'width':'100%'}}>
           <tbody>
@@ -244,8 +244,6 @@ export default () => (
           size="6.7MB"
         >report "The reality of illegal mining in Amazonian countries"</FileLink>{" "}, <i>prepared by the Peruvian Society for Environmental Law (SPDA, 2014), about 600,000 people were involved at that time in the illegal exploitation of gold. </i></p> 
         <p className="smaller-txt pull-left"><i>The continued increase in the price of gold and the evidence of more mining sites and areas across the region suggest that over the last five years this number will have considerably increased.</i></p>
-        {/* <div>Sky high price</div>
-        Average annual value of gold (in US$)<br/> */}
         <div className="image-wrapper">
           <iframe id="datawrapper-chart-AMEaF" src="//datawrapper.dwcdn.net/AMEaF/1/" scrolling="no" frameborder="0" allowtransparency="true" style={{'width': '', 'minWidth': '70%', 'padding-bottom':'10px'}} height="400"></iframe>
           <p className="pull-right graph-description"><i>

@@ -128,6 +128,10 @@ const About = ({ intl, lastPath }) => {
                   defaultMessage="Editora Imagens e Mapas"
                 /> - Juliana Mori<br />
               <FormattedMessage
+                  id="about.videos"
+                  defaultMessage="Videos"
+                /> <br />
+              <FormattedMessage
                   id="about.dev"
                   defaultMessage="Desenvolvimento Web"
                 /> - <a href="https://studiocuboweb.com.br" target="_blank"> StudioCubo</a><br />
