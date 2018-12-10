@@ -140,7 +140,7 @@ export default () => (
             </tr>
             <tr>
               <td>ANP sin afectación directa conocida</td>
-              <td>533</td>
+              <td>553</td>
             </tr>
           </table>
         </Table>
