@@ -43,7 +43,7 @@ class IlegalMining1 extends Component {
         return (
             <div>
                 <input type="checkbox" className="mapbox_custom-checkbox" defaultChecked={true} onChange={this._onChangeHandler.bind(this,'LEGENDA1 PONTOS_mineriailegal-pt-5owfra')} />
-                <label className="mapbox_custom-checkbox-label" style={{pointerEvents:'auto',cursor:'pointer',zIndex:'-100',marginLeft:'1.2rem'}} onClick={this.toggle}>
+                <label className="mapbox_custom-checkbox-label" style={{pointerEvents:'auto',cursor:'pointer',zIndex:'-100',marginLeft:'.5rem'}} onClick={this.toggle}>
                 <FormattedMessage id="legend1.title1" defaultMessage="legend1">
                     {(txt) => (txt)}
                 </FormattedMessage>
