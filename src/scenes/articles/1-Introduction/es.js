@@ -83,10 +83,12 @@ export default () => (
         }
         }}>132 están en Brasil, principalmente en la región del río Tapajós</StoryMedia>, y 110 en Perú, en Madre de Dios. Este departamento peruano es considerado como el sector de la Amazonia con la mayor degradación causada por  la extracción de oro.
       </Paragraph>
-      
-
       <Quote author="Camilo Guio, vice-diretor da Gaia Amazonas">
-        “Estas actividades extractivas ilegales se caracterizan por su forma antitécnica e insostenible. Se <StoryMedia
+        Estas actividades se realizan principalmente a través de balsas y de dragas, que no sólo tienen efectos ambientales sobre el lecho de los ríos, sino también la mala utilización del mercurio.
+      </Quote>
+
+      <Paragraph>
+        El vice-diretor da Gaia Amazonas, Camilo Guio, alerta que "estas actividades extractivas ilegales se caracterizan por su forma antitécnica e insostenible. Se <StoryMedia
         icon="map"
         media={{
         id: "map_02b",
@@ -101,11 +103,11 @@ export default () => (
           zoomMin: 3,
           zoomMax: 22
         }
-        }}>realizan principalmente a través de balsas y de dragas, que no sólo tienen efectos ambientales sobre el lecho de los ríos</StoryMedia>, sino también por la mala utilización del mercurio. Esto está generando daños a la salud de las poblaciones locales, especialmente a los pueblos indígenas”, alerta el subdirector de Gaia Amazonas, Camilo Guio.
-      </Quote>
+        }}>realizan principalmente a través de balsas y de dragas, que no sólo tienen efectos ambientales sobre el lecho de los ríos</StoryMedia>, sino también por la mala utilización del mercurio. Esto está generando daños a la salud de las poblaciones locales, especialmente a los pueblos indígenas”
+      </Paragraph>
 
       <Paragraph>
-        Los datos recogidos por la RAISG, sin embargo, constituyen una primera aproximación a la situación, que refleja un problema de una magnitud desconocida y cuya visión representa sólo una parte de lo que realmente está sucediendo. Los casos reportados provienen de informes de comunidades ribereñas e indígenas, del relevamiento de noticias y del análisis de imágenes satelitales. 
+        Los datos recogidos por la RAISG, sin embargo, constituyen una primera aproximación a la situación, que refleja un problema de una magnitud desconocida y cuya visión representa sólo una parte de lo que realmente está sucediendo. Los casos reportados provienen de informes de comunidades ribereñas e indígenas, del relevamiento de noticias y del análisis de imágenes satelitales.
       </Paragraph>
 
       <Table>
