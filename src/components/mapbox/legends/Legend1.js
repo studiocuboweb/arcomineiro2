@@ -43,9 +43,9 @@ class LegendCollapse extends React.Component {
             {console.log(legend)}
             {legend == 'legend1' &&
                 <div>
-                    <IlegalMining1 key="legend11" defaultOpened={false} _onChangeHandler={this._onChangeHandler.bind(this)} />
+                    <IlegalMining1 key="legend11" defaultOpened={true} _onChangeHandler={this._onChangeHandler.bind(this)} />
                     <IlegalMining2 key="legend12" defaultOpened={false} _onChangeHandler={this._onChangeHandler.bind(this)} />
-                    <IlegalMining3 key="legend13" defaultOpened={false} _onChangeHandler={this._onChangeHandler.bind(this)} />
+                    <IlegalMining3 key="legend13" defaultOpened={true} _onChangeHandler={this._onChangeHandler.bind(this)} />
                 </div>
             }
             {legend == 'legend2' &&

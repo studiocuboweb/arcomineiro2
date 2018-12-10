@@ -224,7 +224,7 @@ export default () => (
         type: "mapbox",
         data: {
           map: "map1",
-          legend:"lgend2",
+          legend:"legend2",
           update:"map1_5",
           showExtraLayers: ['LEGENDA4 MINERACAO-LEGALZ4_mineria-pl'],
           coordinates: [-62.798552,-5.467137],
