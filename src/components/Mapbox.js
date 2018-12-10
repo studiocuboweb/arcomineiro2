@@ -101,7 +101,7 @@ class MapBox extends Component {
     const {viewport, mapStyle, updated} = this.state;
     return (
       <div>
-        <button style={{position:"absolute", right: 0,cursor: 'pointer',color:'rgb(192, 192, 192)',display: 'block',padding:'0.3rem',border: 0,zIndex:9999,backgroundColor:"#ffffff"}} className="fa fa-arrows-alt" onClick={this.props.toggleFullscreen}></button>
+        <button style={{position:"absolute", left: 0,cursor: 'pointer',color:'rgb(192, 192, 192)',display: 'block',padding:'0.3rem',border: 0,zIndex:9999,backgroundColor:"#ffffff",margin:'1rem'}} className="fa fa-arrows-alt" onClick={this.props.toggleFullscreen}></button>
       {
         updated &&
           <ReactMapGL
