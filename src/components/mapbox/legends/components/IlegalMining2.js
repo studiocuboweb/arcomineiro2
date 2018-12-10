@@ -3,48 +3,6 @@ import {Collapse} from 'react-collapse';
 import { FormattedMessage } from "react-intl";
 import styled, { css } from "styled-components";
 
-const Wrapper = styled.div`
-    .checkboxCustom {
-        background-color: #ffffff;
-    }
-    input {
-        display: none;
-    }
-    label:before {
-        content: "";
-        width: 14px;
-        height: 14px;
-        border: solid 1px #a9a9a9;
-        border-radius: 3px;
-        display: inline-block;
-        box-sizing: border-box;
-        position: relative;
-        left: -.5rem;
-        top: .2rem;
-
-    }
-    label:after {
-        content: "";
-        width: 14px;
-        height: 14px;
-        border: solid 1px #a9a9a9;
-        border-radius: 3px;
-        display: inline-block;
-        box-sizing: border-box;
-        position: relative;
-        left: -10.6rem;
-        top: .2rem;
-
-    }
-    input:checked + label:before {
-        background-color: white;
-    }
-    input:checked + label:after {
-        background-color: #c500f2;
-    }
-`
-
-
 let checked = true;
 class IlegalMining1 extends Component {
 
@@ -85,14 +43,14 @@ class IlegalMining1 extends Component {
 
     render () {
         return (
-            <Wrapper>
-                <input type="checkbox" id="rios" className="checkboxCustom" defaultChecked={true} onChange={this._onChangeHandler.bind(this,'LEGENDA2 RIOS_mineriailegal-ln-67gxaf')} />
-                <label for="rios" style={{pointerEvents:'auto',cursor:'pointer',zIndex:'-100',marginLeft:'.5rem'}}>
+            <div>
+                <input type="checkbox" id="rios" className="mapbox_custom-checkbox" defaultChecked={true} onChange={this._onChangeHandler.bind(this,'LEGENDA2 RIOS_mineriailegal-ln-67gxaf')} />
+                <label for="rios" className="mapbox_custom-checkbox-colored_1" style={{pointerEvents:'auto',cursor:'pointer',zIndex:'-100',marginLeft:'.5rem'}}>
                     <FormattedMessage id="legend1.title2" defaultMessage="legend1">
                     {(txt) => (txt)}
                     </FormattedMessage>
                 </label>
-            </Wrapper>
+            </div>
         )
     }
 }

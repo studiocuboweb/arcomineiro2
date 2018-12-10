@@ -58,10 +58,10 @@ class LegendCollapse extends React.Component {
             }
             {legend == 'legend3' &&
                 <div>
-                    <ProtectedAreas key="legend3" defaultOpened={true} _onChangeHandler={this._onChangeHandler.bind(this)} /> 
                     <IlegalMining1 key="legend3" defaultOpened={false} _onChangeHandler={this._onChangeHandler.bind(this)} />
                     <IlegalMining2 key="legend3" defaultOpened={false} _onChangeHandler={this._onChangeHandler.bind(this)} />
                     <IlegalMining3 key="legend3" defaultOpened={false} _onChangeHandler={this._onChangeHandler.bind(this)} />
+                    <ProtectedAreas key="legend3" defaultOpened={true} _onChangeHandler={this._onChangeHandler.bind(this)} /> 
                 </div>
             }
             {legend == 'legend4' &&

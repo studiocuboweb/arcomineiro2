@@ -3,46 +3,6 @@ import {Collapse} from 'react-collapse';
 import { FormattedMessage } from "react-intl";
 import styled, { css } from "styled-components";
 
-const Wrapper = styled.div`
-    .checkboxCustom1 {
-        background-color: #ffffff;
-    }
-    input {
-        display: none;
-    }
-    .comsub:before {
-        color: #a9a9a9;
-        width: 14px;
-        height: 14px;
-        border: solid 1px #a9a9a9;
-        border-radius: 3px;
-        display: inline-block;
-        box-sizing: border-box;
-        position: relative;
-        left: -.5rem;
-        top: .2rem;
-    }
-    .comsub:after {
-        color: #a9a9a9;
-        width: 14px;
-        height: 14px;
-        border: solid 1px #a9a9a9;
-        border-radius: 3px;
-        display: inline-block;
-        box-sizing: border-box;
-        position: relative;
-        left: -12.4rem;
-        top: .1rem;
-    }
-    input:checked + .comsub:before {
-        background-color: red;
-    }
-
-    input:checked + .comsub:after {
-        content: "✓";
-    }
-`
-
 let checked = true;
 class IlegalMining1 extends Component {
 
@@ -81,11 +41,9 @@ class IlegalMining1 extends Component {
 
     render () {
         return (
-
-
-            <Wrapper>
-                <input type="checkbox" className="checkboxCustom1" defaultChecked={true} onChange={this._onChangeHandler.bind(this,'LEGENDA1 PONTOS_mineriailegal-pt-5owfra')} />
-                <label className="comsub" style={{pointerEvents:'auto',cursor:'pointer',zIndex:'-100',marginLeft:'1.2rem'}} onClick={this.toggle}>
+            <div>
+                <input type="checkbox" className="mapbox_custom-checkbox" defaultChecked={true} onChange={this._onChangeHandler.bind(this,'LEGENDA1 PONTOS_mineriailegal-pt-5owfra')} />
+                <label className="mapbox_custom-checkbox-label" style={{pointerEvents:'auto',cursor:'pointer',zIndex:'-100',marginLeft:'1.2rem'}} onClick={this.toggle}>
                 <FormattedMessage id="legend1.title1" defaultMessage="legend1">
                     {(txt) => (txt)}
                 </FormattedMessage>
@@ -137,7 +95,7 @@ class IlegalMining1 extends Component {
                 </tbody>
                 </table>
                 </Collapse>
-            </Wrapper>
+            </div>
         )
     }
 }

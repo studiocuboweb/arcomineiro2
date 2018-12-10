@@ -49,7 +49,6 @@ class YanomamiIndigenousTerritories extends Component {
                         <FormattedMessage id="legend5.title1" defaultMessage="legend1">
                         {(txt) => (txt)}
                         </FormattedMessage>
-                        <span className={this.state.arrowClass} onClick={this.toggle}></span>
                     </label>
                 </div>
             </div>

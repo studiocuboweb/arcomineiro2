@@ -293,7 +293,7 @@
             "source": "composite",
             "source-layer": "div_politica_pais",
             "minzoom": 5,
-            "layout": {"visibility": "none"},
+            "layout": {},
             "paint": {
                 "fill-color": [
                     "match",
@@ -311,7 +311,7 @@
             "source": "composite",
             "source-layer": "div_politica_pais",
             "minzoom": 5,
-            "layout": {"visibility": "none"},
+            "layout": {},
             "paint": {
                 "fill-color": [
                     "match",
@@ -330,7 +330,7 @@
             "source-layer": "div_politica_departamental",
             "minzoom": 4,
             "maxzoom": 8,
-            "layout": {"visibility": "none"},
+            "layout": {},
             "paint": {
                 "fill-color": "hsla(0, 0%, 0%, 0.46)",
                 "fill-opacity": [

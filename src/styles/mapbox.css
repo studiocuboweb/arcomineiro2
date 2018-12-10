@@ -78,3 +78,7 @@
     outline: none !important;
     box-shadow: none;
  }
+
+.control-panel input:checked + .mapbox_custom-checkbox-colored:after {
+    background-color: #c500f2;
+}

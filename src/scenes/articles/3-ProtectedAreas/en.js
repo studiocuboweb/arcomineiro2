@@ -109,10 +109,10 @@ export default () => (
             legend:"legend3",
             update:"map3",
             showExtraLayers: ['LEGENDA ANPs-nacionales-afectadas','LEGENDA ANPS-departamentales-afectadas','LEGENDA bosques-afectados'],
-            coordinates: [-61.451458,-4.714880],
-            zoomNumber: 4.50,
-            zoomMin: 5,
-            zoomMax: 10
+            coordinates: [-64.770093,-4.650804],
+            zoomNumber: 4.00,
+            zoomMin: 4,
+            zoomMax: 12
           }
         }}>649 protected natural areas, 55 have active illegal mining points or dredges within their limits</StoryMedia>. There are still a total of 41 protected natural areas that suffer indirect damage, either in buffer zones or along their boundaries.
       </Paragraph>

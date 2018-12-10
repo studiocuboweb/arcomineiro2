@@ -163,7 +163,7 @@ export default () => (
         One of the most affected regions of the Amazon is the <StoryMedia
         icon="map"
         media={{
-        id: "map_3",
+        id: "map_03",
         type: "mapbox",
           data: {
             map: "map2",
