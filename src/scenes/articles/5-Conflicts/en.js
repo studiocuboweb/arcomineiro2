@@ -83,7 +83,7 @@ export default () => (
         >Agustin Ojeda, a Shirian leader from Bolivar state, Venezuela</StoryMedia>.
         </p>
         <p className='medium-txt'>
-          He points out that the profound change in the way of life of his people and the adoption of new habits have seriously damaged ancestral customs and, in turn, increased health problems.
+          He points out that the profound change in the way of life of his people and the adoption of new habits have seriously damaged ancestral customs and, in turn, increased health problems. "Illegal mining can kill us. Mining ponds enable the reproduction of mosquitoes that bring diseases such as malaria, and the effect of mercury on water is not taken seriously; mercury not only contaminates the water, but also the fish we eat".
         </p>
         <p className='medium-txt'>
           The Shirian leader adds that most of his community have abandoned their fields. The sowing, clearing and burning seasons are not respected, so the harvest is almost nil. "Nowadays you see Indians buying cassava bread from non-Indians instead of making it".

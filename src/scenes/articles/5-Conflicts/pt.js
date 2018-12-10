@@ -83,13 +83,13 @@ export default () => (
         >Agustín Ojeda, líder Shirian do estado de Bolívar, Venezuela</StoryMedia>.
         </p>
         <p className='medium-txt'>
-          Ele ressalta que a profunda mudança no modo de vida de seu povo e a adoção de novos hábitos prejudicaram seriamente os costumes ancestrais e, por sua vez, aumentaram os problemas de saúde. 
+          Ele ressalta que a profunda mudança no modo de vida de seu povo e a adoção de novos hábitos prejudicaram seriamente os costumes ancestrais e, por sua vez, aumentaram os problemas de saúde. "A mineração ilegal pode nos matar. Os poços de mineração permitem a reprodução de mosquitos que trazem doenças como a malária. O efeito do mercúrio na água também não é levado a sério; não só a contamina, mas também os peixes que usamos para comer".
         </p>
         <p className='medium-txt'>
           O líder Shirian acrescenta que a maioria de sua comunidade deixou o conuco (a roça). As estações de semeadura, abate e queima não são respeitadas, por isso a colheita é quase nula. "Atualmente você pode ver um indígena comprando um casabe de um crioulo em vez de produzi-lo." 
         </p>
         <p className='medium-txt'>
-          O líder Shirian acrescenta que a maioria de sua comunidade deixou o conuco (a roça). As estações de semeadura, abate e queima não são respeitadas, por isso a colheita é quase nula. "Atualmente você pode ver um indígena comprando um casabe de um crioulo em vez de produzi-lo." 
+          Ele assegura que diante da realidade complicada enfrentada pelos povos indígenas, o compromisso das instituições competentes em alcançar acordos que permitam melhores condições e garantia de uma melhor qualidade de vida, além do respeito aos direitos humanos, deve estar acima de qualquer circunstância. "Se o ritmo de vida que vivemos hoje na Venezuela e no mundo continuar, chegará o momento em que não saberemos quem somos." 
         </p>
       </EndChapter>
       <RelatedNews
