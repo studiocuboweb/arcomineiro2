@@ -82,7 +82,7 @@ class SiteTitle extends Component {
               <span className="title-item title-3">
                 <FormattedMessage
                   id="general.siteTitle3"
-                  defaultMessage="Sacked Amazon" />
+                  defaultMessage="Looted Amazon" />
               </span>
             </span>
           </Link>

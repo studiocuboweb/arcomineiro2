@@ -186,7 +186,7 @@ class Header extends Component {
                   <h1 className="title">
                   <FormattedMessage
                     id="general.siteTitle3"
-                    defaultMessage="Sacked Amazon" />
+                    defaultMessage="Looted Amazon" />
                   </h1>
                 </NavLink>
                 {/* </a> */}
