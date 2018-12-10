@@ -41,7 +41,7 @@ export default () => (
             zoomMin: 4,
             zoomMax: 12
           }
-        }}>entre 6207 territorios indígenas, 78 con actividades de garimpo en su límite o en el entorno</StoryMedia>.. La mayoría de esos territorios - 64 - está ubicada en el Perú. Con respecto a las tierras indígenas con actividades dentro de los límites, Brasil lidera con 18 casos entre los 37 identificados. En relación a las actividades de dragas en ríos en esos territorios, Colombia tiene la mayor incidencia - 30 entre los 65 casos investigados.
+        }}>entre 6207 territorios indígenas, 78 con actividades de garimpo en su límite o en el entorno</StoryMedia>. La mayoría de esos territorios - 64 - está ubicada en el Perú. Con respecto a las tierras indígenas con actividades dentro de los límites, Brasil lidera con 18 casos entre los 37 identificados. En relación a las actividades de dragas en ríos en esos territorios, Colombia tiene la mayor incidencia - 30 entre los 65 casos investigados.
       </Paragraph>
       <Table>
       <table>
