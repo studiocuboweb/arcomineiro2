@@ -3,7 +3,7 @@ import {Collapse} from 'react-collapse';
 import { FormattedMessage } from "react-intl";
 
 let checked = true;
-class IlegalMining1 extends Component {
+class LegalMining extends Component {
 
     constructor(props) {
         super(props);
@@ -43,23 +43,27 @@ class IlegalMining1 extends Component {
     render () {
         return (
             <div>
-            <input type="checkbox" defaultChecked={true} onChange={this._onChangeHandler.bind(this,'LEGENDA3 AREAS_mineriailegal-pl-6rfpha')} />
+            <input type="checkbox" defaultChecked={true} onChange={this._onChangeHandler.bind(this,'LEGENDA4 MINERACAO-LEGALZ4_mineria-pl')} />
             <label style={{pointerEvents:'auto',cursor:'pointer',zIndex:'-100',marginLeft:'0.5rem'}} onClick={this.toggle}>
-                <FormattedMessage id="legend1.title3" defaultMessage="legend1">
+                <FormattedMessage id="legend2.title1" defaultMessage="legend1">
                 {(txt) => (txt)}
                 </FormattedMessage>
                 <span className={this.state.arrowClass} onClick={this.toggle}></span>
             </label>
             <Collapse isOpened={this.state.collapse}>
-                <div className='mapbox_control-panel_subtitle'><span style={{'width':'15px',height:'15px'}}><img src={require('images/legend-icons/ico_circle-11_active2.svg')} alt='ico_circle-11_active2' title='ico_circle-11_active2' style={{'margin':0,'padding':0}} /></span><FormattedMessage id="legend1.legend3_1" defaultMessage="exact location">
+                <div className='mapbox_control-panel_subtitle'><span style={{'width':'15px',height:'15px',backgroundColor:'#29dbc3'}}></span><FormattedMessage id="legend2.legend2_1" defaultMessage="exact location">
                     {(txt) => (txt)}
                 </FormattedMessage>
                 </div>
-                <div className='mapbox_control-panel_subtitle'><span style={{'width':'15px',height:'15px'}}><img src={require('images/legend-icons/ico_circle-11_inactive2.svg')} alt='ico_circle-11_inactive2' title='ico_circle-11_inactive2' style={{'margin':0,'padding':0}} /></span><FormattedMessage id="legend1.legend3_2" defaultMessage="exact location">
+                <div className='mapbox_control-panel_subtitle'><span style={{'width':'15px',height:'15px',backgroundColor:'#037587'}}></span><FormattedMessage id="legend2.legend2_2" defaultMessage="exact location">
                     {(txt) => (txt)}
                 </FormattedMessage>
                 </div>
-                <div className='mapbox_control-panel_subtitle'><span style={{'width':'15px',height:'15px'}}><img src={require('images/legend-icons/ico_circle-11_noinfo2.svg')} alt='ico_circle-11_noinfo2' title='ico_circle-11_noinfo2' style={{'margin':0,'padding':0}} /></span><FormattedMessage id="legend1.legend3_3" defaultMessage="exact location">
+                <div className='mapbox_control-panel_subtitle'><span style={{'width':'15px',height:'15px',backgroundColor:'#012f37'}}></span><FormattedMessage id="legend2.legend2_3" defaultMessage="exact location">
+                    {(txt) => (txt)}
+                </FormattedMessage>
+                </div>
+                <div className='mapbox_control-panel_subtitle'><span style={{'width':'15px',height:'15px',backgroundColor:'hsla(0, 0%, 0%, 0.47)'}}></span><FormattedMessage id="legend2.legend2_4" defaultMessage="exact location">
                     {(txt) => (txt)}
                 </FormattedMessage>
                 </div>
@@ -69,4 +73,4 @@ class IlegalMining1 extends Component {
     }
 }
 
-export default IlegalMining1;
+export default LegalMining;

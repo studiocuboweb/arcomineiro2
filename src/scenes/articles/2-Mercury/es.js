@@ -163,11 +163,11 @@ export default () => (
         Una de las regiones más afectadas en el Amazonas es el territorio Yanomami, que se extiende entre Brasil y Venezuela <StoryMedia
         icon="map"
         media={{
-        id: "map-6",
+        id: "map_03",
         type: "mapbox",
           data: {
             map: "map2",
-            legend:"map2",
+            legend:"legend9",
             update:"map2",
             showExtraLayers: ['LEGENDA4- Yanomami_tis-afectadas'],
             coordinates: [-63.693113,2.766774],

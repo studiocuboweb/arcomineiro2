@@ -32,7 +32,7 @@ export default () => (
         A survey conducted by organizations in Bolivia, Brazil, Colombia, Ecuador, Peru and Venezuela confirms the existence of at least <StoryMedia
         icon="map"
         media={{
-        id: "map1_1",
+        id: "map_01",
         type: "mapbox",
           data: {
             map: "map1",
@@ -68,11 +68,11 @@ export default () => (
         Of all the sites mapped, the majority are in Venezuela, followed by Brazil, Ecuador and Peru. In Colombia and Bolivia, analysis was done by rivers, which is why it is not quantified by specific sites. Out of the 245 extraction areas, three are in Bolivia, <StoryMedia
         icon="map"
         media={{
-        id: "map1_2",
+        id: "map_02a",
         type: "mapbox",
         data: {
           map: "map1",
-          legend:"map1",
+          legend:"legend1",
           update:"map1_2",
           showExtraLayers: ['Para-MASCARA_div-politica-departamental'],
           coordinates: [-57.105593,-6.390858],
@@ -91,11 +91,11 @@ export default () => (
         The deputy director of Gaia Amazonas, Camilo Guio, warns that "these illegal extractive activities are characterized by their rudimentary and unsustainable nature. They are <StoryMedia
         icon="map"
         media={{
-        id: "map1_3",
+        id: "map_02b",
         type: "mapbox",
         data: {
           map: "map1",
-          legend:"map1",
+          legend:"legend1",
           update:"map1_3",
           showExtraLayers: ['COLOMBIA-MASCARA_div-politica-pais'],
           coordinates: [-71.649086,0.296145],
@@ -114,11 +114,11 @@ export default () => (
         These <StoryMedia
         icon="map"
         media={{
-        id: "map1_4",
+        id: "map_02c",
         type: "mapbox",
         data: {
           map: "map1",
-          legend:"map1",
+          legend:"legend1",
           update:"map1_4",
           showExtraLayers: ['BOLIVIA-MASCARA_div-politica-pais'],
           coordinates: [-65.224,-14.804],
@@ -174,11 +174,11 @@ export default () => (
         Likewise, it is probably not possible to identify all watercourses where barges are currently in use, especially when there are no indigenous communities that can provide this information. In addition to activity in remote areas, there is an <StoryMedia
         icon="map"
         media={{
-        id: "map1_5",
+        id: "map_01b",
         type: "mapbox",
         data: {
           map: "map1",
-          legend:"map1_5",
+          legend:"legend2",
           update:"map1_5",
           showExtraLayers: ['LEGENDA4 MINERACAO-LEGALZ4_mineria-pl'],
           coordinates: [-60.480084,-5.383769],

@@ -199,7 +199,6 @@ class ArticleNav extends Component {
   }
 
   checkResize() {
-    console.log('checkresize')
     if (((typeof window.orientation == "undefined") && (navigator.userAgent.indexOf('IEMobile') == -1))) {
       this.setState({
         collapsed: true

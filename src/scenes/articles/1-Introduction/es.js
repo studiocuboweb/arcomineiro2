@@ -32,7 +32,7 @@ export default () => (
         Un estudio realizado por organizaciones de Bolivia, Brasil, Colombia, Ecuador, Perú y Venezuela confirma la existencia de, al menos, <StoryMedia
         icon="map"
         media={{
-        id: "map1_1",
+        id: "map_01",
         type: "mapbox",
           data: {
             map: "map1",
@@ -68,11 +68,11 @@ export default () => (
         De todos los puntos mapeados, la mayoría se encuentra en Venezuela, seguido por Brasil, Ecuador y Perú. En Colombia y Bolivia la unidad de análisis correspondió a los ríos, razón por la cual la información no aparece cuantificada como puntos. Entre las 245 áreas de extracción, tres se encuentran en Bolivia, <StoryMedia
         icon="map"
         media={{
-        id: "map1_2",
+        id: "map_02a",
         type: "mapbox",
         data: {
           map: "map1",
-          legend:"map1",
+          legend:"legend1",
           update:"map1_2",
           showExtraLayers: ['Para-MASCARA_div-politica-departamental'],
           coordinates: [-57.105593,-6.390858],
@@ -85,7 +85,22 @@ export default () => (
       
 
       <Quote author="Camilo Guio, vice-diretor da Gaia Amazonas">
-        “Estas actividades extractivas ilegales se caracterizan por su forma antitécnica e insostenible. Se realizan principalmente a través de balsas y de dragas, que no sólo tienen efectos ambientales sobre el lecho de los ríos, sino también por la mala utilización del mercurio. Esto está generando daños a la salud de las poblaciones locales, especialmente a los pueblos indígenas”, alerta el subdirector de Gaia Amazonas, Camilo Guio.
+        “Estas actividades extractivas ilegales se caracterizan por su forma antitécnica e insostenible. Se <StoryMedia
+        icon="map"
+        media={{
+        id: "map_02b",
+        type: "mapbox",
+        data: {
+          map: "map1",
+          legend:"legend1",
+          update:"map1_3",
+          showExtraLayers: ['COLOMBIA-MASCARA_div-politica-pais'],
+          coordinates: [-71.649086,0.296145],
+          zoomNumber: 6.00,
+          zoomMin: 3,
+          zoomMax: 22
+        }
+        }}>realizan principalmente a través de balsas y de dragas, que no sólo tienen efectos ambientales sobre el lecho de los ríos</StoryMedia>, sino también por la mala utilización del mercurio. Esto está generando daños a la salud de las poblaciones locales, especialmente a los pueblos indígenas”, alerta el subdirector de Gaia Amazonas, Camilo Guio.
       </Quote>
 
       <Paragraph>
@@ -96,11 +111,11 @@ export default () => (
         Estas <StoryMedia
         icon="map"
         media={{
-        id: "map1_4",
+        id: "map_02c",
         type: "mapbox",
         data: {
           map: "map1",
-          legend:"map1",
+          legend:"legend1",
           update:"map1_4",
           showExtraLayers: ['BOLIVIA-MASCARA_div-politica-pais'],
           coordinates: [-65.224,-14.804],
@@ -155,11 +170,11 @@ export default () => (
         Del mismo modo, probablemente tampoco logra identificar todos los cursos de agua que actualmente están siendo afectados por el uso de dragas, en especial cuando no se cuenta con comunidades indígenas que puedan facilitar esa información. Además de la actividad en zonas remotas, <StoryMedia
         icon="map"
         media={{
-        id: "map1_5",
+        id: "map_01b",
         type: "mapbox",
         data: {
           map: "map1",
-          legend:"map1_5",
+          legend:"lgend2",
           update:"map1_5",
           showExtraLayers: ['LEGENDA4 MINERACAO-LEGALZ4_mineria-pl'],
           coordinates: [-60.480084,-5.383769],

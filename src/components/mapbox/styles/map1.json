@@ -84,7 +84,7 @@
             "source": "mapbox://infoamazonia.0v4erhuc",
             "source-layer": "mineria_pl",
             "minzoom": 4,
-            "layout": {"visibility": "none"},
+            "layout": {},
             "paint": {
                 "fill-color": [
                     "match",

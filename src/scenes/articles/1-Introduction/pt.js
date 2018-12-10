@@ -32,7 +32,7 @@ export default () => (
         Um levantamento feito por organizações da Bolívia, Brasil, Colômbia, Equador, Peru e Venezuela confirma a existência de pelo menos <StoryMedia
         icon="map"
         media={{
-        id: "map1_1",
+        id: "map_01",
         type: "mapbox",
           data: {
             map: "map1",
@@ -68,11 +68,11 @@ export default () => (
         De todos os pontos mapeados, a maioria está na Venezuela, depois no Brasil, Equador e Peru. Na Colômbia e Bolívia, as unidades de análise foram os rios, razão pela qual não aparecem quantificados como pontos. Entre as 245 áreas de extração, três estão na Bolívia, <StoryMedia
         icon="map"
         media={{
-        id: "map1_2",
+        id: "map_02a",
         type: "mapbox",
         data: {
           map: "map1",
-          legend:"map1",
+          legend:"legend1",
           update:"map1_2",
           showExtraLayers: ['Para-MASCARA_div-politica-departamental'],
           coordinates: [-57.105593,-6.390858],
@@ -92,11 +92,11 @@ export default () => (
         O vice-diretor da Gaia Amazonas, Camilo Guio, alerta que “essas atividades extrativas ilegais caracterizam-se por sua forma anti-técnica e insustentável. São <StoryMedia
         icon="map"
         media={{
-        id: "map1_3",
+        id: "map_02b",
         type: "mapbox",
         data: {
           map: "map1",
-          legend:"map1",
+          legend:"legend1",
           update:"map1_3",
           showExtraLayers: ['COLOMBIA-MASCARA_div-politica-pais'],
           coordinates: [-71.649086,0.296145],
@@ -115,11 +115,11 @@ export default () => (
         Estas <StoryMedia
         icon="map"
         media={{
-        id: "map1_4",
+        id: "map_02c",
         type: "mapbox",
         data: {
           map: "map1",
-          legend:"map1",
+          legend:"legend1",
           update:"map1_4",
           showExtraLayers: ['BOLIVIA-MASCARA_div-politica-pais'],
           coordinates: [-65.224,-14.804],
@@ -175,11 +175,11 @@ export default () => (
         Da mesma forma, provavelmente não é possível identificar todos os cursos de água atualmente afetados pelo uso de balsas, especialmente quando não há comunidades indígenas que possam fornecer essas informações. Além da atividade em áreas remotas, há uma <StoryMedia
         icon="map"
         media={{
-        id: "map1_5",
+        id: "map_01b",
         type: "mapbox",
         data: {
           map: "map1",
-          legend:"map1_5",
+          legend:"legend2",
           update:"map1_5",
           showExtraLayers: ['LEGENDA4 MINERACAO-LEGALZ4_mineria-pl'],
           coordinates: [-60.480084,-5.383769],

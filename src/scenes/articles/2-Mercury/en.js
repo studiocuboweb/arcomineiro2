@@ -163,11 +163,11 @@ export default () => (
         One of the most affected regions of the Amazon is the <StoryMedia
         icon="map"
         media={{
-        id: "map-6",
+        id: "map_3",
         type: "mapbox",
           data: {
             map: "map2",
-            legend:"map2",
+            legend:"legend9",
             update:"map2",
             showExtraLayers: ['LEGENDA4- Yanomami_tis-afectadas'],
             coordinates: [-63.693113,2.766774],
