@@ -64,7 +64,8 @@ export default () => (
                     },
                     {
                       src: require("photos/chapter2/gallery-1/06_NatalieSzponar4_DSC06137.jpg"),
-                      credits: "Natalie Szponar"
+                      credits: "Natalie Szponar",
+                      isVertical: true,
                     },
                     {
                       src: require("photos/chapter2/gallery-1/07_NatalieSzponar_DSC06141.jpg"),

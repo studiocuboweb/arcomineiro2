@@ -118,7 +118,7 @@ export default () => (
           <tr>
             <th>Garimpos por país:</th>
             <th>pontos</th>
-            <th>areas</th>
+            <th>áreas</th>
           </tr>
           <tr>
             <td>Bolivia</td>
@@ -131,12 +131,12 @@ export default () => (
             <td style={{'text-align':'right'}}>132</td>
           </tr>
           <tr>
-            <td>Ecuador</td>
+            <td>Equador</td>
             <td>68</td>
             <td style={{'text-align':'right'}}></td>
           </tr>
           <tr>
-            <td>Perú</td>
+            <td>Peru</td>
             <td>24</td>
             <td style={{'text-align':'right'}}>110</td>
           </tr>
@@ -182,31 +182,38 @@ export default () => (
                   items: [
                     {
                       src: require("photos/chapter1/gallery-1/01_AlbertoBlanco_BrisasDelCuyuni13A.jpg"),
-                      credits: "Alberto Blanco"
+                      credits: "Alberto Blanco",
+                      isVertical: false,
                     },
                     {
                       src: require("photos/chapter1/gallery-1/02_AlbertoBlanco_BrisasDelCuyuni14A.jpg"),
-                      credits: "Alberto Blanco"
+                      credits: "Alberto Blanco",
+                      isVertical: true,
                     },
                     {
                       src: require("photos/chapter1/gallery-1/03_AlbertoBlanco_BrisasDelCuyuni8.jpg"),
-                      credits: "Alberto Blanco"
+                      credits: "Alberto Blanco",
+                      isVertical: false,
                     },
                     {
                       src: require("photos/chapter1/gallery-1/04_AlbertoBlanco_BrisasDelCuyuni6A.jpg"),
-                      credits: "Alberto Blanco"
+                      credits: "Alberto Blanco",
+                      isVertical: true,
                     },
                     {
                       src: require("photos/chapter1/gallery-1/05_AlbertoBlanco_BrisasDelCuyuni3.jpg"),
-                      credits: "Alberto Blanco"
+                      credits: "Alberto Blanco",
+                      isVertical: false,
                     },
                     {
                       src: require("photos/chapter1/gallery-1/06_AlbertoBlanco_BrisasDelCuyuni4.jpg"),
-                      credits: "Alberto Blanco"
+                      credits: "Alberto Blanco",
+                      isVertical: true,
                     },
                     {
                       src: require("photos/chapter1/gallery-1/07_AlbertoBlanco_BrisasDelCuyuni6A.jpg"),
-                      credits: "Alberto Blanco"
+                      credits: "Alberto Blanco",
+                      isVertical: true,
                     }
                   ]
                 }

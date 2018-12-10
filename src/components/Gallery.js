@@ -132,6 +132,17 @@ class Gallery extends Component {
     ev.preventDefault();
     this.props.expandMedia(true);
   }
+  _setVerticalImage(isVertical) {
+    console.log('_setVerticalImage')
+    console.log(isVertical)
+    if (isVertical) {
+      console.log('retornou')
+      return {width:'45%', margin:'0 auto'}
+    } else {
+      console.log('nao retornou')
+      return {margin:'0 auto'}
+    }
+  }
   render() {
     const { data, preview } = this.props;
     if (preview) {
@@ -163,7 +174,7 @@ class Gallery extends Component {
             <span className="fa fa-angle-left" />
           </a>
           <div className="image">
-            <img src={data.items[current].src} />
+            <img src={data.items[current].src} style={this._setVerticalImage(data.items[current].isVertical)} />
           </div>
           <a href="javascript:void(0);" className="next" onClick={this._next}>
             <span className="fa fa-angle-right" />

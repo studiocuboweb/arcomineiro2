@@ -126,11 +126,22 @@ const About = ({ intl, lastPath }) => {
               <FormattedMessage
                   id="about.editor_chief"
                   defaultMessage="Editora Imagens e Mapas"
-                /> - Juliana Mori<br />
+                /> - Juliana Mori
+            </Paragraph>
+            <Paragraph>
+            <strong>
+              <FormattedMessage
+                id="about.video"
+                defaultMessage="Videos"
+              />
+            </strong>
+            <br />
               <FormattedMessage
                   id="about.videos"
                   defaultMessage="Videos"
-                /> <br />
+                />
+            </Paragraph>
+            <Paragraph>
               <FormattedMessage
                   id="about.dev"
                   defaultMessage="Desenvolvimento Web"

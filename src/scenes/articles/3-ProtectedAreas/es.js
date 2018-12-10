@@ -53,7 +53,8 @@ export default () => (
                 },
                 {
                   src: require("photos/chapter3/gallery-1/04_DanielParanayba_FlonaAltamira_Garimpo.jpg"),
-                  credits: "Daniel Paranayba/ISA"
+                  credits: "Daniel Paranayba/ISA",
+                  isVertical: true,
                 },
                 {
                   src: require("photos/chapter3/gallery-1/05_OscarMujica-FZS_PE_LaPampa.jpg"),

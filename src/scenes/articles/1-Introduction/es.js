@@ -177,31 +177,38 @@ export default () => (
                   items: [
                     {
                       src: require("photos/chapter1/gallery-1/01_AlbertoBlanco_BrisasDelCuyuni13A.jpg"),
-                      credits: "Alberto Blanco"
+                      credits: "Alberto Blanco",
+                      isVertical: false,
                     },
                     {
                       src: require("photos/chapter1/gallery-1/02_AlbertoBlanco_BrisasDelCuyuni14A.jpg"),
-                      credits: "Alberto Blanco"
+                      credits: "Alberto Blanco",
+                      isVertical: true,
                     },
                     {
                       src: require("photos/chapter1/gallery-1/03_AlbertoBlanco_BrisasDelCuyuni8.jpg"),
-                      credits: "Alberto Blanco"
+                      credits: "Alberto Blanco",
+                      isVertical: false,
                     },
                     {
                       src: require("photos/chapter1/gallery-1/04_AlbertoBlanco_BrisasDelCuyuni6A.jpg"),
-                      credits: "Alberto Blanco"
+                      credits: "Alberto Blanco",
+                      isVertical: true,
                     },
                     {
                       src: require("photos/chapter1/gallery-1/05_AlbertoBlanco_BrisasDelCuyuni3.jpg"),
-                      credits: "Alberto Blanco"
+                      credits: "Alberto Blanco",
+                      isVertical: false,
                     },
                     {
                       src: require("photos/chapter1/gallery-1/06_AlbertoBlanco_BrisasDelCuyuni4.jpg"),
-                      credits: "Alberto Blanco"
+                      credits: "Alberto Blanco",
+                      isVertical: true,
                     },
                     {
                       src: require("photos/chapter1/gallery-1/07_AlbertoBlanco_BrisasDelCuyuni6A.jpg"),
-                      credits: "Alberto Blanco"
+                      credits: "Alberto Blanco",
+                      isVertical: true,
                     }
                   ]
                 }
