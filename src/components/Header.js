@@ -12,25 +12,63 @@ const Wrapper = styled.header`
   padding: .5rem 1rem;
   background: #f3f3f3;
   z-index: 999999;
+  .title {
+    blo:right;
+    font-size: 2rem;
+    ${media.phone`
+      font-size: 1rem;
+    `}
+    ${media.phablet`
+      font-size: 1rem;
+    `}
+    ${media.desktop`
+      font-size: 2rem;
+    `}
+    ${media.desktopHD`
+      font-size: 2rem;
+    `}
+  }
   .logo-infoamazonia {
+    height:41px;
+    margin-right:0px;
     margin-bottom: 1rem;
     vertical-align: middle;
+    ${media.phone`
+      height:30px;
+      margin-bottom: 0.4rem!important;
+    `}
     ${media.phablet`
+      height:30px;
       margin-bottom: 0.4rem!important;
     `}
     ${media.desktop`
-    margin-bottom: 0.6rem!important;
-  `}
+      height:41px;
+      margin-bottom: 0.6rem!important;
+    `}
+    ${media.desktopHD`
+      height:41px;
+      margin-bottom: 0.6rem!important;
+    `}
   }
   .logo-raisg {
     margin-bottom: 1rem;
     vertical-align: middle;
+    ${media.phone`
+      height:30px;
+      margin-bottom: 0.4rem!important;
+    `}
     ${media.phablet`
+      height:30px;
       margin-bottom: 0.4rem!important;
     `}
     ${media.desktop`
-    margin-bottom: 0.6rem!important;
-  `}
+      height:41px;
+      margin-bottom: 0.6rem!important;
+    `}
+    ${media.desktopHD`
+      height:41px;
+      margin-bottom: 0.6rem!important;
+    `}
   }
   .logo-am {
     vertical-align: middle;
@@ -145,7 +183,7 @@ class Header extends Component {
               <div style={{'display':'inline-block', 'cursor':'pointer'}}>
                 {/* <a href={`${url}${location.pathname}`}> */}
                 <NavLink activeClassName="active-navlink" to="/">
-                  <h1 style={{'blo':'right','fontSize':'30px'}}>
+                  <h1 className="title">
                   <FormattedMessage
                     id="general.siteTitle3"
                     defaultMessage="Sacked Amazon" />
@@ -155,7 +193,7 @@ class Header extends Component {
               </div>
               <div style={{'display':'inline-block'}}>
                 <a href="https://infoamazonia.org/" target="_blank">
-                  <img src={require("images/partners/infoamazonia-crop.png")} className="logo-infoamazonia" style={{'height':'41px', 'margin-right':'0px'}} alt="INFOAMAZONIA" />
+                  <img src={require("images/partners/infoamazonia-crop.png")} className="logo-infoamazonia" alt="INFOAMAZONIA" />
                 </a>
                 <a href="https://www.amazoniasocioambiental.org" target="_blank">
                   <img src={require("images/partners/avatar_r_cheio.png")} className="logo-raisg" alt="RAISG"/>
