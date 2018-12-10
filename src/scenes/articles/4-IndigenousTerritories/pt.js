@@ -36,8 +36,8 @@ export default () => (
             legend:"legend6",
             update:"map5",
             showExtraLayers: ['LEGENDATIs-afectadas'],
-            coordinates: [-60.274653,-4.525221],
-            zoomNumber: 4.66,
+            coordinates: [-62.965062,-4.606354],
+            zoomNumber: 4.00,
             zoomMin: 4,
             zoomMax: 12
           }
@@ -194,8 +194,8 @@ export default () => (
             legend:"legend7",
             update:"map6",
             showExtraLayers: ['LEGENDATIs-afectadas','ETIQUETA_nombre-tis-afectadas'],
-            coordinates: [-70.635005,-11.676347],
-            zoomNumber: 7.40,
+            coordinates: [-70.572203,-11.614342],
+            zoomNumber: 6.99,
             zoomMin: 5,
             zoomMax: 12
           }
@@ -215,8 +215,8 @@ export default () => (
             legend:"legend8",
             update:"map6_1",
             showExtraLayers: ['LEGENDATIs-afectadas','ETIQUETA_etnias-tis-afectadas'],
-            coordinates: [-70.793253,-12.789527],
-            zoomNumber: 9.35,
+            coordinates: [-70.921732,-12.770992],
+            zoomNumber: 8.83,
             zoomMin: 7,
             zoomMax: 10
           }

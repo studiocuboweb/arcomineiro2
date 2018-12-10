@@ -40,8 +40,8 @@ export default () => (
             legend:"legend1",
             update: "map1_1",
             showExtraLayers: [],
-            coordinates: [-60.480084,-5.383769],
-            zoomNumber: 4.50,
+            coordinates: [-62.798552,-5.467137],
+            zoomNumber: 4,
             zoomMin: 3,
             zoomMax: 10
           }
@@ -76,8 +76,8 @@ export default () => (
           legend:"legend1",
           update:"map1_2",
           showExtraLayers: ['Para-MASCARA_div-politica-departamental'],
-          coordinates: [-57.105593,-6.390858],
-          zoomNumber: 7.60,
+          coordinates: [-56.631297,-5.664585],
+          zoomNumber: 6.29,
           zoomMin: 5,
           zoomMax: 22
         }
@@ -100,8 +100,8 @@ export default () => (
           legend:"legend1",
           update:"map1_3",
           showExtraLayers: ['COLOMBIA-MASCARA_div-politica-pais'],
-          coordinates: [-71.649086,0.296145],
-          zoomNumber: 6.00,
+          coordinates: [-73.054582,0.547990],
+          zoomNumber: 5.50,
           zoomMin: 3,
           zoomMax: 22
         }
@@ -166,7 +166,7 @@ export default () => (
           update:"map1_4",
           showExtraLayers: ['BOLIVIA-MASCARA_div-politica-pais'],
           coordinates: [-65.224,-14.804],
-          zoomNumber: 6.20,
+          zoomNumber: 5.40,
           zoomMin: 5,
           zoomMax: 22
         },
@@ -232,9 +232,9 @@ export default () => (
           legend:"legend2",
           update:"map1_5",
           showExtraLayers: ['LEGENDA4 MINERACAO-LEGALZ4_mineria-pl'],
-          coordinates: [-60.480084,-5.383769],
-          zoomNumber: 4.50,
-          zoomMin: 3,
+          coordinates: [-62.798552,-5.467137],
+          zoomNumber: 4.00,
+          zoomMin: 4,
           zoomMax: 10
         },
         }}>sobreposição entre mineração legal e ilegal que contribui para tornar a situação ainda mais confusa</StoryMedia> e, portanto, torna impossível dimensionar o problema em sua totalidade.

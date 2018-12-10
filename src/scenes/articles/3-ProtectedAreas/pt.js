@@ -110,10 +110,10 @@ export default () => (
             legend:"legend3",
             update:"map3",
             showExtraLayers: ['LEGENDA ANPs-nacionales-afectadas','LEGENDA ANPS-departamentales-afectadas','LEGENDA bosques-afectados'],
-            coordinates: [-61.451458,-4.714880],
-            zoomNumber: 4.50,
-            zoomMin: 5,
-            zoomMax: 10
+            coordinates: [-64.770093,-4.650804],
+            zoomNumber: 4.00,
+            zoomMin: 4,
+            zoomMax: 12
           }
         }}>649 áreas naturais protegidas, 55 têm pontos de garimpo ativos ou balsas dentro de seus limites</StoryMedia>. Há ainda um total de 41 áreas naturais protegidas que sofre danos indiretos, seja em áreas de amortecimento ou nas bordas.
       </Paragraph>
