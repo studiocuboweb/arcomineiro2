@@ -227,7 +227,7 @@
             }
         },
         {
-            "id": "LEGENDA1 PONTOS_mineriailegal-pt-5owfra",
+            "id": "LEGENDA3 AREAS_mineriailegal-pl-6rfpha",
             "type": "fill",
             "metadata": {"mapbox:group": "b3c508001ca732b127ff46fe6bd205c7"},
             "source": "composite",
@@ -254,7 +254,7 @@
             }
         },
         {
-            "id": "LEGENDA3 AREAS_mineriailegal-pl-6rfpha",
+            "id": "LEGENDA1 PONTOS_mineriailegal-pt-5owfra",
             "type": "symbol",
             "metadata": {"mapbox:group": "b3c508001ca732b127ff46fe6bd205c7"},
             "source": "composite",

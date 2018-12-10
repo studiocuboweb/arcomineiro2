@@ -102,11 +102,11 @@ export default () => (
         De acordo com a análise da RAISG, de <StoryMedia
         icon="map"
         media={{
-        id: "map-7",
+        id: "map_04",
         type: "mapbox",
           data: {
             map: "map3",
-            legend:"map3",
+            legend:"legend3",
             update:"map3",
             showExtraLayers: ['LEGENDA ANPs-nacionales-afectadas','LEGENDA ANPS-departamentales-afectadas','LEGENDA bosques-afectados'],
             coordinates: [-61.451458,-4.714880],
@@ -148,11 +148,11 @@ export default () => (
         Um dos casos mais significativos desta falta de controle é o <StoryMedia
         icon="map"
         media={{
-        id: "map-8",
+        id: "map_05",
         type: "mapbox",
           data: {
             map: "map3",
-            legend:"map3",
+            legend:"legend4",
             update:"map8",
             showExtraLayers: ['LEGENDA ANPs-nacionales-afectadas','LEGENDA ANPS-departamentales-afectadas','LEGENDA bosques-afectados'],
             coordinates: [-66.806876,3.840280],
@@ -222,11 +222,11 @@ export default () => (
         Na Bolívia, as reservas mais prósperas de vida selvagem e carbono estão nas zonas úmidas das Tierras Bajas e Yungas. Ainda assim, <StoryMedia
         icon="map"
         media={{
-        id: "map-9",
+        id: "map_06",
         type: "mapbox",
           data: {
             map: "map4",
-            legend:"map4",
+            legend:"legend5",
             update:"map4",
             showExtraLayers: ['LEGENDA ANPs-nacionales-afectadas','LEGENDA ANPS-departamentales-afectadas','LEGENDATIs-afectadas'],
             coordinates: [-68.327,-14.690],

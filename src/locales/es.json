@@ -61,5 +61,13 @@
   "legend3.legend3_2":"presión: dragas dentro/en el límite",
   "legend3.legend3_3":"amenaza: minería inactiva dentro",
   "legend3.legend3_4":"amenaza: minería en el límite/entorno",
-  "legend3.legend3_5":"sin afectación directa conocida"
+  "legend3.legend3_5":"sin afectación directa conocida",
+  "legend4.title1":"Territorios Indígenas",
+  "legend4.legend4_1":"presión: minería activa dentro",
+  "legend4.legend4_2":"presión: dragas dentro/en el límite",
+  "legend4.legend4_3":"amenaza: minería inactiva dentro",
+  "legend4.legend4_4":"amenaza: minería en el límite/entorno",
+  "legend4.legend4_5":"sin afectación directa conocida",
+  "legend5.title1":"Territorios Indígenas afectados",
+  "legend5.legend5_1":"Yanomami"
 }

@@ -1,16 +1,9 @@
 import React, { Component } from 'react';
 import {Collapse} from 'react-collapse';
 import { FormattedMessage } from "react-intl";
-import styled, { css } from "styled-components";
-
-const Wrapper = styled.div`
-    .checkboxCustom {
-        
-    }
-`
 
 let checked = true;
-class IlegalMining1 extends Component {
+class YanomamiIndigenousTerritories extends Component {
 
     constructor(props) {
         super(props);
@@ -49,16 +42,19 @@ class IlegalMining1 extends Component {
 
     render () {
         return (
-            <Wrapper>
-                <input type="checkbox" className="checkboxCustom" defaultChecked={true} onChange={this._onChangeHandler.bind(this,'LEGENDA2 RIOS_mineriailegal-ln-67gxaf')} />
-                <label style={{pointerEvents:'auto',cursor:'pointer',zIndex:'-100',marginLeft:'0.5rem'}}>
-                    <FormattedMessage id="legend1.title2" defaultMessage="legend1">
-                    {(txt) => (txt)}
-                    </FormattedMessage>
-                </label>
-            </Wrapper>
+            <div>
+                <div>
+                    <input type="checkbox" name="check1" defaultChecked={true} onChange={this._onChangeHandler.bind(this,'LEGENDA4- Yanomami_tis-afectadas')} />
+                    <label style={{pointerEvents:'auto',cursor:'pointer',zIndex:'-100',marginLeft:'0.5rem'}} onClick={this.toggle}>
+                        <FormattedMessage id="legend5.title1" defaultMessage="legend1">
+                        {(txt) => (txt)}
+                        </FormattedMessage>
+                        <span className={this.state.arrowClass} onClick={this.toggle}></span>
+                    </label>
+                </div>
+            </div>
         )
     }
 }
 
-export default IlegalMining1;
+export default YanomamiIndigenousTerritories;

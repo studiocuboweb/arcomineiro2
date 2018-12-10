@@ -42,8 +42,8 @@ class MapBox extends Component {
   componentWillReceiveProps(nextProps) {
     console.log('componentWillReceiveProps')
     //if (nextProps.update !== this.props.update) {
-      if (this.props.isFullscreen !== nextProps.isFullscreen) {
-        if (nextProps.isFullscreen) {
+      if ((this.props.isFullscreen !== nextProps.isFullscreen) || (nextProps.update !== this.props.update)) {
+        if (nextProps.isFullscreen || nextProps.update !== this.props.update) {
           //setTimeout(function(){this.setState({updated:false})}.bind(this),100)
           console.log('nextProps.update !== this.props.update')
           //console.log(window.innerWidth);

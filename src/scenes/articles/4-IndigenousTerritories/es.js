@@ -29,11 +29,11 @@ export default () => (
         De acuerdo con los análisis de la RAISG, fueron identificados, <StoryMedia
         icon="map"
         media={{
-        id: "map-10",
+        id: "map_07",
         type: "mapbox",
           data: {
             map: "map5",
-            legend:"map5",
+            legend:"legend6",
             update:"map5",
             showExtraLayers: ['LEGENDATIs-afectadas'],
             coordinates: [-60.274653,-4.525221],
@@ -187,11 +187,11 @@ export default () => (
         En Perú, Puerto Luz es una de las diez comunidades del entorno de la <StoryMedia
         icon="map"
         media={{
-        id: "map-11",
+        id: "map_08",
         type: "mapbox",
           data: {
             map: "map6",
-            legend:"map6",
+            legend:"legend7",
             update:"map6",
             showExtraLayers: ['LEGENDATIs-afectadas','ETIQUETA_nombre-tis-afectadas'],
             coordinates: [-70.635005,-11.676347],
@@ -208,11 +208,11 @@ export default () => (
         La Reserva Comunal Amarakaeri forma parte del sistema de áreas protegidas del Perú y es patrimonio de la nación. Busca mantener y desarrollar los valores culturales de las <StoryMedia
         icon="map"
         media={{
-        id: "map-12",
+        id: "map_09",
         type: "mapbox",
           data: {
             map: "map6_1",
-            legend:"map6",
+            legend:"legend8",
             update:"map6_1",
             showExtraLayers: ['LEGENDATIs-afectadas','ETIQUETA_etnias-tis-afectadas'],
             coordinates: [-70.793253,-12.789527],

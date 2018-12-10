@@ -17,7 +17,7 @@ class LegalMining extends Component {
 
     componentDidMount() {
         this.setState({collapse:this.props.defaultOpened});
-        this.toggle();
+        this.setState({arrowClass: 'fa fa-caret-down'})
     }
 
     toggle() {

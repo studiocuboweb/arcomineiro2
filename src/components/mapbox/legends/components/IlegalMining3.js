@@ -15,6 +15,11 @@ class IlegalMining1 extends Component {
         };
     }
 
+    componentDidMount() {
+        this.setState({collapse:this.props.defaultOpened});
+        this.setState({arrowClass: 'fa fa-caret-down'})
+    }
+
     toggle() {
         this.setState({ collapse: !this.state.collapse });
         if (this.state.collapse) {
@@ -38,7 +43,7 @@ class IlegalMining1 extends Component {
     render () {
         return (
             <div>
-            <input type="checkbox" defaultChecked={true} onChange={this._onChangeHandler.bind(this,'LEGENDA1 PONTOS_mineriailegal-pt-5owfra')} />
+            <input type="checkbox" defaultChecked={true} onChange={this._onChangeHandler.bind(this,'LEGENDA3 AREAS_mineriailegal-pl-6rfpha')} />
             <label style={{pointerEvents:'auto',cursor:'pointer',zIndex:'-100',marginLeft:'0.5rem'}} onClick={this.toggle}>
                 <FormattedMessage id="legend1.title3" defaultMessage="legend1">
                 {(txt) => (txt)}
