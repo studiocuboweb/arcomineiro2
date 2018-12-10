@@ -250,8 +250,8 @@ export default () => (
           size="6.7MB"
         >“La realidad de minería ilegal en países amazónicos" elaborado por la Sociedad Peruana de Derecho Ambiental (SPDA, 2014)</FileLink>, <i>cerca de 600.000 personas se dedican a la explotación ilegal del oro. </i></p> 
         <p className="smaller-txt pull-left"><i>Con el aumento sostenido en el precio del oro y las evidencias de mayor cantidad de puntos y áreas de minería en la región, en los últimos cinco años este número debe haber aumentado considerablemente. </i></p>
-        {/* <div>Precio en la alturas</div>
-        Promedio anual del valor del oro (US$)<br/> */}
+        <div>Precio en la alturas</div>
+        Promedio anual del valor del oro (US$)<br/>
         <div className="image-wrapper">
           <iframe id="datawrapper-chart-AMEaF" src="//datawrapper.dwcdn.net/AMEaF/1/" scrolling="no" frameborder="0" allowtransparency="true" style={{'width': '', 'minWidth': '70%', 'padding-bottom':'10px'}} height="400"></iframe>
           <p className="pull-right graph-description"><i>
