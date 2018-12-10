@@ -127,7 +127,7 @@ const Share = ({ intl,lastPath }) => {
                     <span className="fa fa-arrow-left" />
                     <FormattedMessage
                       id="about.close"
-                      defaultMessage="Continuar Lendo"
+                      defaultMessage="Continue Reading"
                     />
                   </Link>
               }

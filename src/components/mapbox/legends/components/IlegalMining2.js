@@ -46,7 +46,7 @@ class IlegalMining1 extends Component {
             <div>
                 <input type="checkbox" id="rios" className="mapbox_custom-checkbox-colored_1" defaultChecked={true} onChange={this._onChangeHandler.bind(this,'LEGENDA2 RIOS_mineriailegal-ln-67gxaf')} />
                 <label for="rios" style={{pointerEvents:'auto',cursor:'pointer',zIndex:'-100',marginLeft:'.5rem'}}>
-                    <FormattedMessage id="legend1.title2" defaultMessage="legend1">
+                    <FormattedMessage id="legend1.title2" defaultMessage="rivers with illegal mining">
                     {(txt) => (txt)}
                     </FormattedMessage>
                 </label>

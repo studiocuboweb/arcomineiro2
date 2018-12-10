@@ -46,7 +46,7 @@ class YanomamiIndigenousTerritories extends Component {
                 <div>
                     <input type="checkbox" className="mapbox_custom-checkbox-colored_2" name="check1" defaultChecked={true} onChange={this._onChangeHandler.bind(this,'LEGENDA4- Yanomami_tis-afectadas')} />
                     <label style={{pointerEvents:'auto',cursor:'pointer',zIndex:'-100',marginLeft:'0.5rem'}} onClick={this.toggle}>
-                        <FormattedMessage id="legend5.title1" defaultMessage="legend1">
+                        <FormattedMessage id="legend5.title1" defaultMessage="Indigenous Territories affected">
                         {(txt) => (txt)}
                         </FormattedMessage>
                     </label>

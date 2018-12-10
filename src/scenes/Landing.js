@@ -290,13 +290,13 @@ class Scene extends Component {
           <h2>
             <FormattedMessage
               id="general.author"
-              defaultMessage="by Lorem Ipsum"
+              defaultMessage="-"
             />
           </h2>
           <h3>
             <FormattedMessage
               id="general.publishDate"
-              defaultMessage="January 15, 2018"
+              defaultMessage="10th December 2018"
             />
           </h3>
         </Top>
@@ -305,7 +305,7 @@ class Scene extends Component {
           <p className="description">
             <FormattedMessage
               id="general.tagline"
-              defaultMessage="The destruction of 44 thousand square miles of forests in the largest mining project in Venezuela"
+              defaultMessage="New survey reveals the existence of more than 2000 points and 200 illegal mining areas in six Amazonian countries."
             />
           </p>
           {this.isLaunchDate() ? (

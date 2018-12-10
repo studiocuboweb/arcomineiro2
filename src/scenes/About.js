@@ -71,7 +71,7 @@ const About = ({ intl, lastPath }) => {
                     <span className="fa fa-arrow-left" />
                     <FormattedMessage
                       id="about.close"
-                      defaultMessage="Continuar lendo"
+                      defaultMessage="Continue Reading"
                     />
                   </Link>
               }
@@ -80,7 +80,7 @@ const About = ({ intl, lastPath }) => {
           <Paragraph big>
             <FormattedMessage
               id="about.intro"
-              defaultMessage="Amazônia Saqueada é um panorama da situação da mineração ilegal em seis países da Amazônia. As análises e casos apresentados estão baseados em dados da plataforma {MineriaIlegal}."
+              defaultMessage="The Looted Amazon is an overview of the situation of illegal mining in six Amazonian countries. The analyses and cases presented are based on data from the {MineriaIlegal} platform."
               values={{
                 MineriaIlegal: (
                   <strong>
@@ -93,7 +93,7 @@ const About = ({ intl, lastPath }) => {
           <Paragraph big>
             <FormattedMessage
               id="about.intro2"
-              defaultMessage="Este relatório digital publicado em 10 de dezembro foi feito em aliança por:"
+              defaultMessage="This digital report published on December 10th 2018 was prepared through a partnership between:"
             />
           </Paragraph>
           <GeneralBlock>
@@ -104,7 +104,7 @@ const About = ({ intl, lastPath }) => {
             <strong>
               <FormattedMessage
                 id="about.pub_partners"
-                defaultMessage="Publishing partners"
+                defaultMessage="RAISG members"
               />
             </strong>
             <p>
@@ -115,7 +115,7 @@ const About = ({ intl, lastPath }) => {
             <strong>
               <FormattedMessage
                 id="about.photos_videos"
-                defaultMessage="Photos & videos"
+                defaultMessage="InfoAmazonia Team"
               />
             </strong>
             <br />
@@ -125,26 +125,26 @@ const About = ({ intl, lastPath }) => {
                 /> - Gustavo Faleiros<br />
               <FormattedMessage
                   id="about.editor_chief"
-                  defaultMessage="Editora Imagens e Mapas"
+                  defaultMessage="Image and map editor"
                 /> - Juliana Mori
             </Paragraph>
             <Paragraph>
             <strong>
               <FormattedMessage
                 id="about.video"
-                defaultMessage="Videos"
+                defaultMessage="Videos (in order of appearance)"
               />
             </strong>
             <br />
               <FormattedMessage
                   id="about.videos"
-                  defaultMessage="Videos"
+                  defaultMessage="1, 4 e 7 Claus García/FZS Perú, 2 e 6  Marcos Wesley/ISA, 3 Juan Doblas/ISA, 5 Production: Fundación Blue Foresta & Red Ambiental de Información (RAI)"
                 />
             </Paragraph>
             <Paragraph>
               <FormattedMessage
                   id="about.dev"
-                  defaultMessage="Desenvolvimento Web"
+                  defaultMessage="Web Development and Design"
                 /> - <a href="https://studiocuboweb.com.br" target="_blank"> StudioCubo</a><br />
           </Paragraph>
           <Button>
@@ -155,7 +155,7 @@ const About = ({ intl, lastPath }) => {
                     <span className="fa fa-arrow-left" />
                     <FormattedMessage
                       id="about.close"
-                      defaultMessage="Continuar lendo"
+                      defaultMessage="Continue Reading"
                     />
                   </Link>
               }
@@ -165,7 +165,7 @@ const About = ({ intl, lastPath }) => {
           <Paragraph small>
             <FormattedMessage
               id="about.license"
-              defaultMessage="Todos os direitos reservados. Para utilizar conteúdo de texto, imagens e dados por favor entre em contato com {RAISG} e {INFOAMAZONIA}"
+              defaultMessage="Copyright. To use text, image or data please contact {RAISG} and {INFO}"
               values={{
                 RAISG: (
                   <strong>

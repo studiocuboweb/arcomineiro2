@@ -46,30 +46,30 @@ class IndigenousTerritories extends Component {
                 <div>
                     <input type="checkbox" name="check1" defaultChecked={true} onChange={this._onChangeHandler.bind(this,'LEGENDATIs-afectadas')} />
                     <label style={{pointerEvents:'auto',cursor:'pointer',zIndex:'-100',marginLeft:'0.5rem'}} onClick={this.toggle}>
-                        <FormattedMessage id="legend4.title1" defaultMessage="legend1">
+                        <FormattedMessage id="legend4.title1" defaultMessage="Indigenous Territories">
                         {(txt) => (txt)}
                         </FormattedMessage>
                         <span className={this.state.arrowClass} onClick={this.toggle}></span>
                     </label>
                 </div>
                 <Collapse isOpened={this.state.collapse}>
-                    <div className='mapbox_control-panel_subtitle'><span style={{'width':'15px',height:'15px',backgroundColor:'#f37859'}}></span><FormattedMessage id="legend4.legend4_1" defaultMessage="exact location">
+                    <div className='mapbox_control-panel_subtitle'><span style={{'width':'15px',height:'15px',backgroundColor:'#f37859'}}></span><FormattedMessage id="legend4.legend4_1" defaultMessage="pressure: active mining inside">
                         {(txt) => (txt)}
                     </FormattedMessage>
                     </div>
-                    <div className='mapbox_control-panel_subtitle'><span style={{'width':'15px',height:'15px',backgroundColor:'hsla(17, 99%, 67%, 0.8)'}}></span><FormattedMessage id="legend4.legend4_2" defaultMessage="exact location">
+                    <div className='mapbox_control-panel_subtitle'><span style={{'width':'15px',height:'15px',backgroundColor:'hsla(17, 99%, 67%, 0.8)'}}></span><FormattedMessage id="legend4.legend4_2" defaultMessage="pressure: dredges inside/at the limit">
                         {(txt) => (txt)}
                     </FormattedMessage>
                     </div>
-                    <div className='mapbox_control-panel_subtitle'><span style={{'width':'15px',height:'15px',backgroundColor:'hsla(47, 98%, 59%, 0.8)'}}></span><FormattedMessage id="legend4.legend4_3" defaultMessage="exact location">
+                    <div className='mapbox_control-panel_subtitle'><span style={{'width':'15px',height:'15px',backgroundColor:'hsla(47, 98%, 59%, 0.8)'}}></span><FormattedMessage id="legend4.legend4_3" defaultMessage="threat: inactive mining within">
                         {(txt) => (txt)}
                     </FormattedMessage>
                     </div>
-                    <div className='mapbox_control-panel_subtitle'><span style={{'width':'15px',height:'15px',backgroundColor:'hsla(52, 76%, 74%, 0.8)'}}></span><FormattedMessage id="legend4.legend4_4" defaultMessage="exact location">
+                    <div className='mapbox_control-panel_subtitle'><span style={{'width':'15px',height:'15px',backgroundColor:'hsla(52, 76%, 74%, 0.8)'}}></span><FormattedMessage id="legend4.legend4_4" defaultMessage="threat: mining in the limit/environment">
                         {(txt) => (txt)}
                     </FormattedMessage>
                     </div>
-                    <div className='mapbox_control-panel_subtitle'><span style={{'width':'15px',height:'15px',backgroundColor:'hsla(0, 0%, 0%, 0.41)'}}></span><FormattedMessage id="legend4.legend4_5" defaultMessage="exact location">
+                    <div className='mapbox_control-panel_subtitle'><span style={{'width':'15px',height:'15px',backgroundColor:'hsla(0, 0%, 0%, 0.41)'}}></span><FormattedMessage id="legend4.legend4_5" defaultMessage="without known direct affectation">
                         {(txt) => (txt)}
                     </FormattedMessage>
                     </div>
