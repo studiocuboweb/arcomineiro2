@@ -81,6 +81,34 @@
     box-shadow: none;
  }
 
-.control-panel input:checked + .mapbox_custom-checkbox-colored:after {
-    background-color: #c500f2;
-}
+.mapbox_custom-checkbox-colored_1 {
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .mapbox_custom-checkbox-colored_1:after {
+    content: " ";
+    background-color: #b350f1;
+    display: inline-block;
+    visibility: visible;
+  }
+  
+  .mapbox_custom-checkbox-colored_1:checked:after {
+    padding:0.5rem;
+  }
+
+  .mapbox_custom-checkbox-colored_2 {
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .mapbox_custom-checkbox-colored_2:after {
+    content: " ";
+    background-color: #d65205;
+    display: inline-block;
+    visibility: visible;
+  }
+  
+  .mapbox_custom-checkbox-colored_2:checked:after {
+    padding:0.5rem;
+  }
