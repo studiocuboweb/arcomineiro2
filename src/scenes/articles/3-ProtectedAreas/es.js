@@ -109,10 +109,10 @@ export default () => (
             legend:"legend3",
             update:"map3",
             showExtraLayers: ['LEGENDA ANPs-nacionales-afectadas','LEGENDA ANPS-departamentales-afectadas','LEGENDA bosques-afectados'],
-            coordinates: [-61.451458,-4.714880],
-            zoomNumber: 4.50,
-            zoomMin: 5,
-            zoomMax: 10
+            coordinates: [-64.770093,-4.650804],
+            zoomNumber: 4.00,
+            zoomMin: 4,
+            zoomMax: 12
           }
         }}>de 649 áreas naturales protegidas, 55 tienen puntos de minería ilegal activos o dragas dentro de sus límites</StoryMedia>. Hay todavía un total de 41 áreas naturales protegidas que sufren daños indirectos, ya sea en áreas de amortiguamiento o en los bordes.
       </Paragraph>
