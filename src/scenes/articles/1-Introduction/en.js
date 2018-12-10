@@ -12,6 +12,7 @@ import Quote from "components/blocks/Quote";
 import FeaturedText from "components/blocks/FeaturedText";
 import Note from "components/blocks/Note";
 import EndChapter from "components/blocks/EndChapter";
+import Table from "components/blocks/Table";
 
 export default () => (
   <article>
@@ -109,6 +110,48 @@ export default () => (
       <Paragraph>
         The data collected by RAISG, however, are a first approximation of the situation, reflecting a problem of unknown magnitude and whose picture represents only a part of what is really happening. The cases reported come from notifications from riverine and indigenous communities, from news gathering and satellite image analysis.
       </Paragraph>
+      
+      <Table>
+        <table style={{'width':'100%'}}>
+          <tbody>
+          <tr>
+            <th>Minería ilegal por país:</th>
+            <th>puntos</th>
+            <th>áreas</th>
+          </tr>
+          <tr>
+            <td>Bolivia</td>
+            <td></td>
+            <td style={{'text-align':'right'}}>3</td>
+          </tr>
+          <tr>
+            <td>Brasil</td>
+            <td>321</td>
+            <td style={{'text-align':'right'}}>132</td>
+          </tr>
+          <tr>
+            <td>Ecuador</td>
+            <td>68</td>
+            <td style={{'text-align':'right'}}></td>
+          </tr>
+          <tr>
+            <td>Perú</td>
+            <td>24</td>
+            <td style={{'text-align':'right'}}>110</td>
+          </tr>
+          <tr>
+            <td>Venezuela</td>
+            <td>1899</td>
+            <td style={{'text-align':'right'}}></td>
+          </tr>
+          <tr>
+            <td>Total</td>
+            <td>2312</td>
+            <td style={{'text-align':'right'}}>245</td>
+          </tr>
+          </tbody>
+        </table>
+      </Table>
 
       <Paragraph>
         These <StoryMedia
