@@ -31,15 +31,7 @@ const Wrapper = styled.div`
       box-shadow: 0 0 5rem rgba(0, 0, 0, 0.2);
       border-top: 1px solid #444;
       flex: 0 0 auto;
-      @media screen and (min-height: 100px) {
-        border:1px solid red;
-        margin-bottom:-10rem;
-      }
-      @media screen and (min-height: 400px) {
-        border:1px solid blue;
-        margin-bottom:-10rem;
-      }
-      height: 50vh;
+      height: 90px;
       ${props =>
         props.active &&
         css`
