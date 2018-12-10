@@ -41,36 +41,61 @@ class MapBox extends Component {
   };
   componentWillReceiveProps(nextProps) {
     console.log('componentWillReceiveProps')
-    //if (nextProps.update !== this.props.update) {
-      if ((this.props.isFullscreen !== nextProps.isFullscreen) || (nextProps.update !== this.props.update)) {
-        if (nextProps.isFullscreen || nextProps.update !== this.props.update) {
-          //setTimeout(function(){this.setState({updated:false})}.bind(this),100)
-          console.log('nextProps.update !== this.props.update')
-          //console.log(window.innerWidth);
-          this.setState({updated:false})
-          setTimeout(
-            function() {
-              this.setState(
-                {
-                  mapStyle: '',
-                  updated:true,
-                  viewport: {
-                    width: window.innerWidth,
-                    height: window.innerHeight,
-                    latitude: this.props.coordinates[1],
-                    longitude: this.props.coordinates[0],   
-                    minZoom: this.props.zoomMin,
-                    maxZoom: this.props.zoomMax,   
-                    zoom: this.props.zoomNumber
-                  }
-                })
+    if ((this.props.isFullscreen !== nextProps.isFullscreen)) {
+      if (nextProps.isFullscreen ) {
+        this.setState(
+          {
+            viewport: {
+              width: window.innerWidth,
+              height: window.innerHeight,
+              latitude: this.props.coordinates[1],
+              longitude: this.props.coordinates[0],   
+              minZoom: this.props.zoomMin,
+              maxZoom: this.props.zoomMax,   
+              zoom: this.props.zoomNumber
             }
-            .bind(this),
-            100
-          )
-        }
+        })
+      } else {
+        this.setState(
+          {
+            viewport: {
+              width: this.props.containerWidth,
+              height: this.props.containerHeight,
+              latitude: this.props.coordinates[1],
+              longitude: this.props.coordinates[0],   
+              minZoom: this.props.zoomMin,
+              maxZoom: this.props.zoomMax,   
+              zoom: this.props.zoomNumber
+            }
+        })        
       }
-    //}
+    }
+    if (nextProps.update !== this.props.update) {
+      //setTimeout(function(){this.setState({updated:false})}.bind(this),100)
+      console.log('nextProps.update !== this.props.update')
+      //console.log(window.innerWidth);
+      this.setState({updated:false})
+      setTimeout(
+        function() {
+          this.setState(
+            {
+              mapStyle: '',
+              updated:true,
+              viewport: {
+                width: this.props.containerWidth,
+                height: this.props.containerHeight,
+                latitude: this.props.coordinates[1],
+                longitude: this.props.coordinates[0],   
+                minZoom: this.props.zoomMin,
+                maxZoom: this.props.zoomMax,   
+                zoom: this.props.zoomNumber
+              }
+            })
+        }
+        .bind(this),
+        100
+      )
+    }
   }
   render() {
     const {viewport, mapStyle, updated} = this.state;
