@@ -12,6 +12,7 @@ import Quote from "components/blocks/Quote";
 import FeaturedText from "components/blocks/FeaturedText";
 import Note from "components/blocks/Note";
 import EndChapter from "components/blocks/EndChapter";
+import Table from "components/blocks/Table";
 
 export default () => (
   <article>
@@ -110,6 +111,48 @@ export default () => (
         The data collected by RAISG, however, are a first approximation of the situation, reflecting a problem of unknown magnitude and whose picture represents only a part of what is really happening. The cases reported come from notifications from riverine and indigenous communities, from news gathering and satellite image analysis.
       </Paragraph>
 
+      <Table>
+        <table style={{'width':'100%'}}>
+          <tbody>
+          <tr>
+            <th>Illegal mining per country:</th>
+            <th>points</th>
+            <th>areas</th>
+          </tr>
+          <tr>
+            <td>Bolivia</td>
+            <td></td>
+            <td style={{'text-align':'right'}}>3</td>
+          </tr>
+          <tr>
+            <td>Brasil</td>
+            <td>321</td>
+            <td style={{'text-align':'right'}}>132</td>
+          </tr>
+          <tr>
+            <td>Ecuador</td>
+            <td>68</td>
+            <td style={{'text-align':'right'}}></td>
+          </tr>
+          <tr>
+            <td>Perú</td>
+            <td>24</td>
+            <td style={{'text-align':'right'}}>110</td>
+          </tr>
+          <tr>
+            <td>Venezuela</td>
+            <td>1899</td>
+            <td style={{'text-align':'right'}}></td>
+          </tr>
+          <tr>
+            <td>Total</td>
+            <td>2312</td>
+            <td style={{'text-align':'right'}}>245</td>
+          </tr>
+          </tbody>
+        </table>
+      </Table>
+
       <Paragraph>
         These <StoryMedia
         icon="map"
@@ -201,8 +244,6 @@ export default () => (
           size="6.7MB"
         >report "The reality of illegal mining in Amazonian countries"</FileLink>{" "}, <i>prepared by the Peruvian Society for Environmental Law (SPDA, 2014), about 600,000 people were involved at that time in the illegal exploitation of gold. </i></p> 
         <p className="smaller-txt pull-left"><i>The continued increase in the price of gold and the evidence of more mining sites and areas across the region suggest that over the last five years this number will have considerably increased.</i></p>
-        {/* <div>Sky high price</div>
-        Average annual value of gold (in US$)<br/> */}
         <div className="image-wrapper">
           <iframe id="datawrapper-chart-AMEaF" src="//datawrapper.dwcdn.net/AMEaF/1/" scrolling="no" frameborder="0" allowtransparency="true" style={{'width': '', 'minWidth': '70%', 'padding-bottom':'10px'}} height="400"></iframe>
           <p className="pull-right graph-description"><i>

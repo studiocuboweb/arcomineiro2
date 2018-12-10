@@ -12,6 +12,7 @@ import Quote from "components/blocks/Quote";
 import FeaturedText from "components/blocks/FeaturedText";
 import Note from "components/blocks/Note";
 import EndChapter from "components/blocks/EndChapter";
+import Table from "components/blocks/Table";
 
 export default () => (
   <article>
@@ -106,6 +107,48 @@ export default () => (
       <Paragraph>
         Los datos recogidos por la RAISG, sin embargo, constituyen una primera aproximación a la situación, que refleja un problema de una magnitud desconocida y cuya visión representa sólo una parte de lo que realmente está sucediendo. Los casos reportados provienen de informes de comunidades ribereñas e indígenas, del relevamiento de noticias y del análisis de imágenes satelitales. 
       </Paragraph>
+
+      <Table>
+        <table style={{'width':'100%'}}>
+          <tbody>
+          <tr>
+            <th>Minería ilegal por país:</th>
+            <th>puntos</th>
+            <th>áreas</th>
+          </tr>
+          <tr>
+            <td>Bolivia</td>
+            <td></td>
+            <td style={{'text-align':'right'}}>3</td>
+          </tr>
+          <tr>
+            <td>Brasil</td>
+            <td>321</td>
+            <td style={{'text-align':'right'}}>132</td>
+          </tr>
+          <tr>
+            <td>Ecuador</td>
+            <td>68</td>
+            <td style={{'text-align':'right'}}></td>
+          </tr>
+          <tr>
+            <td>Perú</td>
+            <td>24</td>
+            <td style={{'text-align':'right'}}>110</td>
+          </tr>
+          <tr>
+            <td>Venezuela</td>
+            <td>1899</td>
+            <td style={{'text-align':'right'}}></td>
+          </tr>
+          <tr>
+            <td>Total</td>
+            <td>2312</td>
+            <td style={{'text-align':'right'}}>245</td>
+          </tr>
+          </tbody>
+        </table>
+      </Table>
 
       <Paragraph>
         Estas <StoryMedia

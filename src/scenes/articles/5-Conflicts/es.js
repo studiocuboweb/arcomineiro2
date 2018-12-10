@@ -83,13 +83,13 @@ export default () => (
         >Agustín Ojeda, líder Shirian, estado Bolívar, Venezuela</StoryMedia>.
         </p>
         <p className='medium-txt'>
-          Señala que el profundo cambio en el estilo de vida de su pueblo y la adopción de nuevos hábitos han perjudicado gravemente las costumbres ancestrales y, a su vez, han aumentado los problemas de salud.  
+          Señala que el profundo cambio en el estilo de vida de su pueblo y la adopción de nuevos hábitos han perjudicado gravemente las costumbres ancestrales y, a su vez, han aumentado los problemas de salud. "La minería ilegal nos puede llegar a matar. Los pozos mineros permiten la reproducción de mosquitos que traen enfermedades como malaria. Tampoco se toma con seriedad el efecto del mercurio en el agua; no solo la contamina a ella, también a los peces que utilizamos para comer".
         </p>
         <p className='medium-txt'>
           El líder Shirian agrega que la mayoría de su comunidad ha abandonado el conuco (la chacra). Las temporadas de siembra, tala y quema no se respetan por lo que la recolección es casi nula. “Actualmente puedes ver a un indígena comprándolo casabe a un criollo en vez de producirlo”.
         </p>
         <p className='medium-txt'>
-          Asegura que ante la complicada realidad que enfrentan los pueblos indígenas, el compromiso de las instituciones competentes para lograr acuerdos que permitan mejores condiciones y garanticen una mejor calidad de vida, así como el respeto de los derechos humanos, debe estar por encima de cualquier circunstancia. “Si el ritmo de vida que llevamos ahora en Venezuela, y en el mundo continúa, llegará el momento donde no sabremos quiénes somos”
+          Asegura que ante la complicada realidad que enfrentan los pueblos indígenas, el compromiso de las instituciones competentes para lograr acuerdos que permitan mejores condiciones y garanticen una mejor calidad de vida, así como el respeto de los derechos humanos, debe estar por encima de cualquier circunstancia. “Si el ritmo de vida que llevamos ahora en Venezuela, y en el mundo continúa, llegará el momento donde no sabremos quiénes somos”.
         </p>
       </EndChapter>
       <RelatedNews

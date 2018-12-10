@@ -140,7 +140,7 @@ export default () => (
             </tr>
             <tr>
               <td>PAs without known direct affectation</td>
-              <td>533</td>
+              <td>553</td>
             </tr>
           </table>
         </Table>

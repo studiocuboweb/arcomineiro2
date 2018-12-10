@@ -12,6 +12,7 @@ import Quote from "components/blocks/Quote";
 import FeaturedText from "components/blocks/FeaturedText";
 import Note from "components/blocks/Note";
 import EndChapter from "components/blocks/EndChapter";
+import Table from "components/blocks/Table";
 
 export default () => (
   <article>
@@ -110,6 +111,48 @@ export default () => (
       <Paragraph>
         Os dados coletados pela RAISG, no entanto, são uma primeira aproximação à situação, que reflete um problema de magnitude desconhecida e cuja visão representa apenas uma parte do que realmente está acontecendo. Os casos relatados vêm de notificações de comunidades ribeirinhas e indígenas, da coleta de notícias e análise de imagens de satélite.
       </Paragraph>
+
+      <Table>
+        <table style={{'width':'100%'}}>
+          <tbody>
+          <tr>
+            <th>Garimpos por país:</th>
+            <th>pontos</th>
+            <th>areas</th>
+          </tr>
+          <tr>
+            <td>Bolivia</td>
+            <td></td>
+            <td style={{'text-align':'right'}}>3</td>
+          </tr>
+          <tr>
+            <td>Brasil</td>
+            <td>321</td>
+            <td style={{'text-align':'right'}}>132</td>
+          </tr>
+          <tr>
+            <td>Ecuador</td>
+            <td>68</td>
+            <td style={{'text-align':'right'}}></td>
+          </tr>
+          <tr>
+            <td>Perú</td>
+            <td>24</td>
+            <td style={{'text-align':'right'}}>110</td>
+          </tr>
+          <tr>
+            <td>Venezuela</td>
+            <td>1899</td>
+            <td style={{'text-align':'right'}}></td>
+          </tr>
+          <tr>
+            <td>Total</td>
+            <td>2312</td>
+            <td style={{'text-align':'right'}}>245</td>
+          </tr>
+          </tbody>
+        </table>
+      </Table>
 
       <Paragraph>
         Estas <StoryMedia

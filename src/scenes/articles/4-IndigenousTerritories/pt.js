@@ -118,39 +118,39 @@ export default () => (
               items: [
                 {
                   src: require("photos/chapter4/gallery-1/01_RogerioAssis-ISA_RS20033.jpg"),
-                  credits: "Rogerio Assis / ISA"
+                  credits: "Rogério Assis / ISA"
                 },
                 {
                   src: require("photos/chapter4/gallery-1/02_RogerioAssis-ISA_RS20040.jpg"),
-                  credits: "Rogerio Assis / ISA"
+                  credits: "Rogério Assis / ISA"
                 },
                 {
                   src: require("photos/chapter4/gallery-1/03_RogerioAssis-ISA_RS20042.jpg"),
-                  credits: "Rogerio Assis / ISA"
+                  credits: "Rogério Assis / ISA"
                 },
                 {
                   src: require("photos/chapter4/gallery-1/04_RogerioAssis-ISA_RS20034.jpg"),
-                  credits: "Rogerio Assis / ISA"
+                  credits: "Rogério Assis / ISA"
                 },
                 {
                   src: require("photos/chapter4/gallery-1/05_RogerioAssis-ISA_RS20032.jpg"),
-                  credits: "Rogerio Assis / ISA"
+                  credits: "Rogério Assis / ISA"
                 },
                 {
                   src: require("photos/chapter4/gallery-1/06_RogerioAssis-ISA_RS20029.jpg"),
-                  credits: "Rogerio Assis / ISA"
+                  credits: "Rogério Assis / ISA"
                 },
                 {
                   src: require("photos/chapter4/gallery-1/07_RogerioAssis-ISA_RS20045.jpg"),
-                  credits: "Rogerio Assis / ISA"
+                  credits: "Rogério Assis / ISA"
                 },
                 {
                   src: require("photos/chapter4/gallery-1/08_RogerioAssis-ISA_RS20043.jpg"),
-                  credits: "Rogerio Assis / ISA"
+                  credits: "Rogério Assis / ISA"
                 },
                 {
                   src: require("photos/chapter4/gallery-1/09_RogerioAssis-ISA_RS20035.jpg"),
-                  credits: "Rogerio Assis / ISA"
+                  credits: "Rogério Assis / ISA"
                 }
               ]
             }
