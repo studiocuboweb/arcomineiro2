@@ -115,9 +115,9 @@ export default () => (
         <table style={{'width':'100%'}}>
           <tbody>
           <tr>
-            <th>Minería ilegal por país:</th>
-            <th>puntos</th>
-            <th>áreas</th>
+            <th>Illegal mining per country:</th>
+            <th>points</th>
+            <th>areas</th>
           </tr>
           <tr>
             <td>Bolivia</td>
