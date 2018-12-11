@@ -144,6 +144,10 @@ const Top = styled.div`
       height: auto;
       max-height: 2vh;
       margin: 0 1rem;
+      ${media.phone`
+        max-height: 20vh;
+        max-width: 23vw;
+      `}
       ${media.phablet`
         max-height: 5vh;
         max-width: 8vw;
