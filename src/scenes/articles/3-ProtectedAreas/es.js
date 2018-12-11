@@ -89,7 +89,7 @@ export default () => (
         ></StoryMedia> 
       </Paragraph>
       <Paragraph>
-        De acuerdo a los análisis de la RAISG, <StoryMedia
+        De acuerdo con el análisis de la RAISG, <StoryMedia
         icon="map"
         media={{
         id: "map-7",
@@ -104,33 +104,33 @@ export default () => (
             zoomMin: 5,
             zoomMax: 10
           }
-        }}>de 363 áreas naturales protegidas, 64.están afectadas directamente y 24 tienen puntos o áreas de extracción activa dentro de sus límites</StoryMedia>. El resto sufre daños indirectos, ya sea en áreas de amortiguamiento o en los bordes. Las actividades ilegales y las invasiones se benefician de la falta de inversiones y políticas públicas para el fortalecimiento y funcionamiento de las áreas naturales protegidas.
+        }}>de 649 áreas naturales protegidas, 55 tienen puntos de minería ilegal activos o dragas dentro de sus límites</StoryMedia>. Hay todavía un total de 41 áreas naturales protegidas que sufren daños indirectos, ya sea en áreas de amortiguamiento o en los bordes.
       </Paragraph>
       <Table>
         <table>
             <tr>
               <th>Áreas Protegidas -  Situación</th>
-              <th>Qt</th>
+              <th>cantidad</th>
             </tr>
             <tr>
               <td>amenaza: minería en el límite/entorno</td>
-              <td>7</td>
+              <td>14</td>
             </tr>
             <tr>
               <td>amenaza: minería inactiva dentro</td>
-              <td>23</td>
+              <td>27</td>
             </tr>
             <tr>
               <td>presión: dragas dentro/en el límite</td>
-              <td>10</td>
+              <td>22</td>
             </tr>
             <tr>
               <td>presión: minería activa dentro</td>
-              <td>24</td>
+              <td>33</td>
             </tr>
             <tr>
               <td>ANP sin afectación directa conocida</td>
-              <td>299</td>
+              <td>533</td>
             </tr>
           </table>
         </Table>

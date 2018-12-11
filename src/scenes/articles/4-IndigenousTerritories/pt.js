@@ -25,7 +25,7 @@ export default () => (
       </Note>
       
       <Paragraph>
-        De acordo com as análises da RAISG, foram identificados <StoryMedia
+        De acordo com as análises da RAISG, foram identificados, <StoryMedia
         icon="map"
         media={{
         id: "map-10",
@@ -40,7 +40,7 @@ export default () => (
             zoomMin: 4,
             zoomMax: 12
           }
-        }}>78 territórios indígenas que apresentam atividades de garimpo em seu limite ou em seu ambiente.</StoryMedia> A maioria desses territórios - 64 - está localizada no Peru. Com relação às terras indígenas com atividades dentro dos limites, o Brasil lidera com 18 casos entre os 37 identificados. Em relação às atividades de balsas em rios nesses territórios, a Colômbia tem a maior incidência - 30 entre os 37 casos investigados.
+        }}>entre 6207 territórios indígenas, 78 que apresentam atividades de garimpo em seu limite ou no entorno .</StoryMedia> A maioria desses territórios - 64 - está localizada no Peru. Com relação às terras indígenas com atividades dentro dos limites, o Brasil lidera com 18 casos entre os 37 identificados. Em relação às atividades de balsas em rios nesses territórios, a Colômbia tem a maior incidência - 30 entre os 65 casos investigados.
       </Paragraph>
       <Table>
       <table>
@@ -67,20 +67,38 @@ export default () => (
         </tr>
         <tr>
           <td>TIs sem afetação direta conhecida</td>
-          <td>6,073</td>
+          <td>5.937</td>
         </tr>
         </tbody>
       </table>
       </Table>
       <Paragraph>
-        Na Colômbia, a percepção que os povos indígenas têm do ouro é crucial para entender as posições que adotam em face da mineração. O ouro é um mineral sagrado para os povos indígenas da Amazônia colombiana , porque, de acordo com histórias tradicionais, é a representação do sol na terra e constitui a fonte da vida.
+        Na Colômbia, a percepção que os povos indígenas têm do ouro é crucial para entender as posições que adotam em face da mineração. O ouro é um mineral sagrado para os povos indígenas da Amazônia colombiana porque, de acordo com histórias tradicionais, é a representação do sol na terra e constitui a fonte da vida.
       </Paragraph>
       <Paragraph>
-        Segundo relatos coletados por Rodríguez, Carlos A & Rubiano, Sebastián. Tropenbos Internacional Colombia. (2016), <ExternalLink href="https://www.academia.edu/24382243/Entre_ilusiones_ambiciones_y_decepciones._Los_efectos_sociales_culturales_y_econ%C3%B3micos_de_la_miner%C3%ADa_aur%C3%ADfera_en_el_departamento_de_Amazonas" language="es">extrair este mineral do território é remover a fonte de sua vida.</ExternalLink> Para extrair o mineral precioso, os xamãs tiveram que pedir permissão através da cura e pagar por ele através do fumo e da coca. A extração do mineral em grandes quantidades pode causar doença ou morte para os responsáveis. A partir daí, essa mineração é vista dentro das comunidades como doença, problemas e morte.
+        Segundo relatos coletados por Rodríguez, Carlos A & Rubiano, Sebastián. Tropenbos Internacional Colombia. (2016), <ExternalLink href="https://www.academia.edu/24382243/Entre_ilusiones_ambiciones_y_decepciones._Los_efectos_sociales_culturales_y_econ%C3%B3micos_de_la_miner%C3%ADa_aur%C3%ADfera_en_el_departamento_de_Amazonas" language="es">extrair este mineral do território é remover a fonte de sua vida.</ExternalLink> Para extrair o mineral precioso, os xamãs tiveram que pedir permissão através da cura e pagar por ele através do fumo e da coca. A extração do mineral em grandes quantidades pode causar doença ou morte para os responsáveis. A partir daí, essa mineração é vista dentro das comunidades como doença, problemas e morte. <StoryMedia
+        media={{
+          id: "image-3",
+          type: "image",
+          data: {
+            credits: "Juan Gabriel Soler / Gaia Amazonas",
+            src: require("photos/chapter4/20a_JuanGabrielSoler-GaiaAmazonas_Apaporis2016-2851.jpg")
+          }
+        }}>No rio Apaporis: os "raudales" ou "cachiveras" são locais sagrados para os povos indígenas da Amazônia colombiana</StoryMedia>. Normalmente há depósitos de ouro nesses locais sagrados, daí a importância de protegê-los das atividades extrativistas.
       </Paragraph>
       <Paragraph>
-        Em depoimento em março de 1990, o xamã Yanomami Davi Kopenawa revelou uma perspectiva distinta com relação à exploração do mineral. “Quando o ouro fica no frio das profundezas de terra, aí tudo está bem. Tudo está realmente bem. Ele não é perigoso. Quando os brancos tiram o ouro da terra, eles o queimam, mexem com ele em cima do fogo como se fosse farinha. Isto faz sair fumaça dele. Assim se cria a xawara que é a fumaça do ouro. Depois desta xawara wakêmi esta “epidemia fumaça”,vai se alastrando na floresta, lá onde moram os Yanomami, mas também na terra dos brancos, em todo lugar. É por isso que estamos morrendo. Por causa desta fumaça.”
+        Em depoimento em março de 1990, o 
+        <StoryMedia
+        media={{
+          id: "image-4",
+          type: "image",
+          data: {
+            credits: "Claudio Tavares / ISA",
+            src: require("photos/chapter4/20b_Claudio Tavares-ISA_RS22241_ISA4304.jpg")
+          }
+        }}> xamã Yanomami Davi Kopenawa</StoryMedia> revelou uma perspectiva distinta com relação à exploração do mineral. “Quando o ouro fica no frio das profundezas de terra, aí tudo está bem. Tudo está realmente bem. Ele não é perigoso. Quando os brancos tiram o ouro da terra, eles o queimam, mexem com ele em cima do fogo como se fosse farinha. Isto faz sair fumaça dele. Assim se cria a xawara que é a fumaça do ouro. Depois desta xawara wakêmi esta “epidemia fumaça”,vai se alastrando na floresta, lá onde moram os Yanomami, mas também na terra dos brancos, em todo lugar. É por isso que estamos morrendo. Por causa desta fumaça.”
       </Paragraph>
+    
       <Quote author="Davi Kopenawa, líder Yanomami">
         Quando o ouro fica no frio das profundezas de terra, aí tudo está bem. Tudo está realmente bem. Ele não é perigoso.
       </Quote>
@@ -171,10 +189,10 @@ export default () => (
             zoomMin: 5,
             zoomMax: 12
           }
-        }}>Reserva Comunal Amarakaeri que sofre com a devastação da mineração de ouro indiscriminada.</StoryMedia> Seus habitantes, que somam mais de 400 pessoas, que vivem em meio a um panorama desolado. Como nas outras nove comunidades nativas da Reserva Comunal Amarakaeri, devido à presença da mineração de ouro e à falta de oportunidades, as famílias foram obrigadas a praticar a mineração artesanal. 
+        }}>Reserva Comunal Amarakaeri que sofre com a devastação da mineração de ouro indiscriminada.</StoryMedia> Seus habitantes, que somam mais de 400 pessoas, vivem em meio a um panorama desolador. Como nas outras nove comunidades nativas da Reserva Comunal Amarakaeri, devido à presença da mineração de ouro e à falta de oportunidades, as famílias foram obrigadas a praticar a mineração artesanal. 
       </Paragraph>
       <Paragraph>
-        <ExternalLink href="https://larepublica.pe/sociedad/1177491-los-harakbuts-el-pueblo-nativo-que-la-mineria-ilegal-asfixia-en-madre-de-dios" language="es">"Não buscamos ouro para ficar rico, nós só queremos o que é necessário para os nossos filhos para estudar",</ExternalLink> diz Virginia Kirihua, 36 anos, que desde a infância tem visto, em primeiro lugar, os homens brancos, em seguida, forasteiros, tornaram-se cada vez mais ambiciosos pelos seixos brilhantes que seus ancestrais confundiam com os grãos de milho. 
+        <ExternalLink href="https://larepublica.pe/sociedad/1177491-los-harakbuts-el-pueblo-nativo-que-la-mineria-ilegal-asfixia-en-madre-de-dios" language="es">"Não buscamos ouro para ficar rico, nós só queremos o que é necessário para os nossos filhos para estudar",</ExternalLink> diz Virginia Kirihua, 36 anos, que desde a infância tem visto, em primeiro lugar, os homens brancos, em seguida, forasteiros, tornarem-se cada vez mais ambiciosos pelos seixos brilhantes que seus ancestrais confundiam com os grãos de milho. 
       </Paragraph>
       <Paragraph>
         A Reserva Comunal Amarakaeri faz parte do sistema de áreas protegidas do Peru. Procura manter os valores culturais das <StoryMedia
@@ -209,7 +227,7 @@ export default () => (
             credits: "Salvador Quishpe, em foto de junho de 2015, da agência Andes",
             src: require("photos/chapter4/24_AgenciaAndes_SalvadorQuishpe.jpg")
           }
-        }}>Salvador Quishpe, prefeito de Zamora Chinchipe,</StoryMedia> observa que os atores da mineração ilegal "parecem combinar a mineração e outras atividades ilegais, com lavagem de dinheiro. Isso também é acompanhado por atos criminosos, isto é, perseguindo pessoas que falam no sentido de não concordar com a destruição da natureza .”
+        }}>Salvador Quishpe, prefeito de Zamora Chinchipe,</StoryMedia> observa que os atores da mineração ilegal "parecem combinar a mineração e outras atividades ilegais com lavagem de dinheiro. Isso também é acompanhado por atos criminosos, isto é, perseguindo pessoas que falam no sentido de não concordar com a destruição da natureza .”
       </Paragraph>
       <Paragraph>
         Quishpe aponta que “o problema é que nunca existiu planejamento, e concessões mineiras foram dadas em qualquer lugar. As pessoas da área também começaram a buscar ouro. Por isso o maior problema é a falta de determinação de que área e para quê.”<br />
@@ -230,7 +248,7 @@ export default () => (
         }}>setor Chinapintza (província de Zamora Chinchipe):</StoryMedia> "outro exemplo de mineração ilegal poderia ser Chinapintza, que também está dentro de uma área designada para mineração de acordo com nosso planejamento provincial. É ilegal, as pessoas não têm os títulos, outros têm, outros não têm, a maioria não tem, mas a contaminação é a mesma."
       </Paragraph>
       <Paragraph>
-        No Equador, em virtude da reforma da Lei de Minas em 2009, e de acordo com o tamanho da exploração, a mineração é dividida em mineração artesanal, pequena mineração, mineração média e mineração em grande escala, e é realizada sob duas modalidades: mineração de metálica e mineração de não metálico A mineração que vem se desenvolvendo no Equador responde a atividades artesanais e de pequena escala, principalmente na região sul.
+        No Equador, em virtude da reforma da Lei de Minas em 2009, e de acordo com o tamanho da exploração, a mineração é dividida em mineração artesanal, pequena mineração, mineração média e mineração em grande escala, e é realizada sob duas modalidades: mineração de metálica e mineração de não metálico. A mineração que vem se desenvolvendo no Equador responde a atividades artesanais e de pequena escala, principalmente na região sul.
       </Paragraph>
       <Paragraph>
         Também na Bolívia e Peru, recentes leis de mineração tornaram a divisão entre mineração ilegal e legal bastante confusa. A aprovação da <FileLink

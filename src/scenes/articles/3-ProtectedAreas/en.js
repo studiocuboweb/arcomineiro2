@@ -104,33 +104,33 @@ export default () => (
             zoomMin: 5,
             zoomMax: 10
           }
-        }}>649 natural protected natural areas, 64 are directly affected and 24 have active mining sites or areas within their boundaries.</StoryMedia>. The remainder have suffered indirect damage, either in their buffer zones or along their boundaries. Illegal activities and invasions take advantage of the lack of investment and public policies for the protection and management of natural protected areas.
+        }}>649 protected natural areas, 55 have active illegal mining points or dredges within their limits</StoryMedia>. There are still a total of 41 protected natural areas that suffer indirect damage, either in buffer zones or along their boundaries.
       </Paragraph>
       <Table>
         <table>
             <tr>
               <th>Protected Areas - status</th>
-              <th>numbers</th>
+              <th>quantity</th>
             </tr>
             <tr>
-              <td>threat: mining on their boundaries / in the buffer zone</td>
-              <td>7</td>
+              <td>threat: mining in the limit / environment</td>
+              <td>14</td>
             </tr>
             <tr>
-              <td>threat: inactive mining inside</td>
-              <td>23</td>
+              <td>threat: inactive mining within</td>
+              <td>27</td>
             </tr>
             <tr>
-              <td>pressure: barges inside / along the boundaries</td>
-              <td>10</td>
+              <td>pressure: dredges inside / in the limit</td>
+              <td>22</td>
             </tr>
             <tr>
               <td>pressure: active mining inside</td>
-              <td>24</td>
+              <td>33</td>
             </tr>
             <tr>
-              <td>PAs with no known direct impact</td>
-              <td>299</td>
+              <td>PAs without known direct affectation</td>
+              <td>533</td>
             </tr>
           </table>
         </Table>
