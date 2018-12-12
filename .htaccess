@@ -13,11 +13,11 @@
     # 301 redirect to the same resource on illegalmining.amazoniasocioambiental.org
     RewriteRule ^ https://illegalmining.amazoniasocioambiental.org%{REQUEST_URI}?lang=en [R=301,L,NE]
 
-    # If the hostname is saqueada.amazoniasocioambiental.org
-    RewriteCond %{HTTP_HOST} ^saqueada\.amazoniasocioambiental\.org$
+    # If the hostname is garimpoilegal.amazoniasocioambiental.org
+    RewriteCond %{HTTP_HOST} ^garimpoilegal\.amazoniasocioambiental\.org$
     RewriteCond %{QUERY_STRING} !(^|&)lang=pt($|&)
-    # 301 redirect to the same resource on saqueada.amazoniasocioambiental.org
-    RewriteRule ^ https://saqueada.amazoniasocioambiental.org%{REQUEST_URI}?lang=pt [R=301,L,NE]
+    # 301 redirect to the same resource on garimpoilegal.amazoniasocioambiental.org
+    RewriteRule ^ https://garimpoilegal.amazoniasocioambiental.org%{REQUEST_URI}?lang=pt [R=301,L,NE]
 
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
