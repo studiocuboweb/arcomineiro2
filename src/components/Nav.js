@@ -214,14 +214,11 @@ class ArticleNav extends Component {
   }
 
   closeNavbar() {
-    console.log('typeof window.orientation": ', typeof window.orientation)
     if (((typeof window.orientation == "undefined") && (navigator.userAgent.indexOf('IEMobile') == -1))) {
-      console.log('abriu');
       this.setState({
         collapsed: true
       });
     } else {
-      console.log(`fechou`)
       this.setState({
         collapsed: false
       });

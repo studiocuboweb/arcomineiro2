@@ -40,7 +40,6 @@ class MapBox extends Component {
     this.setState({mapStyle});
   };
   componentWillReceiveProps(nextProps) {
-    console.log('componentWillReceiveProps')
     if ((this.props.isFullscreen !== nextProps.isFullscreen)) {
       if (nextProps.isFullscreen ) {
         this.setState(
@@ -71,9 +70,6 @@ class MapBox extends Component {
       }
     }
     if (nextProps.update !== this.props.update) {
-      //setTimeout(function(){this.setState({updated:false})}.bind(this),100)
-      console.log('nextProps.update !== this.props.update')
-      //console.log(window.innerWidth);
       this.setState({updated:false})
       setTimeout(
         function() {

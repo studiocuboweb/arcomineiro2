@@ -133,13 +133,9 @@ class Gallery extends Component {
     this.props.expandMedia(true);
   }
   _setVerticalImage(isVertical) {
-    console.log('_setVerticalImage')
-    console.log(isVertical)
     if (isVertical) {
-      console.log('retornou')
       return {width:'45%', margin:'0 auto'}
     } else {
-      console.log('nao retornou')
       return {margin:'0 auto'}
     }
   }

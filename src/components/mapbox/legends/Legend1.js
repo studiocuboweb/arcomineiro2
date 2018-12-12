@@ -40,7 +40,6 @@ class LegendCollapse extends React.Component {
         const {legend} = this.props;
         return (
             <div key="1" className="input">
-            {console.log(legend)}
             {legend == 'legend1' &&
                 <div>
                     <IlegalMining1 key="legend11" defaultOpened={true} _onChangeHandler={this._onChangeHandler.bind(this)} />
