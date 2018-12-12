@@ -173,6 +173,7 @@ class ArticleNav extends Component {
   constructor(props) {
     super(props);
     this.toggleNavbar = this.toggleNavbar.bind(this);
+    this.closeNavbar = this.closeNavbar.bind(this);
     this.checkResize = this.checkResize.bind(this);
     this.state = {
       collapsed: false
@@ -199,7 +200,7 @@ class ArticleNav extends Component {
   }
 
   checkResize() {
-    if (((typeof window.orientation == "undefined") && (navigator.userAgent.indexOf('IEMobile') == -1))) {
+    if ((((typeof window.orientation == "undefined") || (typeof window.orientation == "number")) && (navigator.userAgent.indexOf('IEMobile') == -1))) {
       this.setState({
         collapsed: true
       });
@@ -212,13 +213,28 @@ class ArticleNav extends Component {
     });
   }
 
+  closeNavbar() {
+    console.log('typeof window.orientation": ', typeof window.orientation)
+    if (((typeof window.orientation == "undefined") && (navigator.userAgent.indexOf('IEMobile') == -1))) {
+      console.log('abriu');
+      this.setState({
+        collapsed: true
+      });
+    } else {
+      console.log(`fechou`)
+      this.setState({
+        collapsed: false
+      });
+    }
+  }
+
   render () {
     return (
       <Wrapper>
       <span className='menu-icon-wrapper'><i className="fa fa-bars menu-toggle" onClick={() => this.toggleNavbar()}></i></span>
       <Collapse isOpened={this.state.collapsed}>
         <ol>
-          <li>
+          <li onClick={() => this.closeNavbar()}>
             <NavLink exact to="/story">
               <FormattedMessage
                 id="articles.title1"
@@ -226,7 +242,7 @@ class ArticleNav extends Component {
               <ProgressBar path="/story" />
             </NavLink>
           </li>
-          <li>
+          <li onClick={() => this.closeNavbar()}>
             <NavLink to="/story/mercury">
               <FormattedMessage
                 id="articles.title2"
@@ -234,7 +250,7 @@ class ArticleNav extends Component {
               <ProgressBar path="/story/mercury" />
             </NavLink>
           </li>
-          <li>
+          <li onClick={() => this.closeNavbar()}>
             <NavLink to="/story/protected-areas">
               <FormattedMessage
                 id="articles.title3"
@@ -242,7 +258,7 @@ class ArticleNav extends Component {
               <ProgressBar path="/story/protected-areas" />
             </NavLink>
           </li>
-          <li>
+          <li onClick={() => this.closeNavbar()}>
             <NavLink to="/story/indigenous-territories">
               <FormattedMessage
                 id="articles.title4"
@@ -250,7 +266,7 @@ class ArticleNav extends Component {
               <ProgressBar path="/story/indigenous-territories" />
             </NavLink>
           </li>
-          <li>
+          <li onClick={() => this.closeNavbar()}>
             <NavLink to="/story/conflicts">
               <FormattedMessage
                 id="articles.title5"
