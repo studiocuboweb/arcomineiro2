@@ -63,7 +63,8 @@ export default () => (
                 },
                 {
                   src: require("photos/chapter3/gallery-1/04_DanielParanayba_FlonaAltamira_Garimpo.jpg"),
-                  credits: "Daniel Paranayba/ISA"
+                  credits: "Daniel Paranayba/ISA",
+                  isVertical: true,
                 },
                 {
                   src: require("photos/chapter3/gallery-1/05_OscarMujica-FZS_PE_LaPampa.jpg"),
@@ -96,23 +97,23 @@ export default () => (
               ]
             }
           }}
-        >In all countries surveyed by RAISG, there is evidence of damage to natural protected natural areas, </StoryMedia> deforestation, loss of conservation areas and loss of wildlife in rivers, forests and other natural ecosystems.
+        >In all countries surveyed by RAISG, there is evidence of damage to natural protected natural areas</StoryMedia>, deforestation, loss of conservation areas and loss of wildlife in rivers, forests and other natural ecosystems.
       </Paragraph>
       <Paragraph>
         According to the RAISG analysis, of <StoryMedia
         icon="map"
         media={{
-        id: "map-7",
+        id: "map_04",
         type: "mapbox",
           data: {
             map: "map3",
-            legend:"map3",
+            legend:"legend3",
             update:"map3",
             showExtraLayers: ['LEGENDA ANPs-nacionales-afectadas','LEGENDA ANPS-departamentales-afectadas','LEGENDA bosques-afectados'],
-            coordinates: [-61.451458,-4.714880],
-            zoomNumber: 4.50,
-            zoomMin: 5,
-            zoomMax: 10
+            coordinates: [-64.770093,-4.650804],
+            zoomNumber: 4.00,
+            zoomMin: 4,
+            zoomMax: 12
           }
         }}>649 protected natural areas, 55 have active illegal mining points or dredges within their limits</StoryMedia>. There are still a total of 41 protected natural areas that suffer indirect damage, either in buffer zones or along their boundaries.
       </Paragraph>
@@ -140,7 +141,7 @@ export default () => (
             </tr>
             <tr>
               <td>PAs without known direct affectation</td>
-              <td>533</td>
+              <td>553</td>
             </tr>
           </table>
         </Table>
@@ -148,11 +149,11 @@ export default () => (
         One of the most glaring cases of this lack of control is that of the <StoryMedia
         icon="map"
         media={{
-        id: "map-8",
+        id: "map_05",
         type: "mapbox",
           data: {
             map: "map3",
-            legend:"map3",
+            legend:"legend4",
             update:"map8",
             showExtraLayers: ['LEGENDA ANPs-nacionales-afectadas','LEGENDA ANPS-departamentales-afectadas','LEGENDA bosques-afectados'],
             coordinates: [-66.806876,3.840280],
@@ -170,7 +171,7 @@ export default () => (
               data: {
                 id: "yo0rwK1g9RE"
               }
-              }}>A set of satellite images over the period 1989-2016 reveals the progress of deforestation.</StoryMedia>
+              }}>A set of satellite images over the period 1989-2016 reveals the progress of deforestation</StoryMedia>.
       </Paragraph>
       <Paragraph>
         In August 2016, a group of academics, religious leaders, journalists and government officials from the state of Amazonas filed the <FileLink
@@ -193,7 +194,7 @@ export default () => (
         }}>During overflights in April 2017</StoryMedia>, a team from the Instituto Socioambiental (ISA) registered the rapid transformation of the Novo, Branco and Jamanxim rivers. In a stretch inside the Altamira National Forest, a 6.5 km-long mining area can be seen in the video. According to information obtained by ISA staff, the opening of these mining areas occurred in just three months.
       </Paragraph>
       <Paragraph>
-        The advance of mining into the protected areas of the Tapajós basin occurred at a time when the Brazilian government was attempting to pass laws to weaken protection measures. Such destruction also occurs because the responsible government agencies, such as IBAMA (environmental management) and ICMBio (protected areas) are unable to combat it. A report published by Intercept Brazil in June the same year showed how <ExternalLink href="https://theintercept.com/2017/06/13/governo-esta-prestes-a-aprovar-projetos-a-favor-de-grilagem-e-outros-crimes-ambientais/" language="pt">loggers in alliance with prospectors destroyed bridges to prevent access by inspection teams.</ExternalLink>
+        The advance of mining into the protected areas of the Tapajós basin occurred at a time when the Brazilian government was attempting to pass laws to weaken protection measures. Such destruction also occurs because the responsible government agencies, such as IBAMA (environmental management) and ICMBio (protected areas) are unable to combat it. A report published by Intercept Brazil in June the same year showed how <ExternalLink href="https://theintercept.com/2017/06/13/governo-esta-prestes-a-aprovar-projetos-a-favor-de-grilagem-e-outros-crimes-ambientais/" language="pt">loggers in alliance with prospectors destroyed bridges to prevent access by inspection teams</ExternalLink>.
       </Paragraph>
       <Paragraph>
         Much of the illegal mining of gold and coltan in the Colombian Amazon takes place in major river basins, such as the Putumayo, Caquetá, Apaporis, Guainía and Inírida, and other smaller water courses, such as the Cotuhé and Puré rivers and the Tatu canyon. These activities affect special management areas (indigenous lands, national parks, Ramsar sites and Forest Reserves) and frontier areas of great cultural and environmental importance, or that play an important role in the food sovereignty of local populations.
@@ -206,27 +207,27 @@ export default () => (
         data: {
           id: "Omb7-pibnTk"
         }
-        }}>destruction along the rivers is also observed in the area around the Tambopata National Reserve, in the department of Madre de Dios, Peru.</StoryMedia> As in the Brazilian areas, what is striking is the speed of expansion. In just six months, both banks of the Malinowski River in the northern part of the reserve were overrun by mining ponds and lakes.
+        }}>destruction along the rivers is also observed in the area around the Tambopata National Reserve, in the department of Madre de Dios, Peru</StoryMedia>. As in the Brazilian areas, what is striking is the speed of expansion. In just six months, both banks of the Malinowski River in the northern part of the reserve were overrun by mining ponds and lakes.
       </Paragraph>
       <Paragraph>
-        The MAAP project, using satellite images to monitor the Andean Amazon, found that the <ExternalLink href="https://maaproject.org/2015/tambopat/" language="es">invasion of the Tambopata National Reserve by illegal gold mining began in late 2015.</ExternalLink> "In areas of La Pampa (Balata sector), upper Malinowski and in the Tambopata National Reserve, between January 2017 and February 2018 <ExternalLink href="http://www.actualidadambiental.pe/?p=49390" language="es">the deforestation caused by mining was 1,200 hectares</ExternalLink>, with 651 hectares of this amount occurring between October 2017 and February 2018", states the Actualidad Ambiental del Peru site.
+        The MAAP project, using satellite images to monitor the Andean Amazon, found that the <ExternalLink href="https://maaproject.org/2015/tambopat/" language="es">invasion of the Tambopata National Reserve by illegal gold mining began in late 2015</ExternalLink>. "In areas of La Pampa (Balata sector), upper Malinowski and in the Tambopata National Reserve, between January 2017 and February 2018 <ExternalLink href="http://www.actualidadambiental.pe/?p=49390" language="es">the deforestation caused by mining was 1,200 hectares</ExternalLink>, with 651 hectares of this amount occurring between October 2017 and February 2018", states the Actualidad Ambiental del Peru site.
       </Paragraph>
       <Paragraph withMargin>
         <iframe frameborder="0" class="juxtapose" width="100%" height="500" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=c09a020c-ec1f-11e8-9dba-0edaf8f81e27"></iframe>
       </Paragraph>
       <Paragraph>
-        The situation in Madre de Dios has contributed to the fact that deforestation in Peru has reached levels never previously recorded. According to a study recently released by the Centre for Scientific Innovation of Amazon Research (Cincia), <ExternalLink href="https://news.wfu.edu/2018/11/08/rainforest-destruction-from-gold-mining-hits-all-time-high-in-peru/" language="en">in just five years 170,000 hectares of forest was lost</ExternalLink>. This figure is at least <ExternalLink href="https://news.wfu.edu/2018/11/08/rainforest-destruction-from-gold-mining-hits-all-time-high-in-peru/" language="en">30% higher than those previously announced by another monitoring.</ExternalLink>
+        The situation in Madre de Dios has contributed to the fact that deforestation in Peru has reached levels never previously recorded. According to a study recently released by the Centre for Scientific Innovation of Amazon Research (Cincia), <ExternalLink href="https://news.wfu.edu/2018/11/08/rainforest-destruction-from-gold-mining-hits-all-time-high-in-peru/" language="en">in just five years 170,000 hectares of forest was lost</ExternalLink>. This figure is at least <ExternalLink href="https://news.wfu.edu/2018/11/08/rainforest-destruction-from-gold-mining-hits-all-time-high-in-peru/" language="en">30% higher than those previously announced by another monitoring</ExternalLink>.
       </Paragraph>
 
       <Paragraph>
         In Bolivia, the richest reserves of wildlife and carbon are in the wetlands of the Lowlands and the Yungas. Nevertheless, <StoryMedia
         icon="map"
         media={{
-        id: "map-9",
+        id: "map_06",
         type: "mapbox",
           data: {
             map: "map4",
-            legend:"map4",
+            legend:"legend5",
             update:"map4",
             showExtraLayers: ['LEGENDA ANPs-nacionales-afectadas','LEGENDA ANPS-departamentales-afectadas','LEGENDATIs-afectadas'],
             coordinates: [-68.327,-14.690],
@@ -244,7 +245,7 @@ export default () => (
         data: {
           id: "zAvUPCRPcrk"
         }
-        }}>progress of large-scale mining activities in the protected areas of the Madidi.</StoryMedia>
+        }}>progress of large-scale mining activities in the protected areas of the Madidi</StoryMedia>.
       </Paragraph>
     </Container>
   </article>

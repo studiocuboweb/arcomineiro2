@@ -33,7 +33,7 @@ export default () => (
               credits: "Rogério Assis/ISA",
               src: require("photos/chapter5/25_RogerioAssis-ISA_RS6436_IMG_3077.jpg")
             }
-          }}>Los impactos de la minería ilegal ya se ven como graves violaciones a los derechos humanos.</StoryMedia> La contaminación del agua y la expulsión de pueblos indígenas en aislamiento voluntario son algunos indicios de los daños al bien común.
+          }}>Los impactos de la minería ilegal ya se ven como graves violaciones a los derechos humanos</StoryMedia>. La contaminación del agua y la expulsión de pueblos indígenas en aislamiento voluntario son algunos indicios de los daños al bien común.
       </Paragraph>
       <Paragraph>
         Además del impacto ambiental, existe un impacto cultural y económico en la perpetuación de la minería. No sólo existe el costo de la pérdida de actividades de las poblaciones tradicionales, sino la propia remediación de los sitios degradados.
@@ -66,6 +66,9 @@ export default () => (
       <Paragraph>
         Una tendencia similar, como se informó anteriormente, fue observada en Bolivia, Ecuador y Perú, donde los gobiernos atendieron las demandas de los trabajadores involucrados en la extracción irregular de oro y flexibilizaron leyes. Se creó así una zona gris entre la ilegalidad y la caracterización de la minería artesanal, que propició la legitimación de actividades de alto impacto en regiones de gran importancia para la conservación y para la supervivencia de pueblos indígenas.
       </Paragraph>
+      <Quote author="Agustín Ojeda, líder Shirian">
+          La minería ilegal nos puede <br />llegar a matar. Los pozos mineros permiten la reproducción de mosquitos que traen enfermedades como malaria. Tampoco se toma con seriedad el efecto del mercurio en el agua; no solo la contamina a ella, también a los peces que utilizamos para comer.
+        </Quote>
       <EndChapter>
         <p className='medium-txt'>
           “La minería ilegal no concibe el futuro de nuestros hijos. Aunque podamos beneficiarnos a corto plazo, estamos destruyendo el medio ambiente, nuestra selva, nuestro hogar”, expresa  <StoryMedia
@@ -77,19 +80,16 @@ export default () => (
               src: require('photos/chapter5/27_JuanPinto_AgustinOjeda_LiderShirian_Foto2018_Wataniba_9692-2.jpg')
             }
           }}
-        >Agustín Ojeda, líder Shirian, estado Bolívar, Venezuela</StoryMedia>
+        >Agustín Ojeda, líder Shirian, estado Bolívar, Venezuela</StoryMedia>.
         </p>
         <p className='medium-txt'>
-          Señala que el profundo cambio en el estilo de vida de su pueblo y la adopción de nuevos hábitos han perjudicado gravemente las costumbres ancestrales y, a su vez, han aumentado los problemas de salud.  
+          Señala que el profundo cambio en el estilo de vida de su pueblo y la adopción de nuevos hábitos han perjudicado gravemente las costumbres ancestrales y, a su vez, han aumentado los problemas de salud. "La minería ilegal nos puede llegar a matar. Los pozos mineros permiten la reproducción de mosquitos que traen enfermedades como malaria. Tampoco se toma con seriedad el efecto del mercurio en el agua; no solo la contamina a ella, también a los peces que utilizamos para comer".
         </p>
-        <Quote author="Agustín Ojeda, líder Shiriano">
-          <span>“La minería ilegal nos puede llegar a matar. Los pozos mineros permiten la reproducción de mosquitos que traen enfermedades como malaria. Tampoco se toma con seriedad el efecto del mercurio en el agua; no solo la contamina a ella, también a los peces que utilizamos para comer”.</span>
-        </Quote>
         <p className='medium-txt'>
           El líder Shirian agrega que la mayoría de su comunidad ha abandonado el conuco (la chacra). Las temporadas de siembra, tala y quema no se respetan por lo que la recolección es casi nula. “Actualmente puedes ver a un indígena comprándolo casabe a un criollo en vez de producirlo”.
         </p>
         <p className='medium-txt'>
-          Asegura que ante la complicada realidad que enfrentan los pueblos indígenas, el compromiso de las instituciones competentes para lograr acuerdos que permitan mejores condiciones y garanticen una mejor calidad de vida, así como el respeto de los derechos humanos, debe estar por encima de cualquier circunstancia. “Si el ritmo de vida que llevamos ahora en Venezuela, y en el mundo continúa, llegará el momento donde no sabremos quiénes somos”
+          Asegura que ante la complicada realidad que enfrentan los pueblos indígenas, el compromiso de las instituciones competentes para lograr acuerdos que permitan mejores condiciones y garanticen una mejor calidad de vida, así como el respeto de los derechos humanos, debe estar por encima de cualquier circunstancia. “Si el ritmo de vida que llevamos ahora en Venezuela, y en el mundo continúa, llegará el momento donde no sabremos quiénes somos”.
         </p>
       </EndChapter>
       <RelatedNews

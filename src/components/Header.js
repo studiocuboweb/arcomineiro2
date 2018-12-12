@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { connect } from "react-redux";
 import { media, color } from 'styles/utils';
 import { NavLink, Link } from 'react-router-dom';
+import { FormattedMessage } from 'react-intl';
 
 import SiteTitle from './SiteTitle';
 
@@ -11,25 +12,63 @@ const Wrapper = styled.header`
   padding: .5rem 1rem;
   background: #f3f3f3;
   z-index: 999999;
+  .title {
+    blo:right;
+    font-size: 2rem;
+    ${media.phone`
+      font-size: 1rem;
+    `}
+    ${media.phablet`
+      font-size: 1rem;
+    `}
+    ${media.desktop`
+      font-size: 2rem;
+    `}
+    ${media.desktopHD`
+      font-size: 2rem;
+    `}
+  }
   .logo-infoamazonia {
+    height:41px;
+    margin-right:0px;
     margin-bottom: 1rem;
     vertical-align: middle;
+    ${media.phone`
+      height:30px;
+      margin-bottom: 0.4rem!important;
+    `}
     ${media.phablet`
+      height:30px;
       margin-bottom: 0.4rem!important;
     `}
     ${media.desktop`
-    margin-bottom: 0.6rem!important;
-  `}
+      height:41px;
+      margin-bottom: 0.6rem!important;
+    `}
+    ${media.desktopHD`
+      height:41px;
+      margin-bottom: 0.6rem!important;
+    `}
   }
   .logo-raisg {
     margin-bottom: 1rem;
     vertical-align: middle;
+    ${media.phone`
+      height:30px;
+      margin-bottom: 0.4rem!important;
+    `}
     ${media.phablet`
+      height:30px;
       margin-bottom: 0.4rem!important;
     `}
     ${media.desktop`
-    margin-bottom: 0.6rem!important;
-  `}
+      height:41px;
+      margin-bottom: 0.6rem!important;
+    `}
+    ${media.desktopHD`
+      height:41px;
+      margin-bottom: 0.6rem!important;
+    `}
   }
   .logo-am {
     vertical-align: middle;
@@ -45,10 +84,10 @@ const Wrapper = styled.header`
     font-size: 1em;
   `}
   ${media.desktop`
-    padding: 1.5vw 8vw;
+    padding: 1.2vw 8vw;
   `}
   ${media.desktopHD`
-    padding: 1.5vw 10vw;
+    padding: 1.2vw 10vw;
   `}
   .site-title {
     flex: 1 1 100%;
@@ -69,11 +108,11 @@ const Wrapper = styled.header`
     `}
     ${media.desktop`
       margin: 0 2rem;
-      max-height: 5vh;
+      max-height: 6vh;
     `}
     ${media.desktopHD`
       margin: 0 2rem;
-      max-height: 5vh;
+      max-height: 6vh;
     `};
   }
   nav {
@@ -144,16 +183,20 @@ class Header extends Component {
               <div style={{'display':'inline-block', 'cursor':'pointer'}}>
                 {/* <a href={`${url}${location.pathname}`}> */}
                 <NavLink activeClassName="active-navlink" to="/">
-                  <h1 style={{'blo':'right','fontSize':'30px'}}>Amazônia saqueada</h1>
+                  <h1 className="title">
+                  <FormattedMessage
+                    id="general.siteTitle3"
+                    defaultMessage="Looted Amazon" />
+                  </h1>
                 </NavLink>
                 {/* </a> */}
               </div>
               <div style={{'display':'inline-block'}}>
                 <a href="https://infoamazonia.org/" target="_blank">
-                  <img src={require("images/partners/infoamazonia-crop.png")} className="logo-infoamazonia" style={{'height':'41px'}} />
+                  <img src={require("images/partners/infoamazonia-crop.png")} className="logo-infoamazonia" alt="INFOAMAZONIA" />
                 </a>
                 <a href="https://www.amazoniasocioambiental.org" target="_blank">
-                  <img src={require("images/partners/raisg-crop.png")} className="logo-raisg" />
+                  <img src={require("images/partners/avatar_r_cheio.png")} className="logo-raisg" alt="RAISG"/>
                 </a>
               </div>
             </div>

@@ -200,7 +200,6 @@ class ArticleNav extends Component {
   }
 
   checkResize() {
-    console.log('checkresize')
     if ((((typeof window.orientation == "undefined") || (typeof window.orientation == "number")) && (navigator.userAgent.indexOf('IEMobile') == -1))) {
       this.setState({
         collapsed: true
@@ -239,7 +238,7 @@ class ArticleNav extends Component {
             <NavLink exact to="/story">
               <FormattedMessage
                 id="articles.title1"
-                defaultMessage="title1" />
+                defaultMessage="Start" />
               <ProgressBar path="/story" />
             </NavLink>
           </li>
@@ -247,7 +246,7 @@ class ArticleNav extends Component {
             <NavLink to="/story/mercury">
               <FormattedMessage
                 id="articles.title2"
-                defaultMessage="title2" />
+                defaultMessage="Mercury" />
               <ProgressBar path="/story/mercury" />
             </NavLink>
           </li>
@@ -255,7 +254,7 @@ class ArticleNav extends Component {
             <NavLink to="/story/protected-areas">
               <FormattedMessage
                 id="articles.title3"
-                defaultMessage="title3" />
+                defaultMessage="Protected Areas" />
               <ProgressBar path="/story/protected-areas" />
             </NavLink>
           </li>
@@ -263,7 +262,7 @@ class ArticleNav extends Component {
             <NavLink to="/story/indigenous-territories">
               <FormattedMessage
                 id="articles.title4"
-                defaultMessage="title4" />
+                defaultMessage="Indigenous Territories" />
               <ProgressBar path="/story/indigenous-territories" />
             </NavLink>
           </li>
@@ -271,7 +270,7 @@ class ArticleNav extends Component {
             <NavLink to="/story/conflicts">
               <FormattedMessage
                 id="articles.title5"
-                defaultMessage="title5" />
+                defaultMessage="Conflicts" />
               <ProgressBar path="/story/conflicts" />
             </NavLink>
           </li>

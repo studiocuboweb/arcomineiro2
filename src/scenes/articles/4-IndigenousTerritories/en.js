@@ -10,6 +10,7 @@ import FeaturedText from "components/blocks/FeaturedText";
 import Table from "components/blocks/Table";
 import Quote from "components/blocks/Quote";
 import Note from "components/blocks/Note";
+import Board from "components/blocks/Board";
 
 export default () => (
   <article>
@@ -28,19 +29,19 @@ export default () => (
         According to the RAISG's analysis, <StoryMedia
         icon="map"
         media={{
-        id: "map-10",
+        id: "map_07",
         type: "mapbox",
           data: {
             map: "map5",
-            legend:"map5",
+            legend:"legend6",
             update:"map5",
             showExtraLayers: ['LEGENDATIs-afectadas'],
-            coordinates: [-60.274653,-4.525221],
-            zoomNumber: 4.66,
+            coordinates: [-62.965062,-4.606354],
+            zoomNumber: 4.00,
             zoomMin: 4,
             zoomMax: 12
           }
-        }}>among 6207 indigenous territories, 78 were identified with illegal activities at their limit or in their surroundings.</StoryMedia> The majority of these territories - 64 - is located in Peru. With respect to indigenous lands with activities within the limits, Brazil leads with 18 cases among the 37 identified. In relation to the activities of dredges in rivers in those territories, Colombia has the highest incidence - 30 among the 65 cases investigated.
+        }}>among 6207 indigenous territories, 78 were identified with illegal activities at their limit or in their surroundings</StoryMedia>. The majority of these territories - 64 - is located in Peru. With respect to indigenous lands with activities within the limits, Brazil leads with 18 cases among the 37 identified. In relation to the activities of dredges in rivers in those territories, Colombia has the highest incidence - 30 among the 65 cases investigated.
       </Paragraph>
       <Table>
       <table>
@@ -116,36 +117,45 @@ export default () => (
             data: {
               items: [
                 {
-                  src: require("photos/chapter4/gallery-1/01_RogerioAssis-ISA_RS20033.jpg")
+                  src: require("photos/chapter4/gallery-1/01_RogerioAssis-ISA_RS20033.jpg"),
+                  credits: "Rogério Assis / ISA"
                 },
                 {
-                  src: require("photos/chapter4/gallery-1/02_RogerioAssis-ISA_RS20040.jpg")
+                  src: require("photos/chapter4/gallery-1/02_RogerioAssis-ISA_RS20040.jpg"),
+                  credits: "Rogério Assis / ISA"
                 },
                 {
-                  src: require("photos/chapter4/gallery-1/03_RogerioAssis-ISA_RS20042.jpg")
+                  src: require("photos/chapter4/gallery-1/03_RogerioAssis-ISA_RS20042.jpg"),
+                  credits: "Rogério Assis / ISA"
                 },
                 {
-                  src: require("photos/chapter4/gallery-1/04_RogerioAssis-ISA_RS20034.jpg")
+                  src: require("photos/chapter4/gallery-1/04_RogerioAssis-ISA_RS20034.jpg"),
+                  credits: "Rogério Assis / ISA"
                 },
                 {
-                  src: require("photos/chapter4/gallery-1/05_RogerioAssis-ISA_RS20032.jpg")
+                  src: require("photos/chapter4/gallery-1/05_RogerioAssis-ISA_RS20032.jpg"),
+                  credits: "Rogério Assis / ISA"
                 },
                 {
-                  src: require("photos/chapter4/gallery-1/06_RogerioAssis-ISA_RS20029.jpg")
+                  src: require("photos/chapter4/gallery-1/06_RogerioAssis-ISA_RS20029.jpg"),
+                  credits: "Rogério Assis / ISA"
                 },
                 {
-                  src: require("photos/chapter4/gallery-1/07_RogerioAssis-ISA_RS20045.jpg")
+                  src: require("photos/chapter4/gallery-1/07_RogerioAssis-ISA_RS20045.jpg"),
+                  credits: "Rogério Assis / ISA"
                 },
                 {
-                  src: require("photos/chapter4/gallery-1/08_RogerioAssis-ISA_RS20043.jpg")
+                  src: require("photos/chapter4/gallery-1/08_RogerioAssis-ISA_RS20043.jpg"),
+                  credits: "Rogério Assis / ISA"
                 },
                 {
-                  src: require("photos/chapter4/gallery-1/09_RogerioAssis-ISA_RS20035.jpg")
+                  src: require("photos/chapter4/gallery-1/09_RogerioAssis-ISA_RS20035.jpg"),
+                  credits: "Rogério Assis / ISA"
                 }
               ]
             }
           }}
-        >such as the prospector invasions of the Yanomami territories in Brazil and Venezuela,</StoryMedia> still persist, and impacts on health and lifestyles are evident. A current estimate is that five thousand prospectors are illegally in the Brazilian portion alone of the Yanomami Indigenous Land.
+        >such as the prospector invasions of the Yanomami territories in Brazil and Venezuela</StoryMedia>, still persist, and impacts on health and lifestyles are evident. A current estimate is that five thousand prospectors are illegally in the Brazilian portion alone of the Yanomami Indigenous Land.
       </Paragraph>
       <Paragraph>
         Reports from villages on the banks of the Uiracoera indicate that, between 1987 and 1989, the Yanomami managed to count 2,003 barges operating near the Waikás community. When demarcation of the territory was completed in 1991, prospecting was shut down. However, this began to change in 2010, when new barges arrived on the river. Community leaders tried to prevent the reactivation of prospecting, but the intruders refused to leave arguing that the activity represented their only source of subsistence. <StoryMedia
@@ -155,7 +165,7 @@ export default () => (
         data: {
           id: "lC9kcGKyvBw"
         }
-        }}>By the end of 2013, there were already 42 barges and in early 2016, an overflight identified 49.</StoryMedia>
+        }}>By the end of 2013, there were already 42 barges and in early 2016, an overflight identified 49</StoryMedia>.
       </Paragraph>
       <Paragraph>
         These reports on activities within the Yanomami territory highlight the way illegal mining activities operate. On the Uiracoera river, evidence shows that a barge operates with two teams each working nine-hour shifts. Each team contains six workers, with a day shift and a night shift. In addition to these twelve workers there is a foreman and a cook.
@@ -163,7 +173,7 @@ export default () => (
       <Paragraph>
         The foreman is in the area with the crew, the barge owner in the city. Few owners have more than one barge and a foreman manages only one barge. About 40% of the gold collected by the barge is divided between the workers and the majority goes to the owner.
       </Paragraph>
-      <Note>
+      <Board>
         <strong>The economics of prospecting</strong>
         <br />prices in grams of gold
         <p>. travel upstream: 10g per person<br />(can be paid later, once gold is found)</p>
@@ -172,48 +182,48 @@ export default () => (
         <p>. 1 chicken: 80 reais (US$20) or 0.8g</p>
         <p>. haircut: 0,5g</p>
         <p>. 30 minutes of internet access: 0.5g<br />(there are 10 internet access points in the area)</p>
-      </Note>
-      <Paragraph>Zoom: 
-      In Peru, Puerto Luz is one of 10 communities in <StoryMedia
+      </Board>
+      <Paragraph>
+        In Peru, Puerto Luz is one of 10 communities in <StoryMedia
         icon="map"
         media={{
-        id: "map-11",
+        id: "map_08",
         type: "mapbox",
           data: {
             map: "map6",
-            legend:"map6",
+            legend:"legend7",
             update:"map6",
             showExtraLayers: ['LEGENDATIs-afectadas','ETIQUETA_nombre-tis-afectadas'],
-            coordinates: [-70.635005,-11.676347],
-            zoomNumber: 7.40,
+            coordinates: [-70.572203,-11.614342],
+            zoomNumber: 6.99,
             zoomMin: 5,
             zoomMax: 12
           }
-        }}>the Amarakaeri Communal Reserve that suffers from devastation caused by indiscriminate gold mining.</StoryMedia> Its inhabitants, more than 400 people, live a desperate situation. As is the case in the other nine native communities of the Amarakaeri Communal Reserve, because of the presence of gold mining and the lack of other opportunities, families have been forced into artisanal mining.
+        }}>the Amarakaeri Communal Reserve that suffers from devastation caused by indiscriminate gold mining</StoryMedia>. Its inhabitants, more than 400 people, live a desperate situation. As is the case in the other nine native communities of the Amarakaeri Communal Reserve, because of the presence of gold mining and the lack of other opportunities, families have been forced into artisanal mining.
       </Paragraph>
       <Paragraph>
-        <ExternalLink href="https://larepublica.pe/sociedad/1177491-los-harakbuts-el-pueblo-nativo-que-la-mineria-ilegal-asfixia-en-madre-de-dios" language="es">"We don’t seek gold to get rich, we just want what is needed for our children to study",</ExternalLink> says Virginia Kirihua, 36, who from childhood has seen, first non-Indians and then outsiders, become ever more avid for the shiny pebbles their ancestors confused with corn kernels.
+        <ExternalLink href="https://larepublica.pe/sociedad/1177491-los-harakbuts-el-pueblo-nativo-que-la-mineria-ilegal-asfixia-en-madre-de-dios" language="es">"We don’t seek gold to get rich, we just want what is needed for our children to study"</ExternalLink>, says Virginia Kirihua, 36, who from childhood has seen, first non-Indians and then outsiders, become ever more avid for the shiny pebbles their ancestors confused with corn kernels.
       </Paragraph>
       <Paragraph>
         The Amarakaeri Communal Reserve is part of Peru's protected area system. It seeks to safeguard the cultural values ​​of the <StoryMedia
         icon="map"
         media={{
-        id: "map-12",
+        id: "map_09",
         type: "mapbox",
           data: {
             map: "map6_1",
-            legend:"map6",
+            legend:"legend8",
             update:"map6_1",
             showExtraLayers: ['LEGENDATIs-afectadas','ETIQUETA_etnias-tis-afectadas'],
-            coordinates: [-70.793253,-12.789527],
-            zoomNumber: 9.35,
+            coordinates: [-70.921732,-12.770992],
+            zoomNumber: 8.83,
             zoomMin: 7,
             zoomMax: 10
           }
-        }}>native Harakmbut communities,</StoryMedia> water quality and quantity, ecological balance and an enabling environment for community development.
+        }}>native Harakmbut communities</StoryMedia>, water quality and quantity, ecological balance and an enabling environment for community development.
       </Paragraph>
       <Paragraph>
-        Another illustrative case denounced by affected communities occurs in the province of Zamora Chinchipe, Ecuador. This is an open-pit mining megaproject, Mirador. An analysis produced through a collaboration between the Amazon Conservation Team, Amazon Watch, Amazon Conservation and Ecociencia <ExternalLink href="https://maaproject.org/mirador/" language="es">revealed through satellite images the impact of deforestation between 2009 and the end of 2017, an area of ​​1,307 hectares.</ExternalLink>
+        Another illustrative case denounced by affected communities occurs in the province of Zamora Chinchipe, Ecuador. This is an open-pit mining megaproject, Mirador. An analysis produced through a collaboration between the Amazon Conservation Team, Amazon Watch, Amazon Conservation and Ecociencia <ExternalLink href="https://maaproject.org/mirador/" language="es">revealed through satellite images the impact of deforestation between 2009 and the end of 2017, an area of ​​1,307 hectares</ExternalLink>.
       </Paragraph>
       <Paragraph>
         In this case, the impacts from mining are related to concessions. There is an overlap of illegal mining in places with legal mining concessions. In May 2018, the Ministry of the Environment suspended 40% of the activities in Mirador due to environmental violations.
@@ -227,7 +237,7 @@ export default () => (
             credits: "Salvador Quishpe, em foto de junho de 2015, da agência Andes",
             src: require("photos/chapter4/24_AgenciaAndes_SalvadorQuishpe.jpg")
           }
-        }}>Salvador Quishpe, mayor of Zamora Chinchipe,</StoryMedia> notes that those involved in illegal mining "seem to combine mining with other illegal activities, such as money laundering. This also goes together with criminal acts, that is, persecuting people who speak out against the destruction of nature".
+        }}>Salvador Quishpe, mayor of Zamora Chinchipe</StoryMedia>, notes that those involved in illegal mining "seem to combine mining with other illegal activities, such as money laundering. This also goes together with criminal acts, that is, persecuting people who speak out against the destruction of nature".
       </Paragraph>
       <Paragraph>
         Quishpe points out that "the problem is that there has never been any planning, and mining concessions are given anywhere. People in the area have also started to search for gold. So, the biggest problem is the lack of any determination as to which area is for what".<br />
@@ -245,7 +255,7 @@ export default () => (
             credits: "",
             src: require("photos/chapter4/26_Chinapintza_ImgSateliteSentinel2B_20181024.jpg")
           }
-        }}>Chinapintza region in the province of Zamora Chinchipe.</StoryMedia> "The other example of illegal mining could be Chinapintza, which is also within an area designated for mining according to our provincial planning. It is illegal, people do not have titles, some have, others do not, most do not, but the contamination is the same."
+        }}>Chinapintza region in the province of Zamora Chinchipe</StoryMedia>. "The other example of illegal mining could be Chinapintza, which is also within an area designated for mining according to our provincial planning. It is illegal, people do not have titles, some have, others do not, most do not, but the contamination is the same."
       </Paragraph>
       <Paragraph>
         In Ecuador, following reform of the Mining Law in 2009, and based on the size of the operation, mining is divided into artisanal, small-scale, medium-scale and large-scale mining under two categories: metallic and non-metallic mining The mining that is growing in Ecuador corresponds to small-scale and artisanal activities, mainly in the southern region.

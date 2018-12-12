@@ -33,16 +33,6 @@ export default () => (
         </p>
       </Note>
       <Paragraph>
-        Un estudio realizado entre los años 2001 y 2013 <FileLink
-          href={require("documents/chapter3/Alvarez-Berrios_2015_Environ._Res._Lett._10_014006.pdf")}
-          format="pdf"
-          size="1.7MB"
-        >por los investigadores Nora L. Alvarez Berrios y T Michel Aide, ambos académicos de la Universidad de Puerto Rico - Río Piedras , sugiere que hubo un aumento en la deforestación relacionado con la explotación de oro en las principales zonas de bosque tropical de la Amazonía.</FileLink> Además, las mayores áreas de extracción se ubican dentro de un radio de 10 km de 31 áreas protegidas.
-      </Paragraph>
-      <Paragraph>
-        De acuerdo con el trabajo, que se publicó en enero de 2015 en la revista Environmental Research Letters, hubo una aceleración de la pérdida forestal en lugares identificados como de extracción de oro. Mientras que para el periodo 2001–2006 el estudio señaló la pérdida de 377 km2, entre los años 2007 y 2013 la pérdida fue de 1303 km2. Las tres regiones identificadas con mayor presión son los bosques del Escudo de las Guayanas, los bosques húmedos del suroeste amazónico y los bosques del Xingú y Tapajós en Brasil.
-      </Paragraph>
-      <Paragraph>
         <StoryMedia
           media={{
             id: "galery-1",
@@ -63,7 +53,8 @@ export default () => (
                 },
                 {
                   src: require("photos/chapter3/gallery-1/04_DanielParanayba_FlonaAltamira_Garimpo.jpg"),
-                  credits: "Daniel Paranayba/ISA"
+                  credits: "Daniel Paranayba/ISA",
+                  isVertical: true,
                 },
                 {
                   src: require("photos/chapter3/gallery-1/05_OscarMujica-FZS_PE_LaPampa.jpg"),
@@ -96,23 +87,33 @@ export default () => (
               ]
             }
           }}
-        ></StoryMedia> 
+        >En todos los países analizados se encontraron evidencias de daños a áreas naturales protegidas, por deforestación, apropiación de tierras destinadas a la preservación y reducción de fauna en los ríos, bosques y otros ecosistemas naturales</StoryMedia>. 
+      </Paragraph>
+      <Paragraph>
+        Un estudio realizado entre los años 2001 y 2013 <FileLink
+          href={require("documents/chapter3/Alvarez-Berrios_2015_Environ._Res._Lett._10_014006.pdf")}
+          format="pdf"
+          size="1.7MB"
+        >por los investigadores Nora L. Alvarez Berrios y T Michel Aide, ambos académicos de la Universidad de Puerto Rico - Río Piedras , sugiere que hubo un aumento en la deforestación relacionado con la explotación de oro en las principales zonas de bosque tropical de la Amazonía.</FileLink> Además, las mayores áreas de extracción se ubican dentro de un radio de 10 km de 31 áreas protegidas.
+      </Paragraph>
+      <Paragraph>
+        De acuerdo con el trabajo, que se publicó en enero de 2015 en la revista Environmental Research Letters, hubo una aceleración de la pérdida forestal en lugares identificados como de extracción de oro. Mientras que para el periodo 2001–2006 el estudio señaló la pérdida de 377 km2, entre los años 2007 y 2013 la pérdida fue de 1303 km2. Las tres regiones identificadas con mayor presión son los bosques del Escudo de las Guayanas, los bosques húmedos del suroeste amazónico y los bosques del Xingú y Tapajós en Brasil.
       </Paragraph>
       <Paragraph>
         De acuerdo con el análisis de la RAISG, <StoryMedia
         icon="map"
         media={{
-        id: "map-7",
+        id: "map_04",
         type: "mapbox",
           data: {
             map: "map3",
-            legend:"map3",
+            legend:"legend3",
             update:"map3",
             showExtraLayers: ['LEGENDA ANPs-nacionales-afectadas','LEGENDA ANPS-departamentales-afectadas','LEGENDA bosques-afectados'],
-            coordinates: [-61.451458,-4.714880],
-            zoomNumber: 4.50,
-            zoomMin: 5,
-            zoomMax: 10
+            coordinates: [-64.770093,-4.650804],
+            zoomNumber: 4.00,
+            zoomMin: 4,
+            zoomMax: 12
           }
         }}>de 649 áreas naturales protegidas, 55 tienen puntos de minería ilegal activos o dragas dentro de sus límites</StoryMedia>. Hay todavía un total de 41 áreas naturales protegidas que sufren daños indirectos, ya sea en áreas de amortiguamiento o en los bordes.
       </Paragraph>
@@ -140,7 +141,7 @@ export default () => (
             </tr>
             <tr>
               <td>ANP sin afectación directa conocida</td>
-              <td>533</td>
+              <td>553</td>
             </tr>
           </table>
         </Table>
@@ -148,11 +149,11 @@ export default () => (
         Uno de los casos más significativos de esta falta de control es el <StoryMedia
         icon="map"
         media={{
-        id: "map-8",
+        id: "map_05",
         type: "mapbox",
           data: {
             map: "map3",
-            legend:"map3",
+            legend:"legend4",
             update:"map8",
             showExtraLayers: ['LEGENDA ANPs-nacionales-afectadas','LEGENDA ANPS-departamentales-afectadas','LEGENDA bosques-afectados'],
             coordinates: [-66.806876,3.840280],
@@ -215,18 +216,18 @@ export default () => (
         <iframe frameborder="0" class="juxtapose" width="100%" height="500" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=c09a020c-ec1f-11e8-9dba-0edaf8f81e27"></iframe>
       </Paragraph>
       <Paragraph>
-        La situación en Madre de Dios ha contribuido a que la deforestación en el Perú alcance niveles jamás registrados. Según una <ExternalLink href="https://news.wfu.edu/2018/11/08/rainforest-destruction-from-gold-mining-hits-all-time-high-in-peru/" language="en">investigación recientemente lanzada por el Centro de Innovación Científica Amazónica (CINCIA), </ExternalLink><ExternalLink href="https://news.wfu.edu/2018/11/08/rainforest-destruction-from-gold-mining-hits-all-time-high-in-peru/" language="en">en apenas cinco años hubo una pérdida forestal de 170 mil hectáreas. Esta cifra es por lo menos 30 por ciento mayor que la anunciada previamente por otros monitoreos.</ExternalLink>
+        La situación en Madre de Dios ha contribuido a que la deforestación en el Perú alcance niveles jamás registrados. Según una <ExternalLink href="https://news.wfu.edu/2018/11/08/rainforest-destruction-from-gold-mining-hits-all-time-high-in-peru/" language="en">investigación recientemente lanzada por el Centro de Innovación Científica Amazónica (CINCIA), </ExternalLink><ExternalLink href="https://news.wfu.edu/2018/11/08/rainforest-destruction-from-gold-mining-hits-all-time-high-in-peru/" language="en">en apenas cinco años hubo una pérdida forestal de 170 mil hectáreas. Esta cifra es por lo menos 30 por ciento mayor que la anunciada previamente por otros monitoreos</ExternalLink>.
       </Paragraph>
 
       <Paragraph>
         En Bolivia, la mayor riqueza de áreas húmedas, fauna y flora y almacenamiento de carbono se encuentra en las Tierras Bajas y Yungas. En <StoryMedia
         icon="map"
         media={{
-        id: "map-9",
+        id: "map_06",
         type: "mapbox",
           data: {
             map: "map4",
-            legend:"map4",
+            legend:"legend5",
             update:"map4",
             showExtraLayers: ['LEGENDA ANPs-nacionales-afectadas','LEGENDA ANPS-departamentales-afectadas','LEGENDATIs-afectadas'],
             coordinates: [-68.327,-14.690],
@@ -244,7 +245,7 @@ export default () => (
         data: {
           id: "zAvUPCRPcrk"
         }
-        }}>el avance de actividades mineras a gran escala.</StoryMedia>
+        }}>el avance de actividades mineras a gran escala</StoryMedia>.
       </Paragraph>
     </Container>
   </article>

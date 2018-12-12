@@ -10,6 +10,7 @@ import FeaturedText from "components/blocks/FeaturedText";
 import Table from "components/blocks/Table";
 import Quote from "components/blocks/Quote";
 import Note from "components/blocks/Note";
+import Board from "components/blocks/Board";
 
 export default () => (
   <article>
@@ -28,19 +29,19 @@ export default () => (
         De acuerdo con los análisis de la RAISG, fueron identificados, <StoryMedia
         icon="map"
         media={{
-        id: "map-10",
+        id: "map_07",
         type: "mapbox",
           data: {
             map: "map5",
-            legend:"map5",
+            legend:"legend6",
             update:"map5",
             showExtraLayers: ['LEGENDATIs-afectadas'],
-            coordinates: [-60.274653,-4.525221],
-            zoomNumber: 4.66,
+            coordinates: [-62.965062,-4.606354],
+            zoomNumber: 4.00,
             zoomMin: 4,
             zoomMax: 12
           }
-        }}>entre 6207 territorios indígenas, 78 con actividades de garimpo en su límite o en el entorno.</StoryMedia>. La mayoría de esos territorios - 64 - está ubicada en el Perú. Con respecto a las tierras indígenas con actividades dentro de los límites, Brasil lidera con 18 casos entre los 37 identificados. En relación a las actividades de dragas en ríos en esos territorios, Colombia tiene la mayor incidencia - 30 entre los 65 casos investigados.
+        }}>entre 6207 territorios indígenas, 78 con actividades de garimpo en su límite o en el entorno</StoryMedia>. La mayoría de esos territorios - 64 - está ubicada en el Perú. Con respecto a las tierras indígenas con actividades dentro de los límites, Brasil lidera con 18 casos entre los 37 identificados. En relación a las actividades de dragas en ríos en esos territorios, Colombia tiene la mayor incidencia - 30 entre los 65 casos investigados.
       </Paragraph>
       <Table>
       <table>
@@ -116,31 +117,40 @@ export default () => (
             data: {
               items: [
                 {
-                  src: require("photos/chapter4/gallery-1/01_RogerioAssis-ISA_RS20033.jpg")
+                  src: require("photos/chapter4/gallery-1/01_RogerioAssis-ISA_RS20033.jpg"),
+                  credits: "Rogério Assis / ISA"
                 },
                 {
-                  src: require("photos/chapter4/gallery-1/02_RogerioAssis-ISA_RS20040.jpg")
+                  src: require("photos/chapter4/gallery-1/02_RogerioAssis-ISA_RS20040.jpg"),
+                  credits: "Rogério Assis / ISA"
                 },
                 {
-                  src: require("photos/chapter4/gallery-1/03_RogerioAssis-ISA_RS20042.jpg")
+                  src: require("photos/chapter4/gallery-1/03_RogerioAssis-ISA_RS20042.jpg"),
+                  credits: "Rogério Assis / ISA"
                 },
                 {
-                  src: require("photos/chapter4/gallery-1/04_RogerioAssis-ISA_RS20034.jpg")
+                  src: require("photos/chapter4/gallery-1/04_RogerioAssis-ISA_RS20034.jpg"),
+                  credits: "Rogério Assis / ISA"
                 },
                 {
-                  src: require("photos/chapter4/gallery-1/05_RogerioAssis-ISA_RS20032.jpg")
+                  src: require("photos/chapter4/gallery-1/05_RogerioAssis-ISA_RS20032.jpg"),
+                  credits: "Rogério Assis / ISA"
                 },
                 {
-                  src: require("photos/chapter4/gallery-1/06_RogerioAssis-ISA_RS20029.jpg")
+                  src: require("photos/chapter4/gallery-1/06_RogerioAssis-ISA_RS20029.jpg"),
+                  credits: "Rogério Assis / ISA"
                 },
                 {
-                  src: require("photos/chapter4/gallery-1/07_RogerioAssis-ISA_RS20045.jpg")
+                  src: require("photos/chapter4/gallery-1/07_RogerioAssis-ISA_RS20045.jpg"),
+                  credits: "Rogério Assis / ISA"
                 },
                 {
-                  src: require("photos/chapter4/gallery-1/08_RogerioAssis-ISA_RS20043.jpg")
+                  src: require("photos/chapter4/gallery-1/08_RogerioAssis-ISA_RS20043.jpg"),
+                  credits: "Rogério Assis / ISA"
                 },
                 {
-                  src: require("photos/chapter4/gallery-1/09_RogerioAssis-ISA_RS20035.jpg")
+                  src: require("photos/chapter4/gallery-1/09_RogerioAssis-ISA_RS20035.jpg"),
+                  credits: "Rogério Assis / ISA"
                 }
               ]
             }
@@ -155,7 +165,7 @@ export default () => (
           data: {
             id: "lC9kcGKyvBw"
           }
-          }}>y en 2016, un sobrevuelo identificó 49 balsas.</StoryMedia>
+          }}>y en 2016, un sobrevuelo identificó 49 balsas</StoryMedia>.
       </Paragraph>
       <Paragraph>
         Estos relatos sobre la actividad  de balsas dentro de la tierra Yanomami arrojan luz sobre la forma de actuar  de la minería ilegal. En el río Uiracoera, las informaciones  revelan que en una balsa trabajan dos grupos en turnos de nueve horas cada uno. Cada grupo tiene seis personas de día y otras seis de noche. Además de estos 12 miembros, el equipo incluye a un gerente y una persona que cocina.
@@ -163,7 +173,7 @@ export default () => (
       <Paragraph>
         El gerente trabaja en el área con el equipo. El dueño de la balsa se queda en la ciudad. Pocos poseen más de una balsa, y un gerente no gestiona más de una balsa a la vez. El 40% del oro recogido por la balsa se divide entre los trabajadores y el 60% va al dueño de la balsa.
       </Paragraph>
-      <Note>
+      <Board>
         <strong> La economía del campamento minero ilegal</strong>
         <br />Precios en gramos de oro
         <p>. Para subir el río: 10g por persona.<br />Se puede pagar después, cuando el campamento tenga éxito.</p>
@@ -172,45 +182,45 @@ export default () => (
         <p>. 1 pollo: 80 reales o 0,8 g</p>
         <p>. Corte de pelo: 0,5g</p>
         <p>. (Hay 10 puntos de internet en el área). <br /> 30 minutos cuesta 0,5 gramos.</p>
-      </Note>
-      <Paragraph>Zoom: 
+      </Board>
+      <Paragraph>
         En Perú, Puerto Luz es una de las diez comunidades del entorno de la <StoryMedia
         icon="map"
         media={{
-        id: "map-11",
+        id: "map_08",
         type: "mapbox",
           data: {
             map: "map6",
-            legend:"map6",
+            legend:"legend7",
             update:"map6",
             showExtraLayers: ['LEGENDATIs-afectadas','ETIQUETA_nombre-tis-afectadas'],
-            coordinates: [-70.635005,-11.676347],
-            zoomNumber: 7.40,
+            coordinates: [-70.572203,-11.614342],
+            zoomNumber: 6.99,
             zoomMin: 5,
             zoomMax: 12
           }
         }}>Reserva Comunal Amarakaeri que sufre los embates de la extracción de oro indiscriminada</StoryMedia>. Sus habitantes, que son más de 400, viven en medio de un panorama desolador. Al igual que  en las otras nueve comunidades nativas de la zona de amortiguamiento de la Reserva Comunal Amarakaeri, debido a la presencia de la extracción de oro y a la falta de oportunidades, las familias se han visto obligadas a practicar la minería artesanal. 
       </Paragraph>
       <Paragraph>
-        <ExternalLink href="https://larepublica.pe/sociedad/1177491-los-harakbuts-el-pueblo-nativo-que-la-mineria-ilegal-asfixia-en-madre-de-dios" language="es">"Nosotros no buscamos oro para hacernos ricos, solo buscamos lo necesario para que nuestros hijos estudien",</ExternalLink> afirma Virginia Kirihua, de 36 años, quien desde niña ha visto cómo, primero, los hombres blancos, y luego los foráneos cobrizos, se han vuelto cada vez más ambiciosos por esos piedrecitas brillantes que sus ancestros confundían con los granos del maíz que ellos cosechaban.
+        <ExternalLink href="https://larepublica.pe/sociedad/1177491-los-harakbuts-el-pueblo-nativo-que-la-mineria-ilegal-asfixia-en-madre-de-dios" language="es">"Nosotros no buscamos oro para hacernos ricos, solo buscamos lo necesario para que nuestros hijos estudien"</ExternalLink>, afirma Virginia Kirihua, de 36 años, quien desde niña ha visto cómo, primero, los hombres blancos, y luego los foráneos cobrizos, se han vuelto cada vez más ambiciosos por esos piedrecitas brillantes que sus ancestros confundían con los granos del maíz que ellos cosechaban.
       </Paragraph>
       <Paragraph>
         La Reserva Comunal Amarakaeri forma parte del sistema de áreas protegidas del Perú y es patrimonio de la nación. Busca mantener y desarrollar los valores culturales de las <StoryMedia
         icon="map"
         media={{
-        id: "map-12",
+        id: "map_09",
         type: "mapbox",
           data: {
             map: "map6_1",
-            legend:"map6",
+            legend:"legend8",
             update:"map6_1",
             showExtraLayers: ['LEGENDATIs-afectadas','ETIQUETA_etnias-tis-afectadas'],
-            coordinates: [-70.793253,-12.789527],
-            zoomNumber: 9.35,
+            coordinates: [-70.921732,-12.770992],
+            zoomNumber: 8.83,
             zoomMin: 7,
             zoomMax: 10
           }
-        }}>comunidades nativas Harakmbut,</StoryMedia> la calidad y cantidad de agua, el equilibrio ecológico y un ambiente adecuado para el desarrollo de sus comunidades.
+        }}>comunidades nativas Harakmbut</StoryMedia>, la calidad y cantidad de agua, el equilibrio ecológico y un ambiente adecuado para el desarrollo de sus comunidades.
       </Paragraph>
       <Paragraph>
         Otro caso emblemático denunciado por comunidades tiene lugar en la provincia de Zamora Chinchipe, en Ecuador. Se trata del megaproyecto minero a cielo abierto Mirador. Un <ExternalLink href="https://maaproject.org/mirador/" language="es">análisis producido</ExternalLink> en colaboración con  Amazon Conservation Team, Amazon Watch, Amazon Conservation, y EcoCiencia demuestra a través de imágenes satelitales el impacto de la deforestación causada desde 2009 hasta finales de 2017 en una zona de 1.307 hectáreas. 

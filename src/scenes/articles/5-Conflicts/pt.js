@@ -33,7 +33,7 @@ export default () => (
               credits: "Rogério Assis/ISA",
               src: require("photos/chapter5/25_RogerioAssis-ISA_RS6436_IMG_3077.jpg")
             }
-          }}>Os impactos da mineração ilegal já são vistos como graves violações dos direitos humanos.</StoryMedia> A contaminação da água, a expulsão dos povos indígenas em isolamento voluntário são algumas indicações do dano ao bem comum.
+          }}>Os impactos da mineração ilegal já são vistos como graves violações dos direitos humanos</StoryMedia>. A contaminação da água, a expulsão dos povos indígenas em isolamento voluntário são algumas indicações do dano ao bem comum.
       </Paragraph>
       <Paragraph>
         Além das agressões ambientais, há um impacto cultural e econômico na perpetuação da mineração. Não existe apenas o custo da perda de atividades das populações tradicionais, mas a própria remediação dos locais degradados.
@@ -66,6 +66,9 @@ export default () => (
       <Paragraph>
         Tendência semelhante, como relatado anteriormente, foi observada na Bolívia, Equador e Peru, onde os governos atenderam a demandas dos trabalhadores envolvidos na extração irregular de ouro e flexibilizaram leis. Criou-se assim uma zona cinza entre a ilegalidade e a caracterização da mineração artesanal, que propiciou a legitimação de atividades de alto impacto em regiões de grande importância para a conservação e para a sobrevivência de povos indígenas.
       </Paragraph>
+      <Quote author="Agustín Ojeda, líder Shirian">
+          A mineração ilegal pode nos <br />matar. Os poços de mineração permitem a reprodução de mosquitos que trazem doenças como a malária. O efeito do mercúrio na água também não é levado a sério; não só a contamina, mas também os peixes que usamos para comer.
+      </Quote>
       <EndChapter>
         <p className='medium-txt'>
           "A mineração ilegal não concebe o futuro de nossos filhos. Embora possamos nos beneficiar no curto prazo, estamos destruindo o meio ambiente, nossa selva, nosso lar ", diz <StoryMedia
@@ -77,19 +80,16 @@ export default () => (
               src: require('photos/chapter5/27_JuanPinto_AgustinOjeda_LiderShirian_Foto2018_Wataniba_9692-2.jpg')
             }
           }}
-        >Agustín Ojeda, líder shiriano do estado de Bolívar, Venezuela.</StoryMedia>
+        >Agustín Ojeda, líder Shirian do estado de Bolívar, Venezuela</StoryMedia>.
         </p>
         <p className='medium-txt'>
-          Ele ressalta que a profunda mudança no modo de vida de seu povo e a adoção de novos hábitos prejudicaram seriamente os costumes ancestrais e, por sua vez, aumentaram os problemas de saúde. 
-        </p>
-        <Quote author="Agustín Ojeda, líder Shiriano">
-          <span className="solo-quote">A mineração ilegal pode nos matar. Os poços de mineração permitem a reprodução de mosquitos que trazem doenças como a malária. O efeito do mercúrio na água também não é levado a sério; não só a contamina, mas também os peixes que usamos para comer</span>
-        </Quote>
-        <p className='medium-txt'>
-          O líder Shirian acrescenta que a maioria de sua comunidade deixou o conuco (a roça). As estações de semeadura, abate e queima não são respeitadas, por isso a colheita é quase nula. "Atualmente você pode ver um indígena comprando um casabe de um crioulo em vez de produzi-lo." 
+          Ele ressalta que a profunda mudança no modo de vida de seu povo e a adoção de novos hábitos prejudicaram seriamente os costumes ancestrais e, por sua vez, aumentaram os problemas de saúde. "A mineração ilegal pode nos matar. Os poços de mineração permitem a reprodução de mosquitos que trazem doenças como a malária. O efeito do mercúrio na água também não é levado a sério; não só a contamina, mas também os peixes que usamos para comer".
         </p>
         <p className='medium-txt'>
-          O líder Shirian acrescenta que a maioria de sua comunidade deixou o conuco (a roça). As estações de semeadura, abate e queima não são respeitadas, por isso a colheita é quase nula. "Atualmente você pode ver um indígena comprando um casabe de um crioulo em vez de produzi-lo." 
+          O líder Shirian acrescenta que a maioria de sua comunidade deixou o conuco (a roça). As estações de semeadura, abate e queima não são respeitadas, por isso a colheita é quase nula. "Atualmente você pode ver um indígena comprando um casabe de um crioulo em vez de produzi-lo".
+        </p>
+        <p className='medium-txt'>
+          Ele assegura que diante da realidade complicada enfrentada pelos povos indígenas, o compromisso das instituições competentes em alcançar acordos que permitam melhores condições e garantia de uma melhor qualidade de vida, além do respeito aos direitos humanos, deve estar acima de qualquer circunstância. "Se o ritmo de vida que vivemos hoje na Venezuela e no mundo continuar, chegará o momento em que não saberemos quem somos".
         </p>
       </EndChapter>
       <RelatedNews

@@ -17,8 +17,8 @@
         },
         "mapbox:trackposition": false
     },
-    "center": [-60.480084, -5.383769],
-    "zoom": 4.5,
+    "center": [-62.798552, -5.467137],
+    "zoom": 4,
     "bearing": 0,
     "pitch": 0,
     "light": {
@@ -39,11 +39,15 @@
             "tileSize": 256
         },
         "composite": {
-            "url": "mapbox://infoamazonia.a163w3r6,infoamazonia.57fl1oq8,mapbox.mapbox-streets-v7,infoamazonia.5oqd2azo,infoamazonia.6d1wlvd9,infoamazonia.aeh15zm1,infoamazonia.6ny4aw4g,infoamazonia.1ifthw9d,infoamazonia.0v4erhuc",
+            "url": "mapbox://infoamazonia.a163w3r6,infoamazonia.57fl1oq8,mapbox.mapbox-streets-v7,infoamazonia.5oqd2azo,infoamazonia.6d1wlvd9,infoamazonia.aeh15zm1,infoamazonia.6ny4aw4g",
             "type": "vector"
         },
         "mapbox://infoamazonia.0v4erhuc": {
             "url": "mapbox://infoamazonia.0v4erhuc",
+            "type": "vector"
+        },
+        "mapbox://infoamazonia.8i6m3mzp": {
+            "url": "mapbox://infoamazonia.8i6m3mzp",
             "type": "vector"
         }
     },
@@ -77,57 +81,27 @@
         {
             "id": "LEGENDA4 MINERACAO-LEGALZ4_mineria-pl",
             "type": "fill",
-            "metadata": {},
-            "source": "composite",
+            "source": "mapbox://infoamazonia.0v4erhuc",
             "source-layer": "mineria_pl",
             "minzoom": 4,
             "layout": {},
             "paint": {
                 "fill-color": [
-                    "case",
-                    [
-                        "match",
-                        ["get", "leyenda"],
-                        ["en explotación"],
-                        true,
-                        false
-                    ],
-                    "hsla(172, 96%, 50%, 0.7)",
-                    [
-                        "match",
-                        ["get", "leyenda"],
-                        ["en exploración/en explotación"],
-                        true,
-                        false
-                    ],
-                    "hsla(172, 71%, 51%, 0.6)",
-                    [
-                        "match",
-                        ["get", "leyenda"],
-                        ["en exploración"],
-                        true,
-                        false
-                    ],
+                    "match",
+                    ["get", "leyenda"],
+                    ["en explotación"],
+                    "hsl(172, 96%, 50%)",
+                    ["en exploración/en explotación"],
+                    "hsl(172, 71%, 51%)",
+                    ["en exploración"],
                     "hsla(172, 72%, 42%, 0.7)",
-                    ["match", ["get", "leyenda"], ["solicitud"], true, false],
-                    "hsla(188, 96%, 27%, 0.77)",
-                    [
-                        "match",
-                        ["get", "leyenda"],
-                        ["", "potencial"],
-                        true,
-                        false
-                    ],
-                    "hsla(189, 96%, 11%, 0.77)",
-                    [
-                        "match",
-                        ["get", "leyenda"],
-                        ["", "sin información"],
-                        true,
-                        false
-                    ],
-                    "hsla(0, 0%, 0%, 0.4)",
-                    "hsl(211, 93%, 53%)"
+                    ["solicitud"],
+                    "hsl(188, 96%, 27%)",
+                    ["potencial"],
+                    "hsl(189, 96%, 11%)",
+                    ["sin información"],
+                    "hsla(0, 0%, 0%, 0.47)",
+                    "#1883f7"
                 ],
                 "fill-opacity": 0.71,
                 "fill-outline-color": [
@@ -140,7 +114,7 @@
                     ],
                     "hsla(172, 96%, 50%, 0.77)",
                     ["solicitud"],
-                    "hsla(188, 96%, 27%, 0.7)",
+                    "#037587",
                     ["potencial"],
                     "hsla(189, 96%, 11%, 0.7)",
                     ["sin información"],
@@ -160,11 +134,11 @@
                     "match",
                     ["get", "leyendagar"],
                     ["activo"],
-                    "hsla(260, 100%, 73%, 0.7)",
+                    "#a375ff",
                     ["inactivo"],
-                    "hsla(269, 55%, 29%, 0.7)",
+                    "#492173",
                     ["s.i."],
-                    "hsla(262, 62%, 53%, 0.7)",
+                    "#733dd1",
                     "hsla(0, 100%, 52%, 0)"
                 ],
                 "fill-outline-color": "#311344"
@@ -253,72 +227,6 @@
             }
         },
         {
-            "id": "country-label",
-            "type": "symbol",
-            "metadata": {"mapbox:group": "dca83f9159fd0930318edff4164f6b51"},
-            "source": "composite",
-            "source-layer": "country_label",
-            "minzoom": 4,
-            "layout": {
-                "text-field": [
-                    "step",
-                    ["zoom"],
-                    ["to-string", ["get", "name"]],
-                    22,
-                    ["to-string", ["get", "name"]]
-                ],
-                "text-font": ["Open Sans Bold", "Arial Unicode MS Regular"],
-                "text-offset": [
-                    "match",
-                    ["get", "name"],
-                    ["Colombia"],
-                    ["literal", [0, 2.7]],
-                    ["Ecuador"],
-                    ["literal", [2.7, 0.7]],
-                    ["Venezuela"],
-                    ["literal", [0.9, 1]],
-                    ["literal", [0, 0]]
-                ],
-                "text-rotation-alignment": "map",
-                "text-size": [
-                    "interpolate",
-                    ["linear"],
-                    ["zoom"],
-                    4,
-                    15,
-                    5,
-                    17,
-                    5.52,
-                    20,
-                    6.49,
-                    22
-                ],
-                "text-padding": 2,
-                "text-allow-overlap": true
-            },
-            "paint": {
-                "text-color": "hsl(0, 0%, 100%)",
-                "text-translate": [0, 0],
-                "text-opacity": [
-                    "match",
-                    ["get", "name"],
-                    [
-                        "Guyana",
-                        "Guyane",
-                        "Venezuela",
-                        "Ecuador",
-                        "Suriname",
-                        "Perú",
-                        "Brasil",
-                        "Bolivia",
-                        "Colombia"
-                    ],
-                    1,
-                    0
-                ]
-            }
-        },
-        {
             "id": "div-politica-departamental",
             "type": "line",
             "metadata": {"mapbox:group": "dca83f9159fd0930318edff4164f6b51"},
@@ -347,103 +255,6 @@
                     7,
                     0.51
                 ]
-            }
-        },
-        {
-            "id": "div-politica-departamental copy",
-            "type": "symbol",
-            "metadata": {"mapbox:group": "dca83f9159fd0930318edff4164f6b51"},
-            "source": "composite",
-            "source-layer": "div_politica_departamental",
-            "minzoom": 5,
-            "layout": {
-                "text-line-height": 1.2,
-                "text-size": [
-                    "interpolate",
-                    ["linear"],
-                    ["zoom"],
-                    5,
-                    11,
-                    6,
-                    12,
-                    6.5,
-                    15
-                ],
-                "text-transform": "uppercase",
-                "text-font": ["Open Sans Italic", "Arial Unicode MS Regular"],
-                "text-padding": [
-                    "interpolate",
-                    ["linear"],
-                    ["zoom"],
-                    0,
-                    0,
-                    5,
-                    10,
-                    6,
-                    20,
-                    7,
-                    50
-                ],
-                "text-offset": [
-                    "match",
-                    ["get", "nomedep"],
-                    ["Pará"],
-                    ["literal", [15, 0]],
-                    ["literal", [0, 0]]
-                ],
-                "text-rotation-alignment": "map",
-                "text-pitch-alignment": "map",
-                "text-field": ["to-string", ["get", "nomedep"]],
-                "text-letter-spacing": 0.3
-            },
-            "paint": {
-                "text-color": "hsl(0, 0%, 100%)",
-                "text-halo-color": "hsl(206, 12%, 49%)",
-                "text-halo-width": 0.3,
-                "text-translate": [0, 30],
-                "text-opacity": [
-                    "interpolate",
-                    ["linear"],
-                    ["zoom"],
-                    5,
-                    0.7,
-                    22,
-                    1
-                ]
-            }
-        },
-        {
-            "id": "cidades-principais-6gbant",
-            "type": "symbol",
-            "metadata": {"mapbox:group": "dca83f9159fd0930318edff4164f6b51"},
-            "source": "composite",
-            "source-layer": "cidades_principais-6gbant",
-            "layout": {
-                "text-field": ["to-string", ["get", "nomemun"]],
-                "text-font": ["Open Sans Regular", "Arial Unicode MS Regular"],
-                "text-size": [
-                    "interpolate",
-                    ["linear"],
-                    ["zoom"],
-                    7,
-                    12,
-                    8,
-                    13,
-                    9,
-                    17,
-                    11,
-                    19
-                ],
-                "text-padding": 2,
-                "text-justify": "left",
-                "text-anchor": "left"
-            },
-            "paint": {
-                "text-color": "hsl(0, 0%, 100%)",
-                "text-opacity": ["step", ["zoom"], 0, 6.4, 0.65, 7, 1],
-                "text-halo-color": "#6f808d",
-                "text-halo-width": 0.3,
-                "text-translate": [5, 0]
             }
         },
         {
@@ -499,8 +310,7 @@
             "type": "fill",
             "source": "composite",
             "source-layer": "div_politica_pais",
-            "minzoom": 5.5,
-            "maxzoom": 6.4,
+            "minzoom": 5,
             "layout": {},
             "paint": {
                 "fill-color": [
@@ -536,18 +346,200 @@
             }
         },
         {
-            "id": "lim-amazonia-inverted-c3k18x",
+            "id": "LIM_AMZ_WORLDEXTENT",
             "type": "fill",
-            "source": "composite",
-            "source-layer": "lim_amazonia_inverted-c3k18x",
+            "source": "mapbox://infoamazonia.8i6m3mzp",
+            "source-layer": "WorldExtent_DifLimAmz-3k604u",
             "layout": {},
-            "paint": {"fill-opacity": 0.63}
+            "paint": {
+                "fill-opacity": 0.63,
+                "fill-outline-color": "hsla(0, 0%, 100%, 0.33)"
+            }
+        },
+        {
+            "id": "div-politica-departamental copy",
+            "type": "symbol",
+            "source": "composite",
+            "source-layer": "div_politica_departamental",
+            "minzoom": 5.5,
+            "layout": {
+                "text-line-height": 1.2,
+                "text-size": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    5,
+                    11,
+                    5.5,
+                    12,
+                    6,
+                    15,
+                    7,
+                    17
+                ],
+                "text-transform": "uppercase",
+                "text-font": ["Open Sans Italic", "Arial Unicode MS Regular"],
+                "text-padding": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    5,
+                    50,
+                    22,
+                    50
+                ],
+                "text-offset": [
+                    "match",
+                    ["get", "nomedep"],
+                    ["Pará"],
+                    ["literal", [15, 0]],
+                    ["literal", [0, 0]]
+                ],
+                "text-rotation-alignment": "map",
+                "text-pitch-alignment": "map",
+                "text-field": ["to-string", ["get", "nomedep"]],
+                "text-letter-spacing": 0.3
+            },
+            "paint": {
+                "text-color": "hsl(0, 0%, 100%)",
+                "text-halo-color": "hsl(206, 12%, 49%)",
+                "text-halo-width": 0.3,
+                "text-translate": [0, 0],
+                "text-opacity": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    5,
+                    0,
+                    5.5,
+                    0.5,
+                    22,
+                    1
+                ]
+            }
+        },
+        {
+            "id": "country-label",
+            "type": "symbol",
+            "source": "composite",
+            "source-layer": "country_label",
+            "minzoom": 4,
+            "layout": {
+                "text-field": [
+                    "step",
+                    ["zoom"],
+                    ["to-string", ["get", "name"]],
+                    22,
+                    ["to-string", ["get", "name"]]
+                ],
+                "text-font": ["Open Sans Bold", "Arial Unicode MS Regular"],
+                "text-offset": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    4,
+                    [
+                        "match",
+                        ["get", "name"],
+                        ["Colombia"],
+                        ["literal", [0, 2.7]],
+                        ["Ecuador"],
+                        ["literal", [2.7, 0.7]],
+                        ["Venezuela"],
+                        ["literal", [0.9, 1]],
+                        ["literal", [0, 0]]
+                    ],
+                    5,
+                    [
+                        "match",
+                        ["get", "name"],
+                        ["Colombia"],
+                        ["literal", [0, 5.7]],
+                        ["Ecuador"],
+                        ["literal", [2.7, 0.7]],
+                        ["Venezuela"],
+                        ["literal", [0.9, 1]],
+                        ["literal", [0, 0]]
+                    ]
+                ],
+                "text-rotation-alignment": "map",
+                "text-size": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    4,
+                    15,
+                    5,
+                    17,
+                    5.5,
+                    20,
+                    6.49,
+                    22
+                ],
+                "text-padding": 2,
+                "text-allow-overlap": true
+            },
+            "paint": {
+                "text-color": "hsl(0, 0%, 100%)",
+                "text-translate": [0, 0],
+                "text-opacity": [
+                    "match",
+                    ["get", "name"],
+                    [
+                        "Guyana",
+                        "Guyane",
+                        "Venezuela",
+                        "Ecuador",
+                        "Suriname",
+                        "Perú",
+                        "Brasil",
+                        "Bolivia",
+                        "Colombia"
+                    ],
+                    1,
+                    0
+                ]
+            }
+        },
+        {
+            "id": "cidades-principais-6gbant",
+            "type": "symbol",
+            "source": "composite",
+            "source-layer": "cidades_principais-6gbant",
+            "minzoom": 7,
+            "layout": {
+                "text-field": ["to-string", ["get", "nomemun"]],
+                "text-font": ["Open Sans Regular", "Arial Unicode MS Regular"],
+                "text-size": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    7,
+                    12,
+                    8,
+                    13,
+                    9,
+                    17,
+                    11,
+                    19
+                ],
+                "text-padding": 2,
+                "text-justify": "left",
+                "text-anchor": "left"
+            },
+            "paint": {
+                "text-color": "hsl(0, 0%, 100%)",
+                "text-opacity": ["step", ["zoom"], 0, 7, 0.65, 7.6, 1],
+                "text-halo-color": "#6f808d",
+                "text-halo-width": 0.3,
+                "text-translate": [5, 0]
+            }
         }
     ],
     "created": "2018-11-12T23:01:43.192Z",
     "id": "cjoewww8i0crx2rqko70g8zfq",
-    "modified": "2018-11-27T12:51:01.775Z",
+    "modified": "2018-12-08T18:01:14.915Z",
     "owner": "infoamazonia",
-    "visibility": "private",
+    "visibility": "public",
     "draft": false
 }

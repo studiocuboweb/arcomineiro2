@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/studiocuboweb/infoamazonia-por-dentro-da-floresta.git"
+    "url": "git+https://github.com/studiocuboweb/RAISG-Especial-1-A-Amazonia-saqueada.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/studiocuboweb/infoamazonia-por-dentro-da-floresta/issues"
+    "url": "https://github.com/studiocuboweb/RAISG-Especial-1-A-Amazonia-saqueada/issues"
   },
-  "homepage": "https://github.com/studiocuboweb/infoamazonia-por-dentro-da-floresta#readme",
+  "homepage": "https://github.com/studiocuboweb/RAISG-Especial-1-A-Amazonia-saqueada#readme",
   "dependencies": {
     "axios": "0.17.1",
     "d3-array": "2.0.2",
@@ -47,6 +47,7 @@
     "react-dimensions": "1.3.1",
     "react-dom": "16.0.0",
     "react-dom-animated": "1.0.3",
+    "react-fullscreenable": "^2.5.1-0",
     "react-ga": "2.4.1",
     "react-helmet": "5.2.0",
     "react-intl": "2.4.0",

@@ -4,6 +4,7 @@ const WebpackPwaManifest = require("webpack-pwa-manifest");
 const OfflinePlugin = require("offline-plugin");
 const FaviconsWebpackPlugin = require("favicons-webpack-plugin");
 const HTMLWebpackPlugin = require("html-webpack-plugin");
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 let config = {
   entry: {
@@ -19,6 +20,7 @@ let config = {
   },
   plugins: [
     new webpack.DefinePlugin({
+      '__REACT_DEVTOOLS_GLOBAL_HOOK__': '({ isDisabled: true })',
       "process.env": {
         NODE_ENV: JSON.stringify(process.env.NODE_ENV || ""),
         SITE_URL: JSON.stringify(process.env.SITE_URL || ""),
@@ -81,8 +83,8 @@ const favicons = new FaviconsWebpackPlugin({
 });
 
 const pwa = new WebpackPwaManifest({
-  name: "Sacked Amazon",
-  short_name: "Sacked Amazon",
+  name: "Looted Amazon",
+  short_name: "Looted Amazon",
   description:
     "The destruction of 110 thousand square kilometers of forests in the largest mining project in Venezuela",
   background_color: "#fff",
@@ -106,6 +108,12 @@ const html404 = new HTMLWebpackPlugin({
   template: path.resolve("src", "index.html"),
   filename: "404.html",
   inject: "body"
+});
+
+const uglifyjs = new UglifyJsPlugin({
+  uglifyOptions: {
+    compress: false
+  }
 });
 
 const offline = new OfflinePlugin({

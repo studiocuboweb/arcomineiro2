@@ -7,8 +7,7 @@ import MAP_STYLE4 from './styles/Map4.json';
 import MAP_STYLE5 from './styles/Map5.json';
 import MAP_STYLE6 from './styles/Map6.json';
 import "styles/mapbox.css";
-import LegendCollapse from './LegendCollapse';
-import {Collapse} from 'react-collapse';
+import Legend1 from './legends/Legend1';
 
 
 const styles = {
@@ -134,7 +133,6 @@ export default class StyleControls extends PureComponent {
 
   constructor(props) {
     super(props);
-    console.log(styles[this.props.map])
     this.defaultMapStyle = fromJS(styles[this.props.map]);
     this._defaultLayers = this.defaultMapStyle.get('layers');
     
@@ -229,22 +227,19 @@ export default class StyleControls extends PureComponent {
     this.props.onChange(this.defaultMapStyle.set('layers', layers));
   }
 
-  _renderLayerControl(name) {
-    if (notShowInLegend[this.props.legend].indexOf(name) <= -1 && layerLabels[name] != undefined) {
+  _renderLayerControl() {
       const {visibility} = this.state;
+      const LegendCollapse = Legend1;
       return (
           <div>
-          <LegendCollapse 
-            name={name} 
-            label={layerLabels[name]} 
-            visibility={visibility[name]}
-            subCategories={{subCategories}}
+          <LegendCollapse
+            visibility={visibility}
             onVisibilityChange={this._onVisibilityChange}
+            legend={this.props.legend}
             parentScope={this}
           />
           </div>
       );
-    }
   }
   _toggleLegend() {
     if (this.state.displayLegend['display'] == 'none') {
@@ -262,14 +257,15 @@ export default class StyleControls extends PureComponent {
     return (
       <Container>
         <div style={this.state.displayLegendBG} className='control-panel-padding'>
-          <button className='fa fa-map mapbox_legend-ico mapbox_legend-block mapbox_legend-button' style={{'cursor':'pointer',color:'#C0C0C0', display: this.state.displayIcon}} onClick={this._toggleLegend.bind(this)}></button>
+          <button className='fa fa-map mapbox_legend-ico mapbox_legend-block mapbox_legend-button' style={{'cursor':'pointer',color:'#C0C0C0',float:'right',display: this.state.displayIcon}} onClick={this._toggleLegend.bind(this)}></button>
           <div style={this.state.displayLegend}>
             <div className='mapbox_legend-align-center' style={{'height':'10px'}}>
               <a href='#' className='fa fa-window-close mapbox_legend-btn-close'  style={{'cursor':'pointer',color:'#C0C0C0', 'font-size':'.8em', 'vertical-align':'top'}} onClick={this._toggleLegend.bind(this)}></a>
             </div>
             <hr />
             { 
-              categories.map((name) => this._renderLayerControl(name,this)) 
+              // categories.map((name) => this._renderLayerControl(name,this)) 
+              this._renderLayerControl(name,this)
             }
           </div>
         </div>

@@ -1,6 +1,9 @@
 .control-panel {
     padding:0.5rem;
-    width:17rem;
+    width:16rem;
+    position:absolute;
+    right: 0;   
+    /* margin-left: 20rem; */
 }
 
 .control-panel-padding {
@@ -35,6 +38,14 @@
     font-family: Helvetica, Arial, sans-serif !important;
 }
 
+.control-panel label span {
+    font-size:1.5rem;
+    margin-left: 0.5rem;
+    color:#C0C0C0;
+    position: relative;
+    top:5px;
+}
+
 .mapbox_legend-block {
     display:block;
     float:left
@@ -46,7 +57,7 @@
 
 .mapbox_legend-btn-close {
    position: relative;
-   left:4rem;
+   left:6.4rem;
    color: #333;
 }
 
@@ -69,3 +80,35 @@
     outline: none !important;
     box-shadow: none;
  }
+
+.mapbox_custom-checkbox-colored_1 {
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .mapbox_custom-checkbox-colored_1:after {
+    content: " ";
+    background-color: #b350f1;
+    display: inline-block;
+    visibility: visible;
+  }
+  
+  .mapbox_custom-checkbox-colored_1:checked:after {
+    padding:0.5rem;
+  }
+
+  .mapbox_custom-checkbox-colored_2 {
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .mapbox_custom-checkbox-colored_2:after {
+    content: " ";
+    background-color: #d65205;
+    display: inline-block;
+    visibility: visible;
+  }
+  
+  .mapbox_custom-checkbox-colored_2:checked:after {
+    padding:0.5rem;
+  }

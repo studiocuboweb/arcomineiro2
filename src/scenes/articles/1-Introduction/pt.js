@@ -12,6 +12,7 @@ import Quote from "components/blocks/Quote";
 import FeaturedText from "components/blocks/FeaturedText";
 import Note from "components/blocks/Note";
 import EndChapter from "components/blocks/EndChapter";
+import Table from "components/blocks/Table";
 
 export default () => (
   <article>
@@ -32,15 +33,15 @@ export default () => (
         Um levantamento feito por organizações da Bolívia, Brasil, Colômbia, Equador, Peru e Venezuela confirma a existência de pelo menos <StoryMedia
         icon="map"
         media={{
-        id: "map1_1",
+        id: "map_01",
         type: "mapbox",
           data: {
             map: "map1",
-            legend:"map1",
+            legend:"legend1",
             update: "map1_1",
             showExtraLayers: [],
-            coordinates: [-60.480084,-5.383769],
-            zoomNumber: 4.50,
+            coordinates: [-62.798552,-5.467137],
+            zoomNumber: 4,
             zoomMin: 3,
             zoomMax: 10
           }
@@ -68,15 +69,15 @@ export default () => (
         De todos os pontos mapeados, a maioria está na Venezuela, depois no Brasil, Equador e Peru. Na Colômbia e Bolívia, as unidades de análise foram os rios, razão pela qual não aparecem quantificados como pontos. Entre as 245 áreas de extração, três estão na Bolívia, <StoryMedia
         icon="map"
         media={{
-        id: "map1_2",
+        id: "map_02a",
         type: "mapbox",
         data: {
           map: "map1",
-          legend:"map1",
+          legend:"legend1",
           update:"map1_2",
           showExtraLayers: ['Para-MASCARA_div-politica-departamental'],
-          coordinates: [-57.105593,-6.390858],
-          zoomNumber: 7.60,
+          coordinates: [-56.631297,-5.664585],
+          zoomNumber: 6.29,
           zoomMin: 5,
           zoomMax: 22
         }
@@ -92,15 +93,15 @@ export default () => (
         O vice-diretor da Gaia Amazonas, Camilo Guio, alerta que “essas atividades extrativas ilegais caracterizam-se por sua forma anti-técnica e insustentável. São <StoryMedia
         icon="map"
         media={{
-        id: "map1_3",
+        id: "map_02b",
         type: "mapbox",
         data: {
           map: "map1",
-          legend:"map1",
+          legend:"legend1",
           update:"map1_3",
           showExtraLayers: ['COLOMBIA-MASCARA_div-politica-pais'],
-          coordinates: [-71.649086,0.296145],
-          zoomNumber: 6.00,
+          coordinates: [-73.054582,0.547990],
+          zoomNumber: 5.50,
           zoomMin: 3,
           zoomMax: 22
         }
@@ -111,23 +112,65 @@ export default () => (
         Os dados coletados pela RAISG, no entanto, são uma primeira aproximação à situação, que reflete um problema de magnitude desconhecida e cuja visão representa apenas uma parte do que realmente está acontecendo. Os casos relatados vêm de notificações de comunidades ribeirinhas e indígenas, da coleta de notícias e análise de imagens de satélite.
       </Paragraph>
 
+      <Table>
+        <table style={{'width':'100%'}}>
+          <tbody>
+          <tr>
+            <th>Garimpos por país:</th>
+            <th>pontos</th>
+            <th>áreas</th>
+          </tr>
+          <tr>
+            <td>Bolivia</td>
+            <td></td>
+            <td style={{'text-align':'right'}}>3</td>
+          </tr>
+          <tr>
+            <td>Brasil</td>
+            <td>321</td>
+            <td style={{'text-align':'right'}}>132</td>
+          </tr>
+          <tr>
+            <td>Equador</td>
+            <td>68</td>
+            <td style={{'text-align':'right'}}></td>
+          </tr>
+          <tr>
+            <td>Peru</td>
+            <td>24</td>
+            <td style={{'text-align':'right'}}>110</td>
+          </tr>
+          <tr>
+            <td>Venezuela</td>
+            <td>1899</td>
+            <td style={{'text-align':'right'}}></td>
+          </tr>
+          <tr>
+            <td>Total</td>
+            <td>2312</td>
+            <td style={{'text-align':'right'}}>245</td>
+          </tr>
+          </tbody>
+        </table>
+      </Table>
+
       <Paragraph>
         Estas <StoryMedia
         icon="map"
         media={{
-        id: "map1_4",
+        id: "map_02c",
         type: "mapbox",
         data: {
           map: "map1",
-          legend:"map1",
+          legend:"legend1",
           update:"map1_4",
           showExtraLayers: ['BOLIVIA-MASCARA_div-politica-pais'],
           coordinates: [-65.224,-14.804],
-          zoomNumber: 6.20,
+          zoomNumber: 5.40,
           zoomMin: 5,
           zoomMax: 22
         },
-        }}>fontes de informação foram tratadas com diferentes níveis de profundidade</StoryMedia> e, por outro lado, a velocidade de crescimento da mineração também foi diferente na região, de modo que as afetações que são atualmente consideradas como pontos, podem muito em breve tornar-se áreas de exploração. Desta forma, os números podem mudar, mas a verdade é que a área de afetação, está aumentando. Na Venezuela, esta parece ser a situação, já que os relatórios mudam drasticamente a cada ano.
+        }}>fontes de informação foram tratadas com diferentes níveis de profundidade</StoryMedia> e, por outro lado, a velocidade de crescimento da mineração também foi diferente na região, de modo que as afetações, que são atualmente consideradas como pontos, podem muito em breve tornar-se áreas de exploração. Desta forma, os números podem mudar, mas a verdade é que a área de afetação, está aumentando. Na Venezuela, esta parece ser a situação, já que os relatórios mudam drasticamente a cada ano.
       </Paragraph>
 
       <Paragraph>
@@ -139,52 +182,59 @@ export default () => (
                   items: [
                     {
                       src: require("photos/chapter1/gallery-1/01_AlbertoBlanco_BrisasDelCuyuni13A.jpg"),
-                      credits: "Alberto Blanco"
+                      credits: "Alberto Blanco",
+                      isVertical: false,
                     },
                     {
                       src: require("photos/chapter1/gallery-1/02_AlbertoBlanco_BrisasDelCuyuni14A.jpg"),
-                      credits: "Alberto Blanco"
+                      credits: "Alberto Blanco",
+                      isVertical: true,
                     },
                     {
                       src: require("photos/chapter1/gallery-1/03_AlbertoBlanco_BrisasDelCuyuni8.jpg"),
-                      credits: "Alberto Blanco"
+                      credits: "Alberto Blanco",
+                      isVertical: false,
                     },
                     {
                       src: require("photos/chapter1/gallery-1/04_AlbertoBlanco_BrisasDelCuyuni6A.jpg"),
-                      credits: "Alberto Blanco"
+                      credits: "Alberto Blanco",
+                      isVertical: true,
                     },
                     {
                       src: require("photos/chapter1/gallery-1/05_AlbertoBlanco_BrisasDelCuyuni3.jpg"),
-                      credits: "Alberto Blanco"
+                      credits: "Alberto Blanco",
+                      isVertical: false,
                     },
                     {
                       src: require("photos/chapter1/gallery-1/06_AlbertoBlanco_BrisasDelCuyuni4.jpg"),
-                      credits: "Alberto Blanco"
+                      credits: "Alberto Blanco",
+                      isVertical: true,
                     },
                     {
                       src: require("photos/chapter1/gallery-1/07_AlbertoBlanco_BrisasDelCuyuni6A.jpg"),
-                      credits: "Alberto Blanco"
+                      credits: "Alberto Blanco",
+                      isVertical: true,
                     }
                   ]
                 }
               }}
-            > mineração de pequena escala que atinge as partes mais remotas da Amazônia.</StoryMedia> Esta variedade põe em risco fragmentos de floresta considerados entre os mais bem conservados, bem como o deslocamento de comunidades indígenas em situação de isolamento voluntário.
+            > mineração de pequena escala que atinge as partes mais remotas da Amazônia</StoryMedia>. Esta variedade põe em risco fragmentos de floresta considerados entre os mais bem conservados, bem como o deslocamento de comunidades indígenas em situação de isolamento voluntário.
       </Paragraph>
 
       <Paragraph>
         Da mesma forma, provavelmente não é possível identificar todos os cursos de água atualmente afetados pelo uso de balsas, especialmente quando não há comunidades indígenas que possam fornecer essas informações. Além da atividade em áreas remotas, há uma <StoryMedia
         icon="map"
         media={{
-        id: "map1_5",
+        id: "map_01b",
         type: "mapbox",
         data: {
           map: "map1",
-          legend:"map1_5",
+          legend:"legend2",
           update:"map1_5",
           showExtraLayers: ['LEGENDA4 MINERACAO-LEGALZ4_mineria-pl'],
-          coordinates: [-60.480084,-5.383769],
-          zoomNumber: 4.50,
-          zoomMin: 3,
+          coordinates: [-62.798552,-5.467137],
+          zoomNumber: 4.00,
+          zoomMin: 4,
           zoomMax: 10
         },
         }}>sobreposição entre mineração legal e ilegal que contribui para tornar a situação ainda mais confusa</StoryMedia> e, portanto, torna impossível dimensionar o problema em sua totalidade.
@@ -202,8 +252,8 @@ export default () => (
           size="6.7MB"
         >relatório "A realidade da mineração ilegal em países amazônicos"</FileLink>{" "}, <i>elaborado pela Sociedade Peruana de Direito Ambiental (SPDA, 2014), cerca de 600 mil pessoas estariam naquele momento envolvidas na exploração ilegal do ouro.</i></p> 
         <p className="smaller-txt pull-left"><i>O aumento sustentado do preço do ouro e a evidência de mais pontos e áreas de mineração na região, indicam que nos últimos cinco anos esse número deve ter aumentado consideravelmente. </i></p>
-        {/* <div>Preço nas alturas</div>
-        Média anual do valor do ouro (em US$)<br/> */}
+        <div>Preço nas alturas</div>
+        Média anual do valor do ouro (em US$)<br/>
         <div className="image-wrapper">
           <iframe id="datawrapper-chart-AMEaF" src="//datawrapper.dwcdn.net/AMEaF/1/" scrolling="no" frameborder="0" allowtransparency="true" style={{'width': '', 'minWidth': '70%', 'padding-bottom':'10px'}} height="400"></iframe>
           <p className="pull-right graph-description"><i>

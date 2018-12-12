@@ -16,7 +16,7 @@
             },
             "979d3a2b6a330864e028ee812cc18527": {
                 "name": "RAISG_mineria Ilegal",
-                "collapsed": false
+                "collapsed": true
             }
         },
         "mapbox:trackposition": false
@@ -47,11 +47,11 @@
             "tileSize": 256
         },
         "composite": {
-            "url": "mapbox://infoamazonia.a163w3r6,infoamazonia.57fl1oq8,mapbox.mapbox-streets-v7,infoamazonia.5oqd2azo,infoamazonia.6d1wlvd9,infoamazonia.aeh15zm1,infoamazonia.6ny4aw4g,infoamazonia.1ifthw9d,infoamazonia.8bpbcmqq",
+            "url": "mapbox://infoamazonia.a163w3r6,infoamazonia.57fl1oq8,mapbox.mapbox-streets-v7,infoamazonia.5oqd2azo,infoamazonia.6d1wlvd9,infoamazonia.aeh15zm1,infoamazonia.6ny4aw4g,infoamazonia.8bpbcmqq",
             "type": "vector"
         },
-        "mapbox://infoamazonia.2p8fbtjj": {
-            "url": "mapbox://infoamazonia.2p8fbtjj",
+        "mapbox://infoamazonia.8i6m3mzp": {
+            "url": "mapbox://infoamazonia.8i6m3mzp",
             "type": "vector"
         }
     },
@@ -71,7 +71,7 @@
             }
         },
         {
-            "id": "tis-afectadas",
+            "id": "LEGENDA4- Yanomami_tis-afectadas",
             "type": "fill",
             "source": "mapbox://infoamazonia.8mnnicsn",
             "source-layer": "TIs_afectadas",
@@ -98,7 +98,7 @@
                     "match",
                     ["get", "nombre"],
                     ["Yanomami"],
-                    "hsl(22, 95%, 43%)",
+                    "#d65205",
                     "hsl(22, 95%, 43%)"
                 ]
             }
@@ -153,104 +153,6 @@
                     6,
                     1
                 ]
-            }
-        },
-        {
-            "id": "country-label",
-            "type": "symbol",
-            "metadata": {"mapbox:group": "dca83f9159fd0930318edff4164f6b51"},
-            "source": "composite",
-            "source-layer": "country_label",
-            "minzoom": 4,
-            "layout": {
-                "text-size": [
-                    "interpolate",
-                    ["linear"],
-                    ["zoom"],
-                    4,
-                    15,
-                    5,
-                    17,
-                    5.52,
-                    20,
-                    6.49,
-                    22,
-                    22,
-                    26
-                ],
-                "text-allow-overlap": true,
-                "text-font": ["Open Sans Bold", "Arial Unicode MS Regular"],
-                "text-padding": 2,
-                "visibility": "none",
-                "text-offset": [
-                    "match",
-                    ["get", "name"],
-                    ["Colombia"],
-                    ["literal", [0, 2.7]],
-                    ["Ecuador"],
-                    ["literal", [2.7, 0.7]],
-                    ["Venezuela"],
-                    ["literal", [0.9, 1]],
-                    ["literal", [0, 0]]
-                ],
-                "text-rotation-alignment": "map",
-                "text-field": [
-                    "step",
-                    ["zoom"],
-                    "",
-                    4,
-                    ["to-string", ["get", "name"]],
-                    22,
-                    ["to-string", ["get", "name"]]
-                ],
-                "text-letter-spacing": 0.01
-            },
-            "paint": {
-                "text-color": "hsl(0, 0%, 100%)",
-                "text-translate": [0, 0],
-                "text-opacity": [
-                    "match",
-                    ["get", "name"],
-                    [
-                        "Guyana",
-                        "Guyane",
-                        "Venezuela",
-                        "Ecuador",
-                        "Suriname",
-                        "Perú",
-                        "Brasil",
-                        "Bolivia",
-                        "Colombia"
-                    ],
-                    1,
-                    0
-                ],
-                "text-halo-color": "#6e7f8c",
-                "text-halo-width": 0.3
-            }
-        },
-        {
-            "id": "capital-pais-1sdywc",
-            "type": "symbol",
-            "metadata": {"mapbox:group": "dca83f9159fd0930318edff4164f6b51"},
-            "source": "mapbox://infoamazonia.2p8fbtjj",
-            "source-layer": "capital_pais-1sdywc",
-            "minzoom": 4,
-            "layout": {
-                "text-field": ["to-string", ["get", "nomecap"]],
-                "text-size": 12,
-                "text-letter-spacing": 0.1,
-                "icon-image": "circle-11-CapitalPoint",
-                "text-anchor": "bottom",
-                "icon-size": 0.7,
-                "visibility": "none"
-            },
-            "paint": {
-                "text-color": "hsl(0, 0%, 100%)",
-                "text-halo-color": "#fff",
-                "text-halo-width": 0.1,
-                "text-translate": [0, 15],
-                "icon-opacity": 0.8
             }
         },
         {
@@ -479,123 +381,7 @@
             }
         },
         {
-            "id": "TI Yanomami-country-label copy",
-            "type": "symbol",
-            "source": "composite",
-            "source-layer": "country_label",
-            "minzoom": 4,
-            "layout": {
-                "text-size": [
-                    "interpolate",
-                    ["linear"],
-                    ["zoom"],
-                    4,
-                    15,
-                    5,
-                    17,
-                    5.52,
-                    20,
-                    6.49,
-                    22,
-                    22,
-                    26
-                ],
-                "text-allow-overlap": true,
-                "text-font": ["Open Sans Bold", "Arial Unicode MS Regular"],
-                "text-padding": 2,
-                "text-offset": [
-                    "match",
-                    ["get", "name"],
-                    ["Colombia"],
-                    ["literal", [0, 2.7]],
-                    ["Ecuador"],
-                    ["literal", [2.7, 0.7]],
-                    ["Venezuela"],
-                    ["literal", [4.3, 7.3]],
-                    ["Brasil"],
-                    ["literal", [-35, -31]],
-                    ["literal", [0, 0]]
-                ],
-                "text-rotation-alignment": "map",
-                "text-field": ["to-string", ["get", "name"]],
-                "text-letter-spacing": 0.01
-            },
-            "paint": {
-                "text-color": [
-                    "interpolate",
-                    ["linear"],
-                    ["zoom"],
-                    0,
-                    "hsla(0, 0%, 100%, 0)",
-                    5.5,
-                    "hsl(0, 0%, 100%)"
-                ],
-                "text-translate": [0, 0],
-                "text-opacity": [
-                    "interpolate",
-                    ["linear"],
-                    ["zoom"],
-                    0,
-                    [
-                        "match",
-                        ["get", "name"],
-                        [
-                            "Guyana",
-                            "Guyane",
-                            "Venezuela",
-                            "Ecuador",
-                            "Suriname",
-                            "Perú",
-                            "Brasil",
-                            "Bolivia",
-                            "Colombia"
-                        ],
-                        0,
-                        0
-                    ],
-                    5,
-                    [
-                        "match",
-                        ["get", "name"],
-                        [
-                            "Guyana",
-                            "Guyane",
-                            "Venezuela",
-                            "Ecuador",
-                            "Suriname",
-                            "Perú",
-                            "Brasil",
-                            "Bolivia",
-                            "Colombia"
-                        ],
-                        1,
-                        0
-                    ],
-                    6.5,
-                    [
-                        "match",
-                        ["get", "name"],
-                        [
-                            "Guyana",
-                            "Guyane",
-                            "Venezuela",
-                            "Ecuador",
-                            "Suriname",
-                            "Perú",
-                            "Brasil",
-                            "Bolivia",
-                            "Colombia"
-                        ],
-                        0,
-                        0
-                    ]
-                ],
-                "text-halo-color": "#6e7f8c",
-                "text-halo-width": 0.3
-            }
-        },
-        {
-            "id": "LEGENDA4- Yanomami_tis-afectadas",
+            "id": "Etiqueta- Yanomami_tis-afectadas",
             "type": "symbol",
             "source": "mapbox://infoamazonia.8mnnicsn",
             "source-layer": "TIs_afectadas",
@@ -737,7 +523,7 @@
             }
         },
         {
-            "id": "LEGENDA1 PONTOS_mineriailegal-pt-5owfra",
+            "id": "LEGENDA1 PONTOS_mineriailegal-pt-5owfra copy",
             "type": "symbol",
             "metadata": {"mapbox:group": "979d3a2b6a330864e028ee812cc18527"},
             "source": "composite",
@@ -810,18 +596,137 @@
             }
         },
         {
-            "id": "lim-amazonia-inverted-c3k18x",
-            "type": "fill",
+            "id": "TI Yanomami-country-label copy",
+            "type": "symbol",
             "source": "composite",
-            "source-layer": "lim_amazonia_inverted-c3k18x",
+            "source-layer": "country_label",
+            "minzoom": 4,
+            "layout": {
+                "text-size": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    4,
+                    15,
+                    5,
+                    17,
+                    5.52,
+                    20,
+                    6.49,
+                    22,
+                    22,
+                    26
+                ],
+                "text-allow-overlap": true,
+                "text-font": ["Open Sans Bold", "Arial Unicode MS Regular"],
+                "text-padding": 2,
+                "text-offset": [
+                    "match",
+                    ["get", "name"],
+                    ["Colombia"],
+                    ["literal", [0, 2.7]],
+                    ["Ecuador"],
+                    ["literal", [2.7, 0.7]],
+                    ["Venezuela"],
+                    ["literal", [4.3, 7.3]],
+                    ["Brasil"],
+                    ["literal", [-39, -33]],
+                    ["literal", [0, 0]]
+                ],
+                "text-rotation-alignment": "map",
+                "text-field": ["to-string", ["get", "name"]],
+                "text-letter-spacing": 0.01
+            },
+            "paint": {
+                "text-color": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    0,
+                    "hsla(0, 0%, 100%, 0)",
+                    5.5,
+                    "hsl(0, 0%, 100%)"
+                ],
+                "text-translate": [0, 0],
+                "text-opacity": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    0,
+                    [
+                        "match",
+                        ["get", "name"],
+                        [
+                            "Guyana",
+                            "Guyane",
+                            "Venezuela",
+                            "Ecuador",
+                            "Suriname",
+                            "Perú",
+                            "Brasil",
+                            "Bolivia",
+                            "Colombia"
+                        ],
+                        0,
+                        0
+                    ],
+                    5,
+                    [
+                        "match",
+                        ["get", "name"],
+                        [
+                            "Guyana",
+                            "Guyane",
+                            "Venezuela",
+                            "Ecuador",
+                            "Suriname",
+                            "Perú",
+                            "Brasil",
+                            "Bolivia",
+                            "Colombia"
+                        ],
+                        1,
+                        0
+                    ],
+                    6.5,
+                    [
+                        "match",
+                        ["get", "name"],
+                        [
+                            "Guyana",
+                            "Guyane",
+                            "Venezuela",
+                            "Ecuador",
+                            "Suriname",
+                            "Perú",
+                            "Brasil",
+                            "Bolivia",
+                            "Colombia"
+                        ],
+                        0,
+                        0
+                    ]
+                ],
+                "text-halo-color": "#6e7f8c",
+                "text-halo-width": 0.3
+            }
+        },
+        {
+            "id": "LIM_AMZ_WORLDEXTENT",
+            "type": "fill",
+            "source": "mapbox://infoamazonia.8i6m3mzp",
+            "source-layer": "WorldExtent_DifLimAmz-3k604u",
             "layout": {},
-            "paint": {"fill-opacity": 0.63}
+            "paint": {
+                "fill-opacity": 0.63,
+                "fill-outline-color": "hsla(0, 0%, 100%, 0.33)"
+            }
         }
     ],
     "created": "2018-11-18T01:35:16.634Z",
     "id": "cjom7lmpd1lut2rmktspvs0jn",
-    "modified": "2018-11-27T12:30:00.720Z",
+    "modified": "2018-12-10T00:41:30.558Z",
     "owner": "infoamazonia",
-    "visibility": "private",
+    "visibility": "public",
     "draft": false
 }

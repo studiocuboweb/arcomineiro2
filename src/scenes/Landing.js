@@ -31,18 +31,6 @@ const Wrapper = styled.section`
   box-sizing: border-box;
   text-shadow: 0 0 2px #000;
   color: #fff;
-  &:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background-image: url(${require("images/bg_1.gif")});
-    background-size: cover;
-    background-position: center;
-    z-index: -1;
-  }
   &:after {
     content: "";
     position: absolute;
@@ -126,6 +114,15 @@ const Wrapper = styled.section`
       transition: all 250ms ease-in;
     }
   }
+  #background-video {
+    border:1px solid red;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index:-1;
+  }
 `;
 
 const Top = styled.div`
@@ -147,6 +144,10 @@ const Top = styled.div`
       height: auto;
       max-height: 2vh;
       margin: 0 1rem;
+      ${media.phone`
+        max-height: 20vh;
+        max-width: 23vw;
+      `}
       ${media.phablet`
         max-height: 5vh;
         max-width: 8vw;
@@ -293,13 +294,13 @@ class Scene extends Component {
           <h2>
             <FormattedMessage
               id="general.author"
-              defaultMessage="by Lorem Ipsum"
+              defaultMessage="-"
             />
           </h2>
           <h3>
             <FormattedMessage
               id="general.publishDate"
-              defaultMessage="January 15, 2018"
+              defaultMessage="10th December 2018"
             />
           </h3>
         </Top>
@@ -308,7 +309,7 @@ class Scene extends Component {
           <p className="description">
             <FormattedMessage
               id="general.tagline"
-              defaultMessage="The destruction of 44 thousand square miles of forests in the largest mining project in Venezuela"
+              defaultMessage="New survey reveals the existence of more than 2000 points and 200 illegal mining areas in six Amazonian countries."
             />
           </p>
           {this.isLaunchDate() ? (
@@ -354,6 +355,9 @@ class Scene extends Component {
             </div>
           )}
         </Middle>
+        <video autoPlay muted loop id="background-video">
+          <source src={require("images/video_bg.mp4")} type="video/mp4" />
+        </video>
       </Wrapper>
     );
   }

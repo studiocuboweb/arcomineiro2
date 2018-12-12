@@ -33,7 +33,7 @@ export default () => (
               credits: "Rogério Assis/ISA",
               src: require("photos/chapter5/25_RogerioAssis-ISA_RS6436_IMG_3077.jpg")
             }
-          }}>The impacts of illegal mining are already seen as serious human rights violations.</StoryMedia> Water contamination and the expulsion of indigenous peoples in voluntary isolation are among the indicators of harm to the common good.
+          }}>The impacts of illegal mining are already seen as serious human rights violations</StoryMedia>. Water contamination and the expulsion of indigenous peoples in voluntary isolation are among the indicators of harm to the common good.
       </Paragraph>
       <Paragraph>
         In addition to environmental degradation, the persistence of mining results in cultural and economic impacts. These includes not just the cost to traditional populations of the loss of their activities, but also the costs of remediation of degraded sites.
@@ -66,6 +66,9 @@ export default () => (
       <Paragraph>
         As previously mentioned, a similar trend can be seen in Bolivia, Ecuador, and Peru, where governments have ceded to the demands of workers involved in irregular gold mining and loosened legislation. This has created a grey zone between illegality and the nature of artisanal mining, which has allowed the legitimization of high impact activities in areas of high importance for conservation and for the survival of indigenous peoples.
       </Paragraph>
+      <Quote author="Agustín Ojeda, Shirian leader">
+          Illegal mining can kill us. Mining ponds enable the reproduction of mosquitoes that bring diseases such as malaria, and the effect of mercury on water is not taken seriously; mercury not only contaminates the water, but also the fish we eat.
+      </Quote> 
       <EndChapter>
         <p className='medium-txt'>
           "Illegal mining does not consider the future of our children. While we may benefit in the short term, we are destroying the environment, our jungle, our home" says <StoryMedia
@@ -77,16 +80,13 @@ export default () => (
               src: require('photos/chapter5/27_JuanPinto_AgustinOjeda_LiderShirian_Foto2018_Wataniba_9692-2.jpg')
             }
           }}
-        >Agustin Ojeda, a Shiriano leader from Bolivar state, Venezuela.</StoryMedia>
+        >Agustin Ojeda, a Shirian leader from Bolivar state, Venezuela</StoryMedia>.
         </p>
         <p className='medium-txt'>
-          He points out that the profound change in the way of life of his people and the adoption of new habits have seriously damaged ancestral customs and, in turn, increased health problems.
+          He points out that the profound change in the way of life of his people and the adoption of new habits have seriously damaged ancestral customs and, in turn, increased health problems. "Illegal mining can kill us. Mining ponds enable the reproduction of mosquitoes that bring diseases such as malaria, and the effect of mercury on water is not taken seriously; mercury not only contaminates the water, but also the fish we eat".
         </p>
-        <Quote author="Agustín Ojeda, Shiriano leader">
-          <span>"Illegal mining can kill us." Mining ponds enable the reproduction of mosquitoes that bring diseases such as malaria, and the effect of mercury on water is not taken seriously; mercury not only contaminates the water, but also the fish we eat</span>
-        </Quote>
         <p className='medium-txt'>
-          The Shiriano leader adds that most of his community have abandoned their fields. The sowing, clearing and burning seasons are not respected, so the harvest is almost nil. "Nowadays you see Indians buying cassava bread from non-Indians instead of making it".
+          The Shirian leader adds that most of his community have abandoned their fields. The sowing, clearing and burning seasons are not respected, so the harvest is almost nil. "Nowadays you see Indians buying cassava bread from non-Indians instead of making it".
         </p>
         <p className='medium-txt'>
           He argues that, given the complicated situation faced by indigenous peoples, a commitment by the responsible authorities to enact agreements that ensure greater welfare and better livelihoods, as well as respecting human rights, must take precedence over anything else. "If the pace of life that we live in Venezuela and the world continues, a time will come when we do not know who we are".

@@ -35,6 +35,7 @@ const Wrapper = styled.div`
       ${props =>
         props.active &&
         css`
+        margin-bottom:10rem;
           height: 50vh;
         `} ${media.desktop`
       flex: 0 0 45%;
@@ -179,11 +180,11 @@ class Media extends Component {
       case "mapbox": {
         return (
           <Wrapper preview={preview} active={active}>
-            {/* <div style={{'backgroundImage':`url(${media.backgroundAlternative})`}}>             */}
+            <div style={{'backgroundImage':`url(${media.backgroundAlternative})`,'width':'100%','height':'100vh'}}>
               {this.detectWebGLContext() &&
                 <MapBox {...media.data} />
               }
-            {/* </div> */}
+            </div>
           </Wrapper>
         );
       }

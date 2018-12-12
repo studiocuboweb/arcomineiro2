@@ -12,6 +12,7 @@ import Quote from "components/blocks/Quote";
 import FeaturedText from "components/blocks/FeaturedText";
 import Note from "components/blocks/Note";
 import EndChapter from "components/blocks/EndChapter";
+import Table from "components/blocks/Table";
 
 export default () => (
   <article>
@@ -21,7 +22,7 @@ export default () => (
     <Container>
       <Note>
         <p>
-          Unique survey identifies the existence of more than 2000 sites and 200 areas of illegal mining in the forest ecosystems of six Amazonian countries.
+          New survey reveals the existence of more than 2000 points and 200 illegal mining areas in six Amazonian countries.
         </p>
       </Note>
       <Paragraph>
@@ -32,15 +33,15 @@ export default () => (
         A survey conducted by organizations in Bolivia, Brazil, Colombia, Ecuador, Peru and Venezuela confirms the existence of at least <StoryMedia
         icon="map"
         media={{
-        id: "map1_1",
+        id: "map_01",
         type: "mapbox",
           data: {
             map: "map1",
-            legend:"map1",
+            legend:"legend1",
             update: "map1_1",
             showExtraLayers: [],
-            coordinates: [-60.480084,-5.383769],
-            zoomNumber: 4.50,
+            coordinates: [-62.798552,-5.467137],
+            zoomNumber: 4,
             zoomMin: 3,
             zoomMax: 10
           }
@@ -68,15 +69,15 @@ export default () => (
         Of all the sites mapped, the majority are in Venezuela, followed by Brazil, Ecuador and Peru. In Colombia and Bolivia, analysis was done by rivers, which is why it is not quantified by specific sites. Out of the 245 extraction areas, three are in Bolivia, <StoryMedia
         icon="map"
         media={{
-        id: "map1_2",
+        id: "map_02a",
         type: "mapbox",
         data: {
           map: "map1",
-          legend:"map1",
+          legend:"legend1",
           update:"map1_2",
           showExtraLayers: ['Para-MASCARA_div-politica-departamental'],
-          coordinates: [-57.105593,-6.390858],
-          zoomNumber: 7.60,
+          coordinates: [-56.631297,-5.664585],
+          zoomNumber: 6.29,
           zoomMin: 5,
           zoomMax: 22
         }
@@ -91,15 +92,15 @@ export default () => (
         The deputy director of Gaia Amazonas, Camilo Guio, warns that "these illegal extractive activities are characterized by their rudimentary and unsustainable nature. They are <StoryMedia
         icon="map"
         media={{
-        id: "map1_3",
+        id: "map_02b",
         type: "mapbox",
         data: {
           map: "map1",
-          legend:"map1",
+          legend:"legend1",
           update:"map1_3",
           showExtraLayers: ['COLOMBIA-MASCARA_div-politica-pais'],
-          coordinates: [-71.649086,0.296145],
-          zoomNumber: 6.00,
+          coordinates: [-73.054582,0.547990],
+          zoomNumber: 5.50,
           zoomMin: 3,
           zoomMax: 22
         }
@@ -110,19 +111,61 @@ export default () => (
         The data collected by RAISG, however, are a first approximation of the situation, reflecting a problem of unknown magnitude and whose picture represents only a part of what is really happening. The cases reported come from notifications from riverine and indigenous communities, from news gathering and satellite image analysis.
       </Paragraph>
 
+      <Table>
+        <table style={{'width':'100%'}}>
+          <tbody>
+          <tr>
+            <th>Illegal mining per country:</th>
+            <th>points</th>
+            <th>areas</th>
+          </tr>
+          <tr>
+            <td>Bolivia</td>
+            <td></td>
+            <td style={{'text-align':'right'}}>3</td>
+          </tr>
+          <tr>
+            <td>Brasil</td>
+            <td>321</td>
+            <td style={{'text-align':'right'}}>132</td>
+          </tr>
+          <tr>
+            <td>Ecuador</td>
+            <td>68</td>
+            <td style={{'text-align':'right'}}></td>
+          </tr>
+          <tr>
+            <td>Perú</td>
+            <td>24</td>
+            <td style={{'text-align':'right'}}>110</td>
+          </tr>
+          <tr>
+            <td>Venezuela</td>
+            <td>1899</td>
+            <td style={{'text-align':'right'}}></td>
+          </tr>
+          <tr>
+            <td>Total</td>
+            <td>2312</td>
+            <td style={{'text-align':'right'}}>245</td>
+          </tr>
+          </tbody>
+        </table>
+      </Table>
+
       <Paragraph>
         These <StoryMedia
         icon="map"
         media={{
-        id: "map1_4",
+        id: "map_02c",
         type: "mapbox",
         data: {
           map: "map1",
-          legend:"map1",
+          legend:"legend1",
           update:"map1_4",
           showExtraLayers: ['BOLIVIA-MASCARA_div-politica-pais'],
-          coordinates: [-65.224,-14.804],
-          zoomNumber: 6.20,
+          coordinates: [-66.405020,-14.934296],
+          zoomNumber: 5.40,
           zoomMin: 5,
           zoomMax: 22
         },
@@ -138,31 +181,38 @@ export default () => (
                   items: [
                     {
                       src: require("photos/chapter1/gallery-1/01_AlbertoBlanco_BrisasDelCuyuni13A.jpg"),
-                      credits: "Alberto Blanco"
+                      credits: "Alberto Blanco",
+                      isVertical: false,
                     },
                     {
                       src: require("photos/chapter1/gallery-1/02_AlbertoBlanco_BrisasDelCuyuni14A.jpg"),
-                      credits: "Alberto Blanco"
+                      credits: "Alberto Blanco",
+                      isVertical: true,
                     },
                     {
                       src: require("photos/chapter1/gallery-1/03_AlbertoBlanco_BrisasDelCuyuni8.jpg"),
-                      credits: "Alberto Blanco"
+                      credits: "Alberto Blanco",
+                      isVertical: false,
                     },
                     {
                       src: require("photos/chapter1/gallery-1/04_AlbertoBlanco_BrisasDelCuyuni6A.jpg"),
-                      credits: "Alberto Blanco"
+                      credits: "Alberto Blanco",
+                      isVertical: true,
                     },
                     {
                       src: require("photos/chapter1/gallery-1/05_AlbertoBlanco_BrisasDelCuyuni3.jpg"),
-                      credits: "Alberto Blanco"
+                      credits: "Alberto Blanco",
+                      isVertical: false,
                     },
                     {
                       src: require("photos/chapter1/gallery-1/06_AlbertoBlanco_BrisasDelCuyuni4.jpg"),
-                      credits: "Alberto Blanco"
+                      credits: "Alberto Blanco",
+                      isVertical: true,
                     },
                     {
                       src: require("photos/chapter1/gallery-1/07_AlbertoBlanco_BrisasDelCuyuni6A.jpg"),
-                      credits: "Alberto Blanco"
+                      credits: "Alberto Blanco",
+                      isVertical: true,
                     }
                   ]
                 }
@@ -174,16 +224,16 @@ export default () => (
         Likewise, it is probably not possible to identify all watercourses where barges are currently in use, especially when there are no indigenous communities that can provide this information. In addition to activity in remote areas, there is an <StoryMedia
         icon="map"
         media={{
-        id: "map1_5",
+        id: "map_01b",
         type: "mapbox",
         data: {
           map: "map1",
-          legend:"map1_5",
+          legend:"legend2",
           update:"map1_5",
           showExtraLayers: ['LEGENDA4 MINERACAO-LEGALZ4_mineria-pl'],
-          coordinates: [-60.480084,-5.383769],
-          zoomNumber: 4.50,
-          zoomMin: 3,
+          coordinates: [-62.798552,-5.467137],
+          zoomNumber: 4.00,
+          zoomMin: 4,
           zoomMax: 10
         },
         }}>overlap between legal and illegal mining that contributes to making the situation even more confusing</StoryMedia> and thereby making it impossible to determine the overall scale of the problem.
@@ -192,7 +242,6 @@ export default () => (
       <Paragraph>
         For this reason, as the RAISG illegal mining map and platform is further developed, data will be constantly updated, reviewed and revalidated.
       </Paragraph>
-      
       <EndChapter>
         <strong>Gold Workers</strong>
         <p className="smaller-txt pull-left">According to the{" "}<FileLink
@@ -201,8 +250,8 @@ export default () => (
           size="6.7MB"
         >report "The reality of illegal mining in Amazonian countries"</FileLink>{" "}, <i>prepared by the Peruvian Society for Environmental Law (SPDA, 2014), about 600,000 people were involved at that time in the illegal exploitation of gold. </i></p> 
         <p className="smaller-txt pull-left"><i>The continued increase in the price of gold and the evidence of more mining sites and areas across the region suggest that over the last five years this number will have considerably increased.</i></p>
-        {/* <div>Sky high price</div>
-        Average annual value of gold (in US$)<br/> */}
+        <div>Sky High Prices</div>
+        Average annual value of gold (in US$)<br/>
         <div className="image-wrapper">
           <iframe id="datawrapper-chart-AMEaF" src="//datawrapper.dwcdn.net/AMEaF/1/" scrolling="no" frameborder="0" allowtransparency="true" style={{'width': '', 'minWidth': '70%', 'padding-bottom':'10px'}} height="400"></iframe>
           <p className="pull-right graph-description"><i>

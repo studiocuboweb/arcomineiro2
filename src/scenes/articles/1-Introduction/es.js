@@ -12,6 +12,7 @@ import Quote from "components/blocks/Quote";
 import FeaturedText from "components/blocks/FeaturedText";
 import Note from "components/blocks/Note";
 import EndChapter from "components/blocks/EndChapter";
+import Table from "components/blocks/Table";
 
 export default () => (
   <article>
@@ -32,15 +33,15 @@ export default () => (
         Un estudio realizado por organizaciones de Bolivia, Brasil, Colombia, Ecuador, Perú y Venezuela confirma la existencia de, al menos, <StoryMedia
         icon="map"
         media={{
-        id: "map1_1",
+        id: "map_01",
         type: "mapbox",
           data: {
             map: "map1",
-            legend:"map1",
+            legend:"legend1",
             update: "map1_1",
             showExtraLayers: [],
-            coordinates: [-60.480084,-5.383769],
-            zoomNumber: 4.50,
+            coordinates: [-62.798552,-5.467137],
+            zoomNumber: 4,
             zoomMin: 3,
             zoomMax: 10
           }
@@ -68,138 +69,169 @@ export default () => (
         De todos los puntos mapeados, la mayoría se encuentra en Venezuela, seguido por Brasil, Ecuador y Perú. En Colombia y Bolivia la unidad de análisis correspondió a los ríos, razón por la cual la información no aparece cuantificada como puntos. Entre las 245 áreas de extracción, tres se encuentran en Bolivia, <StoryMedia
         icon="map"
         media={{
-        id: "map1_2",
+        id: "map_02a",
         type: "mapbox",
         data: {
           map: "map1",
-          legend:"map1",
+          legend:"legend1",
           update:"map1_2",
           showExtraLayers: ['Para-MASCARA_div-politica-departamental'],
-          coordinates: [-57.105593,-6.390858],
-          zoomNumber: 7.60,
+          coordinates: [-56.631297,-5.664585],
+          zoomNumber: 6.29,
           zoomMin: 5,
           zoomMax: 22
         }
         }}>132 están en Brasil, principalmente en la región del río Tapajós</StoryMedia>, y 110 en Perú, en Madre de Dios. Este departamento peruano es considerado como el sector de la Amazonia con la mayor degradación causada por  la extracción de oro.
       </Paragraph>
-      
-
       <Quote author="Camilo Guio, vice-diretor da Gaia Amazonas">
-        “Estas actividades extractivas ilegales se caracterizan por su forma antitécnica e insostenible. Se realizan principalmente a través de balsas y de dragas, que no sólo tienen efectos ambientales sobre el lecho de los ríos, sino también por la mala utilización del mercurio. Esto está generando daños a la salud de las poblaciones locales, especialmente a los pueblos indígenas”, alerta el subdirector de Gaia Amazonas, Camilo Guio.
+        Estas actividades se realizan principalmente a través de balsas y de dragas, que no sólo tienen efectos ambientales sobre el lecho de los ríos, sino también la mala utilización del mercurio.
       </Quote>
 
       <Paragraph>
-        Los datos recogidos por la RAISG, sin embargo, constituyen una primera aproximación a la situación, que refleja un problema de una magnitud desconocida y cuya visión representa sólo una parte de lo que realmente está sucediendo. Los casos reportados provienen de informes de comunidades ribereñas e indígenas, del relevamiento de noticias y del análisis de imágenes satelitales. 
+        El vice-diretor da Gaia Amazonas, Camilo Guio, alerta que "estas actividades extractivas ilegales se caracterizan por su forma antitécnica e insostenible. Se <StoryMedia
+        icon="map"
+        media={{
+        id: "map_02b",
+        type: "mapbox",
+        data: {
+          map: "map1",
+          legend:"legend1",
+          update:"map1_3",
+          showExtraLayers: ['COLOMBIA-MASCARA_div-politica-pais'],
+          coordinates: [-73.054582,0.547990],
+          zoomNumber: 5.50,
+          zoomMin: 3,
+          zoomMax: 22
+        }
+        }}>realizan principalmente a través de balsas y de dragas, que no sólo tienen efectos ambientales sobre el lecho de los ríos</StoryMedia>, sino también por la mala utilización del mercurio. Esto está generando daños a la salud de las poblaciones locales, especialmente a los pueblos indígenas”
       </Paragraph>
+
+      <Paragraph>
+        Los datos recogidos por la RAISG, sin embargo, constituyen una primera aproximación a la situación, que refleja un problema de una magnitud desconocida y cuya visión representa sólo una parte de lo que realmente está sucediendo. Los casos reportados provienen de informes de comunidades ribereñas e indígenas, del relevamiento de noticias y del análisis de imágenes satelitales.
+      </Paragraph>
+
+      <Table>
+        <table style={{'width':'100%'}}>
+          <tbody>
+          <tr>
+            <th>Minería ilegal por país:</th>
+            <th>puntos</th>
+            <th>áreas</th>
+          </tr>
+          <tr>
+            <td>Bolivia</td>
+            <td></td>
+            <td style={{'text-align':'right'}}>3</td>
+          </tr>
+          <tr>
+            <td>Brasil</td>
+            <td>321</td>
+            <td style={{'text-align':'right'}}>132</td>
+          </tr>
+          <tr>
+            <td>Ecuador</td>
+            <td>68</td>
+            <td style={{'text-align':'right'}}></td>
+          </tr>
+          <tr>
+            <td>Perú</td>
+            <td>24</td>
+            <td style={{'text-align':'right'}}>110</td>
+          </tr>
+          <tr>
+            <td>Venezuela</td>
+            <td>1899</td>
+            <td style={{'text-align':'right'}}></td>
+          </tr>
+          <tr>
+            <td>Total</td>
+            <td>2312</td>
+            <td style={{'text-align':'right'}}>245</td>
+          </tr>
+          </tbody>
+        </table>
+      </Table>
 
       <Paragraph>
         Estas <StoryMedia
         icon="map"
         media={{
-        id: "map1_4",
+        id: "map_02c",
         type: "mapbox",
         data: {
           map: "map1",
-          legend:"map1",
+          legend:"legend1",
           update:"map1_4",
           showExtraLayers: ['BOLIVIA-MASCARA_div-politica-pais'],
-          coordinates: [-65.224,-14.804],
-          zoomNumber: 6.20,
+          coordinates: [-66.405020,-14.934296],
+          zoomNumber: 5.40,
           zoomMin: 5,
           zoomMax: 22
         },
         }}>fuentes de información se manejaron con diferentes niveles de profundidad</StoryMedia> y, por otro lado, la velocidad en el crecimiento de la minería también ha presentado variaciones en la región, por lo que aquellas afectaciones que actualmente se consideran como puntos, muy pronto pueden pasar a ser áreas de explotación. De esta manera, los números pueden cambiar, pero lo cierto es que la superficie de afectación va en aumento. Esta parece ser la situación en Venezuela, donde los reportes cambian drásticamente de año a año.
       </Paragraph>
-
       <Paragraph>
-        Uma das desvantagens da metodologia seguida para levantar a informação é que ela pode não captar <StoryMedia
+      Uno de los inconvenientes de la metodología seguida para levantar la información es que puede no captar<StoryMedia
               media={{
-                id: "galery-1",
+                id: "galery-2",
                 type: "gallery",
                 data: {
                   items: [
                     {
                       src: require("photos/chapter1/gallery-1/01_AlbertoBlanco_BrisasDelCuyuni13A.jpg"),
-                      credits: "Alberto Blanco"
+                      credits: "Alberto Blanco",
+                      isVertical: false,
                     },
                     {
                       src: require("photos/chapter1/gallery-1/02_AlbertoBlanco_BrisasDelCuyuni14A.jpg"),
-                      credits: "Alberto Blanco"
+                      credits: "Alberto Blanco",
+                      isVertical: true,
                     },
                     {
                       src: require("photos/chapter1/gallery-1/03_AlbertoBlanco_BrisasDelCuyuni8.jpg"),
-                      credits: "Alberto Blanco"
+                      credits: "Alberto Blanco",
+                      isVertical: false,
                     },
                     {
                       src: require("photos/chapter1/gallery-1/04_AlbertoBlanco_BrisasDelCuyuni6A.jpg"),
-                      credits: "Alberto Blanco"
+                      credits: "Alberto Blanco",
+                      isVertical: true,
                     },
                     {
                       src: require("photos/chapter1/gallery-1/05_AlbertoBlanco_BrisasDelCuyuni3.jpg"),
-                      credits: "Alberto Blanco"
+                      credits: "Alberto Blanco",
+                      isVertical: false,
                     },
                     {
                       src: require("photos/chapter1/gallery-1/06_AlbertoBlanco_BrisasDelCuyuni4.jpg"),
-                      credits: "Alberto Blanco"
+                      credits: "Alberto Blanco",
+                      isVertical: true,
                     },
                     {
                       src: require("photos/chapter1/gallery-1/07_AlbertoBlanco_BrisasDelCuyuni6A.jpg"),
-                      credits: "Alberto Blanco"
+                      credits: "Alberto Blanco",
+                      isVertical: true,
                     }
                   ]
                 }
               }}
-            > mineração de pequena escala que atinge as partes mais remotas da Amazônia.</StoryMedia> Esta variedade põe em risco fragmentos de floresta considerados entre os mais bem conservados, bem como o deslocamento de comunidades indígenas em situação de isolamento voluntário.
-      </Paragraph>
-
-      <Paragraph>
-      Uno de los inconvenientes de la metodología seguida para levantar la información es que puede <StoryMedia
-              media={{
-                id: "galery-1",
-                type: "gallery",
-                data: {
-                  items: [
-                    {
-                      src: require("photos/chapter1/gallery-1/01_AlbertoBlanco_BrisasDelCuyuni13A.jpg")
-                    },
-                    {
-                      src: require("photos/chapter1/gallery-1/02_AlbertoBlanco_BrisasDelCuyuni14A.jpg")
-                    },
-                    {
-                      src: require("photos/chapter1/gallery-1/03_AlbertoBlanco_BrisasDelCuyuni8.jpg")
-                    },
-                    {
-                      src: require("photos/chapter1/gallery-1/04_AlbertoBlanco_BrisasDelCuyuni6A.jpg")
-                    },
-                    {
-                      src: require("photos/chapter1/gallery-1/05_AlbertoBlanco_BrisasDelCuyuni3.jpg")
-                    },
-                    {
-                      src: require("photos/chapter1/gallery-1/06_AlbertoBlanco_BrisasDelCuyuni4.jpg")
-                    },
-                    {
-                      src: require("photos/chapter1/gallery-1/07_AlbertoBlanco_BrisasDelCuyuni6A.jpg")
-                    }
-                  ]
-                }
-              }}
-            > no captar la minería de pequeña escala</StoryMedia> que llega a los lugares más remotos de la Amazonía, y que pone en riesgo fragmentos de bosque considerados entre los mejor conservados  y provoca el desplazamiento de comunidades indígenas en situación de aislamiento voluntario. 
+            > la minería de pequeña escala que llega a los lugares más remotos de la Amazonía</StoryMedia>, y que pone en riesgo fragmentos de bosque considerados entre los mejor conservados  y provoca el desplazamiento de comunidades indígenas en situación de aislamiento voluntario. 
       </Paragraph>
 
       <Paragraph>
         Del mismo modo, probablemente tampoco logra identificar todos los cursos de agua que actualmente están siendo afectados por el uso de dragas, en especial cuando no se cuenta con comunidades indígenas que puedan facilitar esa información. Además de la actividad en zonas remotas, <StoryMedia
         icon="map"
         media={{
-        id: "map1_5",
+        id: "map_01b",
         type: "mapbox",
         data: {
           map: "map1",
-          legend:"map1_5",
+          legend:"legend2",
           update:"map1_5",
           showExtraLayers: ['LEGENDA4 MINERACAO-LEGALZ4_mineria-pl'],
-          coordinates: [-60.480084,-5.383769],
-          zoomNumber: 4.50,
-          zoomMin: 3,
+          coordinates: [-62.798552,-5.467137],
+          zoomNumber: 4.00,
+          zoomMin: 4,
           zoomMax: 10
         },
         }}>existe una superposición entre minería legal e ilegal que contribuye a hacer aún más confusa la situación y,
@@ -218,8 +250,8 @@ export default () => (
           size="6.7MB"
         >“La realidad de minería ilegal en países amazónicos" elaborado por la Sociedad Peruana de Derecho Ambiental (SPDA, 2014)</FileLink>, <i>cerca de 600.000 personas se dedican a la explotación ilegal del oro. </i></p> 
         <p className="smaller-txt pull-left"><i>Con el aumento sostenido en el precio del oro y las evidencias de mayor cantidad de puntos y áreas de minería en la región, en los últimos cinco años este número debe haber aumentado considerablemente. </i></p>
-        {/* <div>Precio en la alturas</div>
-        Promedio anual del valor del oro (US$)<br/> */}
+        <div>Precio en la alturas</div>
+        Promedio anual del valor del oro (US$)<br/>
         <div className="image-wrapper">
           <iframe id="datawrapper-chart-AMEaF" src="//datawrapper.dwcdn.net/AMEaF/1/" scrolling="no" frameborder="0" allowtransparency="true" style={{'width': '', 'minWidth': '70%', 'padding-bottom':'10px'}} height="400"></iframe>
           <p className="pull-right graph-description"><i>

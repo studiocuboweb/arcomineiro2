@@ -16,13 +16,13 @@
             },
             "b3c508001ca732b127ff46fe6bd205c7": {
                 "name": "Minería",
-                "collapsed": false
+                "collapsed": true
             }
         },
         "mapbox:trackposition": false
     },
-    "center": [-60.2746527961782, -4.525221],
-    "zoom": 4.658562862837254,
+    "center": [-62.96506235852655, -4.606353916413994],
+    "zoom": 4,
     "bearing": 0,
     "pitch": 0,
     "light": {
@@ -47,13 +47,17 @@
             "tileSize": 256
         },
         "composite": {
-            "url": "mapbox://infoamazonia.a163w3r6,infoamazonia.57fl1oq8,mapbox.mapbox-streets-v7,infoamazonia.5oqd2azo,infoamazonia.6d1wlvd9,infoamazonia.aeh15zm1,infoamazonia.6ny4aw4g,infoamazonia.1ifthw9d",
+            "url": "mapbox://infoamazonia.a163w3r6,infoamazonia.57fl1oq8,mapbox.mapbox-streets-v7,infoamazonia.5oqd2azo,infoamazonia.6d1wlvd9,infoamazonia.aeh15zm1,infoamazonia.6ny4aw4g",
             "type": "vector"
         },
         "mapbox://infoamazonia.osm-brasil-fires": {
             "url": "mapbox://infoamazonia.osm-brasil-fires",
             "type": "raster",
             "tileSize": 256
+        },
+        "mapbox://infoamazonia.8i6m3mzp": {
+            "url": "mapbox://infoamazonia.8i6m3mzp",
+            "type": "vector"
         }
     },
     "sprite": "mapbox://sprites/infoamazonia/cjopukb910lt52ro5f99op0xz",
@@ -548,18 +552,18 @@
             "paint": {}
         },
         {
-            "id": "lim-amazonia-inverted-c3k18x",
+            "id": "LIM_AMZ_WORLDEXTENT",
             "type": "fill",
-            "source": "composite",
-            "source-layer": "lim_amazonia_inverted-c3k18x",
+            "source": "mapbox://infoamazonia.8i6m3mzp",
+            "source-layer": "WorldExtent_DifLimAmz-3k604u",
             "layout": {},
             "paint": {"fill-opacity": 0.63}
         }
     ],
     "created": "2018-11-20T14:41:24.822Z",
     "id": "cjopukb910lt52ro5f99op0xz",
-    "modified": "2018-11-27T12:43:00.522Z",
+    "modified": "2018-12-09T15:26:31.523Z",
     "owner": "infoamazonia",
-    "visibility": "private",
+    "visibility": "public",
     "draft": false
 }

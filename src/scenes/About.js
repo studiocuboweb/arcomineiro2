@@ -24,7 +24,7 @@ const messages = defineMessages({
   },
   siteTitle: {
     id: "head.title",
-    defaultMessage: "Sacked Amazon"
+    defaultMessage: "Looted Amazon"
   }
 });
 
@@ -71,7 +71,7 @@ const About = ({ intl, lastPath }) => {
                     <span className="fa fa-arrow-left" />
                     <FormattedMessage
                       id="about.close"
-                      defaultMessage="Continuar lendo"
+                      defaultMessage="Continue Reading"
                     />
                   </Link>
               }
@@ -80,7 +80,7 @@ const About = ({ intl, lastPath }) => {
           <Paragraph big>
             <FormattedMessage
               id="about.intro"
-              defaultMessage="Amazônia Saqueada é um panorama da situação da mineração ilegal em seis países da Amazônia. As análises e casos apresentados estão baseados em dados da plataforma {MineriaIlegal}."
+              defaultMessage="The Looted Amazon is an overview of the situation of illegal mining in six Amazonian countries. The analyses and cases presented are based on data from the {MineriaIlegal} platform."
               values={{
                 MineriaIlegal: (
                   <strong>
@@ -93,35 +93,59 @@ const About = ({ intl, lastPath }) => {
           <Paragraph big>
             <FormattedMessage
               id="about.intro2"
-              defaultMessage="Este relatório digital publicado no dia 30 de novembro foi feito em aliança por:"
+              defaultMessage="This digital report published on December 10th 2018 was prepared through a partnership between:"
             />
           </Paragraph>
           <GeneralBlock>
-              <img src={require('images/partners/ISA_min.png')} title='RAISG' alt='RAISG' style={{'margin':'0 2rem 0 0'}}  align="left" />
+              <img src={require('images/partners/raisg-p.png')} title='RAISG' alt='RAISG' style={{'margin':'0 2rem 0 0','height':'35px'}} align="left" />
               <img src={require('images/partners/infoamazonia-p.png')} title='Infoamazonia' alt='Infoamazonia' style={{'margin':0,'height':'41px'}} />
           </GeneralBlock>
           <GeneralBlock>
             <strong>
               <FormattedMessage
                 id="about.pub_partners"
-                defaultMessage="Publishing partners"
+                defaultMessage="RAISG members"
               />
             </strong>
             <p>
-              <img src={require('images/partners/ecociencia_min.png')} title='Ecociencia' alt='Ecociencia' style={{'margin':0}} align="left"/> <img src={require('images/partners/fan.png')} title='FAN' alt='FAN' style={{'margin':0}} align="left" /> <img src={require('images/partners/Gaia_min_png.png')} title='Gaia' alt='Gaia' style={{'margin':0}} align="left" /> <img src={require('images/partners/IBC_min_png.png')} title='IBC' alt='IBC' style={{'margin':0}} align="left" /> <img src={require('images/partners/Imazon_min_png.png')} title='Imazon' alt='Imazon' style={{'margin':0}} align="left" /> <img src={require('images/partners/provita_min_png.png')} title='Provita' alt='Provita' style={{'margin':0}} align="left"/> <img src={require('images/partners/Wataniba_min_png.png')} title='Wataniba' alt='Wataniba' style={{'margin':0}} />
+            <img src={require('images/partners/ISA_min.png')} title='RAISG' alt='RAISG' style={{'margin':'0 2rem 0 0'}}  align="left" /> <img src={require('images/partners/ecociencia_min.png')} title='Ecociencia' alt='Ecociencia' style={{'margin':0}} align="left"/> <img src={require('images/partners/fan.png')} title='FAN' alt='FAN' style={{'margin':0}} align="left" /> <img src={require('images/partners/Gaia_min_png.png')} title='Gaia' alt='Gaia' style={{'margin':0}} align="left" /> <img src={require('images/partners/IBC_min_png.png')} title='IBC' alt='IBC' style={{'margin':0}} align="left" /> <img src={require('images/partners/Imazon_min_png.png')} title='Imazon' alt='Imazon' style={{'margin':0}} align="left" /> <img src={require('images/partners/provita_min_png.png')} title='Provita' alt='Provita' style={{'margin':0}} align="left"/> <img src={require('images/partners/Wataniba_min_png.png')} title='Wataniba' alt='Wataniba' style={{'margin':0}} /> 
             </p>
           </GeneralBlock>
           <Paragraph>
             <strong>
               <FormattedMessage
                 id="about.photos_videos"
-                defaultMessage="Photos & videos"
+                defaultMessage="InfoAmazonia Team"
               />
             </strong>
             <br />
-            Editor - Gustavo Faleiros<br />
-            Editora Imagens e Mapas - Juliana Mori<br />
-            Desenvolvimento Web - StudioCubo<br />
+              <FormattedMessage
+                  id="about.editors"
+                  defaultMessage="Editor"
+                /> - Gustavo Faleiros<br />
+              <FormattedMessage
+                  id="about.editor_chief"
+                  defaultMessage="Image and map editor"
+                /> - Juliana Mori
+            </Paragraph>
+            <Paragraph>
+            <strong>
+              <FormattedMessage
+                id="about.video"
+                defaultMessage="Videos (in order of appearance)"
+              />
+            </strong>
+            <br />
+              <FormattedMessage
+                  id="about.videos"
+                  defaultMessage="1, 4 e 7 Claus García/FZS Perú, 2 e 6  Marcos Wesley/ISA, 3 Juan Doblas/ISA, 5 Production: Fundación Blue Foresta & Red Ambiental de Información (RAI)"
+                />
+            </Paragraph>
+            <Paragraph>
+              <FormattedMessage
+                  id="about.dev"
+                  defaultMessage="Web Development and Design"
+                /> - <a href="https://studiocuboweb.com.br" target="_blank"> StudioCubo</a><br />
           </Paragraph>
           <Button>
             <div>
@@ -131,7 +155,7 @@ const About = ({ intl, lastPath }) => {
                     <span className="fa fa-arrow-left" />
                     <FormattedMessage
                       id="about.close"
-                      defaultMessage="Continuar lendo"
+                      defaultMessage="Continue Reading"
                     />
                   </Link>
               }
@@ -141,7 +165,19 @@ const About = ({ intl, lastPath }) => {
           <Paragraph small>
             <FormattedMessage
               id="about.license"
-              defaultMessage="Except for the maps, which have different licenses, all the content published at this website is licensed using the Creative Commons BY-ND 4.0 license. For any other use, please write us at contact@infoamazonia.org"
+              defaultMessage="Copyright. To use text, image or data please contact {RAISG} and {INFO}"
+              values={{
+                RAISG: (
+                  <strong>
+                    <a href="mailto:raisgmail@socioambiental.org">RAISG</a>
+                  </strong>
+                ),
+                INFO: (
+                  <strong>
+                    <a href="mailto:contact@infoamazonia.org">INFOAMAZONIA</a>
+                  </strong>
+                )
+              }}
             />
           </Paragraph>
         </Container>

@@ -25,8 +25,8 @@
         },
         "mapbox:trackposition": false
     },
-    "center": [-70.54602916362353, -11.734815567679433],
-    "zoom": 7.4,
+    "center": [-70.92173219564233, -12.770991791795964],
+    "zoom": 8.827990227706435,
     "bearing": 0,
     "pitch": 0,
     "light": {
@@ -47,7 +47,7 @@
             "tileSize": 256
         },
         "composite": {
-            "url": "mapbox://infoamazonia.a163w3r6,infoamazonia.57fl1oq8,mapbox.mapbox-streets-v7,infoamazonia.5oqd2azo,infoamazonia.6d1wlvd9,infoamazonia.aeh15zm1,infoamazonia.6ny4aw4g,infoamazonia.1ifthw9d",
+            "url": "mapbox://infoamazonia.a163w3r6,infoamazonia.57fl1oq8,mapbox.mapbox-streets-v7,infoamazonia.5oqd2azo,infoamazonia.6d1wlvd9,infoamazonia.aeh15zm1,infoamazonia.6ny4aw4g",
             "type": "vector"
         },
         "mapbox://infoamazonia.d211ryoj": {
@@ -64,6 +64,10 @@
         },
         "mapbox://infoamazonia.8mnnicsn": {
             "url": "mapbox://infoamazonia.8mnnicsn",
+            "type": "vector"
+        },
+        "mapbox://infoamazonia.8i6m3mzp": {
+            "url": "mapbox://infoamazonia.8i6m3mzp",
             "type": "vector"
         }
     },
@@ -98,7 +102,7 @@
             }
         },
         {
-            "id": "LEGENDA ANPS-departamentales-afectadas",
+            "id": "anps-departamentales-afectadas",
             "type": "fill",
             "metadata": {"mapbox:group": "6429dd2ae950f1502989b72bfb1c627c"},
             "source": "mapbox://infoamazonia.1p0s6v93",
@@ -376,7 +380,13 @@
                     "hsla(22, 96%, 47%, 0.2)",
                     "#eb5905"
                 ],
-                "fill-opacity": 1
+                "fill-opacity": [
+                    "match",
+                    ["get", "etnias"],
+                    ["Harakmbut", "Amarakaeri"],
+                    1,
+                    0
+                ]
             }
         },
         {
@@ -431,7 +441,7 @@
             }
         },
         {
-            "id": "LEGENDA1 PONTOS_mineriailegal-pt-5owfra",
+            "id": "LEGENDA1_PONTOSmineriailegal-pt-5owfra",
             "type": "symbol",
             "metadata": {"mapbox:group": "b3c508001ca732b127ff46fe6bd205c7"},
             "source": "composite",
@@ -667,7 +677,8 @@
                 ],
                 "text-padding": 2,
                 "text-justify": "left",
-                "text-anchor": "left"
+                "text-anchor": "left",
+                "visibility": "none"
             },
             "paint": {
                 "text-color": "hsl(0, 0%, 100%)",
@@ -684,7 +695,7 @@
             "source": "composite",
             "source-layer": "cidades_principais-6gbant",
             "minzoom": 5,
-            "layout": {},
+            "layout": {"visibility": "none"},
             "paint": {
                 "circle-opacity": [
                     "interpolate",
@@ -702,8 +713,81 @@
             }
         },
         {
+            "id": "infoamazonia-rivers",
+            "type": "raster",
+            "source": "mapbox://infoamazonia.rivers",
+            "layout": {},
+            "paint": {
+                "raster-contrast": 0,
+                "raster-opacity": 0.89,
+                "raster-saturation": 0.33,
+                "raster-brightness-min": 0
+            }
+        },
+        {
+            "id": "ETIQUETA_nombre-tis-afectadas",
+            "type": "symbol",
+            "source": "mapbox://infoamazonia.8mnnicsn",
+            "source-layer": "TIs_afectadas",
+            "minzoom": 6,
+            "layout": {
+                "text-line-height": 1,
+                "text-size": 11,
+                "icon-image": "circle-11-ComTIs",
+                "text-font": ["Ubuntu Medium", "Arial Unicode MS Regular"],
+                "text-padding": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    6,
+                    1,
+                    7,
+                    12,
+                    8,
+                    25
+                ],
+                "visibility": "none",
+                "icon-size": 0.7,
+                "text-anchor": "bottom",
+                "text-field": ["get", "nombre"],
+                "text-letter-spacing": 0.01,
+                "icon-padding": 13,
+                "text-max-width": 10
+            },
+            "paint": {
+                "text-color": "#eb5905",
+                "text-halo-color": "hsla(0, 0%, 0%, 0.85)",
+                "text-halo-width": 0.5,
+                "icon-opacity": [
+                    "match",
+                    ["get", "nombre"],
+                    [
+                        "Puerto Luz",
+                        "Boca Isiriwe",
+                        "\tBarranco Chico",
+                        "San José de Karene"
+                    ],
+                    1,
+                    0
+                ],
+                "text-opacity": [
+                    "match",
+                    ["get", "nombre"],
+                    [
+                        "Puerto Luz",
+                        "Boca Isiriwe",
+                        "\tSan José de Karene",
+                        "\tBarranco Chico"
+                    ],
+                    1,
+                    0.07
+                ]
+            }
+        },
+        {
             "id": "div-politica-departamental copy",
             "type": "symbol",
+            "metadata": {},
             "source": "composite",
             "source-layer": "div_politica_departamental",
             "minzoom": 5,
@@ -729,9 +813,9 @@
                     0,
                     0,
                     5,
-                    10,
+                    30,
                     6,
-                    20,
+                    90,
                     7,
                     125
                 ],
@@ -739,7 +823,7 @@
                     "match",
                     ["get", "nomedep"],
                     ["Madre De Dios"],
-                    ["literal", [3, 4]],
+                    ["literal", [-2, -2]],
                     ["literal", [0, 0]]
                 ],
                 "text-rotation-alignment": "map",
@@ -751,7 +835,7 @@
                 "text-color": "hsl(0, 0%, 100%)",
                 "text-halo-color": "hsl(206, 12%, 49%)",
                 "text-halo-width": 0.3,
-                "text-translate": [0, 30],
+                "text-translate": [0, 0],
                 "text-opacity": [
                     "interpolate",
                     ["linear"],
@@ -764,20 +848,45 @@
             }
         },
         {
-            "id": "infoamazonia-rivers",
-            "type": "raster",
-            "source": "mapbox://infoamazonia.rivers",
-            "layout": {},
+            "id": "ETIQUETA_etnias-tis-afectadas",
+            "type": "symbol",
+            "metadata": {},
+            "source": "mapbox://infoamazonia.8mnnicsn",
+            "source-layer": "TIs_afectadas",
+            "minzoom": 8,
+            "layout": {
+                "text-line-height": 1,
+                "text-size": 19,
+                "text-font": ["Ubuntu Medium", "Arial Unicode MS Regular"],
+                "text-padding": 66,
+                "text-offset": [0, 0],
+                "text-field": [
+                    "match",
+                    ["get", "etnias"],
+                    ["Harakmbut", "Amarakaeri"],
+                    ["get", "etnias"],
+                    ["get", "etnias"]
+                ],
+                "text-letter-spacing": 0.01,
+                "text-max-width": 7
+            },
             "paint": {
-                "raster-contrast": 0,
-                "raster-opacity": 0.89,
-                "raster-saturation": 0.33,
-                "raster-brightness-min": 0
+                "text-color": "#eb5905",
+                "text-halo-color": "hsla(0, 0%, 0%, 0.85)",
+                "text-halo-width": 0.5,
+                "text-opacity": [
+                    "match",
+                    ["get", "etnias"],
+                    ["Harakmbut", "Amarakaeri"],
+                    1,
+                    0
+                ]
             }
         },
         {
             "id": "AMARAKAERI_anps-nacionales-afectadas copy 2",
             "type": "symbol",
+            "metadata": {},
             "source": "mapbox://infoamazonia.3thkpkji",
             "source-layer": "ANPs_nacionales_afectadas",
             "minzoom": 6,
@@ -802,21 +911,12 @@
                     9,
                     21
                 ],
-                "text-allow-overlap": [
-                    "step",
-                    ["zoom"],
-                    true,
-                    7,
-                    true,
-                    8,
-                    false
-                ],
                 "icon-offset": [0, 0],
                 "icon-image": [
                     "step",
                     ["zoom"],
                     "",
-                    7,
+                    6,
                     "park-11_verdestroke",
                     9,
                     "park-15_verdestroke"
@@ -827,14 +927,14 @@
                     "interpolate",
                     ["linear"],
                     ["zoom"],
+                    0,
+                    2,
                     4,
                     2,
                     7,
                     20,
                     8,
-                    30,
-                    9,
-                    20
+                    270
                 ],
                 "text-offset": [0, 0],
                 "text-anchor": "bottom",
@@ -876,116 +976,6 @@
                     "match",
                     ["get", "nombre"],
                     ["Amarakaeri"],
-                    1,
-                    0
-                ]
-            }
-        },
-        {
-            "id": "ETIQUETA_nombre-tis-afectadas",
-            "type": "symbol",
-            "source": "mapbox://infoamazonia.8mnnicsn",
-            "source-layer": "TIs_afectadas",
-            "minzoom": 7,
-            "layout": {
-                "text-line-height": 1,
-                "text-size": [
-                    "interpolate",
-                    ["linear"],
-                    ["zoom"],
-                    7,
-                    0,
-                    7.5,
-                    13
-                ],
-                "icon-image": "circle-11-ComTIs",
-                "text-font": ["Ubuntu Medium", "Arial Unicode MS Regular"],
-                "text-padding": [
-                    "interpolate",
-                    ["linear"],
-                    ["zoom"],
-                    7,
-                    1,
-                    8,
-                    12
-                ],
-                "visibility": "none",
-                "icon-size": 0.7,
-                "text-anchor": "bottom",
-                "text-field": ["get", "nombre"],
-                "text-letter-spacing": 0.01,
-                "icon-padding": 13,
-                "text-max-width": 10
-            },
-            "paint": {
-                "text-color": "#eb5905",
-                "text-halo-color": "hsla(0, 0%, 0%, 0.85)",
-                "text-halo-width": 0.5,
-                "icon-opacity": [
-                    "match",
-                    ["get", "nombre"],
-                    [
-                        "Puerto Luz",
-                        "Boca Isiriwe",
-                        "\tBarranco Chico",
-                        "San José de Karene"
-                    ],
-                    1,
-                    0
-                ],
-                "text-opacity": [
-                    "match",
-                    ["get", "nombre"],
-                    [
-                        "Puerto Luz",
-                        "Boca Isiriwe",
-                        "\tSan José de Karene",
-                        "\tBarranco Chico"
-                    ],
-                    1,
-                    0.07
-                ]
-            }
-        },
-        {
-            "id": "ETIQUETA_etnias-tis-afectadas",
-            "type": "symbol",
-            "source": "mapbox://infoamazonia.8mnnicsn",
-            "source-layer": "TIs_afectadas",
-            "minzoom": 9,
-            "layout": {
-                "text-line-height": 1,
-                "text-size": 19,
-                "text-font": ["Ubuntu Medium", "Arial Unicode MS Regular"],
-                "text-padding": 66,
-                "text-offset": [0, 0],
-                "text-field": [
-                    "match",
-                    ["get", "etnias"],
-                    ["Harakmbut", "Amarakaeri"],
-                    ["get", "etnias"],
-                    ["get", "etnias"]
-                ],
-                "text-letter-spacing": 0.01,
-                "text-max-width": 7
-            },
-            "paint": {
-                "text-color": "#eb5905",
-                "text-halo-color": "hsla(0, 0%, 0%, 0.85)",
-                "text-halo-width": 0.5,
-                "text-translate": [
-                    "interpolate",
-                    ["linear"],
-                    ["zoom"],
-                    9,
-                    ["literal", [-10, -10]],
-                    22,
-                    ["literal", [0, 0]]
-                ],
-                "text-opacity": [
-                    "match",
-                    ["get", "etnias"],
-                    ["Harakmbut", "Amarakaeri"],
                     1,
                     0
                 ]
@@ -1045,18 +1035,18 @@
             }
         },
         {
-            "id": "lim-amazonia-inverted-c3k18x",
+            "id": "LIM_AMZ_WORLDEXTENT",
             "type": "fill",
-            "source": "composite",
-            "source-layer": "lim_amazonia_inverted-c3k18x",
+            "source": "mapbox://infoamazonia.8i6m3mzp",
+            "source-layer": "WorldExtent_DifLimAmz-3k604u",
             "layout": {},
             "paint": {"fill-opacity": 0.63}
         }
     ],
     "created": "2018-11-21T13:05:12.844Z",
     "id": "cjor6kg8267ek2rmk3non13bj",
-    "modified": "2018-11-27T12:43:46.900Z",
+    "modified": "2018-12-09T16:26:13.162Z",
     "owner": "infoamazonia",
-    "visibility": "private",
+    "visibility": "public",
     "draft": false
 }

@@ -113,7 +113,7 @@ const Wrapper = styled.div`
     `}
   }
   .graph-description {
-    font-size: 1.1rem;
+    font-size: 1em;
     opacity: .5;
     font-weight: 400;
     width: 85vw;
