@@ -76,7 +76,7 @@ export default () => (
             id: "image-3",
             type: "image",
             data: {
-              credit: "Juan Pinto",
+              credits: "Juan Pinto",
               src: require('photos/chapter5/27_JuanPinto_AgustinOjeda_LiderShirian_Foto2018_Wataniba_9692-2.jpg')
             }
           }}

@@ -40,7 +40,7 @@ export default () => (
             legend:"legend1",
             update: "map1_1",
             showExtraLayers: [],
-            coordinates: [-62.798552,-5.467137],
+            coordinates: [-62.798552,-7.736987],
             zoomNumber: 4,
             zoomMin: 3,
             zoomMax: 10
@@ -76,7 +76,7 @@ export default () => (
           legend:"legend1",
           update:"map1_2",
           showExtraLayers: ['Para-MASCARA_div-politica-departamental'],
-          coordinates: [-56.631297,-5.664585],
+          coordinates: [-56.604340,-6.120435],
           zoomNumber: 6.29,
           zoomMin: 5,
           zoomMax: 22
@@ -100,7 +100,7 @@ export default () => (
           legend:"legend1",
           update:"map1_3",
           showExtraLayers: ['COLOMBIA-MASCARA_div-politica-pais'],
-          coordinates: [-73.054582,0.547990],
+          coordinates: [-72.254582,0.547990],
           zoomNumber: 5.50,
           zoomMin: 3,
           zoomMax: 22
@@ -231,8 +231,8 @@ export default () => (
           map: "map1",
           legend:"legend2",
           update:"map1_5",
-          showExtraLayers: ['LEGENDA4 MINERACAO-LEGALZ4_mineria-pl'],
-          coordinates: [-62.798552,-5.467137],
+          showExtraLayers: ['LEGENDA4_MineracaoLegalZ4'],
+          coordinates: [-62.798552,-7.736987],
           zoomNumber: 4.00,
           zoomMin: 4,
           zoomMax: 10

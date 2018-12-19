@@ -22,15 +22,15 @@ const styles = {
 
 //const categories = ['labels', 'roads', 'mineriailegal-pt-5owfra', 'parks', 'water', 'background'];
 
-const categories = ['LEGENDA1 PONTOS_mineriailegal-pt-5owfra','LEGENDA2 RIOS_mineriailegal-ln-67gxaf','LEGENDA3 AREAS_mineriailegal-pl-6rfpha','Para-MASCARA_div-politica-departamental','COLOMBIA-MASCARA_div-politica-pais','BOLIVIA-MASCARA_div-politica-pais','LEGENDA4 MINERACAO-LEGALZ4_mineria-pl','LEGENDA4- Yanomami_tis-afectadas','LEGENDA ANPs-nacionales-afectadas','LEGENDA ANPS-departamentales-afectadas','LEGENDA bosques-afectados','LEGENDATIs-afectadas','ETIQUETA_nombre-tis-afectadas','ETIQUETA_etnias-tis-afectadas'];
+const categories = ['LEGENDA1 PONTOS_mineriailegal-pt-5owfra','LEGENDA2 RIOS_mineriailegal-ln-67gxaf','LEGENDA3 AREAS_mineriailegal-pl-6rfpha','Para-MASCARA_div-politica-departamental','COLOMBIA-MASCARA_div-politica-pais','BOLIVIA-MASCARA_div-politica-pais','LEGENDA4_MineracaoLegalZ4','LEGENDA4- Yanomami_tis-afectadas','LEGENDA ANPs-nacionales-afectadas','LEGENDA ANPS-departamentales-afectadas','LEGENDA bosques-afectados','LEGENDATIs-afectadas','ETIQUETA_nombre-tis-afectadas','ETIQUETA_etnias-tis-afectadas'];
 
-const notShowInLegend = {'map1':['Para-MASCARA_div-politica-departamental','COLOMBIA-MASCARA_div-politica-pais','BOLIVIA-MASCARA_div-politica-pais','LEGENDA4 MINERACAO-LEGALZ4_mineria-pl','LEGENDA4- Yanomami_tis-afectadas','LEGENDA ANPs-nacionales-afectadas','LEGENDA ANPS-departamentales-afectadas','LEGENDA bosques-afectados','LEGENDATIs-afectadas'],
+const notShowInLegend = {'map1':['Para-MASCARA_div-politica-departamental','COLOMBIA-MASCARA_div-politica-pais','BOLIVIA-MASCARA_div-politica-pais','LEGENDA4_MineracaoLegalZ4','LEGENDA4- Yanomami_tis-afectadas','LEGENDA ANPs-nacionales-afectadas','LEGENDA ANPS-departamentales-afectadas','LEGENDA bosques-afectados','LEGENDATIs-afectadas'],
 'map1_5':['Para-MASCARA_div-politica-departamental','COLOMBIA-MASCARA_div-politica-pais','BOLIVIA-MASCARA_div-politica-pais','LEGENDA4- Yanomami_tis-afectadas','LEGENDA ANPs-nacionales-afectadas','LEGENDA ANPS-departamentales-afectadas','LEGENDA bosques-afectados','LEGENDATIs-afectadas'],
-'map2':['Para-MASCARA_div-politica-departamental','COLOMBIA-MASCARA_div-politica-pais','BOLIVIA-MASCARA_div-politica-pais','LEGENDA4 MINERACAO-LEGALZ4_mineria-pl','LEGENDA ANPs-nacionales-afectadas','LEGENDA ANPS-departamentales-afectadas','LEGENDA bosques-afectados','LEGENDATIs-afectadas'],
-'map3':['Para-MASCARA_div-politica-departamental','COLOMBIA-MASCARA_div-politica-pais','BOLIVIA-MASCARA_div-politica-pais','LEGENDA4 MINERACAO-LEGALZ4_mineria-pl','LEGENDA4- Yanomami_tis-afectadas','LEGENDATIs-afectadas'],
-'map4':['Para-MASCARA_div-politica-departamental','COLOMBIA-MASCARA_div-politica-pais','BOLIVIA-MASCARA_div-politica-pais','LEGENDA4 MINERACAO-LEGALZ4_mineria-pl','LEGENDA bosques-afectados','LEGENDA4- Yanomami_tis-afectadas'],
-'map5':['Para-MASCARA_div-politica-departamental','COLOMBIA-MASCARA_div-politica-pais','BOLIVIA-MASCARA_div-politica-pais','LEGENDA4 MINERACAO-LEGALZ4_mineria-pl','LEGENDA4- Yanomami_tis-afectadas','LEGENDA ANPs-nacionales-afectadas','LEGENDA ANPS-departamentales-afectadas','LEGENDA bosques-afectados'],
-'map6':['Para-MASCARA_div-politica-departamental','COLOMBIA-MASCARA_div-politica-pais','BOLIVIA-MASCARA_div-politica-pais','LEGENDA4 MINERACAO-LEGALZ4_mineria-pl','LEGENDA bosques-afectados','ETIQUETA_nombre-tis-afectadas','ETIQUETA_etnias-tis-afectadas','LEGENDA4- Yanomami_tis-afectadas']
+'map2':['Para-MASCARA_div-politica-departamental','COLOMBIA-MASCARA_div-politica-pais','BOLIVIA-MASCARA_div-politica-pais','LEGENDA4_MineracaoLegalZ4','LEGENDA ANPs-nacionales-afectadas','LEGENDA ANPS-departamentales-afectadas','LEGENDA bosques-afectados','LEGENDATIs-afectadas'],
+'map3':['Para-MASCARA_div-politica-departamental','COLOMBIA-MASCARA_div-politica-pais','BOLIVIA-MASCARA_div-politica-pais','LEGENDA4_MineracaoLegalZ4','LEGENDA4- Yanomami_tis-afectadas','LEGENDATIs-afectadas'],
+'map4':['Para-MASCARA_div-politica-departamental','COLOMBIA-MASCARA_div-politica-pais','BOLIVIA-MASCARA_div-politica-pais','LEGENDA4_MineracaoLegalZ4','LEGENDA bosques-afectados','LEGENDA4- Yanomami_tis-afectadas'],
+'map5':['Para-MASCARA_div-politica-departamental','COLOMBIA-MASCARA_div-politica-pais','BOLIVIA-MASCARA_div-politica-pais','LEGENDA4_MineracaoLegalZ4','LEGENDA4- Yanomami_tis-afectadas','LEGENDA ANPs-nacionales-afectadas','LEGENDA ANPS-departamentales-afectadas','LEGENDA bosques-afectados'],
+'map6':['Para-MASCARA_div-politica-departamental','COLOMBIA-MASCARA_div-politica-pais','BOLIVIA-MASCARA_div-politica-pais','LEGENDA4_MineracaoLegalZ4','LEGENDA bosques-afectados','ETIQUETA_nombre-tis-afectadas','ETIQUETA_etnias-tis-afectadas','LEGENDA4- Yanomami_tis-afectadas']
 };
 
 // Layer id patterns by category
@@ -41,7 +41,7 @@ const layerSelector = {
   'Para-MASCARA_div-politica-departamental': /Para-MASCARA_div-politica-departamental/,
   'COLOMBIA-MASCARA_div-politica-pais': /COLOMBIA-MASCARA_div-politica-pais/,
   'BOLIVIA-MASCARA_div-politica-pais': /BOLIVIA-MASCARA_div-politica-pais/,
-  'LEGENDA4 MINERACAO-LEGALZ4_mineria-pl': /LEGENDA4 MINERACAO-LEGALZ4_mineria-pl/,
+  'LEGENDA4_MineracaoLegalZ4': /LEGENDA4_MineracaoLegalZ4/,
   'LEGENDA4- Yanomami_tis-afectadas': /LEGENDA4- Yanomami_tis-afectadas/,
   'LEGENDA ANPs-nacionales-afectadas': /LEGENDA ANPs-nacionales-afectadas/,
   'LEGENDA ANPS-departamentales-afectadas': /LEGENDA ANPS-departamentales-afectadas/,
@@ -68,7 +68,7 @@ const subCategories = {
     ,'inactivo':'#492173'
     ,'s.i':'#733dd1'    
   },
-  'LEGENDA4 MINERACAO-LEGALZ4_mineria-pl': {
+  'LEGENDA4_MineracaoLegalZ4': {
     'em exploração':'#29dbc3'
     ,'solicitud':'#037587'
     ,'potencial':'#012f37'  
@@ -111,7 +111,7 @@ const layerLabels = {
   'LEGENDA1 PONTOS_mineriailegal-pt-5owfra': 'pontos de mineração ilegal',
   'LEGENDA2 RIOS_mineriailegal-ln-67gxaf': 'rios com mineração ilegal',
   'LEGENDA3 AREAS_mineriailegal-pl-6rfpha': 'áreas de mineração ilegal',
-  'LEGENDA4 MINERACAO-LEGALZ4_mineria-pl': 'áreas de mineração legal',
+  'LEGENDA4_MineracaoLegalZ4': 'áreas de mineração legal',
   'LEGENDA4- Yanomami_tis-afectadas': 'Terras Indígenas afetadas',
   'LEGENDA ANPs-nacionales-afectadas': 'Áreas protegidas (nacionais)',
   'LEGENDA ANPS-departamentales-afectadas': 'Áreas protegidas (depart.)',
@@ -147,7 +147,7 @@ export default class StyleControls extends PureComponent {
         'Para-MASCARA_div-politica-departamental': false,
         'COLOMBIA-MASCARA_div-politica-pais': false,
         'BOLIVIA-MASCARA_div-politica-pais': false,
-        'LEGENDA4 MINERACAO-LEGALZ4_mineria-pl': false,
+        'LEGENDA4_MineracaoLegalZ4': false,
         'LEGENDA4- Yanomami_tis-afectadas': false,
         'LEGENDA ANPs-nacionales-afectadas': false,
         'LEGENDA ANPS-departamentales-afectadas': false,
@@ -163,7 +163,7 @@ export default class StyleControls extends PureComponent {
         'Para-MASCARA_div-politica-departamental': '',
         'COLOMBIA-MASCARA_div-politica-pais': '',
         'BOLIVIA-MASCARA_div-politica-pais': '',
-        'LEGENDA4 MINERACAO-LEGALZ4_mineria-pl': '',
+        'LEGENDA4_MineracaoLegalZ4': '',
         'LEGENDA4- Yanomami_tis-afectadas':'',
         'LEGENDA ANPs-nacionales-afectadas': '',
         'LEGENDA ANPS-departamentales-afectadas': '',

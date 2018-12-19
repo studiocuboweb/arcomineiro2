@@ -746,7 +746,6 @@
                     8,
                     25
                 ],
-                "visibility": "none",
                 "icon-size": 0.7,
                 "text-anchor": "bottom",
                 "text-field": ["get", "nombre"],

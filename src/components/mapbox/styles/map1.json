@@ -12,7 +12,7 @@
         "mapbox:groups": {
             "dca83f9159fd0930318edff4164f6b51": {
                 "name": "BaseCartografia-RAISG e Mapbox",
-                "collapsed": true
+                "collapsed": false
             }
         },
         "mapbox:trackposition": false
@@ -55,6 +55,52 @@
     "glyphs": "mapbox://fonts/infoamazonia/{fontstack}/{range}.pbf",
     "layers": [
         {
+            "id": "BKP_MINERACAO-LEGALZ4_toda",
+            "type": "fill",
+            "metadata": {},
+            "source": "mapbox://infoamazonia.0v4erhuc",
+            "source-layer": "mineria_pl",
+            "minzoom": 4,
+            "layout": {"visibility": "none"},
+            "paint": {
+                "fill-color": [
+                    "match",
+                    ["get", "leyenda"],
+                    ["en explotación"],
+                    "hsl(172, 96%, 50%)",
+                    ["en exploración/en explotación"],
+                    "hsl(172, 71%, 51%)",
+                    ["en exploración"],
+                    "hsla(172, 72%, 42%, 0.7)",
+                    ["solicitud"],
+                    "hsl(188, 96%, 27%)",
+                    ["potencial"],
+                    "hsl(189, 96%, 11%)",
+                    ["sin información"],
+                    "hsla(0, 0%, 0%, 0.47)",
+                    "hsla(211, 93%, 53%, 0)"
+                ],
+                "fill-opacity": 0.71,
+                "fill-outline-color": [
+                    "match",
+                    ["get", "leyenda"],
+                    [
+                        "en explotación",
+                        "en exploración/en explotación",
+                        "en exploración"
+                    ],
+                    "hsla(172, 96%, 50%, 0.77)",
+                    ["solicitud"],
+                    "#037587",
+                    ["potencial"],
+                    "hsla(189, 96%, 11%, 0.7)",
+                    ["sin información"],
+                    "hsla(0, 0%, 0%, 0.47)",
+                    "hsla(0, 0%, 0%, 0)"
+                ]
+            }
+        },
+        {
             "id": "satellite",
             "type": "raster",
             "source": "mapbox://mapbox.satellite",
@@ -79,8 +125,9 @@
             }
         },
         {
-            "id": "LEGENDA4 MINERACAO-LEGALZ4_mineria-pl",
+            "id": "LEGENDA4_MineracaoLegalZ4",
             "type": "fill",
+            "metadata": {},
             "source": "mapbox://infoamazonia.0v4erhuc",
             "source-layer": "mineria_pl",
             "minzoom": 4,
@@ -90,35 +137,29 @@
                     "match",
                     ["get", "leyenda"],
                     ["en explotación"],
-                    "hsl(172, 96%, 50%)",
+                    "hsla(198, 94%, 30%, 0.9)",
                     ["en exploración/en explotación"],
-                    "hsl(172, 71%, 51%)",
+                    "#021f55",
                     ["en exploración"],
-                    "hsla(172, 72%, 42%, 0.7)",
+                    "#05fad9",
                     ["solicitud"],
-                    "hsl(188, 96%, 27%)",
+                    "hsla(188, 96%, 27%, 0)",
                     ["potencial"],
-                    "hsl(189, 96%, 11%)",
+                    "hsla(189, 96%, 11%, 0)",
                     ["sin información"],
-                    "hsla(0, 0%, 0%, 0.47)",
-                    "#1883f7"
+                    "hsla(0, 0%, 0%, 0)",
+                    "hsla(211, 93%, 53%, 0)"
                 ],
                 "fill-opacity": 0.71,
                 "fill-outline-color": [
                     "match",
                     ["get", "leyenda"],
-                    [
-                        "en explotación",
-                        "en exploración/en explotación",
-                        "en exploración"
-                    ],
-                    "hsla(172, 96%, 50%, 0.77)",
-                    ["solicitud"],
-                    "#037587",
-                    ["potencial"],
-                    "hsla(189, 96%, 11%, 0.7)",
-                    ["sin información"],
-                    "hsla(0, 0%, 0%, 0.47)",
+                    ["en exploración"],
+                    "hsla(229, 79%, 44%, 0.31)",
+                    ["en explotación"],
+                    "#1eb8a4",
+                    ["en exploración/en explotación"],
+                    "hsla(239, 95%, 21%, 0.51)",
                     "hsla(0, 0%, 0%, 0)"
                 ]
             }
@@ -288,75 +329,6 @@
             }
         },
         {
-            "id": "BOLIVIA-MASCARA_div-politica-pais",
-            "type": "fill",
-            "source": "composite",
-            "source-layer": "div_politica_pais",
-            "minzoom": 5,
-            "layout": {},
-            "paint": {
-                "fill-color": [
-                    "match",
-                    ["get", "paisiso"],
-                    ["BOL"],
-                    "hsla(0, 0%, 0%, 0)",
-                    "hsla(0, 0%, 0%, 0.53)"
-                ],
-                "fill-opacity": ["match", ["get", "paisiso"], ["BOL"], 0, 1]
-            }
-        },
-        {
-            "id": "COLOMBIA-MASCARA_div-politica-pais",
-            "type": "fill",
-            "source": "composite",
-            "source-layer": "div_politica_pais",
-            "minzoom": 5,
-            "layout": {},
-            "paint": {
-                "fill-color": [
-                    "match",
-                    ["get", "paisiso"],
-                    ["COL"],
-                    "hsla(0, 0%, 0%, 0)",
-                    "hsla(0, 0%, 0%, 0.53)"
-                ],
-                "fill-opacity": ["match", ["get", "paisiso"], ["COL"], 0, 1]
-            }
-        },
-        {
-            "id": "Para-MASCARA_div-politica-departamental",
-            "type": "fill",
-            "source": "composite",
-            "source-layer": "div_politica_departamental",
-            "minzoom": 4,
-            "maxzoom": 8,
-            "layout": {},
-            "paint": {
-                "fill-color": "hsla(0, 0%, 0%, 0.46)",
-                "fill-opacity": [
-                    "interpolate",
-                    ["linear"],
-                    ["zoom"],
-                    6.49,
-                    ["match", ["get", "nomedep"], ["Pará"], 0, 0.93],
-                    8,
-                    ["match", ["get", "nomedep"], ["Pará"], 0, 0]
-                ],
-                "fill-outline-color": "hsla(0, 0%, 100%, 0)"
-            }
-        },
-        {
-            "id": "LIM_AMZ_WORLDEXTENT",
-            "type": "fill",
-            "source": "mapbox://infoamazonia.8i6m3mzp",
-            "source-layer": "WorldExtent_DifLimAmz-3k604u",
-            "layout": {},
-            "paint": {
-                "fill-opacity": 0.63,
-                "fill-outline-color": "hsla(0, 0%, 100%, 0.33)"
-            }
-        },
-        {
             "id": "div-politica-departamental copy",
             "type": "symbol",
             "source": "composite",
@@ -384,9 +356,9 @@
                     ["linear"],
                     ["zoom"],
                     5,
-                    50,
-                    22,
-                    50
+                    160,
+                    6,
+                    160
                 ],
                 "text-offset": [
                     "match",
@@ -534,11 +506,83 @@
                 "text-halo-width": 0.3,
                 "text-translate": [5, 0]
             }
+        },
+        {
+            "id": "BOLIVIA-MASCARA_div-politica-pais",
+            "type": "fill",
+            "metadata": {},
+            "source": "composite",
+            "source-layer": "div_politica_pais",
+            "minzoom": 5,
+            "layout": {},
+            "paint": {
+                "fill-color": [
+                    "match",
+                    ["get", "paisiso"],
+                    ["BOL"],
+                    "hsla(0, 0%, 0%, 0)",
+                    "hsla(0, 0%, 0%, 0.53)"
+                ],
+                "fill-opacity": ["match", ["get", "paisiso"], ["BOL"], 0, 1]
+            }
+        },
+        {
+            "id": "COLOMBIA-MASCARA_div-politica-pais",
+            "type": "fill",
+            "metadata": {},
+            "source": "composite",
+            "source-layer": "div_politica_pais",
+            "minzoom": 5,
+            "layout": {},
+            "paint": {
+                "fill-color": [
+                    "match",
+                    ["get", "paisiso"],
+                    ["COL"],
+                    "hsla(0, 0%, 0%, 0)",
+                    "hsla(0, 0%, 0%, 0.53)"
+                ],
+                "fill-opacity": ["match", ["get", "paisiso"], ["COL"], 0, 1]
+            }
+        },
+        {
+            "id": "Para-MASCARA_div-politica-departamental",
+            "type": "fill",
+            "metadata": {},
+            "source": "composite",
+            "source-layer": "div_politica_departamental",
+            "minzoom": 4,
+            "maxzoom": 8,
+            "layout": {},
+            "paint": {
+                "fill-color": "hsla(0, 0%, 0%, 0.46)",
+                "fill-opacity": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    6.49,
+                    ["match", ["get", "nomedep"], ["Pará"], 0, 0.93],
+                    8,
+                    ["match", ["get", "nomedep"], ["Pará"], 0, 0]
+                ],
+                "fill-outline-color": "hsla(0, 0%, 100%, 0)"
+            }
+        },
+        {
+            "id": "LIM_AMZ_WORLDEXTENT",
+            "type": "fill",
+            "source": "mapbox://infoamazonia.8i6m3mzp",
+            "source-layer": "WorldExtent_DifLimAmz-3k604u",
+            "layout": {},
+            "paint": {
+                "fill-opacity": 0.63,
+                "fill-outline-color": "hsla(0, 0%, 100%, 0.33)"
+            }
         }
     ],
     "created": "2018-11-12T23:01:43.192Z",
     "id": "cjoewww8i0crx2rqko70g8zfq",
-    "modified": "2018-12-08T18:01:14.915Z",
+    "modified": "2018-12-19T02:43:27.765Z",
     "owner": "infoamazonia",
     "visibility": "public",
     "draft": false

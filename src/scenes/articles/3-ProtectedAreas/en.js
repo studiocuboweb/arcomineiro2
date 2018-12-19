@@ -110,7 +110,7 @@ export default () => (
             legend:"legend3",
             update:"map3",
             showExtraLayers: ['LEGENDA ANPs-nacionales-afectadas','LEGENDA ANPS-departamentales-afectadas','LEGENDA bosques-afectados'],
-            coordinates: [-64.770093,-4.650804],
+            coordinates: [-64.770093,-6.650804],
             zoomNumber: 4.00,
             zoomMin: 4,
             zoomMax: 12

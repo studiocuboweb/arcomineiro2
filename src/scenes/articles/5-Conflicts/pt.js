@@ -74,9 +74,9 @@ export default () => (
           "A mineração ilegal não concebe o futuro de nossos filhos. Embora possamos nos beneficiar no curto prazo, estamos destruindo o meio ambiente, nossa selva, nosso lar ", diz <StoryMedia
           media={{
             id: "image-3",
-            type: "image",
+            type: "image",              
             data: {
-              credit: "Juan Pinto",
+              credits: "Juan Pinto",
               src: require('photos/chapter5/27_JuanPinto_AgustinOjeda_LiderShirian_Foto2018_Wataniba_9692-2.jpg')
             }
           }}
