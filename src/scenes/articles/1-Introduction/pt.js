@@ -165,7 +165,7 @@ export default () => (
           legend:"legend1",
           update:"map1_4",
           showExtraLayers: ['BOLIVIA-MASCARA_div-politica-pais'],
-          coordinates: [-65.224,-14.804],
+          coordinates: [-65.224,-15.384330],
           zoomNumber: 5.40,
           zoomMin: 5,
           zoomMax: 22
