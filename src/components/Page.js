@@ -6,6 +6,27 @@ import ArticleNav from 'components/Nav';
 import Content from 'components/Content';
 
 const Wrapper = styled.div`
+  #intro_transtion_overlay {
+    position:fixed;
+    padding:0;
+    margin:0;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index:8888017;
+    background:rgba(0,0,0,1);
+    text-align: center;
+  }
+  #intro_transtion_overlay.up {
+    height: 0;
+    transition: height 2s;
+  }
+  #intro_transtion_overlay>span {
+    padding-bottom:15px;
+    position:absolute;
+    bottom:0;
+  }
   position: fixed;
   top: 0;
   right: 0;
@@ -44,13 +65,21 @@ const Wrapper = styled.div`
     }
   }
 `;
+// /
+export default class Page extends React.Component {
+  componentDidMount() {
+    document.getElementById('intro_transtion_overlay').classList.add('up');
+  }
 
-export default ({ children }) => (
-  <Wrapper>
-    <Header />
-    <ArticleNav />
-    <Content>
-      {children}
-    </Content>
-  </Wrapper>
-)
+  render() {
+    return(
+      <Wrapper>
+        <Header />
+        <ArticleNav />
+        <Content>
+          {this.props.children}
+        </Content>
+        <div id="intro_transtion_overlay"><span>scroll down</span></div>
+      </Wrapper>
+  )}
+}

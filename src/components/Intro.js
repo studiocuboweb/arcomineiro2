@@ -97,6 +97,19 @@ class Intro extends Component {
         minZoom: 9,
         maxZoom: 16,   
         zoom: 9.68
+      },
+      settings: {
+        dragPan: false,
+        dragRotate: false,
+        scrollZoom: false,
+        touchZoom: false,
+        touchRotate: false,
+        keyboard: false,
+        doubleClickZoom: false,
+        minZoom: 0,
+        maxZoom: 20,
+        minPitch: 0,
+        maxPitch: 85
       }
     }
   }
@@ -107,8 +120,9 @@ class Intro extends Component {
     title.innerHTML = locations[locations.length - 1].title;
     description.innerHTML = locations[locations.length - 1].description;
     const scope = this;
-      const map = this._map.getMap()
-      map.on('load', function() {
+    const map = this._map.getMap()
+    
+    map.on('load', function() {
       map.addLayer({
         "id": "highlight",
         "type": "fill",
@@ -126,7 +140,8 @@ class Intro extends Component {
 
         // Start the playback animation for each borough
         scope.playback(0,map);
-      })
+    })
+      
   }
   componentWillUnmount() {
 
@@ -166,7 +181,7 @@ class Intro extends Component {
   }
 
   render() {
-    const {viewport} = this.state;
+    const {viewport,settings} = this.state;
     const defaultMapStyle = 'mapbox://styles/mapbox/streets-v10';
     return (
       <div>
@@ -179,6 +194,7 @@ class Intro extends Component {
         </Overlay>
         <ReactMapGL
           {...viewport}
+          {...settings}
           ref={(c) => this._map = c}
           mapStyle={defaultMapStyle}
           onViewportChange={this._onViewportChange}
