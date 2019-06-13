@@ -1,6 +1,7 @@
 /* global window */
 import React, {Component} from 'react';
 import ReactMapGL from 'react-map-gl';
+import 'mapbox-gl/dist/mapbox-gl.css';
 //import MAP_STYLE from './style.json';
 // import MAP_STYLE from './mapbox/styles/map1.json';
 import {fromJS} from 'immutable';

@@ -344,7 +344,7 @@ class Scene extends Component {
                   </Link>
                 </div>
               ) : (
-                <Link to="/story">
+                <Link to="/intro">
                   <FormattedMessage
                     id="general.readStory"
                     defaultMessage="Read the Story"

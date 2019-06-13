@@ -1,5 +1,4 @@
-# RAISG-Especial-1-A-Amazonia-saqueada
-Especial: Olhando por dentro da floresta (Série de reportagens em REACT)
+# Infoamazonia - Arco Mineiro 2
 
 # PRÉ REQUISITOS
 - Instalar o docker: https://docs.docker.com/install/
@@ -8,7 +7,7 @@ Especial: Olhando por dentro da floresta (Série de reportagens em REACT)
 # INSTALAÇÃO DO SITE
 
 - CLONANDO O SITE DO GITHUB
-git clone https://github.com/studiocuboweb/RAISG-Especial-1-A-Amazonia-saqueada.git
+git clone https://github.com/studiocuboweb/arcomineiro2.git
 
 - INSTALANDO O NPM E AS DEPENDENCIAS
 docker run -v "$PWD":/usr/src/app -w /usr/src/app node:8 yarn install<br/>
