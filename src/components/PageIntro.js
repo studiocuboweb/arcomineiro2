@@ -9,6 +9,7 @@ import Content from 'components/Content';
 const Wrapper = styled.div`
   #intro_transtion_overlay {
     position:fixed;
+    display:block;
     padding:0;
     margin:0;
     top:0;
@@ -27,9 +28,17 @@ const Wrapper = styled.div`
     background:rgba(0,0,0,1);
   }
   #intro_transtion_overlay>span {
+    width:100px;
     padding-bottom:15px;
     position:absolute;
     bottom:0;
+    left:0;
+    right:0;
+    margin: 0 auto;
+  }
+  #intro_transtion_overlay>span>p {
+    width:50px;
+    margin: 10px auto;
   }
   position: fixed;
   top: 0;
@@ -112,11 +121,10 @@ class PageIntro extends Component {
       return (
     <Wrapper>
       {this.renderRedirect()}
-      <Header />
       <Content>
         {this.props.children}
       </Content>
-      <div id="intro_transtion_overlay"><span>scroll down</span></div>
+      <div id="intro_transtion_overlay"><span>scroll down<p><i class="arrow down"></i></p></span></div>
     </Wrapper>
   )}
 }

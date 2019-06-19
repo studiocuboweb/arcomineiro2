@@ -23,9 +23,17 @@ const Wrapper = styled.div`
     transition: height 2s;
   }
   #intro_transtion_overlay>span {
+    width:100px;
     padding-bottom:15px;
     position:absolute;
     bottom:0;
+    left:0;
+    right:0;
+    margin: 0 auto;
+  }
+  #intro_transtion_overlay>span>p {
+    width:50px;
+    margin: 10px auto;
   }
   position: fixed;
   top: 0;
@@ -79,7 +87,7 @@ export default class Page extends React.Component {
         <Content>
           {this.props.children}
         </Content>
-        <div id="intro_transtion_overlay"><span>scroll down</span></div>
+        <div id="intro_transtion_overlay"><span>scroll down<p><i class="arrow down"></i></p></span></div>
       </Wrapper>
   )}
 }

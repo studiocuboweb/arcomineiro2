@@ -2,24 +2,54 @@ import React, { Component } from "react";
 import ReactMapGL from 'react-map-gl';
 import styled from "styled-components";
 import PropTypes from 'prop-types';
+import { media } from "styles/utils";
 
 const MAPBOX_TOKEN = 'pk.eyJ1IjoiaW5mb2FtYXpvbmlhIiwiYSI6InItajRmMGsifQ.JnRnLDiUXSEpgn7bPDzp7g'; // Set your mapbox token here
 
 const Overlay = styled.section`
-  .map-overlay-container {
+  ${media.phone`
+    position: static;
+    padding: 10px;
+    z-index: 1;
+  `}
+  ${media.phablet`
+    position: static;
+    padding: 10px;
+    z-index: 1;
+  `}
+  ${media.desktop`
     position: absolute;
     width: 25%;
-    top: 0;
+    top: 40%;
     left: 0;
     padding: 10px;
     z-index: 1;
-  }
+  `}
+  ${media.desktopHD`
+    position: absolute;
+    width: 25%;
+    top: 40%;
+    left: 0;
+    padding: 10px;
+    z-index: 1;
+  `}
   .map-overlay {
     font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
     background-color: #fff;
     border-radius: 3px;
-    padding: 10px;
-    box-shadow:0 1px 2px rgba(0,0,0,0.20);
+    padding: 15px;
+    ${media.phone`
+      box-shadow: none;
+    `}
+    ${media.phablet`
+      box-shadow: none;
+    `}
+    ${media.desktop`
+      box-shadow:0 1px 2px rgba(0,0,0,0.20);
+    `}
+    ${media.desktopHD`
+      box-shadow:0 1px 2px rgba(0,0,0,0.20);
+    `}
   }
   .map-overlay h2, .map-overlay p {
     margin: 0 0 10px;
@@ -143,12 +173,6 @@ class Intro extends Component {
     })
       
   }
-  componentWillUnmount() {
-
-  }
-  componentWillReceiveProps(nextProps) {
-
-  }
 
   _onViewportChange = viewport => {
     this.setState({viewport});
@@ -185,7 +209,7 @@ class Intro extends Component {
     const defaultMapStyle = 'mapbox://styles/mapbox/streets-v10';
     return (
       <div>
-        <Overlay class='map-overlay-container'>
+        <Overlay>
           <div class='map-overlay'>
             <h2 id='location-title'></h2>
             <p id='location-description'></p>
