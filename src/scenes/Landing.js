@@ -330,7 +330,7 @@ class Scene extends Component {
             <div>
               {lastPath ? (
                 <div>
-                  <Link to="/story" onClick={resetContext}>
+                  <Link to="/intro" onClick={resetContext}>
                     <FormattedMessage
                       id="general.startOver"
                       defaultMessage="Start Over"
