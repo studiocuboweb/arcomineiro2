@@ -100,10 +100,12 @@ class PageIntro extends Component {
 
   componentDidMount() {
     window.addEventListener('wheel', this.handleScroll, { passive: true })
+    window.addEventListener('touchmove', this.handleScroll, { passive: true })
   }
 
   componentWillUnmount() {
     window.removeEventListener('wheel', this.handleScroll)
+    window.removeEventListener('touchmove', this.handleScroll)
   }
 
   handleScroll() {
