@@ -21,7 +21,6 @@ const Title = styled.h1`
     border-radius: 100%;
     float: left;
     margin-right: -.5em;
-    width: 6em;
     margin-top: -.1em;
   }
   a {

@@ -140,13 +140,6 @@ class PageIntro extends Component {
           <FormattedMessage
             id="intro.skip"
             defaultMessage="Skip Intro"
-            values={{
-              MineriaIlegal: (
-                <strong>
-                  <a href="https://mineria.amazoniasocioambiental.org/" target="_blank">Minería Ilegal</a>
-                </strong>
-              )
-            }}
           />
           <p><i class="arrow down"></i></p>
         </span>

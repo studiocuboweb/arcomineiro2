@@ -160,7 +160,7 @@ const Top = styled.div`
     font-size: 1.1em;
     color: #fff;
     .logo {
-      margin-left: -1rem;
+      margin-left: 3.5rem;
     }
     ${media.tablet`
       font-size: 1.2em;

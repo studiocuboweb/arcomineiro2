@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import Header from 'components/Header';
 import ArticleNav from 'components/Nav';
 import Content from 'components/Content';
+import { FormattedMessage } from "react-intl";
 
 const Wrapper = styled.div`
   #intro_transtion_overlay {
@@ -87,7 +88,12 @@ export default class Page extends React.Component {
         <Content>
           {this.props.children}
         </Content>
-        <div id="intro_transtion_overlay"><span>scroll down<p><i class="arrow down"></i></p></span></div>
+        <div id="intro_transtion_overlay"><span>
+          <FormattedMessage
+            id="intro.skip"
+            defaultMessage="Skip Intro"
+          />
+          <p><i class="arrow down"></i></p></span></div>
       </Wrapper>
   )}
 }
