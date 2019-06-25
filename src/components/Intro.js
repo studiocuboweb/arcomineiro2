@@ -61,7 +61,7 @@ const Overlay = styled.section`
   var description = {}
 
   var locations = [{
-  "id": "2",
+  "id": 1,
   "title": "The Bronx",
   "description": "This is where hip-hop was born, where the Yankees became a dynasty and where you can find New York City's leading zoo and botanical garden.",
   "camera": {
@@ -69,7 +69,7 @@ const Overlay = styled.section`
   zoom: 5.85,
   }
   }, {
-  "id": "3",
+  "id": 2,
   "title": "Brooklyn",
   "description": "No matter how hip it looks on TV, NYC's most populous borough is best experienced in person. Read on to find out about live music, Prospect Park, Nets basketball and more.",
   "camera": {
@@ -78,7 +78,7 @@ const Overlay = styled.section`
   zoom: 5.85,
   }
   }, {
-  "id": "1",
+  "id": 1,
   "title": "Manhattan",
   "description": "Even if you think you know Manhattan—its world-class museums, fine dining and unforgettable views—the borough always has something new and exciting in store.",
   "camera": {
@@ -86,7 +86,7 @@ const Overlay = styled.section`
   zoom: 5.85,
   }
   }, {
-  "id": "4",
+  "id": 2,
   "title": "Queens",
   "description": "Taste food from around the globe, watch Mets baseball and US Open tennis, see cutting-edge art and more in one of the world's most diverse places.",
   "camera": {
@@ -95,7 +95,7 @@ const Overlay = styled.section`
   zoom: 5.85,
   }
   }, {
-  "id": "5",
+  "id": 1,
   "title": "Staten Island",
   "description": "Take a free ferry ride to an island getaway filled with historic architecture, stunning views, gardens and many family-friendly attractions.",
   "camera": {
@@ -158,15 +158,15 @@ class Intro extends Component {
         "type": "fill",
         "source": {
           "type": "vector",
-          "url": "mapbox://infoamazonia.bfdc2no5"
+          "url": "mapbox://infoamazonia.axa8vv2c"
           },
-            "source-layer": "arrows2-c679jn",
+            "source-layer": "arrows3-3yd3g3",
             "paint": {
               "fill-color": "#fd6b50",
               "fill-opacity": 1
           },
           "filter": ["==", "id", ""]
-        },'linha_ArcoMinero_mineria');
+        });
 
         // Start the playback animation for each borough
         scope.playback(0,map);
