@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom';
 import styled from 'styled-components';
-
+import { FormattedMessage } from "react-intl";
 import HeaderIntro from 'components/HeaderIntro';
 import ArticleNav from 'components/Nav';
 import Content from 'components/Content';
@@ -135,7 +135,22 @@ class PageIntro extends Component {
       <Content>
         {this.props.children}
       </Content>
-      <div id="intro_transtion_overlay"><span>scroll down<p><i class="arrow down"></i></p></span></div>
+      <div id="intro_transtion_overlay">
+        <span>
+          <FormattedMessage
+            id="intro.skip"
+            defaultMessage="Skip Intro"
+            values={{
+              MineriaIlegal: (
+                <strong>
+                  <a href="https://mineria.amazoniasocioambiental.org/" target="_blank">Minería Ilegal</a>
+                </strong>
+              )
+            }}
+          />
+          <p><i class="arrow down"></i></p>
+        </span>
+      </div>
     </Wrapper>
   )}
 }
