@@ -36,9 +36,7 @@ const Overlay = styled.section`
     z-index: 1;
   `}
   .map-overlay {
-    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
     background-color: #fff;
-    border-radius: 3px;
     padding: 15px;
     ${media.phone`
       box-shadow: none;

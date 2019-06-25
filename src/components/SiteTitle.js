@@ -5,8 +5,8 @@ import { media, color } from 'styles/utils';
 import { Link } from 'react-router-dom';
 
 const logos = [
-  require('images/logo_3.svg'),
-  require('images/logo_3_black.svg')
+  require('images/logo-arco.png'),
+  require('images/logo-arco.png')
 ];
 
 const Title = styled.h1`
@@ -21,7 +21,7 @@ const Title = styled.h1`
     border-radius: 100%;
     float: left;
     margin-right: -.5em;
-    width: 1.65em;
+    width: 6em;
     margin-top: -.1em;
   }
   a {
@@ -76,25 +76,9 @@ class SiteTitle extends Component {
         <Title {...props}>
           <Link to="/">
             <span className="logo">
-              <img src={logos[logoIndex]} alt="Digging into the Mining Arc" />
+              <img src={logos[logoIndex]} align="right" alt="Digging into the Mining Arc" />
             </span>
-            <span className="title-text">
-              <span className="title-item title-1">
-                <FormattedMessage
-                  id="general.siteTitle1"
-                  defaultMessage="Digging" />
-              </span>
-              <span className="title-item title-2">
-                <FormattedMessage
-                  id="general.siteTitle2"
-                  defaultMessage="into the" />
-              </span>
-              <span className="title-item title-3">
-                <FormattedMessage
-                  id="general.siteTitle3"
-                  defaultMessage="Mining Arc" />
-              </span>
-            </span>
+
           </Link>
         </Title>
       </div>
