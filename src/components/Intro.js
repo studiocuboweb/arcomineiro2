@@ -9,11 +9,13 @@ const MAPBOX_TOKEN = 'pk.eyJ1IjoiaW5mb2FtYXpvbmlhIiwiYSI6InItajRmMGsifQ.JnRnLDiU
 const Overlay = styled.section`
   ${media.phone`
     position: static;
+    margin-top:1rem;
     padding: 10px;
     z-index: 1;
   `}
   ${media.phablet`
     position: static;
+    margin-top:1rem;
     padding: 10px;
     z-index: 1;
   `}
@@ -63,36 +65,34 @@ const Overlay = styled.section`
   "title": "The Bronx",
   "description": "This is where hip-hop was born, where the Yankees became a dynasty and where you can find New York City's leading zoo and botanical garden.",
   "camera": {
-  center: [-73.8709, 40.8255],
-  zoom: 12.21,
-  pitch: 50
+  center: [-64.284679, 5.541481],
+  zoom: 5.85,
   }
   }, {
   "id": "3",
   "title": "Brooklyn",
   "description": "No matter how hip it looks on TV, NYC's most populous borough is best experienced in person. Read on to find out about live music, Prospect Park, Nets basketball and more.",
   "camera": {
-  center: [-73.9499, 40.6260],
+  center: [-64.284679, 5.541481],
   bearing: -8.9,
-  zoom: 11.68
+  zoom: 5.85,
   }
   }, {
   "id": "1",
   "title": "Manhattan",
   "description": "Even if you think you know Manhattan—its world-class museums, fine dining and unforgettable views—the borough always has something new and exciting in store.",
   "camera": {
-  center: [-74.0070, 40.7437],
-  bearing: 25.3,
-  zoom: 11.5
+  center: [-64.284679, 5.541481],
+  zoom: 5.85,
   }
   }, {
   "id": "4",
   "title": "Queens",
   "description": "Taste food from around the globe, watch Mets baseball and US Open tennis, see cutting-edge art and more in one of the world's most diverse places.",
   "camera": {
-  center: [-73.8432, 40.6923],
-  bearing: 36,
-  zoom: 11.37
+  center: [-64.284679, 5.541481],
+  bearing: -8.9,
+  zoom: 5.85,
   }
   }, {
   "id": "5",
@@ -100,16 +100,16 @@ const Overlay = styled.section`
   "description": "Take a free ferry ride to an island getaway filled with historic architecture, stunning views, gardens and many family-friendly attractions.",
   "camera": {
   center: [-74.1991, 40.5441],
-  bearing: 28.4,
-  zoom: 11.64
+  bearing: -8.9,
+  zoom: 5.85,
   }
   }, {
   "title": "Boroughs of new york",
   "description": "New York City is made up of five boroughs: the Bronx, Brooklyn, Manhattan, Queens and Staten Island. Each one has enough attractions—and enough personality—to be a city all its own.",
   "camera": {
   center: [-74.0315, 40.6989],
-  zoom: 9.68,
-  bearing: 0,
+  zoom: 5.85,
+  bearing: -8.9,
   pitch: 0
   }
   }];
@@ -157,16 +157,16 @@ class Intro extends Component {
         "id": "highlight",
         "type": "fill",
         "source": {
-        "type": "vector",
-        "url": "mapbox://mapbox.8ibmsn6u"
-        },
-        "source-layer": "original",
-        "paint": {
-        "fill-color": "#fd6b50",
-        "fill-opacity": 0.25
-        },
-        "filter": ["==", "borocode", ""]
-        }, 'settlement-subdivision-label');
+          "type": "vector",
+          "url": "mapbox://infoamazonia.bfdc2no5"
+          },
+            "source-layer": "arrows2-c679jn",
+            "paint": {
+              "fill-color": "#fd6b50",
+              "fill-opacity": 1
+          },
+          "filter": ["==", "id", ""]
+        },'linha_ArcoMinero_mineria');
 
         // Start the playback animation for each borough
         scope.playback(0,map);
@@ -182,7 +182,7 @@ class Intro extends Component {
     // Only show the polygon feature that cooresponds to `borocode` in the data
     console.log('highlightBorough')
     console.log(code)
-    map.setFilter('highlight', ["==", "borocode", code]);
+    map.setFilter('highlight', ["==", "id", code]);
   }
 
   playback(index,map) {
@@ -206,7 +206,8 @@ class Intro extends Component {
 
   render() {
     const {viewport,settings} = this.state;
-    const defaultMapStyle = 'mapbox://styles/mapbox/streets-v10';
+    //const defaultMapStyle = 'mapbox://styles/mapbox/streets-v10';
+    const defaultMapStyle = 'mapbox://styles/infoamazonia/cjxaz1yr742441cqm9vozuovl';
     return (
       <div>
         <Overlay>

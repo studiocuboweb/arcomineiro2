@@ -4,10 +4,10 @@ import { FormattedMessage } from 'react-intl';
 import { media, color } from 'styles/utils';
 import { Link } from 'react-router-dom';
 
-// const logos = [
-//   require('images/logo_3.svg'),
-//   require('images/logo_3_black.svg')
-// ];
+const logos = [
+  require('images/logo_3.svg'),
+  require('images/logo_3_black.svg')
+];
 
 const Title = styled.h1`
   display: block;
@@ -63,15 +63,6 @@ const Title = styled.h1`
       font-size: 1.6em;
       font-weight: 700;
       padding: 0;
-      ${media.phone`
-      font-size: 1.2em;
-    `}
-    ${media.phablet`
-      font-size: 1.6em;
-    `}
-    ${media.desktop`
-      font-size: 1.6em;
-    `};
     }
   }
 `
@@ -85,13 +76,23 @@ class SiteTitle extends Component {
         <Title {...props}>
           <Link to="/">
             <span className="logo">
-              {/* <img src={logos[logoIndex]} alt="Digging into the Mining Arc" /> */}
+              <img src={logos[logoIndex]} alt="Digging into the Mining Arc" />
             </span>
             <span className="title-text">
+              <span className="title-item title-1">
+                <FormattedMessage
+                  id="general.siteTitle1"
+                  defaultMessage="Digging" />
+              </span>
+              <span className="title-item title-2">
+                <FormattedMessage
+                  id="general.siteTitle2"
+                  defaultMessage="into the" />
+              </span>
               <span className="title-item title-3">
                 <FormattedMessage
                   id="general.siteTitle3"
-                  defaultMessage="Looted Amazon" />
+                  defaultMessage="Mining Arc" />
               </span>
             </span>
           </Link>

@@ -2,11 +2,17 @@ import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom';
 import styled from 'styled-components';
 
-import Header from 'components/Header';
+import HeaderIntro from 'components/HeaderIntro';
 import ArticleNav from 'components/Nav';
 import Content from 'components/Content';
 
 const Wrapper = styled.div`
+  .logo_overlay {
+    position:absolute;
+    z-index:9999999;
+    width:100%;
+    text-align:right;
+  }
   #intro_transtion_overlay {
     position:fixed;
     display:block;
@@ -123,6 +129,9 @@ class PageIntro extends Component {
       return (
     <Wrapper>
       {this.renderRedirect()}
+      <div class='logo_overlay'>
+        <HeaderIntro /> 
+      </div>
       <Content>
         {this.props.children}
       </Content>
