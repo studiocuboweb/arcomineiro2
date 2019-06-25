@@ -39,13 +39,16 @@ const Overlay = styled.section`
     z-index: 1;
   `}
   .map-overlay {
+    font-size: .9rem;
     background-color: #fff;
     padding: 15px;
     ${media.phone`
       box-shadow: none;
+      margin-top: 35px;
     `}
     ${media.phablet`
       box-shadow: none;
+      margin-top: 35px;
     `}
     ${media.desktop`
       box-shadow:0 1px 2px rgba(0,0,0,0.20);
