@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import { media, color } from 'styles/utils';
 import { NavLink, Link } from 'react-router-dom';
+import ArticleNav from 'components/Nav';
 
 import SiteTitle from './SiteTitle';
 
@@ -93,6 +94,9 @@ class Header extends Component {
             <NavLink to="/share" title="Share">
               <span className="fa fa-share-alt"></span>
             </NavLink>
+            <ArticleNav title="Chapters">
+              
+            </ArticleNav>
           </nav>
         </div>
       </Wrapper>
