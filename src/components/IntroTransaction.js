@@ -44,6 +44,9 @@ const Wrapper = styled.div`
         width:50px;
         margin: 10px auto;
     }
+    #intro_transtion_overlay>span>a {
+      color:rgb(51,51,51);
+    }
 `;
 
 class IntroTransaction extends Component {
@@ -52,6 +55,7 @@ class IntroTransaction extends Component {
       super()
       this.handleScroll = this.handleScroll.bind(this);
       this.setRedirect = this.setRedirect.bind(this);
+      this.handleClick = this.handleClick.bind(this);
       this.state = {
         redirect: false
       }
@@ -101,17 +105,28 @@ class IntroTransaction extends Component {
         redirect: true
       })
     }
+
+    handleClick(ev) {
+      document.getElementById('intro_transtion_overlay').classList.add("active");
+      setTimeout(function() {
+        this.setRedirect()
+      }.bind(this), 500)
+      ev.preventDefault();
+    }
+
     render () {
         return (
       <Wrapper>
         {this.renderRedirect()}
         <div id="intro_transtion_overlay">
           <span>
+            <a href="#" onClick={this.handleClick}>
             <FormattedMessage
               id="intro.skip"
               defaultMessage="Skip Intro"
             />
             <p><i class="arrow down"></i></p>
+            </a>
           </span>
         </div>
       </Wrapper>
