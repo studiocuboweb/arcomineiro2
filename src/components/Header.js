@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { media, color } from 'styles/utils';
 import { NavLink, Link } from 'react-router-dom';
 import ArticleNav from 'components/Nav';
+import {BrowserView,MobileView,isBrowser,isMobile} from "react-device-detect";
 
 import SiteTitle from './SiteTitle';
 
@@ -91,12 +92,12 @@ class Header extends Component {
             <NavLink to="/about" title="Learn more">
               <span className="fa fa-info"></span>
             </NavLink>
-            <NavLink to="/share" title="Share">
+            <NavLink to="/share" title="Share" style={{'marginRight':'20px'}}>
               <span className="fa fa-share-alt"></span>
             </NavLink>
-            <ArticleNav title="Chapters">
-              
-            </ArticleNav>
+            { (isMobile) &&
+            <ArticleNav />
+          }
           </nav>
         </div>
       </Wrapper>

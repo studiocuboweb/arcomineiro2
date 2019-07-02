@@ -7589,6 +7589,11 @@ react-deep-force-update@^1.0.0:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/react-deep-force-update/-/react-deep-force-update-1.1.2.tgz#3d2ae45c2c9040cbb1772be52f8ea1ade6ca2ee1"
 
+react-device-detect@^1.6.2:
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/react-device-detect/-/react-device-detect-1.6.2.tgz#2587e4d1dc15bdfce7a1bf5417624ecd2a2fc31f"
+  integrity sha512-XIBgwIfpGAknm7tXe/YNbx4ieIR7IyFI3KNfSQk4UjHVy97UHe/nB7iJj8R/dDsI+I/ZzPR4HJ39Gh5tI4nhxw==
+
 react-devtools-core@^2.5.0:
   version "2.5.2"
   resolved "https://registry.yarnpkg.com/react-devtools-core/-/react-devtools-core-2.5.2.tgz#f97bec5afae5d9318d16778065e0c214c4d5714c"

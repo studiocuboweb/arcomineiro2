@@ -5,6 +5,7 @@ import { NavLink } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { media } from 'styles/utils';
 import { Collapse } from 'react-collapse';
+import {BrowserView,MobileView,isBrowser,isMobile} from "react-device-detect";
 
 const Wrapper = styled.nav`
   font-family: "Cinzel", serif;
@@ -12,10 +13,39 @@ const Wrapper = styled.nav`
   font-size: .4em;
   text-align: left;
   background: #f7f7f7;
-  box-shadow: 0 .2rem .5rem rgba(0,0,0,0.05);
+  // box-shadow: 0 .2rem .5rem rgba(0,0,0,0.05);
   position: relative;
   z-index: 10;
   flex: 0 0 auto;
+  .nav-box {
+    ${media.phone`
+      position: fixed;
+      top: 78px;
+      left: 0;
+      background-color: #f7f7f7;
+      width:100%;
+    `}
+    ${media.phablet`
+      position: fixed;
+      top: 78px;
+      left: 0;
+      background-color: #f7f7f7;
+      width:100%;
+    `}
+    ${media.tablet`
+      position: fixed;
+      top: 78px;
+      left: 0;
+      background-color: #f7f7f7;
+      width:100%;
+    `}
+    ${media.desktop`
+      position: static;
+    `}
+    ${media.desktopHD`
+      position: static;
+    `}
+  }
   ol {
     margin: 0;
     padding: 0;
@@ -123,7 +153,7 @@ const Wrapper = styled.nav`
   
   .menu-icon-wrapper {
     padding: 4px;
-    background-color: #F7F7F7;
+    background-color: #f3f3f3;
     border-bottom-right-radius: 2px;
     ${media.desktop`
       padding: 0;
@@ -184,7 +214,13 @@ class ArticleNav extends Component {
    * Add event listener
    */
   componentDidMount() {
-    if (((typeof window.orientation == "undefined") && (navigator.userAgent.indexOf('IEMobile') == -1))) {
+    console.log('Browser View')
+    console.log(BrowserView)
+    console.log('isBrowser')
+    console.log(isBrowser)
+    console.log('isMobile')
+    console.log(isMobile)
+    if (isBrowser) {
       this.setState({
         collapsed: true
       });
@@ -228,50 +264,52 @@ class ArticleNav extends Component {
   render () {
     return (
       <Wrapper>
-      <span className='menu-icon-wrapper'><i className="fa fa-bars menu-toggle" onClick={() => this.toggleNavbar()}></i></span>
-      <Collapse isOpened={this.state.collapsed}>
-        <ol>
-          <li onClick={() => this.closeNavbar()}>
-            <NavLink exact to="/story">
-              <FormattedMessage
-                id="articles.title1"
-                defaultMessage="Start" />
-              <ProgressBar path="/story" />
-            </NavLink>
-          </li>
-          <li onClick={() => this.closeNavbar()}>
-            <NavLink to="/story/mercury">
-              <FormattedMessage
-                id="articles.title2"
-                defaultMessage="Mercury" />
-              <ProgressBar path="/story/mercury" />
-            </NavLink>
-          </li>
-          <li onClick={() => this.closeNavbar()}>
-            <NavLink to="/story/protected-areas">
-              <FormattedMessage
-                id="articles.title3"
-                defaultMessage="Protected Areas" />
-              <ProgressBar path="/story/protected-areas" />
-            </NavLink>
-          </li>
-          <li onClick={() => this.closeNavbar()}>
-            <NavLink to="/story/indigenous-territories">
-              <FormattedMessage
-                id="articles.title4"
-                defaultMessage="Indigenous Territories" />
-              <ProgressBar path="/story/indigenous-territories" />
-            </NavLink>
-          </li>
-          <li onClick={() => this.closeNavbar()}>
-            <NavLink to="/story/conflicts">
-              <FormattedMessage
-                id="articles.title5"
-                defaultMessage="Conflicts" />
-              <ProgressBar path="/story/conflicts" />
-            </NavLink>
-          </li>
-        </ol>
+      <span className='menu-icon-wrapper'><i className="fa fa-bars menu-toggle" style={{'color':'#999999'}} onClick={() => this.toggleNavbar()}></i></span>
+      <Collapse isOpened={this.state.collapsed} class='nav-box'>
+        <div style={{'height':'100%','width':'100%'}}>
+          <ol>
+            <li onClick={() => this.closeNavbar()}>
+              <NavLink exact to="/story">
+                <FormattedMessage
+                  id="articles.title1"
+                  defaultMessage="Start" />
+                <ProgressBar path="/story" />
+              </NavLink>
+            </li>
+            <li onClick={() => this.closeNavbar()}>
+              <NavLink to="/story/mercury">
+                <FormattedMessage
+                  id="articles.title2"
+                  defaultMessage="Mercury" />
+                <ProgressBar path="/story/mercury" />
+              </NavLink>
+            </li>
+            <li onClick={() => this.closeNavbar()}>
+              <NavLink to="/story/protected-areas">
+                <FormattedMessage
+                  id="articles.title3"
+                  defaultMessage="Protected Areas" />
+                <ProgressBar path="/story/protected-areas" />
+              </NavLink>
+            </li>
+            <li onClick={() => this.closeNavbar()}>
+              <NavLink to="/story/indigenous-territories">
+                <FormattedMessage
+                  id="articles.title4"
+                  defaultMessage="Indigenous Territories" />
+                <ProgressBar path="/story/indigenous-territories" />
+              </NavLink>
+            </li>
+            <li onClick={() => this.closeNavbar()}>
+              <NavLink to="/story/conflicts">
+                <FormattedMessage
+                  id="articles.title5"
+                  defaultMessage="Conflicts" />
+                <ProgressBar path="/story/conflicts" />
+              </NavLink>
+            </li>
+          </ol>
+        </div>
       </Collapse>
       </Wrapper>
     )

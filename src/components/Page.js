@@ -6,6 +6,7 @@ import ArticleNav from 'components/Nav';
 import Content from 'components/Content';
 import { FormattedMessage } from "react-intl";
 import IntroTransaction from 'components/IntroTransaction';
+import {BrowserView,MobileView,isBrowser,isMobile} from "react-device-detect";
 
 const Wrapper = styled.div`
   position: fixed;
@@ -53,7 +54,9 @@ export default class Page extends React.Component {
     return(
       <Wrapper>
         <Header />
-        <ArticleNav />
+        { (isBrowser) &&
+            <ArticleNav />
+          }
         <Content>
           {this.props.children}
         </Content>
