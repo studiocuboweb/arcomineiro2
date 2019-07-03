@@ -10,6 +10,7 @@ import YouTube from "react-youtube";
 import "styles/fullbg_video.css";
 
 import SiteTitle from "components/SiteTitle";
+import LanguageSelect from "components/LanguageSelect";
 
 import { Link } from "react-router-dom";
 
@@ -311,6 +312,9 @@ class Scene extends Component {
               defaultMessage="New survey reveals the existence of more than 2000 points and 200 illegal mining areas in six Amazonian countries."
             />
           </p>
+          <div>
+            <LanguageSelect />
+          </div>
           {this.isLaunchDate() ? (
             <span className="countdown">
               <span className="count">

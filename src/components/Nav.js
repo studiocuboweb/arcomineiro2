@@ -6,6 +6,7 @@ import { connect } from 'react-redux';
 import { media } from 'styles/utils';
 import { Collapse } from 'react-collapse';
 import {BrowserView,MobileView,isBrowser,isMobile} from "react-device-detect";
+import LanguageSelect from "components/LanguageSelect";
 
 const Wrapper = styled.nav`
   font-family: "Cinzel", serif;
@@ -308,6 +309,11 @@ class ArticleNav extends Component {
                 <ProgressBar path="/story/conflicts" />
               </NavLink>
             </li>
+            {(isMobile) && 
+            <li>
+              <LanguageSelect />
+            </li>
+            }
           </ol>
         </div>
       </Collapse>

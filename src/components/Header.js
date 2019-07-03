@@ -4,6 +4,7 @@ import { media, color } from 'styles/utils';
 import { NavLink, Link } from 'react-router-dom';
 import ArticleNav from 'components/Nav';
 import {BrowserView,MobileView,isBrowser,isMobile} from "react-device-detect";
+import LanguageSelect from "components/LanguageSelect";
 
 import SiteTitle from './SiteTitle';
 
@@ -96,8 +97,11 @@ class Header extends Component {
               <span className="fa fa-share-alt"></span>
             </NavLink>
             { (isMobile) &&
-            <ArticleNav />
-          }
+              <ArticleNav />
+            }
+            {(isBrowser) && 
+              <LanguageSelect />
+            }
           </nav>
         </div>
       </Wrapper>
