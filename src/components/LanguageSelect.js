@@ -2,10 +2,16 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import { throws } from 'assert';
 
-const Wrapper = styled.section`
+const WrapperHome = styled.section`
+
+`;
+
+const WrapperStory = styled.section`
+
 `;
 
 const languages = [{'id':'en','label':'English'}, {'id':'pt','label':'Português'}, {'id':'es','label':'Español'}];
+
 
 class LanguageSelect extends Component {
 
@@ -17,6 +23,13 @@ class LanguageSelect extends Component {
         language: 'en',
       }
       this.location = "";
+
+      var location_2 = document.location.href;
+      if (location_2.search('story') || location_2.search('share') || location_2.search('about')) {
+        this.defaultStyle = WrapperStory;
+      } else {
+        this.defaultStyle = WrapperHome;
+      }
     }
 
   
@@ -30,7 +43,6 @@ class LanguageSelect extends Component {
         } else {
             location = '?lang=en';
         }
-        console.log(location)
         document.location.href = location;
         //return <Redirect push={true} to={location} />
       }
@@ -38,10 +50,8 @@ class LanguageSelect extends Component {
   
     componentDidMount() {
         this.location = document.location.href;
-        console.log('location 2')
-        console.log(window.location.search);
         var querystring = window.location.search;
-        console.log(querystring.search('lang='))
+
         if (querystring.search('lang=') > -1) {
             this.setState({language: querystring.split('=')[1]})
         } else {
@@ -51,8 +61,6 @@ class LanguageSelect extends Component {
     }
 
     handleChange(ev) {
-        console.log("handleChange");
-        console.log(ev.target.value);
         if (ev.target.value != '') {
             this.setState({
                 language: ev.target.value
@@ -68,7 +76,7 @@ class LanguageSelect extends Component {
     }
 
     render () {
-        {console.log(languages)}
+        const Wrapper = this.defaultStyle;
         return (
       <Wrapper>
         {this.renderRedirect()}
