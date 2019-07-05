@@ -3,7 +3,8 @@ import ReactMapGL from 'react-map-gl';
 import styled from "styled-components";
 import PropTypes from 'prop-types';
 import { media } from "styles/utils";
-import { FormattedMessage } from "react-intl";
+import { injectIntl, intlShape } from "react-intl";
+import { withRouter } from "react-router-dom";
 import FormattedMessageFixed from "components/blocks/FormattedMessageFixed";
 
 
@@ -65,60 +66,60 @@ const Overlay = styled.section`
   var description = {}
 
   var locations = [{
-  "id": 1,
-  "title": "intro.title1",
-  "description":"intro.text1",
-  "camera": {
-  center: [-64.284679, 5.541481],
-  zoom: 5.85,
-  },
-  "showLayers":['infoamazonia-rivers']
+    "id": 1,
+    "title": "intro.title1",
+    "description":"intro.text1",
+    "camera": {
+      center: [-64.284679, 5.541481],
+      zoom: 5.85,
+    },
+    "showLayers":['infoamazonia-rivers']
   }, {
-  "id": 2,
-  "title": "intro.title2",
-  "description":"intro.text2",
-  "camera": {
-  center: [-64.284679, 5.541481],
-  zoom: 5.85,
-  },
-  "showLayers":['linha_ArcoMinero_mineria','infoamazonia-rivers']
+      "id": 2,
+      "title": "intro.title2",
+      "description":"intro.text2",
+      "camera": {
+        center: [-64.284679, 5.541481],
+        zoom: 5.85,
+      },
+      "showLayers":['linha_ArcoMinero_mineria','infoamazonia-rivers']
   }, {
-  "id": 1,
-  "title": "intro.title3",
-  "description":"intro.text3",
-  "camera": {
-  center: [-64.284679, 5.541481],
-  zoom: 5.85,
-  },
-  "showLayers":['worldextent-diflimamz-3k604u','linha_ArcoMinero_mineria','infoamazonia-rivers']
+      "id": 1,
+      "title": "intro.title3",
+      "description":"intro.text3",
+      "camera": {
+        center: [-64.284679, 5.541481],
+        zoom: 5.85,
+      },
+      "showLayers":['worldextent-diflimamz-3k604u','linha_ArcoMinero_mineria','infoamazonia-rivers']
   }, {
-  "id": 2,
-  "title": "intro.title4",
-  "description":"intro.text4",
-  "camera": {
-  center: [-64.284679, 5.541481],
-  zoom: 5.85,
-  },
-  "showLayers":['mapbox-terrain-rgb','worldextent-diflimamz-3k604u','linha_ArcoMinero_mineria','infoamazonia-rivers']
+      "id": 2,
+      "title": "intro.title4",
+      "description":"intro.text4",
+      "camera": {
+      center: [-64.284679, 5.541481],
+      zoom: 5.85,
+      },
+      "showLayers":['mapbox-terrain-rgb','worldextent-diflimamz-3k604u','linha_ArcoMinero_mineria','infoamazonia-rivers']
   }, {
-  "id": 1,
-  "title": "intro.title5",
-  "description":"intro.text5",
-  "camera": {
-  center: [-64.284679, 5.541481],
-  zoom: 5.85,
-  },
-  "showLayers":['LEGENDA_mineria_azulEscuro','mapbox-terrain-rgb','worldextent-diflimamz-3k604u','linha_ArcoMinero_mineria','infoamazonia-rivers']
+      "id": 1,
+      "title": "intro.title5",
+      "description":"intro.text5",
+      "camera": {
+      center: [-64.284679, 5.541481],
+      zoom: 5.85,
+      },
+      "showLayers":['LEGENDA_mineria_azulEscuro','mapbox-terrain-rgb','worldextent-diflimamz-3k604u','linha_ArcoMinero_mineria','infoamazonia-rivers']
   }, {
-  "title": "intro.title6",
-  "description":"intro.text6",
-  "camera": {
-  center: [-74.0315, 40.6989],
-  zoom: 5.85,
-  // bearing: -8.9,
-  // pitch: 0
-  },
-  "showLayers":[]
+      "title": "intro.title6",
+      "description":"intro.text6",
+      "camera": {
+      center: [-74.0315, 40.6989],
+      zoom: 5.85,
+      // bearing: -8.9,
+      // pitch: 0
+      },
+      "showLayers":[]
   }];
 // const map = '';
 class Intro extends Component {
@@ -209,33 +210,14 @@ class Intro extends Component {
     }
 
      locations[index].showLayers.sort().map( function(currentLayer,subindex) {
-      //  console.log('index');
-      //  console.log(index);
-      //  console.log('subindex');
-      //  console.log(subindex);
-      //  console.log('currentLayer');
-      //  console.log(currentLayer);
-       
        var lastLayerArr = locations[(index-1 < 0 ? 0 : index-1)].showLayers.sort();
        var lastLayer = lastLayerArr[subindex];
-      //  console.log('lastLayer');
-      //  console.log((index-1 < 0 ? 0 : index-1));
-      //  console.log(lastLayer);
-        //hide last layers
-        console.log('last array')
-        console.log(lastLayerArr)
-        console.log('current array')
-        console.log(locations[index].showLayers.sort())          
-        console.log('none visibilty');
-        console.log(lastLayer);
         //hide currents layers
         if (lastLayer != undefined) {
           map.setLayoutProperty(lastLayer, 'visibility', 'none');
         }
         
         //show currents layers
-        console.log('show visibilty');
-        console.log(currentLayer);
         if (currentLayer != undefined) {
           map.setLayoutProperty(currentLayer, 'visibility', 'visible');
         }
@@ -252,9 +234,15 @@ class Intro extends Component {
   }
 
   render() {
+    const {intl} = this.props;
     const {viewport,settings,content} = this.state;
+    var defaultMapStyle = 'mapbox://styles/infoamazonia/cjxaz1yr742441cqm9vozuovl';
     //const defaultMapStyle = 'mapbox://styles/mapbox/streets-v10';
-    const defaultMapStyle = 'mapbox://styles/infoamazonia/cjxaz1yr742441cqm9vozuovl';
+    if (intl.location = 'es') {
+      defaultMapStyle = 'mapbox://styles/mapbox/streets-v9';
+    } else if (intl.location = 'pt') {
+      defaultMapStyle = 'mapbox://styles/mapbox/light-v10';
+    }
     return (
       <div>
         <Overlay>
@@ -281,4 +269,8 @@ Intro.propTypes = {
   viewportDimensions: PropTypes.object
 };
 
-export default (Intro);
+Intro.propTypes = {
+  intl: intlShape.isRequired
+};
+
+export default injectIntl(withRouter(Intro));
