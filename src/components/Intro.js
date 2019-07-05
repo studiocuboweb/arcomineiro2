@@ -71,16 +71,17 @@ const Overlay = styled.section`
   "camera": {
   center: [-64.284679, 5.541481],
   zoom: 5.85,
-  }
+  },
+  "showLayers":['infoamazonia-rivers']
   }, {
   "id": 2,
   "title": "intro.title2",
   "description":"intro.text2",
   "camera": {
   center: [-64.284679, 5.541481],
-  bearing: -8.9,
   zoom: 5.85,
-  }
+  },
+  "showLayers":['linha_ArcoMinero_mineria','infoamazonia-rivers']
   }, {
   "id": 1,
   "title": "intro.title3",
@@ -88,34 +89,36 @@ const Overlay = styled.section`
   "camera": {
   center: [-64.284679, 5.541481],
   zoom: 5.85,
-  }
+  },
+  "showLayers":['worldextent-diflimamz-3k604u','linha_ArcoMinero_mineria','infoamazonia-rivers']
   }, {
   "id": 2,
   "title": "intro.title4",
   "description":"intro.text4",
   "camera": {
   center: [-64.284679, 5.541481],
-  bearing: -8.9,
   zoom: 5.85,
-  }
+  },
+  "showLayers":['mapbox-terrain-rgb','worldextent-diflimamz-3k604u','linha_ArcoMinero_mineria','infoamazonia-rivers']
   }, {
   "id": 1,
   "title": "intro.title5",
   "description":"intro.text5",
   "camera": {
-  center: [-74.1991, 40.5441],
-  bearing: -8.9,
+  center: [-64.284679, 5.541481],
   zoom: 5.85,
-  }
+  },
+  "showLayers":['LEGENDA_mineria_azulEscuro','mapbox-terrain-rgb','worldextent-diflimamz-3k604u','linha_ArcoMinero_mineria','infoamazonia-rivers']
   }, {
   "title": "intro.title6",
   "description":"intro.text6",
   "camera": {
   center: [-74.0315, 40.6989],
   zoom: 5.85,
-  bearing: -8.9,
-  pitch: 0
-  }
+  // bearing: -8.9,
+  // pitch: 0
+  },
+  "showLayers":[]
   }];
 // const map = '';
 class Intro extends Component {
@@ -152,9 +155,7 @@ class Intro extends Component {
     }
   }
   componentDidMount() {
-    // Display the last title/description first
-    console.log("DidMount");
-    console.log(locations[locations.length - 1].title);
+    // Display the last title/description first    
     this.setState({content:{title:locations[locations.length - 1].title,description:locations[locations.length - 1].description}});
     const scope = this;
     const map = this._map.getMap()
@@ -187,8 +188,6 @@ class Intro extends Component {
 
   highlightBorough(code,map) {
     // Only show the polygon feature that cooresponds to `borocode` in the data
-    console.log('highlightBorough')
-    console.log(code)
     map.setFilter('highlight', ["==", "id", code]);
   }
 
@@ -199,6 +198,48 @@ class Intro extends Component {
      
     // Animate the map position based on camera properties
     map.flyTo(locations[index].camera);
+    console.log('playback')
+    console.log(index)
+    if (index == 0) {
+      map.setLayoutProperty('LEGENDA_mineria_azulEscuro', 'visibility', 'none');
+      map.setLayoutProperty('mapbox-terrain-rgb', 'visibility', 'none');
+      map.setLayoutProperty('worldextent-diflimamz-3k604u', 'visibility', 'none');
+      map.setLayoutProperty('linha_ArcoMinero_mineria', 'visibility', 'none');
+      map.setLayoutProperty('infoamazonia-rivers', 'visibility', 'none');
+    }
+
+     locations[index].showLayers.sort().map( function(currentLayer,subindex) {
+      //  console.log('index');
+      //  console.log(index);
+      //  console.log('subindex');
+      //  console.log(subindex);
+      //  console.log('currentLayer');
+      //  console.log(currentLayer);
+       
+       var lastLayerArr = locations[(index-1 < 0 ? 0 : index-1)].showLayers.sort();
+       var lastLayer = lastLayerArr[subindex];
+      //  console.log('lastLayer');
+      //  console.log((index-1 < 0 ? 0 : index-1));
+      //  console.log(lastLayer);
+        //hide last layers
+        console.log('last array')
+        console.log(lastLayerArr)
+        console.log('current array')
+        console.log(locations[index].showLayers.sort())          
+        console.log('none visibilty');
+        console.log(lastLayer);
+        //hide currents layers
+        if (lastLayer != undefined) {
+          map.setLayoutProperty(lastLayer, 'visibility', 'none');
+        }
+        
+        //show currents layers
+        console.log('show visibilty');
+        console.log(currentLayer);
+        if (currentLayer != undefined) {
+          map.setLayoutProperty(currentLayer, 'visibility', 'visible');
+        }
+      })
      
     map.once('moveend', function() {
         // Duration the slide is on screen after interaction
