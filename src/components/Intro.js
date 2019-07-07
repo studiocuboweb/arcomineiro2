@@ -242,17 +242,7 @@ class Intro extends Component {
     this.setState({content:{title:locations[index].title,description:locations[index].description}});
     const scope = this;
     this.highlightBorough(locations[index].id ? locations[index].id : '',map);
-    if (index == (locations.length - 1)) {
-      // Animate the map position based on camera properties
-      console.log('entrou no if')
-      window.setTimeout(function() {
-        console.log('TIME OUT')
-        map.flyTo(locations[index].camera);
-      }, 6000); // After callback, show the location for 6 seconds.
-    } else {
-      console.log('entrou no else')
-      map.flyTo(locations[index].camera);
-    }
+    map.flyTo(locations[index].camera);
     map.once('moveend', function() {
         console.log('moveend')
         // Duration the slide is on screen after interaction
