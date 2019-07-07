@@ -65,61 +65,62 @@ const Overlay = styled.section`
   var title = {}
   var description = {}
 
-  var locations = [{
-    "id": 1,
-    "title": "intro.title1",
-    "description":"intro.text1",
-    "camera": {
-      center: [-64.284679, 5.541481],
-      zoom: 5.85,
-    },
-    "showLayers":['infoamazonia-rivers']
-  }, {
+  var locations = [
+  {
       "id": 2,
       "title": "intro.title2",
       "description":"intro.text2",
       "camera": {
-        center: [-64.284679, 5.541481],
-        zoom: 5.85,
+        center: [-67.305707, 5.711382],
+        zoom: 6.04,
+        bearing: 0,
+        pitch: 30.00
       },
-      "showLayers":['linha_ArcoMinero_mineria','infoamazonia-rivers']
+      "showLayers":['PNYapacana_nacionales_LABEL', 'PNYapacana_nacionales', 'cidadesfronteraCO', 'CO-VE_admin-0-boundary', 'Bogota_capital-pais']
   }, {
-      "id": 1,
+      "id": 3,
       "title": "intro.title3",
       "description":"intro.text3",
       "camera": {
-        center: [-64.284679, 5.541481],
-        zoom: 5.85,
+        center: [-71.144278, 11.172461],
+        zoom: 5.49,
+        bearing: 0,
+        pitch: 60.00
       },
-      "showLayers":['worldextent-diflimamz-3k604u','linha_ArcoMinero_mineria','infoamazonia-rivers']
+      "showLayers":['PNYapacana_nacionales_LABEL', 'PNYapacana_nacionales', 'cidadesfronteraCO', 'CO_admin-0-boundary', 'Bogota_capital-pais', 'Medellin_capital-departamento']
   }, {
-      "id": 2,
+      "id": 4,
       "title": "intro.title4",
       "description":"intro.text4",
       "camera": {
-      center: [-64.284679, 5.541481],
-      zoom: 5.85,
+        center: [-69.441990, 11.761046],
+        zoom: 7.57,
+        bearing: 0,
+        pitch: 10.00
       },
-      "showLayers":['mapbox-terrain-rgb','worldextent-diflimamz-3k604u','linha_ArcoMinero_mineria','infoamazonia-rivers']
+      "showLayers":['cidadesfronteraCO']
   }, {
-      "id": 1,
+      "id": 5,
       "title": "intro.title5",
       "description":"intro.text5",
       "camera": {
-      center: [-64.284679, 5.541481],
-      zoom: 5.85,
+      center: [-41.682555, 27.970897],
+      zoom: 3.32,
+      bearing: 0,
+      pitch: 30.00
       },
-      "showLayers":['LEGENDA_mineria_azulEscuro','mapbox-terrain-rgb','worldextent-diflimamz-3k604u','linha_ArcoMinero_mineria','infoamazonia-rivers']
+      "showLayers":['NL_admin-0-boundary']
   }, {
-      "title": "intro.title6",
-      "description":"intro.text6",
+      "id": 1,
+      "title": "intro.title1",
+      "description":"intro.text1",
       "camera": {
-      center: [-74.0315, 40.6989],
-      zoom: 5.85,
-      // bearing: -8.9,
-      // pitch: 0
+      center: [-67.013959, 6.436368],
+      zoom: 5.60,
+      bearing: 0,
+      pitch: 0
       },
-      "showLayers":[]
+      "showLayers":['VE_admin-0-boundary','VE_country-label']
   }];
 // const map = '';
 class Intro extends Component {
@@ -235,23 +236,23 @@ class Intro extends Component {
 
   render() {
     const {intl} = this.props;
+    console.log(intl.location);
     const {viewport,settings,content} = this.state;
-    var defaultMapStyle = 'mapbox://styles/infoamazonia/cjxaz1yr742441cqm9vozuovl';
+    var defaultMapStyle = 'mapbox://styles/infoamazonia/cjxnsk3am31lj1cs1v9ycmtzr';
     //const defaultMapStyle = 'mapbox://styles/mapbox/streets-v10';
-    if (intl.location = 'es') {
-      defaultMapStyle = 'mapbox://styles/mapbox/streets-v9';
-    } else if (intl.location = 'pt') {
-      defaultMapStyle = 'mapbox://styles/mapbox/light-v10';
+    if (intl.location == 'es') {
+      defaultMapStyle = 'mapbox://styles/infoamazonia/cjxqspthq5ukc1dml7f2lktnv';
+    } else if (intl.location == 'pt') {
+      defaultMapStyle = 'mapbox://styles/infoamazonia/cjxqsvsg00mvv1clhwyypn82y';
     }
     return (
       <div>
         <Overlay>
           <div class='map-overlay'>
-            <h2 id='location-title'><FormattedMessageFixed id={content.title} defaultMessage="title" /></h2>
             <p id='location-description'><FormattedMessageFixed id={content.description} defaultMessage="description" /></p>
-            <small>Text credit: <a target='_blank' href='http://www.nycgo.com/neighborhoods'>nycgo.com</a></small>
           </div>
         </Overlay>
+        {console.log(defaultMapStyle)} 
         <ReactMapGL
           {...viewport}
           {...settings}
