@@ -6,6 +6,9 @@ import { media } from "styles/utils";
 import { injectIntl, intlShape } from "react-intl";
 import { withRouter } from "react-router-dom";
 import FormattedMessageFixed from "components/blocks/FormattedMessageFixed";
+import IntroEN from 'components/mapbox/intros/styleEN.json';
+import IntroES from 'components/mapbox/intros/styleES.json';
+import IntroPT from 'components/mapbox/intros/stylePT.json';
 
 
 const MAPBOX_TOKEN = 'pk.eyJ1IjoiaW5mb2FtYXpvbmlhIiwiYSI6InItajRmMGsifQ.JnRnLDiUXSEpgn7bPDzp7g'; // Set your mapbox token here
@@ -67,7 +70,8 @@ const Overlay = styled.section`
 
   var locations = [
   {
-      "id": 2,
+      "id": 1,
+      "slide": 2,
       "title": "intro.title2",
       "description":"intro.text2",
       "camera": {
@@ -78,7 +82,8 @@ const Overlay = styled.section`
       },
       "showLayers":['PNYapacana_nacionales_LABEL', 'PNYapacana_nacionales', 'cidadesfronteraCO', 'CO-VE_admin-0-boundary', 'Bogota_capital-pais']
   }, {
-      "id": 3,
+      "id": 2,
+      "slide": 3,
       "title": "intro.title3",
       "description":"intro.text3",
       "camera": {
@@ -87,9 +92,10 @@ const Overlay = styled.section`
         bearing: 0,
         pitch: 60.00
       },
-      "showLayers":['PNYapacana_nacionales_LABEL', 'PNYapacana_nacionales', 'cidadesfronteraCO', 'CO_admin-0-boundary', 'Bogota_capital-pais', 'Medellin_capital-departamento']
+      "showLayers":['PNYapacana_nacionales_LABEL', 'PNYapacana_nacionales', 'cidadesfronteraCO', 'CO_admin-0-boundary', 'Bogota_capital-pais', 'Medellin_capital-departamento','CO-VE_admin-0-boundary']
   }, {
-      "id": 4,
+      "id": 0,
+      "slide": 4,
       "title": "intro.title4",
       "description":"intro.text4",
       "camera": {
@@ -100,7 +106,8 @@ const Overlay = styled.section`
       },
       "showLayers":['cidadesfronteraCO']
   }, {
-      "id": 5,
+      "id": 3,
+      "slide": 5,
       "title": "intro.title5",
       "description":"intro.text5",
       "camera": {
@@ -110,18 +117,19 @@ const Overlay = styled.section`
       pitch: 30.00
       },
       "showLayers":['NL_admin-0-boundary']
-  }, {
-      "id": 1,
-      "title": "intro.title1",
-      "description":"intro.text1",
-      "camera": {
-      center: [-67.013959, 6.436368],
-      zoom: 5.60,
-      bearing: 0,
-      pitch: 0
-      },
-      "showLayers":['VE_admin-0-boundary','VE_country-label']
-  }];
+  },{
+    "id": 0,
+    "slide": 1,
+    "title": "intro.title1",
+    "description":"intro.text1",
+    "camera": {
+    center: [-67.013959, 6.436368],
+    zoom: 5.60,
+    bearing: 0,
+    pitch: 0
+    },
+    "showLayers":['VE_admin-0-boundary','VE_country-label']
+}];
 // const map = '';
 class Intro extends Component {
 
@@ -131,12 +139,11 @@ class Intro extends Component {
       viewport: {
         width: window.innerWidth,
         height: window.innerHeight,
-        latitude: 40.6989,
-        longitude: -74.0315,   
-        minZoom: 9,
-        maxZoom: 16,   
-        zoom: 9.68
+        latitude: 6.436368,
+        longitude: -67.013959,
+        zoom: 5.60,
       },
+      center: [-67.013959, 6.436368],
       settings: {
         dragPan: false,
         dragRotate: false,
@@ -157,29 +164,32 @@ class Intro extends Component {
     }
   }
   componentDidMount() {
-    // Display the last title/description first    
-    this.setState({content:{title:locations[locations.length - 1].title,description:locations[locations.length - 1].description}});
+    // Display the last title/description first
     const scope = this;
     const map = this._map.getMap()
-    
+    console.log('componentDidMount')
+    var location = this.props.intl.locale
+    console.log(location)
+    if (location != 'en' && location != 'es' && location != 'pt') {
+      location = 'en';
+    }
     map.on('load', function() {
+      map.setLayoutProperty('country-label-', 'text-field', ['get', 'name_'+location]);
       map.addLayer({
         "id": "highlight",
         "type": "fill",
         "source": {
           "type": "vector",
-          "url": "mapbox://infoamazonia.axa8vv2c"
+          "url": "mapbox://infoamazonia.1w2pvk3g"
           },
-            "source-layer": "arrows3-3yd3g3",
-            "paint": {
-              "fill-color": "#fd6b50",
-              "fill-opacity": 1
-          },
+          "source-layer": "Arrows_merged_Yap-4dsic3",
+          "paint": {"fill-color": "hsl(344, 91%, 50%)"},
           "filter": ["==", "id", ""]
         });
 
         // Start the playback animation for each borough
-        scope.playback(0,map);
+        //scope.setState({content:{title:locations[locations.length - 1].title,description:locations[locations.length - 1].description}});
+        scope.playback(locations.length - 1,map);
     })
       
   }
@@ -194,43 +204,63 @@ class Intro extends Component {
   }
 
   playback(index,map) {
+    console.log('playback')
+    console.log(index)
+    console.log('slide')
+    console.log(locations[index].slide)
+    if (index == (locations.length - 1)) {
+      console.log('ZEROU O INDEX')
+      map.setLayoutProperty('VE_admin-0-boundary', 'visibility', 'none');
+      map.setLayoutProperty('VE_country-label', 'visibility', 'none');
+      map.setLayoutProperty('PNYapacana_nacionales_LABEL', 'visibility', 'none');
+      map.setLayoutProperty('PNYapacana_nacionales', 'visibility', 'none');
+      map.setLayoutProperty('cidadesfronteraCO', 'visibility', 'none');
+      map.setLayoutProperty('CO-VE_admin-0-boundary', 'visibility', 'none');
+      map.setLayoutProperty('Bogota_capital-pais', 'visibility', 'none');
+      map.setLayoutProperty('Medellin_capital-departamento', 'visibility', 'none');
+      map.setLayoutProperty('NL_admin-0-boundary', 'visibility', 'none');
+    }
+
+    locations[index].showLayers.sort().map( function(currentLayer,subindex) {
+      var lastLayerArr = locations[(index-1 < 0 ? locations.length - 1 : index-1)].showLayers.sort();
+      var lastLayer = lastLayerArr[subindex];
+      //hide currents layers
+      if (lastLayer != undefined) {
+        console.log('lastLayer')
+        console.log(lastLayer)
+        map.setLayoutProperty(lastLayer, 'visibility', 'none');
+      }
+      
+      //show currents layers
+      if (currentLayer != undefined) {
+        console.log('currentLayer')
+        console.log(currentLayer)
+        map.setLayoutProperty(currentLayer, 'visibility', 'visible');
+      }
+    })
+    //debugger;
     this.setState({content:{title:locations[index].title,description:locations[index].description}});
     const scope = this;
     this.highlightBorough(locations[index].id ? locations[index].id : '',map);
-     
-    // Animate the map position based on camera properties
-    map.flyTo(locations[index].camera);
-    console.log('playback')
-    console.log(index)
-    if (index == 0) {
-      map.setLayoutProperty('LEGENDA_mineria_azulEscuro', 'visibility', 'none');
-      map.setLayoutProperty('mapbox-terrain-rgb', 'visibility', 'none');
-      map.setLayoutProperty('worldextent-diflimamz-3k604u', 'visibility', 'none');
-      map.setLayoutProperty('linha_ArcoMinero_mineria', 'visibility', 'none');
-      map.setLayoutProperty('infoamazonia-rivers', 'visibility', 'none');
+    if (index == (locations.length - 1)) {
+      // Animate the map position based on camera properties
+      console.log('entrou no if')
+      window.setTimeout(function() {
+        console.log('TIME OUT')
+        map.flyTo(locations[index].camera);
+      }, 6000); // After callback, show the location for 6 seconds.
+    } else {
+      console.log('entrou no else')
+      map.flyTo(locations[index].camera);
     }
-
-     locations[index].showLayers.sort().map( function(currentLayer,subindex) {
-       var lastLayerArr = locations[(index-1 < 0 ? 0 : index-1)].showLayers.sort();
-       var lastLayer = lastLayerArr[subindex];
-        //hide currents layers
-        if (lastLayer != undefined) {
-          map.setLayoutProperty(lastLayer, 'visibility', 'none');
-        }
-        
-        //show currents layers
-        if (currentLayer != undefined) {
-          map.setLayoutProperty(currentLayer, 'visibility', 'visible');
-        }
-      })
-     
     map.once('moveend', function() {
+        console.log('moveend')
         // Duration the slide is on screen after interaction
         window.setTimeout(function() {
         // Increment index
         index = (index + 1 === locations.length) ? 0 : index + 1;
         scope.playback(index,map);
-      }, 3000); // After callback, show the location for 3 seconds.
+      }, 6000); // After callback, show the location for 6 seconds.
     });
   }
 
@@ -238,12 +268,13 @@ class Intro extends Component {
     const {intl} = this.props;
     console.log(intl.location);
     const {viewport,settings,content} = this.state;
-    var defaultMapStyle = 'mapbox://styles/infoamazonia/cjxnsk3am31lj1cs1v9ycmtzr';
+    //var defaultMapStyle = 'mapbox://styles/infoamazonia/cjxnsk3am31lj1cs1v9ycmtzr';
+    var defaultMapStyle = IntroEN;
     //const defaultMapStyle = 'mapbox://styles/mapbox/streets-v10';
     if (intl.location == 'es') {
-      defaultMapStyle = 'mapbox://styles/infoamazonia/cjxqspthq5ukc1dml7f2lktnv';
+      defaultMapStyle = IntroES;
     } else if (intl.location == 'pt') {
-      defaultMapStyle = 'mapbox://styles/infoamazonia/cjxqsvsg00mvv1clhwyypn82y';
+      defaultMapStyle = IntroPT;
     }
     return (
       <div>

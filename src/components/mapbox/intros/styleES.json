@@ -1,6 +1,6 @@
 {
     "version": 8,
-    "name": "ArcoMinero2_MapaInicial_EN",
+    "name": "ArcoMinero2_MapaInicial_ES",
     "metadata": {
         "mapbox:type": "default",
         "mapbox:origin": "light-v10",
@@ -74,10 +74,10 @@
         },
         "mapbox:trackposition": true
     },
-    "center": [-67.014, 6.436],
-    "zoom": 5.6,
+    "center": [-41.68, 27.97],
+    "zoom": 3.32,
     "bearing": 0,
-    "pitch": 0,
+    "pitch": 30,
     "sources": {
         "mapbox://mapbox.terrain-rgb": {
             "url": "mapbox://mapbox.terrain-rgb",
@@ -89,7 +89,7 @@
             "type": "vector"
         }
     },
-    "sprite": "mapbox://sprites/infoamazonia/cjxnsk3am31lj1cs1v9ycmtzr/0wmb0880qzhhxx21etlmdcqni",
+    "sprite": "mapbox://sprites/infoamazonia/cjxqspthq5ukc1dml7f2lktnv/0wmb0880qzhhxx21etlmdcqni",
     "glyphs": "mapbox://fonts/infoamazonia/{fontstack}/{range}.pbf",
     "layers": [
         {
@@ -495,6 +495,20 @@
             "source-layer": "place_label",
             "minzoom": 4,
             "maxzoom": 15,
+            "filter": [
+                "all",
+                ["<=", ["get", "filterrank"], 3],
+                ["==", ["get", "class"], "settlement"],
+                [
+                    "step",
+                    ["zoom"],
+                    true,
+                    13,
+                    [">=", ["get", "symbolrank"], 11],
+                    14,
+                    [">=", ["get", "symbolrank"], 13]
+                ]
+            ],
             "layout": {
                 "text-line-height": 1.1,
                 "text-size": [
@@ -1177,7 +1191,7 @@
                     7,
                     "center"
                 ],
-                "text-field": ["coalesce", ["get", "name_en"], ["get", "name"]],
+                "text-field": ["coalesce", ["get", "name_es"], ["get", "name"]],
                 "text-max-width": 12
             },
             "paint": {
@@ -1283,7 +1297,7 @@
                         "Aruba",
                         "Curaçao",
                         "United States",
-                        "Nederlands"
+                        "Nederlandssss"
                     ],
                     0,
                     0
@@ -1386,7 +1400,7 @@
                     7,
                     "center"
                 ],
-                "text-field": ["coalesce", ["get", "name_en"], ["get", "name"]],
+                "text-field": ["coalesce", ["get", "name_es"], ["get", "name"]],
                 "text-max-width": 10
             },
             "paint": {
@@ -1402,7 +1416,7 @@
                         "Aruba",
                         "Curaçao",
                         "United States",
-                        "Nederlands"
+                        "Nederlandssss"
                     ],
                     0,
                     0
@@ -1472,9 +1486,9 @@
             "paint": {"fill-color": "hsl(344, 91%, 50%)"}
         }
     ],
-    "created": "2019-07-03T22:07:04.066Z",
-    "id": "cjxnsk3am31lj1cs1v9ycmtzr",
-    "modified": "2019-07-06T00:33:32.553Z",
+    "created": "2019-07-06T00:34:49.851Z",
+    "id": "cjxqspthq5ukc1dml7f2lktnv",
+    "modified": "2019-07-06T00:38:17.901Z",
     "owner": "infoamazonia",
     "visibility": "private",
     "draft": false
