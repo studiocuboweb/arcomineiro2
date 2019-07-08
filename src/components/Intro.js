@@ -92,7 +92,7 @@ const Overlay = styled.section`
         bearing: 0,
         pitch: 60.00
       },
-      "showLayers":['PNYapacana_nacionales_LABEL', 'PNYapacana_nacionales', 'cidadesfronteraCO','CO_admin-0-boundary']
+      "showLayers":['PNYapacana_nacionales_LABEL', 'PNYapacana_nacionales', 'cidadesfronteraCO','CO-VE_admin-0-boundary']
   }, {
       "id": 0,
       "slide": 4,
