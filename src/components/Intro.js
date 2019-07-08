@@ -139,11 +139,11 @@ class Intro extends Component {
       viewport: {
         width: window.innerWidth,
         height: window.innerHeight,
-        latitude: 6.436368,
-        longitude: -67.013959,
-        zoom: 5.60,
+        latitude: 6.917248,
+        longitude: -66.484489,
+        zoom: 4.77,
       },
-      center: [-67.013959, 6.436368],
+      center: [-66.484489, 6.917248],
       settings: {
         dragPan: false,
         dragRotate: false,
