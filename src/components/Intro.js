@@ -258,9 +258,9 @@ class Intro extends Component {
     const {intl} = this.props;
     console.log(intl.location);
     const {viewport,settings,content} = this.state;
-    var defaultMapsStyle = 'https://studio.mapbox.com/styles/infoamazonia/cjxnsk3am31lj1cs1v9ycmtzr/edit/#5.6/6.436/-67.014';
+    var defaultMapsStyle = 'mapbox://styles/infoamazonia/cjxnsk3am31lj1cs1v9ycmtzr';
     //var defaultMapStyle = 'mapbox://styles/infoamazonia/cjxnsk3am31lj1cs1v9ycmtzr';
-    var defaultMapStyle = IntroEN;
+    //var defaultMapStyle = IntroEN;
     //const defaultMapStyle = 'mapbox://styles/mapbox/streets-v10';
     if (intl.location == 'es') {
       defaultMapStyle = IntroES;
