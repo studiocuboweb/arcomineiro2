@@ -123,12 +123,12 @@ const Overlay = styled.section`
     "title": "intro.title1",
     "description":"intro.text1",
     "camera": {
-    center: [-67.013959, 6.436368],
-    zoom: 5.60,
+    center: [-66.484489, 6.917248],
+    zoom: 4.77,
     bearing: 0,
     pitch: 0
     },
-    "showLayers":['VE_admin-0-boundary']
+    "showLayers":['']
 }];
 // const map = '';
 class Intro extends Component {
@@ -167,9 +167,7 @@ class Intro extends Component {
     // Display the last title/description first
     const scope = this;
     const map = this._map.getMap()
-    console.log('componentDidMount')
     var location = this.props.intl.locale
-    console.log(location)
     if (location != 'en' && location != 'es' && location != 'pt') {
       location = 'en';
     }
@@ -187,8 +185,6 @@ class Intro extends Component {
           "filter": ["==", "id", ""]
         });
 
-        // Start the playback animation for each borough
-        //scope.setState({content:{title:locations[locations.length - 1].title,description:locations[locations.length - 1].description}});
         scope.playback(locations.length - 1,map);
     })
       
@@ -204,13 +200,8 @@ class Intro extends Component {
   }
 
   playback(index,map) {
-    console.log('playback')
-    console.log(index)
-    console.log('slide')
-    console.log(locations[index].slide)
     if (index == (locations.length - 1)) {
-      console.log('ZEROU O INDEX')
-      map.setLayoutProperty('VE_admin-0-boundary', 'visibility', 'none');
+      //map.setLayoutProperty('VE_admin-0-boundary', 'visibility', 'none');
       map.setLayoutProperty('PNYapacana_nacionales_LABEL', 'visibility', 'none');
       map.setLayoutProperty('PNYapacana_nacionales', 'visibility', 'none');
       map.setLayoutProperty('cidadesfronteraCO', 'visibility', 'none');
@@ -224,15 +215,11 @@ class Intro extends Component {
       var lastLayer = lastLayerArr[subindex];
       //hide currents layers
       if (lastLayer != undefined) {
-        console.log('lastLayer')
-        console.log(lastLayer)
         map.setLayoutProperty(lastLayer, 'visibility', 'none');
       }
       
       //show currents layers
       if (currentLayer != undefined) {
-        console.log('currentLayer')
-        console.log(currentLayer)
         map.setLayoutProperty(currentLayer, 'visibility', 'visible');
       }
     })
@@ -242,7 +229,6 @@ class Intro extends Component {
     this.highlightBorough(locations[index].id ? locations[index].id : '',map);
     map.flyTo(locations[index].camera);
     map.once('moveend', function() {
-        console.log('moveend')
         // Duration the slide is on screen after interaction
         window.setTimeout(function() {
         // Increment index
@@ -254,14 +240,13 @@ class Intro extends Component {
 
   render() {
     const {intl} = this.props;
-    console.log(intl.location);
     const {viewport,settings,content} = this.state;
     var defaultMapStyle = 'mapbox://styles/infoamazonia/cjxnsk3am31lj1cs1v9ycmtzr';
     //var defaultMapStyle = 'mapbox://styles/infoamazonia/cjxnsk3am31lj1cs1v9ycmtzr';
     //var defaultMapStyle = IntroEN;
     //const defaultMapStyle = 'mapbox://styles/mapbox/streets-v10';
     if (intl.location == 'es') {
-      defaultMapStyle = IntroES;
+      defaultMapStyle = 'mapbox://styles/infoamazonia/cjxut7brt9j801cnt63yld5em';
     } else if (intl.location == 'pt') {
       defaultMapStyle = IntroPT;
     }
@@ -272,7 +257,6 @@ class Intro extends Component {
             <p id='location-description'><FormattedMessageFixed id={content.description} defaultMessage="description" /></p>
           </div>
         </Overlay>
-        {console.log(defaultMapStyle)} 
         <ReactMapGL
           {...viewport}
           {...settings}
