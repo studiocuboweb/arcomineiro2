@@ -80,7 +80,7 @@ const Overlay = styled.section`
         bearing: 0,
         pitch: 30.00
       },
-      "showLayers":['PNYapacana_nacionales_LABEL', 'PNYapacana_nacionales', 'cidadesfronteraCO', 'CO-VE_admin-0-boundary', 'Bogota_capital-pais']
+      "showLayers":['PNYapacana_nacionales_LABEL', 'PNYapacana_nacionales', 'cidadesfronteraCO','CO-VE_admin-0-boundary']
   }, {
       "id": 2,
       "slide": 3,
@@ -92,7 +92,7 @@ const Overlay = styled.section`
         bearing: 0,
         pitch: 60.00
       },
-      "showLayers":['PNYapacana_nacionales_LABEL', 'PNYapacana_nacionales', 'cidadesfronteraCO', 'CO_admin-0-boundary', 'Bogota_capital-pais', 'Medellin_capital-departamento','CO-VE_admin-0-boundary']
+      "showLayers":['PNYapacana_nacionales_LABEL', 'PNYapacana_nacionales', 'cidadesfronteraCO','CO_admin-0-boundary']
   }, {
       "id": 0,
       "slide": 4,
@@ -128,7 +128,7 @@ const Overlay = styled.section`
     bearing: 0,
     pitch: 0
     },
-    "showLayers":['VE_admin-0-boundary','VE_country-label']
+    "showLayers":['VE_admin-0-boundary']
 }];
 // const map = '';
 class Intro extends Component {
@@ -211,14 +211,12 @@ class Intro extends Component {
     if (index == (locations.length - 1)) {
       console.log('ZEROU O INDEX')
       map.setLayoutProperty('VE_admin-0-boundary', 'visibility', 'none');
-      map.setLayoutProperty('VE_country-label', 'visibility', 'none');
       map.setLayoutProperty('PNYapacana_nacionales_LABEL', 'visibility', 'none');
       map.setLayoutProperty('PNYapacana_nacionales', 'visibility', 'none');
       map.setLayoutProperty('cidadesfronteraCO', 'visibility', 'none');
-      map.setLayoutProperty('CO-VE_admin-0-boundary', 'visibility', 'none');
-      map.setLayoutProperty('Bogota_capital-pais', 'visibility', 'none');
-      map.setLayoutProperty('Medellin_capital-departamento', 'visibility', 'none');
       map.setLayoutProperty('NL_admin-0-boundary', 'visibility', 'none');
+      map.setLayoutProperty('CO-VE_admin-0-boundary', 'visibility', 'none');
+      map.setLayoutProperty('CO_admin-0-boundary', 'visibility', 'none');
     }
 
     locations[index].showLayers.sort().map( function(currentLayer,subindex) {
@@ -258,7 +256,7 @@ class Intro extends Component {
     const {intl} = this.props;
     console.log(intl.location);
     const {viewport,settings,content} = this.state;
-    var defaultMapsStyle = 'mapbox://styles/infoamazonia/cjxnsk3am31lj1cs1v9ycmtzr';
+    var defaultMapStyle = 'mapbox://styles/infoamazonia/cjxnsk3am31lj1cs1v9ycmtzr';
     //var defaultMapStyle = 'mapbox://styles/infoamazonia/cjxnsk3am31lj1cs1v9ycmtzr';
     //var defaultMapStyle = IntroEN;
     //const defaultMapStyle = 'mapbox://styles/mapbox/streets-v10';
