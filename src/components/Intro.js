@@ -6,10 +6,6 @@ import { media } from "styles/utils";
 import { injectIntl, intlShape } from "react-intl";
 import { withRouter } from "react-router-dom";
 import FormattedMessageFixed from "components/blocks/FormattedMessageFixed";
-import IntroEN from 'components/mapbox/intros/styleEN.json';
-import IntroES from 'components/mapbox/intros/styleES.json';
-import IntroPT from 'components/mapbox/intros/stylePT.json';
-
 
 const MAPBOX_TOKEN = 'pk.eyJ1IjoiaW5mb2FtYXpvbmlhIiwiYSI6InItajRmMGsifQ.JnRnLDiUXSEpgn7bPDzp7g'; // Set your mapbox token here
 
@@ -240,13 +236,10 @@ class Intro extends Component {
     const {intl} = this.props;
     const {viewport,settings,content} = this.state;
     var defaultMapStyle = 'mapbox://styles/infoamazonia/cjxut7brt9j801cnt63yld5em';
-    //var defaultMapStyle = 'mapbox://styles/infoamazonia/cjxnsk3am31lj1cs1v9ycmtzr';
-    //var defaultMapStyle = IntroEN;
-    //const defaultMapStyle = 'mapbox://styles/mapbox/streets-v10';
     if (intl.location == 'es') {
-      defaultMapStyle = 'mapbox://styles/infoamazonia/cjxut7brt9j801cnt63yld5em';
+      defaultMapStyle = 'mapbox://styless/infoamazonia/cjxv0o61x05h11cpdwbarjjyf';
     } else if (intl.location == 'pt') {
-      defaultMapStyle = IntroPT;
+      defaultMapStyle = 'mapbox://styless/infoamazonia/cjxv0spzv1l451cs2l5b6y12u';
     }
     return (
       <div>
