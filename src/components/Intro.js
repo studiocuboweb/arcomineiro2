@@ -6,6 +6,7 @@ import { media } from "styles/utils";
 import { injectIntl, intlShape } from "react-intl";
 import { withRouter } from "react-router-dom";
 import FormattedMessageFixed from "components/blocks/FormattedMessageFixed";
+import ReactHtmlParser, { processNodes, convertNodeToElement, htmlparser2 } from 'react-html-parser';
 
 const MAPBOX_TOKEN = 'pk.eyJ1IjoiaW5mb2FtYXpvbmlhIiwiYSI6InItajRmMGsifQ.JnRnLDiUXSEpgn7bPDzp7g'; // Set your mapbox token here
 
@@ -155,7 +156,8 @@ class Intro extends Component {
       },
       content: {
         title:locations[locations.length - 1].title,
-        description:locations[locations.length - 1].description
+        description:locations[locations.length - 1].description,
+        slide:locations[locations.length - 1].slide
       }
     }
   }
@@ -220,7 +222,7 @@ class Intro extends Component {
       }
     })
     //debugger;
-    this.setState({content:{title:locations[index].title,description:locations[index].description}});
+    this.setState({content:{title:locations[index].title,description:locations[index].description,slide:locations[index].slide}});
     const scope = this;
     this.highlightBorough(locations[index].id ? locations[index].id : '',map);
     map.flyTo(locations[index].camera);
@@ -255,6 +257,19 @@ class Intro extends Component {
         <Overlay>
           <div class='map-overlay'>
             <p id='location-description'><FormattedMessageFixed id={content.description} defaultMessage="description" /></p>
+            {console.log('content.images')}
+            {console.log(content)}
+            {console.log(content.slide)}
+            { 
+              content.slide == 1 &&
+                <div>
+                    <img src={require('images/partners/media_outlets/correo_del_caroni_black.png')} />
+                    <img src={require('images/partners/media_outlets/de_correspondent_logo_black.png')} />
+                    <img src={require('images/partners/media_outlets/infoamazonia_black.png')} />
+                    <img src={require('images/partners/media_outlets/runrun.png')} />
+                    <img src={require('images/partners/media_outlets/miami_herald_black.png')} />
+                </div>
+            }
           </div>
         </Overlay>
         <ReactMapGL
