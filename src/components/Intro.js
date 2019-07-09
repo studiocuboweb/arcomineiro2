@@ -164,6 +164,8 @@ class Intro extends Component {
     const scope = this;
     const map = this._map.getMap()
     var location = this.props.intl.locale
+    console.log('location 2')
+    console.log(location)
     if (location != 'en' && location != 'es' && location != 'pt') {
       location = 'en';
     }
@@ -235,12 +237,19 @@ class Intro extends Component {
   render() {
     const {intl} = this.props;
     const {viewport,settings,content} = this.state;
+    console.log('location');
+    console.log(this.props.intl.locale);
+    //inglês
     var defaultMapStyle = 'mapbox://styles/infoamazonia/cjxut7brt9j801cnt63yld5em';
-    if (intl.location == 'es') {
+    if (this.props.intl.locale == 'es') {
+      //espanhol
       defaultMapStyle = 'mapbox://styles/infoamazonia/cjxv0o61x05h11cpdwbarjjyf';
-    } else if (intl.location == 'pt') {
+    } else if (this.props.intl.locale == 'pt') {
+      //portugues
       defaultMapStyle = 'mapbox://styles/infoamazonia/cjxv0spzv1l451cs2l5b6y12u';
     }
+    console.log('mapa')
+    console.log(defaultMapStyle)
     return (
       <div>
         <Overlay>
