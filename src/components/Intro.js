@@ -237,9 +237,9 @@ class Intro extends Component {
     const {viewport,settings,content} = this.state;
     var defaultMapStyle = 'mapbox://styles/infoamazonia/cjxut7brt9j801cnt63yld5em';
     if (intl.location == 'es') {
-      defaultMapStyle = 'mapbox://styless/infoamazonia/cjxv0o61x05h11cpdwbarjjyf';
+      defaultMapStyle = 'mapbox://styles/infoamazonia/cjxv0o61x05h11cpdwbarjjyf';
     } else if (intl.location == 'pt') {
-      defaultMapStyle = 'mapbox://styless/infoamazonia/cjxv0spzv1l451cs2l5b6y12u';
+      defaultMapStyle = 'mapbox://styles/infoamazonia/cjxv0spzv1l451cs2l5b6y12u';
     }
     return (
       <div>
