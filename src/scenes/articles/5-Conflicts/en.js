@@ -11,6 +11,7 @@ import FeaturedText from "components/blocks/FeaturedText";
 import Note from "components/blocks/Note";
 import EndChapter from "components/blocks/EndChapter";
 import RelatedNews from "components/RelatedNews";
+import { FormattedMessage } from "react-intl";
 
 export default () => (
   <article>
@@ -19,6 +20,14 @@ export default () => (
     </Helmet>
     <Container>
       <Title as="h2">Conflicts</Title>
+      <Paragraph>
+      <h2>
+        <FormattedMessage
+          id="general.authorChapter5"
+          defaultMessage="-"
+        />
+      </h2>
+      </Paragraph>
       <Note>
         <p>
           Political crises in South America have also contributed to the escalation of conflicts involving indigenous communities and their territories.

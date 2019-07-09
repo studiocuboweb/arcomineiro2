@@ -10,6 +10,7 @@ import Quote from "components/blocks/Quote";
 import Note from "components/blocks/Note";
 import FileLink from "components/FileLink";
 import EndChapter from "../../../components/blocks/EndChapter";
+import { FormattedMessage } from "react-intl";
 
 export default () => (
   <article>
@@ -18,6 +19,14 @@ export default () => (
     </Helmet>
     <Container>
       <Title as="h2">Mercúrio</Title>
+      <Paragraph>
+      <h2>
+        <FormattedMessage
+          id="general.authorChapter2"
+          defaultMessage="-"
+        />
+      </h2>
+      </Paragraph>
       <Note>
         <p>
           A grande quantidade de mercúrio usada na purificação do ouro está contaminando a Amazônia. A obtenção de ouro é o principal objetivo da mineração ilegal.

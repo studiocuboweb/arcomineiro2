@@ -11,6 +11,7 @@ import FeaturedText from "components/blocks/FeaturedText";
 import Note from "components/blocks/Note";
 import EndChapter from "components/blocks/EndChapter";
 import RelatedNews from "components/RelatedNews";
+import { FormattedMessage } from "react-intl";
 
 export default () => (
   <article>
@@ -19,6 +20,14 @@ export default () => (
     </Helmet>
     <Container>
       <Title as="h2">Conflictos</Title>
+      <Paragraph>
+      <h2>
+        <FormattedMessage
+          id="general.authorChapter5"
+          defaultMessage="-"
+        />
+      </h2>
+      </Paragraph>
       <Note>
         <p>
           Las crisis políticas en América del Sur también han contribuido a la profundización de los conflictos que involucra a comunidades y territorios indígenas.

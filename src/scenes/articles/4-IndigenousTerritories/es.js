@@ -11,6 +11,7 @@ import Table from "components/blocks/Table";
 import Quote from "components/blocks/Quote";
 import Note from "components/blocks/Note";
 import Board from "components/blocks/Board";
+import { FormattedMessage } from "react-intl";
 
 export default () => (
   <article>
@@ -19,6 +20,14 @@ export default () => (
     </Helmet>
     <Container>
       <Title as="h2">Territorios Indígenas</Title>
+      <Paragraph>
+      <h2>
+        <FormattedMessage
+          id="general.authorChapter4"
+          defaultMessage="-"
+        />
+      </h2>
+      </Paragraph>
       <Note>
         <p>
           Los impactos de la minería ilegal sobre los recursos naturales, las actividades de los mineros ilegales y el tráfico de minerales elevan los conflictos con comunidades indígenas y ribereñas en la Amazonía.

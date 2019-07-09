@@ -13,6 +13,7 @@ import FeaturedText from "components/blocks/FeaturedText";
 import Note from "components/blocks/Note";
 import EndChapter from "components/blocks/EndChapter";
 import Table from "components/blocks/Table";
+import { FormattedMessage } from "react-intl";
 
 export default () => (
   <article>
@@ -20,6 +21,14 @@ export default () => (
       <title>Introducción | La Amazonía saqueada</title>
     </Helmet>
     <Container>
+      <Paragraph>
+      <h2>
+        <FormattedMessage
+          id="general.authorChapter1"
+          defaultMessage="-"
+        />
+      </h2>
+      </Paragraph>
       <Note>
         <p>
           Estudio inédito apunta a la existencia de más de 2000 puntos y 200 áreas de minería ilegal en los ecosistemas  selváticos de seis países amazónicos.

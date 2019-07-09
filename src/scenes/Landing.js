@@ -291,12 +291,7 @@ class Scene extends Component {
             <img src={require("images/partners/raisg-branco.png")} /> 
           </div>
           <SiteTitle />
-          <h2>
-            <FormattedMessage
-              id="general.author"
-              defaultMessage="-"
-            />
-          </h2>
+          <br />
           <h3>
             <FormattedMessage
               id="general.publishDate"
