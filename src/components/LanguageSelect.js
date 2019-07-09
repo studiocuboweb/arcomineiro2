@@ -87,10 +87,8 @@ class LanguageSelect extends Component {
 
       var location_2 = document.location.href;
       if (location_2.search('story') > -1 || location_2.search('share') > -1 || location_2.search('about') > -1) {
-        console.log('entrou no if')
         this.defaultStyle = WrapperStory;
       } else {
-        console.log('entrou no else')
         this.defaultStyle = WrapperHome;
       }
     }
@@ -98,6 +96,8 @@ class LanguageSelect extends Component {
   
     renderRedirect = () => {
       if (this.state.redirect) {
+          console.log('redirect')
+          console.log(this.state.language);
           var location = "";
         if (this.state.language == 'pt') {
             location = '?lang=pt';
@@ -106,6 +106,7 @@ class LanguageSelect extends Component {
         } else {
             location = '?lang=en';
         }
+        console.log(location)
         document.location.href = location;
         //return <Redirect push={true} to={location} />
       }
@@ -125,12 +126,8 @@ class LanguageSelect extends Component {
         var x, i, j, selElmnt, a, b, c;
         /* Look for any elements with the class "custom-select": */
         x = window.document.getElementsByClassName("custom-select");
-        console.log('x')
-        console.log(x)
         for (i = 0; i < x.length; i++) {
           selElmnt = x[i].getElementsByTagName("select")[0];
-          console.log('entrou no loop')
-          console.log(selElmnt)
           /* For each element, create a new DIV that will act as the selected item: */
           a = document.createElement("DIV");
           a.setAttribute("class", "select-selected");
@@ -168,20 +165,17 @@ class LanguageSelect extends Component {
           }
           x[i].appendChild(b);
           var actualSelect = window.document.getElementsByClassName('select-selected');
-          // console.log(actualSelect[0].textContent);
           var currentTarget = actualSelect[0].textContent;
           a.addEventListener("click", function(e) {
-            console.log('entrou no clique')
             /* When the select box is clicked, close any other select boxes,
             and open/close the current select box: */
             e.stopPropagation();
             this.closeAllSelect(e);
             e.target.nextSibling.classList.toggle("select-hide");
             e.target.classList.toggle("select-arrow-active");
-            console.log(e.target.textContent)
-             
+            
+            /* Find if click changed */
             if (this.count++ > 0) {
-              console.log(currentTarget)
               if (currentTarget != e.target.textContent) {
                 this.handleChange(e)
                 this.count = 0;
@@ -189,7 +183,6 @@ class LanguageSelect extends Component {
             } else {
               currentTarget = e.target.textContent;
             }
-            console.log(this.count);
           }.bind(this));
         }
         /* If the user clicks anywhere outside the select box,
@@ -199,7 +192,6 @@ class LanguageSelect extends Component {
     }
 
     closeAllSelect(elmnt) {
-      console.log('closeall')
       /* A function that will close all select boxes in the document,
       except the current select box: */
       var x, y, i, arrNo = [];
@@ -220,10 +212,21 @@ class LanguageSelect extends Component {
     }
 
     handleChange(ev) {
-        if (ev.target.value != '') {
+       console.log('handleChange')
+       console.log(ev.target.textContent)
+       var choosedLanguage = 'en';
+        if (ev.target.textContent != '') {
+            if (ev.target.textContent == "Português") {
+              choosedLanguage = 'pt';
+            } else if (ev.target.textContent == "Español") {
+              choosedLanguage = 'es';
+            }
+            console.log('choosedLanguage')
+            console.log(choosedLanguage)
             this.setState({
-                language: ev.target.value
-              })    
+                language: choosedLanguage
+              })
+              console.log(this.state.language)
         }
         this.setRedirect()
       
@@ -236,7 +239,6 @@ class LanguageSelect extends Component {
 
     render () {
         const Wrapper = this.defaultStyle;
-        console.log(Wrapper);
         return (
       <Wrapper>
         {this.renderRedirect()}
