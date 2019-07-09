@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import { throws } from 'assert';
-import { SSL_OP_SSLEAY_080_CLIENT_DH_BUG } from 'constants';
+import { injectIntl, intlShape } from "react-intl";
+import { withRouter } from "react-router-dom";
 
 const WrapperHome = styled.section`
   .custom-select {
@@ -65,7 +65,64 @@ const WrapperHome = styled.section`
 `;
 
 const WrapperStory = styled.section`
+  .custom-select {
+    /* The container must be positioned relative: */
+    position: relative;
+  }
 
+  .custom-select select {
+    display: none; /*hide original SELECT element: */
+  }
+
+  .select-selected {
+    background-color: DodgerBlue;
+  }
+
+  /* Style the arrow inside the select element: */
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
+
+  /* Point the arrow upwards when the select box is open (active): */
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+  }
+
+  /* style the items (options), including the selected item: */
+  .select-items div,.select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+  }
+
+  /* Style items (options): */
+  .select-items {
+    position: absolute;
+    background-color: DodgerBlue;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+
+  /* Hide the items when the select box is closed: */
+  .select-hide {
+    display: none;
+  }
+
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
 `;
 
 const languages = [{'id':'en','label':'English'}, {'id':'pt','label':'Português'}, {'id':'es','label':'Español'}];
@@ -115,12 +172,17 @@ class LanguageSelect extends Component {
     componentDidMount() {
         this.location = document.location.href;
         var querystring = window.location.search;
+        var locationAuto = this.props.intl.locale
+        console.log('locationAuto')
+        console.log(locationAuto)
 
         if (querystring.search('lang=') > -1) {
             this.setState({language: querystring.split('=')[1]})
         } else {
             this.setState({language: 'en'})
         }
+
+        
         /* JAVASCRIPT TO CUSTOMIZE SELECT COMPONENT */
         /* REFERENCE: https://www.w3schools.com/howto/howto_custom_select.asp */
         var x, i, j, selElmnt, a, b, c;
@@ -184,6 +246,23 @@ class LanguageSelect extends Component {
               currentTarget = e.target.textContent;
             }
           }.bind(this));
+        }
+        if (this.location.search('lang') > -1) {
+          if (this.location.search('lang=pt') > -1) {
+            document.getElementsByClassName('select-selected')[0].textContent = 'Português';
+          } else if (this.location.search('lang=es') > -1) {
+            document.getElementsByClassName('select-selected')[0].textContent = 'Español';
+          } else {
+            document.getElementsByClassName('select-selected')[0].textContent = 'English';
+          }
+        } else {
+          if (locationAuto.search('pt') > -1) {
+            document.getElementsByClassName('select-selected')[0].textContent = 'Português';
+          } else if (locationAuto.search('es') > -1) {
+            document.getElementsByClassName('select-selected')[0].textContent = 'Español';
+          } else {
+            document.getElementsByClassName('select-selected')[0].textContent = 'English';
+          }        
         }
         /* If the user clicks anywhere outside the select box,
         then close all select boxes: */
@@ -258,5 +337,7 @@ class LanguageSelect extends Component {
       </Wrapper>
     )}
   }
-  
-  export default (LanguageSelect);
+  LanguageSelect.propTypes = {
+    intl: intlShape.isRequired
+  };
+  export default injectIntl(withRouter(LanguageSelect));

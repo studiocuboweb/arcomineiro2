@@ -241,10 +241,10 @@ class Intro extends Component {
     console.log(this.props.intl.locale);
     //inglês
     var defaultMapStyle = 'mapbox://styles/infoamazonia/cjxut7brt9j801cnt63yld5em';
-    if (this.props.intl.locale == 'es') {
+    if (this.props.intl.locale.search('es') > -1) {
       //espanhol
       defaultMapStyle = 'mapbox://styles/infoamazonia/cjxv0o61x05h11cpdwbarjjyf';
-    } else if (this.props.intl.locale == 'pt') {
+    } else if (this.props.intl.locale.search('pt') > -1) {
       //portugues
       defaultMapStyle = 'mapbox://styles/infoamazonia/cjxv0spzv1l451cs2l5b6y12u';
     }
