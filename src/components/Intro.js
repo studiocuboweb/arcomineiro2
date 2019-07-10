@@ -84,7 +84,7 @@ const Overlay = styled.section`
       "title": "intro.title3",
       "description":"intro.text3",
       "camera": {
-        center: [-71.144278, 11.172461],
+        center: [-73.673727, 10.722255],
         zoom: 5.49,
         bearing: 0,
         pitch: 60.00
@@ -110,8 +110,8 @@ const Overlay = styled.section`
       "title": "intro.title5",
       "description":"intro.text5",
       "camera": {
-      center: [-41.682555, 27.970897],
-      zoom: 3.32,
+      center: [-41.680000, 27.970000],
+      zoom:  2.32,
       bearing: 0,
       pitch: 30.00
       },
@@ -252,8 +252,8 @@ class Intro extends Component {
     console.log(locations[index].slide)
     console.log(map.getBounds())
     
-    map.fitBounds(locations[index].fitBoundsCoords,{pitch:locations[index].camera.pitch});
-    //map.flyTo(locations[index].camera);
+    //map.fitBounds(locations[index].fitBoundsCoords,{pitch:locations[index].camera.pitch});
+    map.flyTo(locations[index].camera);
     map.once('moveend', function() {
         // Duration the slide is on screen after interaction
         window.setTimeout(function() {
