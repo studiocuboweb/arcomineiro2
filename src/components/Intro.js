@@ -4,7 +4,7 @@ import styled from "styled-components";
 import PropTypes from 'prop-types';
 import { media } from "styles/utils";
 import { injectIntl, intlShape } from "react-intl";
-import { withRouter } from "react-router-dom";
+import { Redirect,withRouter } from "react-router-dom";
 import FormattedMessageFixed from "components/blocks/FormattedMessageFixed";
 
 const MAPBOX_TOKEN = 'pk.eyJ1IjoiaW5mb2FtYXpvbmlhIiwiYSI6InItajRmMGsifQ.JnRnLDiUXSEpgn7bPDzp7g'; // Set your mapbox token here
@@ -76,6 +76,7 @@ const Overlay = styled.section`
         bearing: 0,
         pitch: 30.00
       },
+      "fitBoundsCoords":[[-78.42100930608069,-1.0671136664427792],[-56.19040469386101, 15.549788164210213]],
       "showLayers":['PNYapacana_nacionales_LABEL', 'PNYapacana_nacionales', 'cidadesfronteraCO','CO-VE_admin-0-boundary']
   }, {
       "id": 2,
@@ -88,6 +89,7 @@ const Overlay = styled.section`
         bearing: 0,
         pitch: 60.00
       },
+      "fitBoundsCoords":[[-78.42100930608831,-1.0671136664409602],[-56.19040469388062, 15.549788164204557]],
       "showLayers":['PNYapacana_nacionales_LABEL', 'PNYapacana_nacionales', 'cidadesfronteraCO','CO-VE_admin-0-boundary']
   }, {
       "id": 0,
@@ -100,6 +102,7 @@ const Overlay = styled.section`
         bearing: 0,
         pitch: 10.00
       },
+      "fitBoundsCoords":[[-72.74432866396573,9.473057891127226],[-66.13965133604775, 14.312071763283015]],
       "showLayers":['cidadesfronteraCO']
   }, {
       "id": 3,
@@ -112,6 +115,7 @@ const Overlay = styled.section`
       bearing: 0,
       pitch: 30.00
       },
+      "fitBoundsCoords":[[-114.91826006824306,-15.38325395967992],[31.553150068228973, 68.4993402503298]],
       "showLayers":['NL_admin-0-boundary']
   },{
     "id": 0,
@@ -124,13 +128,16 @@ const Overlay = styled.section`
     bearing: 0,
     pitch: 0
     },
+    "fitBoundsCoords":[[-88.1315403090528,-9.921248670028632],[-44.837437690917284, 23.179933818133662]],
     "showLayers":['']
 }];
 // const map = '';
 class Intro extends Component {
 
   constructor(props) {
+    
     super(props);
+    this.setRedirect = this.setRedirect.bind(this);
     this.state = {
       viewport: {
         width: window.innerWidth,
@@ -157,9 +164,22 @@ class Intro extends Component {
         title:locations[locations.length - 1].title,
         description:locations[locations.length - 1].description,
         slide:locations[locations.length - 1].slide
-      }
+      },
+      redirect: false
     }
   }
+  renderRedirect = () => {
+    if (this.state.redirect) {
+      return <Redirect to='/story?show=intro' />
+    }
+  }
+
+  setRedirect() {
+    this.setState({
+      redirect: true
+    })
+  }
+
   componentDidMount() {
     // Display the last title/description first
     const scope = this;
@@ -170,6 +190,10 @@ class Intro extends Component {
     if (location != 'en' && location != 'es' && location != 'pt') {
       location = 'en';
     }
+    //var bbox = [[-65, 7], [-70, -7]];
+    // map.fitBounds(bbox, {
+    //   padding: {top: 0, bottom:0, left: 0, right: 0}
+    // });
     map.on('load', function() {
       map.setLayoutProperty('country-label-', 'text-field', ['get', 'name_'+location]);
       map.addLayer({
@@ -199,6 +223,7 @@ class Intro extends Component {
   }
 
   playback(index,map) {
+    //index = 3;
     if (index == (locations.length - 1)) {
       map.setLayoutProperty('PNYapacana_nacionales_LABEL', 'visibility', 'none');
       map.setLayoutProperty('PNYapacana_nacionales', 'visibility', 'none');
@@ -224,13 +249,28 @@ class Intro extends Component {
     this.setState({content:{title:locations[index].title,description:locations[index].description,slide:locations[index].slide}});
     const scope = this;
     this.highlightBorough(locations[index].id ? locations[index].id : '',map);
-    map.flyTo(locations[index].camera);
+    console.log(locations[index].slide)
+    console.log(map.getBounds())
+    
+    map.fitBounds(locations[index].fitBoundsCoords,{pitch:locations[index].camera.pitch});
+    //map.flyTo(locations[index].camera);
     map.once('moveend', function() {
         // Duration the slide is on screen after interaction
         window.setTimeout(function() {
-        // Increment index
-        index = (index + 1 === locations.length) ? 0 : index + 1;
-        scope.playback(index,map);
+        // Increment index or redirect to story page
+        console.log('moveend')
+        
+        console.log(locations[index].slide)
+        //index = (index + 1 === locations.length) ? 0 : index + 1;
+        //scope.playback(index,map);
+        if (locations[index].slide === 5) {
+          document.location.href = '/story?show=intro'
+          scope.setRedirect()
+          return;
+        } else {
+          index = (index + 1 === locations.length) ? 0 : index + 1;
+          scope.playback(index,map);
+        }
       }, 6000); // After callback, show the location for 6 seconds.
     });
   }
@@ -253,13 +293,14 @@ class Intro extends Component {
     console.log(defaultMapStyle)
     return (
       <div>
+        {this.renderRedirect()}
         <Overlay>
           <div class='map-overlay'>
             <p id='location-description'><FormattedMessageFixed id={content.description} defaultMessage="description" /></p>
             {console.log('content.images')}
             {console.log(content)}
             {console.log(content.slide)}
-            { 
+            {/* { 
               content.slide == 1 &&
                 <div>
                     <img src={require('images/partners/media_outlets/correo_del_caroni_black.png')} />
@@ -268,7 +309,7 @@ class Intro extends Component {
                     <img src={require('images/partners/media_outlets/runrun.png')} />
                     <img src={require('images/partners/media_outlets/miami_herald_black.png')} />
                 </div>
-            }
+            } */}
           </div>
         </Overlay>
         <ReactMapGL
