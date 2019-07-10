@@ -281,7 +281,7 @@ class Intro extends Component {
     console.log('location');
     console.log(this.props.intl.locale);
     //inglês
-    var defaultMapStyle = 'mapbox://styles/infoamazonia/cjxut7brt9j801cnt63yld5em';
+    var defaultMapStyle = 'mapbox://styles/infoamazonia/cjxxfhrimbuhb1cmshwpbuljg';
     if (this.props.intl.locale.search('es') > -1) {
       //espanhol
       defaultMapStyle = 'mapbox://styles/infoamazonia/cjxv0o61x05h11cpdwbarjjyf';
