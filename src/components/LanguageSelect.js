@@ -14,7 +14,18 @@ const WrapperHome = styled.section`
   }
 
   .select-selected {
-    background-color: DodgerBlue;
+    font-family: "Cinzel";
+    font-size: 0.5em;
+    letter-spacing: 0.1rem;
+    display: inline-block;
+    color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+    margin: -1px -1px 0 0;
+    padding: 0.75rem 1rem;
+    font-weight: 600;
+    width: 165px;
+    text-transform: uppercase;
   }
 
   /* Style the arrow inside the select element: */
@@ -37,17 +48,25 @@ const WrapperHome = styled.section`
 
   /* style the items (options), including the selected item: */
   .select-items div,.select-selected {
-    color: #ffffff;
-    padding: 8px 16px;
-    border: 1px solid transparent;
-    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    font-family: "Cinzel";
+    font-size: 0.5em;
+    letter-spacing: 0.1rem;
+    display: inline-block;
+    color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+    margin: -1px -1px 0 0;
+    padding: 0.75rem 1rem;
+    font-weight: 600;
+    width: 116px;
+    text-transform: uppercase;
     cursor: pointer;
   }
 
   /* Style items (options): */
   .select-items {
     position: absolute;
-    background-color: DodgerBlue;
+    background-color: Grey;
     top: 100%;
     left: 0;
     right: 0;
@@ -75,7 +94,7 @@ const WrapperStory = styled.section`
   }
 
   .select-selected {
-    background-color: DodgerBlue;
+    background: #fff;
   }
 
   /* Style the arrow inside the select element: */
@@ -87,7 +106,7 @@ const WrapperStory = styled.section`
     width: 0;
     height: 0;
     border: 6px solid transparent;
-    border-color: #fff transparent transparent transparent;
+    border-color: #999 transparent transparent transparent;
   }
 
   /* Point the arrow upwards when the select box is open (active): */
@@ -98,7 +117,7 @@ const WrapperStory = styled.section`
 
   /* style the items (options), including the selected item: */
   .select-items div,.select-selected {
-    color: #ffffff;
+    color: #999;
     padding: 8px 16px;
     border: 1px solid transparent;
     border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
@@ -107,8 +126,22 @@ const WrapperStory = styled.section`
 
   /* Style items (options): */
   .select-items {
+    font-family: "Cinzel";
+    font-size: 0.5em;
+    letter-spacing: 0.1rem;
+    display: inline-block;
+    color: #999;
+    background: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+    margin: -1px -1px 0 0;
+    padding: 0.75rem 1rem;
+    font-weight: 600;
+    width: 116px;
+    text-transform: uppercase;
+
     position: absolute;
-    background-color: DodgerBlue;
+  
     top: 100%;
     left: 0;
     right: 0;
@@ -321,7 +354,7 @@ class LanguageSelect extends Component {
         return (
       <Wrapper>
         {this.renderRedirect()}
-        <div className='custom-select' style={{'width':'200px'}}>
+        <div className='custom-select' style={{'width':'150px'}}>
           <select onChange={this.handleChange} value={this.state.language}>
               <option value=''>Select a language:</option>
               {languages.map((value, index) => {

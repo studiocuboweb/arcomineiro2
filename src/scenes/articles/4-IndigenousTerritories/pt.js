@@ -12,6 +12,7 @@ import Quote from "components/blocks/Quote";
 import Note from "components/blocks/Note";
 import Board from "components/blocks/Board";
 import { FormattedMessage } from "react-intl";
+import Author from "components/blocks/Author";
 
 export default () => (
   <article>
@@ -20,14 +21,12 @@ export default () => (
     </Helmet>
     <Container>
       <Title as="h2">Territórios Indígenas</Title>
-      <Paragraph>
-      <h2>
+      <Author>
         <FormattedMessage
           id="general.authorChapter4"
           defaultMessage="-"
         />
-      </h2>
-      </Paragraph>
+      </Author>
       <Note>
         <p>
           Os impactos da mineração ilegal sobre os recursos naturais, as atividades garimpeiras e o tráfego mineral geram conflitos com comunidades indígenas e ribeirinhas da Amazônia.

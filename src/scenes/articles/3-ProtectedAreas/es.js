@@ -12,6 +12,7 @@ import FullBlock from "components/blocks/Full";
 import Note from "components/blocks/Note";
 import Table from "components/blocks/Table";
 import { FormattedMessage } from "react-intl";
+import Author from "components/blocks/Author";
 
 export default () => (
   <article>
@@ -20,14 +21,12 @@ export default () => (
     </Helmet>
     <Container>
       <Title as="h2">Áreas Protegidas</Title>
-      <Paragraph>
-      <h2>
+      <Author>
         <FormattedMessage
           id="general.authorChapter3"
           defaultMessage="-"
         />
-      </h2>
-      </Paragraph>
+      </Author>
       <Note>
         <p>
           Además de las amenazas para los recursos hídricos y la salud de las comunidades de la Amazonía, la <StoryMedia

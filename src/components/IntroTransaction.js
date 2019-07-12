@@ -45,7 +45,7 @@ const Wrapper = styled.div`
         margin: 10px auto;
     }
     #intro_transtion_overlay>span>a {
-      color:rgb(51,51,51);
+      color:rgb(151,151,151);
     }
 `;
 

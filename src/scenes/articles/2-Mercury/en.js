@@ -11,6 +11,7 @@ import Note from "components/blocks/Note";
 import FileLink from "components/FileLink";
 import EndChapter from "../../../components/blocks/EndChapter";
 import { FormattedMessage } from "react-intl";
+import Author from "components/blocks/Author";
 
 export default () => (
   <article>
@@ -19,14 +20,12 @@ export default () => (
     </Helmet>
     <Container>
       <Title as="h2">Mercury</Title>
-      <Paragraph>
-      <h2>
+      <Author>
         <FormattedMessage
           id="general.authorChapter2"
           defaultMessage="-"
         />
-      </h2>
-      </Paragraph>
+      </Author>
       <Note>
         <p>
           The large quantities of mercury used in the purification of gold is contaminating the Amazon. Obtaining gold is the main aim of the illegal mining.

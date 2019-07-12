@@ -12,6 +12,7 @@ import Quote from "components/blocks/Quote";
 import Note from "components/blocks/Note";
 import Board from "components/blocks/Board";
 import { FormattedMessage } from "react-intl";
+import Author from "components/blocks/Author";
 
 export default () => (
   <article>
@@ -20,14 +21,12 @@ export default () => (
     </Helmet>
     <Container>
       <Title as="h2">Indigenous Territories</Title>
-      <Paragraph>
-      <h2>
+      <Author>
         <FormattedMessage
           id="general.authorChapter4"
           defaultMessage="-"
         />
-      </h2>
-      </Paragraph>
+      </Author>
       <Note>
         <p>
           The impacts of illegal mining on natural resources, mining activities and mineral traffic generate conflicts with indigenous and riverside communities in the Amazon.

@@ -14,6 +14,7 @@ import Note from "components/blocks/Note";
 import EndChapter from "components/blocks/EndChapter";
 import Table from "components/blocks/Table";
 import { FormattedMessage } from "react-intl";
+import Author from "components/blocks/Author";
 
 export default () => (
   <article>
@@ -21,14 +22,12 @@ export default () => (
       <title>Introdução | Amazônia saqueada</title>
     </Helmet>
     <Container>
-      <Paragraph>
-        <h2>
-          <FormattedMessage
-            id="general.authorChapter1"
-            defaultMessage="-"
-          />
-        </h2>
-      </Paragraph>
+      <Author>
+        <FormattedMessage
+          id="general.authorChapter1"
+          defaultMessage="-"
+        />
+      </Author>
       <Note>
         <p>
           Levantamento inédito aponta a existência de mais de 2000 pontos e 200 áreas de mineração ilegal nos ecossistemas florestais de seis países amazônicos.

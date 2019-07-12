@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
 import styled, { css } from 'styled-components';
 import { media } from 'styles/utils';
-import { paddings } from './utils';
 
 const styles = css`
-  border-bottom: 1px solid #ddd;
-  margin: 6vw 0;
-  margin-bottom: 1vw;
-  padding: 0 1rem 1rem;
+  text-align: right;
+  margin-top: 0;
+  margin-bottom: 0;
   span {
     display: block;
     max-width: 900px;
@@ -21,7 +19,7 @@ const styles = css`
 `
 
 export default ({ as, children }) => {
-  as = as || 'h3';
+  as = as || 'h6';
   const Wrapper = styled[as]([styles]);
   return (
     <Wrapper as={as}>

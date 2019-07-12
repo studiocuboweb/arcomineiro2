@@ -12,6 +12,7 @@ import Note from "components/blocks/Note";
 import EndChapter from "components/blocks/EndChapter";
 import RelatedNews from "components/RelatedNews";
 import { FormattedMessage } from "react-intl";
+import Author from "components/blocks/Author";
 
 export default () => (
   <article>
@@ -20,14 +21,12 @@ export default () => (
     </Helmet>
     <Container>
       <Title as="h2">Conflitos</Title>
-      <Paragraph>
-      <h2>
+      <Author>
         <FormattedMessage
           id="general.authorChapter5"
           defaultMessage="-"
         />
-      </h2>
-      </Paragraph>
+      </Author>
       <Note>
         <p>
           As crises políticas na América do Sul também contribuíram para o aprofundamento dos conflitos envolvendo comunidades e territórios indígenas.

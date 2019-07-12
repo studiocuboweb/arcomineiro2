@@ -4,6 +4,7 @@ import StoryMedia from "components/StoryMedia";
 import ExternalLink from "components/ExternalLink";
 import Container from "components/blocks/Container";
 import Title from "components/blocks/Title";
+import Author from "components/blocks/Author";
 import Paragraph from "components/blocks/Paragraph";
 import FeaturedText from "components/blocks/FeaturedText";
 import Quote from "components/blocks/Quote";
@@ -19,14 +20,12 @@ export default () => (
     </Helmet>
     <Container>
       <Title as="h2">Mercúrio</Title>
-      <Paragraph>
-      <h2>
+      <Author>
         <FormattedMessage
           id="general.authorChapter2"
           defaultMessage="-"
         />
-      </h2>
-      </Paragraph>
+      </Author>
       <Note>
         <p>
           A grande quantidade de mercúrio usada na purificação do ouro está contaminando a Amazônia. A obtenção de ouro é o principal objetivo da mineração ilegal.
