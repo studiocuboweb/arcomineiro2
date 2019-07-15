@@ -284,10 +284,10 @@ class Intro extends Component {
     var defaultMapStyle = 'mapbox://styles/infoamazonia/cjxxfhrimbuhb1cmshwpbuljg';
     if (this.props.intl.locale.search('es') > -1) {
       //espanhol
-      defaultMapStyle = 'mapbox://styles/infoamazonia/cjxv0o61x05h11cpdwbarjjyf';
+      defaultMapStyle = 'mapbox://styles/infoamazonia/cjy0ot0ew036b1cohdtzyxm60';
     } else if (this.props.intl.locale.search('pt') > -1) {
       //portugues
-      defaultMapStyle = 'mapbox://styles/infoamazonia/cjxv0spzv1l451cs2l5b6y12u';
+      defaultMapStyle = 'mapbox://styles/infoamazonia/cjy0ovcnx03b41cpbqcsyztl7';
     }
     console.log('mapa')
     console.log(defaultMapStyle)
