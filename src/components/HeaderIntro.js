@@ -60,7 +60,7 @@ class HeaderIntro extends Component {
           <div class="background-logo">
             <Link to="/">
               <span className="logo">
-                <img src={logos[logoIndex]} align="right" alt="Digging into the Mining Arc" />
+                <img src={logos[logoIndex]} align="right" alt="Venezuela, the smugglers paradi$e" />
               </span>
 
             </Link>
