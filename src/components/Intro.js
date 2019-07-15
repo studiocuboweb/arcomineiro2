@@ -59,6 +59,17 @@ const Overlay = styled.section`
   }
   .map-overlay h2, .map-overlay p {
     margin: 0 0 10px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 15px;
+    grid-row-gap: 0px;
+  }
+  .grid-container > div {
+    text-align: center;
+    padding: 0px;
+    height: 55px;
   }`;
 
   var title = {}
@@ -300,16 +311,26 @@ class Intro extends Component {
             {console.log('content.images')}
             {console.log(content)}
             {console.log(content.slide)}
-            {/* { 
+            { 
               content.slide == 1 &&
-                <div>
+                <div class="grid-container">
+                  <div>
                     <img src={require('images/partners/media_outlets/correo_del_caroni_black.png')} />
+                  </div>
+                  <div>
                     <img src={require('images/partners/media_outlets/de_correspondent_logo_black.png')} />
+                  </div>
+                  <div>
                     <img src={require('images/partners/media_outlets/infoamazonia_black.png')} />
+                  </div>
+                  <div>
                     <img src={require('images/partners/media_outlets/runrun.png')} />
+                  </div>
+                  <div>
                     <img src={require('images/partners/media_outlets/miami_herald_black.png')} />
+                  </div>
                 </div>
-            } */}
+            }
           </div>
         </Overlay>
         <ReactMapGL
