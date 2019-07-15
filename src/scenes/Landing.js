@@ -160,6 +160,7 @@ const Top = styled.div`
   h1 {
     font-size: 1.1em;
     color: #fff;
+    line-height: 1.3;
     .logo {
       margin-left: 3.5rem;
     }

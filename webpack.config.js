@@ -79,7 +79,7 @@ let config = {
 };
 
 const favicons = new FaviconsWebpackPlugin({
-  logo: path.resolve("src/images", "logo.png")
+  logo: path.resolve("src/images/novo_logo", "logo_paraiso_preta.png")
 });
 
 const pwa = new WebpackPwaManifest({
@@ -92,7 +92,7 @@ const pwa = new WebpackPwaManifest({
   start_url: "/?launcher=true",
   icons: [
     {
-      src: path.resolve("src/images", "logo.png"),
+      src: path.resolve("src/images/novo_logo", "logo_paraiso_preta.png"),
       sizes: [48, 96, 192, 256, 512]
     }
   ]

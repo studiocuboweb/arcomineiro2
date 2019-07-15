@@ -13,7 +13,7 @@ const Title = styled.h1`
   display: block;
   margin: 0;
   font-size: .8em;
-  line-height: 1.3;
+  line-height: 1;
   font-family: "Cinzel";
   color: #111;
   font-weight: normal;
@@ -43,14 +43,12 @@ const Title = styled.h1`
   }
   .title-text {
     float: left;
-    line-height: 1.3;
   }
   .title-item {
     display: inline-block;
     padding-right: .25em;
     font-size: .8em;
     white-space: nowrap;
-    line-height: 1;
     &.title-1 {
       font-size: 1.75em;
       font-weight: 700;
