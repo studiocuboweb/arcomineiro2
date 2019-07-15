@@ -23,6 +23,12 @@ const Wrapper = styled.header`
     padding: 1rem;
     font-size: 1em;
   `}
+  ${media.tablet`
+    .logo {
+      width:3.5rem;
+      margin:0px;
+    }
+  `}
   ${media.desktop`
     //padding: 1.5vw 8vw;
     h1 {
@@ -32,7 +38,7 @@ const Wrapper = styled.header`
       float: right;
     }
     .logo {
-      width:6rem;
+      width:5rem;
       margin:0px;
     }
   `}
@@ -45,7 +51,7 @@ const Wrapper = styled.header`
       float: right;
     }
     .logo {
-      width:6rem;
+      width:5rem;
       margin:0px;
     }
   `}
