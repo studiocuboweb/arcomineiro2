@@ -11,15 +11,17 @@ const MAPBOX_TOKEN = 'pk.eyJ1IjoiaW5mb2FtYXpvbmlhIiwiYSI6InItajRmMGsifQ.JnRnLDiU
 
 const Overlay = styled.section`
   ${media.phone`
-    position: static;
-    margin-top:1rem;
-    padding: 10px;
+    position: absolute;
+    bottom:0px;
+    margin-top:0rem;
+    padding: 0px;
     z-index: 1;
   `}
   ${media.phablet`
-    position: static;
-    margin-top:1rem;
-    padding: 10px;
+    position: absolute;
+    bottom:0px;
+    margin-top:0rem;
+    padding: 0px;
     z-index: 1;
   `}
   ${media.desktop`
@@ -76,8 +78,9 @@ const Overlay = styled.section`
         bearing: 0,
         pitch: 30.00
       },
-      "fitBoundsCoords":[[-78.42100930608069,-1.0671136664427792],[-56.19040469386101, 15.549788164210213]],
-      "showLayers":['PNYapacana_nacionales_LABEL', 'PNYapacana_nacionales', 'cidadesfronteraCO','CO-VE_admin-0-boundary']
+      "fitBoundsCoords": [[-74.0027, -0.50670], [-60.5848, 11.6935]],
+      "showLayers":['PNYapacana_nacionales_LABEL', 'PNYapacana_nacionales', 'cidadesfronteraCO','CO-VE_admin-0-boundary'],
+      "maxZoom": 6.99,
   }, {
       "id": 2,
       "slide": 3,
@@ -89,8 +92,9 @@ const Overlay = styled.section`
         bearing: 0,
         pitch: 60.00
       },
-      "fitBoundsCoords":[[-78.42100930608831,-1.0671136664409602],[-56.19040469388062, 15.549788164204557]],
-      "showLayers":['PNYapacana_nacionales_LABEL', 'PNYapacana_nacionales', 'cidadesfronteraCO','CO-VE_admin-0-boundary']
+      "fitBoundsCoords": [[-78.2358, 3.88104], [-70.7960, 18.6239]],
+      "showLayers":['PNYapacana_nacionales_LABEL', 'PNYapacana_nacionales', 'cidadesfronteraCO','CO-VE_admin-0-boundary'],
+      "maxZoom": 5.99,
   }, {
       "id": 0,
       "slide": 4,
@@ -102,8 +106,9 @@ const Overlay = styled.section`
         bearing: 0,
         pitch: 10.00
       },
-      "fitBoundsCoords":[[-72.74432866396573,9.473057891127226],[-66.13965133604775, 14.312071763283015]],
-      "showLayers":['cidadesfronteraCO']
+      "fitBoundsCoords": [[-70.1806, 11.8450], [-68.7401, 12.5916]], 
+      "showLayers":['cidadesfronteraCO'],
+      "maxZoom": 7.99,
   }, {
       "id": 3,
       "slide": 5,
@@ -111,12 +116,13 @@ const Overlay = styled.section`
       "description":"intro.text5",
       "camera": {
       center: [-41.680000, 27.970000],
-      zoom:  2.32,
+      zoom: 3.32,
       bearing: 0,
       pitch: 30.00
       },
-      "fitBoundsCoords":[[-114.91826006824306,-15.38325395967992],[31.553150068228973, 68.4993402503298]],
-      "showLayers":['NL_admin-0-boundary']
+      "fitBoundsCoords": [[-76.4446, -1.818581], [6.44676, 53.1746]], 
+      "showLayers":['NL_admin-0-boundary'],
+      "maxZoom": 3.99,
   },{
     "id": 0,
     "slide": 1,
@@ -128,8 +134,9 @@ const Overlay = styled.section`
     bearing: 0,
     pitch: 0
     },
-    "fitBoundsCoords":[[-88.1315403090528,-9.921248670028632],[-44.837437690917284, 23.179933818133662]],
-    "showLayers":['']
+    "fitBoundsCoords": [[-88.1315403090528, -9.921248670028632], [-44.837437690917284, 23.179933818133662]],
+    "showLayers":[''],
+    "maxZoom": 4.99,  
 }];
 // const map = '';
 class Intro extends Component {
@@ -252,8 +259,8 @@ class Intro extends Component {
     console.log(locations[index].slide)
     console.log(map.getBounds())
     
-    //map.fitBounds(locations[index].fitBoundsCoords,{pitch:locations[index].camera.pitch});
-    map.flyTo(locations[index].camera);
+    map.fitBounds(locations[index].fitBoundsCoords,{pitch:locations[index].camera.pitch,maxZoom:locations[index].maxZoom});
+    //map.flyTo(locations[index].camera);
     map.once('moveend', function() {
         // Duration the slide is on screen after interaction
         window.setTimeout(function() {
@@ -284,16 +291,24 @@ class Intro extends Component {
     var defaultMapStyle = 'mapbox://styles/infoamazonia/cjxxfhrimbuhb1cmshwpbuljg';
     if (this.props.intl.locale.search('es') > -1) {
       //espanhol
-      defaultMapStyle = 'mapbox://styles/infoamazonia/cjxv0o61x05h11cpdwbarjjyf';
+      defaultMapStyle = 'mapbox://styles/infoamazonia/cjy0ot0ew036b1cohdtzyxm60';
     } else if (this.props.intl.locale.search('pt') > -1) {
       //portugues
-      defaultMapStyle = 'mapbox://styles/infoamazonia/cjxv0spzv1l451cs2l5b6y12u';
+      defaultMapStyle = 'mapbox://styles/infoamazonia/cjy0ovcnx03b41cpbqcsyztl7';
     }
     console.log('mapa')
     console.log(defaultMapStyle)
     return (
       <div>
         {this.renderRedirect()}
+        <ReactMapGL
+          {...viewport}
+          {...settings}
+          ref={(c) => this._map = c}
+          mapStyle={defaultMapStyle}
+          onViewportChange={this._onViewportChange}
+          mapboxApiAccessToken={MAPBOX_TOKEN} >
+        </ReactMapGL>
         <Overlay>
           <div class='map-overlay'>
             <p id='location-description'><FormattedMessageFixed id={content.description} defaultMessage="description" /></p>
@@ -312,14 +327,6 @@ class Intro extends Component {
             } */}
           </div>
         </Overlay>
-        <ReactMapGL
-          {...viewport}
-          {...settings}
-          ref={(c) => this._map = c}
-          mapStyle={defaultMapStyle}
-          onViewportChange={this._onViewportChange}
-          mapboxApiAccessToken={MAPBOX_TOKEN} >
-        </ReactMapGL>
       </div>
     );
   }
