@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import { injectIntl, intlShape } from "react-intl";
 import { withRouter } from "react-router-dom";
+import { media } from 'styles/utils';
 
 const WrapperHome = styled.section`
   .custom-select {
@@ -84,6 +85,34 @@ const WrapperHome = styled.section`
 `;
 
 const WrapperStory = styled.section`
+
+  ${media.phone`
+    position: absolute;
+    bottom:10px;
+    z-index: 99999;
+  `}
+  
+  ${media.phablet`
+    position: absolute;
+    bottom:10px;
+    z-index: 99999;
+  `}
+
+  ${media.tablet`
+    position: relative;
+    bottom:0;
+  `}
+
+  ${media.desktop`
+    position: relative;
+    bottom:0;
+  `}
+
+  ${media.desktopHD`
+    position: relative;
+    bottom:0;
+  `}
+
   .custom-select {
     /* The container must be positioned relative: */
     position: relative;

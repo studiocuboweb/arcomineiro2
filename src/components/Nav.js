@@ -310,7 +310,7 @@ class ArticleNav extends Component {
               </NavLink>
             </li>
             {(isMobile) && 
-            <li>
+            <li style={{'marginLeft':'2rem'}}>
               <LanguageSelect />
             </li>
             }
