@@ -71,32 +71,32 @@ class SiteTitle extends Component {
     const { props } = this;
     const logoIndex = props.logo || 0;
     return (
-      <div className="site-title">
+      <div className="site-title clearfix">
         <Title {...props}>
-          <Link to="/">
-            <span className="logo">
-              <img src={logos[logoIndex]} align="right" alt=" " />
-            </span>
-            <span className="title-text">
-              <span className="title-item title-1">
-                <FormattedMessage
-                  id="general.siteTitle1"
-                  defaultMessage="Venezuela," />
+            <Link to="/">
+              <span className="logo">
+                <img src={logos[logoIndex]} align="right" alt=" " />
               </span>
-              <br />
-              <span className="title-item title-2">
-                <FormattedMessage
-                  id="general.siteTitle2"
-                  defaultMessage="THE SMUGGLERS" />
+              <span className="title-text">
+                <span className="title-item title-1">
+                  <FormattedMessage
+                    id="general.siteTitle1"
+                    defaultMessage="Venezuela," />
+                </span>
+                <br />
+                <span className="title-item title-2">
+                  <FormattedMessage
+                    id="general.siteTitle2"
+                    defaultMessage="THE SMUGGLERS" />
+                </span>
+                <br />
+                <span className="title-item title-1">
+                  <FormattedMessage
+                    id="general.siteTitle3"
+                    defaultMessage="PARADI$E" />
+                </span>
               </span>
-              <br />
-              <span className="title-item title-1">
-                <FormattedMessage
-                  id="general.siteTitle3"
-                  defaultMessage="PARADI$E" />
-              </span>
-            </span>
-          </Link>
+            </Link>
         </Title>
       </div>
     )

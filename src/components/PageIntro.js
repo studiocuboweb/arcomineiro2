@@ -9,7 +9,6 @@ const Wrapper = styled.div`
     position:absolute;
     z-index:9999999;
     width:100%;
-    text-align:right;
   }
 `;
 

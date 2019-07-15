@@ -6,22 +6,30 @@ import { media } from "styles/utils";
 import { injectIntl, intlShape } from "react-intl";
 import { Redirect,withRouter } from "react-router-dom";
 import FormattedMessageFixed from "components/blocks/FormattedMessageFixed";
+import IntroTransaction from 'components/IntroTransaction';
 
 const MAPBOX_TOKEN = 'pk.eyJ1IjoiaW5mb2FtYXpvbmlhIiwiYSI6InItajRmMGsifQ.JnRnLDiUXSEpgn7bPDzp7g'; // Set your mapbox token here
 
 const Overlay = styled.section`
   ${media.phone`
-    position: absolute;
-    bottom:0px;
-    margin-top:0rem;
-    padding: 0px;
+    // position: static;
+    // margin-top:1rem;
+    // padding: 10px;
+    // z-index: 1;
+    position: static;
+    margin-top:1rem;
+    padding: 10px;
     z-index: 1;
   `}
   ${media.phablet`
-    position: absolute;
-    bottom:0px;
-    margin-top:0rem;
-    padding: 0px;
+    // position: absolute;
+    // bottom:0px;
+    // margin-top:0rem;
+    // padding: 0px;
+    // z-index: 1;
+    position: static;
+    margin-top:1rem;
+    padding: 10px;
     z-index: 1;
   `}
   ${media.desktop`
@@ -78,6 +86,21 @@ const Overlay = styled.section`
   var description = {}
 
   var locations = [
+    {
+      "id": 0,
+      "slide": 1,
+      "title": "intro.title1",
+      "description":"intro.text1",
+      "camera": {
+      center: [-66.484489, 6.917248],
+      zoom: 4.77,
+      bearing: 0,
+      pitch: 0
+      },
+      "fitBoundsCoords": [[-88.1315403090528, -9.921248670028632], [-44.837437690917284, 23.179933818133662]],
+      "showLayers":[''],
+      "maxZoom": 4.99,  
+  },
   {
       "id": 1,
       "slide": 2,
@@ -136,9 +159,9 @@ const Overlay = styled.section`
       "maxZoom": 3.99,
   },{
     "id": 0,
-    "slide": 1,
-    "title": "intro.title1",
-    "description":"intro.text1",
+    "slide": 0,
+    "title": "intro.title0",
+    "description":"intro.text0",
     "camera": {
     center: [-66.484489, 6.917248],
     zoom: 4.77,
@@ -312,14 +335,6 @@ class Intro extends Component {
     return (
       <div>
         {this.renderRedirect()}
-        <ReactMapGL
-          {...viewport}
-          {...settings}
-          ref={(c) => this._map = c}
-          mapStyle={defaultMapStyle}
-          onViewportChange={this._onViewportChange}
-          mapboxApiAccessToken={MAPBOX_TOKEN} >
-        </ReactMapGL>
         <Overlay>
           <div class='map-overlay'>
             <p id='location-description'><FormattedMessageFixed id={content.description} defaultMessage="description" /></p>
@@ -327,7 +342,7 @@ class Intro extends Component {
             {console.log(content)}
             {console.log(content.slide)}
             { 
-              content.slide == 1 &&
+              content.slide == 0 &&
                 <div class="grid-container">
                   <div>
                     <img src={require('images/partners/media_outlets/correo_del_caroni_black.png')} />
@@ -348,6 +363,14 @@ class Intro extends Component {
             }
           </div>
         </Overlay>
+        <ReactMapGL
+          {...viewport}
+          {...settings}
+          ref={(c) => this._map = c}
+          mapStyle={defaultMapStyle}
+          onViewportChange={this._onViewportChange}
+          mapboxApiAccessToken={MAPBOX_TOKEN} >
+        </ReactMapGL>
       </div>
     );
   }
