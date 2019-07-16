@@ -51,20 +51,21 @@ const Overlay = styled.section`
   .map-overlay {
     font-size: .9rem;
     background-color: #fff;
-    padding: 15px;
     ${media.phone`
       box-shadow: none;
-      margin-top: 35px;
+      padding: 0 15px;
     `}
     ${media.phablet`
       box-shadow: none;
-      margin-top: 35px;
+      padding: 0 15px;
     `}
     ${media.desktop`
       box-shadow:0 1px 2px rgba(0,0,0,0.20);
+      padding: 15px;
     `}
     ${media.desktopHD`
       box-shadow:0 1px 2px rgba(0,0,0,0.20);
+      padding: 15px;
     `}
   }
   .map-overlay h2, .map-overlay p {

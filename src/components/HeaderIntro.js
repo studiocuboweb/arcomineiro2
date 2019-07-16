@@ -71,9 +71,7 @@ class HeaderIntro extends Component {
         { isBrowser &&
             <SiteTitle logo="0" />
         } 
-        { isMobile &&
-          <SiteTitle logo="1" />
-        }
+        
         </div>
       </Wrapper>
     )
