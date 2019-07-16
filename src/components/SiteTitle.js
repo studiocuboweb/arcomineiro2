@@ -20,8 +20,7 @@ const Title = styled.h1`
   .logo {
     border-radius: 100%;
     float: left;
-    margin-right: -.5em;
-    margin-top: -.1em;
+    margin-right: -2em;
   }
   a {
     color: inherit;
@@ -35,14 +34,28 @@ const Title = styled.h1`
     font-size: 1.4em;
   `}
   img {
-    width: 100%;
     height: auto;
+    ${media.phone`
+    width: 70%;
+    `}
     ${media.tablet`
       margin-right: 2vw;
+    `}
+    ${media.desktop`
+      margin-right: 3vw;
+      width: 100%;
     `}
   }
   .title-text {
     float: left;
+      ${media.tablet`
+      margin-top: .5em;
+      margin-left: 0em;
+    `}
+      ${media.desktop`
+      margin-top: .5em;
+      margin-left: 2em;
+    `}
   }
   .title-item {
     display: inline-block;
@@ -52,10 +65,17 @@ const Title = styled.h1`
     &.title-1 {
       font-size: 1.75em;
       font-weight: 700;
+        ${media.phone`
+        font-size: 1.15em;
+    `}
     }
     &.title-2 {
       font-size: 1.75em;
       font-weight: 400; 
+        ${media.phone`
+        font-size: 1.15em;
+        line-height: 2.5;
+      `}
     }
     &.title-3 {
       display: block;
@@ -75,7 +95,7 @@ class SiteTitle extends Component {
         <Title {...props}>
             <Link to="/">
               <span className="logo">
-                <img src={logos[logoIndex]} align="right" alt=" " />
+                <img src={logos[logoIndex]} alt=" " />
               </span>
               <span className="title-text">
                 <span className="title-item title-1">

@@ -157,6 +157,7 @@ const Top = styled.div`
       `};
     }
   }
+
   h1 {
     font-size: 1.1em;
     color: #fff;
@@ -164,9 +165,34 @@ const Top = styled.div`
     .logo {
       margin-left: 3.5rem;
     }
+    ${media.phone`
+    font-size: .5em;
+      .logo {
+        width: 4.3rem;
+        margin-left: 0rem;
+        margin-right: .1rem;
+      }
+    `} 
+    ${media.phablet`
+    font-size: .5em;
+      .logo {
+        width: 4.3rem;
+        margin-left: 0rem;
+        margin-right: .1rem;
+      }
+    `} 
     ${media.tablet`
-      font-size: 1.2em;
-    `} ${media.desktopHD`
+      font-size: .8em;
+        .logo {
+          width: 8.3rem;
+          margin-left: 3rem;
+          margin-right: -2rem;
+        }
+    `} 
+    ${media.desktop`
+      font-size: 1.3em;
+    `} 
+    ${media.desktopHD`
       font-size: 1.6em;
     `};
   }
