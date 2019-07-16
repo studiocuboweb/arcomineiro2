@@ -27,6 +27,9 @@ const Wrapper = styled.header`
   `}
   ${media.desktopHD`
     padding: 1.5vw 10vw;
+    .logo {
+      width:6.5rem;
+    }
   `}
   .site-title {
     flex: 1 1 100%;

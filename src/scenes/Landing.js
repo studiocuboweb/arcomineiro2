@@ -194,6 +194,9 @@ const Top = styled.div`
     `} 
     ${media.desktopHD`
       font-size: 1.6em;
+      .logo {
+        width: 10rem;
+      }
     `};
   }
   h2 {
