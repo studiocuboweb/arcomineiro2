@@ -43,18 +43,31 @@ const Title = styled.h1`
     `}
     ${media.desktop`
       margin-right: 3vw;
-      width: 100%;
+    `}
+    ${media.desktopHD`
+      margin-right: 3vw;
     `}
   }
   .title-text {
     float: left;
-      ${media.tablet`
+    ${media.phone`
       margin-top: .5em;
       margin-left: 0em;
+      line-height: 0.5;
     `}
-      ${media.desktop`
-      margin-top: .5em;
-      margin-left: 2em;
+    ${media.tablet`
+      margin-top: 1.3em;
+      margin-left: 0em;
+    `}
+    ${media.desktop`
+      margin-top: 1em;
+      margin-left: .2em;
+      line-height: 0;
+    `}
+    ${media.desktopHD`
+      margin-top: 1em;
+      margin-left: .2em;
+      line-height: 0;
     `}
   }
   .title-item {

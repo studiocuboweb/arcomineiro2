@@ -131,31 +131,6 @@ const Top = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  .partners {
-    margin-bottom: 2rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid #fff;
-    display: flex;
-    flex-direction: columns;
-    align-items: center;
-    justify-content: center;
-    img {
-      width: auto;
-      height: auto;
-      max-height: 2vh;
-      margin: 0 1rem;
-      ${media.phone`
-        max-height: 20vh;
-        max-width: 23vw;
-      `}
-      ${media.phablet`
-        max-height: 5vh;
-        max-width: 8vw;
-      `}
-      ${media.desktop`
-        margin: 0 2rem;
-      `};
-    }
   }
 
   h1 {
@@ -167,6 +142,7 @@ const Top = styled.div`
     }
     ${media.phone`
     font-size: .5em;
+    margin-top: 3rem;
       .logo {
         width: 4.3rem;
         margin-left: 0rem;
@@ -190,10 +166,12 @@ const Top = styled.div`
         }
     `} 
     ${media.desktop`
-      font-size: 1.3em;
+      font-size: 1.4em;
+      line-height: .8;
     `} 
     ${media.desktopHD`
-      font-size: 1.6em;
+      line-height: .8;
+      font-size: 1.4em;
       .logo {
         width: 10rem;
       }
@@ -240,10 +218,16 @@ const Middle = styled.div`
   text-align: center;
   font-size: 0.8em;
   font-family: "Playfair Display";
+  ${media.phone`
+  margin-bottom: 1rem;
+  `}
   ${media.phablet`
     width: 65%;
     padding: 0 3rem;
     font-size: 1em;
+  `}
+  ${media.desktop`
+    margin-bottom: 1rem;
   `}
   .description {
     text-align: center;
@@ -324,10 +308,6 @@ class Scene extends Component {
     return (
       <Wrapper className="scene landing">
         <Top>
-          <div className="partners">
-            <img src={require("images/partners/infoamazonia.png")} />
-            <img src={require("images/partners/raisg-branco.png")} /> 
-          </div>
           <SiteTitle />
           <br />
           <h3>
