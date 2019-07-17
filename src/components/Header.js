@@ -23,12 +23,17 @@ const Wrapper = styled.header`
     font-size: 1em;
   `}
   ${media.desktop`
-    padding: 1.5vw 8vw;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    .logo {
+      width:5.5rem;
+    }
   `}
   ${media.desktopHD`
-    padding: 1.5vw 10vw;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
     .logo {
-      width:6.5rem;
+      width:5.5rem;
     }
   `}
   .site-title {

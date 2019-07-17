@@ -76,16 +76,36 @@ const Overlay = styled.section`
     grid-template-columns: auto auto;
     grid-column-gap: 15px;
     grid-row-gap: 0px;
+      ${media.phone`
+        grid-template-columns: auto auto;
+        grid-column-gap: 15px;
+        grid-row-gap: 0px;
+      `}
       ${media.tablet`
-      grid-template-columns: auto auto auto auto auto;
-      grid-row-gap: 30px;
-      grid-column-gap: 50px;
-    `}    
+        grid-template-columns: auto auto auto auto auto;
+        grid-row-gap: 30px;
+        grid-column-gap: 50px;
+      `}
+      ${media.phablet`
+        grid-template-columns: auto auto auto auto auto;
+        grid-column-gap: 15px;
+        grid-row-gap: 0px;
+        margin-bottom: 1rem;
+      `}
+      ${media.desktop`
+        grid-template-columns: auto;
+        grid-column-gap: 15px;
+        grid-row-gap: 0px;
+        width: 50%;
+        padding-left: 3rem;
+      `}
       ${media.desktopHD`
-      grid-template-columns: auto auto;
-      grid-column-gap: 15px;
-      grid-row-gap: 0px;
-    `}
+        grid-template-columns: auto;
+        grid-column-gap: 15px;
+        grid-row-gap: 0px;
+        width: 50%;
+        padding-left: 5rem;
+      `}
   }
   .grid-container > div {
     text-align: center;

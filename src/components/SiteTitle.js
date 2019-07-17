@@ -31,7 +31,7 @@ const Title = styled.h1`
     }
   }
   ${media.desktop`
-    font-size: 1.4em;
+    font-size: 1em;
   `}
   img {
     height: auto;
@@ -60,12 +60,12 @@ const Title = styled.h1`
       margin-left: 0em;
     `}
     ${media.desktop`
-      margin-top: 1em;
+      margin-top: 1.5em;
       margin-left: .2em;
       line-height: 0;
     `}
     ${media.desktopHD`
-      margin-top: 1em;
+      margin-top: 1.5em;
       margin-left: .2em;
       line-height: 0;
     `}

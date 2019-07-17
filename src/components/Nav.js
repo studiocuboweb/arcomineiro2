@@ -21,7 +21,7 @@ const Wrapper = styled.nav`
   .nav-box {
     ${media.phone`
       position: fixed;
-      top: 78px;
+      top: 3.9rem;
       left: 0;
       background-color: #f7f7f7;
       width:100%;
