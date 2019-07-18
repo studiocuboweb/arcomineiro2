@@ -39,7 +39,9 @@ const Wrapper = styled.section`
     left: 0;
     bottom: 0;
     right: 0;
-    background-color:rgba(0, 0, 0, 0.7);;
+    background-image: url(${require("images/gold_.jpg")});
+    background-size: cover;
+    background-position: center;
     z-index: -1;
   }
   &.route-transition-enter {
@@ -292,19 +294,8 @@ class Scene extends Component {
     // event.target.mute();
   }
   
-  _onEnd(event) {
-    event.target.playVideo();
-  }
   render() {
     const { lastPath, resetContext } = this.props;
-    const videoOptions = {
-      playerVars: { // https://developers.google.com/youtube/player_parameters
-        autoplay: 1,
-        controls: 0,
-        rel: 0,
-        showinfo: 0
-      }
-    };
     return (
       <Wrapper className="scene landing">
         <Top>
@@ -371,9 +362,6 @@ class Scene extends Component {
             </div>
           )}
         </Middle>
-        <video autoPlay muted loop id="background-video">
-          <source src={require("images/video_bg.mp4")} type="video/mp4" />
-        </video>
       </Wrapper>
     );
   }
