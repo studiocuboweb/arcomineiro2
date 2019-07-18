@@ -115,7 +115,7 @@ const Overlay = styled.section`
       height: 50px;
     `}
       ${media.desktopHD`
-      height: 55px;
+      height: 100px;
     `}
   }`;
 
