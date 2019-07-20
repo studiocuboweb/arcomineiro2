@@ -143,6 +143,7 @@ const Top = styled.div`
     ${media.phone`
     font-size: .5em;
     margin-top: 3rem;
+    padding-bottom: 3rem;
       .logo {
         width: 4.3rem;
         margin-left: 0rem;
@@ -151,6 +152,7 @@ const Top = styled.div`
     `} 
     ${media.phablet`
     font-size: .5em;
+    padding-bottom: 10rem;
       .logo {
         width: 4.3rem;
         margin-left: 0rem;
