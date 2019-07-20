@@ -73,12 +73,12 @@ const Overlay = styled.section`
   }
   .grid-container {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto auto auto;
     grid-column-gap: 15px;
     grid-row-gap: 0px;
       ${media.phone`
-        grid-template-columns: auto auto;
-        grid-column-gap: 15px;
+        grid-template-columns: auto auto auto auto auto;
+        grid-column-gap: 5px;
         grid-row-gap: 0px;
       `}
       ${media.tablet`
@@ -108,13 +108,6 @@ const Overlay = styled.section`
   .grid-container > div {
     text-align: center;
     padding: 0px;
-    height: 55px;
-      ${media.tablet`
-      height: 50px;
-    `}
-      ${media.desktopHD`
-      height: 100px;
-    `}
   }`;
 
   var title = {}
