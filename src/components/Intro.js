@@ -73,12 +73,12 @@ const Overlay = styled.section`
   }
   .grid-container {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto auto auto;
     grid-column-gap: 15px;
     grid-row-gap: 0px;
       ${media.phone`
-        grid-template-columns: auto auto;
-        grid-column-gap: 15px;
+        grid-template-columns: auto auto auto auto auto;
+        grid-column-gap: 5px;
         grid-row-gap: 0px;
       `}
       ${media.tablet`
@@ -93,30 +93,21 @@ const Overlay = styled.section`
         margin-bottom: 1rem;
       `}
       ${media.desktop`
-        grid-template-columns: auto;
-        grid-column-gap: 15px;
+        grid-template-columns: auto auto auto auto auto;
         grid-row-gap: 0px;
-        width: 50%;
-        padding-left: 3rem;
+        grid-column-gap: 10px;
+        margin-bottom: 0px;
       `}
       ${media.desktopHD`
-        grid-template-columns: auto;
-        grid-column-gap: 15px;
+        grid-template-columns: auto auto auto auto auto;
         grid-row-gap: 0px;
-        width: 50%;
-        padding-left: 5rem;
+        grid-column-gap: 10px;
+        margin-bottom: 0px;
       `}
   }
   .grid-container > div {
     text-align: center;
     padding: 0px;
-    height: 55px;
-      ${media.tablet`
-      height: 50px;
-    `}
-      ${media.desktopHD`
-      height: 100px;
-    `}
   }`;
 
   var title = {}
@@ -342,9 +333,9 @@ class Intro extends Component {
         //index = (index + 1 === locations.length) ? 0 : index + 1;
         //scope.playback(index,map);
         if (locations[index].slide === 5) {
-          document.location.href = '/story?show=intro'
-          scope.setRedirect()
-          return;
+          // document.location.href = '/story?show=intro'
+          // scope.setRedirect()
+          // return;
         } else {
           index = (index + 1 === locations.length) ? 0 : index + 1;
           scope.playback(index,map);
