@@ -20,10 +20,10 @@ import Author from "components/blocks/Author";
 export default () => (
   <article>
     <Helmet>
-      <title>Minas de Oro | Arco Minero</title>
+      <title>Minas de Ouro | Venezuela, o paraíso dos contrabandi$tas</title>
     </Helmet>
     <Container>
-      <Title as="h2">Crimen organizado controla la explotación de oro en Venezuela</Title>
+      <Title as="h2">Crime organizado controla exploração de ouro na Venezuela</Title>
       <Author>
         <FormattedMessage
           id="general.authorChapter1"
@@ -32,24 +32,24 @@ export default () => (
       </Author>
       <Note>
         <p>
-          Todos los ingredientes para un mineral de conflicto se pueden encontrar en el sur de Venezuela. Un cóctel peligroso de múltiples grupos armados y oficiales corruptos controlan la extracción del oro del país antes de llevarlo a las fronteras.
+          Todos os ingredientes de um mineral de conflitos podem ser encontrados no sul da Venezuela. Um perigoso coquetel de grupos armados e oficiais corruptos controla a extração do ouro do país antes de levá-lo às fronteiras.
         </p>
       </Note>
 
       <Paragraph>
-        La larga carretera que sale de Ciudad Guayana, en el estado Bolívar, y se dirige al sur marca la ruta de la minería ilegal de oro en Venezuela. Cientos de personas la transitan diariamente en busca de El Dorado que les permita salvarse de una crisis económica sin precedentes en la nación suramericana.
+        O longo caminho que começa em Ciudad Guayana, no estado de Bolívar, e segue para o sul da Veneuzela marca a rota da mineração ilegal de ouro no país. Centenas de pessoas percorrem o caminho todos os dias em busca de Eldorado – riquezas que permitiram fugir de uma crise econômica sem precedentes.
       </Paragraph>
 
       <Paragraph>
-        Alimentos, medicinas, combustible y dinero en efectivo que por años han escaseado en el resto del país se encuentran en abundancia por estos caminos. Es todo un mundo paralelo.
+        Nos últimos anos, comida, medicamentos, combustível e dinheiro têm sido itens escassos no restante da Venezuela. Contudo, seguem disponíveis ao longo dessas estradas do sudeste, como se as riquezas da mineração de ouro criassem um mundo paralelo. 
       </Paragraph>
 
       <Paragraph>
-        La parada más importante es El Callao, un pueblo entre montañas ubicado a unos 850 kilómetros de Caracas, conocido históricamente por su colorido carnaval pero que ahora es más renombrada como la capital de la zona minera.
+        O ponto de parada mais importante é El Callao, cidade que também fica no estado de Bolívar, agrupada entre montanhas, a cerca de 850 quilômetros da capital Caracas. El Callao é conhecida por seu carnaval colorido, mas foi rebatizada de capital regional da mineração.
       </Paragraph>
       
       <Paragraph>
-        La explosión de la minería ha convertido este lugar en una pesadilla, 
+        O crescimento da atividade transformou o lugar em um pesadelo. 
         <StoryMedia
         media={{
           id: "image-1",
@@ -58,36 +58,36 @@ export default () => (
             credits: "Jorge Benezra",
             src: require("photos/chapter1/Venezuela01.jpg")
           }
-        }}>con las calles llenas de autos, motocicletas y vendedores</StoryMedia>
-        , que en su mayoría duermen al aire libre porque los hoteles están ocupados.
+        }}>As ruas estão repletas de carros, motos e vendedores, </StoryMedia>
+         que dormem em praças públicas quando os hotéis estão completamente lotados.
       </Paragraph>
 
       <Paragraph>
-        El otrora tranquilo poblado tenía 20.000 habitantes en 2011, donde pequeños comercios vendían rudimentarias joyas doradas y oro cochano sin temor a robos. Ahora, unos 100.000 pobladores hacen vida en El Callao, mientras entre 300.000 y 500.000 mineros recorren las numerosas minas en el sur de Venezuela.
+        O outrora pacato vilarejo tinha apenas 20 mil habitantes em 2011. Era um lugar onde pequenos comerciantes vendiam joias artesanais e pedrinhas de ouro sem medo de roubos. Agora, cerca de 100 mil pessoas vivem na região, e há de 300 mil a 500 mil mineiros percorrendo as numerosas minas do sul da Venezuela.
       </Paragraph>
 
       <Paragraph>
-        El Callao se encuentra dentro del Arco Minero del Orinoco, un megaproyecto patrocinado por el gobierno que cubre 12% del territorio venezolano.
+        El Callao faz parte do Arco Mineiro do Orinoco, um megaprojeto patrocinado pelo governo que cobre 12% do território venezuelano. 
       </Paragraph>
 
       <Paragraph>
-        Puesto en marcha en febrero de 2016 por el presidente Nicolás Maduro, el proyecto es un intento por encontrar recursos ante el desplome de la industria petrolera, que ha sostenido a la nación sudamericana durante un siglo. Como parte del plan, <ExternalLink href="https://mundo.sputniknews.com/entrevistas/201812151084165986-venezuela-riquezas-recursos-oro-diamantes/" language="es">el gobierno pretende validar y certificar 8.900 toneladas en reservas de oro hasta 2025</ExternalLink>{" "}. Esto significaría que Venezuela tendría el segundo mayor depósito de oro del mundo.
+        Lançado pelo presidente Nicolás Maduro em fevereiro de 2016, o projeto é uma tentativa de buscar recursos após o colapso da indústria petrolífera – responsável por sustentar a nação sul-americana por um século. Como parte do plano, o <ExternalLink href="https://mundo.sputniknews.com/entrevistas/201812151084165986-venezuela-riquezas-recursos-oro-diamantes/" language="es">governo tenta validar e certificar reservas de ouro que chegam a 8.900 toneladas até 2025</ExternalLink>{" "}.  Isso daria à Venezuela o segundo maior depósito do metal em todo o mundo. 
       </Paragraph>
 
       <Paragraph>
-        Pero no todo es abundancia y glamour. La extracción de oro en la zona era dirigida antes por empresas transnacionales. Ahora, grupos delictivos y pandillas armadas monopolizan el negocio. Y la población de El Callao, como muchos poblados en el sur, está ahora a merced de estas organizaciones.
+        Mas nem tudo é abundância e glamour. A mineração de ouro na área costumava ser administrada por corporações transnacionais. Agora, grupos criminosos e gangues armadas monopolizam os negócios. E o povo de El Callao, como em muitos vilarejos do sul, teve que aprender a viver com o terror.
       </Paragraph>
 
       <Paragraph>
-        Medios de prensa locales han reportado el descubrimiento de fosas llenas de cadáveres en la región, pero la gente del lugar dice que a muchos de los fallecidos, víctimas de la violencia y las enfermedades, no los encuentran nunca y han desaparecido en la selva venezolana.
+        A imprensa local noticiou a descoberta de valas comuns, mas os moradores dizem que muitos dos mortos, vítimas de violência e doenças, nunca foram encontrados – seus corpos estariam escondidos nas selvas do país. 
       </Paragraph>
 
       <Paragraph>
-        Según el Observatorio Venezolano de Violencia, El Callao fue la <ExternalLink href="https://observatoriodeviolencia.org.ve/ovv-lacso-informe-anual-de-violencia-2018/" language="es">localidad más violenta de Venezuela</ExternalLink>{" "} en 2018, con una tasa de 619,8 homicidios por cada 100.000 habitantes.
+        Segundo o Observatório de Violência da Venezuela, El Callao foi a <ExternalLink href="https://observatoriodeviolencia.org.ve/ovv-lacso-informe-anual-de-violencia-2018/" language="es">localidade mais violenta do país</ExternalLink>{" "} em 2018, com taxa de homicídio de 619,8 a cada 100 mil habitantes.
       </Paragraph>
 
       <Paragraph>
-        Un empleado de de la Compañía General de Minería de Venezuela (Minerven), que reserva su identidad por temor a represalias, explica que “grupos irregulares” se están enriqueciendo con el negocio del oro.
+        Um empregado da estatal Companhia Geral de Mineração da Venezuela (Minerven), que pediu anonimato com medo de represálias, explica que “grupos irregulares” estão ficando ricos com o negócio do ouro. 
         <StoryMedia
         media={{
         id: "video-1",
@@ -95,48 +95,46 @@ export default () => (
         data: {
           id: "20O0vWcLDv4"
         }
-        }}> Obligan a los mineros y sus familiares a vivir un infierno, con prácticas que rayan en el sadismo, describe</StoryMedia>
-        .
+        }}> Segundo o relato, eles forçam os mineiros e suas famílias a viverem no inferno, com práticas que beiram o sadismo.</StoryMedia>
       </Paragraph>
 
       <Paragraph>
-        Algunos testigos, entre los que se incluyen mineros que huyeron a Colombia, confirman esta acusación y mencionan – entre los abusos – prostitución forzada, tortura, masacres e, incluso, decapitaciones por parte de grupos armados que tienen el control de las minas.
+        Algumas testemunhas, incluindo mineiros que fugiram para a Colômbia, confirmam essas acusações e apontam outros abusos, como prostituição forçada, tortura, massacres e decapitações por grupos armados que detém o controle das minas.
       </Paragraph>
 
       <Paragraph>
-        En este momento, diversos grupos criminales dominan El Callao y el resto del Arco Minero del Orinoco. Según denuncias de ONGs, legisladores opositores y testigos de la zona, disidentes de las Fuerzas Armadas Revolucionarias de Colombia (FARC) y miembros del Ejército de Liberación Nacional (ELN) están presentes en las minas del estado Bolívar y el estado vecino Amazonas.
+        Atualmente, vários grupos criminosos dominam El Callao e o Arco Mineiro do Orinoco. De acordo com ONGs, políticos de oposição e testemunhas oculares, dissidentes das Forças Armadas Revolucionárias da Colômbia (FARC) e membros do Exército de Libertação Nacional (ELN) da Colômbia estão presentes nas minas de Bolívar e no vizinho estado do Amazonas, na Venezuela.
       </Paragraph>
 
       <Paragraph>
-        Hasta hace poco, las FARC era el mayor grupo guerrillero de Latinoamérica. Con base en Colombia, fue creado en 1964 para luchar por la distribución equitativa de la tierra y contra la pobreza rural, siguió como un movimiento guerrillero hasta que firmó un acuerdo de paz en 2016. Ahora el ELN es el grupo guerrillero más grande del continente.
+        Até recentemente, as FARC eram o maior grupo guerrilheiro da América Latina. Baseado na Colômbia e criado em 1964 para lutar pela distribuição igualitária de terras e pelos trabalhadores rurais pobres, permaneceu como um movimento de guerrilha até a assinatura de um acordo de paz em 2016. Agora, o ELN é o maior grupo guerrilheiro do continente.
       </Paragraph>
 
       <Paragraph>
-        Las dos organizaciones comparten el territorio con los llamados sindicatos, liderados por los llamados pranes. También están los Comités para la Defensa de la Revolución (CDR), que han creado sus propios grupos mineros y que están alineados ideológicamente con el gobierno de Maduro.
+        As duas organizações compartilham o território com sindicatos do crime, ou <i>sindicatos</i>, dirigidos por líderes de gangues conhecidos como <i>pranes</i>. Há também os Comitês para a Defesa da Revolução (CDR), que iniciaram seus próprios grupos de mineração e estão ideologicamente alinhados com o governo de Maduro. 
       </Paragraph>
 
       <Paragraph>
-        Las pandillas, que tienen presencia en la zona minera desde 2010, eran las que mandaban, pero han perdido terreno a manos de los guerrilleros colombianos en años recientes, dijo un soldado de la Guardia Nacional, un joven de 25 años.
+        As gangues, que estão na área da mineração desde 2010, costumavam ser os atores dominantes, mas perderam terreno para os guerrilheiros colombianos nos últimos anos, disse um soldado da Guarda Nacional de 25 anos.
       </Paragraph>
 
       <Paragraph>
-        Este hombre todavía se asombra cuando recuerda la primera vez que vio a elementos del ELN pasar por el estado Bolívar.
+        Ele ainda se surpreende quando se lembra da primeira vez que viu a marcha do ELN pelo estado de Bolívar. 
       </Paragraph>
 
       <Paragraph>
-        “Vimos patrullas de 200 hombres armados que pasaban caminando a nuestro lado identificados como el ELN”, recuerda. “¿Qué se supone que debíamos hacer? Simplemente los saludamos como si fueran viejos amigos”.
+        “Vimos patrulhas de 200 homens armados andando ao nosso lado, identificados como ELN”, disse ele. “O que devíamos fazer? Nós apenas os cumprimentamos como se fossem velhos amigos.”
       </Paragraph>
 
       <Paragraph>
-        El control de la zona por parte de grupos armados y unidades militares corruptas impide a los mineros hablar con franqueza.
+        O controle da área por grupos armados e unidades militares corruptas impede que os mineiros falem abertamente. 
       </Paragraph>
 
       <Paragraph>
-        “Aquí es mejor no opinar si quieres estar con vida, hay mucha mafia”, dijo un empresario local que pidió no ser identificado. “Los militares llegaron para hacer negocios, no para proteger al ciudadano. Todas las semanas hay un asesinato”.
+        “Aqui é melhor não falar nada se você quer continuar vivo. Há muitas máfias”, disse um empresário local que pediu para não ser identificado. “Os militares chegaram para fazer negócios, não para proteger os cidadãos. Toda semana há um assassinato.”
       </Paragraph>
 
       <Paragraph>
-        Los
         <StoryMedia
         media={{
           id: "image-2",
@@ -144,41 +142,41 @@ export default () => (
           data: {
             src: require("photos/chapter1/Venezuela05.jpg")
           }
-        }}> mineros</StoryMedia> se quejan de todos los extorsionadores que les cobran un “impuesto” por trabajar o llevar equipos, pero no hay muchas más opciones.
+        }}>Mineiros</StoryMedia> reclamam que estão sendo extorquidos por todos os lados, sendo obrigados a pagar “impostos” para trabalhar ou levar equipamentos para as minas, mas não há muitas opções.
       </Paragraph>
 
       <Paragraph>
-        “Vamos a la mina en grupos para cuidarnos entre nosotros”, dijo un minero artesanal que viste una camiseta de la Misión Piar, un programa gubernamental destinado a combatir la minería ilegal. “[Los grupos armados] nos quitan los celulares y las pertenencias para ingresar a las minas. Nos hace falta el trabajo, pero si nos quejamos no nos permiten regresar”.
+        “Vamos para a mina e trabalhamos em grupos para poder cuidar uns dos outros”, disse um mineiro artesanal vestido com uma camiseta da “Missão Piar”, programa do governo destinado a combater a mineração ilegal. “[Os grupos armados] tomam nossos celulares e nossos pertences antes de entrarmos nas minas. Precisamos do trabalho, mas se reclamamos, eles não permitem que a gente volte.” 
       </Paragraph>
 
       <SubTitle>
-        El laberinto del oro esquiva al Banco Central
+        O labirinto do ouro evita o Banco Central
       </SubTitle>
 
       <Paragraph>
-        Luis Rosales, un abogado de la ciudad de Valencia, a unos 125 kilómetros de Caracas, llegó hace dos años a la localidad minera con la esperanza de trabajar allí. Ahora es un comerciante informal de implementos para la minería.
+        Luis Rosales, advogado da cidade de Valência, a cerca de 125 quilômetros de Caracas, chegou na cidade mineira há dois anos, esperando arrumar emprego nas jazidas de ouro. Agora, ele vende ferramentas de mineração na rua. 
       </Paragraph>
 
       <Paragraph>
-        “Familias de todas partes están durmiendo en el terminal de autobuses y en la plaza, buscándose la vida, no sólo con el oro, sino con la venta informal de cualquier cosa”, dice. “Aquí se sufre pero se logra llevar el pan a la casa”, agrega.
+        “As famílias estão dormindo em todos os lugares, no terminal de ônibus e na praça, tentando ganhar a vida não apenas por meio do ouro, mas vendendo tudo o que podem”, disse ele. “Você sofre, mas consegue colocar um pouco de comida na mesa.”
       </Paragraph>
 
       <Paragraph>
-        En El Callao y sus alrededores, los mineros y sus familias viven en casuchas hechas de palos y bolsas de plástico a manera de paredes. La criminalidad es rampante y abundan las enfermedades epidémicas como el paludismo.
+        Em El Callao e nos arredores, mineiros e suas famílias moram em barracos feitos de varas de madeira e com paredes feitas de sacolas plásticas. Os números de criminalidade e doença são galopantes.
       </Paragraph>
 
       <Paragraph>
-        El gobierno venezolano no ha difundido cifras actualizadas de la incidencia de la malaria, pero según la 
+        O governo venezuelano não divulgou números recentes sobre a malária, mas a 
         <FileLink
         href={require("documents/chapter1/WHO-World_Malaria_Report.pdf")}
         format="pdf"
-        size="6.9MB"> Organización Mundial de la Salud (OMS), Venezuela registró 411.586 casos nuevos en 2017</FileLink>
-        , un repunte de 811% en comparación con 2010. Y la zona minera de Bolívar es donde ocurre la mayoría de los casos, según expertos.
+        size="6.9MB"> Organização Mundial de Saúde registrou 411.586 novos casos em 2017</FileLink>
+        , aumento de 811% desde 2010. E a área de mineração no estado de Bolívar tem a maior concentração de casos, segundo especialistas.
       </Paragraph>
 
 
       <Paragraph>
-        Sin medidas de seguridad,
+        Sem qualquer tipo de medidas de segurança,
         <StoryMedia
         media={{
           id: "image-3",
@@ -186,15 +184,15 @@ export default () => (
           data: {
             src: require("photos/chapter1/Venezuela03.jpg")
           }
-        }}> hombres, mujeres y niños excavan con sus propias manos o con herramientas precarias</StoryMedia> para extraer una grama, como se le llama localmente a la medida de un gramo de oro, que quintuplica el salario mínimo en Venezuela, equivalente a 7 dólares actualmente.
+        }}> homens, mulheres e crianças cavam com as mãos ou usam ferramentas rudimentares</StoryMedia> à procura de ouro. Se conseguirem encontrar 1 grama de ouro, podem ganhar cinco vezes o salário mínimo mensal, que atualmente é de cerca de 7 dólares.
       </Paragraph>
 
       <Paragraph>
-        La promesa generada por las riquezas del oro, mientras otros sectores de la economía venezolana se han derrumbado, ha provocado una migración masiva hacia el sur del país.
+        Como outros setores da economia venezuelana entraram em colapso, a promessa das riquezas do ouro desencadeou uma migração em massa para o sul do país.
       </Paragraph>
 
       <Paragraph>
-        Ahora, dragas, bombas de succión, palas, picos y botellas de mercurio y de cianuro son cada vez más comunes en el sur de Venezuela, lo que amenaza con contaminar los ríos y los peces.
+        Agora, máquinas de dragagem, bombas de sucção, picaretas, pás, cianeto e mercúrio estão cada vez mais presentes no sul da Venezuela, ameaçando contaminar o estoque de peixes da região. 
       </Paragraph>
 
       <Paragraph>
@@ -205,46 +203,46 @@ export default () => (
         data: {
           id: "I6TZZVQ4RVE"
         }
-        }}> Los mineros también inhalan el vapor de mercurio que se libera durante la quema de las amalgamas</StoryMedia>
-        . El Programa de Naciones Unidas para el Medio Ambiente (PNUMA) dice que <ExternalLink href="https://www.unenvironment.org/news-and-stories/press-release/world-comes-together-tackle-mercury-poisoning/" language="en">no hay cura para el envenenamiento con mercurio</ExternalLink>{" "}, que puede causar daños neurológicos irreversibles.
+        }}> Os mineiros também estão inalando o vapor de mercúrio que vem da queima de amálgama de ouro</StoryMedia>
+        . O Programa das Nações Unidas para o Meio Ambiente (PNUMA) diz que não <ExternalLink href="https://www.unenvironment.org/news-and-stories/press-release/world-comes-together-tackle-mercury-poisoning/" language="en">há cura para a intoxicação por mercúrio</ExternalLink>{" "}, que pode causar danos neurológicos irreparáveis.
       </Paragraph>
 
       <Paragraph>
-        Para complicar el cuadro, aproximadamente 
+        Para complicar, cerca de 
         <FileLink
         href={require("documents/chapter1/CECODAP-Peligros_y_Vulneraciones_de_DDHH_de_Ninos_Ninas_y_Adolescentes_en_la_Frontera_y_Actividades_Mineras.pdf")}
         format="pdf"
-        size="3.3MB"> 45% de los mineros en la región de El Callao son niños o adolescentes</FileLink>
-        , según un informe de Cecodap, una ONG que vela por los derechos de los niños y adolescentes en Venezuela.
+        size="3.3MB"> 45% dos mineiros da região são crianças ou adolescentes</FileLink>
+        , de acordo com relatório da ONG Cecodap, que cuida dos direitos de crianças e adolescentes na Venezuela.
       </Paragraph>
 
       <Paragraph>
-        La Organización para la Cooperación y el Desarrollo Económico (OCDE) y la Unión Europea definen los “minerales conflictivos” como la minería que contribuye al trabajo forzado, el lavado de dinero, el trabajo infantil y abusos a los derechos humanos. Todos estos ingredientes están presentes en las minas ilegales de oro en Venezuela.
+        A Organização para Cooperação e Desenvolvimento Econômico (OCDE) e a União Europeia definem “minerais de conflito” como mineração que contribui para a ocorrência de trabalho forçado, lavagem de dinheiro, trabalho infantil e abusos de direitos humanos. Todos esses ingredientes estão presentes nas minas da Venezuela. 
       </Paragraph>
 
       <SubTitle>
-        La fuerte demanda
+        Demanda Crescente
       </SubTitle>
 
       <Paragraph>
-        La demanda global de oro en 2018 fue de 4.435 toneladas, y casi la mitad de esa demanda es del sector de las joyas.
+        A demanda global por ouro em 2018 alcançou 44.435 toneladas, quase metade proveniente do setor de joias. 
       </Paragraph>
 
       <Paragraph>
-        Venezuela ocupa el puesto 32, según el Consejo Mundial del Oro – con una producción de 23 toneladas en 2018. El
+        De acordo com o World Gold Council, a Venezuela é o 32º maior produtor de ouro do mundo, responsável por 23 toneladas em 2018. O 
         <FileLink
         href={require("documents/chapter1/Venezuela_government-Plan_Sectorial_Minero_2019-2025.pdf")}
         format="pdf"
-        size="8.2MB"> Plan Sectorial Minero 2019-2025</FileLink>
-        , presentado por Maduro en junio, fija la meta de producción de oro de 2019 en 25,4 toneladas y en 79,4 toneladas para 2025.
+        size="8.2MB"> Plano do Setor Mineiro de Maduro </FileLink>
+        estabelece metas de produção de 25,4 toneladas em 2019 e 79,4 toneladas até 2025.
       </Paragraph>
 
       <Paragraph>
-        Para lograr esas metas, el gobierno dice que planea “coordinar, organizar y controlar la minería a pequeña escala dentro del Arco Minero del Orinoco”.
+        Para atingir esses objetivos, o governo diz que planeja “coordenar, organizar e controlar a mineração em pequena escala dentro do Arco Mineiro do Orinoco”. 
       </Paragraph>
 
       <Paragraph>
-        Hay dos grandes grupos que en este momento controlan el oro que producen los
+        Atualmente, há dois grandes grupos absorvendo o ouro
         <StoryMedia
         media={{
           id: "image-4",
@@ -252,24 +250,24 @@ export default () => (
           data: {
             src: require("photos/chapter1/Venezuela06.jpg")
           }
-        }}> mineros artesanales de manera informal</StoryMedia> 
-        . Uno es un grupo de inversionistas privados y el otro es la estatal Minerven.
+        }}> produzido por mineiros artesanais</StoryMedia> 
+        . O primeiro é um grupo de investidores privados; o outro é a Minerven.
       </Paragraph>
 
       <Paragraph>
-        Los operadores privados compran oro a los mineros ilegales y lo venden a los mayoristas, quienes “en teoría” lo venden al Banco Central de Venezuela, dijo uno de los 570 compradores locales de oro de El Callao, quien maneja alrededor de  dos kilogramos de oro a la semana.
+        As operadoras privadas compram ouro de mineradoras ilegais e vendem para atacadistas que, em seguida, “teoricamente” revendem para o Banco Central, disse um dos 570 compradores locais de ouro em El Callao, que lida com cerca de 2 kg de ouro por semana.
       </Paragraph>
 
       <Paragraph>
-        “Esto casi nunca ocurre”, explica. “[Mayoristas] saben que deja mejores ganancias sacarlo [el oro] del país a través del contrabando, que paga en dólares y no en bolívares como lo paga el Estado”.
+        “Isso quase nunca acontece”, explicou. “[Os atacadistas] ganham mais dinheiro contrabandeando [ouro] para fora do país e sendo pagos em dólares, e não os bolívares que o Estado está oferecendo.” 
       </Paragraph>
 
       <Paragraph>
-        Minerven es el principal suministrador de oro del Banco Central de Venezuela, que a su vez vende el oro a <ExternalLink href="https://runrun.es/rr-es-plus/376055/mas-de-73-toneladas-de-oro-de-venezuela-salieron-en-33-vuelos-rumbo-a-dubai-y-turquia-en-2018/" language="es"> clientes en países como Turquía y los Emiratos Árabes Unidos</ExternalLink>{" "}.
+        A Minerven é a principal fornecedora de ouro para o Banco Central, que por sua vez vende o ouro para <ExternalLink href="https://runrun.es/rr-es-plus/376055/mas-de-73-toneladas-de-oro-de-venezuela-salieron-en-33-vuelos-rumbo-a-dubai-y-turquia-en-2018/" language="es"> clientes em países como Turquia e Emirados Árabes Unidos</ExternalLink>{" "}.
       </Paragraph>
 
       <Paragraph>
-        Minerven también recibe la mayor parte de su oro de
+        A estatal também obtém a maior parte de seu ouro de 
         <StoryMedia
         media={{
           id: "image-5",
@@ -277,11 +275,11 @@ export default () => (
           data: {
             src: require("photos/chapter1/Venezuela04.jpg")
           }
-        }}> mineros a pequeña escala</StoryMedia> y cooperativas, aunque reconoce que el metal proviene de la minería ilegal, dijo un representante de la compañía que pidió no ser identificado.
+        }}> mineiros de baixa escala</StoryMedia> e cooperativas, mesmo sabendo que é proveniente de atividade ilegal, disse um representante da empresa que pediu anonimato.
       </Paragraph>
 
       <Paragraph>
-        Fundada en 1970, Minerven ha sufrido profundos cambios tres veces en los últimos 10 años en medio del colapso de la producción. Después de alcanzar una producción de oro de 12,23 toneladas en 2009, la producción se desplomó entre 2010 y 2015, cuando las mineras internacionales se marcharon del país.
+        Fundada em 1970, a Minerven foi reformulada ao menos três vezes na última década. Depois de atingir o “marco” de produção de 12,23 toneladas em 2009, a produção de mineração entrou em colapso entre 2010 a 2015, quando as empresas de mineração internacionais saíram do país. 
       </Paragraph>
 
       <FullBlock withMargin>
@@ -295,23 +293,23 @@ export default () => (
       </FullBlock>
 
       <Paragraph>
-        Incluso para los empleados de la empresa, las operaciones de Minerven están rodeadas de misterio y el gobierno de Maduro no ofrece información sobre la compra y venta de oro.
+        Mesmo para os funcionários da empresa, as operações da Minerven estão envoltas em mistério, pois o governo não produz informações sobre a compra e venda de ouro. 
       </Paragraph>
 
       <Paragraph>
-        “¿Cuánto [oro] produce Minerven? Nosotros tampoco sabemos, pero sigue produciendo”, dijo uno de sus empleados. “No sabemos cuánto porque eso nunca se ha informado públicamente, y es preocupante”.
+        “Quanto [ouro] a Minerven está produzindo? Nós também não sabemos, mas eles continuam produzindo”, ele disse. “Não sabemos quanto, porque essa informação nunca é pública, e isso é preocupante.”
       </Paragraph>
 
       <Paragraph>
-        Cuando se les pidió una declaración, ninguno de los organismos gubernamentales venezolanos respondió a nuestras solicitudes.
+        Nenhuma das agências do governo venezuelano respondeu aos pedidos da reportagem para dar declarações sobre o assunto.
       </Paragraph>
 
       <SubTitle>
-        Rutas de contrabando
+        Rotas do contrabando
       </SubTitle>
 
       <Paragraph>
-        El gobierno de Venezuela considera El Callao una “zona militar especial” y la mantiene bajo un
+        O governo considera El Callao uma “zona militar especial” e a
         <StoryMedia
         media={{
           id: "image-6",
@@ -319,56 +317,56 @@ export default () => (
           data: {
             src: require("photos/chapter1/Venezuela02.jpg")
           }
-        }}> fuerte control de seguridad</StoryMedia>
-        . En un día cualquiera es posible ver también grupos de encapuchados con armas automáticas patrullando las calles y escoltando a “altos funcionarios” del gobierno que salen y entran de las plantas de Minerven a toda hora.
+        }}> mantém fortemente protegida</StoryMedia>
+        . Todos os dias grupos de militares encapuzados com armas automáticas patrulham as ruas e escoltam “altos funcionários” do governo que saem e entram das fábricas de Minerven a todo momento.
       </Paragraph>
 
       <Paragraph>
-        A pesar de la presencia militar, la zona es el punto inicial de las rutas de contrabando que llevan a Guyana, Brasil y Colombia. Y los grupos delictivos organizados usan “mulas” humanas, lanchas, carros blindados y avionetas para evadir cualquier dispositivo de seguridad.
+        A despeito da presença militar, a área é o ponto de partida das rotas de contrabando que chegam aos países vizinhos, como Guiana, Colômbia e Brasil. Para evitar o escrutínio, as organizações criminosas usam “mulas” humanas, barcos, carros blindados e pequenos aviões.  
       </Paragraph>
 
       <Paragraph>
-        En el vecino poblado de Guasipati, el oro sale en avión en vuelos privados con destino a Aruba, Curazao, Dominica y Puerto Rico, dijo un funcionario. Pero hay otras rutas de contrabando, como de la ciudad industrial de Ciudad Guayana a República Dominicana y Honduras, desde donde se envía a Estados Unidos.
+        Na cidade vizinha de Guasipati, o ouro é levado em voos privados para Aruba, Curaçao, República Dominica e Porto Rico, disse uma autoridade. Mas existem outras rotas de tráfico, inclusive da cidade industrial de Ciudad Guayana para a República Dominicana e Honduras, tendo os Estados Unidos como destino final.
       </Paragraph>
 
       <SubTitle>
-        Mulas de oro
+        Mulas de ouro
       </SubTitle>
 
       <Paragraph>
-        Para sacar de contrabando el oro ilegal y llevarlo a Colombia, las organizaciones delictivas usan una red de transportistas humanos de oro, llamados mulas.
+        Para contrabandear o ouro ilegal para a vizinha Colômbia, as organizações criminosas usam uma rede de jovens transportadores ou “mulas” para o trabalho. 
       </Paragraph>
 
       <Paragraph>
-        A diferencia de lo que ocurre con los narcotraficantes, los traficantes de oro no se tragan el producto, sino que lo llevan en la ropa, en los zapatos o en sus partes íntimas. El gobierno venezolano considera el oro un activo estratégico, y los contrabandistas, si son atrapados, pueden ser castigados severamente. También son amenazados por las bandas criminales y los soldados que operan las minas y controlan las fronteras.
+        Enquanto as mulas de drogas costumam engolir seus produtos para cruzar fronteiras, as mulas de ouro levam os lingotes e gramas do metal escondidos sob as roupas ou dentro das cavidades corporais. O ouro é considerado um ativo estratégico pelo governo venezuelano e os contrabandistas, se forem pegos, podem ser severamente punidos. Eles também são ameaçados pelas gangues criminosas e pelos soldados que operam as minas e controlam as fronteiras. 
       </Paragraph>
 
       <Paragraph>
-        Ramón, una de las mulas, fue reclutado en Caracas hace unos meses.
+        Ramón, uma das mulas de ouro, foi recrutado em Caracas no começo deste ano.
       </Paragraph>
 
       <Paragraph>
-        Al relatar su historia a la <ExternalLink href="http://elestimulo.com/climax/category/climax/" language="es">revista Clímax</ExternalLink>{" "}, Ramón, quien usó un nombre ficticio por razones de seguridad, dijo que viajó en autobús desde Caracas hasta Upata, en el estado Bolívar, donde lo recogió un grupo de personas que viajaban en dos Toyota 4Runner.
+        Contando sua história à <ExternalLink href="http://elestimulo.com/climax/category/climax/" language="es">revista Clímax</ExternalLink>{" "}, Ramón, que usou um nome fictício por razões de segurança, disse que viajou de ônibus de Caracas para Upata, no estado de Bolívar. Lá, foi apanhado por um grupo de pessoas que dirigiam dois Toyota 4Runner brancos.
       </Paragraph>
 
       <Paragraph>
-        Antes de montarse en el vehículo le quitaron la tarjeta SIM y la batería a su teléfono celular, le colocaron unos audífonos y le taparon la cabeza con una bolsa de tela.
+        Eles removeram o chip e a bateria do seu celular, cobriram sua cabeça com uma sacola de pano e colocaram fones de ouvido em suas orelhas. 
       </Paragraph>
 
       <Paragraph>
-        Horas más tarde, cuando le quitaron la capucha, ya estaba en Las Claritas, un poblado minero cerca de la frontera con Brasil. Allí pasó cuatro días incomunicado en un campamento improvisado, custodiado por dos hombres encapuchados con armas largas.
+        Horas depois, quando retiraram o capuz, ele estava em Las Claritas, cidade mineira perto da fronteira com o Brasil. Ele passou quatro dias incomunicável em um acampamento improvisado, vigiado por dois homens encapuzados que portavam armas automáticas.
       </Paragraph>
 
       <Paragraph>
-        Al cuarto día, Ramón salió de Las Claritas con tres kilos de oro escondidos en la suela de los zapatos, la chaqueta y en las costuras del pantalón. Otros dos compañeros de travesía llevaban dos kilos adicionales de oro.
+        No quarto dia, Ramón deixou Las Claritas carregando três quilos de ouro escondidos nas solas de seus sapatos, em sua jaqueta e na costura de suas calças. Mais dois quilos de ouro foram divididos entre outros dois passageiros.
       </Paragraph>
 
       <Paragraph>
-        Viajaron en helicóptero desde Las Claritas hasta Ciudad Bolívar, a 486 kilómetros de distancia, donde los esperaban autobuses de la empresa de transporte Encava para llevarlos a un poblado costero que “se parecía a Cumaná”, en el norte de Venezuela. Allí fueron recibidos por un soldado, que los llevó a una avioneta sin pedirles identificación, que los trasladó a un aeropuerto privado en Táchira, cerca de la frontera con Colombia.
+        Eles viajaram de helicóptero de Las Claritas para Ciudad Bolívar, a 486 quilômetros de distância, onde os ônibus da empresa de transporte Encava os levaram para uma cidade costeira que “parecia ser Cumaná”, no norte da Venezuela. Lá, foram recebidos por um soldado de uniforme e colocados em um avião sem ter que mostrar documentos de identificação, e voaram para um aeroporto privado no estado de Táchira, ao longo da fronteira com a Colômbia.
       </Paragraph>
 
       <Paragraph>
-        Una camioneta Ford Explorer los llevó a la ciudad fronteriza de San Antonio donde le ordenaron cruzar a pie el
+        Um Ford Explorer levou-os para a cidade fronteiriça de San Antonio, onde atravessaram a pé a
         <StoryMedia
         media={{
         id: "video-3",
@@ -376,36 +374,36 @@ export default () => (
         data: {
           id: "px6c8nKTiRs"
         }
-        }}> puente internacional Simón Bolívar</StoryMedia>
-        , que enlaza a las dos naciones.
+        }}> ponte internacional Simón Bolívar</StoryMedia>
+        , que liga a Venezuela à Colômbia.
       </Paragraph>
 
       <Paragraph>
-        Ramón fue preso del pánico. Sabía que si lo pillaban con el contrabando de oro enfrentaba unos 30 años de prisión. Pero siguió las órdenes y, usando ciertas contraseñas para identificarse con los soldados ya sobornados, logró cruzar el puente sin ningún inconveniente.
+        Ramón entrou em pânico. Ele sabia que se fosse pego contrabandeando ouro poderia pegar até 30 anos de prisão, mas seguiu as ordens que recebeu. Instruído a usar certas senhas para se identificar com os soldados, atravessou a ponte sem impedimentos.
       </Paragraph>
 
       <Paragraph>
-        En la mitad de la puente, en un punto de control de Migración Colombia, lo recibe una mujer corpulenta, y después de dirigirse a ella por su nombre de pila, como le habían indicado, le dijo sencillamente “pasa”, sin revisar papeles ni documento de identidad. Ahí fue cuando Ramón se dio cuenta que “el complot también existe en Colombia”.
+        Quando chegou ao setor de imigração, já na Colômbia, foi recebido por uma mulher corpulenta. Ainda seguindo instruções, falou seu primeiro nome e ela mandou que ele “seguisse adiante” sem verificar seus documentos. Foi quando Ramon percebeu que o esquema de contrabando “também existe na Colômbia”.
       </Paragraph>
 
       <Paragraph>
-        En la ciudad fronteriza de Cúcuta, Colombia, esperó por sus otros dos compañeros, que cruzaron la frontera por las trochas, que son senderos rústicos.
+        Na cidade fronteiriça colombiana de Cúcuta, ele esperava pelos dois companheiros, que entraram no país por trilhas informais, as <i>trochas</i>. 
       </Paragraph>
 
       <Paragraph>
-        Llamaron por teléfono a un ecuatoriano que debía comprar el oro y acordaron verse en un restaurante de comida rápida en el centro de la ciudad. Cuando entraron al establecimiento, alguien cerró las puertas y los empleados desaparecieron.
+        Eles entraram em contato com o comprador, um homem do Equador, e concordaram em entregar o ouro em um fast-food no centro da cidade. Quando os três entraram no estabelecimento, as portas foram trancadas atrás deles e os funcionários desapareceram.
       </Paragraph>
 
       <Paragraph>
-        El negociante sacó una bolsa llena de billetes de 100 dólares y una balanza para pesar el oro. Pagó lo que debía y se marchó. Por llevar el oro venezolano a Colombia, a Ramón le pagaron 1.500 dólares.
+        O empresário logo puxou uma sacola cheia de notas de cem dólares e uma balança para pesar o ouro. Ele pagou e saiu. Para transportar ouro venezuelano para a Colômbia, Ramón recebeu 1.500 dólares.
       </Paragraph>
 
       <SubTitle>
-        En la frontera
+        Na fronteira
       </SubTitle>
 
       <Paragraph>
-        En el estado Zulia, en el noroeste de Venezuela, una fila de unos 40
+        No estado de Zulia, no noroeste da Venezuela, uma fila com cerca de 40
         <StoryMedia
         media={{
         id: "video-4",
@@ -413,59 +411,59 @@ export default () => (
         data: {
           id: "q9YYbtXbW2g"
         }
-        }}> camiones de carga pesada esperan su turno en la oscuridad para cruzar el punto fronterizo</StoryMedia> de Paraguachón y entrar a Colombia.
+        }}> caminhões ​​de carga está no escuro, esperando para cruzar o posto de controle</StoryMedia> do Paraguachón para entrar na Colômbia.
       </Paragraph>
 
       <Paragraph>
-        A eso de las 11 de la noche, los camiones encienden los motores y empiezan a tocar sus cornetas. Guardias nacionales venezolanos los autorizan a pasar sin revisarles la carga, y pasan entonces junto a los agentes de Migración Colombia sin detenerse.
+        Por volta das 11 da noite, os caminhões ligam os motores e começam a buzinar. A Guarda Nacional da Venezuela acena para que avancem sem inspecionar a carga, e os caminhões desimpedidamente passam pela migração colombiana.
       </Paragraph>
 
       <Paragraph>
-        Esta frontera ha estado cerrada oficialmente desde el 7 de septiembre de 2015, cuando Maduro la bloqueó para evitar el contrabando de alimentos, combustible y medicamentos. Pero eso no ha evitado que se convierta en una vía franca de camiones que transportan ilegalmente bienes, como oro contrabandeado.
+        Esta fronteira está oficialmente fechada desde 7 de setembro de 2015, quando Maduro a selou para evitar o contrabando de alimentos, combustível e remédios. Mas isso não impediu que se tornasse uma via de passagem para caminhões transportando mercadorias ilícitas, incluindo ouro contrabandeado.
       </Paragraph>
 
       <Paragraph>
-        La carretera Troncal del Caribe, que conecta a Venezuela con Colombia, tiene al menos 14 puntos de control de la Guardia Nacional, el Ejército y la policía regional. Pero nadie se atreve a revisar los camiones, según funcionarios locales.
+        O Troncal del Caribe, que liga Venezuela e Colômbia, tem pelo menos 14 postos de controle administrados pela Guarda Nacional Venezuelana, pelo Exército e pela polícia regional. Mas ninguém ousa interromper o fluxo de caminhões de carga ou inspecioná-los, segundo autoridades locais. 
       </Paragraph>
 
       <Paragraph>
-        Muchos de esos transportes tienen un salvoconducto emitido por la Zona Estratégica de Defensa del Zulia (ZODI), una de las divisiones territoriales de Venezuela bajo gestión militar, que avala en un manifiesto que “son productos de exportación”, dijo un cabo de la 13ra Brigada de Infantería, quien pidió no ser identificado.
+        Muitos dos caminhões têm passes especiais, <i>salvo-condutos</i>, emitidos pela Zona Operacional de Defesa Integral (ZODI) de Zulia, divisão militar que alega que os caminhões transportam “produtos de exportação”, disse um cabo do Exército da 13ª Brigada de Infantaria que pediu para não ser identificado. 
       </Paragraph>
 
       <Paragraph>
-        “Si revisamos estos vehículos podemos meternos en problemas”, dijo. “Parece que los dueños de los vehículos tienen influencia y podemos perder el trabajo”.
+        “Se verificamos esses veículos, podemos ter problemas”, disse ele. “Parece que os donos são pessoas influentes, que podem colocar nossos empregos em risco”.
       </Paragraph>
 
       <Paragraph>
-        El militar afirmó que los vehículos muchas veces transportan coltán, un mineral que se usa en la fabricación de dispositivos electrónicos, así como oro, plata y otros bienes que deben exportarse.
+        O funcionário disse que os caminhões geralmente estão carregando coltan, ouro, prata e outros itens que não deveriam ser exportados. 
       </Paragraph>
 
       <Paragraph>
-        “Lo sabemos porque cuando hemos revisado algunos vehículos encontramos desde cocaína líquida hasta oro, cualquier producto ilegal”, dijo el militar de 24 años.
+        “Sabemos disso porque, quando verificamos alguns carros, encontramos de tudo, de cocaína líquida a ouro e outros produtos ilegais”, disse o soldado de 24 anos.
       </Paragraph>
 
       <Paragraph>
-        Cuando se les pidió una declaración, las Fuerzas Armadas de Venezuela y el Ministerio de Defensa no respondieron a las solicitudes.
+        Procurados pela reportagem para se manifestar sobre o tema, as Forças Armadas da Venezuela e o Ministério da Defesa não responderam.
       </Paragraph>
 
       <Paragraph>
-        En el poblado de Maicao, Colombia, a poca distancia de Paraguachón, los negocios compran oro venezolano.
+        Na cidade colombiana de Maicao, a apenas 13 quilômetros da fronteira, as lojas compram o ouro venezuelano. 
       </Paragraph>
 
       <Paragraph>
-        En la joyería Amiga, un dependiente dice que compra hasta 150 gramos de oro venezolano, “que traen del sur del país; viene directo de las minas porque está en granitos”.
+        Em uma loja chamada Amiga, um comerciante diz que compra até 150 gramas de ouro venezuelano, “que é trazido do sul do país e vem diretamente das minas porque está em grãos”.
       </Paragraph>
 
       <Paragraph>
-        El vendedor agrega que las personas que venden el metal precioso no son mineros ni trabajadores artesanales, sino militares.
+        Ele diz que as pessoas que vendem o metal precioso não são mineiros, mas oficiais militares. 
       </Paragraph>
 
       <Paragraph>
-        “Raramente he tratado con comerciantes que lo están comprando a bajo precio allá y lo están vendiendo a otro costo aquí”, dijo.
+        “Raramente eu lido com comerciantes que estão comprando barato lá e vendendo aqui a outro preço”, disse ele.
       </Paragraph>
 
       <Paragraph>
-        Un miembro de la Guardia Nacional en Paraguachón, que pidió no ser identificado, describió que
+        Um guarda nacional da Venezuela em Paraguachón, que insistiu em manter anonimato, descreveu como 
         <StoryMedia
         media={{
         id: "video-5",
@@ -473,19 +471,19 @@ export default () => (
         data: {
           id: "IaS9JTPETWM"
         }
-        }}> detuvo el vehículo de un funcionario de gobierno</StoryMedia> en el poblado de Dabajuro en diciembre de 2018, a eso de las 2 de la madrugada.
+        }}> parou um veículo oficial do governo</StoryMedia> na cidade de Dabajuro, em dezembro de 2018, por volta das 2h da manhã.
       </Paragraph>
 
       <Paragraph>
-        En la camioneta Toyota Hilux iban dos mujeres y el conductor. Los pasajeros dijeron que eran empleados de un ministerio y venían de Caracas, pero se mostraron nerviosos, por lo que el militar y otro compañero decidieron revisar el vehículo. Descubrieron que el vehículo en verdad venía de la zona minera de Tumeremo, en el estado Bolívar, y dentro encontraron una caja de cartón con 250 gramos de plata, 300 gramos de oro y 1.000 dólares en efectivo.
+        Era um Toyota Hilux com duas mulheres e um motorista. As passageiras disseram que trabalhavam para o governo e vinham de Caracas, mas pareciam nervosas, então o soldado e seu parceiro conduziram uma busca. Eles descobriram que o carro na verdade estava vindo da área de mineração de Tumeremo, no estado de Bolívar, e lá dentro encontraram uma caixa de papelão com 250 gramas de prata, 300 gramas de ouro e mil dólares em dinheiro. 
       </Paragraph>
 
       <Paragraph>
-        Los asustados viajeros cambiaron la valiosa mercancía por su libertad.
+        Em pânico, os viajantes trocaram sua valiosa carga por liberdade. 
       </Paragraph>
 
       <Paragraph>
-        “El arresto y la confiscación quedaron sin efecto”, no se asentaron en los registros, dijo el soldado. “Y compartimos las ganancias”.
+        “A prisão e o confisco não tiveram efeito” e foram removidos dos registros, afirmou o soldado, “e nós dividimos o lucro”. 
       </Paragraph>
     </Container>
   </article>
