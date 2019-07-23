@@ -324,7 +324,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        El individuo paga 30 dólares por gramo de oro y dice que compra entre 4 o 5 kilogramos de oro a la semana. Eso significa unos 150,000 dólares en oro..
+        El individuo paga 30 dólares por gramo de oro y dice que compra entre 4 o 5 kilogramos de oro a la semana. Eso significa unos 150,000 dólares en oro.
       </Paragraph>
 
       <Paragraph>

@@ -286,27 +286,27 @@ class ArticleNav extends Component {
               </NavLink>
             </li>
             <li onClick={() => this.closeNavbar()}>
-              <NavLink to="/story/protected-areas">
+              <NavLink to="/story/jungle-fever">
                 <FormattedMessage
                   id="articles.title3"
-                  defaultMessage="Protected Areas" />
-                <ProgressBar path="/story/protected-areas" />
+                  defaultMessage="Jungle Fever" />
+                <ProgressBar path="/story/jungle-fever" />
               </NavLink>
             </li>
             <li onClick={() => this.closeNavbar()}>
-              <NavLink to="/story/indigenous-territories">
+              <NavLink to="/story/caribbean-crossroads">
                 <FormattedMessage
                   id="articles.title4"
-                  defaultMessage="Indigenous Territories" />
-                <ProgressBar path="/story/indigenous-territories" />
+                  defaultMessage="Caribbean Crossroads" />
+                <ProgressBar path="/story/caribbean-crossroads" />
               </NavLink>
             </li>
             <li onClick={() => this.closeNavbar()}>
-              <NavLink to="/story/conflicts">
+              <NavLink to="/story/around-the-world">
                 <FormattedMessage
                   id="articles.title5"
-                  defaultMessage="Conflicts" />
-                <ProgressBar path="/story/conflicts" />
+                  defaultMessage="Around The World " />
+                <ProgressBar path="/story/around-the-world" />
               </NavLink>
             </li>
             {(isMobile) && 

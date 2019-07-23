@@ -202,7 +202,12 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        El gobierno venezolano no ha difundido cifras actualizadas de la incidencia de la malaria, pero según la Organización Mundial de la Salud (OMS), Venezuela registró 411.586 casos nuevos en 2017, un repunte de 811% en comparación con 2010. Y la zona minera de Bolívar es donde ocurre la mayoría de los casos, según expertos.
+        El gobierno venezolano no ha difundido cifras actualizadas de la incidencia de la malaria, pero según la 
+        <FileLink
+        href={require("documents/chapter1/WHO-World_Malaria_Report.pdf")}
+        format="pdf"
+        size="6.9MB"> Organización Mundial de la Salud (OMS), Venezuela registró 411.586 casos nuevos en 2017</FileLink>
+        , un repunte de 811% en comparación con 2010. Y la zona minera de Bolívar es donde ocurre la mayoría de los casos, según expertos.
       </Paragraph>
 
       <Paragraph>
@@ -480,7 +485,7 @@ export default () => (
         id: "video-4",
         type: "youtube",
         data: {
-          id: "px6c8nKTiRs"
+          id: "q9YYbtXbW2g"
         }
         }}> camiones de carga pesada esperan su turno en la oscuridad para cruzar el punto fronterizo</StoryMedia> de Paraguachón y entrar a Colombia.
       </Paragraph>
@@ -540,7 +545,7 @@ export default () => (
         id: "video-5",
         type: "youtube",
         data: {
-          id: "px6c8nKTiRs"
+          id: "IaS9JTPETWM"
         }
         }}> detuvo el vehículo de un funcionario de gobierno</StoryMedia> en el poblado de Dabajuro en diciembre de 2018, a eso de las 2 de la madrugada.
       </Paragraph>

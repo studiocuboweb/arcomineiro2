@@ -21,18 +21,18 @@ import Media from "components/Media";
 import Story from "components/Story";
 import Modal from "components/Modal";
 
-import Chapter1 from "./articles/1-MinasDeOro";
+import Chapter1 from "./articles/1-GoldMines";
 import Chapter2 from "./articles/2-Refugees";
-import Chapter3 from "./articles/3-FiebreDeLaSelva";
-import Chapter4 from "./articles/4-EncrucijadaDelCaribe";
-import Chapter5 from "./articles/5-AlrededorDelMundo";
+import Chapter3 from "./articles/3-JungleFever";
+import Chapter4 from "./articles/4-CaribbeanCrossroads";
+import Chapter5 from "./articles/5-AroundTheWorld";
 
 const articles = [
   "/story",
   "/story/refugees",
-  "/story/protected-areas",
-  "/story/indigenous-territories",
-  "/story/conflicts"
+  "/story/jungle-fever",
+  "/story/caribbean-crossroads",
+  "/story/around-the-world"
 ];
 
 class Scene extends Component {
@@ -131,9 +131,9 @@ class Scene extends Component {
               <Switch location={location}>
                 <Route exact path={`${match.url}`} component={Chapter1} />
                 <Route path={`${match.url}/refugees`}component={Chapter2} />
-                <Route path={`${match.url}/protected-areas`} component={Chapter3} />
-                <Route path={`${match.url}/indigenous-territories`} component={Chapter4} />
-                <Route path={`${match.url}/conflicts`} component={Chapter5} />
+                <Route path={`${match.url}/jungle-fever`} component={Chapter3} />
+                <Route path={`${match.url}/caribbean-crossroads`} component={Chapter4} />
+                <Route path={`${match.url}/around-the-world`} component={Chapter5} />
                 <Route
                   render={() => (
                     <Helmet>

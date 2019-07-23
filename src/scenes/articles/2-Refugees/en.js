@@ -20,10 +20,10 @@ import Author from "components/blocks/Author";
 export default () => (
   <article>
     <Helmet>
-      <title>Refugiados | Arco Minero</title>
+      <title>Refugees | Arco Minero</title>
     </Helmet>
     <Container>
-      <Title as="h2">Refugiados reclutados caminan con oro a través de la frontera colombiana</Title>
+      <Title as="h2">Recruited refugees walk gold across the Colombian border</Title>
       <Author>
         <FormattedMessage
           id="general.authorChapter2"
@@ -32,12 +32,12 @@ export default () => (
       </Author>
       <Note>
         <p>
-          Todos los días, miles de venezolanos cruzan la frontera hacia Colombia; en la sombra del éxodo histórico de Venezuela innumerables kilos de oro se introducen por contrabando. Grupos de criminales organizados, comerciantes y oficiales militares corruptos de Venezuela controlan un negocio multimillonario transfronterizo.
+          Every day, thousands of Venezuelans cross the border into Colombia, but untold kilos of gold are smuggled beneath the canopy of Venezuela’s historic exodus. Organized crime groups, merchants, and corrupt Venezuelan military officials control a cross-border multimillion-dollar business.
         </p>
       </Note>
 
       <Paragraph>
-        Desde que comenzó el colapso de Venezuela a finales de 2014,
+        Since the start of Venezuela’s historic meltdown at the end of 2014,
         <StoryMedia
         media={{
           id: "galery-1",
@@ -61,16 +61,16 @@ export default () => (
             ]
           }
         }}
-      > más de cuatro millones de refugiados y migrantes han abandonado el país</StoryMedia>
-        . Colombia es uno de los países que los ha recibido, y a la fecha ha dado asilo a más de 1,3 millones de venezolanos.
+      > more than four million refugees and migrants have left the country</StoryMedia>
+        . And more than any other nation, Colombia has been on the receiving end of the crisis. It now harbors about 1.3 million Venezuelans.
       </Paragraph>
 
       <Paragraph>
-        La mayoría entra a la vecina Colombia a través de “La Parada”, muchas veces después de caminar cientos de millas.
+        Most of them enter neighboring Colombia through “La Parada” – the “stopping point” – often after having traveled hundreds of miles.
       </Paragraph>
 
       <Paragraph>
-        La Parada – a pocos pasos del icónico puente Simón Bolívar, que separa a los dos países – parece un amplio mercado al aire libre. Familias venezolanas exhaustas descansan en la acera, mientras los hombres recorren el lugar con carritos y se ofrecen a llevar la mercancía a los clientes.
+        La Parada – just steps from the iconic Simon Bolívar bridge that straddles the two countries – resembles a vast open air market. Exhausted Venezuelan families rest on the sidewalk while men rush around with hand trucks offering to carry their luggage.
         <StoryMedia
         media={{
           id: "image-1",
@@ -79,19 +79,19 @@ export default () => (
             credits: "Bram Ebus",
             src: require("photos/chapter2/Cucuta05.jpg")
           }
-        }}> Personas en busca de las medicinas</StoryMedia> que no pueden encontrar en su país se abren paso entre vendedores de perros calientes y jugos de fruta. Hay quioscos donde los migrantes pueden <ExternalLink href="https://www.nytimes.com/2018/02/17/world/americas/venezuela-crisis-colombia-migration.html" language="en">el gobierno pretende validar y certificar 8.900 toneladas en reservas de oro hasta 2025</ExternalLink>{" "}, con la esperanza de comprar un boleto de autobús o alquilar una noche en alguno de los numerosos hoteles improvisados que la gente del lugar ha abierto en sus casas.
+        }}> People searching for medicine</StoryMedia> they can no longer find at home elbow their way through hotdog vendors and juice carts. There are stalls where migrants <ExternalLink href="https://www.nytimes.com/2018/02/17/world/americas/venezuela-crisis-colombia-migration.html" language="en">sell their hair to wig makers</ExternalLink>{" "}, in hopes of buying a bus ticket or renting a room in one of the myriad makeshift hotels that have opened up in people’s houses.
       </Paragraph>
 
       <Paragraph>
-        Pero como las aglomeraciones permiten el anonimato, La Parada también es centro de una actividad mucho más destructiva: el comercio de oro ilegal que está ayudando a mantener en el poder al gobierno venezolano, alimenta a grupos armados y destruye el ambiente.
+        But as masses grant anonymity, La Parada is also the hub for a far more destructive activity: the illegal gold trade that’s helping prop up the Venezuelan government, fueling armed groups and destroying the environment.
       </Paragraph>
 
       <Paragraph>
-        Alrededor de La Parada hay docenas de casas de empeño que compran oro traído de Venezuela, sin hacer preguntas.
+        Surrounding La Parada are dozens of pawnshops that will buy gold brought over from Venezuela, no questions asked.
       </Paragraph>
 
       <Paragraph>
-        Un hombre que grita través de la vitrina de una tienda llamada Palacio del Oro, dice que los migrantes venezolanos traen oro en todas sus formas.
+        A man yelling through the plate glass window of one shop called Gold Palace said Venezuelan migrants carry across gold in all forms.
       </Paragraph>
 
       <Paragraph>
@@ -102,36 +102,36 @@ export default () => (
         data: {
           id: "ZkkV8tpB1SI"
         }
-        }}> “Algunos traen collares de oro”, dijo. “Otros lo traen de las minas”</StoryMedia>
+        }}> “Some bring it in necklaces,” he said, “others bring it from the mines.”</StoryMedia>
         .
       </Paragraph>
 
       <Paragraph>
-        Según la Oficina del Alto Comisionado de las Naciones Unidas para los Refugiados (ACNUR), <ExternalLink href="https://www.acnur.org/noticias/press/2019/6/5cfa5eb64/refugiados-y-migrantes-de-venezuela-superan-los-cuatro-millones-acnur-y.html#_ga=2.136588400.118916983.1563840317-22580151.1563840317" language="es">más de cuatro millones de refugiados y migrantes han salido de Venezuela</ExternalLink>{" "} desde 2014 en medio de una profunda crisis económica. Y para muchos de ellos, el tráfico de oro es una de las pocas formas de ganarse la vida.
+        The United Nations High Commissioner for Refugees says <ExternalLink href="https://www.unhcr.org/news/press/2019/6/5cfa2a4a4/refugees-migrants-venezuela-top-4-million-unhcr-iom.html" language="en">more than four million refugees and migrants have left Venezuela</ExternalLink>{" "} since 2014 amid a deep economic crisis. And for many of them, gold trafficking is one of their few sources of income.
       </Paragraph>
 
       <Paragraph>
-        Harold, un joven venezolano con camiseta azul y jeans desteñidos, fue soldado en Venezuela antes de dedicarse a contrabandear oro. Dijo que en las fuerzas armadas venezolanas aprendió los pormenores de la corrupción.
+        Harold, a young Venezuelan with a blue tank top and faded jeans, was a former soldier in Venezuela before he became a gold smuggler. He said being in the military taught him the ins and outs of corruption.
       </Paragraph>
 
       <Paragraph>
-        “Conozco el tráfico de combustible, el tráfico de drogas, aprendí a traficar muchas cosas. Fue así como aprendí a pagar vacunas y a cobrarlas”.
+        “I know fuel trafficking, drug trafficking –  I made myself familiar with the trafficking of many things,” he said, asking to remain anonymous to talk freely about the illicit trade. “That’s where I learned how to pay vacunas and also how to collect vacunas.”
       </Paragraph>
 
       <Paragraph>
-        La vacuna es como le dicen a la extorsión. Literalmente significa una inyección de seguridad. Y es uno de los elementos clave del contrabando de oro.
+        Vacunas are extortion payments, literally “vaccines” that buy traffickers security. And it’s one of the foundations of gold smuggling.
       </Paragraph>
 
       <Paragraph>
-        Harold contó que el oro extraído en Venezuela es llevado a la frontera con Colombia por traficantes que muchas veces actúan en coordinación con la Guardia Nacional de Venezuela. Los soldados aceptan sobornos, o vacunas, para garantizar el paso seguro del oro. Algunas veces los soldados proveen vehículos blindados para trasladar el metal.
+        Harold said gold mined in southern Venezuela is taken to the Colombian border by traffickers who often operate in coordination with Venezuela’s National Guard. The soldiers accept bribes, or vacunas, to guarantee safe passage. Sometimes the guards even provide armored trucks to move the metal to the frontier.
       </Paragraph>
 
       <Paragraph>
-        Pero no solo los militares venezolanos participan en el contrabando. Bandas  delictivas venezolanas y grupos armados colombianos también participan en el contrabando de oro. En particular, el Ejército de Liberación Nacional (ELN) de Colombia, el grupo guerrillero más antiguo y grande de Latinoamérica ahora que las FARC se desmovilizaron en 2017, ha ampliado su presencia en las regiones mineras venezolanas. El oro es una importante fuente de ingresos del ELN, junto con la extorsión y el narcotráfico, opinan analistas.
+        It’s not just the military involved in smuggling. Venezuelan criminal syndicates and Colombian armed groups are also involved in the illegal gold trade. In particular,  Colombia’s National Liberation Army (ELN),  Latin America’s oldest and largest guerrilla group now that the Revolutionary Armed Forces of Colombia (FARC) demobilized in 2017, have expanded their presence in Venezuela’s mining regions. And illegal gold is now an important source of ELN revenue, along with extortion and drug trafficking, analysts believe.
       </Paragraph>
 
       <Paragraph>
-        El ELN por lo general depende de una red de contrabandistas, llamados mulas, que se ven obligados a usar sobornos para cruzar las líneas de la Guardia Nacional y los puntos de control de grupos armados para llevar el oro a la
+        The ELN usually rely on a network of smugglers, or mules, who are forced to bribe their way through National Guard and guerrilla checkpoints to get the gold to the 
         <StoryMedia
         icon="map"
         media={{
@@ -147,36 +147,36 @@ export default () => (
             zoomMin: 3,
             zoomMax: 10
           }
-        }}> frontera con Colombia</StoryMedia>
+        }}> Colombian border</StoryMedia>
         .
       </Paragraph>
 
       <Paragraph>
-        Para atravesar el oro por la frontera, más traficantes deben participar si las cantidades son considerables. Harold lo explica: “Supongamos que estamos hablando de uno o más kilos. Esta gente que lo saca [el oro] de la fuente es directamente responsable de llevarlo a Cúcuta [la primera ciudad importante que los venezolanos encuentran después de cruzar a Colombia]. Paga a un Guardia Nacional un poco, luego otro poco a otra Guardia Nacional y así”.
+        In order to cross the border, more traffickers are put to work if the amounts are significant: “Let’s say one kilo [2.2 pounds] and above,” Harold says. “So this is what occurs, these people that take [the gold] from the source are directly responsible for getting it to Cúcuta [the first major city Venezuelans encounter after crossing into Colombia]. He pays the National Guard a bit, then some more for another National Guard and then a bit for another National Guard.”
       </Paragraph>
 
       <Paragraph>
-        Tratar de evadir esos peajes puede ser mortal. “Si quieren cobrarte, o pagas o mueres”, dijo Harold.
+        Trying to evade those tolls can be deadly. “If they want to collect, you pay or die,” Harold said.
       </Paragraph>
 
       <Paragraph>
-        Los diferentes grupos que controlan la frontera – incluidas organizaciones paramilitares de derecha y guerrilleros de izquierda – hacen que el recorrido sea peligroso.
+        The disparate groups controlling border – including right wing paramilitary organizations and left-wing guerrillas – make the journey perilous.
       </Paragraph>
 
       <Paragraph>
-        “Las mulas [que transportan el oro] pueden cruzarse con ambos grupos en la frontera. En un solo viaje te encuentras con la Guardia Nacional, la policía y el CICPC [el cuerpo de policía de investigaciones criminalísticas]”, dijo, y pone los ojos en blanco. “Todos cobran vacuna, incluyendo policiales y oficiales de migración de Colombia.”
+        “[Gold] mules can meet both groups during a single crossing. In just one trip you’ll get the National Guard, the Police and the CICPC [Venezuela’s police department of criminal investigations],” he said, rolling his eyes. “Everybody charges the vacuna, including Colombian police and immigration officials.”
       </Paragraph>
 
       <Paragraph>
-        “Todos comen de esto”, agregó.
+        “Everybody is eating from this,” he added.
       </Paragraph>
 
       <Paragraph>
-        A Harold no le gusta tener que darle de comer a todas estas personas, así que muchas veces esconde el oro.
+        Harold doesn’t like feeding all those mouths, so he often hides the gold.
       </Paragraph>
 
       <Paragraph>
-        Los contrabandistas tienen muchos lugares donde esconder el metal: en la suela de los zapatos, en el sombrero, detrás de la correa. Las mujeres que trafican oro por lo general lo esconden debajo de los senos.
+        Smugglers have numerous places to conceal the metal: in the soles of shoes, inside hats, behind belts. Women who traffic gold often hide it under their breasts.
       </Paragraph>
 
       <Paragraph>
@@ -187,44 +187,44 @@ export default () => (
         data: {
           id: "8VNugTSqhZg"
         }
-        }}>Harold prefiere esconder el oro en naranjas</StoryMedia>
-        . Entre 25 y 40 gramos de oro son suficientes para llenar una naranja vacía. Cada bolsa llena de naranjas podría cargar hasta una libra de oro, con un valor de aproximadamente 22,000 dólares.
+        }}>Harold’s preferred method is to hide it in oranges</StoryMedia>
+        . Each hollowed-out fruit can hold .9 to 1.4 ounces (25-40 grams) of gold. A full bag of oranges can carry one pound (half a kilo of gold), worth about 22,000 U.S. dollars.
       </Paragraph>
 
       <Paragraph>
-        “Si lo escondo, le puedo sacar más ganancias”, explicó.
+        “If I hide it, I’ll have more profits,” he explained.
       </Paragraph>
 
       <Paragraph>
-        Migración Colombia declaró que “no tiene ninguna denuncia formal de presunta extorsión” por sus oficiales y que “no ejerce control alguno sobre equipajes o mercancías, ya que no es su competencia”.
+        Asked for a statement, the Colombian migrations office said they “don’t have any formal complaint of alleged extortion” by their officers and that they don’t have “any control over baggage or merchandise, since it is not their competence”.
       </Paragraph>
 
       <Paragraph>
-        A pesar de la fortuna en oro que transportan, los contrabandistas ganan aproximadamente 2 dólares por gramo, unos 12 dólares por viaje. Eso es tres veces el salario mínimo en Venezuela, pero los peligros son significativos.
+        Despite the riches they carry, smugglers make about two U.S. dollars per gram, or about 12 U.S. dollars per trip. That’s about two times Venezuela’s monthly minimum wage, and the risks are significant.
       </Paragraph>
 
       <Paragraph>
-        Harold dijo que los jefes muchas veces amenazan a familiares de los contrabandistas para asegurar la entrega del metal.
+        Harold said bosses often threaten loved ones to guarantee the gold is delivered.
       </Paragraph>
 
       <Paragraph>
-        Un exjefe suyo sabía dónde vivía su familia, cuántos hijos tiene y a qué escuela van.
+        His previous boss knew where his family lived, how many children he had and where they studied.
       </Paragraph>
 
       <Paragraph>
-        “Averiguaron todo sobre mis parientes. Así que era mi familia o la mercancía”.
+        “I mean, they found out about my whole family,” he said. “So, it was either the merchandise or my family.”  
       </Paragraph>
 
       <Paragraph>
-        Colombia y Venezuela comparten una frontera de 2.219 kilómetros y hay siete cruces oficiales, pero muchas veces están cerrados debido al deterioro de las relaciones entre ambos países. Así las cosas, los contrabandistas tienen que llevar el oro por cientos de senderos, llamados trochas, que están controlados por una gama de pandillas delictivas y grupos armados.
+        Colombia and Venezuela share a 1,379-mile (2,219 kilometers) long border and there are seven official border crossings, but they’re often closed as bilateral relations have hit rock bottom. So most smugglers carry the gold over hundreds of informal trails, or trochas, that are controlled by a variety of criminal gangs and armed groups.
       </Paragraph>
 
       <Paragraph>
-        La Oficina de las Naciones Unidas para la Coordinación de Asuntos Humanitarios estima que los
+        The United Nations Office for the Coordination of Humanitarian Affairs estimates that
         <FileLink
         href={require("documents/chapter2/OCHA_UN_Colombia-Contexto_Humanitario_Norte_de_Santander.pdf")}
         format="pdf"
-        size="3.6MB"> participantes ilegales ganan más de 2.1 millones de dólares mensuales</FileLink> con el
+        size="3.6MB"> illegal actors earn more than 2.1 million U.S. dollars per month</FileLink> by
         <StoryMedia
         media={{
           id: "image-2",
@@ -233,67 +233,71 @@ export default () => (
             credits: "Bram Ebus",
             src: require("photos/chapter2/Cucuta06.jpg")
           }
-        }}> control de las trochas y la extorsión a viajeros</StoryMedia> solamente en el departamento colombiano Norte de Santander.
+        }}> controlling the trochas and extorting travelers</StoryMedia> in Colombia’s Norte de Santander department alone.
       </Paragraph>
 
       <Paragraph>
-        Y no prestar atención a estos grupos puede tener consecuencias terribles.
+        Not paying those groups can have terrible consequences.
       </Paragraph>
 
       <Paragraph>
-        El 17 de abril, por ejemplo, <ExternalLink href="https://www.laopinion.com.co/judicial/encuentran-tres-muertos-en-dos-trochas-de-la-frontera-175315#OP" language="es">un periódico local reportó</ExternalLink>{" "} que se habían encontrado tres cuerpos entre dos trochas y que la cabeza de una de las víctimas estaba envuelta en una camiseta.
+        On April 17, three corpses were found on two illegal border crossings. One of the victims had been decapitated and his head was wrapped in a shirt, <ExternalLink href="https://www.laopinion.com.co/judicial/encuentran-tres-muertos-en-dos-trochas-de-la-frontera-175315#OP" language="es">a local newspaper reported</ExternalLink>{" "}.  
       </Paragraph>
 
       <Paragraph>
-        Franklin, otro contrabandista de oro venezolano, dijo que se había tropezado con personas desmembradas en las trochas, una señal de advertencia de los grupos armados.
+        Franklin, another Venezuelan gold smuggler, said he had stumbled across body parts scattered along the trochas, a warning from the armed groups.
       </Paragraph>
 
       <Paragraph>
-        “Lo llamo el carro bomba”, dice bajo la condición de hablar en anonimato. Se refiere al oro que escondió en sus zapatos cuando traficaba y el gran riesgo de que lo agarraran y mataran. “He visto personas desmembradas, descuartizadas. El hombro de una persona tirado en la trocha…”.
+        “I call it a car bomb,” he said, agreeing to speak on condition of anonymity. He refers to the gold he hid in his shoes when he was trafficking and the explosive risk of getting caught and murdered. “I’ve seen dismembered people, all chopped up. A shoulder lying in the trocha as if it were nothing.”
       </Paragraph>
 
       <Paragraph>
-        Cuando llegó a Colombia, precisamente a La Parada, no encontró alivio en la cercana ciudad de Cúcuta. Durmió en el terminal de autobuses su primera semana allí, y luego  fue reclutado por un grupo del crimen organizado para ser contrabandista.
+        Franklin, 24, said he fled to Colombia after he was detained and abused in Venezuela amid nationwide protests. While in custody, he says the police shaved his head and tried to rape him twice.
       </Paragraph>
 
       <Paragraph>
-        Con el oro escondido en las suelas de los zapatos, cruzaba a pie la frontera. Trabajó varios meses hasta que ganó el dinero suficiente para traer su esposa y a su bebé de 9 meses.
+        Coming into Colombia at La Parada, he found no relief in the nearby town of Cúcuta. Sleeping in the bus terminal during his first week, he was recruited by an organized crime group to become a trafficker.
       </Paragraph>
 
       <Paragraph>
-        A los traficantes que cruzan la frontera en ambas direcciones les dicen “pulmones”, y Franklin dijo que a veces hacía varios viajes al día con docenas de otros contrabandistas.
+        Hiding gold in the soles of his shoes, he would walk the contraband over the border. He worked for a few months until he made enough money to send for his wife and 9-month-old baby. 
       </Paragraph>
 
       <Paragraph>
-        “Imagina, tener 15 pares de pulmones trabajando todos los días para un solo jefe”, dice. “Algunos de estos jefes tienen hasta 80 pares de pulmones trabajando a diario”.
+        Traffickers who cross back and forth are called “lungs” and Franklin said he would sometimes make several trips a day, along with dozens of other smugglers.
       </Paragraph>
 
       <Paragraph>
-        Al igual que Harold, Franklin manifestó que sus jefes amenazaron a su familia para obligarlo a entregar el oro. Ahora vende caramelos en las calles porque el contrabando se ha vuelto muy peligroso.
+        “Imagine, 15 pairs of lungs working every day for one single boss,” he says. “Some bosses have up to 80 pairs of lungs working for them each day.”
       </Paragraph>
 
       <Paragraph>
-        Aunque trabaja 14 horas al día, a veces más, no siempre le alcanza el dinero. El pequeño apartamento que alquila le cuesta 5 dólares la noche, y ha conseguido un poco de comodidad con un colchón barato, un televisor usado y un ventilador.
+        Like Harold, Franklin said his bosses threatened his family if he didn’t deliver the gold. He now sells candy on the streets because trafficking had become too dangerous.
       </Paragraph>
 
       <Paragraph>
-        Otra hija que vive en Venezuela empezó el nuevo semestre de clases sin útiles escolares. Por eso ahorra dinero para mandarle también.
+        Working 14 hours a day, sometimes more, he struggles to make ends meet. The small and empty apartment he rents costs about five U.S. dollars a night but he’s made it a bit cozier with a cheap mattress, a second-hand television and a fan.
+      </Paragraph>
+
+      <Paragraph>
+        nother daughter still living in Venezuela started the new semester without school supplies. He is saving up money to send for her, too.
       </Paragraph>
 
       <SubTitle>
-        A puertas cerradas
+        Behind closed doors
       </SubTitle>
 
       <Paragraph>
-        En el centro de Cúcuta, a unos 10 kilómetros del corredor de contrabando de oro de La Parada, hay una zona del tamaño de un barrio que se ha convertido en centro de comercio de bienes traídos de forma ilícita de Venezuela.
+        In the center of Cúcuta, about six miles (10 kilometers) from the La Parada gold-smuggling corridor, there is an area the size of an entire neighborhood that has been converted into a hub for contraband goods coming from Venezuela.
       </Paragraph>
 
       <Paragraph>
-        Alejandría, un centro comercial al aire libre, con caminos estrechos llenos de ropa, perfumes de imitación, computadoras portátiles marca Canaima (laptops que en otra época el gobierno venezolano entregaba a los niños para usar en la escuela) y armas de juguete. Pero también venden armas de verdad, afirman algunos.
+        Alejandría, an open-air shopping mall, is surrounded by tight alleys jammed with clothes, fake perfume, Canaima laptops (once issued by the Venezuelan government to school children) and toy guns. Even real weapons are sold under the counter, some say.
       </Paragraph>
 
       <Paragraph>
-        La zona también está llena de las llamadas
+        But the area is also bursting with small
         <StoryMedia
         media={{
         id: "video-3",
@@ -301,12 +305,12 @@ export default () => (
         data: {
           id: "vgdRWxCY53g"
         }
-        }}> compraventas, pequeñas tiendas que compran y venden oro</StoryMedia>
-        . Solamente a este lugar llegan a diario entre 200 y 300 venezolanos para ofrecer oro. La gente del lugar dice que la cantidad de casas de empeño ha aumentado significativamente en años recientes, cuando se disparó el contrabando de oro.
+        }}> compraventas – shops that buy and sell gold</StoryMedia>
+        . In this area alone, some 200 to 300 Venezuelans show up daily to sell gold. Locals say the number of pawnshops has exploded in recent years as gold trafficking has spiked.
       </Paragraph>
 
       <Paragraph>
-        “Compro oro, compro oro”, gritan los encargados de las
+        “I’m buying gold, I’m buying gold,”
         <StoryMedia
         media={{
           id: "image-3",
@@ -315,52 +319,52 @@ export default () => (
             credits: "Bram Ebus",
             src: require("photos/chapter2/Cucuta07.jpg")
           }
-        }}> tiendas</StoryMedia>
-        , tratando de atraer nuevos clientes.
+        }}> shopkeepers scream</StoryMedia>
+        , trying to lure in new clients.
       </Paragraph>
 
       <Paragraph>
-        Otros tratan de ser más discretos sobre el comercio del metal, en su mayor parte informal o ilegal. En lo profundo de un caótico mercado hay una pequeña oficina oculta detrás de un panel que se abre. El pequeño espacio es suficiente para tres sillas plásticas y un pequeño escritorio, detrás del cual hay un hombre con un montón de dinero en efectivo.
+        Others try to be more discreet about the trade, most of which is informal or illegal. Deep in a chaotic market, in an empty alley, a secret little office was hidden behind a panel in a wall that opened up. The cramped space was just big enough for three plastic chairs and a small desk, where a man was sitting with a stack of cash.
       </Paragraph>
 
       <Paragraph>
-        El individuo paga 30 dólares por gramo de oro y dice que compra entre 4 o 5 kilogramos de oro a la semana. Eso significa unos 150,000 dólares en oro..
+        He pays 30 U.S. dollars a gram for gold and says he purchases about eight or ten pounds (4-5 kilos) per week. That’s about 150,000 U.S. dollars worth of the metal.
       </Paragraph>
 
       <Paragraph>
-        Cuando se le preguntó cuánto oro puede vender en una semana, dijo “lo que necesites”.
+        Asked how much gold he can sell in a week, he says, “whatever you need.” 
       </Paragraph>
 
       <Paragraph>
-        De regreso en el centro comercial Alejandría, una mujer de edad media está de pie junto a una vitrina llena de collares de oro traídos de Venezuela. Saca una calculadora de su escritorio cuando le preguntan por el precio del oro. Dice que las prendas de 24 kilates se venden en 36 dólares por gramo.
+        Back in the Alejandria mall, a middle-aged woman stands behind a case full of gold necklaces brought from Venezuela. She snaps a calculator from her desk when asked about gold prices. She says 24-karat gold jewelry is fetching about 36 U.S. dollars per gram.
       </Paragraph>
 
       <Paragraph>
-        Luego le grita a otra mujer al otro lado de un pasillo, que también tiene una joyería, y le pregunta si tiene oro sin refinar.
+        Then she shouts to the woman across the aisle, also operating a jewelry shop, and asks if she has unrefined gold from the mines.
       </Paragraph>
 
       <Paragraph>
-        “¿Tienes oro de la mina?”
+        “Tienes oro de la mina?”
       </Paragraph>
 
       <Paragraph>
-        No, le responde, no por ahora.
+        No, the answer comes back, at least not right now.
       </Paragraph>
 
       <Paragraph>
-        La mayoría de estas tiendas no pueden comerciar oro legalmente, pero eso no ha impedido que el negocio despegue. Incluso hay un sitio web que <ExternalLink href="http://preciocucuta.com/oro-hoy/" language="es">explica cómo comprar oro en Cúcuta</ExternalLink>{" "}.
+        Most of these shops aren’t legally allowed to trade gold, but that hasn’t stopped business from booming. There even is a website that <ExternalLink href="http://preciocucuta.com/oro-hoy/" language="es">explains how to buy gold in Cúcuta</ExternalLink>{" "}.
       </Paragraph>
 
       <Paragraph>
-        Francisco tiene una tienda con licencia para prestar dinero a cambio de joyas empeñadas. Pero admite que ha estado comprando oro de minas venezolanas.
+      Francisco runs a storefront that’s licensed to lend money for pawned jewelry. But he admits he’s been buying the metal smuggled in from Venezuelan mines.
       </Paragraph>
 
       <Paragraph>
-        “Yo he comprado oro”, dice, y pide no ser identificado por temor a represalias, “pero sé que no podemos”.
+      “Well, I’ve been buying gold,” he says, asking to remain anonymous for fear of reprisal, “but I know that we can’t.”
       </Paragraph>
 
       <Paragraph>
-        Saca su teléfono móvil y muestra varias fotos de lo que se ofrece al otro lado de la frontera. Agranda una
+        Pulling out his cellphone, he shows a few pictures of what’s being offered on the other side of the border. He zooms in on a
         <StoryMedia
         media={{
           id: "image-4",
@@ -369,32 +373,36 @@ export default () => (
             credits: "Bram Ebus",
             src: require("photos/chapter2/Cucuta08.jpg")
           }
-        }}> imagen de lingotes de oro que van desde 300 gramos hasta más de 1,5 kilos</StoryMedia>
+        }}> stack of gold bars that range in weight from 10.5 ounces (300 grams) to more than 3.3 pounds (1.5 kilos)</StoryMedia>
         .
       </Paragraph>
 
       <Paragraph>
-        “Están pidiendo un valor muy alto”, dice.
+        “They’re asking too much money,” he says.
       </Paragraph>
 
       <Paragraph>
-        Francisco explica cómo el comercio de oro funciona: contactos en Venezuela se comunican para informar lo que tienen en oferta, y si se llega a un acuerdo, envían a un contrabandista por la frontera. El pago es en efectivo, muchas veces en dólares, o por transferencia bancaria.
+        Francisco explains how the trade works: Contacts in Venezuela reach out with what’s on offer, and if a deal is struck, they send a trafficker across the border. Payments are made in cash, often in dollars, or by wire transfer.
       </Paragraph>
 
       <Paragraph>
-        En Cúcuta, el oro se oculta en las puertas y otros compartimientos de autos privados, y se lleva a ciudades grandes como Bogotá, Cali o Medellín. Ahí se falsifican los documentos necesarios para exportarlo a Europa o Estados Unidos, y entra en la cadena mundial de suministro de oro legal.
+        From Cúcuta, the gold is hidden in the doors and floors of private cars and taken to bigger cities like Bogotá, Cali or Medellín. From there, paperwork is falsified and it’s exported to Europe or the United States and enters the global supply chain as legal gold.
       </Paragraph>
 
       <Paragraph>
-        Las cantidades de oro que pasan por Cúcuta varían significativamente, dice Francisco. Lleva aproximadamente una semana reunir 100 kilos, pero no puede darse el lujo de financiar el mismo esa inversión.
+        Quantities that go through Cúcuta vary a lot says Francisco. It takes about one week to gather 220 pounds (100 kilos), but he cannot make this kind of investment himself. 
       </Paragraph>
 
       <Paragraph>
-        Francisco sabe que grupos delictivos usan el oro para lavar dinero de las drogas. Esas redes compran oro ilegal, dijo, lo exportan a través de compañías bien establecidas y traen de regreso los dólares al país.
+        “There are a lot of groups,” another man who has been listening in to the interview adds. He knows that gold is a preferred commodity to launder criminal money.
       </Paragraph>
 
       <Paragraph>
-        “¡Es un juego internacional!”, expresó.
+        Francisco knows that criminal groups use gold to launder money from drugs. Those networks buy illegal gold, he said, export it through well-established companies and bring the dollars back to the country.
+      </Paragraph>
+
+      <Paragraph>
+        “It's an international game!” he said.
       </Paragraph>
     </Container>
   </article>
