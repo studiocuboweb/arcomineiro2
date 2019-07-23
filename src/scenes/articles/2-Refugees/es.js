@@ -131,24 +131,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        El ELN por lo general depende de una red de contrabandistas, llamados mulas, que se ven obligados a usar sobornos para cruzar las líneas de la Guardia Nacional y los puntos de control de grupos armados para llevar el oro a la
-        <StoryMedia
-        icon="map"
-        media={{
-        id: "map_01",
-        type: "mapbox",
-          data: {
-            map: "map1",
-            legend:"legend1",
-            update: "map1_1",
-            showExtraLayers: [],
-            coordinates: [-62.798552,-7.736987],
-            zoomNumber: 4,
-            zoomMin: 3,
-            zoomMax: 10
-          }
-        }}> frontera con Colombia</StoryMedia>
-        .
+        El ELN por lo general depende de una red de contrabandistas, llamados mulas, que se ven obligados a usar sobornos para cruzar las líneas de la Guardia Nacional y los puntos de control de grupos armados para llevar el oro a la frontera con Colombia.
       </Paragraph>
 
       <Paragraph>

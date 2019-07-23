@@ -39,8 +39,9 @@ const Wrapper = styled.section`
     left: 0;
     bottom: 0;
     right: 0;
-    background-image: url(${require("images/gold_.jpg")});
-    background-size: cover;
+    background-image: url(${require("images/capa.jpg")});
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
     z-index: -1;
   }
@@ -306,7 +307,7 @@ class Scene extends Component {
           <h3>
             <FormattedMessage
               id="general.publishDate"
-              defaultMessage="10th December 2018"
+              defaultMessage="23th July 2019"
             />
           </h3>
         </Top>
@@ -315,7 +316,7 @@ class Scene extends Component {
           <p className="description">
             <FormattedMessage
               id="general.tagline"
-              defaultMessage="New survey reveals the existence of more than 2000 points and 200 illegal mining areas in six Amazonian countries."
+              defaultMessage="A trail stained by violence and corruption connects Venezuelan gold with the world"
             />
           </p>
           <div class='language-padding'>

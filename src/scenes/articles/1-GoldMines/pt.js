@@ -37,24 +37,7 @@ export default () => (
       </Note>
 
       <Paragraph>
-        La larga carretera que sale de
-        <StoryMedia
-        icon="map"
-        media={{
-        id: "map_01",
-        type: "mapbox",
-          data: {
-            map: "map1",
-            legend:"legend1",
-            update: "map1_1",
-            showExtraLayers: [],
-            coordinates: [-62.798552,-7.736987],
-            zoomNumber: 4,
-            zoomMin: 3,
-            zoomMax: 10
-          }
-        }}> Ciudad Guayana, en el estado Bolívar</StoryMedia>
-        , y se dirige al sur marca la ruta de la minería ilegal de oro en Venezuela. Cientos de personas la transitan diariamente en busca de El Dorado que les permita salvarse de una crisis económica sin precedentes en la nación suramericana.
+        La larga carretera que sale de Ciudad Guayana, en el estado Bolívar, y se dirige al sur marca la ruta de la minería ilegal de oro en Venezuela. Cientos de personas la transitan diariamente en busca de El Dorado que les permita salvarse de una crisis económica sin precedentes en la nación suramericana.
       </Paragraph>
 
       <Paragraph>
@@ -84,24 +67,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        El Callao se encuentra dentro del
-        <StoryMedia
-        icon="map"
-        media={{
-        id: "map_02",
-        type: "mapbox",
-          data: {
-            map: "map1",
-            legend:"legend1",
-            update: "map1_1",
-            showExtraLayers: [],
-            coordinates: [-62.798552,-7.736987],
-            zoomNumber: 4,
-            zoomMin: 3,
-            zoomMax: 10
-          }
-        }}> Arco Minero del Orinoco, un megaproyecto patrocinado por el gobierno que cubre 12% del territorio venezolano</StoryMedia>
-        .
+        El Callao se encuentra dentro del Arco Minero del Orinoco, un megaproyecto patrocinado por el gobierno que cubre 12% del territorio venezolano.
       </Paragraph>
 
       <Paragraph>
@@ -318,6 +284,16 @@ export default () => (
         Fundada en 1970, Minerven ha sufrido profundos cambios tres veces en los últimos 10 años en medio del colapso de la producción. Después de alcanzar una producción de oro de 12,23 toneladas en 2009, la producción se desplomó entre 2010 y 2015, cuando las mineras internacionales se marcharon del país.
       </Paragraph>
 
+      <FullBlock withMargin>
+        <iframe
+          width="100%"
+          height="300"
+          src="https://datawrapper.dwcdn.net/KEo8q/2/"
+          allowFullScreen
+          frameBorder="0"
+        />
+      </FullBlock>
+
       <Paragraph>
         Incluso para los empleados de la empresa, las operaciones de Minerven están rodeadas de misterio y el gobierno de Maduro no ofrece información sobre la compra y venta de oro.
       </Paragraph>
@@ -372,24 +348,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Al relatar su historia a la <ExternalLink href="http://elestimulo.com/climax/category/climax/" language="es">revista Clímax</ExternalLink>{" "}, Ramón, quien usó un nombre ficticio por razones de seguridad, dijo que viajó en autobús desde Caracas hasta
-        <StoryMedia
-        icon="map"
-        media={{
-        id: "map_03",
-        type: "mapbox",
-          data: {
-            map: "map1",
-            legend:"legend1",
-            update: "map1_1",
-            showExtraLayers: [],
-            coordinates: [-62.798552,-7.736987],
-            zoomNumber: 4,
-            zoomMin: 3,
-            zoomMax: 10
-          }
-        }}> Upata, en el estado Bolívar</StoryMedia>
-        , donde lo recogió un grupo de personas que viajaban en dos Toyota 4Runner.
+        Al relatar su historia a la <ExternalLink href="http://elestimulo.com/climax/category/climax/" language="es">revista Clímax</ExternalLink>{" "}, Ramón, quien usó un nombre ficticio por razones de seguridad, dijo que viajó en autobús desde Caracas hasta Upata, en el estado Bolívar, donde lo recogió un grupo de personas que viajaban en dos Toyota 4Runner.
       </Paragraph>
 
       <Paragraph>
@@ -397,24 +356,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Horas más tarde, cuando le quitaron la capucha, ya estaba en
-        <StoryMedia
-        icon="map"
-        media={{
-        id: "map_04",
-        type: "mapbox",
-          data: {
-            map: "map1",
-            legend:"legend1",
-            update: "map1_1",
-            showExtraLayers: [],
-            coordinates: [-62.798552,-7.736987],
-            zoomNumber: 4,
-            zoomMin: 3,
-            zoomMax: 10
-          }
-        }}> Las Claritas</StoryMedia>
-        , un poblado minero cerca de la frontera con Brasil. Allí pasó cuatro días incomunicado en un campamento improvisado, custodiado por dos hombres encapuchados con armas largas.
+        Horas más tarde, cuando le quitaron la capucha, ya estaba en Las Claritas, un poblado minero cerca de la frontera con Brasil. Allí pasó cuatro días incomunicado en un campamento improvisado, custodiado por dos hombres encapuchados con armas largas.
       </Paragraph>
 
       <Paragraph>
@@ -447,24 +389,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        En la ciudad fronteriza de
-        <StoryMedia
-        icon="map"
-        media={{
-        id: "map_05",
-        type: "mapbox",
-          data: {
-            map: "map1",
-            legend:"legend1",
-            update: "map1_1",
-            showExtraLayers: [],
-            coordinates: [-62.798552,-7.736987],
-            zoomNumber: 4,
-            zoomMin: 3,
-            zoomMax: 10
-          }
-        }}> Cúcuta, Colombia</StoryMedia>
-        , esperó por sus otros dos compañeros, que cruzaron la frontera por las trochas, que son senderos rústicos.
+        En la ciudad fronteriza de Cúcuta, Colombia, esperó por sus otros dos compañeros, que cruzaron la frontera por las trochas, que son senderos rústicos.
       </Paragraph>
 
       <Paragraph>

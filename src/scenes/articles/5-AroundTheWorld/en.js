@@ -14,6 +14,7 @@ import Note from "components/blocks/Note";
 import Board from "components/blocks/Board";
 import { FormattedMessage } from "react-intl";
 import Author from "components/blocks/Author";
+import FullBlock from "components/blocks/Full";
 
 export default () => (
   <article>
@@ -35,24 +36,7 @@ export default () => (
       </Note>
       
       <Paragraph>
-        In a high security refinery in
-        <StoryMedia
-        icon="map"
-        media={{
-        id: "map_01",
-        type: "mapbox",
-          data: {
-            map: "map1",
-            legend:"legend1",
-            update: "map1_1",
-            showExtraLayers: [],
-            coordinates: [-62.798552,-7.736987],
-            zoomNumber: 4,
-            zoomMin: 3,
-            zoomMax: 10
-          }
-        }}> Antwerp, Belgium</StoryMedia>
-        , two men pour molten gold – heated to more than 2,120 degrees Fahrenheit (1,160 degrees Celsius) – into molds roughly the size of a smartphone.
+        In a high security refinery in Antwerp, Belgium, two men pour molten gold – heated to more than 2,120 degrees Fahrenheit (1,160 degrees Celsius) – into molds roughly the size of a smartphone.
       </Paragraph>
 
       <Paragraph>
@@ -330,6 +314,16 @@ export default () => (
         . But trade data show the country exported a total of 49.5 tons (45 metric tons).
       </Paragraph>
 
+      <FullBlock withMargin>
+        <iframe
+          width="100%"
+          height="300"
+          src="https://datawrapper.dwcdn.net/CWSIX/1/"
+          allowFullScreen
+          frameBorder="0"
+        />
+      </FullBlock>
+
       <Paragraph>
         When CIJ Gutiérrez was charged, investigators found that many of the Colombian companies and individuals the firm claimed to buy gold from between 2006 and 2016 were either shell companies or people who didn’t exist, according to a news release from the Attorney General’s Office, leading to more than 700 million U.S. dollars’ worth of gold with suspicious origins. Several company executives were arrested and the Attorney’s Office took the company over. 
       </Paragraph>
@@ -381,6 +375,16 @@ export default () => (
       <Paragraph>
         Asahi declined to comment about its dealings with CIJ Gutiérrez. Argor-Heraeus said in a statement that it is “strongly committed to its responsibility of upholding the highest standards throughout the supply chain” but did not answer specific questions about its business with the Colombian firm.
       </Paragraph>
+
+      <FullBlock withMargin>
+        <iframe
+          width="100%"
+          height="400"
+          src=" https://datawrapper.dwcdn.net/859LO/1/"
+          allowFullScreen
+          frameBorder="0"
+        />
+      </FullBlock>
 
       <Paragraph>
         In a statement, a spokesman for Ford said: “We were not aware of this issue previously, and we are investigating it.”

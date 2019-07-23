@@ -14,6 +14,7 @@ import Note from "components/blocks/Note";
 import Board from "components/blocks/Board";
 import { FormattedMessage } from "react-intl";
 import Author from "components/blocks/Author";
+import FullBlock from "components/blocks/Full";
 
 export default () => (
   <article>
@@ -35,24 +36,7 @@ export default () => (
       </Note>
       
       <Paragraph>
-        En una refinería con un alto nivel de seguridad en
-        <StoryMedia
-        icon="map"
-        media={{
-        id: "map_01",
-        type: "mapbox",
-          data: {
-            map: "map1",
-            legend:"legend1",
-            update: "map1_1",
-            showExtraLayers: [],
-            coordinates: [-62.798552,-7.736987],
-            zoomNumber: 4,
-            zoomMin: 3,
-            zoomMax: 10
-          }
-        }}> Amberes, Bélgica</StoryMedia>
-        , dos hombres vierten oro líquido a más de 1.160 grados Celsius en moldes del tamaño de un teléfono móvil.
+        En una refinería con un alto nivel de seguridad en Amberes, Bélgica, dos hombres vierten oro líquido a más de 1.160 grados Celsius en moldes del tamaño de un teléfono móvil.
       </Paragraph>
 
       <Paragraph>
@@ -327,6 +311,16 @@ export default () => (
         . Pero el país exportó 45 toneladas.
       </Paragraph>
 
+      <FullBlock withMargin>
+        <iframe
+          width="100%"
+          height="300"
+          src="https://datawrapper.dwcdn.net/78W00/1/"
+          allowFullScreen
+          frameBorder="0"
+        />
+      </FullBlock>
+
       <Paragraph>
         Cuando CIJ Gutiérrez fue acusada, los investigadores descubrieron que muchas de las compañías e individuos a los que la firma indicó que había comprado oro entre 2006 y 2016 eran compañías fantasma o personas ficticias, según comunicado emitido por la Fiscalía de Colombia, llevando a más de $700 millones en oro con origen sospechoso. Varios ejecutivos de la empresa fueron detenidos y la fiscalía tomó el control de la compañía.
       </Paragraph>
@@ -378,6 +372,16 @@ export default () => (
       <Paragraph>
         Asahi declinó pronunciarse sobre sus negocios con CIJ Gutiérrez. Argor-Heraeus dijo en un comunicado que estaba “firmemente comprometido con su responsabilidad de respetar los más altos estándares en su cadena de suministros”, pero no contestó preguntas específicas sobre sus negocios con la compañía colombiana.
       </Paragraph>
+
+      <FullBlock withMargin>
+        <iframe
+          width="100%"
+          height="400"
+          src="https://datawrapper.dwcdn.net/a1bd9/1/"
+          allowFullScreen
+          frameBorder="0"
+        />
+      </FullBlock>
 
       <Paragraph>
         Ford dijo en un comunicado: “No estábamos al tanto de este tema previamente, y lo estamos investigando”.

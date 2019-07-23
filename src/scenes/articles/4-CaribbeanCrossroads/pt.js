@@ -14,6 +14,7 @@ import Note from "components/blocks/Note";
 import Board from "components/blocks/Board";
 import { FormattedMessage } from "react-intl";
 import Author from "components/blocks/Author";
+import FullBlock from "components/blocks/Full";
 
 export default () => (
   <article>
@@ -35,23 +36,7 @@ export default () => (
       </Note>
       
       <Paragraph>
-        Era una tarde de sábado calurosa como cualquier otra en
-        <StoryMedia
-        icon="map"
-        media={{
-        id: "map_01",
-        type: "mapbox",
-          data: {
-            map: "map1",
-            legend:"legend1",
-            update: "map1_1",
-            showExtraLayers: [],
-            coordinates: [-62.798552,-7.736987],
-            zoomNumber: 4,
-            zoomMin: 3,
-            zoomMax: 10
-          }
-        }}> Aruba</StoryMedia> cuando Rafael González Zambrano pensó haber terminado una operación de rutina, que había desarrollado durante siete años.
+        Era una tarde de sábado calurosa como cualquier otra en Aruba cuando Rafael González Zambrano pensó haber terminado una operación de rutina, que había desarrollado durante siete años.
       </Paragraph>
 
       <Paragraph>
@@ -164,6 +149,16 @@ export default () => (
       <Paragraph>
         Mientras tanto, los registros de comercio de Estados Unidos y Suiza muestran que Curazao exportó cientos de kilos de oro a esos países durante los cinco primeros meses de 2019.
       </Paragraph>
+
+      <FullBlock withMargin>
+        <iframe
+          width="100%"
+          height="300"
+          src="https://datawrapper.dwcdn.net/ooi06/1/"
+          allowFullScreen
+          frameBorder="0"
+        />
+      </FullBlock>
 
       <SubTitle>
         Los escoltas de oro

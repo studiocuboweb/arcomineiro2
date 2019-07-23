@@ -30,7 +30,7 @@ const messages = defineMessages({
 
 const Button = styled.div`
   widht:100%;
-  margin-top:50px;
+  margin-top:9rem;
   text-align: center;
   a{
     margin:0 auto;
@@ -63,118 +63,266 @@ const About = ({ intl, lastPath }) => {
       </Helmet>
       <section className="content">
         <Container>
-          <Button>
-            <div>
-              {
-                lastPath &&
-                  <Link to={lastPath}>
-                    <span className="fa fa-arrow-left" />
-                    <FormattedMessage
-                      id="about.close"
-                      defaultMessage="Continue Reading"
-                    />
-                  </Link>
-              }
-            </div>
-          </Button>
-          <Paragraph big>
+
+          <Paragraph small>
+
             <FormattedMessage
-              id="about.intro"
-              defaultMessage="The Looted Amazon is an overview of the situation of illegal mining in six Amazonian countries. The analyses and cases presented are based on data from the {MineriaIlegal} platform."
-              values={{
-                MineriaIlegal: (
-                  <strong>
-                    <a href="https://mineria.amazoniasocioambiental.org/" target="_blank">Minería Ilegal</a>
-                  </strong>
-                )
-              }}
+              id="about.intro1"
+              defaultMessage="This project is the result of a journalistic partnership between "
             />
-          </Paragraph>
-          <Paragraph big>
+
+            <strong>
             <FormattedMessage
               id="about.intro2"
-              defaultMessage="This digital report published on December 10th 2018 was prepared through a partnership between:"
+              defaultMessage="Correo del Caroní"
             />
-          </Paragraph>
-          <GeneralBlock>
-              <img src={require('images/partners/raisg-p.png')} title='RAISG' alt='RAISG' style={{'margin':'0 2rem 0 0','height':'35px'}} align="left" />
-              <img src={require('images/partners/infoamazonia-p.png')} title='Infoamazonia' alt='Infoamazonia' style={{'margin':0,'height':'41px'}} />
-          </GeneralBlock>
-          <GeneralBlock>
-            <strong>
-              <FormattedMessage
-                id="about.pub_partners"
-                defaultMessage="RAISG members"
-              />
             </strong>
-            <p>
-            <img src={require('images/partners/ISA_min.png')} title='RAISG' alt='RAISG' style={{'margin':'0 2rem 0 0'}}  align="left" /> <img src={require('images/partners/ecociencia_min.png')} title='Ecociencia' alt='Ecociencia' style={{'margin':0}} align="left"/> <img src={require('images/partners/fan.png')} title='FAN' alt='FAN' style={{'margin':0}} align="left" /> <img src={require('images/partners/Gaia_min_png.png')} title='Gaia' alt='Gaia' style={{'margin':0}} align="left" /> <img src={require('images/partners/IBC_min_png.png')} title='IBC' alt='IBC' style={{'margin':0}} align="left" /> <img src={require('images/partners/Imazon_min_png.png')} title='Imazon' alt='Imazon' style={{'margin':0}} align="left" /> <img src={require('images/partners/provita_min_png.png')} title='Provita' alt='Provita' style={{'margin':0}} align="left"/> <img src={require('images/partners/Wataniba_min_png.png')} title='Wataniba' alt='Wataniba' style={{'margin':0}} /> 
-            </p>
-          </GeneralBlock>
+
+            <FormattedMessage
+              id="about.intro3"
+              defaultMessage=" (Venezuela), "
+            />
+
+            <strong>
+            <FormattedMessage
+              id="about.intro4"
+              defaultMessage="De Correspondent"
+            />
+            </strong>
+
+            <FormattedMessage
+              id="about.intro5"
+              defaultMessage=" (Netherlands), "
+            />
+
+            <strong>
+            <FormattedMessage
+              id="about.intro6"
+              defaultMessage="InfoAmazonia"
+            />
+            </strong>
+
+            <FormattedMessage
+              id="about.intro7"
+              defaultMessage=" (Brazil), "
+            />
+            
+            <strong>
+            <FormattedMessage
+              id="about.intro8"
+              defaultMessage="Miami Herald/Nuevo Herald"
+            />
+            </strong>
+
+            <FormattedMessage
+              id="about.intro9"
+              defaultMessage=" (United States), and "
+            />
+
+            <strong>
+            <FormattedMessage
+              id="about.intro10"
+              defaultMessage="Runrun.es"
+            />
+            </strong>
+
+            <FormattedMessage
+              id="about.intro11"
+              defaultMessage=" (Venezuela). It was made possible by the "
+            />
+
+            <strong>
+            <FormattedMessage
+              id="about.intro12"
+              defaultMessage="Human Rights Foundation"
+            />
+            </strong>
+
+            <FormattedMessage
+              id="about.intro13"
+              defaultMessage=" and supported by a contribution from the "
+            />
+
+            <strong>
+            <FormattedMessage
+              id="about.intro14"
+              defaultMessage="Dutch Fund for Journalism Projects."
+            />
+            </strong>
+          </Paragraph>
+
           <Paragraph>
             <strong>
               <FormattedMessage
-                id="about.photos_videos"
-                defaultMessage="InfoAmazonia Team"
+                id="about.1"
+                defaultMessage="Investigator in chief:"
               />
             </strong>
             <br />
-              <FormattedMessage
-                  id="about.editors"
-                  defaultMessage="Editor"
-                /> - Gustavo Faleiros<br />
-              <FormattedMessage
-                  id="about.editor_chief"
-                  defaultMessage="Image and map editor"
-                /> - Juliana Mori
-            </Paragraph>
-            <Paragraph>
+            <li>Bram Ebus</li>
+          </Paragraph>
+
+          <Paragraph>
             <strong>
               <FormattedMessage
-                id="about.video"
-                defaultMessage="Videos (in order of appearance)"
+                id="about.2"
+                defaultMessage="Investigative reporters:"
               />
             </strong>
             <br />
-              <FormattedMessage
-                  id="about.videos"
-                  defaultMessage="1, 4 e 7 Claus García/FZS Perú, 2 e 6  Marcos Wesley/ISA, 3 Juan Doblas/ISA, 5 Production: Fundación Blue Foresta & Red Ambiental de Información (RAI)"
-                />
-            </Paragraph>
-            <Paragraph>
-              <FormattedMessage
-                  id="about.dev"
-                  defaultMessage="Web Development and Design"
-                /> - <a href="https://studiocuboweb.com.br" target="_blank"> StudioCubo</a><br />
+            <li>Algimiro Montiel</li>
+            <li>Antonio Maria Delgado</li>
+            <li>Bram Ebus</li>
+            <li>Jay Weaver</li>
+            <li>Jim Wyss</li>
+            <li>Jorge Benezra</li>
+            <li>Kyra Gurney</li>
+            <li>Nicholas Nehamas</li>
+            <li>Pamela Kalkman</li>
           </Paragraph>
-          <Button>
-            <div>
-              {
-                lastPath &&
-                  <Link to={lastPath}>
-                    <span className="fa fa-arrow-left" />
-                    <FormattedMessage
-                      id="about.close"
-                      defaultMessage="Continue Reading"
-                    />
-                  </Link>
-              }
-            </div>
-          </Button>
+
+          <Paragraph>
+            <strong>
+              <FormattedMessage
+                id="about.3"
+                defaultMessage="Editor in chief & Platform development coordinator:"
+              />
+            </strong>
+            <br />
+            <li>Stefano Wrobleski</li>
+          </Paragraph>
+
+          <Paragraph>
+            <strong>
+              <FormattedMessage
+                id="about.4"
+                defaultMessage="Editors:"
+              />
+            </strong>
+            <br />
+            <li>Casey Frank (Miami Herald)</li>
+            <li>Gustavo Faleiros (InfoAmazonia)</li>
+            <li>Lisseth Boon (Runrun.es)</li>
+            <li>Maaike Goslinga (De Correspondent)</li>
+            <li>María Ramírez Cabello (Correo del Caroní)</li>
+            <li>Nancy San Martin (Miami Herald)</li>
+          </Paragraph>
+
+          <Paragraph>
+            <strong>
+              <FormattedMessage
+                id="about.5"
+                defaultMessage="Text translation to Spanish:"
+              />
+            </strong>
+            <br />
+            <li>Isabel Sacco</li>
+            <li>Oscar Diaz</li>
+          </Paragraph>
+
+          <Paragraph>
+            <strong>
+              <FormattedMessage
+                id="about.6"
+                defaultMessage="Text translation to Portuguese:"
+              />
+            </strong>
+            <br />
+            <li>Olga Bagatini</li>
+          </Paragraph>
+
+          <Paragraph>
+            <strong>
+              <FormattedMessage
+                id="about.7"
+                defaultMessage="Video editor:"
+              />
+            </strong>
+            <br />
+            <li>Matheus Temporini</li>
+          </Paragraph>
+
+          <Paragraph>
+            <strong>
+              <FormattedMessage
+                id="about.8"
+                defaultMessage="Logomark Designer:"
+              />
+            </strong>
+            <br />
+            <li>Donna Kether</li>
+          </Paragraph>
+
+          <Paragraph>
+            <strong>
+              <FormattedMessage
+                id="about.9"
+                defaultMessage="Map development:"
+              />
+            </strong>
+            <br />
+            <li>Juliana Mori</li>
+          </Paragraph>
+
+          <Paragraph>
+            <strong>
+              <FormattedMessage
+                id="about.10"
+                defaultMessage="Website Development:"
+              />
+            </strong>
+            <br />
+            <li><a href="mailto:contato@studiocuboweb.com.br"> StudioCubo</a></li>
+          </Paragraph>
+
+          <Paragraph>
+            <strong>
+              <FormattedMessage
+                id="about.11"
+                defaultMessage="Funding:"
+              />
+            </strong>
+          </Paragraph>
+          <GeneralBlock>
+              <img src={require('images/partners/funders/HRF_black.png')} title='Human Rights Foundation' alt='Human Rights Foundation' style={{'margin':'1rem','height':'35px'}} align="left" />
+              <img src={require('images/partners/funders/FBJP.svg')} title='Dutch Fund for Journalism Projects' alt='Dutch Fund for Journalism Projects' style={{'margin':'1rem','height':'41px'}}  align="right" />
+          </GeneralBlock>
+          <Paragraph>
+            <Button>
+              <div>
+                {
+                  lastPath &&
+                    <Link to={lastPath}>
+                      <span className="fa fa-arrow-left" />
+                      <FormattedMessage
+                        id="about.close"
+                        defaultMessage="Continue Reading"
+                      />
+                    </Link>
+                }
+              </div>
+            </Button>
+          </Paragraph>
           <hr />
           <Paragraph small>
+            <strong>
             <FormattedMessage
-              id="about.license"
-              defaultMessage="Copyright. To use text, image or data please contact {RAISG} and {INFO}"
+              id="about.12"
+              defaultMessage="© 2019. All rights reserved."
+            />
+            </strong>
+            <FormattedMessage
+              id="about.13"
+              defaultMessage=" To use any text, image or data from this project please contact InfoAmazonia at {INFO}"
               values={{
-                RAISG: (
-                  <strong>
-                    <a href="mailto:raisgmail@socioambiental.org">RAISG</a>
-                  </strong>
-                ),
                 INFO: (
                   <strong>
-                    <a href="mailto:contact@infoamazonia.org">INFOAMAZONIA</a>
+                    <a href="mailto:contato@infoamazonia.org">
+                    <FormattedMessage
+                      id="about.14"
+                      defaultMessage="contact@infoamazonia.org"
+                      />
+                    </a>
                   </strong>
                 )
               }}

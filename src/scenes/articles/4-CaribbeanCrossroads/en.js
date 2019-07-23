@@ -14,6 +14,7 @@ import Note from "components/blocks/Note";
 import Board from "components/blocks/Board";
 import { FormattedMessage } from "react-intl";
 import Author from "components/blocks/Author";
+import FullBlock from "components/blocks/Full";
 
 export default () => (
   <article>
@@ -35,23 +36,7 @@ export default () => (
       </Note>
       
       <Paragraph>
-        It was a typically hot Saturday afternoon in
-        <StoryMedia
-        icon="map"
-        media={{
-        id: "map_01",
-        type: "mapbox",
-          data: {
-            map: "map1",
-            legend:"legend1",
-            update: "map1_1",
-            showExtraLayers: [],
-            coordinates: [-62.798552,-7.736987],
-            zoomNumber: 4,
-            zoomMin: 3,
-            zoomMax: 10
-          }
-        }}> Aruba</StoryMedia> when Rafael González Zambrano thought he had completed a routine operation, one he had been doing for about seven years already.
+        It was a typically hot Saturday afternoon in Aruba when Rafael González Zambrano thought he had completed a routine operation, one he had been doing for about seven years already.
       </Paragraph>
 
       <Paragraph>
@@ -160,6 +145,16 @@ export default () => (
       <Paragraph>
         Meanwhile, U.S. and Swiss trade records show that Curaçao exported hundreds of pounds of gold to both countries in the first five months of 2019.
       </Paragraph>
+
+      <FullBlock withMargin>
+        <iframe
+          width="100%"
+          height="300"
+          src="https://datawrapper.dwcdn.net/uWUGk/2/"
+          allowFullScreen
+          frameBorder="0"
+        />
+      </FullBlock>
 
       <SubTitle>
         Gold escorts

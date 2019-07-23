@@ -37,24 +37,7 @@ export default () => (
       </Note>
 
       <Paragraph>
-        The long road that starts in
-        <StoryMedia
-        icon="map"
-        media={{
-        id: "map_01",
-        type: "mapbox",
-          data: {
-            map: "map1",
-            legend:"legend1",
-            update: "map1_1",
-            showExtraLayers: [],
-            coordinates: [-62.798552,-7.736987],
-            zoomNumber: 4,
-            zoomMin: 3,
-            zoomMax: 10
-          }
-        }}> Ciudad Guayana, Bolívar state</StoryMedia>
-        , and heads southward marks the route of illegal gold mining in Venezuela. Hundreds of people travel the route each day in search of El Dorado – riches that might allow them to flee from an unprecedented economic crisis in the South American country.
+        The long road that starts in Ciudad Guayana, Bolívar state, and heads southward marks the route of illegal gold mining in Venezuela. Hundreds of people travel the route each day in search of El Dorado – riches that might allow them to flee from an unprecedented economic crisis in the South American country.
       </Paragraph>
 
       <Paragraph>
@@ -84,24 +67,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        El Callao is part of the
-        <StoryMedia
-        icon="map"
-        media={{
-        id: "map_02",
-        type: "mapbox",
-          data: {
-            map: "map1",
-            legend:"legend1",
-            update: "map1_1",
-            showExtraLayers: [],
-            coordinates: [-62.798552,-7.736987],
-            zoomNumber: 4,
-            zoomMin: 3,
-            zoomMax: 10
-          }
-        }}> Orinoco Mining Arc, a government-sponsored mega project that covers 12 percent of Venezuela’s surface</StoryMedia>
-        .
+        El Callao is part of the Orinoco Mining Arc, a government-sponsored mega project that covers 12 percent of Venezuela’s surface.
       </Paragraph>
 
       <Paragraph>
@@ -317,6 +283,16 @@ export default () => (
         Founded in 1970, Minerven has been overhauled at least three times in the last decade amid collapsing production. After hitting a production “milestone” of 13.48 tons (12.23 metric tons) in 2009, mining output collapsed from 2010-2015 as international mining companies pulled out of the country.
       </Paragraph>
 
+      <FullBlock withMargin>
+        <iframe
+          width="100%"
+          height="300"
+          src="https://datawrapper.dwcdn.net/I67fM/1/"
+          allowFullScreen
+          frameBorder="0"
+        />
+      </FullBlock>
+
       <Paragraph>
         Even for the company employees, Minerven’s operations are shrouded in mystery as the government produces no information on gold purchases or sales.
       </Paragraph>
@@ -371,24 +347,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Telling his story to <ExternalLink href="http://elestimulo.com/climax/category/climax/" language="es">Clímax magazine</ExternalLink>{" "}, Ramón, who used a fictitious name for security reasons, said he traveled by bus from Caracas to
-        <StoryMedia
-        icon="map"
-        media={{
-        id: "map_03",
-        type: "mapbox",
-          data: {
-            map: "map1",
-            legend:"legend1",
-            update: "map1_1",
-            showExtraLayers: [],
-            coordinates: [-62.798552,-7.736987],
-            zoomNumber: 4,
-            zoomMin: 3,
-            zoomMax: 10
-          }
-        }}> Upata, in Bolívar state</StoryMedia>
-        . There he was picked up by people driving two white Toyota 4Runner.
+        Telling his story to <ExternalLink href="http://elestimulo.com/climax/category/climax/" language="es">Clímax magazine</ExternalLink>{" "}, Ramón, who used a fictitious name for security reasons, said he traveled by bus from Caracas to Upata, in Bolívar state. There he was picked up by people driving two white Toyota 4Runner.
       </Paragraph>
 
       <Paragraph>
@@ -396,24 +355,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Hours later, when they removed the hood, he was in
-        <StoryMedia
-        icon="map"
-        media={{
-        id: "map_04",
-        type: "mapbox",
-          data: {
-            map: "map1",
-            legend:"legend1",
-            update: "map1_1",
-            showExtraLayers: [],
-            coordinates: [-62.798552,-7.736987],
-            zoomNumber: 4,
-            zoomMin: 3,
-            zoomMax: 10
-          }
-        }}> Las Claritas</StoryMedia>
-        , a mining town near the Brazilian border. He spent four days incommunicado in a makeshift camp guarded by two hooded men with automatic weapons.
+        Hours later, when they removed the hood, he was in Las Claritas, a mining town near the Brazilian border. He spent four days incommunicado in a makeshift camp guarded by two hooded men with automatic weapons.
       </Paragraph>
 
       <Paragraph>
@@ -445,23 +387,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        In the Colombian border town of
-        <StoryMedia
-        icon="map"
-        media={{
-        id: "map_05",
-        type: "mapbox",
-          data: {
-            map: "map1",
-            legend:"legend1",
-            update: "map1_1",
-            showExtraLayers: [],
-            coordinates: [-62.798552,-7.736987],
-            zoomNumber: 4,
-            zoomMin: 3,
-            zoomMax: 10
-          }
-        }}> Cúcuta</StoryMedia> he waited for his two companions, who entered the country on informal trails, or trochas.
+        In the Colombian border town of Cúcuta he waited for his two companions, who entered the country on informal trails, or trochas.
       </Paragraph>
 
       <Paragraph>

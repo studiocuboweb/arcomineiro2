@@ -131,24 +131,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        The ELN usually rely on a network of smugglers, or mules, who are forced to bribe their way through National Guard and guerrilla checkpoints to get the gold to the 
-        <StoryMedia
-        icon="map"
-        media={{
-        id: "map_01",
-        type: "mapbox",
-          data: {
-            map: "map1",
-            legend:"legend1",
-            update: "map1_1",
-            showExtraLayers: [],
-            coordinates: [-62.798552,-7.736987],
-            zoomNumber: 4,
-            zoomMin: 3,
-            zoomMax: 10
-          }
-        }}> Colombian border</StoryMedia>
-        .
+        The ELN usually rely on a network of smugglers, or mules, who are forced to bribe their way through National Guard and guerrilla checkpoints to get the gold to the Colombian border.
       </Paragraph>
 
       <Paragraph>
