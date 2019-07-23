@@ -19,7 +19,7 @@ import Author from "components/blocks/Author";
 export default () => (
   <article>
     <Helmet>
-      <title>Minas de Oro | Arco Minero</title>
+      <title>Minas de Oro | Venezuela, el paraíso de los contrabandi$tas.</title>
     </Helmet>
     <Container>
       <Title as="h2">Crimen organizado controla la explotación de oro en Venezuela</Title>

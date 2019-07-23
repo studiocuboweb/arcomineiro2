@@ -19,7 +19,7 @@ import FullBlock from "components/blocks/Full";
 export default () => (
   <article>
     <Helmet>
-      <title>Around The World | Arco Minero</title>
+      <title>Around The World | Venezuela, the smugglers' paradise</title>
     </Helmet>
     <Container>
       <Title as="h2">Venezuelan gold secretly ends up on international markets</Title>

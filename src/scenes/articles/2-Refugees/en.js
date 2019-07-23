@@ -20,7 +20,7 @@ import Author from "components/blocks/Author";
 export default () => (
   <article>
     <Helmet>
-      <title>Refugees | Arco Minero</title>
+      <title>Refugees | Venezuela, the smugglers' paradise</title>
     </Helmet>
     <Container>
       <Title as="h2">Recruited refugees walk gold across the Colombian border</Title>

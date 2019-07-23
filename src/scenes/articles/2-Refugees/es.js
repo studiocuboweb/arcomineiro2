@@ -20,7 +20,7 @@ import Author from "components/blocks/Author";
 export default () => (
   <article>
     <Helmet>
-      <title>Refugiados | Arco Minero</title>
+      <title>Refugiados | Venezuela, el paraíso de los contrabandi$tas.</title>
     </Helmet>
     <Container>
       <Title as="h2">Refugiados reclutados caminan con oro a través de la frontera colombiana</Title>

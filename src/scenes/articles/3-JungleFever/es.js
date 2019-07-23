@@ -18,7 +18,7 @@ import Author from "components/blocks/Author";
 export default () => (
   <article>
     <Helmet>
-      <title>Fiebre De La Selva | Arco Minero</title>
+      <title>Fiebre De La Selva | Venezuela, el paraíso de los contrabandi$tas.</title>
     </Helmet>
     <Container>
       <Title as="h2">La fiebre del oro en la Amazonía aterroriza a tierras indígenas</Title>
