@@ -39,7 +39,7 @@ const Wrapper = styled.section`
     left: 0;
     bottom: 0;
     right: 0;
-    background-image: url(${require("images/capa.jpg")});
+    background-image: url(${require("images/capa2.jpg")});
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
