@@ -328,7 +328,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Cuando CIJ Gutiérrez fue acusada, los investigadores descubrieron que muchas de las compañías e individuos a los que la firma indicó que había comprado oro entre 2006 y 2016 eran compañías fantasma o personas ficticias, según <ExternalLink href="https://www.fiscalia.gov.co/colombia/noticias/2-4-billones-de-pesos-fueron-blanqueados-en-operaciones-ficticias-de-compra-y-venta-de-oro/" language="es">comunicado emitido por la Fiscalía de Colombia</ExternalLink>{" "}, llevando a más de $700 millones en oro con origen sospechoso. Varios ejecutivos de la empresa fueron detenidos y la fiscalía tomó el control de la compañía.
+        Cuando CIJ Gutiérrez fue acusada, los investigadores descubrieron que muchas de las compañías e individuos a los que la firma indicó que había comprado oro entre 2006 y 2016 eran compañías fantasma o personas ficticias, según comunicado emitido por la Fiscalía de Colombia, llevando a más de $700 millones en oro con origen sospechoso. Varios ejecutivos de la empresa fueron detenidos y la fiscalía tomó el control de la compañía.
       </Paragraph>
 
       <Paragraph>
@@ -364,7 +364,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        En años más recientes, CIJ Gutiérrez ha vendido cantidades mucho mayores de oro a la refinería suiza Argor-Heraeus, y a la de dueños japoneses Asahi, que tiene instalaciones en Salt Lake City, Utah, y que <ExternalLink href="https://www.miamiherald.com/news/local/crime/article229361954.html" language="en">recientemente compró las instalaciones de Republic en Miami</ExternalLink>{" "}.
+        En años más recientes, CIJ Gutiérrez ha vendido cantidades mucho mayores de oro a la refinería suiza Argor-Heraeus, y a la de dueños japoneses Asahi, que tiene instalaciones en Salt Lake City, Utah, y que recientemente compró las instalaciones de Republic en Miami.
       </Paragraph>
 
       <Paragraph>

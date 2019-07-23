@@ -20,10 +20,10 @@ import Author from "components/blocks/Author";
 export default () => (
   <article>
     <Helmet>
-      <title>Minas de Oro | Arco Minero</title>
+      <title>Gold Mines | Arco Minero</title>
     </Helmet>
     <Container>
-      <Title as="h2">Crimen organizado controla la explotación de oro en Venezuela</Title>
+      <Title as="h2">Organized crime controls gold exploitation in Venezuela</Title>
       <Author>
         <FormattedMessage
           id="general.authorChapter1"
@@ -32,12 +32,12 @@ export default () => (
       </Author>
       <Note>
         <p>
-          Todos los ingredientes para un mineral de conflicto se pueden encontrar en el sur de Venezuela. Un cóctel peligroso de múltiples grupos armados y oficiales corruptos controlan la extracción del oro del país antes de llevarlo a las fronteras.
+          All ingredients for a conflict mineral can be found in southern Venezuela. A dangerous cocktail of multiple armed groups and corrupt officials control the extraction of the country’s gold before taking it to the borders.
         </p>
       </Note>
 
       <Paragraph>
-        La larga carretera que sale de
+        The long road that starts in
         <StoryMedia
         icon="map"
         media={{
@@ -53,8 +53,8 @@ export default () => (
             zoomMin: 3,
             zoomMax: 10
           }
-        }}> Ciudad Guayana, en el estado Bolívar</StoryMedia>
-        , y se dirige al sur marca la ruta de la minería ilegal de oro en Venezuela. Cientos de personas la transitan diariamente en busca de El Dorado que les permita salvarse de una crisis económica sin precedentes en la nación suramericana.
+        }}> Ciudad Guayana, Bolívar state</StoryMedia>
+        , and heads southward marks the route of illegal gold mining in Venezuela. Hundreds of people travel the route each day in search of El Dorado – riches that might allow them to flee from an unprecedented economic crisis in the South American country.
       </Paragraph>
 
       <Paragraph>
