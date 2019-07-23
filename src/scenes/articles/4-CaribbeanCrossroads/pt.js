@@ -19,10 +19,10 @@ import FullBlock from "components/blocks/Full";
 export default () => (
   <article>
     <Helmet>
-      <title>Encrucijada Del Caribe | Arco Minero</title>
+      <title>Encruzilhada Caribenha | Venezuela, o paraíso dos contrabandi$tas</title>
     </Helmet>
     <Container>
-      <Title as="h2">La lavandería de oro del Caribe</Title>
+      <Title as="h2">A lavanderia de ouro do Caribe</Title>
       <Author>
         <FormattedMessage
           id="general.authorChapter4"
@@ -31,24 +31,24 @@ export default () => (
       </Author>
       <Note>
         <p>
-          Desde 2014, al menos 160 toneladas de oro venezolano se han movido a través de las islas de Aruba y Curazao. Estos destinos turísticos funcionan como un trampolín para los minerales de conflicto así como el oro venezolano manchado de sangre que cambia su color bajo el sol del Caribe.
+          Desde 2014, ao menos 160 toneladas de ouro saíram da Venezuela e seguiram para as ilhas de Aruba e Curaçao. Os destinos turísticos funcionam como trampolim para os minerais de conflito, e o ouro manchado de sangue muda de cor no sol caribenho.
         </p>
       </Note>
       
       <Paragraph>
-        Era una tarde de sábado calurosa como cualquier otra en Aruba cuando Rafael González Zambrano pensó haber terminado una operación de rutina, que había desarrollado durante siete años.
+        Era uma tarde de sábado tipicamente quente em Aruba quando Rafael González Zambrano pensou ter completado uma operação de rotina, que ele já fazia havia sete anos.
       </Paragraph>
 
       <Paragraph>
-        Natural de Venezuela con pasaporte holandés, acababa de ser escoltado hasta su avión por funcionarios de la aduana de Aruba después de declarar todos los bienes que llevaba en el vuelo de KLM al Aeropuerto Schiphol en Amsterdam, con destino final Dubai.
+        Depois de declarar os bens que transportava, o homem de origem venezuelana com passaporte holandês foi escoltado até seu avião por funcionários da agência alfandegária de Aruba. Ele estava tomando um voo da KLM para o aeroporto de Schiphol, em Amsterdã, e depois para Dubai.
       </Paragraph>
 
       <Paragraph>
-        Zambrano trabaja para la firma Paoro Armored Transport, transportista de oro. En cada viaje se gana alrededor de 1.500 dólares por llevar metales preciosos a clientes internacionales.
+        Zambrano é um transportador de ouro da Paoro Armoured Transport, que ganha cerca de 1.500 dólares americanos para cada viagem de entrega de metais preciosos a clientes internacionais.
       </Paragraph>
 
       <Paragraph>
-        Pero esta vez algo salió mal. Ya estaba sentado en su puesto en el avión cuando un grupo de investigadores penales holandeses, el RST, lo detuvo y arrestó, y decomisó
+        Desta vez, contudo, as coisas deram errado. Ele havia acabado de se acomodar em sua poltrona na classe executiva quando uma equipe de investigadores criminais da Holanda, o RST, invadiu a cabine, prendeu Zambrano e apreendeu os
         <StoryMedia
         media={{
           id: "image-1",
@@ -57,24 +57,24 @@ export default () => (
             credits: "National Crime Agency",
             src: require("photos/chapter4/Caribbean05.jpg")
           }
-        }}> 50 kilos de oro que llevaba</StoryMedia>
+        }}> 50 quilos de ouro que ele carregava</StoryMedia>
         .
       </Paragraph>
 
       <Paragraph>
-        Paoro Armored Transport es apenas una pieza pequeña en la red internacional de joyeros, bancos, transportistas y fundidores que en ocasiones financian indirectamente violaciones a los derechos humanos, alimentan a grupos armados y apoyan a funcionarios venezolanos corruptos facilitándoles la venta de oro.
+        A Paoro Armoured Transport é uma pequena participante de uma rede internacional de joalheiros, bancos, transportadores e fundidores que, às vezes indiretamente, financia violações de direitos humanos, abastecendo grupos armados e apoiando funcionários corruptos do governo venezuelano ao facilitar suas vendas de ouro.
       </Paragraph>
 
       <Paragraph>
-        Además de Zambrano, el director de Paoro Armored Transport también fue arrestado en lo que se ha convertido en una prueba de fuego para las autoridades que tratan de comprender el alcance de la red internacional de comercio de metales que alimentan el conflicto.
+        Além de Zambrano, o diretor da Paoro Armoured Transport também foi preso no que se tornou um caso de teste para autoridades que tentam entender o alcance de uma rede internacional que comercializa minerais que alimentam conflitos.
       </Paragraph>
 
       <Paragraph>
-        “Nuestro país vecino”, así es como el Ministro de Asuntos Exteriores de los Países Bajos, Stef Blok, se refiere a Venezuela.  No resulta disparatado aún cuando miles de kilómetros de océano separen a Europa de Latinoamérica, ya que Aruba y Curazao, vestigios tropicales de las aspiraciones coloniales de los neerlandeses, se encuentran a 30 y 70 kilómetros, respectivamente, del país sudamericano.
+        “Nosso país vizinho” – é assim que o ministro das Relações Exteriores da Holanda, Stef Blok, se refere à Venezuela. Embora milhares de quilômetros de oceano separem a Europa e a América Latina, esse não é um pensamento estranho, já que Aruba e Curaçao, dois remanescentes tropicais das aspirações coloniais dos holandeses, estão respectivamente a 30 e 70 quilômetros do país sul-americano.
       </Paragraph>
 
       <Paragraph>
-        Las
+        As
         <StoryMedia
         media={{
           id: "image-2",
@@ -83,71 +83,67 @@ export default () => (
             credits: "Bram Ebus",
             src: require("photos/chapter4/Caribbean01.jpg")
           }
-        }}> coloridas islas de Aruba y Curazao</StoryMedia> se independizaron como Estados, pero aún pertenecen a los territorios de ultramar del Reino de los Países Bajos. La salud financiera de Aruba y Curazao depende, en gran medida, de Venezuela, en especial de su petróleo, ya que las grandes refinerías que se encuentran en las islas de escasos recursos naturales son los motores de la economía. El colapso total de la industria petrolera de Venezuela las perjudicó especialmente, mostrando la peligrosa falta de otras industrias.
+        }}> ilhas culturalmente coloridas de Curaçao e Aruba</StoryMedia> conquistaram a independência como estados separados, mas ainda pertencem a partes estrangeiras do Reino dos Países Baixos. A saúde financeira de Aruba e Curaçao depende em grande parte da Venezuela, especialmente do petróleo, já que as grandes refinarias são os motores da economia das ilhas escassas em recursos. Consequentemente, elas sofreram duros golpes diante do colapso no setor petrolífero da Venezuela, o que revelou a falta de indústrias alternativas.
       </Paragraph>
 
       <Paragraph>
-        La ausencia de yacimientos de oro en el Caribe neerlandés hizo que los colonizadores europeos no se fijaran en estas islas siglos atrás, pero a medida que pasó el tiempo se convirtieron en centro de trata de esclavos trasatlánticos, piratas y mercaderes. Resulta sorprendente que más de 500 años después, las islas del Reino de los Países Bajos se hayan convertido en el corazón del comercio de oro de miles de millones de dólares.
+        A ausência de depósitos de ouro já tornava o Caribe holandês impopular aos colonos europeus séculos atrás, mas com o tempo as ilhas se tornaram um centro para o tráfico transatlântico de escravos, piratas e mercadores. Surpreendentemente, mais de 500 anos depois, as ilhas do Reino dos Países Baixos se tornaram o coração de um comércio de ouro de bilhões de dólares.
       </Paragraph>
 
       <Paragraph>
-        Y buena parte de ese comercio depende del oro ilegal que llega de Venezuela.
+        E muito desse comércio depende do ouro ilegal que sai da Venezuela.
       </Paragraph>
 
       <Paragraph>
-        Cliver Alcalá Cordones, general retirado y amigo cercano del fallecido presidente venezolano Hugo Chávez, comandaba soldados en las regiones auríferas al sur del río Orinoco.
+        Cliver Alcalá Cordones, major-general aposentado e amigo próximo do falecido presidente venezuelano Hugo Chávez, costumava comandar tropas nas regiões de mineração ao sul do rio Orinoco.
       </Paragraph>
 
       <Paragraph>
-        Ahora exiliado en Colombia, Alcalá dijo que ha conocido del tráfico de oro a gran escala a través del Caribe. En 2017 dijo que unas 20 toneladas de oro ilegal venezolano se transportaron al Caribe holandés solamente en 2012, con Europa como destino principal.
+        Agora exilado na Colômbia, Alcalá disse ter conhecimento do tráfico de ouro em larga escala através do Caribe. Em 2017, ele disse que cerca de 20 toneladas de ouro da Venezuela foram transportadas para o Caribe holandês em 2012, tendo a Europa como destino principal.
       </Paragraph>
 
       <Paragraph>
-        “<ExternalLink href="https://arcominero.infoamazonia.org/story/gold-mining?lang=es" language="es">Va a Aruba y Curazao</ExternalLink>{" "}”, dijo, insistiendo en que la situación no ha cambiado.
+        “<ExternalLink href="https://arcominero.infoamazonia.org/story/gold-mining?lang=pt" language="pt">Vai para Aruba e Curaçao</ExternalLink>{" "}, disse ele, insistindo que a prática continua.
       </Paragraph>
 
       <SubTitle>
-        Bloqueo fronterizo
+        Bloqueio da fronteira
       </SubTitle>
 
       <Paragraph>
-        El papel del Caribe en el comercio de oro venezolano se desconoció durante mucho tiempo, y se hicieron pocas preguntas al respecto. Pero a las llamadas islas ABC (Aruba, Bonaire y Curazao) las tomó por sorpresa la decisión del gobernante Nicolás Maduro en 2018 cuando decidió bloquear todo el tráfico aéreo y marítimo.
+        O papel do Caribe no comércio de ouro venezuelano permaneceu desconhecido por muito tempo, e poucas perguntas foram feitas. Mas as ilhas ABC (Aruba, Bonaire e Curaçao) ficaram surpresas em janeiro de 2018 quando o presidente venezuelano Nicolás Maduro bloqueou todo o tráfego aéreo e marítimo com as ilhas, dizendo: “<ExternalLink href="https://www.nytimes.com/2018/01/06/world/americas/maduro-venezuela-travel-shutdown.html" language="en">Eles tiram ouro deste país ilegalmente</ExternalLink>{" "}, e tornam legal vendê-lo lá; eles tiram coltan, tiram diamantes, tiram todos os produtos alimentícios”.
       </Paragraph>
 
       <Paragraph>
-        “<ExternalLink href="https://www.nytimes.com/2018/01/06/world/americas/maduro-venezuela-travel-shutdown.html" language="en">Sacan el oro de este país ilegalmente y lo venden allá de forma legal</ExternalLink>{" "}; se llevan el coltán”, dijo Maduro refiriéndose al mineral que se usa en muchos dispositivos electrónicos. “Se llevan los diamantes, se llevan todos los alimentos”.
+        O bloqueio pegou as ilhas de surpresa, disseram diplomatas. E durante reuniões subsequentes entre Venezuela, Holanda e autoridades das ilhas, “o tema do ouro não foi absolutamente trazido à tona, nem do coltan”, disse Stella van Rijn, secretária-geral do Ministério de Assuntos Gerais e Relações Exteriores de Curaçao.
       </Paragraph>
 
       <Paragraph>
-        El bloqueo tomó totalmente por sorpresa a las islas, dijeron diplomáticos. Y durante reuniones posteriores entre Venezuela, Holanda y las islas, “no se planteó el asunto del oro, ni del coltán”, dijo Stella van Dijk, secretaria general del Ministerio de Asuntos Generales y Exteriores de Curazao.
+        O bloqueio continuou até abril de 2018, quando foi suspenso, e voltou a ser estabelecido em fevereiro de 2019, época em que as tensões geopolíticas voltaram a aumentar.
       </Paragraph>
 
       <Paragraph>
-        El bloqueo continuó hasta abril de 2018, cuando Venezuela lo levantó, para volverlo a imponer en febrero de 2019, cuando aumentaron nuevamente las tensiones geopolíticas.
+        Mas as ilhas perceberam e começaram a investigar o anteriormente ignorado comércio. Eles descobriram que enormes quantidades de ouro venezuelano não apenas fluíam pelas ilhas, mas que o Caribe funcionava como uma ferramenta para apagar os vestígios da origem venezuelana dos minerais.
       </Paragraph>
 
       <Paragraph>
-        Pero las autoridades de las islas empezaron a prestar atención al previamente ignorado comercio de metales preciosos y se dieron cuenta que además de transportar grandes cantidades de oro a través de las islas, el Caribe servía para borrar las huellas del origen venezolano de los minerales.
+        No dia 21 de junho, depois que nossos repórteres começaram a fazer perguntas, o governo de Curaçao anunciou que proibiria imediatamente o comércio de ouro venezuelano.
       </Paragraph>
 
       <Paragraph>
-        El 21 de junio de 2019, después que nuestros periodistas empezaron a hacer preguntas, el gobierno de Curazao anunció que prohibía de inmediato el comercio con oro venezolano.
+        Autoridades disseram que a mineração na Venezuela está inextricavelmente ligada a operações ilegais, fuga de capitais, repressão e exploração. Além disso, afirmaram que “investigações criminais” provavelmente revelariam que o comércio estava ligado a drogas e lavagem de dinheiro, atividades de contrabando e falsificação de documentos.
       </Paragraph>
 
       <Paragraph>
-        Las autoridades alegaron que la minería en Venezuela es sinónimo de operaciones ilegales, fuga de capital, represión y explotación. Además, “investigaciones penales” indicaron que el comercio podría estar relacionado con drogas, legitimación de capitales, contrabando y falsificación de documentos.
+        “O que o governo de Curaçao decidiu é que não desejamos continuar a colaborar com o comércio de ouro da Venezuela porque não podemos validá-lo”, disse van Rijn.
       </Paragraph>
 
       <Paragraph>
-        “El gobierno de Curazao decidió no continuar colaborando con el comercio de oro de Venezuela porque no podíamos certificarlo”, dijo van Dijk.
+        Ainda é legal movimentar o ouro venezuelano por meio de Aruba, mas a atividade tem que ser reportada ao promotor público. “Pode haver um contexto suspeito onde mais investigações são necessárias”, disse Terry Akkerman, promotor público da ilha.
       </Paragraph>
 
       <Paragraph>
-        En Aruba, el tránsito del oro venezolano sigue siendo legal, pero debe reportarse a la procuraduría. “Puede haber contextos sospechosos en que hace falta investigar más”, dijo Terry Akkerman, el procurador general de la isla.
-      </Paragraph>
-
-      <Paragraph>
-        Mientras tanto, los registros de comercio de Estados Unidos y Suiza muestran que Curazao exportó cientos de kilos de oro a esos países durante los cinco primeros meses de 2019.
+        Enquanto isso, registros comerciais dos Estados Unidos e da Suíça mostram que Curaçau exportou centenas de quilos de ouro para ambos os países nos primeiros cinco meses de 2019.
       </Paragraph>
 
       <FullBlock withMargin>
@@ -161,43 +157,43 @@ export default () => (
       </FullBlock>
 
       <SubTitle>
-        Los escoltas de oro
+        Escoltas de ouro
       </SubTitle>
 
       <Paragraph>
-        Una de las consecuencias de las declaraciones de Maduro en 2018 fue el arresto del escolta de oro Rafael González Zambrano, que estremeció al sector.
+        Uma das consequências de maior preocupação provocada pelas declarações de Maduro em 2018 foi a prisão do mensageiro de ouro, Zambrano. Esse movimento sacudiu toda a indústria.
       </Paragraph>
 
       <Paragraph>
-        “Mi empleado fue detenido ilegalmente cuatro meses”, dijo Juan Carlos Toro Rodríguez, venezolano y director de Paoro Armored Transport.
+        “[Meu empregado] foi detido ilegalmente por quatro meses”, diz Juan Carlos Toro Rodríguez, venezuelano que chefia a Paoro Armored Transport.
       </Paragraph>
 
       <Paragraph>
-        Vestido con una camisa gris de manga corta y una gorra azul y blanca de Adidas, Toro no parece un comerciante internacional de oro. Dice que solamente se dedica al transporte del metal. Una de sus actividades principales es enviar frutas de Venezuela a Aruba por mar. Pero lo arrestaron con su escolta bajo cargos de contrabando, falsificación de documentos y lavado de dinero.
+        Usando um boné Adidas azul e branco e uma camisa cinza de manga curta, Toro não se parece com um comerciante internacional de ouro. Ele diz que apenas fornece o transporte. Uma de suas principais atividades é enviar frutas da Venezuela para Aruba de barco. Ainda assim, ele foi preso junto com seu mensageiro sob acusação de tráfico, falsificação de documentos e lavagem de dinheiro.
       </Paragraph>
 
       <Paragraph>
-        Toro y Zambrano fueron liberados por falta de pruebas, pero la investigación sigue abierta. Toro mueve las manos con inquietud mientras reclama ser una víctima, y explica que nunca infringió la ley al transportar oro.
+        Tanto ele quanto Zambrano foram libertados devido à falta de provas, mas a investigação permanece em aberto. Toro balançou as mãos no ar, agitado, enquanto explicava que era uma vítima e que nunca havia violado nenhuma lei com seu negócio de ouro.
       </Paragraph>
 
       <Paragraph>
-        Si lo que hizo es ilegal, entonces deben arrestar a más personas, afirmó.
+        Se o que fez foi ilegal, então mais pessoas deveriam ser presas, disse ele.
       </Paragraph>
 
       <Paragraph>
-        “Todos en las aduanas deberían estar encarcelados!”, dijo, señalando que ha transportado oro por Bélgica, Holanda, Estados Unidos y los Emiratos Árabes Unidos, y que las autoridades siempre habían aprobado sus documentos.
+        “Todos os funcionários da alfândega devem ser presos!”, argumentou Toro, observando que já enviou ouro por Bélgica, Holanda, Estados Unidos e Emirados Árabes Unidos, onde as autoridades sempre aprovaram seus documentos.
       </Paragraph>
 
       <Paragraph>
-        Antes de 2018 enviaba cuatro cargamentos de oro al mes, de entre 20 y 40 kilos cada uno, a veces más.
+        Antes de 2018, ele estava enviando quatro cargas de ouro por mês, pesando de 20 a 40 quilos cada, e às vezes mais.
       </Paragraph>
 
       <Paragraph>
-        Toro estaba tan seguro de haber hecho todo según la ley, y tan confiado de que el Ministerio Público había cometido un error, que organizó otro cargamento de oro para enviarlo por KLM en septiembre de 2018. Dice que lo hizo solamente una vez para demostrar su postura. Saca orgulloso su teléfono celular para mostrar imágenes de todos los sellos de los servicios de aduana de diferentes países y explica que el cargamento llegó a Dubai sin complicaciones.
+        Toro estava tão certo de sua conformidade legal, e tão confiante que o promotor público estava errado, que arranjou outra carga de ouro para ser levada pela KLM em setembro de 2018. Ele diz que fez isso apenas uma vez para provar um ponto. Orgulhosamente, pega seu telefone para mostrar todos os selos que recebeu dos vários serviços alfandegários, explicando que sua remessa chegou a Dubai sem nenhum problema.
       </Paragraph>
 
       <Paragraph>
-        Las resplandecientes playas de Curazao y Aruba son mucho más que un destino turístico y punto de parada para grandes navíos cruceros. Según operadores aeroportuarios, oficiales de aduana y fuentes gubernamentales, aviones privados y comerciales que
+        As resplandecentes praias de Curaçao e Aruba são muito mais que um destino turístico e ponto de parada para navios de cruzeiro. Segundo operadores de aeroporto, funcionários da alfândega e fontes do governo, aviões privados e comerciais que
         <StoryMedia
         media={{
         id: "video-1",
@@ -205,39 +201,39 @@ export default () => (
         data: {
           id: "cJfRldJHYHw"
         }
-        }}> vuelan por encima de turistas bronceándose</StoryMedia> han estado descargado miles de kilos de de oro venezolano.
+        }}> voam por cima dos turistas bronzeados</StoryMedia> têm descarregado milhares de quilos de ouro venezuelano.
       </Paragraph>
 
       <Paragraph>
-        Esos envíos, muchos provenientes de minas de oro ilegales, proveen a grupos guerrilleros, sindicatos del crimen y generales corruptos venezolanos con sustanciosas sumas de dinero mientras se entrega un salvavidas financiero a las elites gubernamentales corruptas en el país en crisis.
+        Esses carregamentos, muitos provenientes de minas de ouro ilegais, fornecem aos grupos guerrilheiros, sindicatos do crime e oficiais do Exército da Venezuela somas generosas de dinheiro enquanto entrega um salva-vidas financeiro para as elites governamentais corruptas no país assolado pela crise.
       </Paragraph>
 
       <Paragraph>
-        Aerolíneas como American Airlines y KLM han estado transportando oro para fuera del Caribe, mientras que las autoridades no han podido detener el flujo de minerales de conflicto que llegan a través de sus aeropuertos y zonas de libre comercio, dijeron oficiales.
+        Companhias aéreas como American Airlines e KLM têm transportado ouro para fora do Caribe, enquanto os governantes das ilhas não têm sido capazes de impedir o fluxo de minerais de conflito que chegam através de seus aeroportos e zonas de livre comércio, disseram autoridades.
       </Paragraph>
 
       <Paragraph>
-        En total, al menos 160 toneladas de oro salieron de ambas islas entre 2014 y 2018, de las cuales la mayoría fue trasladada a través de Curazao. Funcionarios de los gobiernos de Aruba y Curazao confirmaron que al menos 90% del oro que sale de las islas procedía de Venezuela.
+        Ao todo, pelo menos 160 toneladas de ouro saíram de ambas as ilhas entre 2014 e 2018, das quais a maioria foi transportada por Curaçao. Representantes do governo de Aruba e Curaçao confirmaram que pelo menos 90% do ouro que sai das ilhas veio originalmente da Venezuela.
       </Paragraph>
 
       <Paragraph>
-        KLM se rehusó a conceder una entrevista, pero admite haber transportado oro desde Curazao tres veces en 2018 y dos veces en 2019.
+        A KLM se recusou a dar entrevista, mas admite ter transportado ouro desde Curaçao três vezes em 2018 e duas vezes em 2019.
       </Paragraph>
 
       <Paragraph>
-        American Airlines no respondió preguntas específicas, pero dijo en una nota que trabaja en estrecha colaboración con la Administración de Seguridad del Transporte, Aduanas y Control de Fronteras y los gobiernos de todo el mundo “para garantizar que todos los pasajeros, el equipaje y la carga se revisen adecuadamente antes de la salida” y que “nuestros aviones no están acostumbrados a contrabandear productos ilícitos a los Estados Unidos”.
+        A American Airlines não abordou questões específicas, mas disse em comunicado que trabalha em estreita colaboração com a Administração de Segurança de Transporte, Alfândega e Controle de Fronteiras e com governos de todo o mundo para “garantir que todos os passageiros, bagagens e cargas sejam adequadamente rastreados antes da saída” e que “nossas aeronaves não são usadas para contrabandear produtos ilícitos para os Estados Unidos”.
       </Paragraph>
 
       <SubTitle>
-        Zonas francas
+        Zonas de Livre Comércio
       </SubTitle>
 
       <Paragraph>
-        En Curazao, como un país dentro de otro, están las zonas francas, donde se importan y exportan bienes libre de impuestos y con poca supervisión.
+        Dentro de Curaçao –como um país dentro de um país – há Zonas de Livre Comércio, onde as mercadorias podem ser importadas, exportadas e baldeadas sem impostos e com pouca fiscalização.
       </Paragraph>
 
       <Paragraph>
-        En la
+        Na
         <StoryMedia
         media={{
           id: "image-3",
@@ -246,51 +242,51 @@ export default () => (
             credits: "Bram Ebus",
             src: require("photos/chapter4/Caribbean02.jpg")
           }
-        }}> Zona Franca del Aeropuerto de Curazao</StoryMedia> hay 41 compañías que comercian mercancía diversa como componentes para autos, medicamentos, joyas y oro.
+        }}> Zona Econômica Livre do Aeroporto de Curaçao</StoryMedia> há 41 empresas que comercializam coisas como peças de carros, produtos farmacêuticos, joias e ouro.
       </Paragraph>
 
       <Paragraph>
-        Curazao Precious Metals (Cupremeco) con sede en esa zona franca, no solamente comercializa oro, sino que también lo funde. La empresa recibió mucha cobertura mediática en 2016 cuando un guardia de seguridad fue asesinado durante el robo de 8,5 kilos de oro.
+        A Curaçao Precious Metals (Cupremeco), situada na região, não apenas comercializa ouro, mas também funde o metal. A empresa recebeu muita atenção da mídia em 2016, quando um segurança foi morto durante um assalto de 8,5 quilos de ouro.
       </Paragraph>
 
       <Paragraph>
-        “Es una refinería con todas las de la ley”, dice un proveedor de servicios financieros del sector del oro, quien prefirió no ser identificado. “Pueden definir la pureza, fundir, hacer lingotes de oro. Tienen todos los equipos”.
+        “É uma refinaria a todo vapor, licenciada e tudo”, diz um prestador de serviços financeiros envolvido no setor de ouro, que preferiu permanecer anônimo. “Eles podem definir a pureza, fundir, fazer barras de ouro. Têm todo o equipamento”.
       </Paragraph>
 
       <Paragraph>
-        Cupremeco ha estado recibiendo el oro que llega en vuelos privados de Venezuela.  Según el proveedor de servicios financieros, la mayor parte del oro fue exportada a Estados Unidos o enviada a los Países Bajos, Suiza o Emiratos Árabes Unidos en un avión de KLM.
+        Cupremeco tem recebido ouro que chega da Venezuela por aviões particulares. De acordo com o provedor de serviços financeiros, a maior parte desse ouro foi exportada para os Estados Unidos ou colocada nos voos da KLM para Holanda, Suíça ou Emirados Árabes Unidos.
       </Paragraph>
 
       <Paragraph>
-        Cupremeco declinó hacer declaraciones para este reportaje.
+        A Cupremeco se recusou a comentar esta história.
       </Paragraph>
 
       <Paragraph>
-        Los venezolanos hacen los viajes porque quieren vender sus minerales a cambio de dólares y evitar el devaluado bolívar que el gobierno usa para pagar por el oro.
+        Os venezuelanos fazem a viagem porque querem vender seus minerais por dólares e evitar os bolívares desvalorizados que o governo venezuelano usa para pagar pelo ouro.
       </Paragraph>
 
       <Paragraph>
-        Los traficantes reciben el pago en cuentas de bancos extranjeros, según un antiguo comerciante de oro en Curazao, quien pidió no revelar su identidad por su seguridad, “Venezuela está a tan solo 70 kilómetros de distancia”.
+        Traficantes recebem seus pagamentos em contas bancárias no exterior, segundo um ex-comerciante de ouro de Curaçao, que pediu anonimato por razões de segurança. “A Venezuela está a apenas 70 quilômetros de distância”.
       </Paragraph>
 
       <Paragraph>
-        El comerciante dijo que las minas en lo profundo de la selva son operadas por personas que no pueden transportar el oro por motivos logísticos y de seguridad.
+        A fonte disse que as minas localizadas nas profundezas da selva são operadas por pessoas que não podem transportar seu próprio ouro porque a logística é complicada e é perigoso.
       </Paragraph>
 
       <Paragraph>
-        “Hombres con dinero, helicópteros y armas visitan a los pequeños mineros. Esta es la gente que recibimos aquí [en Curazao]”, dijo, agregando que comprende perfectamente que la gente traiga oro venezolano a las islas, ya que el gobierno de Venezuela los obligaría a venderlo a pérdida para ellos. “Es contrabando de su propio oro”, añade riendo.
+        “Homens que possuem dinheiro, helicópteros, armas e pistolas visitam as mineradoras de pequena escala. São essas pessoas que recebemos aqui [em Curaçao]”, disse ele, acrescentando que entende perfeitamente que as pessoas levem o ouro para as ilhas, já que o governo venezuelano as obrigaria a vendê-lo em um acordo pouco vantajoso. “É contrabando de seu próprio ouro”, ele ri.
       </Paragraph>
 
       <Paragraph>
-        La fuente describió cómo funcionan el comercio de oro en las zonas francas: el oro venezolano llega en vuelos privados o a través de transportistas, va directo a la Zona Económica Franca. En vez de quedar registrado como una importación, el producto se asienta como si sencillamente pasa en tránsito por el lugar. Pero cuando el oro sale de la isla, los papeles de la aduana se limitan a hacer referencia a Aruba o Curazao, y no indican de ninguna manera su origen venezolano.
+        O ex-comerciante descreveu como funcionam as operações de ouro nas zonas francas: o ouro venezuelano chega em voos privados ou por transportadores e vai direto para a Zona Econômica Livre. Em vez de ser registrado como uma importação, o produto permanece, para fins de contabilidade, em trânsito. Mas quando o metal sai da ilha, os documentos da alfândega só mencionam Curaçao ou Aruba – não mostram que o ouro é originário da Venezuela.
       </Paragraph>
 
       <Paragraph>
-        Y no es solamente en las zonas francas. Funcionarios de la aduana de Aruba y Curazao dijeron que el oro venezolano muchas veces llega en tránsito, en vuelos comerciales, pero nunca se registra como una importación.
+        E não são apenas as zonas de livre comércio. Funcionários das alfândegas de Aruba e Curaçao disseram que o ouro venezuelano é frequentemente transportado em voos comerciais, mas nunca declarado nem registrado como importação.
       </Paragraph>
 
       <Paragraph>
-        A veces el oro ni siquiera sale del avión. Los
+        Às vezes o ouro nem sai dos aviões.
         <StoryMedia
         media={{
           id: "image-4",
@@ -299,99 +295,98 @@ export default () => (
             credits: "Bram Ebus",
             src: require("photos/chapter4/Caribbean03.jpg")
           }
-        }}> jets privados</StoryMedia> en los que se transportaba el oro desde Venezuela aterrizaban en el único aeropuerto privado de la isla, operado por CATS Group, una pequeña empresa que administra aeropuertos en cuatro países de la región.
+        }}> Jatos particulares</StoryMedia> usados ​​para transportar ouro da Venezuela chegam ao único aeroporto privado da ilha, operado pelo CATS Group, uma pequena empresa que administra aeroportos em quatro países da região.
       </Paragraph>
 
       <Paragraph>
-        “Nos llamaban y decían: ‘mira, tenemos 60 kilos, esta es la dirección’. Nosotros debíamos emitir una factura y certificado de origen; luego se enviaba a Miami desde Curazao”, describe el comerciante. Tres fuentes diferentes dentro del sector confirmaron que los aviones privados que transportaban cargas desconocidas partían con frecuencia de Curazao a Miami.
+        “Eles [os carregadores] nos ligavam e diziam: ‘ouçam, temos 60 quilos; este é o endereço’. Precisávamos fazer uma fatura e um certificado de origem; então o ouro seria enviado de Curaçao para Miami”, explica o ex-comerciante. Três fontes diferentes do setor confirmaram que aviões particulares com carga desconhecida frequentemente partiam de Curaçao para Miami.
       </Paragraph>
 
       <Paragraph>
-        CATS Group no respondió a nuestras solicitudes de información por correo.
+        Procurado pela reportagem para comentar o assunto, o CATS Group não respondeu aos pedidos.
       </Paragraph>
 
       <Paragraph>
-        Otra forma de llevar el contrabando es sencillamente puesto en forma de joyas, lo que se conoce como smurfing o pitufeo.
+        Outra maneira de transportar o contrabando é simplesmente vesti-lo na forma de joias, prática conhecida como “smurfing”.
       </Paragraph>
 
       <Paragraph>
-        Un collar grueso de oro puede pesar más de un kilo y valer más de 40,000 dólares. Un funcionario de la Aduana de Aruba dijo que la gente que llega con prendas pesadas activa las alarmas, pero no hay mucho que puedan hacer.
+        Um grosso colar de ouro pode pesar mais de 1 quilo e valer 40 mil dólares americanos. Um funcionário da alfândega de Aruba disse que as pessoas que usam joias pesadas levantam suspeitas, mas não há muito o que eles podem fazer a respeito.
       </Paragraph>
 
       <Paragraph>
-        “Sí, claro, lo ves por su actitud o apariencia. No es el tipo de persona que se pondría algo así”, dijo el funcionario.
+        “Você vê pessoas com certa atitude ou aparência e pensa: ‘Não é uma pessoa que deve andar por aí com uma coisa dessas’”, disse ele.
       </Paragraph>
 
       <Paragraph>
-        El funcionario dijo que en diciembre de 2018 alguien trató de sobornarlo, ofreciéndole varios miles de dólares cada vez que lo dejara pasar por el aeropuerto. El funcionario rechazó la oferta.
+        O funcionário disse que em dezembro de 2018 alguém tentou suborná-lo, oferecendo milhares de dólares cada vez que ele o deixasse passar pelo aeroporto. Ele não aceitou a oferta.
       </Paragraph>
 
       <Paragraph>
-        Otros son más discretos y esconden el oro en los zapatos. Un funcionario de seguridad aeroportuaria dijo que los escáneres corporales no lo detectan.
+        Outros são mais discretos, contrabandeando pedaços de ouro em seus sapatos. Uma funcionária de segurança do aeroporto disse que os scanners corporais não detectariam o metal.
       </Paragraph>
 
       <Paragraph>
-        Pero el oro en tránsito sencillamente no es una prioridad, dijeron autoridades.
+        Mas o ouro em trânsito simplesmente não é uma prioridade, disseram os funcionários.
       </Paragraph>
 
       <Paragraph>
-        “Lo único que hacemos aquí es asegurarnos que [el producto] salga del país”, explicó otra fuente de la aduana Aruba. “Si el oro se importó tienen que pagar impuestos. Pero si está solamente de paso, lo pueden tomar y sacarlo en otro avión” como si fuera oro procedente de Aruba.
+        “A única coisa que fazemos aqui é garantir que [o produto] saia novamente”, explicou outra fonte de dentro da aduana de Aruba. “Se o ouro fosse importado, eles teriam que pagar impostos sobre ele. Mas se está apenas ‘em trânsito’, então pode ser pego e deixado em outro avião”, como se o ouro fosse procedente de Aruba.
       </Paragraph>
 
       <Paragraph>
-        Lo mismo puede decirse del oro que pasa por Curazao, dijo Etienne Casiano, vocero de la aduana del país. Sentado en su oficina, justo al lado del Aeropuerto Internacional de Curazao, afirma que la revisión de mercancía en tránsito “no es competencia de la aduana”, ellos solo necesitan una factura, conocimiento de transporte aéreo o conocimiento de embarque de carga.
+        O mesmo pode se dizer sobre o ouro que passa por Curaçao, disse Etienne Casiano, porta-voz da alfândega do país. Sentado em seu escritório, próximo ao Aeroporto Internacional de Curaçao, ele alega que investigar mercadorias em trânsito “não é da competência da aduana”. Eles só precisam da fatura, conta do transporte aéreo ou conta de embarque de carga.
       </Paragraph>
 
       <Paragraph>
-        “Ellos no importan el oro; si lo hicieran, pagarían impuestos. Se quedan en tránsito, el oro se recoge y sale en otro avión”, agrega Casiano. “Los vuelos [con oro] entraron a Curazao en tránsito, acorde con nuestros procedimientos y leyes”, dijo. “Entraron legalmente, era algo normal para nosotros”.
+        “Eles [negociantes] não importam o ouro; se o fizessem, deveriam pagar impostos. Eles ficam em trânsito, o ouro é apanhado e sai com um avião diferente”, acrescenta Casiano. “Os voos [com o ouro] entraram em Curaçao em trânsito, em conformidade com nossos procedimentos e legislação”, disse ele. “Entrou legalmente, era normal para nós.”
       </Paragraph>
 
       <Paragraph>
-        Pero reconoce que distribuir oro a través del Caribe oculta su origen verdadero, lo que convierte a las islas en un punto de trasiego atractivo para llegar a los mercados mundiales.
+        Mas ele reconhece que transportar ouro através do Caribe disfarça sua verdadeira origem, tornando as ilhas um ponto de transbordo muito atraente para os mercados mundiais.
       </Paragraph>
 
       <Paragraph>
-        Las bases de datos “no identifican el país de origen, solamente el último puerto por donde salió”, dijo Casiano. Así que aunque él sabe que la mayoría del oro que llega a la isla proviene de Venezuela, para cuando sale con destino a Europa y Estados Unidos su verdadero origen queda oscurecido.
+        Bancos de dados não “mencionam o país de origem, apenas refletem o último porto do qual saiu a mercadoria”, disse Casiano. Assim, enquanto ele sabe que quase todo o ouro que entra na ilha é originário da Venezuela, no momento em que o metal chega à Europa ou Estados Unidos, sua verdadeira origem é obscurecida. 
       </Paragraph>
 
       <Paragraph>
-        Aunque el oro que proviene de Venezuela es fácil de ocultar, muchos se mantienen alejados del problemático metal. Archak Bedrossian, el director de Haig, una compañía de la zona franca que compra oro, informó que hasta hace cuatro años compraba oro en Venezuela y otros países sudamericanos.
+        Embora o ouro venezuelano seja fácil de disfarçar, muitos ainda estão evitando o mineral problemático. Archak Bedrossian, diretor da Haig, empresa compradora de ouro na zona franca, disse que parou de comprar ouro da Venezuela e de outros países sul-americanos quatro anos atrás.
       </Paragraph>
 
       <Paragraph>
-        “Cuando vimos que el negocio estaba en manos de los pranes [pandillas] y los paramilitares, dejamos de hacer negocios”, dijo. “Antes, los mineros nos contactaban para vendernos [su oro], pero estas personas se vieron obligadas a vender a grupos [delictivos], y por eso fue que dejamos de comprarles”.
+        “Quando vimos que o negócio estava nas mãos de pranas [gangues] e paramilitares, paramos de negociar”, disse ele. “Antes, os mineiros nos procuravam para vender [seu ouro], mas essas pessoas foram forçadas a vender para grupos [criminosos] e é por isso que paramos.”
       </Paragraph>
 
       <SubTitle>
-        Eliminación de pistas
+        Apagando as origens
       </SubTitle>
 
       <Paragraph>
-        Un informe de 2012 del Grupo de Acción Financiera del Caribe alertó que en Curazao “ 
+        Um relatório da Força-Tarefa de Ação Financeira do Caribe alertou já em 2012 que em Curaçao “
         <FileLink
         href={require("documents/chapter4/CFATF-Curacao_First_Follow-Up_Report.pdf")}
         format="pdf"
-        size="0.9MB">no existe proceso alguno que identifique la fuente, destino y objeto del transporte de oro y demás metales y piedras preciosas</FileLink>”. En varios informes subsiguientes indica que nada ha cambiado.
+        size="0.9MB">não existe nenhum processo para identificar a origem, o destino e a finalidade do movimento do ouro ou de outros metais e pedras preciosas</FileLink>”. Vários relatórios de acompanhamento indicam que nada mudou.
       </Paragraph>
 
       <Paragraph>
-        Aunque hay información al respecto, con frecuencia es errónea o incompleta. En un
+        Os dados que existem são frequentemente incompletos ou errôneos. Em um 
         <FileLink
         href={require("documents/chapter4/Aruba_government-Customs_document.pdf")}
         format="pdf"
-        size="0.7MB"> documento filtrado que fue recibido en Aruba</FileLink> se usan indistintamente kilos, gramos y onzas, y falta otro tipo de información clave.
+        size="0.7MB"> documento vazado de Aruba</FileLink> os sistemas de medida quilos, gramas e onças são usados ​​alternadamente, e outros dados importantes estão faltando.
       </Paragraph>
 
       <Paragraph>
-        Autoridades de Aruba dicen que están tratando de seguir mejor la pista al oro en tránsito y entienden que sus agencias pudieran tener que rendir cuentas por la falta de supervisión.
+        Autoridades de Aruba disseram que estão tentando ser mais diligentes em rastrear o ouro em trânsito e entender que suas agências poderiam ser responsabilizadas pela falta de fiscalização.
       </Paragraph>
 
       <Paragraph>
-        “Ahora hay que asentarlo todo, aunque esté en tránsito”, dijo un funcionario. “A veces tiene que suceder algo para aprender”.
+        “Agora, todos os papeis devem ser preenchidos muito bem, mesmo que [a mercadoria] esteja em trânsito”, disse um funcionário. “Às vezes é preciso que aconteça alguma coisa para que a lição seja aprendida.”
       </Paragraph>
 
       <Paragraph>
-        En Curazao hay
         <StoryMedia
         media={{
           id: "image-5",
@@ -400,15 +395,15 @@ export default () => (
             credits: "Bram Ebus",
             src: require("photos/chapter4/Caribbean04.jpg")
           }
-        }}> más de 70 joyerías</StoryMedia> que además de comprar joyas para fundir y exportar, compran lingotes de oro. No hay forma de saber si el oro proviene de Venezuela. El único requisito para comprar oro es que el vendedor muestre su documento de identidad de Curazao, porque las normas de la isla no exigen certificados de origen.
+        }}>Há mais de 70 joalherias</StoryMedia> em Curaçao que não apenas compram joias para fundir e exportar, mas também pagam por barras de ouro. Não há realmente como saber se o ouro vem da Venezuela. A única exigência para eles comprarem ouro é que o vendedor mostre um documento de identidade de Curaçao, pois as regulamentações da ilha não exigem certificados de origem. 
       </Paragraph>
 
       <Paragraph>
-        Un comerciante, a quien nuestros periodistas consultaron después que se prohibió la importación de oro, supone que los contrabandistas se adaptarán y que sencillamente cambiarán las rutas para los cargamentos más grandes.
+        Um comerciante que foi consultado depois que as importações de ouro da Venezuela foram banidas supõe que os contrabandistas vão conseguir se ajustar, e que as rotas para remessas maiores simplesmente vão mudar. 
       </Paragraph>
 
       <Paragraph>
-        “Si quieren dólares por su oro, pueden ir a Perú, Colombia, Brasil, Guyana, Surinam, ¡esto continuará!”, dice riendo.
+        “Se eles querem dólares por seu ouro, podem ir para o Peru, Colômbia, Brasil, Guiana, Suriname”, disse ele, rindo. “Isso vai continuar.”
       </Paragraph>
     </Container>
   </article>

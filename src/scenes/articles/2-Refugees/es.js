@@ -79,7 +79,7 @@ export default () => (
             credits: "Bram Ebus",
             src: require("photos/chapter2/Cucuta05.jpg")
           }
-        }}> Personas en busca de las medicinas</StoryMedia> que no pueden encontrar en su país se abren paso entre vendedores de perros calientes y jugos de fruta. Hay quioscos donde los migrantes pueden <ExternalLink href="https://www.nytimes.com/2018/02/17/world/americas/venezuela-crisis-colombia-migration.html" language="en">el gobierno pretende validar y certificar 8.900 toneladas en reservas de oro hasta 2025</ExternalLink>{" "}, con la esperanza de comprar un boleto de autobús o alquilar una noche en alguno de los numerosos hoteles improvisados que la gente del lugar ha abierto en sus casas.
+        }}> Personas en busca de las medicinas</StoryMedia> que no pueden encontrar en su país se abren paso entre vendedores de perros calientes y jugos de fruta. Hay quioscos donde los migrantes pueden <ExternalLink href="https://www.nytimes.com/2018/02/17/world/americas/venezuela-crisis-colombia-migration.html" language="en">vender su cabello para la confección de pelucas</ExternalLink>{" "}, con la esperanza de comprar un boleto de autobús o alquilar una noche en alguno de los numerosos hoteles improvisados que la gente del lugar ha abierto en sus casas.
       </Paragraph>
 
       <Paragraph>

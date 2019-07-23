@@ -19,10 +19,10 @@ import FullBlock from "components/blocks/Full";
 export default () => (
   <article>
     <Helmet>
-      <title>Alrededor Del Mundo | Arco Minero</title>
+      <title>Pelo Mundo | Venezuela, o paraíso dos contrabandi$tas</title>
     </Helmet>
     <Container>
-      <Title as="h2">El oro venezolano termina secretamente en los mercados internacionales</Title>
+      <Title as="h2">O ouro venezuelano vai parar secretamente nos mercados internacionais</Title>
       <Author>
         <FormattedMessage
           id="general.authorChapter5"
@@ -31,56 +31,60 @@ export default () => (
       </Author>
       <Note>
         <p>
-          El oro proveniente de fuentes no éticas de Venezuela ingresa a las cadenas de suministro mundiales luego de ser ‘lavado’ en países vecinos como Colombia y islas del Caribe. A pesar de las sanciones internacionales y directrices de debida diligencia, aerolíneas siguen volando con oro a los mercados europeos y estadounidenses.
+          O ouro ilegal da Venezuela ingressa nas cadeias de fornecimento mundiais após ser ‘lavado’ em países vizinhos, como Colômbia e ilhas do Caribe. Apesar das sanções internacionais e das diretrizes de diligência devida, empresas aéreas seguem voando com o metal para os mercados da Europa e dos Estados Unidos.
         </p>
       </Note>
       
       <Paragraph>
-        En una refinería con un alto nivel de seguridad en Amberes, Bélgica, dos hombres vierten oro líquido a más de 1.160 grados Celsius en moldes del tamaño de un teléfono móvil.
+        Em uma refinaria de alta segurança em Antuérpia, na Bélgica, dois homens despejam ouro derretido – aquecido a mais de 1.160 graus Celsius – em moldes do tamanho de um aparelho celular.
       </Paragraph>
 
       <Paragraph>
-        Cuando se observan las barras del preciado metal – que usan bancos, joyeros y fabricantes de dispositivos electrónicos – no hay forma de decir de dónde proviene ni cuánta sangre se derramó para extraerlo.
+        Olhando para as barras de ouro brilhantes, tão cobiçadas por bancos, joalheiros e empresas de tecnologia, não há como saber de onde veio ou quanto sangue foi derramado para extraí-lo.
       </Paragraph>
 
       <Paragraph>
-        Pero según los documentos filtrados por la aduana de Aruba, el oro venezolano – en su mayor parte extraído ilegalmente y que apoya al régimen cada vez más autocrático en Caracas – está llegando a la cadena mundial de suministro de oro y termina en Estados Unidos, Europa y el Medio Oriente.
+        Mas de acordo com documentos vazados pela alfândega de Aruba, o ouro da Venezuela – grande parte extraído ilegalmente e que reforça um regime cada vez mais autoritário em Caracas – está chegando à cadeia mundial, indo parar nos Estados Unidos, Europa e Oriente Médio.
       </Paragraph>
 
       <Paragraph>
-        Gracias a reglas anticuadas, el preciado metal salta por el Caribe y llega a grandes refinerías a miles de kilómetros de distancia, que a veces lavan inadvertidamente ese “oro de sangre”, oscureciendo el devastador impacto y los crímenes que rodean sus orígenes.
+        Graças a regras arcaicas, o metal precioso passa pelo Caribe e chega a grandes refinarias a milhares de quilômetros de distância, que às vezes lavam inadvertidamente esse “ouro sangrento”, obscurecendo o impacto devastador e os crimes que rodeiam suas origens.
       </Paragraph>
 
       <Paragraph>
-        Washington ha estado aumentando la presión sobre Venezuela en momentos que intenta sacar al presidente Nicolás Maduro del poder. Como parte de ese esfuerzo, en marzo, el Departamento del Tesoro de Estados Unidos implementó sanciones contra la compra de oro a la minera estatal venezolana, Minerven.
+        Washington vem aumentando a pressão sobre a Venezuela ao tentar forçar a saída do presidente Nicolas Maduro do poder. Como parte desse esforço, em março, o Departamento do Tesouro dos Estados Unidos implementou sanções contra a compra de ouro da mineradora estatal venezuelana, a Minerven. 
       </Paragraph>
 
       <Paragraph>
-        “El régimen ilegítimo de Maduro está saqueando las riquezas de Venezuela al tiempo que pone en riesgo la vida de los pueblos indígenas, devastando áreas protegidas y deforestando y acabando con el hábitat”, afirmó el <ExternalLink href="https://home.treasury.gov/news/press-releases/sm631" language="en">Secretario del Tesoro de Estados Unidos, Steven Mnuchin, en una declaración de 19 de marzo mientras anunciaba las sanciones</ExternalLink>{" "}. “Perseguiremos enérgicamente a los involucrados en el comercio ilícito e irresponsable de oro de Maduro que ha contribuido a la crisis financiera, humanitaria y medioambiental”.
+        “O regime ilegítimo de Maduro está saqueando as riquezas da Venezuela, ao mesmo tempo que põe em risco a vida dos povos indígenas, devastando áreas protegidas, desmatando e acabando com o meio ambiente”, disse o <ExternalLink href="https://home.treasury.gov/news/press-releases/sm631" language="en">secretário do Tesouro dos Estados Unidos, Steven Mnuchin, em 19 de março, ao anunciar as sanções</ExternalLink>{" "}. “Vamos perseguir energeticamente os envolvidos com o comércio ilícito e imprudente do ouro de Maduro, que contribuiu com a crise financeira, humanitária e ambiental.”
       </Paragraph>
 
       <Paragraph>
-        Lo más probable es que las <ExternalLink href="https://www.crisisgroup.org/latin-america-caribbean/andes/venezuela/073-gold-and-grief-venezuelas-violent-south" language="en">sanciones aumenten el tráfico del mineral</ExternalLink>{" "} y contribuyan al fortalecimiento financiero del crimen organizado.  Esto significa que Estados Unidos puede haberle hecho un favor a los criminales involucrados, como los disidentes del Ejército de Liberación Nacional (ELN) y las Fuerzas Revolucionarias de Colombia (FARC), ambos en la lista de terroristas de Estados Unidos.
+        O mais provável é que as sanções <ExternalLink href="https://www.crisisgroup.org/latin-america-caribbean/andes/venezuela/073-gold-and-grief-venezuelas-violent-south" language="en">aumentarem o tráfico de minerais</ExternalLink>{" "} e contribuam para o fortalecimento financeiro do crime organizado. Isso significa que os Estados Unidos podem ter feito um favor aos criminosos envolvidos, como os dissidentes do Exército de Libertação Nacional (ELN) e das Forças Armadas Revolucionárias da Colômbia (FARC), ambos na lista de terroristas dos Estados Unidos.
       </Paragraph>
 
       <Paragraph>
-        El grupo rebelde de Colombia ELN es el grupo guerrillero más antiguo y grande de Latinoamérica luego de que las FARC se desmovilizaran en el 2017. Mientras tanto, el oro de Venezuela sigue llegando a los mercados internacionales, incluyendo Estados Unidos. Los países por donde pasa el oro, muchas veces naciones que exportan grandes cantidades del metal pero que no tienen minas, refinerías ni depósitos propios, son un paso intermedio clave para oscurecer su origen.
+        O colombiano ELN se tornou o maior e mais antigo grupo guerrilheiro da América depois que as FARC se desmobilizaram oficialmente em 2017. Enquanto isso, o ouro venezuelano segue chegando aos mercados internacionais, inclusive nos Estados Unidos.
       </Paragraph>
 
       <Paragraph>
-        Las islas caribeñas holandesas de Curazao y Aruba pertenecen a esta categoría.
+        Os países por onde passa o ouro – muitas vezes nações que exportam o metal em grandes quantidades, mas não têm minas próprias – são um passo intermediário essencial para obscurecer sua origem.
       </Paragraph>
 
       <Paragraph>
-        Según fuentes gubernamentales y documentos filtrados, salieron al menos 130 toneladas de oro de Curazao y unas 30 toneladas de Aruba entre 2014 y 2018; de ese total, 90% procedió de Venezuela. Aunque ese oro importado parece tener los documentos en orden, autoridades de las islas dicen que su origen es dudoso, en el mejor de los casos.
+        As ilhas caribenhas holandesas de Curaçao e Aruba pertencem a esta categoria.
       </Paragraph>
 
       <Paragraph>
-        Esos documentos también confirman que el oro entra a las islas procedente de Venezuela en vuelos privados, a veces yendo de una isla a otra, lo que oscurece incluso más la ruta.
+        Segundo fontes do governo e documentos vazados, pelo menos 130 toneladas de ouro saíram de Curaçao e outras 30 toneladas saíram de Aruba entre 2014 e 2018, sendo que 90% desse total veio da Venezuela. Enquanto o ouro importado parece ter sua papelada em ordem, autoridades das ilhas disseram que sua origem é, na melhor das hipóteses, duvidosa.
       </Paragraph>
 
       <Paragraph>
-        Al final, el oro se envía en vuelos comerciales a refinerías en Estados Unidos, los Emiratos Árabes Unidos, Suiza y Bélgica, sin ninguna indicación de que fue extraído en Venezuela.
+        Os documentos também confirmam que o ouro entra no Caribe vindo de voos privados da Venezuela, e às vezes circula de uma ilha para outra, o que obscurece ainda mais sua rota.
+      </Paragraph>
+
+      <Paragraph>
+        Em última análise, o ouro é enviado em voos comerciais a refinarias dos Estados Unidos, Emirados Árabes Unidos, Suíça e Bélgica, sem nenhuma indicação de que foi extraído no país sul-americano.
       </Paragraph>
 
       <Paragraph>
@@ -92,121 +96,121 @@ export default () => (
             credits: "Reuters / Pascal Lauener - stock.adobe.com",
             src: require("photos/chapter5/Europe03.jpg")
           }
-        }}>Y una vez que se mezcla con el oro de otros países, es prácticamente imposible saber su origen</StoryMedia>
+        }}>E uma vez misturado com ouro de outros países, é praticamente impossível saber sua origem</StoryMedia>
         .
       </Paragraph>
 
       <Paragraph>
-        Es difícil saber quién compra este oro venezolano procedente del Caribe neerlandés. Pero los documentos filtrados de la aduana de Aruba identificaron una empresa en Dubai y dos comerciantes de oro en el llamado Distrito del Diamante de Amberes, uno de los lugares más importantes del mundo para comerciar diamantes.
+        É difícil saber quem compra esse ouro venezuelano que passa pelo Caribe holandês. Mas documentos vazados da alfândega de Aruba identificaram uma empresa em Dubai e dois comerciantes de ouro do chamado Distrito dos Diamantes de Antuérpia, na Bélgica, um dos lugares mais importantes do mundo para comercializar a pedra preciosa.
       </Paragraph>
 
       <Paragraph>
-        Una de esas empresas es Tony Goetz NV, uno de los comerciantes de oro más prominentes de Bélgica y el único que tiene una planta de fundición en el país. Según los documentos aduaneros, la firma compró 46 libras (21 kilos) de oro en diciembre de 2016.
+        Uma dessas empresas é Tony Goetz NV, uma das comerciantes de ouro mais relevantes da Bélgica e a única que possui uma fábrica para fundir o metal no país. De acordo com os documentos aduaneiros, a empresa comprou 21 quilos de ouro em dezembro de 2016.
       </Paragraph>
 
       <Paragraph>
-        Vestido casualmente y con mocasines de cuero, el dueño de la refinería en cuestión, Sylvain Goetz, muestra a un visitante la planta, que procesa alrededor de 100 kilos de oro por día. Señala una fila ordenada de lingotes de oro que esperan le graben el sello de la compañía y dijo: “No hay nada mejor que esto. Es oro puro”.
+        Vestido casualmente e com mocassins de couro, o dono da refinaria, Sylvain Goetz, mostra a um visitante a fábrica, capaz de processar em torno de 100 quilos de ouro por dia. Ele indica uma fileira de lingotes de ouro que esperam o carimbo com o selo da companhia e diz: “Não há nada melhor que isso. É ouro puro”.
       </Paragraph>
 
       <Paragraph>
-        Al preguntársele por la importación de oro del Caribe neerlandés, dice que no sabe si el envío de 2016 realmente se concretó. Goetz reconoce que su empresa compró oro en las islas hasta hace tres años, pero que ya no compra oro de Venezuela ni de Aruba o Curazao, precisamente porque el origen es muy difícil de determinar.
+        Questionado sobre a importação de ouro do Caribe holandês, Goetz diz que não sabe se o envio de 2016 realmente se concretizou. Ele reconhece que sua empresa comprou ouro das ilhas até três anos atrás, mas insiste que não compra mais o metal da Venezuela ou das ilhas caribenhas, justamente porque sua origem é muito difícil de determinar.
       </Paragraph>
 
       <Paragraph>
-        “Hace unos años decidimos dejar de cooperar con zonas extranjeras o los llamados países de tránsito”, afirmó.
+        “Faz uns anos que decidimos parar de cooperar com áreas offshore ou com os chamados países de trânsito”, disse.
       </Paragraph>
 
       <Paragraph>
-        En 2017, el gobierno venezolano pidió a Goetz que refinara unas tres toneladas de oro. Pero en una carta al Banco Central de Venezuela, 
+        Em 2017, o governo venezuelano pediu a Goetz para refinar cerca de três toneladas de ouro. Mas em carta ao Banco Central da Venezuela, 
         <FileLink
         href={require("documents/chapter5/Tony_Goetz-Lette_to_Central_Bank_of_Venezuela.pdf")}
         format="pdf"
-        size="0.3MB"> la compañía negó la solicitud, citando la falta de documentos adecuados y transparencia</FileLink>
+        size="0.3MB"> a companhia negou o pedido citando a falta de transparência e documentação adequada</FileLink>
         .
       </Paragraph>
 
       <Paragraph>
-        “Tenemos razones fundamentadas para creer que ese oro no cumple los requisitos de nuestra política de diligencia debida”, escribió la compañía al Banco Central de Venezuela. “Hubo que tomar esta decisión para evitar daños a la reputación de nuestra empresa”.
+        “Temos razões fundamentadas para acreditar que o suprimento [de ouro] não atenderia aos requisitos das nossas diretrizes de diligência devida”, escreveu a empresa ao Banco Central da Venezuela. “Essa decisão teve que ser tomada para evitar danos à reputação da nossa empresa.”
       </Paragraph>
 
       <Paragraph>
-        El abogado de la empresa, Bert Luyten, confirmó que en 2017 la junta directiva decidió no importar más oro venezolano.
+        O advogado da Tony Goetz NV, Bert Luyten, também confirmou que em 2017 a diretoria decidiu não importar mais ouro venezuelano.
       </Paragraph>
 
       <Paragraph>
-        Argentor Essayeurs, otro comerciante de oro belga a pocas cuadras de distancia en el Distrito de los Diamantes, también apareció en los documentos filtrados de la aduana de Aruba. Entre enero de 2016 y diciembre de 2017, la compañía importó oro del Caribe neerlandés por valor de 6 millones de dólares. El director Gianni Proost no niega que la empresa comerciaba a través de Aruba y Curazao, pero dice que dejó de hacerlo hace aproximadamente un año.
+        Argentor Essayeurs, outro comerciante de ouro belga instalado a poucos quarteirões do Distrito dos Diamantes, também apareceu no documento vazado da alfândega de Aruba. Entre janeiro de 2016 e dezembro de 2017, a empresa importou 6 milhões de dólares em ouro do Caribe holandês. O diretor Gianni Proost não nega que a empresa comercializava através de Aruba e Curaçao, mas diz que deixou de fazê-lo há cerca de um ano.
       </Paragraph>
 
       <Paragraph>
-        “La empresa a la que le comprábamos el oro indicó que provenía de Guyana y Colombia, pero cuando vimos informes sobre el oro venezolano y empezamos a hacer preguntas, sus respuestas evasivas no me convencieron y detuvimos las compras”, dijo Proost. “Todo esto es todavía muy poco transparente”.
+        “A empresa da qual comprávamos o ouro indicou que ele vinha da Guiana e da Colômbia, mas quando vimos os relatos sobre o ouro venezuelano e começamos a fazer perguntas, suas respostas evasivas não me convenceram e então paramos de comprar”, disse Proost. “Tudo isso ainda é muito pouco transparente.”
       </Paragraph>
 
       <Paragraph>
-        Un caso más claro es el de GoetzGold en Dubai. La compañía es propiedad de Alain Goetz, el hermano menor de Sylvain Goetz. Según los abogados de ambas empresas, las firmas en Dubai y Bélgica están completamente separadas.
+        Um caso mais claro é o da GoetzGold, em Dubai. A companhia pertence a Alain Goetz, irmão mais novo de Sylvain Goetz. Segundo os advogados das duas empresas, os negócios em Dubai e na Bélgica são completamente separados. 
       </Paragraph>
 
       <Paragraph>
-        Los documentos aduaneros muestran que entre octubre de 2017 y octubre de 2018 GoetzGold compró 21,8 toneladas de oro al Banco Central de Venezuela, según una <ExternalLink href="https://runrun.es/especiales/fuga_oro/" language="es">investigación publicada a principios de este año por Runrun.es</ExternalLink>{" "}.
+        Documentos aduaneiros mostram que entre outubro de 2017 e outubro de 2018 a GoetzGold comprou 21,8 toneladas de ouro do Banco Central da Venezuela, de acordo com uma <ExternalLink href="https://runrun.es/especiales/fuga_oro/" language="es">investigação publicada no início deste ano pela Runrun.es</ExternalLink>{" "}.
       </Paragraph>
 
       <Paragraph>
-        Un abogado de GoetzGold dijo en un correo electrónico que cada envío de oro desde Aruba y Curazao proviene “de distribuidores legales y certificados y también es revisado por las autoridades aduaneras”. Pero la compañía no dijo si había comprado oro venezolano.
+        Um advogado da GoetzGold disse por e-mail que cada remessa de ouro de Aruba e Curaçao vem “de revendedores legais e certificados e também é checada por autoridades alfandegárias”. Mas a empresa não disse se havia comprado ouro venezuelano.
       </Paragraph>
 
       <Paragraph>
-        La cantidad de oro enviado a Bélgica y Dubai es nada comparada con la enviada a Suiza, donde se refina alrededor del 75% del oro del mundo. Según la Aduana suiza, el país importó 40,090 kilos desde Curazao entre enero de 2015 y abril de 2019, con un valor aduanero de 1,292,336,974 francos suizos, unos 1,300 millones de dólares.
+        A quantidade de ouro enviada a Bélgica e Dubai não é nada comparada ao que vai para a Suíça, onde 75% do ouro mundial é refinado. De acordo com a alfândega suíça, o país importou 40.090 quilos de ouro de Curaçao entre janeiro de 2015 e abril de 2019, com valor aduaneiro de 1.292.336.974 francos suíços, cerca de 1,3 bilhão de dólares.
       </Paragraph>
 
       <Paragraph>
-        Las cuatro refinerías suizas más grandes pertenecen a los participantes más poderosos de la industria del oro. Uno de ellos, Valcambi, no respondió a preguntas, diciendo que cualquier respuesta contendría “información sensible de la empresa”.
+        As quatro maiores refinarias suíças pertencem aos atores mais poderosos da indústria do ouro. Um deles, Valcambi, não respondeu às perguntas da reportagem, dizendo que qualquer resposta conteria “informações confidenciais da empresa”.
       </Paragraph>
 
       <Paragraph>
-        Otra, Argor-Heraeus, dijo que se apega a las leyes suizas e internacionales sobre el comercio de oro, y añadió que está “comprometida con la transparencia, la sustentabilidad y el respeto a los derechos humanos”. Sin embargo, no respondió a preguntas específicas sobre el oro procedente de Venezuela, Aruba y Curazao.
+        Argor-Heraeus, por sua vez, disse que atua de acordo com as leis suíças e internacionais, e acrescentou que a companhia está “comprometida com a transparência, a sustentabilidade e o respeito aos direitos humanos”. No entanto, não respondeu a perguntas específicas sobre o ouro procedente da Venezuela, Aruba e Curaçao.
       </Paragraph>
 
       <Paragraph>
-        Las otras dos firmas, PAMP y Metalor, dijeron que no están comprando oro a estos países.
-      </Paragraph>
-
-      <SubTitle>
-        El papel de los Países Bajos
-      </SubTitle>
-
-      <Paragraph>
-        Los Países Bajos son signatarios de varios tratados y <ExternalLink href="https://www.business-humanrights.org/en/un-guiding-principles" language="en">directrices de las Naciones Unidas</ExternalLink>{" "} que rigen la cadena de suministro de oro y que tienen como objetivo evitar los abusos a los derechos humanos en las minas y mantener el oro “de conflictos” fuera de la cadena de suministro global. En 2017, un llamado “pacto sobre el oro”, supervisado por el Consejo Económico Social de los Países Bajos, reunió al Estado, las corporaciones y las ONGs para acordar un código de comportamiento voluntario que garantice que las empresas adquieran oro de fuentes éticas.
-      </Paragraph>
-
-      <Paragraph>
-        Y la Organización para la Cooperación y el Desarrollo Económico (OCDE), un bloque intergubernamental de 36 países, incluidos los Países Bajos, proporciona directrices a los miembros sobre la lucha con los minerales provenientes de zonas de conflicto.
-      </Paragraph>
-
-      <Paragraph>
-        Cuando se trata de oro venezolano, “la violencia política, los informes sobre la venta de reservas de oro en violación de las sanciones, la participación de grupos armados en la región minera y el tráfico transfronterizo de oro son razones para una diligencia debida más estricta”, expresó la organización en un correo electrónico, añadiendo que las empresas deben pensar dos veces antes de comprar oro venezolano.
-      </Paragraph>
-
-      <Paragraph>
-        A pesar de estas iniciativas, se ha acusado a los Países Bajos de no abordar suficientemente su papel en el comercio del oro venezolano que contribuye a las violaciones de los derechos humanos.
-      </Paragraph>
-
-      <Paragraph>
-        Ronald van Raak, miembro del Parlamento de ese país, se sorprendió de que el oro venezolano se lave a su paso por Aruba y Curazao.
-      </Paragraph>
-
-      <Paragraph>
-        “Aunque tienen gobiernos autónomos, los Países Bajos son responsables de la buena gobernanza en las islas”, dijo. “No podemos, como reino, condenar las violaciones de los derechos humanos del gobierno de Maduro y a la vez permitir que las élites corruptas [venezolanas] se enriquezcan a través del mismo reino”.
+        As outras duas empresas, PAMP e Metalor, disseram que não estão comprando ouro desses países.
       </Paragraph>
 
       <SubTitle>
-        Oro por las aerolíneas
+        O papel dos Países Baixos
       </SubTitle>
 
       <Paragraph>
-        Uno de los participantes clave en este juego global de oscurecer el origen del oro son las aerolíneas comerciales que transportan el mineral.
+        O Reino dos Países Baixos é signatário de vários tratados e <ExternalLink href="https://www.business-humanrights.org/en/un-guiding-principles" language="en">diretrizes das Nações Unidas</ExternalLink>{" "} que regem a cadeia de fornecimento de ouro e que têm como objetivo evitar abusos aos direitos humanos nas minas e manter os minerais “de conflito” fora do mercado global. Em 2017, o chamado “pacto sobre o ouro”, monitorado pelo Conselho Econômico Social dos Países Baixos, reuniu Estado, corporações e ONG’s para elaborar um código de comportamento voluntário garantindo que as empresas adquirissem o máximo de ouro possível de fontes éticas
       </Paragraph>
 
       <Paragraph>
-        A unos 8.000 kilómetros de las
+        E a Organização para Cooperação e Desenvolvimento Econômico (OCDE) – um bloco intergovernamental de 36 nações, incluindo os Países Baixos – fornece orientações aos membros sobre como lidar com minerais provenientes de zonas de conflito.
+      </Paragraph>
+
+      <Paragraph>
+        Quando se trata de ouro venezuelano, “a violência política, os relatórios sobre a venda de reservas de ouro em violação às sanções, o envolvimento de grupos armados na região mineira e o tráfico transfronteiriço são razões para uma diligência devida mais estrita”, disse a organização por e-mail, acrescentando que as empresas devem pensar duas vezes antes de comprar o metal da Venezuela.
+      </Paragraph>
+
+      <Paragraph>
+        Apesar dessas iniciativas, os Países Baixos foram acusados de abordar de forma insuficiente seu papel no comércio de ouro venezuelano que contribui para as violações de direitos humanos.
+      </Paragraph>
+
+      <Paragraph>
+        Ronald van Raak, membro do Parlamento holandês, ficou surpreso com o fato do ouro venezuelano ter sido “lavado” na passagem por Aruba e Curaçao.
+      </Paragraph>
+
+      <Paragraph>
+        “Embora tenham governos autônomos, os Países Baixos são responsáveis ​​pela boa governança nas ilhas”, disse ele. “Não podemos, como um reino, condenar as violações de direitos humanos do governo de Maduro ao mesmo tempo em que permitimos que as elites corruptas [venezuelanas] se enriqueçam através do mesmo reino.”
+      </Paragraph>
+
+      <SubTitle>
+        Ouro das companhias aéreas
+      </SubTitle>
+
+      <Paragraph>
+        Entre os principais agentes neste jogo global da ofuscação do ouro estão as companhias aéreas comerciais que transportam o metal.
+      </Paragraph>
+
+      <Paragraph>
+        A cerca de 8 mil quilômetros dos
         <StoryMedia
         media={{
           id: "image-2",
@@ -215,49 +219,48 @@ export default () => (
             credits: "Bram Ebus",
             src: require("photos/chapter5/Europe01.jpg")
           }
-        }}> minas ilegales de oro en Venezuela</StoryMedia>
-        , una parte significativa de ese oro llega por avión al Aeropuerto de Schiphol de Amsterdam, después de haber pasado por las zonas de tránsito en el Caribe.
+        }}> poços de mineração em conflito na Venezuela</StoryMedia>
+        , uma significativa quantia desse ouro voa para o aeroporto de Schiphol, em Amsterdã, após ter passado pelas zonas de trânsito no Caribe.
       </Paragraph>
 
       <Paragraph>
-        Directivos de Royal Dutch Airlines (KLM) declinaron ser entrevistados para este reportaje, pero indicaron en un correo electrónico que “no están de acuerdo con la caracterización de que grandes cantidades de oro llegan a los Países Bajos en vuelos de KLM procedentes de Curazao”.
+        Funcionários da Royal Dutch Airlines (KLM) se recusaram a dar entrevista, mas disseram por e-mail que “não estão de acordo com a caracterização de que grandes quantidades de ouro chegam aos Países Baixos em voos da KLM procedentes de Curaçao”.
       </Paragraph>
 
       <Paragraph>
-        Posteriormente, el portavoz de KLM reconoció que “hubo tres envíos en 2018 y dos en 2019, que pasaron por canales oficiales y se completaron con la aprobación de todas las autoridades”. Debido a la “naturaleza sensible de los envíos”, la aerolínea, que es mayoritariamente propiedad del Estado, se negó a decir más.
+        O porta-voz da KLM reconheceu mais tarde que “houve três envios em 2018 e dois em 2019, que foram levados por canais oficiais e concluídos com a aprovação de todas as autoridades”. Devido à “natureza sensível das remessas”, a companhia aérea, que é majoritariamente estatal, se recusou a dizer mais.
       </Paragraph>
 
       <Paragraph>
-        Sin embargo, los funcionarios de la aduana holandesa dicen que las aerolíneas comerciales enviaron mucho más oro que eso. En un correo electrónico, la agencia dijo que desde 2015 hasta 2018 se hicieron un total de 310 envíos de oro desde la Zona Franca de Curazao a Schiphol, para un total de 36.086,5 kilos, por valor de casi 1.500 millones de dólares. La mayoría fue a Suiza y Turquía, dijo. Las estadísticas de los envíos procedentes de Aruba no estaban disponibles.
+        Oficiais da alfândega holandesa, no entanto, dizem que as companhias aéreas comerciais enviaram muito mais ouro do que isso. Por e-mail, a agência disse que entre 2015 e 2018 houve um total de 310 remessas que saíram da Zona Franca de Curaçao com destino a Schiphol, totalizando 36.086,5 quilos de ouro, no valor de quase 1,5 bilhão de dólares. A maioria foi para Suíça e Turquia, disseram eles. Nenhum dado sobre as remessas procedentes de Aruba estava disponível. 
       </Paragraph>
 
       <Paragraph>
-        En 2021 entrará en vigor una nueva legislación más estricta en la Unión Europea sobre el comercio del oro, que exigirá a las empresas activas en el sector que <ExternalLink href="http://ec.europa.eu/trade/policy/in-focus/conflict-minerals-regulation/index_es.htm" language="es">informen sobre el origen del metal que importan</ExternalLink>{" "}. Pero esto será difícil de cumplir porque el oro extraído de la selva venezolana a menudo se transporta a los países vecinos y se envía a través del Caribe, lo que oscurece su verdadero origen.
+        Em 2021, entrará em vigor uma nova legislação mais estrita da União Europeia sobre o comércio de ouro, que exigirá que as empresas ativas do setor <ExternalLink href="http://ec.europa.eu/trade/policy/in-focus/conflict-minerals-regulation/index_es.htm" language="es">informem a origem do metal que importam</ExternalLink>{" "}. Mas será algo difícil de cumprir, porque o ouro extraído da selva venezuelana frequentemente é levado para países vizinhos e enviado ao Caribe, disfarçando sua verdadeira origem.
       </Paragraph>
 
       <SubTitle>
-        Los minerales de conflicto más finos de Florida
+        Os minerais de conflito mais finos da Flórida
       </SubTitle>
 
       <Paragraph>
-        Con 2.200 kilómetros, la frontera colombo-venezolana es una de las más extensas y menos controladas de Latinoamérica, y el oro que pasa por ella sigue su ruta hacia uno de los mercados de oro más grandes del mundo: Miami.
+        Com 2.200 quilômetros, a fronteira entre Colômbia e Venezuela é uma das mais extensas e menos controladas da América Latina, e o ouro que passa por ela segue sua rota até um dos maiores mercados do mundo: Miami.
       </Paragraph>
 
       <Paragraph>
-        Este es el procedimiento de tráfico ilegal utilizado en el centro del sur de la Florida: Grandes cantidades de oro venezolano pasan por la frontera colombiana en auto, avión e incluso en bote o a pie, a veces con la ayuda de sindicatos criminales de Venezuela, grupos guerrilleros o militares corruptos. Los traficantes falsifican documentos para hacer creer que el oro se extrajo legalmente en Colombia. El metal se puede vender, sin ensuciarse las manos, a importadores de Miami y otros países.
+        Eis como funciona o esquema de tráfico ilegal centrado no sul da Flórida: grandes quantidades de ouro venezuelano passam pela fronteira colombiana de carro, avião, barco ou a pé, às vezes com ajuda dos sindicados criminais da Venezuela, grupos guerrilheiros ou militares corruptos. Os traficantes falsificam documentos para fazer crer que o ouro foi extraído legalmente na Colômbia. Então o metal pode ser vendido – de maneira aparentemente legal – para importadores de Miami e de outras localidades.
       </Paragraph>
 
-      <Paragraph>
-        Según un estudio de la OCDE, 
+      <Paragraph> 
         <FileLink
         href={require("documents/chapter5/OECD-Where_does_Colombian_Gold_Go_Spanish.pdf")}
         format="pdf"
-        size="2MB"> los importadores de la Florida compraron aproximadamente un tercio de las exportaciones de oro de Colombia en el 2016</FileLink>
-        .
+        size="2MB">Os importadores da Flórida compraram cerca de um terço das exportações de ouro da Colômbia em 2016</FileLink>
+        , segundo um estudo da OCDE.
       </Paragraph>
 
       <Paragraph>
-        La mayor parte del oro venezolano que llega a Estados Unidos ingresa a través del
+        A maior parte do ouro venezuelano ouro que chega aos Estados Unidos ingressa por meio do
         <StoryMedia
         media={{
           id: "image-3",
@@ -266,39 +269,39 @@ export default () => (
             credits: "Al Diaz",
             src: require("photos/chapter5/Europe02.jpg")
           }
-        }}> Aeropuerto Internacional de Miami</StoryMedia> en barras rudimentarias. Luego se vende a comerciantes del metal en distintos puntos del país, dijeron fuentes policiales, integrantes de la industria y funcionarios del régimen venezolano.
+        }}> Aeroporto Internacional de Miami</StoryMedia> em barras rudimentares. Logo é vendido a comerciantes do metal em diversos pontos do país, de acordo com fontes policiais, membros da indústria e ex-funcionários do governo venezuelano entrevistados pela reportagem.
       </Paragraph>
 
       <Paragraph>
-        El oro venezolano también se envía en jets privados a Aruba, que se encuentra a solo 30 kilómetros al norte de la costa de Venezuela. Los datos de exportación de Aruba obtenidos por nuestros reporteros muestran que World Precious Metals, con sede en Miami, recibió seis envíos de oro de la isla en 2014 y 2015. ¿El país de origen del oro en la lista? Venezuela, según los registros aduaneros de Aruba.
+        O ouro venezuelano também é transportado em jatos particulares para Aruba, que fica apenas 30 quilômetros ao norte da costa da Venezuela. Dados da exportação de Aruba obtidos por nossos repórteres mostram que a World Precious Metals, com sede em Miami, recebeu seis remessas de ouro da ilha entre 2014 e 2015. O país de origem do metal? Venezuela, de acordo com os registros aduaneiros.
       </Paragraph>
 
       <Paragraph>
-        Dos compañías con sede en Miami, una de ellas registrada como World Precious Metals y la otra como WPM Miami Inc., niegan tener alguna vinculación con esas importaciones.
+        Duas companhias sediadas em Miami, uma delas registrada como World Precious Metals e a outra como WPM Miami Inc., negam qualquer conexão com essas importações.
       </Paragraph>
 
       <Paragraph>
-        Los abogados de Vickan Bedoyan y de Harout Samra, los co-dueños de World Precious Metals involucrados actualmente en una disputa comercial, dijeron por separado que sus clientes no eran responsables de operaciones con esas características.
+        Os advogados de Vickan Bedoyan e de Harout Samra, coproprietários da World Precious Metals envolvidos atualmente em uma disputa comercial, disseram separadamente que seus clientes não eram responsáveis por tais operações.
       </Paragraph>
 
       <SubTitle>
-        Abasteciendo a las empresas más grandes
+        Abastecendo as maiores empresas
       </SubTitle>
 
       <Paragraph>
-        En abril de 2019, autoridades colombianas <ExternalLink href="https://www.fiscalia.gov.co/colombia/noticias/2-4-billones-de-pesos-fueron-blanqueados-en-operaciones-ficticias-de-compra-y-venta-de-oro/" language="es">presentaron cargos contra el exportador CIJ Gutiérrez</ExternalLink>{" "} por vender oro ilegal. Investigadores de las agencias policiales dijeron para este reportaje que la compañía obtenía metal de minas ilegales de Venezuela y Colombia.
+        Em abril de 2019, autoridades colombianas <ExternalLink href="https://www.fiscalia.gov.co/colombia/noticias/2-4-billones-de-pesos-fueron-blanqueados-en-operaciones-ficticias-de-compra-y-venta-de-oro/" language="es">acusaram o exportador CIJ Gutiérrez</ExternalLink>{" "} de vender ouro ilegal. Investigadores dos órgãos policiais colombianos disseram a nossos repórteres que a empresa obtinha metal de minas ilegais na Venezuela e na Colômbia.
       </Paragraph>
 
       <Paragraph>
-        Registros comerciales muestran que la compañía exportó ese oro a los principales distribuidores de metales preciosos que suministran a grandes compañías como Apple, IBM, General Motors, Ford, Starbucks y Verizon.
+        Registros comerciais mostram que a CIJ Gutiérrez exportou esse ouro para grandes revendedores de metais preciosos responsáveis por abastecer algumas das maiores empresas do planeta, como Apple, IBM, General Motors, Ford, Starbucks e Verizon.
       </Paragraph>
 
       <Paragraph>
-        “Mucho oro venezolano está llegando a Miami, pero [disfrazado] de oro colombiano”, dijo Iván Díaz Corzo, ex miembro de la Unidad Nacional contra la Minería Ilegal de la Policía colombiana.
+        “Muito ouro venezuelano está chegando a Miami, mas [disfarçado] de ouro colombiano”, disse Ivan Díaz Corzo, ex-integrante da Unidade Nacional contra a Mineração Ilegal da Polícia da Colômbia.
       </Paragraph>
 
       <Paragraph>
-        El año pasado, según sus propias cifras,
+        No ano passado, segundo suas próprias cifras,
         <StoryMedia
         media={{
           id: "image-4",
@@ -307,8 +310,8 @@ export default () => (
             credits: "Reuters / Leonhard Foeger - stock.adobe.com",
             src: require("photos/chapter5/Europe04.jpg")
           }
-        }}> Colombia produjo 35 toneladas de oro</StoryMedia>
-        . Pero el país exportó 45 toneladas.
+        }}> a Colômbia produziu 35 toneladas de ouro</StoryMedia>
+        . Mas o país exportou 45 toneladas.
       </Paragraph>
 
       <FullBlock withMargin>
@@ -322,55 +325,55 @@ export default () => (
       </FullBlock>
 
       <Paragraph>
-        Cuando CIJ Gutiérrez fue acusada, los investigadores descubrieron que muchas de las compañías e individuos a los que la firma indicó que había comprado oro entre 2006 y 2016 eran compañías fantasma o personas ficticias, según comunicado emitido por la Fiscalía de Colombia, llevando a más de $700 millones en oro con origen sospechoso. Varios ejecutivos de la empresa fueron detenidos y la fiscalía tomó el control de la compañía.
+        Quando CIJ Gutiérrez foi acusada, os investigadores descobriram que muitas das companhias e indivíduos de quem a empresa alega ter comprado ouro entre 2006 e 2016 eram empresas-fantasmas ou pessoas fictícias, segundo um comunicado de imprensa da Procuradoria Geral da República da Colômbia, o que levou a mais de 700 milhões de dólares em ouro com origens suspeitas. Vários executivos da empresa foram presos e o Procuradoria Geral assumiu o controle da empresa.
       </Paragraph>
 
       <Paragraph>
-        Un funcionario de la Fiscalía de Colombia, que habló bajo condición de anonimato, dijo que los investigadores creen que la mayor parte del oro de CIJ Gutiérrez provenía de Colombia, incluyendo metal extraído en operaciones mineras controladas por organizaciones delictivas, pero no descartan la posibilidad de que parte haya salido de Venezuela.
+        Um funcionário da Procuradoria Geral da Colômbia, que falou sob condição de anonimato, disse que os promotores acreditam que a maior parte do ouro do CIJ Gutiérrez veio da Colômbia, inclusive de operações de mineração controladas por grupos criminosos, mas não descartaram a possibilidade de parte do metal saiu da Venezuela.
       </Paragraph>
 
       <Paragraph>
-        El exrepresentante legal de CIJ Gutiérrez, Andrés Vieira Gutiérrez, no respondió a solicitudes de declaración sobre el caso. La interventora de la compañía nombrada por el gobierno, Ana Sauda Palomino, dijo en un correo electrónico que no ha encontrado evidencia de que la compañía haya comprado oro venezolano, pero admitió que aún no ha terminado una revisión exhaustiva de los registros de la compañía.
+      O antigo representante legal da CIJ Gutiérrez, Andrés Vieira Gutiérrez, não respondeu aos pedidos para comentar o caso. A interventora da empresa nomeada pelo governo, Ana Sauda Palomino, disse por e-mail que não encontrou evidências de que a companhia tenha comprado ouro venezuelano, mas admitiu que ainda não havia terminado a “revisão completa” dos registros.
       </Paragraph>
 
       <Paragraph>
-        Palomino también resaltó que la compañía o sus ejecutivos no han sido declarados culpables de delito alguno.
+        Palomino também ressaltou que a empresa e seus executivos ainda não haviam sido declarados culpados de qualquer delito.
       </Paragraph>
 
       <Paragraph>
-        La oficial agregó que todos los proveedores de la empresa deben cumplir las políticas y procedimientos de la compañía, que dijo se apega a los estándares del sector minero y las normas contra el lavado de dinero.
+        A funcionária acrescentou que todos os fornecedores da companhia devem seguir as políticas e procedimentos da empresa, que, segundo ela, atendem tanto aos padrões do setor de mineração quanto às diretrizes contra lavagem de dinheiro.
       </Paragraph>
 
       <Paragraph>
-        Parte del oro de CIJ Gutiérrez fue comprado por compañías estadounidenses, como Republic Metals Corp. (RMC), su único cliente en el sur de Florida y uno de los mayores refinadores del país.
+        Parte do ouro da CIJ Gutiérrez foi comprado por empresas estadunidenses, como Republic Metals Corp. (RMC), o único cliente no sul da Flórida e uma das maiores refinadoras do país.
       </Paragraph>
 
       <Paragraph>
-        Republic, que se <ExternalLink href="https://www.miamiherald.com/news/business/article223213905.html" language="en">declaró en bancarrota</ExternalLink>{" "} el año pasado, importó 12,5 millones de dólares en oro de CIJ Gutiérrez entre 2008 y 2012, según datos de la agencia aduanera de Colombia y datos proporcionados por el proveedor de datos de comercio global ImportGenius. Pero esos datos no muestran si la empresa colombiana envió oro venezolano durante ese período.
+        A RMC, que <ExternalLink href="https://www.miamiherald.com/news/business/article223213905.html" language="en">dpediu concordata</ExternalLink>{" "} no ano passado, importou 12,5 milhões de dólares em ouro da colombiana CIJ Gutiérrez entre 2008 e 2012, de acordo com a agência alfandegária da Colômbia e dados da Global Trade Data Supplier, da Import Genius. Mas esses registros não mostram se Gutiérrez estava adquirindo ouro da Venezuela durante o período.
       </Paragraph>
 
       <Paragraph>
-        En una carta dirigida a nuestros reporteros, el abogado de la familia que era dueña de Republic <ExternalLink href="https://www.miamiherald.com/news/local/crime/article229361954.html" language="en">antes de venderla este año como parte de su declaración de bancarrota</ExternalLink>{" "} dijo que “la pasada relación con Gutiérrez está más allá de la insignificancia” y amenazó con demandar por difamación si Republic es mencionada en este reportaje.
+        Em carta enviada aos nossos repórteres, um advogado da família que era dona da República <ExternalLink href="https://www.miamiherald.com/news/local/crime/article229361954.html" language="en">antes de vendê-la este ano como parte de sua declaração de falência</ExternalLink>{" "} escreveu que “o envolvimento anterior da empresa com Gutiérrez é insignificante” e ameaçou processar por difamação se a República fosse mencionada nesta reportagem.
       </Paragraph>
 
       <Paragraph>
-        “Hace más de siete años, RMC recibió tres envíos de prueba de Gutiérrez totalizando menos de 12,5 millones de dólares”, escribió el abogado J. Erik Connolly. “En base a esos envíos de prueba, RMC decidió no entrar en una relación comercial con Gutiérrez o escoger a Gutiérrez como proveedor. La familia implementó programas de controles de primera línea en RMC para eliminar la posibilidad de recibir oro de fuentes indebidas. Los deberían felicitar por sus esfuerzos”.
+        “Há mais de sete anos, a RMC recebeu três carregamentos de teste de Gutiérrez, totalizando menos de 12,5 milhões de dólares”, escreveu o advogado J. Erik Connolly. “Com base nessas remessas de testes, a RMC decidiu não entrar em uma relação comercial com Gutiérrez como fornecedora. A família implementou programas de controle de primeira linha na RMC para eliminar a possibilidade de receber ouro de fontes indevidas. Eles deveriam ser elogiados por seus esforços.”
       </Paragraph>
 
       <Paragraph>
-        En años más recientes, CIJ Gutiérrez ha vendido cantidades mucho mayores de oro a la refinería suiza Argor-Heraeus, y a la de dueños japoneses Asahi, que tiene instalaciones en Salt Lake City, Utah, y que recientemente compró las instalaciones de Republic en Miami.
+        Nos últimos anos, a CIJ Gutiérrez venceu quantidades muito maiores de ouro à refinaria suíça Argor-Heraeus e à japonesa Asahi, que tem instalações em Salt Lake City, em Utah, nos Estados Unidos, e que recentemente adquiriu as instalações da Republic em Miami.
       </Paragraph>
 
       <Paragraph>
-        Argor-Heraeus, que vende oro a gigantes estadounidenses como Apple, IBM y General Motors, entre otras compañías, compró oro de CIJ Gutiérrez entre 2008 y 2018 por 2.400 millones de dólares, demuestran registros aduaneros.
+        A Argor-Heraeus, que vende ouro para gigantes estadunidenses como Apple, IBM e General Motors, entre outras companhias, comprou ouro da CIJ Gutiérrez entre 2008 e 2018 no valor de 2,4 bilhões de dólares, segundo registros aduaneiros.
       </Paragraph>
 
       <Paragraph>
-        Asahi, cuyos clientes incluyen Ford, Starbucks y Verizon, compró 856 millones de dólares a la firma colombiana entre 2015 y 2018, según los mismos registros.
+        Asahi, cujos clientes incluem Ford, Starbucks e Verizon, comprou 856 milhões de dólares em ouro da companhia colombiana entre 2015 e 2018, segundo os mesmos registros.
       </Paragraph>
 
       <Paragraph>
-        Asahi declinó pronunciarse sobre sus negocios con CIJ Gutiérrez. Argor-Heraeus dijo en un comunicado que estaba “firmemente comprometido con su responsabilidad de respetar los más altos estándares en su cadena de suministros”, pero no contestó preguntas específicas sobre sus negocios con la compañía colombiana.
+        A Asahi não quis se pronunciar sobre seus negócios com a CIJ Gutiérrez. A Argor-Heraeus, por sua vez, disse em comunicado que está “fortemente comprometida com sua responsabilidade de manter os mais altos padrões em toda a cadeia de fornecimento”, mas não respondeu às perguntas específicas sobre seus negócios com a empresa colombiana.
       </Paragraph>
 
       <FullBlock withMargin>
@@ -384,35 +387,35 @@ export default () => (
       </FullBlock>
 
       <Paragraph>
-        Ford dijo en un comunicado: “No estábamos al tanto de este tema previamente, y lo estamos investigando”.
+        Um porta-voz da Ford disse em comunicado: “Não estávamos cientes deste problema anteriormente, e estamos investigando."
       </Paragraph>
 
       <Paragraph>
-        Agregó que la compañía toma sus “compromisos éticos y de sostenibilidad seriamente” y que “está comprometida con llevar los negocios de manera correcta y en obediencia con las leyes locales”.
+        Ele acrescentou que a companhia leva os “compromissos de sustentabilidade e ética a sério” e está “comprometida em fazer negócios da maneira correta e em conformidade com as leis locais”.
       </Paragraph>
 
       <Paragraph>
-        GM, por su parte, dijo que prohíbe a sus proveedores participar en la contratación de menores o en prácticas de corrupción.
+        A GM disse que proíbe os fornecedores de empregar mão-de-obra infantil, abusar de funcionários ou se envolver em práticas comerciais corruptas.
       </Paragraph>
 
       <Paragraph>
-        “Al escoger hacer negocios con GM, nuestros proveedores aceptan nuestros términos y condiciones”, dijo la compañía en un pronunciamiento por escrito, “y en el caso de nuestros proveedores más grandes también esperamos que certifiquen anualmente el cumplimiento de estas cláusulas en nuestro contrato. Nosotros hacemos seguimiento de la situación con los proveedores que no confirman el cumplimiento”.
+        “Ao optar por fazer negócios com a GM, nossos fornecedores aceitam nossos termos e condições”, disse a empresa em comunicado, “e quanto aos nossos maiores fornecedores também esperamos que eles certifiquem anualmente o cumprimento dessas cláusulas de nosso contrato. Acompanhamos os fornecedores que não confirmam o cumprimento”.
       </Paragraph>
 
       <Paragraph>
-        Apple señaló que el contenido de oro de sus iPhones es de aproximadamente una centésima parte de un gramo, en promedio.
+        A Apple destacou que o conteúdo de ouro de seus iPhones é cerca de um centésimo de grama, em média.
       </Paragraph>
 
       <Paragraph>
-        “Siguiendo una revisión exhaustiva y auditorías de terceros, no estamos al tanto de que el oro de Venezuela llegue a nuestra cadena de suministro”, dijo la compañía en un comunicado. “Cada año, publicamos una lista completa de nuestros refinadores de oro, 100% de los cuales participan en auditorías de terceros. Si un refinador no puede o no está dispuesto a cumplir con nuestros estándares, será eliminado de nuestra cadena de suministro. Desde 2015, hemos dejado de trabajar con 60 refinadores de oro por este motivo”.
+        “Após uma revisão exaustiva e auditorias de terceiros, não estamos cientes de que ouro da Venezuela chegue à nossa cadeira de fornecimento”, disse a empresa em comunicado. “Todos os anos publicamos a lista completa de nossos refinadores de ouro, 100% dos quais participam de auditorias de terceiros. Se um refinador não pode ou não está disposto a cumprir com nossos padrões, será eliminado de nossa cadeira de fornecimento. Desde 2015, deixamos de trabalhar com 60 refinadores de ouro por esse motivo.”
       </Paragraph>
 
       <Paragraph>
-        Las otras compañías que compraron oro a Asahi y Argor-Heraeus no respondieron a solicitudes de declaración.
+        LAs outras empresas que compraram ouro da Asahi e da Argor-Heraeus não responderam aos pedidos de comentários.
       </Paragraph>
 
       <Paragraph>
-        “Aquí hay mucha gente dispuesta a comprar oro”, dijo un funcionario policial estadounidense al tanto de las investigaciones del contrabando del metal, quien no estaba autorizado para hablar del caso públicamente. “[Los compradores] miran los papeles [de procedencia] pero en realidad no verifican. Si no quieres saber, no lo vas a saber.”
+        “Aqui há muita gente disposta a comprar ouro”, disse um funcionário policial dos Estados Unidos a par das investigações do contrabando de metal, que não estava autorizado a falar do caso publicamente. “[Os compradores] olham os documentos [de procedência], mas na realidade não os verificam. Se não querem saber, não vão saber.” 
       </Paragraph>
     </Container>
   </article>

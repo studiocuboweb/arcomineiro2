@@ -18,10 +18,10 @@ import Author from "components/blocks/Author";
 export default () => (
   <article>
     <Helmet>
-      <title>Fiebre De La Selva | Arco Minero</title>
+      <title>Febre da Selva | Venezuela, o paraíso dos contrabandi$tas</title>
     </Helmet>
     <Container>
-      <Title as="h2">La fiebre del oro en la Amazonía aterroriza a tierras indígenas</Title>
+      <Title as="h2">Febre do ouro na Amazônia aterroriza terras indígenas</Title>
       <Author>
         <FormattedMessage
           id="general.authorChapter3"
@@ -30,12 +30,12 @@ export default () => (
       </Author>
       <Note>
         <p>
-          Las comunidades indígenas están expuestas a la violencia y prácticas mineras contaminantes en las zonas fronterizas del sur de Colombia y Venezuela. En la Amazonía, los ríos son las autopistas de la selva y brindan a los traficantes una excelente oportunidad para transportar sus mercancías.
+          Comunidades indígenas estão expostas a violência e práticas de contaminação mineral nas zonas fronteiriças do sul da Colômbia e da Venezuela. Na Amazônia, os rios são as rodovias da floresta e oferecem aos traficantes uma excelente oportunidade para transportar suas mercadorias.
         </p>
       </Note>
 
       <Paragraph>
-        Un comerciante está en la entrada de una pequeña embarcación repleta de alimentos y productos enlatados, un supermercado flotante, mientras de
+        Um comerciante está no convés de um pequeno barco repleto de alimentos e produtos enlatados – um supermercado flutuante – enquanto
         <StoryMedia
         media={{
         id: "video-1",
@@ -43,20 +43,20 @@ export default () => (
         data: {
           id: "w7STTabEpLM"
         }
-        }}> unos altoparlantes sale música ranchera a todo volumen</StoryMedia>
+        }}> música <i>ranchera</i> explode nas caixas de som</StoryMedia>
         .
       </Paragraph>
 
       <Paragraph>
-        El hombre mira el impresionante pero apacible río Orinoco, que separa su negocio en la villa de Amanavén, Colombia, de la vecina Venezuela, visible en la otra orilla.
+        Seus olhos embriagados observam o enorme porém lento rio Orinoco, que separa seu negócio no vilarejo de Amanavén, na Colômbia, da vizinha Venezuela, visível do outro lado da água. 
       </Paragraph>
 
       <Paragraph>
-        ¿Sabe algo del comercio de oro local?
+        Ele sabe alguma coisa sobre o comércio local de ouro?
       </Paragraph>
 
       <Paragraph>
-        “Sí, aquí se recibe”, reconoce, mientras abre su tercera cerveza con parsimonia.
+        “Sim, é por aqui que o ouro entra”, diz enquanto cuidadosamente abre sua terceira cerveja.
       </Paragraph>
 
       <Paragraph>
@@ -83,19 +83,19 @@ export default () => (
             ]
           }
         }}
-      >Los alimentos básicos que él y otros botes-tienda ofrecen</StoryMedia> se venden principalmente a personas que se abastecen antes de la siguiente curva del Orinoco hacia Venezuela.
+      >A comida e os suprimentos que ele e alguns outros barcos vendem</StoryMedia> são principalmente para as pessoas estocarem antes de seguirem a curva do rio para a Venezuela.
       </Paragraph>
 
       <Paragraph>
-        Su destino es las minas de Yapacana, en la Amazonia venezolana, esparcidas en un complejo montañoso y en un parque nacional con el mismo nombre.
+        Seu destino? As minas de ouro de Yapacana na Amazônia venezuelana, espalhadas por um complexo montanhoso e um parque nacional de mesmo nome. 
       </Paragraph>
 
       <Paragraph>
-        Allí, en la selva húmeda, entre 5.000 y 10.000 mineros buscan oro. Pero no están solos. Dos grupos guerrilleros colombianos y elementos corruptos de la Guardia Nacional de Venezuela controlan la zona y recaudan grandes cantidades del metal precioso.
+        Lá, em meio à umidade da floresta, há de 5 mil a 10 mil mineiros buscando ouro. Mas eles não estão sozinhos. Dois grupos guerrilheiros da Colômbia e agentes corruptos da Guarda Nacional da Venezuela também estão no controle e coletam grandes quantidades do metal precioso.
       </Paragraph>
 
       <Paragraph>
-        En un bote aledaño, el dueño quiere mostrar parte del oro sacado de las minas. Desaparece detrás de una cortina y regresa con 
+        Em um barco vizinho, o dono quer exibir um pouco do ouro retirado das minas. Ele desaparece atrás de uma cortina e retorna com
         <StoryMedia
         media={{
           id: "image-1",
@@ -104,24 +104,24 @@ export default () => (
             credits: "Bram Ebus",
             src: require("photos/chapter3/Inirida05.jpg")
           }
-        }}> 118 gramos de oro</StoryMedia>
-        , que tienen un valor de unos 6,000 dólares.
+        }}> 118 gramas de metal</StoryMedia>
+        , que valem 6 mil dólares.
       </Paragraph>
 
       <Paragraph>
-        “Esto es para los militares del otro lado”, afirma, refiriéndose a la Guardia Nacional de Venezuela. “Es para pagar el ‘impuesto’”, dijo, refiriéndose al pago de la extorsión.
+        “Isso é para os militares do outro lado”, diz ele, referindo-se à Guarda Nacional da Venezuela. É para pagar o que chama de “imposto” – um pagamento de extorsão. 
       </Paragraph>
 
       <Paragraph>
-        Con la complicidad de los cuerpos de seguridad de Venezuela, el protegido parque Yapacana es destruido por las prácticas mineras contaminantes y agresivas. Los ríos de la zona son dragados por los mineros, que también usan mercurio, que envenena el agua potable de la región.
+        Com a cumplicidade do aparato judiciário venezuelano, o parque Yapacana, protegido ambientalmente, está sendo destruído pela mineração ilegal de ouro. Além disso, dragas aram os rios ao redor do parque e o mercúrio tóxico – usado para dar liga aos flocos de ouro – está envenenando as reservas de água.
       </Paragraph>
 
       <Paragraph>
-        Un estudio de 2017 identificó que las comunidades que viven a lo largo de los ríos Atabapo, Guainía e Inírida en la parte colombiana hay cerca de <ExternalLink href="https://www.eltiempo.com/vida/medio-ambiente/poblacion-de-guania-tiene-niveles-de-mercurio-mas-altos-que-el-promedio-129712" language="es">60 veces más el nivel máximo de mercurio</ExternalLink>{" "} que una persona puede tener en sangre, según la Organización Mundial de la Salud. Las aguas de estos ríos abastecen a poblaciones del sur de Colombia, Venezuela y el norte de Brasil.
+        Um estudo de 2017 descobriu que as comunidades que vivem nos rios Atabapo, Guainía e Inírida, na Colômbia, perto da mina venezuelana, tinham cerca de <ExternalLink href="https://www.eltiempo.com/vida/medio-ambiente/poblacion-de-guania-tiene-niveles-de-mercurio-mas-altos-que-el-promedio-129712" language="es">60 vezes o nível máximo seguro de mercúrio</ExternalLink>{" "} recomendado pela Organização Mundial de Saúde. Esses três rios fornecem grande parte da água utilizada pelas populações do sul da Colômbia, Venezuela e norte do Brasil.
       </Paragraph>
 
       <Paragraph>
-        El pequeño pueblo a las orillas del río Amanavén, Departamento de Vichada, está a 45 minutos en bote de Puerto Inírida, la capital del Departamento de Guainía en Colombia.
+        Cerca de 45 minutos de barco a sudeste de Amanavén fica Puerto Inírida, a capital do departamento Guainía da Colômbia.
         <StoryMedia
         media={{
         id: "video-2",
@@ -129,15 +129,15 @@ export default () => (
         data: {
           id: "9AiAmruntJ8"
         }
-        }}> Puerto Inírida es un pueblo ubicado en la selva rodeado de agua</StoryMedia> en una zona llamada Estrella Fluvial del Oriente, donde nacen varios ríos. Cientos de afluentes alimentan los nueve principales ríos de la región que serpentean por la densa selva tropical del departamento, que sirve de autopista para traficantes de todo tipo.
+        }}> A área ao redor é chamada Estrella Fluvial do Oriente, onde nascem vários rios</StoryMedia>. Centenas de afluentes alimentam os nove principais rios da região que serpenteiam através da densa floresta tropical do departamento, funcionando como estradas da selva e oferecendo passagem segura para traficantes de todos os tipos.
       </Paragraph>
 
       <Paragraph>
-        Sumado a los 20.000 habitantes de la ciudad, unos 5.000 son venezolanos, dicen autoridades locales. Los migrantes y refugiados quedan atrapados en la ciudad selvática, que constituye un cuello de botella, ya que no existen buenos caminos que conecten con las zonas del interior. En las afueras del poblado, muchos viven en chozas hechas con palos y láminas de metal o plástico.
+        Além dos 20 mil habitantes da cidade, cerca de 5 mil venezuelanos vivem no local, disseram autoridades locais. Os migrantes e refugiados estão presos na cidade da selva – que é um gargalo, já que não há conexões rodoviárias. Nos arredores da cidade, muitas pessoas vivem em barracos feitos de folhas de plástico, varas de bambu e pedaços de estanho.
       </Paragraph>
 
       <Paragraph>
-        Las pocas vías pavimentadas están llenas de huecos y dominadas por una cantidad injustificada de
+        As poucas estradas pavimentadas de Inírida estão cheias de buracos e dominadas por uma quantidade injustificável de
         <StoryMedia
         media={{
         id: "video-3",
@@ -145,20 +145,20 @@ export default () => (
         data: {
           id: "6kYhEF6n3nE"
         }
-        }}> triciclos motorizados usados como taxi</StoryMedia>
-        , llamados ratones, que pululan por todas partes y tocan corneta a todo dar mientras buscan pasajeros. En medio de la caótica y ruidosa escena, los mineros, llegan aturdidos tras semanas o meses en las selvas venezolanas.
+        }}> triciclos usados como moto-táxis</StoryMedia>
+        e chamados de <i>ratones</i>, que zumbem por aí e buzinam agressivamente enquanto caçam passageiros. Em meio à cena caótica e barulhenta, os mineiros, parecendo atordoados depois de semanas ou meses de labuta nas selvas da Venezuela, correm para a cidade.  
       </Paragraph>
 
       <SubTitle>
-        La economía subterránea de Inírida
+        A economia subterrânea de Inírida
       </SubTitle>
 
       <Paragraph>
-        Un indígena colombiano de unos 50 años llega a una de las llamadas compraventas, pequeñas tiendas que comercializan oro, sin cartel y con ventanas muy oscuras.
+        Um indígena colombiano de 50 anos, vestindo um boné de beisebol, tropeça em uma das muitas <i>compraventas</i> que compram e vendem ouro.
       </Paragraph>
 
       <Paragraph>
-        Después de ocho días de trabajo duro, se ha quedado con
+        Após oito dias de trabalho árduo, ele tem
         <StoryMedia
         media={{
           id: "image-2",
@@ -167,33 +167,33 @@ export default () => (
             credits: "Bram Ebus",
             src: require("photos/chapter3/Inirida06.jpg")
           }
-        }}> 64 gramos de oro</StoryMedia>
-        . Pero al principio tenía mucho más.
+        }}> 64 gramas do metal</StoryMedia>
+        . Mas começou com muito mais.
       </Paragraph>
 
       <Paragraph>
-        El indígena comienza a calcular cuánto oro perdió pagando a varios grupos armados y militares corruptos en sus respectivos puntos de control a lo largo del río:
+        O homem percorre uma lista de grupos armados e oficiais militares corruptos a quem teve que pagar nos postos de controle fluviais entre as minas da Venezuela e Puerto Inírida:
       </Paragraph>
 
       <Paragraph>
-        <li>5 gramos, unos 230 dólares a valores del mercado internacional, para el wachiman, el vigilante que observa a los mineros e informa a la Guardia Nacional o las guerrillas</li>
-        <li>5 gramos para la comunidad indígena cercana a las minas</li>
-        <li>5 gramos para las guerrillas</li>
-        <li>3 gramos para la Guardia Nacional en un punto de control cerca de Santa Bárbara</li>
-        <li>1 gramo para la Marina de Venezuela</li>
-        <li>0.5 gramo para la municipalidad de Atabapo</li>
+        <li>Cinco gramas, vale 230 dólares americanos no mercado internacional, para os <i>wachiman</i> – vigilantes que espiam os mineiros e os reportam para a Guarda Nacional ou guerrilhas;</li>
+        <li>Cinco gramas para uma comunidade indígena perto das minas;</li>
+        <li>Cinco gramas para as “guerrilhas”;</li>
+        <li>Três gramas para a Guarda Nacional em um posto de controle perto de Santa Barbara;</li>
+        <li>Um grama para a Marinha da Venezuela;</li>
+        <li>Meio grama para o município de Atabapo.</li>
       </Paragraph>
 
       <Paragraph>
-        Además de esos 19,5 gramos pagados en “impuestos”, también tuvo que pagar sus gastos de comida y transporte.
+        Além daqueles 19,5 gramas pagos em “impostos”, ele também precisava pagar por comida e transporte.
       </Paragraph>
 
       <Paragraph>
-        Pero pagar estos peajes es mejor que la alternativa. Una de las pocas formas de evitarlos es hacer un viaje a pie de cuatro días a través de la selva venezolana, y después un recorrido de tres días en una embarcación.
+        Mas os pedágios podem ser melhores do que a alternativa. Uma das poucas maneiras de evitá-los requer uma caminhada de quatro dias pela selva venezuelana e um percurso de barco de três dias.
       </Paragraph>
 
       <Paragraph>
-        El oro de Venezuela se filtra a lo largo de toda la frontera meridional. El Paujil es un área al lado de Puerto Inírida que se menciona mucho como punto de entrada del contrabando de bienes, pero Puerto Inírida cuenta con muchos más
+        O ouro venezuelano escorre por toda a fronteira sul. Paujil, ao lado de Puerto Inírida, é uma área frequentemente mencionada como ponto de entrada para mercadorias contrabandeadas, mas Puerto Inírida conta com
         <StoryMedia
         media={{
         id: "video-4",
@@ -201,44 +201,44 @@ export default () => (
         data: {
           id: "HR2oc-VaUPo"
         }
-        }}> muelles informales</StoryMedia>
+        }}> muitos portos informais</StoryMedia>
         .
       </Paragraph>
 
       <Paragraph>
-        Las callecitas del pueblo desaparecen de repente en uno de los ríos y se convierten en puntos de atraque para botes de madera angostos, lo que dificulta el control del comercio. Pero los lugareños dicen que la policía se aprovecha de los mineros. El propietario de una compraventa dijo que la policía siempre está “decomisando oro”, pero en realidad se lo roba. “Es una injusticia”, afirmó.
+        Ruelas desaparecem subitamente em um dos rios e se tornam pontos de atracação, onde estreitos barcos de madeira podem deslizar com sua carga, o que torna o comércio muito difícil de controlar. Mas locais afirmaram que a polícia persegue os mineiros. O dono de uma loja de penhores disse que a polícia está sempre “confiscando” ouro, mas na verdade está roubando. “Isso é uma injustiça”, disse ele.
       </Paragraph>
 
       <Paragraph>
-        Los mineros venden su oro en las compraventas que hay en toda la ciudad. En una de las tiendas, con paredes blancas y sillas plásticas, una mujer amamanta a su bebé mientras pesan oro frente a ella en el escritorio de la oficina.
+        Mineiros vendem seu ouro em <i>compraventas</i> – que geralmente são lojas não marcadas com janelas coloridas –, que podem ser encontradas por toda a cidade. Em uma loja anônima com paredes brancas e cadeiras de plástico, uma mulher amamentava seu bebê enquanto outras pessoas esperavam que seu ouro fosse pesado.
       </Paragraph>
 
       <Paragraph>
-        El dueño del lugar, Bryan, quien pidió no ser identificado, está sentado al fondo. Explica que compra oro legalmente de los llamados barequeros colombianos registrados, mineros artesanales que emplean métodos rudimentarios y pueden vender hasta 420 gramos al año. Bryan tiene unos 200 barequeros inscritos en sus libros, pero espera llegar a 500.
+        O proprietário da <i>compraventa</i>, Bryan, que pediu para permanecer anônimo, senta-se em um quarto dos fundos, onde organiza sua papelada. Ele explicou que compra legalmente ouro de colombianos <i>barequeros</i> – mineiros artesanais que empregam métodos rudimentares e estão autorizados a vender até 420 gramas por ano. Ele tem cerca de 200 <i>barequeros</i> registrados em seus livros e espera inscrever outros 300.
       </Paragraph>
 
       <Paragraph>
-        Al inscribir cientos de barequeros, sino miles, vendedores de oro como Bryan pueden justificar la venta de grandes cantidades de oro. Pero el sistema está totalmente corrupto.
+        Registrando centenas e até milhares de pequenos garimpeiros, vendedores de ouro como Bryan podem justificar grandes quantidades de vendas de ouro. Mas o sistema está repleto de fraudes. 
       </Paragraph>
 
       <Paragraph>
-        Muchas veces, los documentos de identidad que se usan para justificar un cargamento de oro son de una persona fallecida, de camareros o empleados de un estacionamiento que los alquilan por dinero, dice un oficial de inteligencia colombiano.
+        As identidades usadas para justificar uma mineração muitas vezes pertencem a pessoas falecidas, ou garçons e atendentes de garagem que emprestam seus documentos em troca de dinheiro, informou um membro da inteligência colombiana.
       </Paragraph>
 
       <Paragraph>
-        Otras veces el oro venezolano se registra bajo un título de minería colombiano, al menos en el papel. En realidad, la supuesta minera es “un campo lleno de vacas”, dice otro oficial de inteligencia colombiano, sobre la existencia de estas minas fantasma que reportan una producción falsa.
+        Em outros casos, o ouro venezuelano é registrado sob um título de mineração colombiano, pelo menos no papel. Na realidade, a suposta mina é um “campo cheio de vacas”, ri outro funcionário da inteligência colombiana sobre a existência de minas fantasmas.
       </Paragraph>
 
       <Paragraph>
-        Aun cuando el oro provenga de Venezuela, si en papel dice que proviene de una mina en Colombia, se pagan regalías al Estado.
+        Mesmo que o ouro venha da Venezuela, se no papel estiver que o metal vem de uma mina da Colômbia, os royalties são pagos ao Estado. 
       </Paragraph>
 
       <Paragraph>
-        Bryan no puede garantizar que el oro que llega a su tienda sea venezolano pero dice que la mayor parte del metal que compra viene de minas colombianas, que por lo general lleva a la capital, Bogotá, para venderlo a los mayoristas. 
+        Bryan não pode garantir que nenhum ouro venezuelano entre em sua loja, mas ele diz que a maior parte de seu metal vem das minas colombianas. Ele costuma levar o ouro para Bogotá para vendê-lo a grandes comerciantes.
       </Paragraph>
 
       <Paragraph>
-        Nadie en el
+        Ninguém no 
         <StoryMedia
         media={{
           id: "galery-2",
@@ -256,24 +256,24 @@ export default () => (
             ]
           }
         }}
-      > aeropuerto local le causa problemas ni le revisa el oro</StoryMedia>
-      , dijo. Bryan lleva el oro en una mochila y se cambia de camisa en el avión. Le preocupa que alguien en Bogotá reciba información de lo que viste y le robe el oro.
+      > aeroporto local lhe causa problemas ou verifica seu ouro</StoryMedia>
+      , ele disse. Bryan carrega o metal em uma mochila e troca sua camisa no avião. Ele teme que alguém em Bogotá tenha sido avisado sobre o que estava vestindo e tente roubar sua carga.
       </Paragraph>
 
       <Paragraph>
-        Otro hombre que participa en estas actividades, Juan Pablo, quien no quiso dar su nombre verdadero, se ríe a carcajadas cuando le preguntan si Bryan vende oro colombiano.
+        Outro homem envolvido no circuito de ouro, Juan Pablo, que também não quis dar o seu nome verdadeiro, ri quando perguntado se Bryan vende ouro colombiano. 
       </Paragraph>
 
       <Paragraph>
-        “Es una gran mentira”, afirma. Y un representante de la aduana en Puerto Inírida concuerda en que la mayor parte del oro que pasa por allí proviene de Venezuela.
+        “Isso é uma grande mentira”, diz ele, rindo. E um representante da alfândega em Puerto Inírida concorda que a maior parte do ouro que passa pela cidade vem da Venezuela.
       </Paragraph>
 
       <Paragraph>
-        “El submundo del oro mantiene la economía”, dijo.
+        “O submundo do ouro sustenta a economia”, disse ele. 
       </Paragraph>
 
       <Paragraph>
-        Aunque algunas
+        Enquanto alguns proprietários de
         <StoryMedia
         media={{
           id: "image-3",
@@ -282,23 +282,23 @@ export default () => (
             credits: "Bram Ebus",
             src: require("photos/chapter3/Inirida07.jpg")
           }
-        }}> compraventas</StoryMedia> “legalizan” su oro con documentos que muestran que proviene de operaciones en Colombia, no todas lo hacen, dijo Juan Pablo.
+        }}> casas de penhores</StoryMedia> “legalizam” seu ouro, fornecendo documentos que mostram que o metal veio de operações colombianas, nem todos enfrentam o problema, disse Juan Pablo.
       </Paragraph>
 
       <Paragraph>
-        “Sacan el oro, pero ilegalmente”, dijo, explicando que los traficantes varones ocultan el oro junto a los testículos, mientras que las mujeres se lo colocan entre los senos o en su ropa interior. 
+        “Eles tiram o ouro, mas ilegalmente”, disse ele, explicando que os traficantes homens escondem o ouro perto de seus testículos, enquanto as mulheres o colocam entre os seios ou nas roupas íntimas. 
       </Paragraph>
 
       <Paragraph>
-        Los márgenes de ganancia son entre uno o dos dólares por gramo, aproximadamente. Un dueño de una tienda de empeño explica que cuando se envía a un traficante a Bogotá con una cantidad superior a un kilo de oro, el viaje vale la pena. Un transportista de oro puede ganar unos 188 dólares por llevar un kilogramo de oro a la capital.
+        As margens de lucro estão entre um ou dois dólares americanos a cada grama. Se um traficante for enviado com ouro para Bogotá, explica um proprietário de uma loja de penhores, leva quantidades acima de um quilo para fazer a viagem valer a pena. Um mensageiro ou contrabandista pode ganhar cerca de 188 dólares americanos por carregar um quilo de ouro para a capital. 
       </Paragraph>
 
       <Paragraph>
-        Para las autoridades es difícil rastrear el origen del oro. Los exportadores muchas veces compran oro a docenas de empresas de maletín a las que es muy difícil, casi imposible, seguirles la pista. 
+        Para as autoridades, é complicado traçar as origens do ouro. Os exportadores muitas vezes compram o metal de dezenas de empresas de fachada que são difíceis, se não impossíveis, de rastrear.
       </Paragraph>
 
       <Paragraph>
-        “Después que el oro se convierte en lingotes, es muy difícil conocer su origen”, afirma un representante de la aduana de Colombia.
+       “Depois que o ouro é transformado em barra, depois que é extraído, fica muito difícil saber de onde ele veio”, diz um representante da agência alfandegária da Colômbia.
       </Paragraph>
 
       <SubTitle>
@@ -306,23 +306,23 @@ export default () => (
       </SubTitle>
 
       <Paragraph>
-        La selva de Colombia que bordea Venezuela es una de las regiones más pobres del país, lo que ha obligado históricamente a las comunidades de la región a depender de actividades ilícitas para sobrevivir. La falta de oportunidades ha generado el trabajo pendular de sus habitantes, entre la caza furtiva de animales salvajes por su piel y dentadura, la minería ilegal y el cultivo de coca para producir cocaína.
+        A selva da Colômbia que faz fronteira com a Venezuela é uma das regiões mais pobres e negligenciadas do país, o que historicamente obrigou as comunidades da região a depender de atividades ilícitas para sobreviver. A falta de oportunidades levou os habitantes a alternarem suas atividades entre a caça furtiva de animais silvestres por sua pele e dentes, mineração ilegal e cultivo de coca para produzir cocaína. 
       </Paragraph>
 
       <Paragraph>
-        Debido al elevado desempleo en Guainía, sus habitantes, principalmente indígenas, buscan trabajo en las minas de Venezuela. Un líder indígena dijo que en Venezuela es aún peor. En una comunidad, Caño Grulla, solo quedan 30 de 500 familias. El resto se ha ido a las minas.
+        Por causa do alto desemprego em Guainía, os habitantes, em grande parte indígenas, procuram trabalho nas minas venezuelanas. Um líder indígena disse que a situação na Venezuela é ainda pior. Em uma comunidade, Caño Grulla, apenas 30 das cerca de 500 famílias permaneceram no local. Todos os outros foram para as minas.
       </Paragraph>
       
       <Paragraph>
-        A medida que los jóvenes dejan sus familias para irse a buscar oro, el índice de deserción escolar se ha disparado en la región, dijo Luis Enrique Amado Prieto, director de Pastoral Social Regional Suroriente Colombiano.
+        Enquanto os jovens deixam suas famílias para procurar ouro, as taxas de deserção escolar na região estão disparando, de acordo com Luis Enrique Amado Prieto, diretor da Seção de Assistência Social e Pastoral no sudeste da Colômbia.
       </Paragraph>
 
       <Paragraph>
-        El encanto del oro también está destrozando la vida tradicional comunitaria. La violencia doméstica causada por el abuso del alcohol está en aumento, al igual que la malaria, que está muy extendida en las minas y se ha convertido en una epidemia en estas comunidades.
+        O fascínio pelo ouro também está dilacerando a vida comunitária tradicional. A violência doméstica causada pelo abuso de álcool está aumentando, assim como a malária, que é excessiva nas minas e se tornou uma epidemia nessas comunidades.
       </Paragraph>
 
       <Paragraph>
-        A medida que la minería crece, la supervivencia de las culturas indígenas queda amenazada, dijo
+        À medida que a fronteira da mineração se expande, a sobrevivência da cultura indígena está ameaçada, diz
         <StoryMedia
         media={{
           id: "image-4",
@@ -331,87 +331,86 @@ export default () => (
             credits: "Bram Ebus",
             src: require("photos/chapter3/Inirida11.jpg")
           }
-        }}> Plinio Yavinape, un líder indígena ya mayor</StoryMedia> que vive cerca de Puerto Inírida.
+        }}> Plinio Yavinape, um indígena</StoryMedia> que mora perto de Puerto Inírida.
       </Paragraph>
 
       <Paragraph>
-        “Puede ser fatal para la comunidad”, dijo de la fiebre del oro. “Por poco dinero se matan entre sí”.
+        “Pode ser fatal para uma comunidade”, disse ele sobre a corrida do ouro. “Por um pouco de dinheiro, as pessoas matando umas às outras.”
       </Paragraph>
 
       <Paragraph>
-        Se dice que 
         <FileLink
         href={require("documents/chapter3/SOS_Orinoco-Gold_Mining_Activity_in_Yapacana_National_Park_Spanish.pdf")}
         format="pdf"
-        size="11.8MB"> a los maestros se les paga con oro</FileLink> en las escuelas que se encuentran entre las minas de Yapacana. Según Juan Alberto Sánchez, coordinador de seguridad y coexistencia ciudadana en Puerto Inírida, alrededor de 3.000 colombianos trabajan actualmente en las minas de Yapacana, además de miles de mineros venezolanos.
+        size="11.8MB">Os professores são pagos em ouro</FileLink> nas escolas montadas entre as minas de Yapacana. Segundo Juan Alberto Sánchez, coordenador de segurança e convivência cidadã em Puerto Inírida, cerca de 3 mil colombianos trabalham atualmente nas minas de Yapacana, além de milhares de mineiros venezuelanos.
       </Paragraph>
 
       <SubTitle>
-        Rebeldes colombianos en la Amazonía
+        Rebeldes colombianos na Amazônia
       </SubTitle>
 
       <Paragraph>
-        Sentado en su oficina, uno de los altos oficiales militares en el Departamento de Guainía tiene una placa con su nombre en su mesa y dos grandes banderas detrás de sus espaldas. Una pieza de Beethoven se escucha de su computadora portátil.
+        Sentado em seu gabinete, um dos altos funcionários do exército do departamento de Guainía tem uma placa de identificação em sua mesa e duas grandes bandeiras atrás dele. Ele está ouvindo uma música de Beethoven no YouTube.
       </Paragraph>
 
       <Paragraph>
-        “Estamos combatiendo a bandidos y terroristas”, dice, refiriéndose a los guerrilleros colombianos que operan en la zona.
+        “Estamos trabalhando contra os bandidos e terroristas”, diz ele, referindo-se aos guerrilheiros colombianos que operam na área.
       </Paragraph>
 
       <Paragraph>
-        Indica que sus órdenes son combatir a un grupo llamado Acacio Medina, activo en las minas de Venezuela y Colombia, formado por ex miembros de las FARC.
+        Ele diz que suas ordens são para atingir um grupo chamado Acacio Medina, que está ativo nas minas da Venezuela e da Colômbia e é formado por ex-membros das agora extintas Forças Armadas Revolucionárias da Colômbia (FARC).
       </Paragraph>
 
       <Paragraph>
-        Hasta el momento no ha habido enfrentamientos. “No permiten que los provoquen”, dice.
+        Até agora não houve confrontos. “Eles não se deixam provocar”, diz ele.
       </Paragraph>
 
       <Paragraph>
-        Las FARC fueron el grupo guerrillero más antiguo y grande de las Américas, hasta que firmaron un acuerdo de paz en 2016 y se desmovilizaron en 2017. Pero no todos han dejado las armas y grupos “disidentes” han formado grupos como el Acacio Medina, liderado por un guerrillero llamado “Jhon 40”. El grupo opera proyectos de minería ilegal en el estado Amazonas, Venezuela.
+        As FARC eram o maior e mais antigo grupo guerrilheiro do hemisfério até assinarem um acordo de paz em 2016 e se desmobilizarem em 2017. Mas nem todos os combatentes depuseram suas armas e foram formados grupos “dissidentes”, como Acacio Medina, que é dirigido por um guerrilheiro chamado “Jhon 40”. O grupo opera projetos de mineração ilegal no estado do Amazonas, na Venezuela. 
       </Paragraph>
 
       <Paragraph>
-        El colombiano Ejército de Liberación Nacional (ELN) ahora tiene dos campamentos cerca de San Fernando de Atabapo y de Puerto Ayacucho. Es el ELN quien supuestamente domina en el estado Amazonas más que los disidentes de las FARC del Frente Acacio Medina, con campamentos en el lado venezolano de las ciudades de Puerto Colombia y San Felipe.
+        Já o Exército de Libertação Nacional (ELN), da Colômbia, atualmente possui dois campos perto de San Fernando de Atabapo e de Puerto Ayacucho. O ELN é supostamente muito mais dominante no Amazonas do que os dissidentes das FARC na frente Acacio Medina, detendo acampamentos no lado venezuelano das cidades de Puerto Colombia e San Felipe.
       </Paragraph>
 
       <Paragraph>
-        Según documentos de la inteligencia colombiana, el Acacio Medina ahora obtiene 70% de sus ingresos por la minería ilegal en Venezuela.
+        De acordo com documentos de inteligência colombianos, o Acacio Medina agora ganha 70% de sua receita por meio da mineração ilegal na Venezuela.
       </Paragraph>
 
       <Paragraph>
-        Los disidentes de la FARC y el ELN – ahora el mayor grupo guerrillero del continente – tienen una alianza para trabajar en las minas de oro de Venezuela.
+        Os dissidentes das FARC e do ELN – agora o maior grupo guerrilheiro do continente – têm uma tênue aliança para trabalhar nos campos de ouro da Venezuela.
       </Paragraph>
 
       <Paragraph>
-        El jefe militar dice que conoce de las actividades transfronterizas del ELN porque capturaron a un guerrillero indígena venezolano que desertó en 2018. El hombre dijo que mató a otros tres rebeldes y cruzó a nado el río Atabapo para escapar a Colombia. El hombre se quejó de los trabajos forzados y la falta de alimentos durante el tiempo que trabajó para el ELN.
+        O comandante disse que sabe das atividades do ELN além da fronteira porque capturou um guerrilheiro indígena venezuelano em 2018. O homem disse que havia matado três outros rebeldes e atravessado o rio Atabapo a nado para fugir à Colômbia. Ele reclamou do trabalho forçado e da falta de comida durante seu serviço ao ELN.
       </Paragraph>
 
       <Paragraph>
-        Venezuela ha tolerado la presencia de los guerrilleros colombianos desde que el ya fallecido presidente Hugo Chávez llegó al poder en 1999. Aunque estos grupos son considerados organizaciones terroristas por Estados Unidos y Colombia, Chávez dijo que son <ExternalLink href="https://www.lanacion.com.ar/el-mundo/chavez-las-farc-no-son-terroristas-nid978386" language="es">“ejércitos genuinos” y “fuerzas insurgentes con objetivos políticos”</ExternalLink>{" "}.
+        A Venezuela tolera a presença de guerrilheiros colombianos desde que o falecido presidente Hugo Chávez chegou ao poder, em 1999. Enquanto os grupos são considerados organizações terroristas pelos Estados Unidos e pela Colômbia, Chávez os chamou de <ExternalLink href="https://www.lanacion.com.ar/el-mundo/chavez-las-farc-no-son-terroristas-nid978386" language="es">“exércitos genuínos” e “forças insurgentes com objetivo político”</ExternalLink>{" "}.
       </Paragraph>
 
       <Paragraph>
-        Grandes zonas del sureste de la Amazonía colombiana han funcionado como corredores de contrabando de drogas, armas y mercancías desde hace decenios.
+        Grandes áreas de floresta no sudeste da Amazônia colombiana têm funcionado como corredor de tráfico de drogas, armas, tropas e mercadorias nas últimas décadas. 
       </Paragraph>
 
       <Paragraph>
-        Cuando las FARC participan en la minería, cobran cerca de 30% de la producción, según un antiguo miembro de la guerrilla. También hizo énfasis en el hecho de que la Guardia Nacional de Venezuela ya estaba más que involucrada en el 2007, y cobraban comisión en oro en Yapacana.
+        Quando as FARC participam da mineração, cobram cerca de 30% da produção, segundo um antigo membro da guerrilha. E ele enfatiza que a Guarda Nacional da Venezuela já estava mais do que envolvida em 2007, e cobrava comissões em ouro em Yapacana. 
       </Paragraph>
 
       <Paragraph>
-        “Sacaban mucho oro”, recuerda.
+        “Eles estavam minerando tanto ouro”, recorda. 
       </Paragraph>
 
       <Paragraph>
-        Según Eduardo, un indígena de 24 años quien pidió no ser identificado, las FARC y el ELN siguen teniendo presencia en las minas, visten uniforme militar y están bien armados. También son la ley en la región. A los ladrones muchas veces los ejecutan, e incluso llevar un teléfono móvil a una zona minera está prohibido, y puede convertirse en una sentencia de muerte.
+        Segundo Eduardo, um indígena de 24 anos que pediu para permanecer anônimo, as FARC e o ELN estão presentes nas minas, usam roupas militares e estão bem armados. Eles também são a lei da região. Ladrões costumam ser executados, mas até levar um telefone para a área de mineração, que é proibido, pode levar à sentença de morte.
       </Paragraph>
 
       <Paragraph>
-        Pero incluso así, los mineros dicen que los guerrilleros son mejores jefes que la Guardia Nacional porque establecen reglas claras, prohíben el consumo de alcohol y drogas, y a veces defienden a la comunidad. Los militares venezolanos con frecuencia son más abusivos y exigen más oro.
+        Mesmo assim, mineiros disseram que guerrilheiros são melhores chefes do que a Guarda Nacional porque tinham um conjunto claro de regras, proibiam abuso de álcool e substâncias e de vez em quando defendiam a comunidade. Os militares venezuelanos eram mais abusivos e exigiam mais ouro. 
       </Paragraph>
 
       <Paragraph>
-        Pero también trabajan mano a mano con la Guardia Nacional de Venezuela, cuyos miembros
+        Mas eles também trabalham lado a lado com a Guarda Nacional da Venezuela, que 
         <StoryMedia
         media={{
         id: "video-5",
@@ -419,44 +418,44 @@ export default () => (
         data: {
           id: "0K1a_Qgm1ME"
         }
-        }}> cobran “impuestos” sobre todo, como la entrada a las minas, el uso de ríos y equipo de movimiento de tierra, y hasta el derecho de vender empanadas</StoryMedia>
+        }}> cobra “impostos” sobre tudo, desde a entrada nas minas, o uso dos rios, equipamentos móveis e até o direito de vender <i>empanadas</i></StoryMedia>
         .
       </Paragraph>
 
       <Paragraph>
-        Según un ex oficial de la inteligencia venezolana, el oro que cobra la Guardia Nacional se envía por avión a Caracas, después de que una parte fue dividido entre los jefes en Amazonas del Servicio Bolivariano de Inteligencia Nacional (SEBIN), el jefe de la contrainteligencia militar (DGCIM), el general a cargo de la Guardia Nacional y el jefe de las zonas de defensa regionales (ZODI).
+        Segundo um ex-oficial de inteligência venezuelano, o ouro coletado pela Guarda Nacional é enviado por avião para Caracas, depois que uma parte já foi dividida entre as múltiplas filiais militares do Amazonas, incluindo o Serviço Bolivariano de Inteligência Nacional (SEBIN), o chefe da contrainteligência militar (DGCIM), o general encarregado da Guarda Nacional e o comandante das zonas de defesa regional (ZODI).
       </Paragraph>
 
       <Paragraph>
-        Franklin, un Sargento Segundo de la Guardia Nacional Bolivariana de Venezuela de 26 años de edad, trabajó en el área de las minas de oro cerca de Puerto Ayacucho durante tres años y medio.
+        Franklin, que tem 26 anos de idade e é segundo sargento da Guarda Nacional Bolivariana da Venezuela, trabalhou nas áreas de mineração de ouro nos arredores de Puerto Ayacucho por três anos e meio. 
       </Paragraph>
 
       <Paragraph>
-        Franklin, quién accedió a hablar manteniendo su anonimato, dijo que él y otras tropas vieron cómo su comandante llegaba a acuerdos con el ELN para exprimir a los mineros locales. Y añadió: “Llegaban en botes, 200, 300 hombres armados hasta los dientes, y sus líderes se reunían con nuestros comandantes. Nunca había visto algo parecido. Ellos [el ELN] son los que tienen el control real de las minas”.
+        Franklin, que concordou em falar sob condição de anonimato, disse que ele e outras tropas observaram seus comandantes fecharem acordos com o ELN para pressionar os mineradores locais. “Eles apareceriam em barcos, 200, 300 homens armados até os dentes, e seus líderes se reuniam com nossos comandantes. Eu nunca tinha visto nada parecido. Eles [o ELN] são aqueles que estão realmente no controle das áreas de mineração”, disse.
       </Paragraph>
 
       <Paragraph>
-        Las dos “autoridades” en las minas de Yapacana, la guerrilla y la Guardia Nacional, son un tándem frágil. Tanto venezolanos como colombianos ocupan rangos de las guerrillas colombianas y están mejor armados que los militares en el estado Amazonas.
+        As duas “autoridades” das minas de Yapacana – guerrilha e Guarda Nacional – são um elo frágil. Tanto venezuelanos quanto colombianos enchem as fileiras das guerrilhas colombianas que desarmam os militares no estado do Amazonas.
       </Paragraph>
 
       <Paragraph>
-        “Venezuela tiene un ejército, que está preparado para absolutamente nada”, dijo el ex oficial de inteligencia venezolano. “Por otra parte, el ELN está entrenado, preparado para el combate, y no le tiene miedo a nada”.
+        “A Venezuela tem um exército que não está preparado para absolutamente nada”, disse o ex-oficial da inteligência venezuelana. “Por outro lado, o ELN é treinado, preparado para o combate e não tem medo de nada.”
       </Paragraph>
 
       <Paragraph>
-        Pero ya ha habido conflictos. En 2017, los guerrilleros casi derriban un helicóptero militar venezolano cerca de la mina El Cacique en la zona de Yapacana con un rifle AR-15. El helicóptero no debía estar allí, explicó un adolescente venezolano. “Ahora los que mandan son los guerrilleros”.
+        No entanto, tem havido conflitos. Em 2017, guerrilheiros quase derrubaram um helicóptero militar venezuelano perto da mina de Cacique, na área de Yapacana, com um fuzil AR-15. O helicóptero não deveria estar lá, explicou um adolescente venezuelano. “Agora, as guerrilhas estão no comando.” 
       </Paragraph>
 
       <Paragraph>
-        En noviembre de 2018, un <ExternalLink href="https://lta.reuters.com/articulo/domesticNews/idLTAKCN1NA0BJ-OUSLD" language="es">enfrentamiento entre los guerrilleros y la Guardia Nacional</ExternalLink>{" "} dejó al menos tres soldados muertos, y una docena de heridos, y mostró la volatilidad de la situación.
+        Em novembro de 2018, um <ExternalLink href="https://lta.reuters.com/articulo/domesticNews/idLTAKCN1NA0BJ-OUSLD" language="es">confronto entre os guerrilheiros e a Guarda Nacional</ExternalLink>{" "} deixou pelo menos três soldados mortos e uma dúzia de feridos e mostrou a volatilidade da situação. 
       </Paragraph>
 
       <Paragraph>
-        Pero los guerrilleros llegaron a la zona para quedarse, dijo el ex oficial de inteligencia.
+        Mas os guerrilheiros estão na região para ficar, disse o ex-funcionário da inteligência. 
       </Paragraph>
 
       <Paragraph>
-        “En este momento, para los guerrilleros el oro... es más lucrativo que las drogas”. dijo. “Por eso están presentes en todas las minas en Venezuela.”
+        “Para os guerrilheiros, neste momento, o ouro [...] é mais lucrativo que as drogas”, disse ele. “É por isso que estão presentes em todas as minas da Venezuela.”
       </Paragraph>
     </Container>
   </article>
