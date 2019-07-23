@@ -278,11 +278,11 @@ class ArticleNav extends Component {
               </NavLink>
             </li>
             <li onClick={() => this.closeNavbar()}>
-              <NavLink to="/story/mercury">
+              <NavLink to="/story/refugees">
                 <FormattedMessage
                   id="articles.title2"
-                  defaultMessage="Mercury" />
-                <ProgressBar path="/story/mercury" />
+                  defaultMessage="Refugees" />
+                <ProgressBar path="/story/refugees" />
               </NavLink>
             </li>
             <li onClick={() => this.closeNavbar()}>

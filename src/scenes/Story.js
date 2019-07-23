@@ -21,15 +21,15 @@ import Media from "components/Media";
 import Story from "components/Story";
 import Modal from "components/Modal";
 
-import Chapter1 from "./articles/1-Introduction";
-import Chapter2 from "./articles/2-Mercury";
-import Chapter3 from "./articles/3-ProtectedAreas";
-import Chapter4 from "./articles/4-IndigenousTerritories";
-import Chapter5 from "./articles/5-Conflicts";
+import Chapter1 from "./articles/1-MinasDeOro";
+import Chapter2 from "./articles/2-Refugees";
+import Chapter3 from "./articles/3-FiebreDeLaSelva";
+import Chapter4 from "./articles/4-EncrucijadaDelCaribe";
+import Chapter5 from "./articles/5-AlrededorDelMundo";
 
 const articles = [
   "/story",
-  "/story/mercury",
+  "/story/refugees",
   "/story/protected-areas",
   "/story/indigenous-territories",
   "/story/conflicts"
@@ -130,7 +130,7 @@ class Scene extends Component {
             >
               <Switch location={location}>
                 <Route exact path={`${match.url}`} component={Chapter1} />
-                <Route path={`${match.url}/mercury`}component={Chapter2} />
+                <Route path={`${match.url}/refugees`}component={Chapter2} />
                 <Route path={`${match.url}/protected-areas`} component={Chapter3} />
                 <Route path={`${match.url}/indigenous-territories`} component={Chapter4} />
                 <Route path={`${match.url}/conflicts`} component={Chapter5} />

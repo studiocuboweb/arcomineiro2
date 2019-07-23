@@ -11,10 +11,19 @@ const styles = css`
     max-width: 900px;
     margin: 0 auto;
   }
+  ${media.phone`
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-bottom: 2rem;
+  margin-right: 1rem;
+  margin-left: .3rem;
+`}
   ${media.phablet`
-    padding-left: 4vw;
-    padding-right: 4vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
     padding-bottom: 2rem;
+    margin-right: 1rem;
+    margin-left: .3rem;
   `}
 `
 
