@@ -254,8 +254,8 @@ class Intro extends Component {
     const scope = this;
     const map = this._map.getMap()
     var location = this.props.intl.locale
-    console.log('location 2')
-    console.log(location)
+    //console.log('location 2')
+    //console.log(location)
     if (location != 'en' && location != 'es' && location != 'pt') {
       location = 'en';
     }
@@ -318,8 +318,8 @@ class Intro extends Component {
     this.setState({content:{title:locations[index].title,description:locations[index].description,slide:locations[index].slide}});
     const scope = this;
     this.highlightBorough(locations[index].id ? locations[index].id : '',map);
-    console.log(locations[index].slide)
-    console.log(map.getBounds())
+    //console.log(locations[index].slide)
+    //console.log(map.getBounds())
     
     map.fitBounds(locations[index].fitBoundsCoords,{pitch:locations[index].camera.pitch,maxZoom:locations[index].maxZoom});
     //map.flyTo(locations[index].camera);
@@ -327,15 +327,15 @@ class Intro extends Component {
         // Duration the slide is on screen after interaction
         window.setTimeout(function() {
         // Increment index or redirect to story page
-        console.log('moveend')
+        //console.log('moveend')
         
-        console.log(locations[index].slide)
+        //console.log(locations[index].slide)
         //index = (index + 1 === locations.length) ? 0 : index + 1;
         //scope.playback(index,map);
         if (locations[index].slide === 5) {
-          // document.location.href = '/story?show=intro'
-          // scope.setRedirect()
-          // return;
+          //document.location.href = '/story?show=intro'
+          scope.setRedirect()
+          return;
         } else {
           index = (index + 1 === locations.length) ? 0 : index + 1;
           scope.playback(index,map);
@@ -347,8 +347,8 @@ class Intro extends Component {
   render() {
     const {intl} = this.props;
     const {viewport,settings,content} = this.state;
-    console.log('location');
-    console.log(this.props.intl.locale);
+    //console.log('location');
+    //console.log(this.props.intl.locale);
     //inglês
     var defaultMapStyle = 'mapbox://styles/infoamazonia/cjxxfhrimbuhb1cmshwpbuljg';
     if (this.props.intl.locale.search('es') > -1) {
@@ -358,17 +358,14 @@ class Intro extends Component {
       //portugues
       defaultMapStyle = 'mapbox://styles/infoamazonia/cjy0ovcnx03b41cpbqcsyztl7';
     }
-    console.log('mapa')
-    console.log(defaultMapStyle)
+    //console.log('mapa')
+    //console.log(defaultMapStyle)
     return (
       <div>
         {this.renderRedirect()}
         <Overlay>
           <div class='map-overlay'>
             <p id='location-description'><FormattedMessageFixed id={content.description} defaultMessage="description" /></p>
-            {console.log('content.images')}
-            {console.log(content)}
-            {console.log(content.slide)}
             { 
               content.slide == 0 &&
                 <div class="grid-container">

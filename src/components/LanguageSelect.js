@@ -215,8 +215,8 @@ class LanguageSelect extends Component {
   
     renderRedirect = () => {
       if (this.state.redirect) {
-          console.log('redirect')
-          console.log(this.state.language);
+          //console.log('redirect')
+          //console.log(this.state.language);
           var location = "";
         if (this.state.language == 'pt') {
             location = '?lang=pt';
@@ -225,7 +225,7 @@ class LanguageSelect extends Component {
         } else {
             location = '?lang=en';
         }
-        console.log(location)
+        //console.log(location)
         document.location.href = location;
         //return <Redirect push={true} to={location} />
       }
@@ -235,8 +235,8 @@ class LanguageSelect extends Component {
         this.location = document.location.href;
         var querystring = window.location.search;
         var locationAuto = this.props.intl.locale
-        console.log('locationAuto')
-        console.log(locationAuto)
+        //console.log('locationAuto')
+        //console.log(locationAuto)
 
         if (querystring.search('lang=') > -1) {
             this.setState({language: querystring.split('=')[1]})
@@ -353,8 +353,8 @@ class LanguageSelect extends Component {
     }
 
     handleChange(ev) {
-       console.log('handleChange')
-       console.log(ev.target.textContent)
+       //console.log('handleChange')
+       //console.log(ev.target.textContent)
        var choosedLanguage = 'en';
         if (ev.target.textContent != '') {
             if (ev.target.textContent == "Português") {
@@ -362,12 +362,12 @@ class LanguageSelect extends Component {
             } else if (ev.target.textContent == "Español") {
               choosedLanguage = 'es';
             }
-            console.log('choosedLanguage')
-            console.log(choosedLanguage)
+            //console.log('choosedLanguage')
+            //console.log(choosedLanguage)
             this.setState({
                 language: choosedLanguage
               })
-              console.log(this.state.language)
+              //console.log(this.state.language)
         }
         this.setRedirect()
       

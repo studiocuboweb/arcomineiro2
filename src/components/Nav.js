@@ -215,12 +215,12 @@ class ArticleNav extends Component {
    * Add event listener
    */
   componentDidMount() {
-    console.log('Browser View')
-    console.log(BrowserView)
-    console.log('isBrowser')
-    console.log(isBrowser)
-    console.log('isMobile')
-    console.log(isMobile)
+    //console.log('Browser View')
+    //console.log(BrowserView)
+    //console.log('isBrowser')
+    //console.log(isBrowser)
+    //console.log('isMobile')
+    //console.log(isMobile)
     if (isBrowser) {
       this.setState({
         collapsed: true

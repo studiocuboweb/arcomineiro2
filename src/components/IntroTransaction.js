@@ -64,21 +64,21 @@ class IntroTransaction extends Component {
   
     renderRedirect = () => {
       if (this.state.redirect) {
-        console.log('redirecionado');
+        //console.log('redirecionado');
         return <Redirect to='/story?show=intro' />
       }
     }
   
     componentDidMount() {
       var location = document.location.href;
-      console.log('LOCATION')
-      console.log(location)
+      //console.log('LOCATION')
+      //console.log(location)
       if (location.search('/intro') <= -1) {
         if (location.search("show=intro") > -1) {
-          console.log('entrou no if')
+          //console.log('entrou no if')
           document.getElementById('intro_transtion_overlay').classList.add('up');
         } else { 
-          console.log('entrou no if para desabilitar o div overlay')
+          //console.log('entrou no if para desabilitar o div overlay')
           document.getElementById('intro_transtion_overlay').remove();
         }
         window.removeEventListener('wheel', this.handleScroll)
