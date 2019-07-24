@@ -234,7 +234,7 @@ class Intro extends Component {
         description:locations[locations.length - 1].description,
         slide:locations[locations.length - 1].slide
       },
-      redirect: false
+      redirect: false,
     }
   }
   renderRedirect = () => {
@@ -334,7 +334,12 @@ class Intro extends Component {
         //scope.playback(index,map);
         if (locations[index].slide === 5) {
           //document.location.href = '/story?show=intro'
-          scope.setRedirect()
+          setTimeout(function() {
+            document.getElementById('intro_transtion_overlay').classList.add("active");
+            setTimeout(function() {
+              scope.setRedirect()
+            }.bind(this), 2600)
+          }.bind(this), 1500)
           return;
         } else {
           index = (index + 1 === locations.length) ? 0 : index + 1;

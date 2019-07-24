@@ -22,13 +22,13 @@ const Wrapper = styled.div`
         z-index:888801799999999;
         background:rgba(0,0,0,1);
         height: 0;
-        transition: height 2s;
+        transition: height 1s;
     }
     #intro_transtion_overlay.active {
-        -webkit-transition: background .5s ease-out;
-        -moz-transition: background .5s ease-out;
-            -o-transition: background .5s ease-out;
-                transition: background .5s ease-out;
+        -webkit-transition: background 0.5s ease-out;
+        -moz-transition: background 0.5s ease-out;
+            -o-transition: background 0.5s ease-out;
+                transition: background 0.5s ease-out;
         background:rgba(0,0,0,1);
     }
     #intro_transtion_overlay>span {
