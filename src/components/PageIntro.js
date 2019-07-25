@@ -45,6 +45,10 @@ class PageIntro extends Component {
     })
   }
 
+  componentDidMount() {
+    document.getElementById('background-video').play();
+  }
+
   handleOnEnded() {
     setTimeout(function() {
       document.getElementById('intro_transtion_overlay').classList.add("active");
@@ -62,7 +66,7 @@ class PageIntro extends Component {
       </div>
       <Content>
         {isIOS ? (
-          <div id="sintro_transtion_overlay">
+          <div id="intro_transtion_overlay">
             <video autoPlay muted playsInline id="background-video" onEnded={this.handleOnEnded}>	
               <source src={require("images/video_bg.mp4")} type="video/mp4" />	
             </video>
