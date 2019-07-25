@@ -34,7 +34,7 @@ export default () => (
           Unethically sourced gold from Venezuela enters international supply chains after being ‘whitewashed’ in neighboring countries such as Colombia and the Caribbean islands. Despite sanctions and due diligence guidelines, airlines continuously fly gold to European and U.S. markets.
         </p>
       </Note>
-      
+
       <Paragraph>
         In a high security refinery in Antwerp, Belgium, two men pour molten gold – heated to more than 2,120 degrees Fahrenheit (1,160 degrees Celsius) – into molds roughly the size of a smartphone.
       </Paragraph>
@@ -121,7 +121,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        In 2017, the Venezuelan government asked them to refine about three tons of gold. But in a letter to the Venezuelan Central Bank, Goetz 
+        In 2017, the Venezuelan government asked them to refine about three tons of gold. But in a letter to the Venezuelan Central Bank, Goetz
         <FileLink
         href={require("documents/chapter5/Tony_Goetz-Lette_to_Central_Bank_of_Venezuela.pdf")}
         format="pdf"
@@ -166,7 +166,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Argor-Heraeus said it acts in accordance with Swiss legislation and international standards, adding that it is “very committed to transparency, sustainability and respect for human rights.” It did not, however, answer specific questions concerning gold from Venezuela, Aruba or Curaçao. 
+        Argor-Heraeus said it acts in accordance with Swiss legislation and international standards, adding that it is “very committed to transparency, sustainability and respect for human rights.” It did not, however, answer specific questions concerning gold from Venezuela, Aruba or Curaçao.
       </Paragraph>
 
       <Paragraph>
@@ -325,7 +325,7 @@ export default () => (
       </FullBlock>
 
       <Paragraph>
-        When CIJ Gutiérrez was charged, investigators found that many of the Colombian companies and individuals the firm claimed to buy gold from between 2006 and 2016 were either shell companies or people who didn’t exist, according to a news release from the Attorney General’s Office, leading to more than 700 million U.S. dollars’ worth of gold with suspicious origins. Several company executives were arrested and the Attorney’s Office took the company over. 
+        When CIJ Gutiérrez was charged, investigators found that many of the Colombian companies and individuals the firm claimed to buy gold from between 2006 and 2016 were either shell companies or people who didn’t exist, according to a news release from the Attorney General’s Office, leading to more than 700 million U.S. dollars’ worth of gold with suspicious origins. Several company executives were arrested and the Attorney’s Office took the company over.
       </Paragraph>
 
       <Paragraph>
@@ -349,7 +349,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Republic, which <ExternalLink href="https://www.miamiherald.com/news/business/article223213905.html" language="en">filed for bankruptcy</ExternalLink>{" "} last year, imported 12.5 million U.S. dollars worth from CIJ Gutiérrez between 2008 and 2012, according to the Colombian customs agency and data provided by Global Trade Data Supplier, Import Genius. But those records cannot show whether Gutiérrez was sourcing gold from Venezuela during that time.
+        Republic, which <ExternalLink href="https://www.miamiherald.com/news/business/article223213905.html" language="en">filed for bankruptcy</ExternalLink>{" "} last year, imported 12.5 million U.S. dollars worth from CIJ Gutiérrez between 2008 and 2012, according to the Colombian customs agency and data provided by a global trade data supplier, <ExternalLink href="https://www.importgenius.com/" language="en">Import Genius</ExternalLink>{" "}. But those records cannot show whether Gutiérrez was sourcing gold from Venezuela during that time.
       </Paragraph>
 
       <Paragraph>

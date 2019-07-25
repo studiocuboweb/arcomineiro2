@@ -24,7 +24,7 @@ const messages = defineMessages({
   },
   siteTitle: {
     id: "head.title",
-    defaultMessage: "Looted Amazon"
+    defaultMessage: "Venezuela, the smugglers' paradise"
   }
 });
 
@@ -106,7 +106,7 @@ const About = ({ intl, lastPath }) => {
               id="about.intro7"
               defaultMessage=" (Brazil), "
             />
-            
+
             <strong>
             <FormattedMessage
               id="about.intro8"
@@ -170,15 +170,15 @@ const About = ({ intl, lastPath }) => {
               />
             </strong>
             <br />
-            <li>Algimiro Montiel</li>
-            <li>Antonio Maria Delgado</li>
-            <li>Bram Ebus</li>
-            <li>Jay Weaver</li>
-            <li>Jim Wyss</li>
-            <li>Jorge Benezra</li>
-            <li>Kyra Gurney</li>
-            <li>Nicholas Nehamas</li>
-            <li>Pamela Kalkman</li>
+            Algimiro Montiel
+            <br />Antonio Maria Delgado
+            <br />Bram Ebus
+            <br />Jay Weaver
+            <br />Jim Wyss
+            <br />Jorge Benezra
+            <br />Kyra Gurney
+            <br />Nicholas Nehamas
+            <br />Pamela Kalkman
           </Paragraph>
 
           <Paragraph>
@@ -200,12 +200,12 @@ const About = ({ intl, lastPath }) => {
               />
             </strong>
             <br />
-            <li>Casey Frank (Miami Herald)</li>
-            <li>Gustavo Faleiros (InfoAmazonia)</li>
-            <li>Lisseth Boon (Runrun.es)</li>
-            <li>Maaike Goslinga (De Correspondent)</li>
-            <li>María Ramírez Cabello (Correo del Caroní)</li>
-            <li>Nancy San Martin (Miami Herald)</li>
+            Casey Frank (Miami Herald)
+            <br />Gustavo Faleiros (InfoAmazonia)
+            <br />Lisseth Boon (Runrun.es)
+            <br />Maaike Goslinga (De Correspondent)
+            <br />María Ramírez Cabello (Correo del Caroní)
+            <br />Nancy San Martin (Miami Herald)
           </Paragraph>
 
           <Paragraph>
@@ -216,8 +216,8 @@ const About = ({ intl, lastPath }) => {
               />
             </strong>
             <br />
-            <li>Isabel Sacco</li>
-            <li>Oscar Diaz</li>
+            Isabel Sacco
+            <br />Oscar Diaz
           </Paragraph>
 
           <Paragraph>
@@ -228,7 +228,7 @@ const About = ({ intl, lastPath }) => {
               />
             </strong>
             <br />
-            <li>Olga Bagatini</li>
+            Olga Bagatini
           </Paragraph>
 
           <Paragraph>
@@ -239,7 +239,7 @@ const About = ({ intl, lastPath }) => {
               />
             </strong>
             <br />
-            <li>Matheus Temporini</li>
+            Matheus Temporini
           </Paragraph>
 
           <Paragraph>
@@ -250,7 +250,7 @@ const About = ({ intl, lastPath }) => {
               />
             </strong>
             <br />
-            <li>Donna Kether</li>
+            Donna Kether
           </Paragraph>
 
           <Paragraph>
@@ -261,7 +261,7 @@ const About = ({ intl, lastPath }) => {
               />
             </strong>
             <br />
-            <li>Juliana Mori</li>
+            Juliana Mori
           </Paragraph>
 
           <Paragraph>

@@ -110,7 +110,9 @@ class YouTubeVideo extends Component {
     let playerVars = {
       showinfo: 0,
       rel: 0,
-      autoplay: 1
+      autoplay: 1,
+      cc_load_policy: 1,
+      modestbranding: 1
     };
     if (preview) {
       Object.assign(playerVars, {

@@ -34,7 +34,7 @@ export default () => (
           El oro proveniente de fuentes no éticas de Venezuela ingresa a las cadenas de suministro mundiales luego de ser ‘lavado’ en países vecinos como Colombia y islas del Caribe. A pesar de las sanciones internacionales y directrices de debida diligencia, aerolíneas siguen volando con oro a los mercados europeos y estadounidenses.
         </p>
       </Note>
-      
+
       <Paragraph>
         En una refinería con un alto nivel de seguridad en Amberes, Bélgica, dos hombres vierten oro líquido a más de 1.160 grados Celsius en moldes del tamaño de un teléfono móvil.
       </Paragraph>
@@ -117,7 +117,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        En 2017, el gobierno venezolano pidió a Goetz que refinara unas tres toneladas de oro. Pero en una carta al Banco Central de Venezuela, 
+        En 2017, el gobierno venezolano pidió a Goetz que refinara unas tres toneladas de oro. Pero en una carta al Banco Central de Venezuela,
         <FileLink
         href={require("documents/chapter5/Tony_Goetz-Lette_to_Central_Bank_of_Venezuela.pdf")}
         format="pdf"
@@ -248,7 +248,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Según un estudio de la OCDE, 
+        Según un estudio de la OCDE,
         <FileLink
         href={require("documents/chapter5/OECD-Where_does_Colombian_Gold_Go_Spanish.pdf")}
         format="pdf"
@@ -346,7 +346,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Republic, que se <ExternalLink href="https://www.miamiherald.com/news/business/article223213905.html" language="en">declaró en bancarrota</ExternalLink>{" "} el año pasado, importó 12,5 millones de dólares en oro de CIJ Gutiérrez entre 2008 y 2012, según datos de la agencia aduanera de Colombia y datos proporcionados por el proveedor de datos de comercio global ImportGenius. Pero esos datos no muestran si la empresa colombiana envió oro venezolano durante ese período.
+        Republic, que se <ExternalLink href="https://www.miamiherald.com/news/business/article223213905.html" language="en">declaró en bancarrota</ExternalLink>{" "} el año pasado, importó 12,5 millones de dólares en oro de CIJ Gutiérrez entre 2008 y 2012, según datos de la agencia aduanera de Colombia y datos proporcionados por el proveedor de datos de comercio global <ExternalLink href="https://www.importgenius.com/" language="en">Import Genius</ExternalLink>{" "}. Pero esos datos no muestran si la empresa colombiana envió oro venezolano durante ese período.
       </Paragraph>
 
       <Paragraph>

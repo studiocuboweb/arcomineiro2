@@ -115,15 +115,15 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        “I know fuel trafficking, drug trafficking –  I made myself familiar with the trafficking of many things,” he said, asking to remain anonymous to talk freely about the illicit trade. “That’s where I learned how to pay vacunas and also how to collect vacunas.”
+        “I know fuel trafficking, drug trafficking –  I made myself familiar with the trafficking of many things,” he said, asking to remain anonymous to talk freely about the illicit trade. “That’s where I learned how to pay <i>vacunas</i> and also how to collect <i>vacunas</i>.”
       </Paragraph>
 
       <Paragraph>
-        Vacunas are extortion payments, literally “vaccines” that buy traffickers security. And it’s one of the foundations of gold smuggling.
+        <i>vacunas</i> are extortion payments, literally “vaccines” that buy traffickers security. And it’s one of the foundations of gold smuggling.
       </Paragraph>
 
       <Paragraph>
-        Harold said gold mined in southern Venezuela is taken to the Colombian border by traffickers who often operate in coordination with Venezuela’s National Guard. The soldiers accept bribes, or vacunas, to guarantee safe passage. Sometimes the guards even provide armored trucks to move the metal to the frontier.
+        Harold said gold mined in southern Venezuela is taken to the Colombian border by traffickers who often operate in coordination with Venezuela’s National Guard. The soldiers accept bribes, or <i>vacunas</i>, to guarantee safe passage. Sometimes the guards even provide armored trucks to move the metal to the frontier.
       </Paragraph>
 
       <Paragraph>
@@ -147,7 +147,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        “[Gold] mules can meet both groups during a single crossing. In just one trip you’ll get the National Guard, the Police and the CICPC [Venezuela’s police department of criminal investigations],” he said, rolling his eyes. “Everybody charges the vacuna, including Colombian police and immigration officials.”
+        “[Gold] mules can meet both groups during a single crossing. In just one trip you’ll get the National Guard, the Police and the CICPC [Venezuela’s police department of criminal investigations],” he said, rolling his eyes. “Everybody charges the <i>vacuna</i>, including Colombian police and immigration officials.”
       </Paragraph>
 
       <Paragraph>
@@ -195,11 +195,11 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        “I mean, they found out about my whole family,” he said. “So, it was either the merchandise or my family.”  
+        “I mean, they found out about my whole family,” he said. “So, it was either the merchandise or my family.”
       </Paragraph>
 
       <Paragraph>
-        Colombia and Venezuela share a 1,379-mile (2,219 kilometers) long border and there are seven official border crossings, but they’re often closed as bilateral relations have hit rock bottom. So most smugglers carry the gold over hundreds of informal trails, or trochas, that are controlled by a variety of criminal gangs and armed groups.
+        Colombia and Venezuela share a 1,379-mile (2,219 kilometers) long border and there are seven official border crossings, but they’re often closed as bilateral relations have hit rock bottom. So most smugglers carry the gold over hundreds of informal trails, or <i>trochas</i>, that are controlled by a variety of criminal gangs and armed groups.
       </Paragraph>
 
       <Paragraph>
@@ -216,7 +216,7 @@ export default () => (
             credits: "Bram Ebus",
             src: require("photos/chapter2/Cucuta06.jpg")
           }
-        }}> controlling the trochas and extorting travelers</StoryMedia> in Colombia’s Norte de Santander department alone.
+        }}> controlling the <i>trochas</i> and extorting travelers</StoryMedia> in Colombia’s Norte de Santander department alone.
       </Paragraph>
 
       <Paragraph>
@@ -224,11 +224,11 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        On April 17, three corpses were found on two illegal border crossings. One of the victims had been decapitated and his head was wrapped in a shirt, <ExternalLink href="https://www.laopinion.com.co/judicial/encuentran-tres-muertos-en-dos-trochas-de-la-frontera-175315#OP" language="es">a local newspaper reported</ExternalLink>{" "}.  
+        On April 17, three corpses were found on two illegal border crossings. One of the victims had been decapitated and his head was wrapped in a shirt, <ExternalLink href="https://www.laopinion.com.co/judicial/encuentran-tres-muertos-en-dos-trochas-de-la-frontera-175315#OP" language="es">a local newspaper reported</ExternalLink>{" "}.
       </Paragraph>
 
       <Paragraph>
-        Franklin, another Venezuelan gold smuggler, said he had stumbled across body parts scattered along the trochas, a warning from the armed groups.
+        Franklin, another Venezuelan gold smuggler, said he had stumbled across body parts scattered along the <i>trochas</i>, a warning from the armed groups.
       </Paragraph>
 
       <Paragraph>
@@ -244,7 +244,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Hiding gold in the soles of his shoes, he would walk the contraband over the border. He worked for a few months until he made enough money to send for his wife and 9-month-old baby. 
+        Hiding gold in the soles of his shoes, he would walk the contraband over the border. He worked for a few months until he made enough money to send for his wife and 9-month-old baby.
       </Paragraph>
 
       <Paragraph>
@@ -288,7 +288,7 @@ export default () => (
         data: {
           id: "vgdRWxCY53g"
         }
-        }}> compraventas – shops that buy and sell gold</StoryMedia>
+        }}> <i>compraventa</i>s</i> – shops that buy and sell gold</StoryMedia>
         . In this area alone, some 200 to 300 Venezuelans show up daily to sell gold. Locals say the number of pawnshops has exploded in recent years as gold trafficking has spiked.
       </Paragraph>
 
@@ -315,7 +315,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Asked how much gold he can sell in a week, he says, “whatever you need.” 
+        Asked how much gold he can sell in a week, he says, “whatever you need.”
       </Paragraph>
 
       <Paragraph>
@@ -373,7 +373,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Quantities that go through Cúcuta vary a lot says Francisco. It takes about one week to gather 220 pounds (100 kilos), but he cannot make this kind of investment himself. 
+        Quantities that go through Cúcuta vary a lot says Francisco. It takes about one week to gather 220 pounds (100 kilos), but he cannot make this kind of investment himself.
       </Paragraph>
 
       <Paragraph>

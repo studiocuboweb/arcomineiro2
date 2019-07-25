@@ -91,7 +91,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Um homem que grita pela vitrine de uma loja chamada Palacio del Oro disse que os imigrantes venezuelanos levam ouro de todas as formas. 
+        Um homem que grita pela vitrine de uma loja chamada Palacio del Oro disse que os imigrantes venezuelanos levam ouro de todas as formas.
       </Paragraph>
 
       <Paragraph>
@@ -115,15 +115,15 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        “Eu conheço tráfico de combustível, tráfico de drogas, aprendi a traficar muitas coisas”, disse ele, pedindo anonimato para poder falar abertamente sobre o comércio ilícito. “Foi assim que aprendi a pagar e cobrar <i>vacunas</i>.” 
+        “Eu conheço tráfico de combustível, tráfico de drogas, aprendi a traficar muitas coisas”, disse ele, pedindo anonimato para poder falar abertamente sobre o comércio ilícito. “Foi assim que aprendi a pagar e cobrar <i>vacunas</i></i>.”
       </Paragraph>
 
       <Paragraph>
-        <i>Vacuna</i> é o nome à extorsão. O termo remete à ideia de que o dinheiro é uma verdadeira “vacina” (na tradução livre do espanhol) de segurança para os traficantes que o pagam, e é um dos pilares do contrabando de ouro.
+        <i>vacuna</i> é o nome à extorsão. O termo remete à ideia de que o dinheiro é uma verdadeira “vacina” (na tradução livre do espanhol) de segurança para os traficantes que o pagam, e é um dos pilares do contrabando de ouro.
       </Paragraph>
 
       <Paragraph>
-        Harold diz que o metal extraído no sul venezuelano é levado à fronteira colombiana por traficantes que operam em conjunto com a Guarda Nacional da Venezuela. Os soldados aceitam subornos, ou <i>vacunas</i>, para garantir uma passagem segura. Às vezes, os guardas fornecem até mesmo caminhões blindados para transportar o metal. 
+        Harold diz que o metal extraído no sul venezuelano é levado à fronteira colombiana por traficantes que operam em conjunto com a Guarda Nacional da Venezuela. Os soldados aceitam subornos, ou <i>vacunas</i></i>, para garantir uma passagem segura. Às vezes, os guardas fornecem até mesmo caminhões blindados para transportar o metal.
       </Paragraph>
 
       <Paragraph>
@@ -131,7 +131,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        O ELN no geral depende de uma rede de contrabandistas, chamados mulas, que são obrigados a subornar para cruzar as linhas da Guarda Nacional e os pontos de controle das guerrilhas para levar o ouro à fronteira com a Colômbia. 
+        O ELN no geral depende de uma rede de contrabandistas, chamados mulas, que são obrigados a subornar para cruzar as linhas da Guarda Nacional e os pontos de controle das guerrilhas para levar o ouro à fronteira com a Colômbia.
       </Paragraph>
 
       <Paragraph>
@@ -151,7 +151,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        “Todo mundo está se aproveitando disso”, acrescentou. 
+        “Todo mundo está se aproveitando disso”, acrescentou.
       </Paragraph>
 
       <Paragraph>
@@ -179,11 +179,11 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Procurada, a Migração da Colômbia disse que “não tem nenhuma denúncia formal de supostas extorsões” por parte de seus oficiais e que “não exerce controle algum sobre bagagens ou mercadorias, já que não é de sua competência”. 
+        Procurada, a Migração da Colômbia disse que “não tem nenhuma denúncia formal de supostas extorsões” por parte de seus oficiais e que “não exerce controle algum sobre bagagens ou mercadorias, já que não é de sua competência”.
       </Paragraph>
 
       <Paragraph>
-        Apesar da fortuna que carregam, os traficantes ganham cerca de 2 dólares por grama, o que dá uma média de 12 dólares por viagem. Isso é cerca de três vezes o salário mínimo mensal da Venezuela, mas os perigos são significativos. 
+        Apesar da fortuna que carregam, os traficantes ganham cerca de 2 dólares por grama, o que dá uma média de 12 dólares por viagem. Isso é cerca de três vezes o salário mínimo mensal da Venezuela, mas os perigos são significativos.
       </Paragraph>
 
       <Paragraph>
@@ -199,7 +199,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Colômbia e Venezuela compartilham uma fronteira de 2.219 quilômetros, onde há sete postos de travessia oficiais, que muitas vezes estão fechados devido à deterioração na relação entre os dois países. Assim, a maioria dos contrabandistas tem que levar o ouro por trilhas informais, as <i>trochas</i>, que estão sob o controle de diversas gangues criminosas e grupos armados.  
+        Colômbia e Venezuela compartilham uma fronteira de 2.219 quilômetros, onde há sete postos de travessia oficiais, que muitas vezes estão fechados devido à deterioração na relação entre os dois países. Assim, a maioria dos contrabandistas tem que levar o ouro por trilhas informais, as <i>trochas</i>, que estão sob o controle de diversas gangues criminosas e grupos armados.
       </Paragraph>
 
       <Paragraph>
@@ -207,7 +207,7 @@ export default () => (
         <FileLink
         href={require("documents/chapter2/OCHA_UN_Colombia-Contexto_Humanitario_Norte_de_Santander.pdf")}
         format="pdf"
-        size="3.6MB"> agentes ilegais ganhem mais de 2,1 milhões de dólares por mês </FileLink> controlando 
+        size="3.6MB"> agentes ilegais ganhem mais de 2,1 milhões de dólares por mês </FileLink> controlando
         <StoryMedia
         media={{
           id: "image-2",
@@ -220,7 +220,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Não dar atenção a esses grupos pode ter consequências terríveis. 
+        Não dar atenção a esses grupos pode ter consequências terríveis.
       </Paragraph>
 
       <Paragraph>
@@ -236,15 +236,15 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Franklin, 24, conta que fugiu para a Colômbia depois de ser detido e agredido na Venezuela em meio aos protestos que tomaram o país. Ele diz que, enquanto estava detido, teve a cabeça raspada por policiais, que tentaram estuprá-lo duas vezes. 
+        Franklin, 24, conta que fugiu para a Colômbia depois de ser detido e agredido na Venezuela em meio aos protestos que tomaram o país. Ele diz que, enquanto estava detido, teve a cabeça raspada por policiais, que tentaram estuprá-lo duas vezes.
       </Paragraph>
 
       <Paragraph>
-        Quando chegou à Colômbia, mais precisamente em La Parada, não encontrou nenhum lugar para descansar na cidade vizinha de Cúcuta. Teve que dormir no terminal de ônibus na primeira semana, e logo foi recrutado por um grupo do crime organizado para ser contrabandista. 
+        Quando chegou à Colômbia, mais precisamente em La Parada, não encontrou nenhum lugar para descansar na cidade vizinha de Cúcuta. Teve que dormir no terminal de ônibus na primeira semana, e logo foi recrutado por um grupo do crime organizado para ser contrabandista.
       </Paragraph>
 
       <Paragraph>
-        Escondendo o metal ilegal nas solas dos sapatos, ele cruzava a fronteira a pé. Trabalhou vários meses até ganhar dinheiro suficiente para buscar sua esposa e o filho de nove meses. 
+        Escondendo o metal ilegal nas solas dos sapatos, ele cruzava a fronteira a pé. Trabalhou vários meses até ganhar dinheiro suficiente para buscar sua esposa e o filho de nove meses.
       </Paragraph>
 
       <Paragraph>
@@ -256,7 +256,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Assim como Harold, Franklin disse que seus chefes ameaçaram sua família para obrigá-lo a entregar o ouro. Ele agora vende doces nas ruas porque o tráfico se tornou muito perigoso. 
+        Assim como Harold, Franklin disse que seus chefes ameaçaram sua família para obrigá-lo a entregar o ouro. Ele agora vende doces nas ruas porque o tráfico se tornou muito perigoso.
       </Paragraph>
 
       <Paragraph>
@@ -264,7 +264,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Outra filha, que ainda mora na Venezuela, começou um novo semestre de aulas sem material escolar. Por isso ele está economizando dinheiro para mandar a ela. 
+        Outra filha, que ainda mora na Venezuela, começou um novo semestre de aulas sem material escolar. Por isso ele está economizando dinheiro para mandar a ela.
       </Paragraph>
 
       <SubTitle>
@@ -272,7 +272,7 @@ export default () => (
       </SubTitle>
 
       <Paragraph>
-        No centro de Cúcuta, a cerca de dez quilômetros do corredor de contrabando de ouro de La Parada, há uma área do tamanho de um bairro que foi convertida em um centro de mercadorias ilícitas vindas da Venezuela. 
+        No centro de Cúcuta, a cerca de dez quilômetros do corredor de contrabando de ouro de La Parada, há uma área do tamanho de um bairro que foi convertida em um centro de mercadorias ilícitas vindas da Venezuela.
       </Paragraph>
 
       <Paragraph>
@@ -288,7 +288,7 @@ export default () => (
         data: {
           id: "vgdRWxCY53g"
         }
-        }}> <i>compraventas</i> – pequenas lojas que compram e vendem ouro</StoryMedia>
+        }}> <i>compraventa</i>s</i> – pequenas lojas que compram e vendem ouro</StoryMedia>
         . Somente nesta área, chegam diariamente de 200 a 300 venezuelanos para oferecer o metal. Os moradores dizem que o número de casas de penhores aumentou significativamente nos últimos anos, quando o tráfico de ouro disparou.
       </Paragraph>
 
@@ -307,15 +307,15 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Outros tentam ser mais discretos sobre o comércio, em grande parte informal ou ilegal. Nos fundos de um caótico mercado há um pequeno escritório oculto atrás de um painel que se abre. O espaço é suficiente para três cadeiras de plástico e uma pequena escrivaninha, atrás da qual há um homem com uma pilha de dinheiro.  
+        Outros tentam ser mais discretos sobre o comércio, em grande parte informal ou ilegal. Nos fundos de um caótico mercado há um pequeno escritório oculto atrás de um painel que se abre. O espaço é suficiente para três cadeiras de plástico e uma pequena escrivaninha, atrás da qual há um homem com uma pilha de dinheiro.
       </Paragraph>
 
       <Paragraph>
-        Ele paga 30 dólares por grama por ouro e diz que compra entre 4 e 5 quilos do metal por semana. Isso significa cerca de 150 mil dólares em ouro. 
+        Ele paga 30 dólares por grama por ouro e diz que compra entre 4 e 5 quilos do metal por semana. Isso significa cerca de 150 mil dólares em ouro.
       </Paragraph>
 
       <Paragraph>
-        Questionado sobre quanto ouro é possível vender em uma semana, ele respondeu “quanto for preciso”. 
+        Questionado sobre quanto ouro é possível vender em uma semana, ele respondeu “quanto for preciso”.
       </Paragraph>
 
       <Paragraph>
@@ -323,7 +323,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Logo ela grita para uma mulher do outro lado do corredor, que também tem uma joalheria, e pergunta se ela tem ouro não refinado. 
+        Logo ela grita para uma mulher do outro lado do corredor, que também tem uma joalheria, e pergunta se ela tem ouro não refinado.
       </Paragraph>
 
       <Paragraph>
@@ -331,7 +331,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Não, responde a outra, pelo menos por agora. 
+        Não, responde a outra, pelo menos por agora.
       </Paragraph>
 
       <Paragraph>
@@ -365,19 +365,19 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Francisco explica como o comércio de ouro funciona: contatos na Venezuela escrevem para ele informando o que está em oferta, e se chegam a um acordo, um contrabandista é enviado para cruzar a fronteira com o metal. Os pagamentos são feitos em dinheiro, geralmente em dólares ou por transferência bancária. 
+        Francisco explica como o comércio de ouro funciona: contatos na Venezuela escrevem para ele informando o que está em oferta, e se chegam a um acordo, um contrabandista é enviado para cruzar a fronteira com o metal. Os pagamentos são feitos em dinheiro, geralmente em dólares ou por transferência bancária.
       </Paragraph>
 
       <Paragraph>
-        Em Cúcuta, o ouro é escondido nas portas e outros compartimentos de carros particulares, e então é levado a grandes cidades como Bogotá, Cali ou Medellín. Lá, se falsificam os documentos necessários para exportá-lo para Europa ou Estados Unidos, e o ouro entra na cadeia de fornecimento global como mercadoria legal. 
+        Em Cúcuta, o ouro é escondido nas portas e outros compartimentos de carros particulares, e então é levado a grandes cidades como Bogotá, Cali ou Medellín. Lá, se falsificam os documentos necessários para exportá-lo para Europa ou Estados Unidos, e o ouro entra na cadeia de fornecimento global como mercadoria legal.
       </Paragraph>
 
       <Paragraph>
-        As quantidades de ouro que passam por Cúcuta variam muito, diz Francisco. Demora cerca de uma semana para juntar 100 quilos, mas ele não pode se dar ao luxo de financiar esse investimento por conta própria. 
+        As quantidades de ouro que passam por Cúcuta variam muito, diz Francisco. Demora cerca de uma semana para juntar 100 quilos, mas ele não pode se dar ao luxo de financiar esse investimento por conta própria.
       </Paragraph>
 
       <Paragraph>
-        “Há muitos grupos” que financiam a compra de ouro, acrescenta outro homem que ouvia a conversa. Ele sabe que o ouro é o bem preferido para lavar dinheiro do crime. 
+        “Há muitos grupos” que financiam a compra de ouro, acrescenta outro homem que ouvia a conversa. Ele sabe que o ouro é o bem preferido para lavar dinheiro do crime.
       </Paragraph>
 
       <Paragraph>

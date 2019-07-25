@@ -41,15 +41,15 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Nos últimos anos, comida, medicamentos, combustível e dinheiro têm sido itens escassos no restante da Venezuela. Contudo, seguem disponíveis ao longo dessas estradas do sudeste, como se as riquezas da mineração de ouro criassem um mundo paralelo. 
+        Nos últimos anos, comida, medicamentos, combustível e dinheiro têm sido itens escassos no restante da Venezuela. Contudo, seguem disponíveis ao longo dessas estradas do sudeste, como se as riquezas da mineração de ouro criassem um mundo paralelo.
       </Paragraph>
 
       <Paragraph>
         O ponto de parada mais importante é El Callao, cidade que também fica no estado de Bolívar, agrupada entre montanhas, a cerca de 850 quilômetros da capital Caracas. El Callao é conhecida por seu carnaval colorido, mas foi rebatizada de capital regional da mineração.
       </Paragraph>
-      
+
       <Paragraph>
-        O crescimento da atividade transformou o lugar em um pesadelo. 
+        O crescimento da atividade transformou o lugar em um pesadelo.
         <StoryMedia
         media={{
           id: "image-1",
@@ -67,11 +67,11 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        El Callao faz parte do Arco Mineiro do Orinoco, um megaprojeto patrocinado pelo governo que cobre 12% do território venezuelano. 
+        El Callao faz parte do Arco Mineiro do Orinoco, um megaprojeto patrocinado pelo governo que cobre 12% do território venezuelano.
       </Paragraph>
 
       <Paragraph>
-        Lançado pelo presidente Nicolás Maduro em fevereiro de 2016, o projeto é uma tentativa de buscar recursos após o colapso da indústria petrolífera – responsável por sustentar a nação sul-americana por um século. Como parte do plano, o <ExternalLink href="https://mundo.sputniknews.com/entrevistas/201812151084165986-venezuela-riquezas-recursos-oro-diamantes/" language="es">governo tenta validar e certificar reservas de ouro que chegam a 8.900 toneladas até 2025</ExternalLink>{" "}.  Isso daria à Venezuela o segundo maior depósito do metal em todo o mundo. 
+        Lançado pelo presidente Nicolás Maduro em fevereiro de 2016, o projeto é uma tentativa de buscar recursos após o colapso da indústria petrolífera – responsável por sustentar a nação sul-americana por um século. Como parte do plano, o <ExternalLink href="https://mundo.sputniknews.com/entrevistas/201812151084165986-venezuela-riquezas-recursos-oro-diamantes/" language="es">governo tenta validar e certificar reservas de ouro que chegam a 8.900 toneladas até 2025</ExternalLink>{" "}.  Isso daria à Venezuela o segundo maior depósito do metal em todo o mundo.
       </Paragraph>
 
       <Paragraph>
@@ -79,7 +79,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        A imprensa local noticiou a descoberta de valas comuns, mas os moradores dizem que muitos dos mortos, vítimas de violência e doenças, nunca foram encontrados – seus corpos estariam escondidos nas selvas do país. 
+        A imprensa local noticiou a descoberta de valas comuns, mas os moradores dizem que muitos dos mortos, vítimas de violência e doenças, nunca foram encontrados – seus corpos estariam escondidos nas selvas do país.
       </Paragraph>
 
       <Paragraph>
@@ -87,7 +87,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Um empregado da estatal Companhia Geral de Mineração da Venezuela (Minerven), que pediu anonimato com medo de represálias, explica que “grupos irregulares” estão ficando ricos com o negócio do ouro. 
+        Um empregado da estatal Companhia Geral de Mineração da Venezuela (Minerven), que pediu anonimato com medo de represálias, explica que “grupos irregulares” estão ficando ricos com o negócio do ouro.
         <StoryMedia
         media={{
         id: "video-1",
@@ -111,7 +111,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        As duas organizações compartilham o território com sindicatos do crime, ou <i>sindicatos</i>, dirigidos por líderes de gangues conhecidos como <i>pranes</i>. Há também os Comitês para a Defesa da Revolução (CDR), que iniciaram seus próprios grupos de mineração e estão ideologicamente alinhados com o governo de Maduro. 
+        As duas organizações compartilham o território com sindicatos do crime, ou <i>sindicatos</i>, dirigidos por líderes de gangues conhecidos como <i>pranes</i>. Há também os Comitês para a Defesa da Revolução (CDR), que iniciaram seus próprios grupos de mineração e estão ideologicamente alinhados com o governo de Maduro.
       </Paragraph>
 
       <Paragraph>
@@ -119,7 +119,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Ele ainda se surpreende quando se lembra da primeira vez que viu a marcha do ELN pelo estado de Bolívar. 
+        Ele ainda se surpreende quando se lembra da primeira vez que viu a marcha do ELN pelo estado de Bolívar.
       </Paragraph>
 
       <Paragraph>
@@ -127,7 +127,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        O controle da área por grupos armados e unidades militares corruptas impede que os mineiros falem abertamente. 
+        O controle da área por grupos armados e unidades militares corruptas impede que os mineiros falem abertamente.
       </Paragraph>
 
       <Paragraph>
@@ -146,7 +146,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        “Vamos para a mina e trabalhamos em grupos para poder cuidar uns dos outros”, disse um mineiro artesanal vestido com uma camiseta da “Missão Piar”, programa do governo destinado a combater a mineração ilegal. “[Os grupos armados] tomam nossos celulares e nossos pertences antes de entrarmos nas minas. Precisamos do trabalho, mas se reclamamos, eles não permitem que a gente volte.” 
+        “Vamos para a mina e trabalhamos em grupos para poder cuidar uns dos outros”, disse um mineiro artesanal vestido com uma camiseta da “Missão Piar”, programa do governo destinado a combater a mineração ilegal. “[Os grupos armados] tomam nossos celulares e nossos pertences antes de entrarmos nas minas. Precisamos do trabalho, mas se reclamamos, eles não permitem que a gente volte.”
       </Paragraph>
 
       <SubTitle>
@@ -154,7 +154,7 @@ export default () => (
       </SubTitle>
 
       <Paragraph>
-        Luis Rosales, advogado da cidade de Valência, a cerca de 125 quilômetros de Caracas, chegou na cidade mineira há dois anos, esperando arrumar emprego nas jazidas de ouro. Agora, ele vende ferramentas de mineração na rua. 
+        Luis Rosales, advogado da cidade de Valência, a cerca de 125 quilômetros de Caracas, chegou na cidade mineira há dois anos, esperando arrumar emprego nas jazidas de ouro. Agora, ele vende ferramentas de mineração na rua.
       </Paragraph>
 
       <Paragraph>
@@ -166,7 +166,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        O governo venezuelano não divulgou números recentes sobre a malária, mas a 
+        O governo venezuelano não divulgou números recentes sobre a malária, mas a
         <FileLink
         href={require("documents/chapter1/WHO-World_Malaria_Report.pdf")}
         format="pdf"
@@ -192,7 +192,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Agora, máquinas de dragagem, bombas de sucção, picaretas, pás, cianeto e mercúrio estão cada vez mais presentes no sul da Venezuela, ameaçando contaminar o estoque de peixes da região. 
+        Agora, máquinas de dragagem, bombas de sucção, picaretas, pás, cianeto e mercúrio estão cada vez mais presentes no sul da Venezuela, ameaçando contaminar o estoque de peixes da região.
       </Paragraph>
 
       <Paragraph>
@@ -208,7 +208,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Para complicar, cerca de 
+        Para complicar, cerca de
         <FileLink
         href={require("documents/chapter1/CECODAP-Peligros_y_Vulneraciones_de_DDHH_de_Ninos_Ninas_y_Adolescentes_en_la_Frontera_y_Actividades_Mineras.pdf")}
         format="pdf"
@@ -217,7 +217,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        A Organização para Cooperação e Desenvolvimento Econômico (OCDE) e a União Europeia definem “minerais de conflito” como mineração que contribui para a ocorrência de trabalho forçado, lavagem de dinheiro, trabalho infantil e abusos de direitos humanos. Todos esses ingredientes estão presentes nas minas da Venezuela. 
+        A Organização para Cooperação e Desenvolvimento Econômico (OCDE) e a União Europeia definem “minerais de conflito” como mineração que contribui para a ocorrência de trabalho forçado, lavagem de dinheiro, trabalho infantil e abusos de direitos humanos. Todos esses ingredientes estão presentes nas minas da Venezuela.
       </Paragraph>
 
       <SubTitle>
@@ -225,11 +225,11 @@ export default () => (
       </SubTitle>
 
       <Paragraph>
-        A demanda global por ouro em 2018 alcançou 44.435 toneladas, quase metade proveniente do setor de joias. 
+        A demanda global por ouro em 2018 alcançou 44.435 toneladas, quase metade proveniente do setor de joias.
       </Paragraph>
 
       <Paragraph>
-        De acordo com o World Gold Council, a Venezuela é o 32º maior produtor de ouro do mundo, responsável por 23 toneladas em 2018. O 
+        De acordo com o World Gold Council, a Venezuela é o 32º maior produtor de ouro do mundo, responsável por 23 toneladas em 2018. O
         <FileLink
         href={require("documents/chapter1/Venezuela_government-Plan_Sectorial_Minero_2019-2025.pdf")}
         format="pdf"
@@ -238,7 +238,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Para atingir esses objetivos, o governo diz que planeja “coordenar, organizar e controlar a mineração em pequena escala dentro do Arco Mineiro do Orinoco”. 
+        Para atingir esses objetivos, o governo diz que planeja “coordenar, organizar e controlar a mineração em pequena escala dentro do Arco Mineiro do Orinoco”.
       </Paragraph>
 
       <Paragraph>
@@ -250,7 +250,7 @@ export default () => (
           data: {
             src: require("photos/chapter1/Venezuela06.jpg")
           }
-        }}> produzido por mineiros artesanais</StoryMedia> 
+        }}> produzido por mineiros artesanais</StoryMedia>
         . O primeiro é um grupo de investidores privados; o outro é a Minerven.
       </Paragraph>
 
@@ -259,7 +259,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        “Isso quase nunca acontece”, explicou. “[Os atacadistas] ganham mais dinheiro contrabandeando [ouro] para fora do país e sendo pagos em dólares, e não os bolívares que o Estado está oferecendo.” 
+        “Isso quase nunca acontece”, explicou. “[Os atacadistas] ganham mais dinheiro contrabandeando [ouro] para fora do país e sendo pagos em dólares, e não os bolívares que o Estado está oferecendo.”
       </Paragraph>
 
       <Paragraph>
@@ -267,7 +267,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        A estatal também obtém a maior parte de seu ouro de 
+        A estatal também obtém a maior parte de seu ouro de
         <StoryMedia
         media={{
           id: "image-5",
@@ -279,7 +279,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Fundada em 1970, a Minerven foi reformulada ao menos três vezes na última década. Depois de atingir o “marco” de produção de 12,23 toneladas em 2009, a produção de mineração entrou em colapso entre 2010 a 2015, quando as empresas de mineração internacionais saíram do país. 
+        Fundada em 1970, a Minerven foi reformulada ao menos três vezes na última década. Depois de atingir o “marco” de produção de 12,23 toneladas em 2009, a produção de mineração entrou em colapso entre 2010 a 2015, quando as empresas de mineração internacionais saíram do país.
       </Paragraph>
 
       <FullBlock withMargin>
@@ -293,7 +293,7 @@ export default () => (
       </FullBlock>
 
       <Paragraph>
-        Mesmo para os funcionários da empresa, as operações da Minerven estão envoltas em mistério, pois o governo não produz informações sobre a compra e venda de ouro. 
+        Mesmo para os funcionários da empresa, as operações da Minerven estão envoltas em mistério, pois o governo não produz informações sobre a compra e venda de ouro.
       </Paragraph>
 
       <Paragraph>
@@ -322,7 +322,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        A despeito da presença militar, a área é o ponto de partida das rotas de contrabando que chegam aos países vizinhos, como Guiana, Colômbia e Brasil. Para evitar o escrutínio, as organizações criminosas usam “mulas” humanas, barcos, carros blindados e pequenos aviões.  
+        A despeito da presença militar, a área é o ponto de partida das rotas de contrabando que chegam aos países vizinhos, como Guiana, Colômbia e Brasil. Para evitar o escrutínio, as organizações criminosas usam “mulas” humanas, barcos, carros blindados e pequenos aviões.
       </Paragraph>
 
       <Paragraph>
@@ -334,11 +334,11 @@ export default () => (
       </SubTitle>
 
       <Paragraph>
-        Para contrabandear o ouro ilegal para a vizinha Colômbia, as organizações criminosas usam uma rede de jovens transportadores ou “mulas” para o trabalho. 
+        Para contrabandear o ouro ilegal para a vizinha Colômbia, as organizações criminosas usam uma rede de jovens transportadores ou “mulas” para o trabalho.
       </Paragraph>
 
       <Paragraph>
-        Enquanto as mulas de drogas costumam engolir seus produtos para cruzar fronteiras, as mulas de ouro levam os lingotes e gramas do metal escondidos sob as roupas ou dentro das cavidades corporais. O ouro é considerado um ativo estratégico pelo governo venezuelano e os contrabandistas, se forem pegos, podem ser severamente punidos. Eles também são ameaçados pelas gangues criminosas e pelos soldados que operam as minas e controlam as fronteiras. 
+        Enquanto as mulas de drogas costumam engolir seus produtos para cruzar fronteiras, as mulas de ouro levam os lingotes e gramas do metal escondidos sob as roupas ou dentro das cavidades corporais. O ouro é considerado um ativo estratégico pelo governo venezuelano e os contrabandistas, se forem pegos, podem ser severamente punidos. Eles também são ameaçados pelas gangues criminosas e pelos soldados que operam as minas e controlam as fronteiras.
       </Paragraph>
 
       <Paragraph>
@@ -350,7 +350,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Eles removeram o chip e a bateria do seu celular, cobriram sua cabeça com uma sacola de pano e colocaram fones de ouvido em suas orelhas. 
+        Eles removeram o chip e a bateria do seu celular, cobriram sua cabeça com uma sacola de pano e colocaram fones de ouvido em suas orelhas.
       </Paragraph>
 
       <Paragraph>
@@ -387,7 +387,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Na cidade fronteiriça colombiana de Cúcuta, ele esperava pelos dois companheiros, que entraram no país por trilhas informais, as <i>trochas</i>. 
+        Na cidade fronteiriça colombiana de Cúcuta, ele esperava pelos dois companheiros, que entraram no país por trilhas informais, as <i>trochas</i>.
       </Paragraph>
 
       <Paragraph>
@@ -423,11 +423,11 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        O Troncal del Caribe, que liga Venezuela e Colômbia, tem pelo menos 14 postos de controle administrados pela Guarda Nacional Venezuelana, pelo Exército e pela polícia regional. Mas ninguém ousa interromper o fluxo de caminhões de carga ou inspecioná-los, segundo autoridades locais. 
+        O Troncal del Caribe, que liga Venezuela e Colômbia, tem pelo menos 14 postos de controle administrados pela Guarda Nacional Venezuelana, pelo Exército e pela polícia regional. Mas ninguém ousa interromper o fluxo de caminhões de carga ou inspecioná-los, segundo autoridades locais.
       </Paragraph>
 
       <Paragraph>
-        Muitos dos caminhões têm passes especiais, <i>salvo-condutos</i>, emitidos pela Zona Operacional de Defesa Integral (ZODI) de Zulia, divisão militar que alega que os caminhões transportam “produtos de exportação”, disse um cabo do Exército da 13ª Brigada de Infantaria que pediu para não ser identificado. 
+        Muitos dos caminhões têm passes especiais, <i>salvo-condutos</i>, emitidos pela Zona Operacional de Defesa Integral (ZODI) de Zulia, divisão militar que alega que os caminhões transportam “produtos de exportação”, disse um cabo do Exército da 13ª Brigada de Infantaria que pediu para não ser identificado.
       </Paragraph>
 
       <Paragraph>
@@ -435,7 +435,14 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        O funcionário disse que os caminhões geralmente estão carregando coltan, ouro, prata e outros itens que não deveriam ser exportados. 
+      <StoryMedia
+      media={{
+      id: "video-5",
+      type: "youtube",
+      data: {
+        id: "4KmM18jPIL0"
+      }
+      }}>O funcionário disse que os caminhões geralmente estão carregando coltan, ouro, prata e outros itens que não deveriam ser exportados.</StoryMedia>
       </Paragraph>
 
       <Paragraph>
@@ -447,7 +454,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Na cidade colombiana de Maicao, a apenas 13 quilômetros da fronteira, as lojas compram o ouro venezuelano. 
+        Na cidade colombiana de Maicao, a apenas 13 quilômetros da fronteira, as lojas compram o ouro venezuelano.
       </Paragraph>
 
       <Paragraph>
@@ -455,7 +462,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Ele diz que as pessoas que vendem o metal precioso não são mineiros, mas oficiais militares. 
+        Ele diz que as pessoas que vendem o metal precioso não são mineiros, mas oficiais militares.
       </Paragraph>
 
       <Paragraph>
@@ -463,10 +470,10 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Um guarda nacional da Venezuela em Paraguachón, que insistiu em manter anonimato, descreveu como 
+        Um guarda nacional da Venezuela em Paraguachón, que insistiu em manter anonimato, descreveu como
         <StoryMedia
         media={{
-        id: "video-5",
+        id: "video-6",
         type: "youtube",
         data: {
           id: "IaS9JTPETWM"
@@ -475,15 +482,15 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Era um Toyota Hilux com duas mulheres e um motorista. As passageiras disseram que trabalhavam para o governo e vinham de Caracas, mas pareciam nervosas, então o soldado e seu parceiro conduziram uma busca. Eles descobriram que o carro na verdade estava vindo da área de mineração de Tumeremo, no estado de Bolívar, e lá dentro encontraram uma caixa de papelão com 250 gramas de prata, 300 gramas de ouro e mil dólares em dinheiro. 
+        Era um Toyota Hilux com duas mulheres e um motorista. As passageiras disseram que trabalhavam para o governo e vinham de Caracas, mas pareciam nervosas, então o soldado e seu parceiro conduziram uma busca. Eles descobriram que o carro na verdade estava vindo da área de mineração de Tumeremo, no estado de Bolívar, e lá dentro encontraram uma caixa de papelão com 250 gramas de prata, 300 gramas de ouro e mil dólares em dinheiro.
       </Paragraph>
 
       <Paragraph>
-        Em pânico, os viajantes trocaram sua valiosa carga por liberdade. 
+        Em pânico, os viajantes trocaram sua valiosa carga por liberdade.
       </Paragraph>
 
       <Paragraph>
-        “A prisão e o confisco não tiveram efeito” e foram removidos dos registros, afirmou o soldado, “e nós dividimos o lucro”. 
+        “A prisão e o confisco não tiveram efeito” e foram removidos dos registros, afirmou o soldado, “e nós dividimos o lucro”.
       </Paragraph>
     </Container>
   </article>

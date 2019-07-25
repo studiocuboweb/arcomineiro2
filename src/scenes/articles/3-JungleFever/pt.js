@@ -48,7 +48,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Seus olhos embriagados observam o enorme porém lento rio Orinoco, que separa seu negócio no vilarejo de Amanavén, na Colômbia, da vizinha Venezuela, visível do outro lado da água. 
+        Seus olhos embriagados observam o enorme porém lento rio Orinoco, que separa seu negócio no vilarejo de Amanavén, na Colômbia, da vizinha Venezuela, visível do outro lado da água.
       </Paragraph>
 
       <Paragraph>
@@ -87,7 +87,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Seu destino? As minas de ouro de Yapacana na Amazônia venezuelana, espalhadas por um complexo montanhoso e um parque nacional de mesmo nome. 
+        Seu destino? As minas de ouro de Yapacana na Amazônia venezuelana, espalhadas por um complexo montanhoso e um parque nacional de mesmo nome.
       </Paragraph>
 
       <Paragraph>
@@ -109,7 +109,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        “Isso é para os militares do outro lado”, diz ele, referindo-se à Guarda Nacional da Venezuela. É para pagar o que chama de “imposto” – um pagamento de extorsão. 
+        “Isso é para os militares do outro lado”, diz ele, referindo-se à Guarda Nacional da Venezuela. É para pagar o que chama de “imposto” – um pagamento de extorsão.
       </Paragraph>
 
       <Paragraph>
@@ -146,7 +146,7 @@ export default () => (
           id: "6kYhEF6n3nE"
         }
         }}> triciclos usados como moto-táxis</StoryMedia>
-        e chamados de <i>ratones</i>, que zumbem por aí e buzinam agressivamente enquanto caçam passageiros. Em meio à cena caótica e barulhenta, os mineiros, parecendo atordoados depois de semanas ou meses de labuta nas selvas da Venezuela, correm para a cidade.  
+        e chamados de <i>ratones</i>, que zumbem por aí e buzinam agressivamente enquanto caçam passageiros. Em meio à cena caótica e barulhenta, os mineiros, parecendo atordoados depois de semanas ou meses de labuta nas selvas da Venezuela, correm para a cidade.
       </Paragraph>
 
       <SubTitle>
@@ -154,7 +154,7 @@ export default () => (
       </SubTitle>
 
       <Paragraph>
-        Um indígena colombiano de 50 anos, vestindo um boné de beisebol, tropeça em uma das muitas <i>compraventas</i> que compram e vendem ouro.
+        Um indígena colombiano de 50 anos, vestindo um boné de beisebol, tropeça em uma das muitas <i>compraventa</i>s</i> que compram e vendem ouro.
       </Paragraph>
 
       <Paragraph>
@@ -210,7 +210,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Mineiros vendem seu ouro em <i>compraventas</i> – que geralmente são lojas não marcadas com janelas coloridas –, que podem ser encontradas por toda a cidade. Em uma loja anônima com paredes brancas e cadeiras de plástico, uma mulher amamentava seu bebê enquanto outras pessoas esperavam que seu ouro fosse pesado.
+        Mineiros vendem seu ouro em <i>compraventa</i>s</i> – que geralmente são lojas não marcadas com janelas coloridas –, que podem ser encontradas por toda a cidade. Em uma loja anônima com paredes brancas e cadeiras de plástico, uma mulher amamentava seu bebê enquanto outras pessoas esperavam que seu ouro fosse pesado.
       </Paragraph>
 
       <Paragraph>
@@ -218,7 +218,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Registrando centenas e até milhares de pequenos garimpeiros, vendedores de ouro como Bryan podem justificar grandes quantidades de vendas de ouro. Mas o sistema está repleto de fraudes. 
+        Registrando centenas e até milhares de pequenos garimpeiros, vendedores de ouro como Bryan podem justificar grandes quantidades de vendas de ouro. Mas o sistema está repleto de fraudes.
       </Paragraph>
 
       <Paragraph>
@@ -230,7 +230,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Mesmo que o ouro venha da Venezuela, se no papel estiver que o metal vem de uma mina da Colômbia, os royalties são pagos ao Estado. 
+        Mesmo que o ouro venha da Venezuela, se no papel estiver que o metal vem de uma mina da Colômbia, os royalties são pagos ao Estado.
       </Paragraph>
 
       <Paragraph>
@@ -238,7 +238,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Ninguém no 
+        Ninguém no
         <StoryMedia
         media={{
           id: "galery-2",
@@ -261,7 +261,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Outro homem envolvido no circuito de ouro, Juan Pablo, que também não quis dar o seu nome verdadeiro, ri quando perguntado se Bryan vende ouro colombiano. 
+        Outro homem envolvido no circuito de ouro, Juan Pablo, que também não quis dar o seu nome verdadeiro, ri quando perguntado se Bryan vende ouro colombiano.
       </Paragraph>
 
       <Paragraph>
@@ -269,7 +269,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        “O submundo do ouro sustenta a economia”, disse ele. 
+        “O submundo do ouro sustenta a economia”, disse ele.
       </Paragraph>
 
       <Paragraph>
@@ -286,11 +286,11 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        “Eles tiram o ouro, mas ilegalmente”, disse ele, explicando que os traficantes homens escondem o ouro perto de seus testículos, enquanto as mulheres o colocam entre os seios ou nas roupas íntimas. 
+        “Eles tiram o ouro, mas ilegalmente”, disse ele, explicando que os traficantes homens escondem o ouro perto de seus testículos, enquanto as mulheres o colocam entre os seios ou nas roupas íntimas.
       </Paragraph>
 
       <Paragraph>
-        As margens de lucro estão entre um ou dois dólares americanos a cada grama. Se um traficante for enviado com ouro para Bogotá, explica um proprietário de uma loja de penhores, leva quantidades acima de um quilo para fazer a viagem valer a pena. Um mensageiro ou contrabandista pode ganhar cerca de 188 dólares americanos por carregar um quilo de ouro para a capital. 
+        As margens de lucro estão entre um ou dois dólares americanos a cada grama. Se um traficante for enviado com ouro para Bogotá, explica um proprietário de uma loja de penhores, leva quantidades acima de um quilo para fazer a viagem valer a pena. Um mensageiro ou contrabandista pode ganhar cerca de 188 dólares americanos por carregar um quilo de ouro para a capital.
       </Paragraph>
 
       <Paragraph>
@@ -306,13 +306,13 @@ export default () => (
       </SubTitle>
 
       <Paragraph>
-        A selva da Colômbia que faz fronteira com a Venezuela é uma das regiões mais pobres e negligenciadas do país, o que historicamente obrigou as comunidades da região a depender de atividades ilícitas para sobreviver. A falta de oportunidades levou os habitantes a alternarem suas atividades entre a caça furtiva de animais silvestres por sua pele e dentes, mineração ilegal e cultivo de coca para produzir cocaína. 
+        A selva da Colômbia que faz fronteira com a Venezuela é uma das regiões mais pobres e negligenciadas do país, o que historicamente obrigou as comunidades da região a depender de atividades ilícitas para sobreviver. A falta de oportunidades levou os habitantes a alternarem suas atividades entre a caça furtiva de animais silvestres por sua pele e dentes, mineração ilegal e cultivo de coca para produzir cocaína.
       </Paragraph>
 
       <Paragraph>
         Por causa do alto desemprego em Guainía, os habitantes, em grande parte indígenas, procuram trabalho nas minas venezuelanas. Um líder indígena disse que a situação na Venezuela é ainda pior. Em uma comunidade, Caño Grulla, apenas 30 das cerca de 500 famílias permaneceram no local. Todos os outros foram para as minas.
       </Paragraph>
-      
+
       <Paragraph>
         Enquanto os jovens deixam suas famílias para procurar ouro, as taxas de deserção escolar na região estão disparando, de acordo com Luis Enrique Amado Prieto, diretor da Seção de Assistência Social e Pastoral no sudeste da Colômbia.
       </Paragraph>
@@ -366,7 +366,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        As FARC eram o maior e mais antigo grupo guerrilheiro do hemisfério até assinarem um acordo de paz em 2016 e se desmobilizarem em 2017. Mas nem todos os combatentes depuseram suas armas e foram formados grupos “dissidentes”, como Acacio Medina, que é dirigido por um guerrilheiro chamado “Jhon 40”. O grupo opera projetos de mineração ilegal no estado do Amazonas, na Venezuela. 
+        As FARC eram o maior e mais antigo grupo guerrilheiro do hemisfério até assinarem um acordo de paz em 2016 e se desmobilizarem em 2017. Mas nem todos os combatentes depuseram suas armas e foram formados grupos “dissidentes”, como Acacio Medina, que é dirigido por um guerrilheiro chamado “Jhon 40”. O grupo opera projetos de mineração ilegal no estado do Amazonas, na Venezuela.
       </Paragraph>
 
       <Paragraph>
@@ -390,15 +390,15 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Grandes áreas de floresta no sudeste da Amazônia colombiana têm funcionado como corredor de tráfico de drogas, armas, tropas e mercadorias nas últimas décadas. 
+        Grandes áreas de floresta no sudeste da Amazônia colombiana têm funcionado como corredor de tráfico de drogas, armas, tropas e mercadorias nas últimas décadas.
       </Paragraph>
 
       <Paragraph>
-        Quando as FARC participam da mineração, cobram cerca de 30% da produção, segundo um antigo membro da guerrilha. E ele enfatiza que a Guarda Nacional da Venezuela já estava mais do que envolvida em 2007, e cobrava comissões em ouro em Yapacana. 
+        Quando as FARC participam da mineração, cobram cerca de 30% da produção, segundo um antigo membro da guerrilha. E ele enfatiza que a Guarda Nacional da Venezuela já estava mais do que envolvida em 2007, e cobrava comissões em ouro em Yapacana.
       </Paragraph>
 
       <Paragraph>
-        “Eles estavam minerando tanto ouro”, recorda. 
+        “Eles estavam minerando tanto ouro”, recorda.
       </Paragraph>
 
       <Paragraph>
@@ -406,11 +406,11 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Mesmo assim, mineiros disseram que guerrilheiros são melhores chefes do que a Guarda Nacional porque tinham um conjunto claro de regras, proibiam abuso de álcool e substâncias e de vez em quando defendiam a comunidade. Os militares venezuelanos eram mais abusivos e exigiam mais ouro. 
+        Mesmo assim, mineiros disseram que guerrilheiros são melhores chefes do que a Guarda Nacional porque tinham um conjunto claro de regras, proibiam abuso de álcool e substâncias e de vez em quando defendiam a comunidade. Os militares venezuelanos eram mais abusivos e exigiam mais ouro.
       </Paragraph>
 
       <Paragraph>
-        Mas eles também trabalham lado a lado com a Guarda Nacional da Venezuela, que 
+        Mas eles também trabalham lado a lado com a Guarda Nacional da Venezuela, que
         <StoryMedia
         media={{
         id: "video-5",
@@ -427,7 +427,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Franklin, que tem 26 anos de idade e é segundo sargento da Guarda Nacional Bolivariana da Venezuela, trabalhou nas áreas de mineração de ouro nos arredores de Puerto Ayacucho por três anos e meio. 
+        Franklin, que tem 26 anos de idade e é segundo sargento da Guarda Nacional Bolivariana da Venezuela, trabalhou nas áreas de mineração de ouro nos arredores de Puerto Ayacucho por três anos e meio.
       </Paragraph>
 
       <Paragraph>
@@ -443,15 +443,15 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        No entanto, tem havido conflitos. Em 2017, guerrilheiros quase derrubaram um helicóptero militar venezuelano perto da mina de Cacique, na área de Yapacana, com um fuzil AR-15. O helicóptero não deveria estar lá, explicou um adolescente venezuelano. “Agora, as guerrilhas estão no comando.” 
+        No entanto, tem havido conflitos. Em 2017, guerrilheiros quase derrubaram um helicóptero militar venezuelano perto da mina de Cacique, na área de Yapacana, com um fuzil AR-15. O helicóptero não deveria estar lá, explicou um adolescente venezuelano. “Agora, as guerrilhas estão no comando.”
       </Paragraph>
 
       <Paragraph>
-        Em novembro de 2018, um <ExternalLink href="https://lta.reuters.com/articulo/domesticNews/idLTAKCN1NA0BJ-OUSLD" language="es">confronto entre os guerrilheiros e a Guarda Nacional</ExternalLink>{" "} deixou pelo menos três soldados mortos e uma dúzia de feridos e mostrou a volatilidade da situação. 
+        Em novembro de 2018, um <ExternalLink href="https://lta.reuters.com/articulo/domesticNews/idLTAKCN1NA0BJ-OUSLD" language="es">confronto entre os guerrilheiros e a Guarda Nacional</ExternalLink>{" "} deixou pelo menos três soldados mortos e uma dúzia de feridos e mostrou a volatilidade da situação.
       </Paragraph>
 
       <Paragraph>
-        Mas os guerrilheiros estão na região para ficar, disse o ex-funcionário da inteligência. 
+        Mas os guerrilheiros estão na região para ficar, disse o ex-funcionário da inteligência.
       </Paragraph>
 
       <Paragraph>

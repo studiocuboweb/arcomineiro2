@@ -115,15 +115,15 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        “Conozco el tráfico de combustible, el tráfico de drogas, aprendí a traficar muchas cosas. Fue así como aprendí a pagar vacunas y a cobrarlas”.
+        “Conozco el tráfico de combustible, el tráfico de drogas, aprendí a traficar muchas cosas. Fue así como aprendí a pagar <i>vacunas</i> y a cobrarlas”.
       </Paragraph>
 
       <Paragraph>
-        La vacuna es como le dicen a la extorsión. Literalmente significa una inyección de seguridad. Y es uno de los elementos clave del contrabando de oro.
+        La <i>vacuna</i> es como le dicen a la extorsión. Literalmente significa una inyección de seguridad. Y es uno de los elementos clave del contrabando de oro.
       </Paragraph>
 
       <Paragraph>
-        Harold contó que el oro extraído en Venezuela es llevado a la frontera con Colombia por traficantes que muchas veces actúan en coordinación con la Guardia Nacional de Venezuela. Los soldados aceptan sobornos, o vacunas, para garantizar el paso seguro del oro. Algunas veces los soldados proveen vehículos blindados para trasladar el metal.
+        Harold contó que el oro extraído en Venezuela es llevado a la frontera con Colombia por traficantes que muchas veces actúan en coordinación con la Guardia Nacional de Venezuela. Los soldados aceptan sobornos, o <i>vacunas</i>, para garantizar el paso seguro del oro. Algunas veces los soldados proveen vehículos blindados para trasladar el metal.
       </Paragraph>
 
       <Paragraph>
@@ -147,7 +147,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        “Las mulas [que transportan el oro] pueden cruzarse con ambos grupos en la frontera. En un solo viaje te encuentras con la Guardia Nacional, la policía y el CICPC [el cuerpo de policía de investigaciones criminalísticas]”, dijo, y pone los ojos en blanco. “Todos cobran vacuna, incluyendo policiales y oficiales de migración de Colombia.”
+        “Las mulas [que transportan el oro] pueden cruzarse con ambos grupos en la frontera. En un solo viaje te encuentras con la Guardia Nacional, la policía y el CICPC [el cuerpo de policía de investigaciones criminalísticas]”, dijo, y pone los ojos en blanco. “Todos cobran <i>vacuna</i>, incluyendo policiales y oficiales de migración de Colombia.”
       </Paragraph>
 
       <Paragraph>
@@ -199,7 +199,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Colombia y Venezuela comparten una frontera de 2.219 kilómetros y hay siete cruces oficiales, pero muchas veces están cerrados debido al deterioro de las relaciones entre ambos países. Así las cosas, los contrabandistas tienen que llevar el oro por cientos de senderos, llamados trochas, que están controlados por una gama de pandillas delictivas y grupos armados.
+        Colombia y Venezuela comparten una frontera de 2.219 kilómetros y hay siete cruces oficiales, pero muchas veces están cerrados debido al deterioro de las relaciones entre ambos países. Así las cosas, los contrabandistas tienen que llevar el oro por cientos de senderos, llamados <i>trochas</i>, que están controlados por una gama de pandillas delictivas y grupos armados.
       </Paragraph>
 
       <Paragraph>
@@ -216,7 +216,7 @@ export default () => (
             credits: "Bram Ebus",
             src: require("photos/chapter2/Cucuta06.jpg")
           }
-        }}> control de las trochas y la extorsión a viajeros</StoryMedia> solamente en el departamento colombiano Norte de Santander.
+        }}> control de las <i>trochas</i> y la extorsión a viajeros</StoryMedia> solamente en el departamento colombiano Norte de Santander.
       </Paragraph>
 
       <Paragraph>
@@ -224,11 +224,11 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        El 17 de abril, por ejemplo, <ExternalLink href="https://www.laopinion.com.co/judicial/encuentran-tres-muertos-en-dos-trochas-de-la-frontera-175315#OP" language="es">un periódico local reportó</ExternalLink>{" "} que se habían encontrado tres cuerpos entre dos trochas y que la cabeza de una de las víctimas estaba envuelta en una camiseta.
+        El 17 de abril, por ejemplo, <ExternalLink href="https://www.laopinion.com.co/judicial/encuentran-tres-muertos-en-dos-trochas-de-la-frontera-175315#OP" language="es">un periódico local reportó</ExternalLink>{" "} que se habían encontrado tres cuerpos entre dos <i>trochas</i> y que la cabeza de una de las víctimas estaba envuelta en una camiseta.
       </Paragraph>
 
       <Paragraph>
-        Franklin, otro contrabandista de oro venezolano, dijo que se había tropezado con personas desmembradas en las trochas, una señal de advertencia de los grupos armados.
+        Franklin, otro contrabandista de oro venezolano, dijo que se había tropezado con personas desmembradas en las <i>trochas</i>, una señal de advertencia de los grupos armados.
       </Paragraph>
 
       <Paragraph>
@@ -284,7 +284,7 @@ export default () => (
         data: {
           id: "vgdRWxCY53g"
         }
-        }}> compraventas, pequeñas tiendas que compran y venden oro</StoryMedia>
+        }}> <i>compraventa</i>s</i>, pequeñas tiendas que compran y venden oro</StoryMedia>
         . Solamente a este lugar llegan a diario entre 200 y 300 venezolanos para ofrecer oro. La gente del lugar dice que la cantidad de casas de empeño ha aumentado significativamente en años recientes, cuando se disparó el contrabando de oro.
       </Paragraph>
 
