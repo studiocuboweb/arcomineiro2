@@ -79,6 +79,7 @@ class PageIntro extends Component {
         )}
 
       </Content>
+      //<IntroTransaction />
     </Wrapper>
   )}
 }
