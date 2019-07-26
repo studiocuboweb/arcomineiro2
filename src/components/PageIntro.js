@@ -4,6 +4,7 @@ import HeaderIntro from 'components/HeaderIntro';
 import Content from 'components/Content';
 import {isIOS} from "react-device-detect";
 import IntroTransaction from 'components/IntroTransaction';
+import { injectIntl, intlShape } from "react-intl";
 import "styles/fullbg_video.css";
 import { Redirect,withRouter } from "react-router-dom";
 
@@ -60,6 +61,17 @@ class PageIntro extends Component {
     }.bind(this), 1500)
   }
   render () {
+      var videoFile = require('images/video_bg.mp4');
+      var lg = 'en';
+      if (this.props.intl.locale.search('es') > -1) {
+        //espanhol
+        videoFile = require('images/video_bg.mp4');
+        lg = 'es';
+      } else if (this.props.intl.locale.search('pt') > -1) {
+        //portugues
+        videoFile = require('images/video_bg.mp4');
+        lg = 'pt';
+      }
       return (
     <Wrapper>
       {this.renderRedirect()}
@@ -70,7 +82,7 @@ class PageIntro extends Component {
         {isIOS ? (
           <div id="intro_transtion_overlay">
             <video autoPlay muted playsInline id="background-video" onEnded={this.handleOnEnded}>	
-              <source src={require("images/video_bg.mp4")} type="video/mp4" />	
+              <source src={videoFile} type="video/mp4" />	
             </video>
           </div>
         ) : (
@@ -83,4 +95,8 @@ class PageIntro extends Component {
   )}
 }
 
-export default withRouter(PageIntro);
+PageIntro.propTypes = {
+  intl: intlShape.isRequired
+};
+
+export default injectIntl(withRouter(PageIntro));
