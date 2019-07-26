@@ -411,7 +411,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        LAs outras empresas que compraram ouro da Asahi e da Argor-Heraeus não responderam aos pedidos de comentários.
+        As outras empresas que compraram ouro da Asahi e da Argor-Heraeus não responderam aos pedidos de comentários.
       </Paragraph>
 
       <Paragraph>
