@@ -127,7 +127,7 @@ const Overlay = styled.section`
       },
       "fitBoundsCoords": [[-88.1315403090528, -9.921248670028632], [-44.837437690917284, 23.179933818133662]],
       "showLayers":[''],
-      "maxZoom": 4.99,  
+      "maxZoom": 4.99,
   },
   {
       "id": 1,
@@ -168,7 +168,7 @@ const Overlay = styled.section`
         bearing: 0,
         pitch: 10.00
       },
-      "fitBoundsCoords": [[-70.1806, 11.8450], [-68.7401, 12.5916]], 
+      "fitBoundsCoords": [[-70.1806, 11.8450], [-68.7401, 12.5916]],
       "showLayers":['cidadesfronteraCO'],
       "maxZoom": 7.99,
   }, {
@@ -182,7 +182,7 @@ const Overlay = styled.section`
       bearing: 0,
       pitch: 30.00
       },
-      "fitBoundsCoords": [[-76.4446, -1.818581], [6.44676, 53.1746]], 
+      "fitBoundsCoords": [[-76.4446, -1.818581], [6.44676, 53.1746]],
       "showLayers":['NL_admin-0-boundary'],
       "maxZoom": 3.99,
   },{
@@ -198,13 +198,13 @@ const Overlay = styled.section`
     },
     "fitBoundsCoords": [[-88.1315403090528, -9.921248670028632], [-44.837437690917284, 23.179933818133662]],
     "showLayers":[''],
-    "maxZoom": 4.99,  
+    "maxZoom": 4.99,
 }];
 // const map = '';
 class Intro extends Component {
 
   constructor(props) {
-    
+
     super(props);
     this.setRedirect = this.setRedirect.bind(this);
     this.state = {
@@ -279,7 +279,7 @@ class Intro extends Component {
 
         scope.playback(locations.length - 1,map);
     })
-      
+
   }
 
   _onViewportChange = viewport => {
@@ -308,7 +308,7 @@ class Intro extends Component {
       if (lastLayer != undefined) {
         map.setLayoutProperty(lastLayer, 'visibility', 'none');
       }
-      
+
       //show currents layers
       if (currentLayer != undefined) {
         map.setLayoutProperty(currentLayer, 'visibility', 'visible');
@@ -320,7 +320,7 @@ class Intro extends Component {
     this.highlightBorough(locations[index].id ? locations[index].id : '',map);
     //console.log(locations[index].slide)
     //console.log(map.getBounds())
-    
+
     map.fitBounds(locations[index].fitBoundsCoords,{pitch:locations[index].camera.pitch,maxZoom:locations[index].maxZoom});
     //map.flyTo(locations[index].camera);
     map.once('moveend', function() {
@@ -328,7 +328,7 @@ class Intro extends Component {
         window.setTimeout(function() {
         // Increment index or redirect to story page
         //console.log('moveend')
-        
+
         //console.log(locations[index].slide)
         //index = (index + 1 === locations.length) ? 0 : index + 1;
         //scope.playback(index,map);
@@ -345,7 +345,7 @@ class Intro extends Component {
           index = (index + 1 === locations.length) ? 0 : index + 1;
           scope.playback(index,map);
         }
-      }, 6000); // After callback, show the location for 6 seconds.
+      }, 7500); // After callback, show the location for 6 seconds.
     });
   }
 
@@ -371,7 +371,7 @@ class Intro extends Component {
         <Overlay>
           <div class='map-overlay'>
             <p id='location-description'><FormattedMessageFixed id={content.description} defaultMessage="description" /></p>
-            { 
+            {
               content.slide == 0 &&
                 <div class="grid-container">
                   <div>
