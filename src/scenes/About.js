@@ -159,7 +159,7 @@ const About = ({ intl, lastPath }) => {
               />
             </strong>
             <br />
-            <li>Bram Ebus</li>
+            Bram Ebus
           </Paragraph>
 
           <Paragraph>
@@ -189,7 +189,7 @@ const About = ({ intl, lastPath }) => {
               />
             </strong>
             <br />
-            <li>Stefano Wrobleski</li>
+            Stefano Wrobleski
           </Paragraph>
 
           <Paragraph>
@@ -272,7 +272,7 @@ const About = ({ intl, lastPath }) => {
               />
             </strong>
             <br />
-            <li><a href="mailto:contato@studiocuboweb.com.br"> StudioCubo</a></li>
+            <a href="mailto:contato@studiocuboweb.com.br"> StudioCubo</a>
           </Paragraph>
 
           <Paragraph>
