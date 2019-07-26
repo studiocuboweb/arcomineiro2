@@ -46,7 +46,9 @@ class PageIntro extends Component {
   }
 
   componentDidMount() {
-    document.getElementById('background-video').play();
+    if (isIOS) {
+      document.getElementById('background-video').play();
+    }
   }
 
   handleOnEnded() {
