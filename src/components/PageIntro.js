@@ -17,8 +17,8 @@ const Wrapper = styled.div`
     position: fixed;
     right: 0;
     bottom: 0;
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
     z-index:-1;
   }
 `;
