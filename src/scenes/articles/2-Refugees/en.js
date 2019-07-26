@@ -288,7 +288,7 @@ export default () => (
         data: {
           id: "vgdRWxCY53g"
         }
-        }}> <i>compraventa</i>s</i> – shops that buy and sell gold</StoryMedia>
+        }}> <i>compraventas</i> – shops that buy and sell gold</StoryMedia>
         . In this area alone, some 200 to 300 Venezuelans show up daily to sell gold. Locals say the number of pawnshops has exploded in recent years as gold trafficking has spiked.
       </Paragraph>
 

@@ -284,7 +284,7 @@ export default () => (
         data: {
           id: "vgdRWxCY53g"
         }
-        }}> <i>compraventa</i>s</i>, pequeñas tiendas que compran y venden oro</StoryMedia>
+        }}> <i>compraventas</i>, pequeñas tiendas que compran y venden oro</StoryMedia>
         . Solamente a este lugar llegan a diario entre 200 y 300 venezolanos para ofrecer oro. La gente del lugar dice que la cantidad de casas de empeño ha aumentado significativamente en años recientes, cuando se disparó el contrabando de oro.
       </Paragraph>
 

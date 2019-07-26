@@ -115,7 +115,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        “Eu conheço tráfico de combustível, tráfico de drogas, aprendi a traficar muitas coisas”, disse ele, pedindo anonimato para poder falar abertamente sobre o comércio ilícito. “Foi assim que aprendi a pagar e cobrar <i>vacunas</i></i>.”
+        “Eu conheço tráfico de combustível, tráfico de drogas, aprendi a traficar muitas coisas”, disse ele, pedindo anonimato para poder falar abertamente sobre o comércio ilícito. “Foi assim que aprendi a pagar e cobrar <i>vacunas</i>.”
       </Paragraph>
 
       <Paragraph>
@@ -123,7 +123,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Harold diz que o metal extraído no sul venezuelano é levado à fronteira colombiana por traficantes que operam em conjunto com a Guarda Nacional da Venezuela. Os soldados aceitam subornos, ou <i>vacunas</i></i>, para garantir uma passagem segura. Às vezes, os guardas fornecem até mesmo caminhões blindados para transportar o metal.
+        Harold diz que o metal extraído no sul venezuelano é levado à fronteira colombiana por traficantes que operam em conjunto com a Guarda Nacional da Venezuela. Os soldados aceitam subornos, ou <i>vacunas</i>, para garantir uma passagem segura. Às vezes, os guardas fornecem até mesmo caminhões blindados para transportar o metal.
       </Paragraph>
 
       <Paragraph>
@@ -288,7 +288,7 @@ export default () => (
         data: {
           id: "vgdRWxCY53g"
         }
-        }}> <i>compraventa</i>s</i> – pequenas lojas que compram e vendem ouro</StoryMedia>
+        }}> <i>compraventas</i> – pequenas lojas que compram e vendem ouro</StoryMedia>
         . Somente nesta área, chegam diariamente de 200 a 300 venezuelanos para oferecer o metal. Os moradores dizem que o número de casas de penhores aumentou significativamente nos últimos anos, quando o tráfico de ouro disparou.
       </Paragraph>
 

@@ -154,7 +154,7 @@ export default () => (
       </SubTitle>
 
       <Paragraph>
-        An indigenous Colombian man in his 50s, wearing a baseball cap, stumbles into one of the many gold <i>compraventa</i>s</i> that buy and sell gold.
+        An indigenous Colombian man in his 50s, wearing a baseball cap, stumbles into one of the many gold <i>compraventas</i> that buy and sell gold.
       </Paragraph>
 
       <Paragraph>
@@ -210,7 +210,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Miners sell their gold at <i>compraventa</i>s</i> – often unmarked shops with tinted windows – found throughout the city. At one anonymous shop with white walls and plastic chairs, a woman was breastfeeding her baby as others were biding their time waiting for their gold to be weighed.
+        Miners sell their gold at <i>compraventas</i> – often unmarked shops with tinted windows – found throughout the city. At one anonymous shop with white walls and plastic chairs, a woman was breastfeeding her baby as others were biding their time waiting for their gold to be weighed.
       </Paragraph>
 
       <Paragraph>

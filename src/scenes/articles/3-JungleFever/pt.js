@@ -154,7 +154,7 @@ export default () => (
       </SubTitle>
 
       <Paragraph>
-        Um indígena colombiano de 50 anos, vestindo um boné de beisebol, tropeça em uma das muitas <i>compraventa</i>s</i> que compram e vendem ouro.
+        Um indígena colombiano de 50 anos, vestindo um boné de beisebol, tropeça em uma das muitas <i>compraventas</i> que compram e vendem ouro.
       </Paragraph>
 
       <Paragraph>
@@ -210,7 +210,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Mineiros vendem seu ouro em <i>compraventa</i>s</i> – que geralmente são lojas não marcadas com janelas coloridas –, que podem ser encontradas por toda a cidade. Em uma loja anônima com paredes brancas e cadeiras de plástico, uma mulher amamentava seu bebê enquanto outras pessoas esperavam que seu ouro fosse pesado.
+        Mineiros vendem seu ouro em <i>compraventas</i> – que geralmente são lojas não marcadas com janelas coloridas –, que podem ser encontradas por toda a cidade. Em uma loja anônima com paredes brancas e cadeiras de plástico, uma mulher amamentava seu bebê enquanto outras pessoas esperavam que seu ouro fosse pesado.
       </Paragraph>
 
       <Paragraph>

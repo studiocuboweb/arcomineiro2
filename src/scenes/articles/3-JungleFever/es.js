@@ -95,7 +95,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        En un bote aledaño, el dueño quiere mostrar parte del oro sacado de las minas. Desaparece detrás de una cortina y regresa con 
+        En un bote aledaño, el dueño quiere mostrar parte del oro sacado de las minas. Desaparece detrás de una cortina y regresa con
         <StoryMedia
         media={{
           id: "image-1",
@@ -154,7 +154,7 @@ export default () => (
       </SubTitle>
 
       <Paragraph>
-        Un indígena colombiano de unos 50 años llega a una de las llamadas <i>compraventa</i>s</i>, pequeñas tiendas que comercializan oro, sin cartel y con ventanas muy oscuras.
+        Un indígena colombiano de unos 50 años llega a una de las llamadas <i>compraventas</i>, pequeñas tiendas que comercializan oro, sin cartel y con ventanas muy oscuras.
       </Paragraph>
 
       <Paragraph>
@@ -210,7 +210,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Los mineros venden su oro en las <i>compraventa</i>s</i> que hay en toda la ciudad. En una de las tiendas, con paredes blancas y sillas plásticas, una mujer amamanta a su bebé mientras pesan oro frente a ella en el escritorio de la oficina.
+        Los mineros venden su oro en las <i>compraventas</i> que hay en toda la ciudad. En una de las tiendas, con paredes blancas y sillas plásticas, una mujer amamanta a su bebé mientras pesan oro frente a ella en el escritorio de la oficina.
       </Paragraph>
 
       <Paragraph>
@@ -234,7 +234,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Bryan no puede garantizar que el oro que llega a su tienda sea venezolano pero dice que la mayor parte del metal que compra viene de minas colombianas, que por lo general lleva a la capital, Bogotá, para venderlo a los mayoristas. 
+        Bryan no puede garantizar que el oro que llega a su tienda sea venezolano pero dice que la mayor parte del metal que compra viene de minas colombianas, que por lo general lleva a la capital, Bogotá, para venderlo a los mayoristas.
       </Paragraph>
 
       <Paragraph>
@@ -282,11 +282,11 @@ export default () => (
             credits: "Bram Ebus",
             src: require("photos/chapter3/Inirida07.jpg")
           }
-        }}> <i>compraventa</i>s</i></StoryMedia> “legalizan” su oro con documentos que muestran que proviene de operaciones en Colombia, no todas lo hacen, dijo Juan Pablo.
+        }}> <i>compraventas</i></StoryMedia> “legalizan” su oro con documentos que muestran que proviene de operaciones en Colombia, no todas lo hacen, dijo Juan Pablo.
       </Paragraph>
 
       <Paragraph>
-        “Sacan el oro, pero ilegalmente”, dijo, explicando que los traficantes varones ocultan el oro junto a los testículos, mientras que las mujeres se lo colocan entre los senos o en su ropa interior. 
+        “Sacan el oro, pero ilegalmente”, dijo, explicando que los traficantes varones ocultan el oro junto a los testículos, mientras que las mujeres se lo colocan entre los senos o en su ropa interior.
       </Paragraph>
 
       <Paragraph>
@@ -294,7 +294,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Para las autoridades es difícil rastrear el origen del oro. Los exportadores muchas veces compran oro a docenas de empresas de maletín a las que es muy difícil, casi imposible, seguirles la pista. 
+        Para las autoridades es difícil rastrear el origen del oro. Los exportadores muchas veces compran oro a docenas de empresas de maletín a las que es muy difícil, casi imposible, seguirles la pista.
       </Paragraph>
 
       <Paragraph>
@@ -312,7 +312,7 @@ export default () => (
       <Paragraph>
         Debido al elevado desempleo en Guainía, sus habitantes, principalmente indígenas, buscan trabajo en las minas de Venezuela. Un líder indígena dijo que en Venezuela es aún peor. En una comunidad, Caño Grulla, solo quedan 30 de 500 familias. El resto se ha ido a las minas.
       </Paragraph>
-      
+
       <Paragraph>
         A medida que los jóvenes dejan sus familias para irse a buscar oro, el índice de deserción escolar se ha disparado en la región, dijo Luis Enrique Amado Prieto, director de Pastoral Social Regional Suroriente Colombiano.
       </Paragraph>
@@ -339,7 +339,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Se dice que 
+        Se dice que
         <FileLink
         href={require("documents/chapter3/SOS_Orinoco-Gold_Mining_Activity_in_Yapacana_National_Park_Spanish.pdf")}
         format="pdf"
