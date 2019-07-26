@@ -17,7 +17,7 @@ const Wrapper = styled.div`
     position: fixed;
     right: 0;
     bottom: 0;
-    max-width: 100%; 
+    max-width: 100%;
     max-height: 100%;
     z-index:-1;
   }
@@ -46,7 +46,9 @@ class PageIntro extends Component {
   }
 
   componentDidMount() {
-    document.getElementById('background-video').play();
+    if (isIOS) {
+      document.getElementById('background-video').play();
+    }
   }
 
   handleOnEnded() {
@@ -62,13 +64,13 @@ class PageIntro extends Component {
     <Wrapper>
       {this.renderRedirect()}
       <div class='logo_overlay'>
-        <HeaderIntro /> 
+        <HeaderIntro />
       </div>
       <Content>
         {isIOS ? (
           <div id="intro_transtion_overlay">
-            <video autoPlay muted playsInline id="background-video" onEnded={this.handleOnEnded}>	
-              <source src={require("images/video_bg.mp4")} type="video/mp4" />	
+            <video autoPlay muted playsInline id="background-video" onEnded={this.handleOnEnded}>
+              <source src={require("images/video_bg.mp4")} type="video/mp4" />
             </video>
           </div>
         ) : (
