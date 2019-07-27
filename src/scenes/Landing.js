@@ -32,7 +32,7 @@ const Wrapper = styled.section`
   box-sizing: border-box;
   text-shadow: 0 0 2px #000;
   color: #fff;
-  &:after {
+  &:before {
     content: "";
     position: absolute;
     top: 0;
