@@ -62,16 +62,13 @@ class PageIntro extends Component {
     }.bind(this), 1500)
   }
   render () {
-      var videoFile = require('images/video_bg.mp4');
-      var lg = 'en';
+      var videoFile = require('images/video-en.mp4');
       if (this.props.intl.locale.search('es') > -1) {
         //espanhol
-        videoFile = require('images/video_bg.mp4');
-        lg = 'es';
+        videoFile = require('images/video-es.mp4');
       } else if (this.props.intl.locale.search('pt') > -1) {
         //portugues
-        videoFile = require('images/video_bg.mp4');
-        lg = 'pt';
+        videoFile = require('images/video-pt.mp4');
       }
       return (
     <Wrapper>
