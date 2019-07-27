@@ -46,9 +46,9 @@ export default () => (
       <Paragraph>
         La parada más importante es El Callao, un pueblo entre montañas ubicado a unos 850 kilómetros de Caracas, conocido históricamente por su colorido carnaval pero que ahora es más renombrada como la capital de la zona minera.
       </Paragraph>
-      
+
       <Paragraph>
-        La explosión de la minería ha convertido este lugar en una pesadilla, 
+        La explosión de la minería ha convertido este lugar en una pesadilla,
         <StoryMedia
         media={{
           id: "image-1",
@@ -111,7 +111,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Las dos organizaciones comparten el territorio con los llamados sindicatos, liderados por los llamados pranes. También están los Comités para la Defensa de la Revolución (CDR), que han creado sus propios grupos mineros y que están alineados ideológicamente con el gobierno de Maduro.
+        Las dos organizaciones comparten el territorio con los llamados sindicatos, liderados por los llamados <i>pranes</i>. También están los Comités para la Defensa de la Revolución (CDR), que han creado sus propios grupos mineros y que están alineados ideológicamente con el gobierno de Maduro.
       </Paragraph>
 
       <Paragraph>
@@ -167,7 +167,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        El gobierno venezolano no ha difundido cifras actualizadas de la incidencia de la malaria, pero según la 
+        El gobierno venezolano no ha difundido cifras actualizadas de la incidencia de la malaria, pero según la
         <FileLink
         href={require("documents/chapter1/WHO-World_Malaria_Report.pdf")}
         format="pdf"
@@ -208,7 +208,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Para complicar el cuadro, aproximadamente 
+        Para complicar el cuadro, aproximadamente
         <FileLink
         href={require("documents/chapter1/CECODAP-Peligros_y_Vulneraciones_de_DDHH_de_Ninos_Ninas_y_Adolescentes_en_la_Frontera_y_Actividades_Mineras.pdf")}
         format="pdf"
@@ -250,7 +250,7 @@ export default () => (
           data: {
             src: require("photos/chapter1/Venezuela06.jpg")
           }
-        }}> mineros artesanales de manera informal</StoryMedia> 
+        }}> mineros artesanales de manera informal</StoryMedia>
         . Uno es un grupo de inversionistas privados y el otro es la estatal Minerven.
       </Paragraph>
 
@@ -387,7 +387,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        En la ciudad fronteriza de Cúcuta, Colombia, esperó por sus otros dos compañeros, que cruzaron la frontera por las trochas, que son senderos rústicos.
+        En la ciudad fronteriza de Cúcuta, Colombia, esperó por sus otros dos compañeros, que cruzaron la frontera por las <i>trochas</i>, que son senderos rústicos.
       </Paragraph>
 
       <Paragraph>
@@ -435,7 +435,14 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        El militar afirmó que los vehículos muchas veces transportan coltán, un mineral que se usa en la fabricación de dispositivos electrónicos, así como oro, plata y otros bienes que deben exportarse.
+      <StoryMedia
+      media={{
+      id: "video-5",
+      type: "youtube",
+      data: {
+        id: "4KmM18jPIL0"
+      }
+      }}>El militar afirmó que los vehículos muchas veces transportan coltán, un mineral que se usa en la fabricación de dispositivos electrónicos, así como oro, plata y otros bienes que deben exportarse.</StoryMedia>
       </Paragraph>
 
       <Paragraph>
@@ -466,7 +473,7 @@ export default () => (
         Un miembro de la Guardia Nacional en Paraguachón, que pidió no ser identificado, describió que
         <StoryMedia
         media={{
-        id: "video-5",
+        id: "video-6",
         type: "youtube",
         data: {
           id: "IaS9JTPETWM"

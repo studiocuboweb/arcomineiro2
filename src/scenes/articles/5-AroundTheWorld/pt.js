@@ -34,7 +34,7 @@ export default () => (
           O ouro ilegal da Venezuela ingressa nas cadeias de fornecimento mundiais após ser ‘lavado’ em países vizinhos, como Colômbia e ilhas do Caribe. Apesar das sanções internacionais e das diretrizes de diligência devida, empresas aéreas seguem voando com o metal para os mercados da Europa e dos Estados Unidos.
         </p>
       </Note>
-      
+
       <Paragraph>
         Em uma refinaria de alta segurança em Antuérpia, na Bélgica, dois homens despejam ouro derretido – aquecido a mais de 1.160 graus Celsius – em moldes do tamanho de um aparelho celular.
       </Paragraph>
@@ -52,7 +52,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Washington vem aumentando a pressão sobre a Venezuela ao tentar forçar a saída do presidente Nicolas Maduro do poder. Como parte desse esforço, em março, o Departamento do Tesouro dos Estados Unidos implementou sanções contra a compra de ouro da mineradora estatal venezuelana, a Minerven. 
+        Washington vem aumentando a pressão sobre a Venezuela ao tentar forçar a saída do presidente Nicolas Maduro do poder. Como parte desse esforço, em março, o Departamento do Tesouro dos Estados Unidos implementou sanções contra a compra de ouro da mineradora estatal venezuelana, a Minerven.
       </Paragraph>
 
       <Paragraph>
@@ -121,7 +121,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Em 2017, o governo venezuelano pediu a Goetz para refinar cerca de três toneladas de ouro. Mas em carta ao Banco Central da Venezuela, 
+        Em 2017, o governo venezuelano pediu a Goetz para refinar cerca de três toneladas de ouro. Mas em carta ao Banco Central da Venezuela,
         <FileLink
         href={require("documents/chapter5/Tony_Goetz-Lette_to_Central_Bank_of_Venezuela.pdf")}
         format="pdf"
@@ -146,7 +146,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Um caso mais claro é o da GoetzGold, em Dubai. A companhia pertence a Alain Goetz, irmão mais novo de Sylvain Goetz. Segundo os advogados das duas empresas, os negócios em Dubai e na Bélgica são completamente separados. 
+        Um caso mais claro é o da GoetzGold, em Dubai. A companhia pertence a Alain Goetz, irmão mais novo de Sylvain Goetz. Segundo os advogados das duas empresas, os negócios em Dubai e na Bélgica são completamente separados.
       </Paragraph>
 
       <Paragraph>
@@ -178,7 +178,7 @@ export default () => (
       </SubTitle>
 
       <Paragraph>
-        O Reino dos Países Baixos é signatário de vários tratados e <ExternalLink href="https://www.business-humanrights.org/en/un-guiding-principles" language="en">diretrizes das Nações Unidas</ExternalLink>{" "} que regem a cadeia de fornecimento de ouro e que têm como objetivo evitar abusos aos direitos humanos nas minas e manter os minerais “de conflito” fora do mercado global. Em 2017, o chamado “pacto sobre o ouro”, monitorado pelo Conselho Econômico Social dos Países Baixos, reuniu Estado, corporações e ONG’s para elaborar um código de comportamento voluntário garantindo que as empresas adquirissem o máximo de ouro possível de fontes éticas
+        O Reino dos Países Baixos é signatário de vários tratados e <ExternalLink href="https://www.business-humanrights.org/en/un-guiding-principles" language="en">diretrizes das Nações Unidas</ExternalLink>{" "} que regem a cadeia de fornecimento de ouro e que têm como objetivo evitar abusos aos direitos humanos nas minas e manter os minerais “de conflito” fora do mercado global. Em 2017, o chamado “pacto sobre o ouro”, monitorado pelo Conselho Econômico Social dos Países Baixos, reuniu Estado, corporações e ONGs para elaborar um código de comportamento voluntário garantindo que as empresas adquirissem o máximo de ouro possível de fontes éticas
       </Paragraph>
 
       <Paragraph>
@@ -232,7 +232,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Oficiais da alfândega holandesa, no entanto, dizem que as companhias aéreas comerciais enviaram muito mais ouro do que isso. Por e-mail, a agência disse que entre 2015 e 2018 houve um total de 310 remessas que saíram da Zona Franca de Curaçao com destino a Schiphol, totalizando 36.086,5 quilos de ouro, no valor de quase 1,5 bilhão de dólares. A maioria foi para Suíça e Turquia, disseram eles. Nenhum dado sobre as remessas procedentes de Aruba estava disponível. 
+        Oficiais da alfândega holandesa, no entanto, dizem que as companhias aéreas comerciais enviaram muito mais ouro do que isso. Por e-mail, a agência disse que entre 2015 e 2018 houve um total de 310 remessas que saíram da Zona Franca de Curaçao com destino a Schiphol, totalizando 36.086,5 quilos de ouro, no valor de quase 1,5 bilhão de dólares. A maioria foi para Suíça e Turquia, disseram eles. Nenhum dado sobre as remessas procedentes de Aruba estava disponível.
       </Paragraph>
 
       <Paragraph>
@@ -251,7 +251,7 @@ export default () => (
         Eis como funciona o esquema de tráfico ilegal centrado no sul da Flórida: grandes quantidades de ouro venezuelano passam pela fronteira colombiana de carro, avião, barco ou a pé, às vezes com ajuda dos sindicados criminais da Venezuela, grupos guerrilheiros ou militares corruptos. Os traficantes falsificam documentos para fazer crer que o ouro foi extraído legalmente na Colômbia. Então o metal pode ser vendido – de maneira aparentemente legal – para importadores de Miami e de outras localidades.
       </Paragraph>
 
-      <Paragraph> 
+      <Paragraph>
         <FileLink
         href={require("documents/chapter5/OECD-Where_does_Colombian_Gold_Go_Spanish.pdf")}
         format="pdf"
@@ -349,7 +349,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        A RMC, que <ExternalLink href="https://www.miamiherald.com/news/business/article223213905.html" language="en">dpediu concordata</ExternalLink>{" "} no ano passado, importou 12,5 milhões de dólares em ouro da colombiana CIJ Gutiérrez entre 2008 e 2012, de acordo com a agência alfandegária da Colômbia e dados da Global Trade Data Supplier, da Import Genius. Mas esses registros não mostram se Gutiérrez estava adquirindo ouro da Venezuela durante o período.
+        A RMC, que <ExternalLink href="https://www.miamiherald.com/news/business/article223213905.html" language="en">dpediu concordata</ExternalLink>{" "} no ano passado, importou 12,5 milhões de dólares em ouro da colombiana CIJ Gutiérrez entre 2008 e 2012, de acordo com a agência alfandegária da Colômbia e dados da Global Trade Data Supplier, da <ExternalLink href="https://www.importgenius.com/" language="en">Import Genius</ExternalLink>{" "}. Mas esses registros não mostram se Gutiérrez estava adquirindo ouro da Venezuela durante o período.
       </Paragraph>
 
       <Paragraph>
@@ -411,11 +411,11 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        LAs outras empresas que compraram ouro da Asahi e da Argor-Heraeus não responderam aos pedidos de comentários.
+        As outras empresas que compraram ouro da Asahi e da Argor-Heraeus não responderam aos pedidos de comentários.
       </Paragraph>
 
       <Paragraph>
-        “Aqui há muita gente disposta a comprar ouro”, disse um funcionário policial dos Estados Unidos a par das investigações do contrabando de metal, que não estava autorizado a falar do caso publicamente. “[Os compradores] olham os documentos [de procedência], mas na realidade não os verificam. Se não querem saber, não vão saber.” 
+        “Aqui há muita gente disposta a comprar ouro”, disse um funcionário policial dos Estados Unidos a par das investigações do contrabando de metal, que não estava autorizado a falar do caso publicamente. “[Os compradores] olham os documentos [de procedência], mas na realidade não os verificam. Se não querem saber, não vão saber.”
       </Paragraph>
     </Container>
   </article>

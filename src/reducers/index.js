@@ -7,7 +7,7 @@ import mediaLibrary from './mediaLibrary';
 import { routerReducer } from 'react-router-redux';
 
 const storage = localForage.createInstance({
-  name: 'Looted Amazon',
+  name: 'Venezuela, the smugglers’ paradise',
   description: 'Persistant application state'
 });
 

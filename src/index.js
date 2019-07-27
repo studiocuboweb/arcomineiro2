@@ -108,7 +108,7 @@ if (process.env.LAUNCH_DATE) {
 }
 
 // if (process.env.GOOGLE_ANALYTICS) {
-  ReactGA.initialize('UA-32852801-1');
+  ReactGA.initialize('UA-32852801-4');
   ReactGA.pageview(window.location.pathname + window.location.search);
   history.listen((location, action) => {
     ReactGA.set({ page: location.pathname });
