@@ -34,7 +34,7 @@ export default () => (
           Since 2014, at least 176 tons (160 metric tons) of Venezuelan gold has been moved through the islands of Aruba and Curaçao. The tourist destinations function as a trampoline for conflict minerals and bloodstained Venezuelan gold proves to change color under the Caribbean sun.
         </p>
       </Note>
-      
+
       <Paragraph>
         It was a typically hot Saturday afternoon in Aruba when Rafael González Zambrano thought he had completed a routine operation, one he had been doing for about seven years already.
       </Paragraph>
@@ -270,7 +270,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        The trader said that mines deep in the jungle are operated by people who can’t transport their gold because the logistics are complicated and it’s dangerous. 
+        The trader said that mines deep in the jungle are operated by people who can’t transport their gold because the logistics are complicated and it’s dangerous.
       </Paragraph>
 
       <Paragraph>
@@ -355,7 +355,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        “When we saw that the business was in the hands of pranes [gangs] and paramilitaries, we stopped trading,” he said. “Before, miners would reach out to us to sell [their gold], but these people became forced to sell to [criminal] groups and that’s why we stopped.”
+        “When we saw that the business was in the hands of <i>pranes</i> [gangs] and paramilitaries, we stopped trading,” he said. “Before, miners would reach out to us to sell [their gold], but these people became forced to sell to [criminal] groups and that’s why we stopped.”
       </Paragraph>
 
       <SubTitle>
@@ -363,7 +363,7 @@ export default () => (
       </SubTitle>
 
       <Paragraph>
-        A report drawn up by the Caribbean Financial Action Task Force alerted already in 2012 that in Curaçao there is “ 
+        A report drawn up by the Caribbean Financial Action Task Force alerted already in 2012 that in Curaçao there is “
         <FileLink
         href={require("documents/chapter4/CFATF-Curacao_First_Follow-Up_Report.pdf")}
         format="pdf"
@@ -376,7 +376,7 @@ export default () => (
         href={require("documents/chapter4/Aruba_government-Customs_document.pdf")}
         format="pdf"
         size="0.7MB"> document from Aruba</FileLink>
-        , kilos, grams, and ounces are used interchangeably, and other key pieces of data are missing. 
+        , kilos, grams, and ounces are used interchangeably, and other key pieces of data are missing.
       </Paragraph>
 
       <Paragraph>
@@ -388,7 +388,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        There are 
+        There are
         <StoryMedia
         media={{
           id: "image-5",

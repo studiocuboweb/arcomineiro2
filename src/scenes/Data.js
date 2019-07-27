@@ -22,7 +22,7 @@ const messages = defineMessages({
   },
   siteTitle: {
     id: "head.title",
-    defaultMessage: "Looted Amazon"
+    defaultMessage: "Venezuela, the smugglers' paradise"
   }
 });
 

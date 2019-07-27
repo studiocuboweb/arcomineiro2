@@ -34,7 +34,7 @@ export default () => (
           Desde 2014, al menos 160 toneladas de oro venezolano se han movido a través de las islas de Aruba y Curazao. Estos destinos turísticos funcionan como un trampolín para los minerales de conflicto así como el oro venezolano manchado de sangre que cambia su color bajo el sol del Caribe.
         </p>
       </Note>
-      
+
       <Paragraph>
         Era una tarde de sábado calurosa como cualquier otra en Aruba cuando Rafael González Zambrano pensó haber terminado una operación de rutina, que había desarrollado durante siete años.
       </Paragraph>
@@ -119,7 +119,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        El bloqueo tomó totalmente por sorpresa a las islas, dijeron diplomáticos. Y durante reuniones posteriores entre Venezuela, Holanda y las islas, “no se planteó el asunto del oro, ni del coltán”, dijo Stella van Dijk, secretaria general del Ministerio de Asuntos Generales y Exteriores de Curazao.
+        El bloqueo tomó totalmente por sorpresa a las islas, dijeron diplomáticos. Y durante reuniones posteriores entre Venezuela, Holanda y las islas, “no se planteó el asunto del oro, ni del coltán”, dijo Stella van Rijn, secretaria general del Ministerio de Asuntos Generales y Exteriores de Curazao.
       </Paragraph>
 
       <Paragraph>
@@ -139,7 +139,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        “El gobierno de Curazao decidió no continuar colaborando con el comercio de oro de Venezuela porque no podíamos certificarlo”, dijo van Dijk.
+        “El gobierno de Curazao decidió no continuar colaborando con el comercio de oro de Venezuela porque no podíamos certificarlo”, dijo van Rijn.
       </Paragraph>
 
       <Paragraph>
@@ -359,7 +359,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        “Cuando vimos que el negocio estaba en manos de los pranes [pandillas] y los paramilitares, dejamos de hacer negocios”, dijo. “Antes, los mineros nos contactaban para vendernos [su oro], pero estas personas se vieron obligadas a vender a grupos [delictivos], y por eso fue que dejamos de comprarles”.
+        “Cuando vimos que el negocio estaba en manos de los <i>pranes</i> [pandillas] y los paramilitares, dejamos de hacer negocios”, dijo. “Antes, los mineros nos contactaban para vendernos [su oro], pero estas personas se vieron obligadas a vender a grupos [delictivos], y por eso fue que dejamos de comprarles”.
       </Paragraph>
 
       <SubTitle>
@@ -367,7 +367,7 @@ export default () => (
       </SubTitle>
 
       <Paragraph>
-        Un informe de 2012 del Grupo de Acción Financiera del Caribe alertó que en Curazao “ 
+        Un informe de 2012 del Grupo de Acción Financiera del Caribe alertó que en Curazao “
         <FileLink
         href={require("documents/chapter4/CFATF-Curacao_First_Follow-Up_Report.pdf")}
         format="pdf"

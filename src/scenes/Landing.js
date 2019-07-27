@@ -39,7 +39,7 @@ const Wrapper = styled.section`
     left: 0;
     bottom: 0;
     right: 0;
-    background-image: url(${require("images/capa2.jpg")});
+    background-image: url(${require("images/capa3.jpg")});
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -122,7 +122,7 @@ const Wrapper = styled.section`
     position: fixed;
     right: 0;
     bottom: 0;
-    min-width: 100%; 
+    min-width: 100%;
     min-height: 100%;
     z-index:-1;
   }
@@ -152,7 +152,7 @@ const Top = styled.div`
         margin-left: 0rem;
         margin-right: .1rem;
       }
-    `} 
+    `}
     ${media.phablet`
     font-size: .5em;
     padding-bottom: 3rem;
@@ -161,7 +161,7 @@ const Top = styled.div`
         margin-left: 0rem;
         margin-right: .1rem;
       }
-    `} 
+    `}
     ${media.tablet`
       font-size: .8em;
         .logo {
@@ -169,11 +169,11 @@ const Top = styled.div`
           margin-left: 3rem;
           margin-right: -2rem;
         }
-    `} 
+    `}
     ${media.desktop`
       font-size: 1.4em;
       line-height: .8;
-    `} 
+    `}
     ${media.desktopHD`
       line-height: .8;
       font-size: 1.4em;
@@ -296,7 +296,7 @@ class Scene extends Component {
     // access to player in all event handlers via event.target
     // event.target.mute();
   }
-  
+
   render() {
     const { lastPath, resetContext } = this.props;
     return (

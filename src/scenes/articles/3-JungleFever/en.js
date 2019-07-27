@@ -95,7 +95,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        On a neighboring boat, the owner wants to show off some of the gold pulled from the mines. He disappears behind a curtain and returns with 
+        On a neighboring boat, the owner wants to show off some of the gold pulled from the mines. He disappears behind a curtain and returns with
         <StoryMedia
         media={{
           id: "image-1",
@@ -138,7 +138,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        The few paved roads in Inírida are full of potholes and dominated by an unjustifiable amount of 
+        The few paved roads in Inírida are full of potholes and dominated by an unjustifiable amount of
         <StoryMedia
         media={{
         id: "video-3",
@@ -146,7 +146,7 @@ export default () => (
         data: {
           id: "6kYhEF6n3nE"
         }
-        }}> tricycle motor-taxis</StoryMedia> called ratones (rats) that buzz around and aggressively honk while hunting for passengers. Amid the chaotic and noisy scene, miners, looking dazed after weeks or months of toiling in the jungles of Venezuela, straggle into town.
+        }}> tricycle motor-taxis</StoryMedia> called <i>ratones</i> (rats) that buzz around and aggressively honk while hunting for passengers. Amid the chaotic and noisy scene, miners, looking dazed after weeks or months of toiling in the jungles of Venezuela, straggle into town.
       </Paragraph>
 
       <SubTitle>
@@ -154,11 +154,11 @@ export default () => (
       </SubTitle>
 
       <Paragraph>
-        An indigenous Colombian man in his 50s, wearing a baseball cap, stumbles into one of the many gold compraventas that buy and sell gold.
+        An indigenous Colombian man in his 50s, wearing a baseball cap, stumbles into one of the many gold <i>compraventas</i> that buy and sell gold.
       </Paragraph>
 
       <Paragraph>
-        After eight days of backbreaking work he has 
+        After eight days of backbreaking work he has
         <StoryMedia
         media={{
           id: "image-2",
@@ -176,7 +176,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        ▪ Five grams, worth as much as 230 U.S. dollars in the international market, to the ‘wachiman’ – watchmen overseeing the miners and reporting to the National Guard or guerrillas;<br />
+        ▪ Five grams, worth as much as 230 U.S. dollars in the international market, to the ‘<i>wachiman</i>’ – watchmen overseeing the miners and reporting to the National Guard or guerrillas;<br />
         ▪ Five grams to an indigenous community close to the mines;<br />
         ▪ Five grams to the “guerrillas”;<br />
         ▪ Three grams to the National Guard at a checkpoint near Santa Barbara;<br />
@@ -210,11 +210,11 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Miners sell their gold at compraventas – often unmarked shops with tinted windows – found throughout the city. At one anonymous shop with white walls and plastic chairs, a woman was breastfeeding her baby as others were biding their time waiting for their gold to be weighed. 
+        Miners sell their gold at <i>compraventas</i> – often unmarked shops with tinted windows – found throughout the city. At one anonymous shop with white walls and plastic chairs, a woman was breastfeeding her baby as others were biding their time waiting for their gold to be weighed.
       </Paragraph>
 
       <Paragraph>
-        The owner of the compraventa, Bryan, who asked to remain anonymous, sits in a back room where he does his paperwork. He explained that he legally buys gold from Colombian barequeros – artisanal miners who employ rudimentary methods and are allowed to sell up to 14.8 ounces (420 grams) a year. He has about 200 barequeros registered in his books and hopes to enroll 300 more.
+        The owner of the <i>compraventa</i>, Bryan, who asked to remain anonymous, sits in a back room where he does his paperwork. He explained that he legally buys gold from Colombian  <i>barequeros</i> – artisanal miners who employ rudimentary methods and are allowed to sell up to 14.8 ounces (420 grams) a year. He has about 200  <i>barequeros</i> registered in his books and hopes to enroll 300 more.
       </Paragraph>
 
       <Paragraph>
@@ -286,7 +286,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        “They get the gold out, but illegally,” he said, explaining that male traffickers hide the gold near their testicles while females put it between their breasts or in their underwear.  
+        “They get the gold out, but illegally,” he said, explaining that male traffickers hide the gold near their testicles while females put it between their breasts or in their underwear.
       </Paragraph>
 
       <Paragraph>
@@ -294,7 +294,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        For the authorities, it’s complicated to trace the origins of the gold. Exporters often buy the metal from dozens of shell companies that are difficult, if not impossible, to track down. 
+        For the authorities, it’s complicated to trace the origins of the gold. Exporters often buy the metal from dozens of shell companies that are difficult, if not impossible, to track down.
       </Paragraph>
 
       <Paragraph>
@@ -312,7 +312,7 @@ export default () => (
       <Paragraph>
         Because unemployment is so high in Guainía, its largely indigenous inhabitants look for work in the Venezuelan mines. An indigenous leader said the situation in Venezuela is even worse. In one community, Caño Grulla, only 30 out of about 500 families remain. Everybody else went to the mines.
       </Paragraph>
-      
+
       <Paragraph>
         As young people leave their families to look for gold, school desertion rates in the region are skyrocketing, according to Luis Enrique Amado Prieto, director of the Social and Pastoral Care Branch in southeastern Colombia.
       </Paragraph>
@@ -339,7 +339,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Teachers are reportedly 
+        Teachers are reportedly
         <FileLink
         href={require("documents/chapter3/SOS_Orinoco-Gold_Mining_Activity_in_Yapacana_National_Park.pdf")}
         format="pdf"

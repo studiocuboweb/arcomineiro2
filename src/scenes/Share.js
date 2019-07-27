@@ -24,7 +24,7 @@ const messages = defineMessages({
   },
   siteTitle: {
     id: "head.title",
-    defaultMessage: "Looted Amazon"
+    defaultMessage: "Venezuela, the smugglers' paradise"
   }
 });
 
@@ -74,7 +74,7 @@ const Buttons = styled.div`
 const Share = ({ intl,lastPath }) => {
   const title = intl.formatMessage(messages.title);
   const siteTitle = intl.formatMessage(messages.siteTitle);
-  const url = process.env.SITE_URL || "https://saqueada.amazoniasocioambiental.org";
+  const url = process.env.SITE_URL || "http://smugglersparadise.infoamazonia.org";
   const {
     FacebookShareButton,
     GooglePlusShareButton,

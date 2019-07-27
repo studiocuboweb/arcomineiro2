@@ -47,9 +47,9 @@ export default () => (
       <Paragraph>
         The most important stop is El Callao, a town also in Bolívar state clustered between mountains about 530 miles (850 kilometers) from Caracas. El Callao is known for its colorful carnival but has been rebranded as the region’s mining capital.
       </Paragraph>
-      
+
       <Paragraph>
-        The explosion of mining has turned the place into a nightmare. 
+        The explosion of mining has turned the place into a nightmare.
         <StoryMedia
         media={{
           id: "image-1",
@@ -112,7 +112,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        The two organizations share the territory with crime syndicates, or sindicatos, run by gang leaders known as pranes. There are also Committees for the Defense of the Revolution (CDR), which have started their own mining groups and are ideologically aligned with the Maduro government.
+        The two organizations share the territory with crime syndicates, or sindicatos, run by gang leaders known as <i>pranes</i>. There are also Committees for the Defense of the Revolution (CDR), which have started their own mining groups and are ideologically aligned with the Maduro government.
       </Paragraph>
 
       <Paragraph>
@@ -209,7 +209,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        To complicate matters, about 
+        To complicate matters, about
         <FileLink
         href={require("documents/chapter1/CECODAP-Peligros_y_Vulneraciones_de_DDHH_de_Ninos_Ninas_y_Adolescentes_en_la_Frontera_y_Actividades_Mineras.pdf")}
         format="pdf"
@@ -251,7 +251,7 @@ export default () => (
           data: {
             src: require("photos/chapter1/Venezuela06.jpg")
           }
-        }}> informal miners</StoryMedia> 
+        }}> informal miners</StoryMedia>
         . One is a group of private investors; the other is Minerven.
       </Paragraph>
 
@@ -323,7 +323,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        But despite the military presence, the area is the starting point for smuggling routes that lead to neighboring Guyana, Brazil and Colombia. And criminal organizations use human “mules,” boats, armored cars and small planes to avoid scrutiny. 
+        But despite the military presence, the area is the starting point for smuggling routes that lead to neighboring Guyana, Brazil and Colombia. And criminal organizations use human “mules,” boats, armored cars and small planes to avoid scrutiny.
       </Paragraph>
 
       <Paragraph>
@@ -387,7 +387,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        In the Colombian border town of Cúcuta he waited for his two companions, who entered the country on informal trails, or trochas.
+        In the Colombian border town of Cúcuta he waited for his two companions, who entered the country on informal trails, or <i>trochas</i>.
       </Paragraph>
 
       <Paragraph>
@@ -427,7 +427,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Many of the trucks have special passes, salvoconductas, issued by the Zulia Defense Strategic Zone (ZODI), a military division that claims the trucks are carrying “export products,” said an Army corporal with the 13th Infantry Brigade who asked not be identified.
+        Many of the trucks have special passes, <i>salvoconductos</i>, issued by the Zulia Defense Strategic Zone (ZODI), a military division that claims the trucks are carrying “export products,” said an Army corporal with the 13th Infantry Brigade who asked not be identified.
       </Paragraph>
 
       <Paragraph>
@@ -435,7 +435,14 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        The official said the trucks are often carrying coltan, silver, gold and other items that shouldn’t be exported.
+      <StoryMedia
+      media={{
+      id: "video-5",
+      type: "youtube",
+      data: {
+        id: "4KmM18jPIL0"
+      }
+      }}>The official said the trucks are often carrying coltan, silver, gold and other items that shouldn’t be exported.</StoryMedia>
       </Paragraph>
 
       <Paragraph>
@@ -451,7 +458,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        At a shop called Amiga, a merchant says he buys up to 5.3 ounces (150 grams) of Venezuelan gold, “which is brought from the south of the country; it comes directly from the mines because it is in grains.” 
+        At a shop called Amiga, a merchant says he buys up to 5.3 ounces (150 grams) of Venezuelan gold, “which is brought from the south of the country; it comes directly from the mines because it is in grains.”
       </Paragraph>
 
       <Paragraph>
@@ -466,7 +473,7 @@ export default () => (
         A Venezuela National Guardsman in Paraguachón, who insisted on anonymity, described how he
         <StoryMedia
         media={{
-        id: "video-5",
+        id: "video-6",
         type: "youtube",
         data: {
           id: "IaS9JTPETWM"

@@ -6,16 +6,16 @@ import { Helmet } from "react-helmet";
 const messages = defineMessages({
   title: {
     id: "head.title",
-    defaultMessage: "Amazônia saqueada"
+    defaultMessage: "Venezuela, the smugglers' paradise"
   },
   description: {
     id: "head.description",
     defaultMessage:
-      "The destruction of 44 thousand square miles of forests in the largest mining project in Venezuela"
+      "A trail stained by violence and corruption connects Venezuelan gold with the world"
   },
   keywords: {
     id: "head.keywords",
-    defaultMessage: "venezuela, mining arc"
+    defaultMessage: "venezuela, gold, smugglers"
   }
 });
 
