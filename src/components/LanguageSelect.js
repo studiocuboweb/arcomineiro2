@@ -99,8 +99,9 @@ const WrapperStory = styled.section`
   `}
 
   ${media.tablet`
-    position: relative;
-    bottom:0;
+    position: absolute;
+    bottom:10px;
+    z-index: 99999;
   `}
 
   ${media.desktop`
