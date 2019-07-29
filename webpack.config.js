@@ -83,10 +83,10 @@ const favicons = new FaviconsWebpackPlugin({
 });
 
 const pwa = new WebpackPwaManifest({
-  name: "Looted Amazon",
-  short_name: "Looted Amazon",
+  name: "Venezuela, the smugglers' paradise",
+  short_name: "Venezuela, the smugglers' paradise",
   description:
-    "The destruction of 110 thousand square kilometers of forests in the largest mining project in Venezuela",
+    "A trail stained by violence and corruption connects Venezuelan gold with the world",
   background_color: "#fff",
   orientation: "portrait",
   start_url: "/?launcher=true",

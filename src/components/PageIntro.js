@@ -4,6 +4,7 @@ import HeaderIntro from 'components/HeaderIntro';
 import Content from 'components/Content';
 import {isIOS} from "react-device-detect";
 import IntroTransaction from 'components/IntroTransaction';
+import { injectIntl, intlShape } from "react-intl";
 import "styles/fullbg_video.css";
 import { Redirect,withRouter } from "react-router-dom";
 
@@ -17,8 +18,8 @@ const Wrapper = styled.div`
     position: fixed;
     right: 0;
     bottom: 0;
-    max-width: 100%; 
-    max-height: 100%;
+    width: 100%;
+    height: 100%;
     z-index:-1;
   }
 `;
@@ -48,6 +49,7 @@ class PageIntro extends Component {
   componentDidMount() {
     if (isIOS) {
       document.getElementById('background-video').play();
+      document.getElementById('background-video').muted = true;
     }
   }
 
@@ -60,17 +62,25 @@ class PageIntro extends Component {
     }.bind(this), 1500)
   }
   render () {
+      var videoFile = require('images/video-en.mp4');
+      if (this.props.intl.locale.search('es') > -1) {
+        //espanhol
+        videoFile = require('images/video-es.mp4');
+      } else if (this.props.intl.locale.search('pt') > -1) {
+        //portugues
+        videoFile = require('images/video-pt.mp4');
+      }
       return (
     <Wrapper>
       {this.renderRedirect()}
       <div class='logo_overlay'>
-        <HeaderIntro /> 
+        <HeaderIntro />
       </div>
       <Content>
         {isIOS ? (
           <div id="intro_transtion_overlay">
             <video autoPlay muted playsInline id="background-video" onEnded={this.handleOnEnded}>	
-              <source src={require("images/video_bg.mp4")} type="video/mp4" />	
+              <source src={videoFile} type="video/mp4" />	
             </video>
           </div>
         ) : (
@@ -83,4 +93,8 @@ class PageIntro extends Component {
   )}
 }
 
-export default withRouter(PageIntro);
+PageIntro.propTypes = {
+  intl: intlShape.isRequired
+};
+
+export default injectIntl(withRouter(PageIntro));

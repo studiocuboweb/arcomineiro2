@@ -7,9 +7,7 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 import {fromJS} from 'immutable';
 import PropTypes from 'prop-types';
 import Dimensions from 'react-dimensions';
-import LegendMap from './mapbox/LegendMap';
 import Fullscreenable from 'react-fullscreenable';
-// import Map1_2 from './mapbox/LegendMap2';
 
 const MAPBOX_TOKEN = 'pk.eyJ1IjoiaW5mb2FtYXpvbmlhIiwiYSI6InItajRmMGsifQ.JnRnLDiUXSEpgn7bPDzp7g'; // Set your mapbox token here
 

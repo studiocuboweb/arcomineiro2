@@ -1,5 +1,7 @@
 # Infoamazonia - Arco Mineiro 2
 
+Versão do REACT: 16.0.0
+
 # PRÉ REQUISITOS
 - Instalar o docker: https://docs.docker.com/install/
 - Instalar o git: https://git-scm.com/downloads

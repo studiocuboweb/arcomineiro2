@@ -34,7 +34,7 @@ export default () => (
           Desde 2014, ao menos 160 toneladas de ouro saíram da Venezuela e seguiram para as ilhas de Aruba e Curaçao. Os destinos turísticos funcionam como trampolim para os minerais de conflito, e o ouro manchado de sangue muda de cor no sol caribenho.
         </p>
       </Note>
-      
+
       <Paragraph>
         Era uma tarde de sábado tipicamente quente em Aruba quando Rafael González Zambrano pensou ter completado uma operação de rotina, que ele já fazia havia sete anos.
       </Paragraph>
@@ -143,7 +143,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Enquanto isso, registros comerciais dos Estados Unidos e da Suíça mostram que Curaçau exportou centenas de quilos de ouro para ambos os países nos primeiros cinco meses de 2019.
+        Enquanto isso, registros comerciais dos Estados Unidos e da Suíça mostram que Curaçao exportou centenas de quilos de ouro para ambos os países nos primeiros cinco meses de 2019.
       </Paragraph>
 
       <FullBlock withMargin>
@@ -347,7 +347,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Bancos de dados não “mencionam o país de origem, apenas refletem o último porto do qual saiu a mercadoria”, disse Casiano. Assim, enquanto ele sabe que quase todo o ouro que entra na ilha é originário da Venezuela, no momento em que o metal chega à Europa ou Estados Unidos, sua verdadeira origem é obscurecida. 
+        Bancos de dados não “mencionam o país de origem, apenas refletem o último porto do qual saiu a mercadoria”, disse Casiano. Assim, enquanto ele sabe que quase todo o ouro que entra na ilha é originário da Venezuela, no momento em que o metal chega à Europa ou Estados Unidos, sua verdadeira origem é obscurecida.
       </Paragraph>
 
       <Paragraph>
@@ -355,7 +355,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        “Quando vimos que o negócio estava nas mãos de pranas [gangues] e paramilitares, paramos de negociar”, disse ele. “Antes, os mineiros nos procuravam para vender [seu ouro], mas essas pessoas foram forçadas a vender para grupos [criminosos] e é por isso que paramos.”
+        “Quando vimos que o negócio estava nas mãos de <i>pranes</i> [gangues] e paramilitares, paramos de negociar”, disse ele. “Antes, os mineiros nos procuravam para vender [seu ouro], mas essas pessoas foram forçadas a vender para grupos [criminosos] e é por isso que paramos.”
       </Paragraph>
 
       <SubTitle>
@@ -371,7 +371,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Os dados que existem são frequentemente incompletos ou errôneos. Em um 
+        Os dados que existem são frequentemente incompletos ou errôneos. Em um
         <FileLink
         href={require("documents/chapter4/Aruba_government-Customs_document.pdf")}
         format="pdf"
@@ -395,11 +395,11 @@ export default () => (
             credits: "Bram Ebus",
             src: require("photos/chapter4/Caribbean04.jpg")
           }
-        }}>Há mais de 70 joalherias</StoryMedia> em Curaçao que não apenas compram joias para fundir e exportar, mas também pagam por barras de ouro. Não há realmente como saber se o ouro vem da Venezuela. A única exigência para eles comprarem ouro é que o vendedor mostre um documento de identidade de Curaçao, pois as regulamentações da ilha não exigem certificados de origem. 
+        }}>Há mais de 70 joalherias</StoryMedia> em Curaçao que não apenas compram joias para fundir e exportar, mas também pagam por barras de ouro. Não há realmente como saber se o ouro vem da Venezuela. A única exigência para eles comprarem ouro é que o vendedor mostre um documento de identidade de Curaçao, pois as regulamentações da ilha não exigem certificados de origem.
       </Paragraph>
 
       <Paragraph>
-        Um comerciante que foi consultado depois que as importações de ouro da Venezuela foram banidas supõe que os contrabandistas vão conseguir se ajustar, e que as rotas para remessas maiores simplesmente vão mudar. 
+        Um comerciante que foi consultado depois que as importações de ouro da Venezuela foram banidas supõe que os contrabandistas vão conseguir se ajustar, e que as rotas para remessas maiores simplesmente vão mudar.
       </Paragraph>
 
       <Paragraph>
