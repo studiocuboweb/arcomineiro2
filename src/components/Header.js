@@ -92,6 +92,31 @@ const Wrapper = styled.header`
 `
 
 class Header extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isLandscape: true
+    };
+  }
+  componentDidMount() {
+    var mql = window.matchMedia("(orientation: portrait)");
+    // If there are matches, we're in portrait
+    if(mql.matches) {  
+      // Portrait orientation
+      this.setState({isLandscape:false})
+    }
+    
+    // Add a media query change listener
+    var scope = this
+    mql.addListener(function(m) {
+        if(m.matches) {
+          scope.setState({isLandscape:false})
+        }
+        else {
+          scope.setState({isLandscape:true})
+        }
+    });
+  }
   render () {
     return (
       <Wrapper>
@@ -104,10 +129,10 @@ class Header extends Component {
             <NavLink to="/share" title="Share" style={{'marginRight':'20px'}}>
               <span className="fa fa-share-alt"></span>
             </NavLink>
-            { (isMobile) &&
+            { (isMobile && !this.state.isLandscape) &&
               <ArticleNav />
             }
-            {(isBrowser) && 
+            {(isBrowser || (isMobile && this.state.isLandscape)) && 
               <LanguageSelect />
             }
           </nav>

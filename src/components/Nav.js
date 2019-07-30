@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { media } from 'styles/utils';
 import { Collapse } from 'react-collapse';
-import {BrowserView,MobileView,isBrowser,isMobile} from "react-device-detect";
+import {BrowserView,MobileView,isBrowser,isMobile,isTablet} from "react-device-detect";
 import LanguageSelect from "components/LanguageSelect";
 
 const Wrapper = styled.nav`
@@ -198,7 +198,6 @@ const ProgressBar = connect(mapStateToProps)(({ ...props }) => {
     return null;
   }
 })
-
 class ArticleNav extends Component {
 
   constructor(props) {
@@ -207,7 +206,8 @@ class ArticleNav extends Component {
     this.closeNavbar = this.closeNavbar.bind(this);
     this.checkResize = this.checkResize.bind(this);
     this.state = {
-      collapsed: false
+      collapsed: false,
+      isLandscape: true
     };
   }
 
@@ -221,7 +221,32 @@ class ArticleNav extends Component {
     //console.log(isBrowser)
     //console.log('isMobile')
     //console.log(isMobile)
-    if (isBrowser) {
+    var mql = window.matchMedia("(orientation: portrait)");
+    // If there are matches, we're in portrait
+    var isLandscape = true;
+    if(mql.matches) {  
+      // Portrait orientation
+      isLandscape = false;
+      this.setState({isLandscape:false})
+      console.log('portrait')
+    }
+    
+    // Add a media query change listener
+    var scope = this
+    mql.addListener(function(m) {
+        if(m.matches) {
+          scope.setState({isLandscape:false})
+          console.log('portraits')
+        }
+        else {
+          scope.setState({isLandscape:true})
+          console.log('landscapes')
+        }
+    });
+    console.log('this.state.isLandscape')
+    console.log(this.state.isLandscape)
+    if (isBrowser || (isMobile && isLandscape) ) {
+      console.log('isBrowser')
       this.setState({
         collapsed: true
       });
@@ -309,7 +334,7 @@ class ArticleNav extends Component {
                 <ProgressBar path="/story/around-the-world" />
               </NavLink>
             </li>
-            {(isMobile) && 
+            {(isMobile && !this.state.isLandscape) && 
             <li style={{'marginLeft':'2rem'}}>
               <LanguageSelect />
             </li>

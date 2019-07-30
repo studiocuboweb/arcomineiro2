@@ -48,19 +48,48 @@ const Wrapper = styled.div`
   }
 `;
 // /
-export default class Page extends React.Component {
-
-  render() {
-    return(
+class Page extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isLandscape: true
+    };
+  }
+  componentDidMount() {
+    var mql = window.matchMedia("(orientation: portrait)");
+    // If there are matches, we're in portrait
+    if(mql.matches) {  
+      // Portrait orientation
+      this.setState({isLandscape:false})
+    }
+    
+    // Add a media query change listener
+    var scope = this
+    mql.addListener(function(m) {
+        if(m.matches) {
+          scope.setState({isLandscape:false})
+        }
+        else {
+          scope.setState({isLandscape:true})
+        }
+    });
+  }
+  render () {
+    return (
       <Wrapper>
         <Header />
-        { (isBrowser) &&
+        { (isBrowser || (isMobile && this.state.isLandscape)) &&
+           <div>
             <ArticleNav />
+            </div>
           }
         <Content>
           {this.props.children}
         </Content>
         <IntroTransaction />
       </Wrapper>
-  )}
+    )
+  }
 }
+
+export default Page;
