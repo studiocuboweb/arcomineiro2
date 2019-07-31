@@ -236,17 +236,12 @@ class ArticleNav extends Component {
     mql.addListener(function(m) {
         if(m.matches) {
           scope.setState({isLandscape:false})
-          console.log('portraits')
         }
         else {
           scope.setState({isLandscape:true})
-          console.log('landscapes')
         }
     });
-    console.log('this.state.isLandscape')
-    console.log(this.state.isLandscape)
     if (isBrowser || (isMobile && isLandscape) ) {
-      console.log('isBrowser')
       this.setState({
         collapsed: true
       });
@@ -258,10 +253,12 @@ class ArticleNav extends Component {
    * Remove event listener
    */
   componentWillUnmount() {
+    console.log('componentWillUnmount')
     window.removeEventListener("resize", this.checkResize.bind(this));
   }
 
   checkResize() {
+    console.log('checkResize')
     if ((((typeof window.orientation == "undefined") || (typeof window.orientation == "number")) && (navigator.userAgent.indexOf('IEMobile') == -1))) {
       this.setState({
         collapsed: true
@@ -276,7 +273,7 @@ class ArticleNav extends Component {
   }
 
   closeNavbar() {
-    if (((typeof window.orientation == "undefined") && (navigator.userAgent.indexOf('IEMobile') == -1))) {
+    if (isBrowser || (isMobile && this.state.isLandscape)) {
       this.setState({
         collapsed: true
       });
